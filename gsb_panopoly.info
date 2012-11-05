@@ -1,0 +1,9 @@
+name = GSB Panopoly
+description = Installation profile for the panopoly-based website of the GSB.
+version = VERSION
+core = 7.x
+
+; Core Dependencies
+
+
+; Contrib Dependencies
