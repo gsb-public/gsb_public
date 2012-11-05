@@ -5,7 +5,7 @@
  *
  * Allows the profile to alter the site configuration form.
  */
-function gsb_panopoly_profile_form_install_configure_form_alter(&$form, $form_state) {
+function gsb_panopoly_form_install_configure_form_alter(&$form, $form_state) {
   $form['site_information']['site_name']['#default_value'] = 'GSB Panopoly Profile';
   $form['site_information']['site_mail']['#default_value'] = 'admin@example.com';
   $form['admin_account']['account']['name']['#default_value'] = 'admin';
@@ -16,7 +16,7 @@ function gsb_panopoly_profile_form_install_configure_form_alter(&$form, $form_st
 /**
  * Implements hook_install_tasks()
  */
-function gsb_panopoly_profile_install_tasks(&$install_state) {
+function gsb_panopoly_install_tasks(&$install_state) {
 
   $tasks = array();
 
@@ -32,7 +32,7 @@ function gsb_panopoly_profile_install_tasks(&$install_state) {
 /**
  * Implements hook_install_tasks_alter()
  */
-function gsb_panopoly_profile_install_tasks_alter(&$tasks, $install_state) {
+function gsb_panopoly_install_tasks_alter(&$tasks, $install_state) {
 
   // Magically go one level deeper in solving years of dependency problems
   require_once(drupal_get_path('module', 'panopoly_core') . '/panopoly_core.profile.inc');
