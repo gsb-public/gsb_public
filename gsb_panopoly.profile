@@ -12,3 +12,15 @@ function gsb_panopoly_profile_form_install_configure_form_alter(&$form, $form_st
   $form['admin_account']['account']['mail']['#default_value'] = 'admin@example.com';
   $form['server_settings']['site_default_country']['#default_value'] = 'US';
 }
+
+/**
+ * Implements hook_install_tasks()
+ */
+function gsb_panopoly_profile_install_tasks(&$install_state) {
+
+  // Add the Panopoly app selection to the installation process
+  require_once(drupal_get_path('module', 'apps') . '/apps.profile.inc');
+  $tasks = $tasks + apps_profile_install_tasks( $install_state
+                                              , array( 'machine name' => 'panopoly'
+                                                     , 'default apps' => array('panopoly_demo')));
+}
