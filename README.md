@@ -11,3 +11,7 @@ git clone https://github.com/gsbitse/gsb-panopoly-profile.git
 
 drush make gsb-panopoly-distro.make docroot
 
+3. Run the drush system install using:
+
+drush si 
+
