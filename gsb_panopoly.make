@@ -1,36 +1,19 @@
+; Use this file to build a full distribution including Drupal core and the
+; Panopoly profile using the following command:
+;
+; 
+
 api = 2
 core = 7.x
 
-; The Panopoly Foundation
+projects[drupal][type] = core
+projects[drupal][version] = "7.16"
 
-projects[panopoly_core][version] = 1.0-beta6
-projects[panopoly_core][subdir] = panopoly
+; Add Panopoly Profile
+projects[panopoly][type] = profile
+projects[panopoly][version] = 1.x-dev
+projects[panopoly][download][type] = git
+projects[panopoly][download][url] = http://git.drupal.org/project/panopoly.git
+projects[panopoly][download][tag] = 7.x-1.0-rc2
 
-projects[panopoly_images][version] = 1.0-beta6
-projects[panopoly_images][subdir] = panopoly
-
-projects[panopoly_theme][version] = 1.0-beta6
-projects[panopoly_theme][subdir] = panopoly
-
-projects[panopoly_magic][version] = 1.0-beta6
-projects[panopoly_magic][subdir] = panopoly
-
-projects[panopoly_widgets][version] = 1.0-beta6
-projects[panopoly_widgets][subdir] = panopoly
-
-projects[panopoly_admin][version] = 1.0-beta6
-projects[panopoly_admin][subdir] = panopoly
-
-projects[panopoly_users][version] = 1.0-beta6
-projects[panopoly_users][subdir] = panopoly
-
-; The Panopoly Toolset
-
-projects[panopoly_pages][version] = 1.0-beta6
-projects[panopoly_pages][subdir] = panopoly
-
-projects[panopoly_wysiwyg][version] = 1.0-beta6
-projects[panopoly_wysiwyg][subdir] = panopoly
-
-projects[panopoly_search][version] = 1.0-beta6
-projects[panopoly_search][subdir] = panopoly
+projects[panopoly][patch][remove-panopoly-demo] = https://raw.github.com/gist/4033560/33214b8c717bab968e52fa78914677ba69cab7a6/remove-panopoly-demo.patch
