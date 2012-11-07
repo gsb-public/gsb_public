@@ -1,7 +1,7 @@
 ; Use this file to build a full distribution including Drupal core and the
 ; Panopoly profile using the following command:
 ;
-; 
+; drush make gsb_panopoly.make <target directory>
 
 api = 2
 core = 7.x
