@@ -13,7 +13,7 @@ Steps:
 
 3. Run the drush system install using:
 
-> cddocroot
-> lkjlj 
+> test
+> that
 
 
