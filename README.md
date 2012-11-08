@@ -23,7 +23,9 @@ Notes specific to using the Acquia Developer Desktop:
 
 Using the Acquia Developer Desktop may require the following change to the vhosts.conf file:
 
-<pre>
+<pre><code>
+
+<![CDATA[
 
 <VirtualHost *>
   ServerName localhost
@@ -36,7 +38,9 @@ Using the Acquia Developer Desktop may require the following change to the vhost
   </Directory>
 </VirtualHost>
 
-</pre>
+]]>
+
+</code></pre>
 
 Also, you'll need to update the settings.php file to use 127.0.0.1 something like the following for 
 the database connection:
