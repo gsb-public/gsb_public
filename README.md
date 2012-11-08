@@ -13,7 +13,8 @@ Steps:
 
 3) Run the drush system install using:
 
-> then
-> that
+hi
+there
+what
 
 
