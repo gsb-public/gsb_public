@@ -25,7 +25,7 @@ Using the Acquia Developer Desktop may require the following change to the vhost
 
 <pre><code>
 
-<![CDATA[
+<!---
 
 <VirtualHost *>
   ServerName localhost
@@ -38,7 +38,7 @@ Using the Acquia Developer Desktop may require the following change to the vhost
   </Directory>
 </VirtualHost>
 
-]]>
+-->
 
 </code></pre>
 
