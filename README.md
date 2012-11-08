@@ -11,10 +11,13 @@ Steps:
 
 > drush make gsb-panopoly-profile/gsb_panopoly.make docroot
 
-3) Run the drush system install using:
+3) Switch to the docroot directory
 
-hi
-there
-what
+> cd docroot
+
+4) Run the drush site install command:
+
+> drush si panopoly --db-url="mysql://root:@localhost:33066/pantest2"
+
 
 
