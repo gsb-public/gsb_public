@@ -14,6 +14,6 @@ Steps:
 3. Run the drush system install using:
 
 > cddocroot
-> drush si panopoly --db-url="mysql://root:rootpass@localhost:33066/dbname"
+> drush si panopoly 
 
 
