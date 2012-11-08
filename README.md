@@ -23,20 +23,18 @@ Notes specific to using the Acquia Developer Desktop:
 
 Using the Acquia Developer Desktop may require the following change to the vhosts.conf file:
 
-<pre><code>
-
-<VirtualHost *>
+<pre>
+&lt;VirtualHost *&gt;
   ServerName localhost
   DocumentRoot "/Users/macgmercer/Sites/pantest2/docroot"
-  <Directory "/Users/macgmercer/Sites/pantest2/docroot">
+  &lt;Directory "/Users/macgmercer/Sites/pantest2/docroot"&gt;
     Options Indexes FollowSymLinks
     AllowOverride All
     Order allow,deny
     Allow from all
-  </Directory>
-</VirtualHost>
-
-</code></pre>
+  &lt;/Directory&gt;
+&lt;/VirtualHost&gt;
+</pre>
 
 Also, you'll need to update the settings.php file to use 127.0.0.1 something like the following for 
 the database connection:
