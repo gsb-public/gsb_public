@@ -25,8 +25,6 @@ Using the Acquia Developer Desktop may require the following change to the vhost
 
 <pre><code>
 
-<!---
-
 <VirtualHost *>
   ServerName localhost
   DocumentRoot "/Users/macgmercer/Sites/pantest2/docroot"
@@ -37,8 +35,6 @@ Using the Acquia Developer Desktop may require the following change to the vhost
     Allow from all
   </Directory>
 </VirtualHost>
-
--->
 
 </code></pre>
 
