@@ -13,7 +13,10 @@ Steps:
 
 3. Run the drush system install using:
 
-> test
+> then
+
+4. asdfasdfasdf
+
 > that
 
 
