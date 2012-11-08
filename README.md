@@ -16,4 +16,3 @@ drush make gsb-panopoly-profile/gsb_panopoly.make docroot
 cd docroot
 drush si panopoly --db-url="mysql://root:rootpass@localhost:33066/dbname"
 
-
