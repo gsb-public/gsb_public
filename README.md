@@ -17,7 +17,7 @@ Steps:
 
 4) Run the drush site install command:
 
-> drush si panopoly --db-url="mysql://root:@localhost:33066/pantest2"
+> drush si panopoly --db-url="mysql://root:@localhost:33066/dbname"
 
 
 
