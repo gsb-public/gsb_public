@@ -40,7 +40,6 @@ Also, you'll need to update the settings.php file to use 127.0.0.1 something lik
 the database connection:
 
 <pre>
-
 $databases = array (
   'default' => 
   array (
@@ -56,7 +55,6 @@ $databases = array (
     ),
   ),
 );
-
 </pre>
 
 
