@@ -23,6 +23,12 @@ Notes specific to using the Acquia Developer Desktop:
 
 Using the [Acquia Dev Desktop](https://www.acquia.com/products-services/dev-desktop "Acquia Dev Desktop")  may require the following change to the vhosts.conf file:
 
+<pre><code>
+<html>
+blah
+</html>
+</code></pre>
+
 <pre>
 &lt;VirtualHost *&gt;
   ServerName localhost
