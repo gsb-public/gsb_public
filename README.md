@@ -21,7 +21,7 @@ Steps for installing:
 
 Notes specific to using the Acquia Developer Desktop: 
 
-Using the Acquia Developer Desktop may require the following change to the vhosts.conf file:
+Using the [Acquia Dev Desktop](https://www.acquia.com/products-services/dev-desktop "Acquia Dev Desktop")  may require the following change to the vhosts.conf file:
 
 <pre>
 &lt;VirtualHost *&gt;
