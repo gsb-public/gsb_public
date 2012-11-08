@@ -13,5 +13,5 @@ drush make gsb-panopoly-profile/gsb_panopoly.make docroot
 
 3. Run the drush system install using:
 
-drush si panopoly --db-url=\"mysql:\/\/root:rootpass@localhost:33066\/dbname\"
+drush si panopoly --db-url="mysql://root:rootpass@localhost:33066/dbname"
 
