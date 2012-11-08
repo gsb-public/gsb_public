@@ -14,6 +14,6 @@ Steps:
 3. Run the drush system install using:
 
 > cddocroot
-> drush si panopoly 
+> lkjlj 
 
 
