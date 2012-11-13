@@ -6,4 +6,79 @@
  * Perform actions to set up the site for this profile.
  */
 function gsb_panopoly_install() {
+ 
+  _gsb_panopoly_setup_roles();
+
+}
+
+function _gsb_panopoly_setup_roles() {
+
+  // Create a default role for site administrators, with all available permissions assigned.
+
+  $admin_role = new stdClass();
+  $admin_role->name = 'administrator';
+  $admin_role->weight = 4;
+  user_role_save($admin_role);
+
+  user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+
+  // Set this as the administrator role.
+  
+  variable_set('user_admin_role', $admin_role->rid);
+
+  // Create a content editor role
+
+  $content_editor = new stdClass();
+  $content_editor->name = 'content editor';
+  $content_editor->weight = 2;
+  user_role_save($content_editor);
+
+  $content_editor_permissions = array(
+    $filter_perms['filtered_html'],
+    'administer nodes',
+    'access content overview',
+    'view revisions',
+    'view own unpublished content',
+    'create url aliases',
+    'view the administration theme',
+    'administer main-menu menu items',
+    'administer menu-center-footer menu items',
+    'administer menu-right-footer menu items',
+  );
+
+  user_role_grant_permissions($content_editor->rid, $content_editor_permissions);
+
+  // Create a site manager role
+
+  $site_manager = new stdClass();
+  $site_manager->name = 'site manager';
+  $site_manager->weight = 3;
+  user_role_save($site_manager);
+
+  $site_manager_permissions = array(
+    $filter_perms['filtered_html'],
+    'administer blocks',
+    'access contextual links',
+    'view own unpublished content',
+    'administer nodes',
+    'access content overview',
+    'view revisions',
+    'revert revisions',
+    'delete revisions',
+    'create url aliases',
+    'assign content editor role',
+    'assign site manager role',
+    'administer site configuration',
+    'administer themes',
+    'access administration pages',
+    'view the administration theme',
+    'access site reports',
+    'administer users',
+    'administer main-menu menu items',
+    'administer menu-center-footer menu items',
+    'administer menu-right-footer menu items',
+  );
+
+  user_role_grant_permissions($site_manager->rid, $site_manager_permissions);
+
 }
