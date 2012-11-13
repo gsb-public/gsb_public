@@ -18,6 +18,8 @@ function gsb_panopoly_install() {
  */
 function gsb_panopoly_update_1000() {
  
+ ini_set('memory_limit', '256M'); 
+
   _gsb_panopoly_setup_roles();
 
   return 'Add the roles for the gsb_panopoly profile';
