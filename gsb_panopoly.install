@@ -16,7 +16,7 @@ function gsb_panopoly_install() {
  *
  * Perform actions to update up the site for this profile.
  */
-function gsb_panopoly_update_1000() {
+function gsb_panopoly_update_7000() {
  
  ini_set('memory_limit', '256M'); 
 
