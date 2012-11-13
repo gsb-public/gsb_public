@@ -49,16 +49,17 @@ function _gsb_panopoly_setup_roles() {
   user_role_save($content_editor);
 
   $content_editor_permissions = array(
-    $filter_perms['filtered_html'],
-    'administer nodes',
-    'access content overview',
-    'view revisions',
-    'view own unpublished content',
-    'create url aliases',
-    'view the administration theme',
-    'administer main-menu menu items',
-    'administer menu-center-footer menu items',
-    'administer menu-right-footer menu items',
+    'administer content'
+    //$filter_perms['filtered_html'],
+    //'administer nodes',
+    //'access content overview',
+    //'view revisions',
+    //'view own unpublished content',
+    //'create url aliases',
+    //'view the administration theme',
+    //'administer main-menu menu items',
+    //'administer menu-center-footer menu items',
+    //'administer menu-right-footer menu items',
   );
 
   user_role_grant_permissions($content_editor->rid, $content_editor_permissions);
@@ -71,27 +72,28 @@ function _gsb_panopoly_setup_roles() {
   user_role_save($site_manager);
 
   $site_manager_permissions = array(
-    $filter_perms['filtered_html'],
-    'administer blocks',
-    'access contextual links',
-    'view own unpublished content',
-    'administer nodes',
-    'access content overview',
-    'view revisions',
-    'revert revisions',
-    'delete revisions',
-    'create url aliases',
-    'assign content editor role',
-    'assign site manager role',
-    'administer site configuration',
-    'administer themes',
-    'access administration pages',
-    'view the administration theme',
-    'access site reports',
-    'administer users',
-    'administer main-menu menu items',
-    'administer menu-center-footer menu items',
-    'administer menu-right-footer menu items',
+    'administer content'
+    //$filter_perms['filtered_html'],
+    //'administer blocks',
+    //'access contextual links',
+    //'view own unpublished content',
+    //'administer nodes',
+    //'access content overview',
+    //'view revisions',
+    //'revert revisions',
+    //'delete revisions',
+    //'create url aliases',
+    //'assign content editor role',
+    //'assign site manager role',
+    //'administer site configuration',
+    //'administer themes',
+    //'access administration pages',
+    //'view the administration theme',
+    //'access site reports',
+    //'administer users',
+    //'administer main-menu menu items',
+    //'administer menu-center-footer menu items',
+    //'administer menu-right-footer menu items',
   );
 
   user_role_grant_permissions($site_manager->rid, $site_manager_permissions);
