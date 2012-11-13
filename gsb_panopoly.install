@@ -49,7 +49,7 @@ function _gsb_panopoly_setup_roles() {
   user_role_save($content_editor);
 
   $content_editor_permissions = array(
-    'administer content'
+    'access content'
     //$filter_perms['filtered_html'],
     //'administer nodes',
     //'access content overview',
@@ -72,7 +72,7 @@ function _gsb_panopoly_setup_roles() {
   user_role_save($site_manager);
 
   $site_manager_permissions = array(
-    'administer content'
+    'access content'
     //$filter_perms['filtered_html'],
     //'administer blocks',
     //'access contextual links',
