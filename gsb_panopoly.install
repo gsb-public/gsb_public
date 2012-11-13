@@ -16,9 +16,9 @@ function gsb_panopoly_install() {
  *
  * Perform actions to update up the site for this profile.
  */
-function gsb_panopoly_update_7000() {
+function gsb_panopoly_update_7001() {
  
- ini_set('memory_limit', '256M'); 
+  //ini_set('memory_limit', '256M'); 
 
   _gsb_panopoly_setup_roles();
 
@@ -30,16 +30,16 @@ function _gsb_panopoly_setup_roles() {
 
   // Create a default role for site administrators, with all available permissions assigned.
 
-  $admin_role = new stdClass();
-  $admin_role->name = 'administrator';
-  $admin_role->weight = 4;
-  user_role_save($admin_role);
+  //$admin_role = new stdClass();
+  //$admin_role->name = 'administrator';
+  //$admin_role->weight = 4;
+  //user_role_save($admin_role);
 
-  user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
+  //user_role_grant_permissions($admin_role->rid, array_keys(module_invoke_all('permission')));
 
   // Set this as the administrator role.
   
-  variable_set('user_admin_role', $admin_role->rid);
+  //variable_set('user_admin_role', $admin_role->rid);
 
   // Create a content editor role
 
