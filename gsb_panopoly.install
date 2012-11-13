@@ -11,6 +11,19 @@ function gsb_panopoly_install() {
 
 }
 
+/**
+ * Implements hook_update().
+ *
+ * Perform actions to update up the site for this profile.
+ */
+function gsb_panopoly_update_1000() {
+ 
+  _gsb_panopoly_setup_roles();
+
+  return 'Add the roles for the gsb_panopoly profile';
+
+}
+
 function _gsb_panopoly_setup_roles() {
 
   // Create a default role for site administrators, with all available permissions assigned.
