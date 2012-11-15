@@ -42,7 +42,8 @@ function _gsb_panopoly_setup_roles() {
   user_role_save($content_editor);
 
   $content_editor_permissions = array(
-    'access content'
+    'access content',
+    'administer nodes' 
     //$filter_perms['filtered_html'],
     //'administer nodes',
     //'access content overview',
