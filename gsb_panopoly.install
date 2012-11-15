@@ -13,21 +13,6 @@ function gsb_panopoly_install() {
 
 }
 
-/**
- * Implements hook_update().
- *
- * Perform actions to update up the site.
- */
-function gsb_panopoly_update_7002() {
-
-  _gsb_panopoly_setup_siteinfo();
-
-  _gsb_panopoly_setup_roles();
-
-  return 'Update the gsb_panopoly site';
-
-}
-
 function _gsb_panopoly_setup_siteinfo() {
 
   variable_set('site_name', 'Revamp');
