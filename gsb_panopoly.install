@@ -34,6 +34,16 @@ function _gsb_panopoly_setup_roles() {
   
   //variable_set('user_admin_role', $admin_role->rid);
 
+// Create a default role for site administrators, with all available permissions assigned.
+
+$fred_role = new stdClass();
+$fred_role->name = 'fred';
+$fred_role->weight = 4;
+user_role_save($fred_role);
+
+user_role_grant_permissions($fred_role->rid, array_keys(module_invoke_all('permission')));
+
+
   // Create a content editor role
 
   $content_editor = new stdClass();
