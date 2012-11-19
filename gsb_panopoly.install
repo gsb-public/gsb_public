@@ -110,7 +110,7 @@ function _gsb_panopoly_setup_roles() {
   
   //variable_set('user_admin_role', $admin_role->rid);
 
-  // Create a content editor role
+  // Create a site manager role
 
   $site_manager = new stdClass();
   $site_manager->name = 'site manager';
@@ -149,7 +149,7 @@ function _gsb_panopoly_setup_roles() {
 
   user_role_grant_permissions($site_manager->rid, $site_manager_permissions);
 
-  // Create a site manager role
+  // Create an author role
 
   $author = new stdClass();
   $author->name = 'author';
