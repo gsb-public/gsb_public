@@ -110,36 +110,41 @@ function _gsb_panopoly_setup_roles() {
   
   //variable_set('user_admin_role', $admin_role->rid);
 
-// Create a default role for site administrators, with all available permissions assigned.
-
-$fred_role = new stdClass();
-$fred_role->name = 'fred';
-$fred_role->weight = 4;
-user_role_save($fred_role);
-
-user_role_grant_permissions($fred_role->rid, array_keys(module_invoke_all('permission')));
-
-
   // Create a content editor role
 
   $content_editor = new stdClass();
-  $content_editor->name = 'content editor';
+  $content_editor->name = 'site manager';
   $content_editor->weight = 2;
   user_role_save($content_editor);
 
   $content_editor_permissions = array(
+    'create fieldable quick_links',
+    'edit fieldable quick_links',
+    'create fieldable basic_file',
+    'edit fieldable basic_file',
+    'create fieldable image',
+    'edit fieldable image',
+    'create fieldable text',
+    'edit fieldable text',
+    'create fieldable map',
+    'edit fieldable map',
+    'create fieldable table',
+    'edit fieldable table',
+    'create fieldable video',
+    'edit fieldable video',
+    'create fieldable spotlight',
+    'edit fieldable spotlight',
+    'administer files',
+    'create files',
+    'use text format panopoly_wysiwyg_text',
+    'use text format panopoly_html_text',
+    'administer nodes',
     'access content',
-    'administer nodes' 
-    //$filter_perms['filtered_html'],
-    //'administer nodes',
-    //'access content overview',
-    //'view revisions',
-    //'view own unpublished content',
-    //'create url aliases',
-    //'view the administration theme',
-    //'administer main-menu menu items',
-    //'administer menu-center-footer menu items',
-    //'administer menu-right-footer menu items',
+    'view own unpublished content',
+    'view revisions',
+    'revert revisions',
+    'use panels in place editing',
+    'change layouts in place editing'
   );
 
   user_role_grant_permissions($content_editor->rid, $content_editor_permissions);
