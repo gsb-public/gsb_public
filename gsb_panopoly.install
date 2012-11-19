@@ -112,14 +112,11 @@ function _gsb_panopoly_setup_roles() {
   
   //variable_set('user_admin_role', $admin_role->rid);
 
-  // Create a site manager role
+  // Update the editor role
 
-  $site_manager = new stdClass();
-  $site_manager->name = 'site manager';
-  $site_manager->weight = 2;
-  user_role_save($site_manager);
+  $editor = user_role_load_by_name('editor');
 
-  $site_manager_permissions = array(
+  $editor_permissions = array(
     'create fieldable quick_links',
     'edit fieldable quick_links',
     'create fieldable basic_file',
@@ -149,7 +146,7 @@ function _gsb_panopoly_setup_roles() {
     'change layouts in place editing'
   );
 
-  user_role_grant_permissions($site_manager->rid, $site_manager_permissions);
+  user_role_grant_permissions($editor->rid, $editor_permissions);
 
   // Create an author role
 
