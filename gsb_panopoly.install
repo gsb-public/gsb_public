@@ -112,12 +112,12 @@ function _gsb_panopoly_setup_roles() {
 
   // Create a content editor role
 
-  $content_editor = new stdClass();
-  $content_editor->name = 'site manager';
-  $content_editor->weight = 2;
-  user_role_save($content_editor);
+  $site_manager = new stdClass();
+  $site_manager->name = 'site manager';
+  $site_manager->weight = 2;
+  user_role_save($site_manager);
 
-  $content_editor_permissions = array(
+  $site_manager_permissions = array(
     'create fieldable quick_links',
     'edit fieldable quick_links',
     'create fieldable basic_file',
@@ -147,40 +147,41 @@ function _gsb_panopoly_setup_roles() {
     'change layouts in place editing'
   );
 
-  user_role_grant_permissions($content_editor->rid, $content_editor_permissions);
+  user_role_grant_permissions($site_manager->rid, $site_manager_permissions);
 
   // Create a site manager role
 
-  $site_manager = new stdClass();
-  $site_manager->name = 'site manager';
-  $site_manager->weight = 3;
-  user_role_save($site_manager);
+  $author = new stdClass();
+  $author->name = 'author';
+  $author->weight = 3;
+  user_role_save($author);
 
-  $site_manager_permissions = array(
-    'access content'
-    //$filter_perms['filtered_html'],
-    //'administer blocks',
-    //'access contextual links',
-    //'view own unpublished content',
-    //'administer nodes',
-    //'access content overview',
-    //'view revisions',
-    //'revert revisions',
-    //'delete revisions',
-    //'create url aliases',
-    //'assign content editor role',
-    //'assign site manager role',
-    //'administer site configuration',
-    //'administer themes',
-    //'access administration pages',
-    //'view the administration theme',
-    //'access site reports',
-    //'administer users',
-    //'administer main-menu menu items',
-    //'administer menu-center-footer menu items',
-    //'administer menu-right-footer menu items',
+  $author_permissions = array(
+    'create fieldable quick_links',
+    'edit fieldable quick_links',
+    'create fieldable basic_file',
+    'edit fieldable basic_file',
+    'create fieldable image',
+    'edit fieldable image',
+    'create fieldable text',
+    'edit fieldable text',
+    'create fieldable map',
+    'edit fieldable map',
+    'create fieldable table',
+    'edit fieldable table',
+    'create fieldable video',
+    'edit fieldable video',
+    'create fieldable spotlight',
+    'edit fieldable spotlight',
+    'create files',
+    'use text format panopoly_wysiwyg_text',
+    'use text format panopoly_html_text',
+    'access content',
+    'view own unpublished content',
+    'use panels in place editing',
+    'change layouts in place editing'
   );
 
-  user_role_grant_permissions($site_manager->rid, $site_manager_permissions);
+  user_role_grant_permissions($author->rid, $author_permissions);
 
 }
