@@ -45,5 +45,7 @@ dependencies[] = date_popup_authored
 dependencies[] = devel
 dependencies[] = uuid
 
-
-
+; GSB Modules
+dependencies[] = workbench
+dependencies[] = workbench_access
+dependencies[] = workbench_moderation

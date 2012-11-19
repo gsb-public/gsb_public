@@ -77,16 +77,19 @@ projects[uuid][download][revision] = 4730c67
 projects[uuid][download][branch] = 7.x-1.x
 projects[uuid][patch][1605284] = http://drupal.org/files/1605284-define-types-for-tokens-6.patch
 
+; Not related to panopoly, but GSB added contrib modules.
+projects[workbench][version] = 1.1
+projects[workbench][subdir] = contrib
+
+projects[workbench_access][version] = 1.0
+projects[workbench_access][subdir] = contrib
+
+projects[workbench_moderation][version] = 1.2
+projects[workbench_moderation][subdir] = contrib
+
 
 ; Add the Stanford Open Framework (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
 projects[open_framework][download][url] = https://github.com/SU-SWS/open_framework.git
 projects[open_framework][download][tag] = 7.x-2.0
-
-
-
-
-
-
-
