@@ -2,23 +2,12 @@
 
 function _gsb_panopoly_setup_time_date() {
 
-  // Set default country to US
-  variable_set('site_default_country', 'US');
-
-  // First day of the week will be sunday
-  variable_set('date_first_day', '0');
-
-  // Timezone
-  variable_set('date_default_timezone', 'America/Los_Angeles');
-
-  // Users set their own timezone
-  variable_set('configurable_timezones', 1);
-
-  // Don't show a message to users if the timezone is empty
-  variable_set('empty_timezone_message', 0);
-
-  // Users default timezone
-  variable_set('user_default_timezone', '0');
+  $variables = array(
+    'configurable_timezones' => 1, // Users set their own timezone
+    'date_default_timezone' => 'America/Los_Angeles', // Timezone
+    'date_first_day' => 0, // First day of the week will be sunday
+    'empty_timezone_message' => 0, // Don't show a message to users if the timezone is empty
+  );
 
   // Insert custom format: November 25, 2011 - 2:45pm
   db_insert('date_formats')
@@ -61,15 +50,16 @@ function _gsb_panopoly_setup_time_date() {
     ->execute();
 
   // Date Long Format
-  variable_set('date_format_long_time', 'F j, Y - g:ia');
-  variable_set('date_format_long', 'F j, Y');
+  $variables['date_format_long_time'] = 'F j, Y - g:ia';
+  $variables['date_format_long'] = 'F j, Y';
 
   // Date Medium Format
-  variable_set('date_format_medium_time', 'M. j, Y - g:ia');
-  variable_set('date_format_medium', 'M. j, Y');
+  $variables['date_format_medium_time'] = 'M. j, Y - g:ia';
+  $variables['date_format_medium'] = 'M. j, Y';
 
   // Date Short Format
-  variable_set('date_format_short_time', 'm/d/Y - g:ia');
-  variable_set('date_format_short', 'm/d/Y');
+  $variables['date_format_short_time'] = 'm/d/Y - g:ia';
+  $variables['date_format_short'] = 'm/d/Y';
 
+  _gsb_panopoly_variable_set_multiple($variables);
 }
