@@ -14,6 +14,7 @@ function gsb_panopoly_install() {
     'roles',
     'filter_formats',
     'workbench',
+    'cron',
   );
 
   foreach($actions as $action) {
