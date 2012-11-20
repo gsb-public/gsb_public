@@ -21,3 +21,9 @@ function gsb_panopoly_install() {
     $func();
   }
 }
+
+function _gsb_panopoly_variable_set_multiple($variables) {
+  foreach($variables as $variable => $value) {
+    variable_set($variable, $value);
+  }
+}
