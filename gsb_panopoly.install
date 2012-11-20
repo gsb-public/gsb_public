@@ -15,6 +15,7 @@ function gsb_panopoly_install() {
     'filter_formats',
     'workbench',
     'cron',
+    'cache',
   );
 
   foreach($actions as $action) {
