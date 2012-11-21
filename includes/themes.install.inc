@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_panopoly_setup_theme() {
+function _gsb_panopoly_setup_themes() {
 
   $themes['theme_default'] = "gsb_public_revamp_theme";
 
