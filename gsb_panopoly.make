@@ -88,9 +88,24 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.2
 projects[workbench_moderation][subdir] = contrib
 
+; GSB Projects
 
-; Add the Stanford Open Framework (framework based on Twitter Bootstrap)
+; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
 projects[open_framework][download][url] = https://github.com/SU-SWS/open_framework.git
 projects[open_framework][download][tag] = 7.x-2.0
+
+; GSB Framework Theme
+projects[gsb_framework][type] = theme
+projects[gsb_framework][download][type] = git
+projects[gsb_framework][download][url] = https://github.com/gsbitse/gsb_framework_theme.git
+projects[gsb_framework][download][branch] = master
+
+; GSB Public Revamp Theme
+projects[gsb_public_revamp][type] = theme
+projects[gsb_public_revamp][download][type] = git
+projects[gsb_public_revamp][download][url] = https://github.com/gsbitse/gsb_public_revamp_theme.git
+projects[gsb_public_revamp][download][branch] = master
+
+
