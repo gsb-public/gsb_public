@@ -1,6 +1,6 @@
 <?php
 
-_gsb_panopoly_setup_userinfo() {
+function _gsb_panopoly_setup_userinfo() {
   $variables = array(
     'user_cancel_method' => 'user_cancel_block',
     'user_default_timezone' => 0, // Use the Default timezone for the site.
