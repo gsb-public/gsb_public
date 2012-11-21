@@ -2,42 +2,40 @@
 
 function _gsb_panopoly_setup_filter_formats() {
 
-  // Add text formats.
-
-  // filtered html format
-
-  $filtered_html_format = array(
-    'format' => 'filtered_html',
-    'name' => 'Filtered HTML',
-    'weight' => 0,
-    'filters' => array(
-      // URL filter.
-      'filter_url' => array(
-        'weight' => 0,
-        'status' => 1,
-      ),
-      // HTML filter.
-      'filter_html' => array(
-        'weight' => 1,
-        'status' => 1,
-        'settings' => array(
-          'allowed_html' => '<hr> <u> <object> <area> <caption> <embed> <pre> <address> <abbr> <span> <script> <iframe> <br> <p> <h1> <h2> <h3> <h4> <h5> <h6> <a> <em> <strong> <cite> <blockquote> <ul> <ol> <li> <dl> <dt> <dd> <img> <table> <tbody> <thead> <th> <tr> <td> <div>',
-        ),
-      ),
-      // Line break filter.
-      'filter_autop' => array(
-        'weight' => 2,
-        'status' => 1,
-      ),
-      // HTML corrector filter.
-      'filter_htmlcorrector' => array(
-        'weight' => 10,
-        'status' => 1,
-      ),
-    ),
-  );
-  $filtered_html_format = (object) $filtered_html_format;
-  filter_format_save($filtered_html_format);
+  // update the panopoly 
+  
+  $format = filter_format_load('panopoly_wysiwyg_text');
+  
+  // Work-around for what *seems* to be a bug somewhere in Drupal filter
+  // format loading/saving.  There's probably a better way, but this seems to work.
+  
+  if (empty($format->filters)) {
+    
+    // Get the filters used by this format.
+    $filters = filter_list_format($format->format);
+    
+    // Build the $format->filters array...
+    $format->filters = array();
+    foreach($filters as $name => $filter) {
+      foreach($filter as $k => $v) {
+        $format->filters[$name][$k] = $v;
+      }
+    }
+    
+  }
+  
+  $format->filters["wysiwyg"]["settings"]["valid_elements"] = 
+    "a[!href|target<_blank|title|style],\n" . 
+	  "div[style|class|align<center?justify?left?right],\n" . 
+	  "br,em,i,strong,cite,code,blockquote,ul,ol,li,dl,dt,dd,\n" . 
+	  "span[style],p[style|class],\n" . 
+	  "h1,h2,h3,h4,h5,h6,\n" .  
+	  "object,iframe,\n" . 
+	  "img[!src|title|alt|style|width|height|class|hspace|vspace],\n" . 
+	  "@[style]";  
+  
+  // Save the panopoly wysiwyg format.
+  filter_format_save($format);
 
   // full html format
 
@@ -66,46 +64,9 @@ function _gsb_panopoly_setup_filter_formats() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // secure html
-
-  $secure_html_format = array(
-    'format' => 'secure_html',
-    'name' => 'Secure HTML',
-    'weight' => 0,
-    'filters' => array(
-      // URL filter.
-      'filter_url' => array(
-        'weight' => 0,
-        'status' => 1,
-      ),
-      // HTML filter.
-      'filter_html' => array(
-        'weight' => 1,
-        'status' => 1,
-        'settings' => array(
-          'allowed_html' => '<h2> <h3> <h4> <a> <em> <strong> <cite> <blockquote> <ul> <ol> <li> <dl> <dt> <dd> <img> <table> <tbody> <th> <tr> <td> <div>',
-        ),
-      ),
-      // Line break filter.
-      'filter_autop' => array(
-        'weight' => 2,
-        'status' => 1,
-      ),
-      // HTML corrector filter.
-      'filter_htmlcorrector' => array(
-        'weight' => 10,
-        'status' => 1,
-      ),
-    ),
-  );
-  $secure_html_format = (object) $secure_html_format;
-  filter_format_save($secure_html_format);
-
   // Enable default permissions for system roles.
 
   $filter_perms = array(
-    'filtered_html' => filter_permission_name($filtered_html_format),
-    'secure_html' => filter_permission_name($secure_html_format),
     'full_html' => filter_permission_name($full_html_format),
   );
 
