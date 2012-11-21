@@ -32,7 +32,7 @@ _gsb_panopoly_setup_userinfo() {
     'user_picture_path' => 'pictures',
     'user_picture_style' => '',
     'user_register' => "0",
-    'user_signatures' => 0
+    'user_signatures' => 0,
   );
 
   _gsb_panopoly_variable_set_multiple($variables);
