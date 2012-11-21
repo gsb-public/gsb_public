@@ -17,6 +17,7 @@ function gsb_panopoly_install() {
     'cron',
     'cache',
     'files',
+    'themes',
   );
 
   foreach($actions as $action) {
