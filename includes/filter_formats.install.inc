@@ -25,14 +25,16 @@ function _gsb_panopoly_setup_filter_formats() {
   }
   
   $format->filters["wysiwyg"]["settings"]["valid_elements"] = 
-    "a[!href|target<_blank|title|style],\n" . 
-	  "div[style|class|align<center?justify?left?right],\n" . 
-	  "br,em,i,strong,cite,code,blockquote,ul,ol,li,dl,dt,dd,\n" . 
-	  "span[style],p[style|class],\n" . 
-	  "h1,h2,h3,h4,h5,h6,\n" .  
-	  "object,iframe,\n" . 
-	  "img[!src|title|alt|style|width|height|class|hspace|vspace],\n" . 
-	  "@[style]";  
+    "a[!href|target<_blank|title|style],\n" .  
+    "div[style|class|align<center?justify?left?right],\n" . 
+    "p,br,em,i,strong,u,cite,blockquote,hr,ul,ol,li,dl,dt,dd,\n" .
+    "table,tbody,thead,th,tr,td,\n" .
+    "span[style],p[style|class],\n" . 
+    "h1,h2,h3,h4,h5,h6,\n" .  
+    "object,iframe,area,embed,\n" . 
+    "address,abbr,caption,pre,code,script,\n" .
+    "img[!src|title|alt|style|width|height|class|hspace|vspace],\n" . 
+    "@[style]";
   
   // Save the panopoly wysiwyg format.
   filter_format_save($format);
