@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_panopoly_setup_time_date() {
+function _gsb_public_setup_time_date() {
 
   $variables = array(
     'configurable_timezones' => 1, // Users set their own timezone
@@ -61,5 +61,5 @@ function _gsb_panopoly_setup_time_date() {
   $variables['date_format_short_time'] = 'm/d/Y - g:ia';
   $variables['date_format_short'] = 'm/d/Y';
 
-  _gsb_panopoly_variable_set_multiple($variables);
+  _gsb_public_variable_set_multiple($variables);
 }

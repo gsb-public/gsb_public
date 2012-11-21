@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_panopoly_setup_roles() {
+function _gsb_public_setup_roles() {
 
   // Create a default role for site administrators, with all available permissions assigned.
 

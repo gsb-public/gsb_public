@@ -1,5 +1,5 @@
-name = GSB Panopoly
-description = Installation profile for the panopoly-based website of the GSB.
+name = GSB Public
+description = Installation profile for public GSB.
 version = VERSION
 core = 7.x
 

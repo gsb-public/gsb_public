@@ -99,13 +99,11 @@ projects[open_framework][download][tag] = 7.x-2.0
 ; GSB Framework Theme
 projects[gsb_framework][type] = theme
 projects[gsb_framework][download][type] = git
-projects[gsb_framework][download][url] = https://github.com/gsbitse/gsb_framework_theme.git
+projects[gsb_framework][download][url] = https://github.com/gsbitse/gsb_framework.git
 projects[gsb_framework][download][branch] = master
 
 ; GSB Public Revamp Theme
-projects[gsb_public_revamp][type] = theme
-projects[gsb_public_revamp][download][type] = git
-projects[gsb_public_revamp][download][url] = https://github.com/gsbitse/gsb_public_revamp_theme.git
-projects[gsb_public_revamp][download][branch] = master
-
-
+projects[gsb_revamp][type] = theme
+projects[gsb_revamp][download][type] = git
+projects[gsb_revamp][download][url] = https://github.com/gsbitse/gsb_revamp.git
+projects[gsb_revamp][download][branch] = master

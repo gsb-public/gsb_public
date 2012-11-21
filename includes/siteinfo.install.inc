@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_panopoly_setup_siteinfo() {
+function _gsb_public_setup_siteinfo() {
   $variables = array(
     'default_nodes_main' => '10',
     'site_403' => '',
@@ -12,5 +12,5 @@ function _gsb_panopoly_setup_siteinfo() {
     'site_slogan' => 'Change lives. Change organizations. Change the world.',
   );
 
-  _gsb_panopoly_variable_set_multiple($variables);
+  _gsb_public_variable_set_multiple($variables);
 }

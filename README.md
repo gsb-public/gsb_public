@@ -1,15 +1,15 @@
-gsb_panopoly
+gsb_public
 ====================
 
 Steps for installing:
 
 1) Clone the gsb-panopoly using:
 
-> git clone https://github.com/gsbitse/gsb_panopoly.git
+> git clone https://github.com/gsbitse/gsb_public.git
 
 2) Run drush make using:
 
-> drush make gsb_panopoly/gsb_panopoly.make docroot
+> drush make gsb_public/gsb_public.make docroot
 
 3) Switch to the docroot directory
 

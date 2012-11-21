@@ -5,7 +5,7 @@
  *
  * Perform actions to set up the site for this profile.
  */
-function gsb_panopoly_install() {
+function gsb_public_install() {
 
   $actions = array(
     'siteinfo',
@@ -22,12 +22,12 @@ function gsb_panopoly_install() {
 
   foreach($actions as $action) {
     include_once('includes/' . $action . '.install.inc');
-    $func = '_gsb_panopoly_setup_' . $action;
+    $func = '_gsb_public_setup_' . $action;
     $func();
   }
 }
 
-function _gsb_panopoly_variable_set_multiple($variables) {
+function _gsb_public_variable_set_multiple($variables) {
   foreach($variables as $variable => $value) {
     variable_set($variable, $value);
   }

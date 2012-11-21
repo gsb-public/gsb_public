@@ -1,19 +1,19 @@
 <?php
 
-function _gsb_panopoly_setup_filter_formats() {
+function _gsb_public_setup_filter_formats() {
 
-  // update the panopoly 
-  
+  // update the panopoly
+
   $format = filter_format_load('panopoly_wysiwyg_text');
-  
+
   // Work-around for what *seems* to be a bug somewhere in Drupal filter
   // format loading/saving.  There's probably a better way, but this seems to work.
-  
+
   if (empty($format->filters)) {
-    
+
     // Get the filters used by this format.
     $filters = filter_list_format($format->format);
-    
+
     // Build the $format->filters array...
     $format->filters = array();
     foreach($filters as $name => $filter) {
@@ -21,21 +21,21 @@ function _gsb_panopoly_setup_filter_formats() {
         $format->filters[$name][$k] = $v;
       }
     }
-    
+
   }
-  
-  $format->filters["wysiwyg"]["settings"]["valid_elements"] = 
-    "a[!href|target<_blank|title|style],\n" .  
-    "div[style|class|align<center?justify?left?right],\n" . 
+
+  $format->filters["wysiwyg"]["settings"]["valid_elements"] =
+    "a[!href|target<_blank|title|style],\n" .
+    "div[style|class|align<center?justify?left?right],\n" .
     "p,br,em,i,strong,u,cite,blockquote,hr,ul,ol,li,dl,dt,dd,\n" .
     "table,tbody,thead,th,tr,td,\n" .
-    "span[style],p[style|class],\n" . 
-    "h1,h2,h3,h4,h5,h6,\n" .  
-    "object,iframe,area,embed,\n" . 
+    "span[style],p[style|class],\n" .
+    "h1,h2,h3,h4,h5,h6,\n" .
+    "object,iframe,area,embed,\n" .
     "address,abbr,caption,pre,code,script,\n" .
-    "img[!src|title|alt|style|width|height|class|hspace|vspace],\n" . 
+    "img[!src|title|alt|style|width|height|class|hspace|vspace],\n" .
     "@[style]";
-  
+
   // Save the panopoly wysiwyg format.
   filter_format_save($format);
 

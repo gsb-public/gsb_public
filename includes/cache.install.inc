@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_panopoly_setup_cache() {
+function _gsb_public_setup_cache() {
   $variables = array(
     'cache' => 1,
     'cache_lifetime' => '3600',
@@ -10,5 +10,5 @@ function _gsb_panopoly_setup_cache() {
     'preprocess_js' => 1,
   );
 
-  _gsb_panopoly_variable_set_multiple($variables);
+  _gsb_public_variable_set_multiple($variables);
 }

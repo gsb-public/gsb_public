@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_panopoly_setup_workbench() {
+function _gsb_public_setup_workbench() {
   $variables = array(
     'workbench_access' => 'menu',
     'workbench_access_allow_multiple' => 0,
@@ -11,5 +11,5 @@ function _gsb_panopoly_setup_workbench() {
     ),
   );
 
-  _gsb_panopoly_variable_set_multiple($variables);
+  _gsb_public_variable_set_multiple($variables);
 }
