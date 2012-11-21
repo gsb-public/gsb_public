@@ -1,15 +1,15 @@
-gsb-panopoly-profile
+gsb_panopoly
 ====================
 
 Steps for installing:
 
-1) Clone the gsb-panopoly-profile using:
+1) Clone the gsb-panopoly using:
 
-> git clone https://github.com/gsbitse/gsb-panopoly-profile.git
+> git clone https://github.com/gsbitse/gsb_panopoly.git
 
 2) Run drush make using:
 
-> drush make gsb-panopoly-profile/gsb_panopoly.make docroot
+> drush make gsb_panopoly/gsb_panopoly.make docroot
 
 3) Switch to the docroot directory
 
