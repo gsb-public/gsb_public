@@ -3,7 +3,7 @@ gsb_public
 
 Steps for installing:
 
-1) Clone the gsb-panopoly using:
+1) Clone the gsb_public using:
 
 > git clone https://github.com/gsbitse/gsb_public.git
 
