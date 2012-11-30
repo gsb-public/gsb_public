@@ -5,7 +5,7 @@ function _gsb_public_setup_themes() {
   theme_disable(array('bartik'));
 
   $themes['theme_default'] = "gsb_revamp";
-  $themes['admin_theme'] = "aseven";
+  $themes['admin_theme'] = "seven";
 
   theme_enable($themes);
 
