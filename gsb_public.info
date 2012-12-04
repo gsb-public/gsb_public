@@ -49,3 +49,7 @@ dependencies[] = uuid
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
+dependencies[] = gsb_feature_page
+
+
+
