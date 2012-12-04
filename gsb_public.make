@@ -93,7 +93,7 @@ projects[workbench_moderation][subdir] = contrib
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
 projects[gsb_section_autoconfig][download][url] = https://github.com/gsbitse/gsb_section_autoconfig.git
-projects[gsb_section_autoconfig][download][branch] = master
+projects[gsb_section_autoconfig][download][tag] = 1.0
 projects[gsb_section_autoconfig][subdir] = custom
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
