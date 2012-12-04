@@ -35,6 +35,7 @@ function _gsb_public_variable_set_multiple($variables) {
 
 // Enable the GSB Page feature
 function gsb_public_update_7000() {
+  module_enable(array('gsb_section_autoconfig'));
   module_enable(array('gsb_feature_page'));
   gsb_section_autoconfig_add_manage_node_type("gsb_page");
 }
