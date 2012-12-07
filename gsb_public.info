@@ -54,6 +54,7 @@ dependencies[] = workbench_moderation
 dependencies[] = gsb_section_autoconfig
 
 ; GSB Features
+dependencies[] = gsb_feature_club
 dependencies[] = gsb_feature_page
 dependencies[] = gsb_feature_person
 
