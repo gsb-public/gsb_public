@@ -96,6 +96,13 @@ projects[gsb_section_autoconfig][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_section_autoconfig][download][tag] = 1.2
 projects[gsb_section_autoconfig][subdir] = custom
 
+; GSB Feature Club
+projects[gsb_feature_club][type] = module
+projects[gsb_feature_club][download][type] = git
+projects[gsb_feature_club][download][url] = https://github.com/gsbitse/gsb_feature_club.git
+projects[gsb_feature_club][download][tag] = 1.0 
+projects[gsb_feature_club][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page][type] = module
 projects[gsb_feature_page][download][type] = git
