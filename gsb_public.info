@@ -55,7 +55,7 @@ dependencies[] = gsb_section_autoconfig
 
 ; GSB Features
 dependencies[] = gsb_feature_page
-
+dependencies[] = gsb_feature_person
 
 
 
