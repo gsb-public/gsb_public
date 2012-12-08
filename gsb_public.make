@@ -107,7 +107,7 @@ projects[gsb_feature_club][subdir] = custom/features
 projects[gsb_feature_page][type] = module
 projects[gsb_feature_page][download][type] = git
 projects[gsb_feature_page][download][url] = https://github.com/gsbitse/gsb_feature_page.git
-projects[gsb_feature_page][download][tag] = 1.0 
+projects[gsb_feature_page][download][tag] = 1.1
 projects[gsb_feature_page][subdir] = custom/features
 
 ; GSB Feature Person
