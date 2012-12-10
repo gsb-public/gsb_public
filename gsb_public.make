@@ -103,6 +103,13 @@ projects[gsb_feature_club][download][url] = https://github.com/gsbitse/gsb_featu
 projects[gsb_feature_club][download][tag] = 1.0 
 projects[gsb_feature_club][subdir] = custom/features
 
+; GSB Feature Event
+projects[gsb_feature_event][type] = module
+projects[gsb_feature_event][download][type] = git
+projects[gsb_feature_event][download][url] = https://github.com/gsbitse/gsb_feature_event.git
+projects[gsb_feature_event][download][tag] = 1.0
+projects[gsb_feature_event][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page][type] = module
 projects[gsb_feature_page][download][type] = git
