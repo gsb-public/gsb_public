@@ -12,4 +12,9 @@ function _gsb_public_setup_workbench() {
   );
 
   _gsb_public_variable_set_multiple($variables);
+
+  // Remove the needs_review state.
+  $state = new stdClass();
+  $state->name = 'needs_review';
+  workbench_moderation_state_delete($state);
 }
