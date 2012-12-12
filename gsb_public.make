@@ -80,9 +80,6 @@ projects[uuid][patch][1605284] = http://drupal.org/files/1605284-define-types-fo
 
 ; Not related to panopoly, but GSB added contrib modules.
 
-projects[entity_view_mode][version] = 1.0-beta3
-projects[entity_view_mode][subdir] = contrib
-
 projects[workbench][version] = 1.1
 projects[workbench][subdir] = contrib
 
