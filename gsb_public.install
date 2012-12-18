@@ -12,6 +12,7 @@ function gsb_public_install() {
     'time_date',
     'userinfo',
     'roles',
+    'users',
     'filter_formats',
     'workbench',
     'cron',
@@ -32,5 +33,3 @@ function _gsb_public_variable_set_multiple($variables) {
     variable_set($variable, $value);
   }
 }
-
-
