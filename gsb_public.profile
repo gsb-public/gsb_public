@@ -2,6 +2,6 @@
 
 function hook_init() {
 
-  $test = "fred";
+  dsm("what");
 
 }
