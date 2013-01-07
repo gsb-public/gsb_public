@@ -2,6 +2,6 @@
 
 function gsb_public_init() {
 
-  dsm("what");
+  debug("what");
 
 }
