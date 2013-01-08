@@ -1,7 +1,14 @@
 <?php
 
 function _gsb_public_setup_roles() {
- 
+
+  // Get the list of modules we need to support for the public site
+  // These modules will need to be added to the permissions setup for 
+  // each of our roles created here.
+
+  $modules = array();
+  _gsb_public_get_content_modules($modules);
+
   // Update the administrator role
 
   $administrator = user_role_load_by_name('administrator');  
@@ -13,22 +20,22 @@ function _gsb_public_setup_roles() {
   $editor = user_role_load_by_name('editor');
 
   $editor_permissions = array(
-    'create fieldable quick_links',
-    'edit fieldable quick_links',
+    //'create fieldable quick_links',
+    //'edit fieldable quick_links',
     'create fieldable basic_file',
     'edit fieldable basic_file',
-    'create fieldable image',
-    'edit fieldable image',
+    //'create fieldable image',
+    //'edit fieldable image',
     'create fieldable text',
     'edit fieldable text',
-    'create fieldable map',
-    'edit fieldable map',
+    //'create fieldable map',
+    //'edit fieldable map',
     'create fieldable table',
     'edit fieldable table',
     'create fieldable video',
     'edit fieldable video',
-    'create fieldable spotlight',
-    'edit fieldable spotlight',
+    //'create fieldable spotlight',
+    //'edit fieldable spotlight',
     'administer files',
     'create files',
     'use text format panopoly_wysiwyg_text',
@@ -42,6 +49,9 @@ function _gsb_public_setup_roles() {
     'change layouts in place editing'
   );
 
+  // Add in any permissions we need for our content types
+  _gsb_public_add_permissions($modules, $editor_permissions);
+
   user_role_grant_permissions($editor->rid, $editor_permissions);
 
   // Create an author role
@@ -52,22 +62,22 @@ function _gsb_public_setup_roles() {
   user_role_save($author);
 
   $author_permissions = array(
-    'create fieldable quick_links',
-    'edit fieldable quick_links',
+    //'create fieldable quick_links',
+    //'edit fieldable quick_links',
     'create fieldable basic_file',
     'edit fieldable basic_file',
-    'create fieldable image',
-    'edit fieldable image',
+    //'create fieldable image',
+    //'edit fieldable image',
     'create fieldable text',
     'edit fieldable text',
-    'create fieldable map',
-    'edit fieldable map',
+    //'create fieldable map',
+    //'edit fieldable map',
     'create fieldable table',
     'edit fieldable table',
     'create fieldable video',
     'edit fieldable video',
-    'create fieldable spotlight',
-    'edit fieldable spotlight',
+    //'create fieldable spotlight',
+    //'edit fieldable spotlight',
     'create files',
     'use text format panopoly_wysiwyg_text',
     'use text format panopoly_html_text',
@@ -76,6 +86,9 @@ function _gsb_public_setup_roles() {
     'use panels in place editing',
     'change layouts in place editing'
   );
+
+  // Add in any permissions we need for our content types  
+  _gsb_public_add_permissions($modules, $author_permissions);
 
   user_role_grant_permissions($author->rid, $author_permissions);
 
