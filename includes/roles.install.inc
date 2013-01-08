@@ -46,7 +46,7 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
     'use panels in place editing',
-    'change layouts in place editing'
+    //'change layouts in place editing'
   );
 
   // Add in any permissions we need for our content types
@@ -84,7 +84,7 @@ function _gsb_public_setup_roles() {
     'access content',
     'view own unpublished content',
     'use panels in place editing',
-    'change layouts in place editing'
+    //'change layouts in place editing'
   );
 
   // Add in any permissions we need for our content types  
