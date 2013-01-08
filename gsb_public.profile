@@ -36,6 +36,7 @@ function _gsb_public_add_permissions($modules, &$permissions) {
         $permissions[] = "create gsb_page content";
         $permissions[] = "edit own gsb_page content";
         $permissions[] = "delete own gsb_page content";
+        $permissions[] = "administer panelizer node gsb_page content";
     }
 
     if (in_array('gsb_feature_club', $modules)) {
