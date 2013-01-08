@@ -19,6 +19,10 @@ function _gsb_public_setup_roles() {
 
   $editor = user_role_load_by_name('editor');
 
+  // First remove any existing permissions
+
+  user_role_revoke_permissions($editor->rid, array_keys(module_invoke_all('permission')));
+
   $editor_permissions = array(
     //'create fieldable quick_links',
     //'edit fieldable quick_links',
