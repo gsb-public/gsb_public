@@ -18,6 +18,13 @@ function gsb_public_modules_enabled($modules) {
 
 }
 
+
+function gsb_public_views_default_views_alter(&$views) {
+
+    dsm($views);  
+
+}
+
 function _gsb_public_get_content_modules(&$modules) {
 
     if (module_exists("gsb_feature_page")) {
@@ -46,3 +53,4 @@ function _gsb_public_add_permissions($modules, &$permissions) {
     }
 
 }
+
