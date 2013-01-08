@@ -2,6 +2,6 @@
 
 function gsb_public_init() {
 
-  debug("what");
+  watchdog("test", s"this is a test");
 
 }
