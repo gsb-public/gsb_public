@@ -8,7 +8,7 @@ projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
 projects[panopoly_core][download][revision] = 02baae4
 projects[panopoly_core][download][branch] = 7.x-1.x
-projects[panopoly_core][patch][1883422] = http://drupal.org/files/1883422-update_modules-2.patch
+; projects[panopoly_core][patch][1883422] = http://drupal.org/files/1883422-update_modules-2.patch
 
 projects[panopoly_images][version] = 1.x-dev
 projects[panopoly_images][subdir] = panopoly
@@ -33,14 +33,14 @@ projects[panopoly_widgets][subdir] = panopoly
 projects[panopoly_widgets][download][type] = git
 projects[panopoly_widgets][download][revision] = a257519
 projects[panopoly_widgets][download][branch] = 7.x-1.x
-; projects[panopoly_widgets][patch][1883474] = http://drupal.org/files/1883474-upgrade_modules-2.patch
+projects[panopoly_widgets][patch][1883474] = http://drupal.org/files/1883474-upgrade_modules-2.patch
 
 projects[panopoly_admin][version] = 1.x-dev
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][download][type] = git
 projects[panopoly_admin][download][revision] = 1ae9e87
 projects[panopoly_admin][download][branch] = 7.x-1.x
-; projects[panopoly_admin][patch][1883436] = http://drupal.org/files/1883436-update_admin_views-1.patch
+projects[panopoly_admin][patch][1883436] = http://drupal.org/files/1883436-update_admin_views-1.patch
 
 projects[panopoly_users][version] = 1.x-dev
 projects[panopoly_users][subdir] = panopoly
