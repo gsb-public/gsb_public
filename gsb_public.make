@@ -6,8 +6,9 @@ core = 7.x
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = ca5439e
+projects[panopoly_core][download][revision] = 02baae4
 projects[panopoly_core][download][branch] = 7.x-1.x
+projects[panopoly_core][patch][1883422] = http://drupal.org/files/1883422-update_modules-1.patch
 
 projects[panopoly_images][version] = 1.x-dev
 projects[panopoly_images][subdir] = panopoly
@@ -30,14 +31,16 @@ projects[panopoly_magic][download][branch] = 7.x-1.x
 projects[panopoly_widgets][version] = 1.x-dev
 projects[panopoly_widgets][subdir] = panopoly
 projects[panopoly_widgets][download][type] = git
-projects[panopoly_widgets][download][revision] = ca7f610
+projects[panopoly_widgets][download][revision] = a257519
 projects[panopoly_widgets][download][branch] = 7.x-1.x
+projects[panopoly_widgets][patch][1883474] = http://drupal.org/files/1883474-upgrade_modules-2.patch
 
 projects[panopoly_admin][version] = 1.x-dev
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][download][type] = git
-projects[panopoly_admin][download][revision] = 9519346
+projects[panopoly_admin][download][revision] = 1ae9e87
 projects[panopoly_admin][download][branch] = 7.x-1.x
+projects[panopoly_admin][patch][1883436] = http://drupal.org/files/1883436-update_admin_views-1.patch
 
 projects[panopoly_users][version] = 1.x-dev
 projects[panopoly_users][subdir] = panopoly
@@ -65,18 +68,6 @@ projects[panopoly_search][subdir] = panopoly
 projects[panopoly_search][download][type] = git
 projects[panopoly_search][download][revision] = 62f05b2
 projects[panopoly_search][download][branch] = 7.x-1.x
-
-; Panopoly Recommended
-
-projects[devel][version] = 1.3
-projects[devel][subdir] = contrib
-
-projects[uuid][version] = 1.x-dev
-projects[uuid][subdir] = contrib
-projects[uuid][download][type] = git
-projects[uuid][download][revision] = 4730c67
-projects[uuid][download][branch] = 7.x-1.x
-projects[uuid][patch][1605284] = http://drupal.org/files/1605284-define-types-for-tokens-6.patch
 
 ; Not related to panopoly, but GSB added contrib modules.
 
@@ -122,7 +113,7 @@ projects[gsb_feature_page][subdir] = custom/features
 projects[gsb_feature_person][type] = module
 projects[gsb_feature_person][download][type] = git
 projects[gsb_feature_person][download][url] = https://github.com/gsbitse/gsb_feature_person.git
-projects[gsb_feature_person][download][tag] = 1.0 
+projects[gsb_feature_person][download][tag] = 1.0
 projects[gsb_feature_person][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
