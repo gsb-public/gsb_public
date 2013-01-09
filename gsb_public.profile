@@ -44,6 +44,31 @@ function gsb_public_views_default_views_alter(&$views) {
     $views['workbench_moderation']->disabled = TRUE;
   }
 
+  // Add additional filters to the "My Edits" page that is 
+  // part of the Workbench dashboard.
+  // The "My Edits" page is created via the "workbench_edited" 
+  // view.
+
+  if (isset($views['workbench_edited'])) {
+    $filters = &$views['workbench_edited']->display['default']->display_options['filters'];
+    $filters['nid']['id'] = 'nid';
+    $filters['nid']['table'] = 'node';
+    $filters['nid']['field'] = 'nid';
+    $filters['nid']['relationship'] = 'vid';
+    $filters['nid']['exposed'] = TRUE;
+    $filters['nid']['expose']['operator_id'] = 'nid_op';
+    $filters['nid']['expose']['label'] = 'Node Id';
+    $filters['nid']['expose']['operator'] = 'nid_op';
+    $filters['nid']['expose']['identifier'] = 'nid';
+    $filters['nid']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      5 => 0,
+      4 => 0,
+    );
+  }
+
 }
 
 function _gsb_public_get_content_modules(&$modules) {
