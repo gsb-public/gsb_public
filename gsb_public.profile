@@ -34,7 +34,6 @@ function gsb_public_menu_alter(&$items) {
   
 }
 
-
 function gsb_public_views_default_views_alter(&$views) {
 
   // Remove the workbench "drafts", "needs review" tabs, 
@@ -70,6 +69,10 @@ function gsb_public_views_default_views_alter(&$views) {
   }
 
 }
+
+//function gsb_public_form_views_exposed_form_alter(&$form, $form_state, $form_id) {
+  //drupal_set_message("Form ID is : " . $form_id);
+//}
 
 function _gsb_public_get_content_modules(&$modules) {
 
