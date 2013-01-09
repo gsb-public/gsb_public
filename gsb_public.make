@@ -9,7 +9,7 @@ projects[panopoly_core][download][type] = git
 projects[panopoly_core][download][revision] = 02baae4
 projects[panopoly_core][download][branch] = 7.x-1.x
 projects[panopoly_core][patch][1883422] = http://drupal.org/files/1883422-update_modules-3.patch
-projects[panopoly_core][patch][1884656] = http://drupal.org/files/1884656-views_patch-1.patch
+projects[panopoly_core][patch][1884656] = http://drupal.org/files/1884656-views_patch-2.patch
 
 projects[panopoly_images][version] = 1.x-dev
 projects[panopoly_images][subdir] = panopoly
