@@ -34,7 +34,6 @@ function gsb_public_menu_alter(&$items) {
   
 }
 
-
 function gsb_public_views_default_views_alter(&$views) {
 
   // Remove the workbench "drafts", "needs review" tabs, 
@@ -44,7 +43,64 @@ function gsb_public_views_default_views_alter(&$views) {
     $views['workbench_moderation']->disabled = TRUE;
   }
 
+  // Add additional filters to the "My Edits" page that is 
+  // part of the Workbench dashboard.
+  // The "My Edits" page is created via the "workbench_edited" 
+  // view.
+
+  // Also add the Node Id as a column that gets displayed in the
+  // view's results table.
+
+  if (isset($views['workbench_edited'])) {
+
+    $filters = &$views['workbench_edited']->display['default']->display_options['filters'];
+    $fields = &$views['workbench_edited']->display['default']->display_options['fields'];
+
+    $filters['nid']['id'] = 'nid';
+    $filters['nid']['table'] = 'node';
+    $filters['nid']['field'] = 'nid';
+    $filters['nid']['relationship'] = 'vid';
+    $filters['nid']['exposed'] = TRUE;
+    $filters['nid']['expose']['operator_id'] = 'nid_op';
+    $filters['nid']['expose']['label'] = 'Node Id';
+    $filters['nid']['expose']['operator'] = 'nid_op';
+    $filters['nid']['expose']['identifier'] = 'nid';
+    $filters['nid']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      5 => 0,
+      4 => 0,
+    );
+
+    $fields['nid_1']['id'] = 'nid_1';
+    $fields['nid_1']['table'] = 'node';
+    $fields['nid_1']['field'] = 'nid';
+    $fields['nid_1']['relationship'] = 'vid';
+    $fields['nid_1']['label'] = 'Node Id';
+
+    // Make the Node Id column sortable
+
+    $style_options_info = &$views['workbench_edited']->display['default']->display_options['style_options']['info'];
+
+    $style_options_info['nid_1'] = array(
+        'sortable' => 1,
+        'default_sort_order' => 'asc',
+        'align' => '',
+        'separator' => '',
+    );
+    
+    $style_options_columns = &$views['workbench_edited']->display['default']->display_options['style_options']['columns'];
+
+    $style_options_columns['nid_1'] = 'nid_1';
+
+  }
+
 }
+
+//function gsb_public_form_views_exposed_form_alter(&$form, $form_state, $form_id) {
+  //drupal_set_message("Form ID is : " . $form_id);
+//}
 
 function _gsb_public_get_content_modules(&$modules) {
 

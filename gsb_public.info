@@ -49,6 +49,7 @@ dependencies[] = uuid
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
+;dependencies[] = views_url_alias
 
 ; GSB Custom Modules
 dependencies[] = gsb_section_autoconfig
