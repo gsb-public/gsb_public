@@ -80,6 +80,9 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.2
 projects[workbench_moderation][subdir] = contrib
 
+projects[views_url_alias][version] = 1.0-beta1
+projects[views_url_alias][subdir] = contrib
+
 ; GSB Projects
 
 projects[gsb_section_autoconfig][type] = module
