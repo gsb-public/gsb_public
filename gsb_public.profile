@@ -55,12 +55,16 @@ function gsb_public_views_default_views_alter(&$views) {
 
     $filters = &$views['workbench_edited']->display['default']->display_options['filters'];
     $fields = &$views['workbench_edited']->display['default']->display_options['fields'];
-
     $relationships =  &$views['workbench_edited']->display['default']->display_options['relationships'];
+    $sorts = &$views['workbench_edited']->display['default']->display_options['sorts'];
+
+    // relationships
 
     $relationships['vid']['id'] = 'vid';
     $relationships['vid']['table'] = 'node_revision';
     $relationships['vid']['field'] = 'vid';
+
+    // filter - Node Id
 
     $filters['nid']['id'] = 'nid';
     $filters['nid']['table'] = 'node';
@@ -79,6 +83,8 @@ function gsb_public_views_default_views_alter(&$views) {
       4 => 0,
     );
 
+    // filter - Updated By
+
     $filters['uid_revision']['id'] = 'uid_revision';
     $filters['uid_revision']['table'] = 'node';
     $filters['uid_revision']['field'] = 'uid_revision';
@@ -96,6 +102,8 @@ function gsb_public_views_default_views_alter(&$views) {
       5 => 0,
       4 => 0,
     );
+
+    // filter - Path
 
     $filters['alias']['id'] = 'alias';
     $filters['alias']['table'] = 'url_alias';
@@ -117,13 +125,34 @@ function gsb_public_views_default_views_alter(&$views) {
     $filters['alias']['expose']['autocomplete_items'] = '10';
     $filters['alias']['expose']['autocomplete_raw_suggestion'] = 1;
     $filters['alias']['expose']['autocomplete_raw_dropdown'] = 1;
-    $filters['alias']['expose']['autocomplete_dependent'] = 0;    
+    $filters['alias']['expose']['autocomplete_dependent'] = 0;
 
-    $filters['title']['relationship'] = 'vid';
+    // filter - Section
+
+    $filters['access_id']['id'] = 'access_id';
+    $filters['access_id']['table'] = 'workbench_access';
+    $filters['access_id']['field'] = 'access_id';
+    $filters['access_id']['exposed'] = TRUE;
+    $filters['access_id']['expose']['operator_id'] = 'access_id_op';
+    $filters['access_id']['expose']['label'] = 'Section';
+    $filters['access_id']['expose']['operator'] = 'access_id_op';
+    $filters['access_id']['expose']['identifier'] = 'access_id';
+    $filters['access_id']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      5 => 0,
+      4 => 0,
+    );
+    $filters['access_id']['access_id'] = array();
+    $filters['access_id']['size'] = '5';
+    
+    // filter relationships
+
+    $filters['status']['relationship'] = 'vid';
     $filters['type']['relationship'] = 'vid';
-    $filters['status']['relationship'] = 'vid';
-    $filters['nid']['relationship'] = 'vid';
-    $filters['status']['relationship'] = 'vid';
+
+    // field - Node Id
 
     $fields['nid_1']['id'] = 'nid_1';
     $fields['nid_1']['table'] = 'node';
@@ -131,26 +160,34 @@ function gsb_public_views_default_views_alter(&$views) {
     $fields['nid_1']['relationship'] = 'vid';
     $fields['nid_1']['label'] = 'Node Id';
 
-    //$fields['section']['id'] = 'section';
-    //$fields['section']['table'] = 'workbench_access';
-    //$fields['section']['field'] = 'section';
+    // field - Section
 
+    $fields['section']['id'] = 'section';
+    $fields['section']['table'] = 'workbench_access';
+    $fields['section']['field'] = 'section';
+
+    $fields['nid']['relationship'] = 'vid';
+    $fields['status']['relationship'] = 'vid';
+    $fields['type']['relationship'] = 'vid';
+    /*
     $fields['nid']['relationship'] = 'vid';
     $fields['title']['relationship'] = 'vid';
     $fields['status']['relationship'] = 'vid';
     $fields['changed']['relationship'] = 'vid';
     $fields['edit_node']['relationship'] = 'vid';
     $fields['nid_1']['relationship'] = 'vid';
+    */
 
     // Make the Node Id and Section columns sortable
 
     $style_options_info = &$views['workbench_edited']->display['default']->display_options['style_options']['info'];
-    
+
     $style_options_info['nid_1'] = array(
         'sortable' => 1,
-        'default_sort_order' => 'asc',
+        'default_sort_order' => 'desc',
         'align' => '',
         'separator' => '',
+        'empty_column' => 0,
     );
 
     /*
@@ -159,14 +196,15 @@ function gsb_public_views_default_views_alter(&$views) {
         'default_sort_order' => 'asc',
         'align' => '',
         'separator' => '',
-    );*/
+    );
+    */
 
     $style_options_columns = &$views['workbench_edited']->display['default']->display_options['style_options']['columns'];
 
     $style_options_columns['nid_1'] = 'nid_1';
     //$style_options_columns['section'] = 'section';
 
-    $views['workbench_edited']->display['default']->display_options['sorts']['changed']['relationship'] = 'vid';
+    $sorts['changed']['relationship'] = 'vid';
 
   }
 
