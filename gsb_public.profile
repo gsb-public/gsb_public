@@ -166,17 +166,11 @@ function gsb_public_views_default_views_alter(&$views) {
     $fields['section']['table'] = 'workbench_access';
     $fields['section']['field'] = 'section';
 
+    // field relationships
+
     $fields['nid']['relationship'] = 'vid';
     $fields['status']['relationship'] = 'vid';
     $fields['type']['relationship'] = 'vid';
-    /*
-    $fields['nid']['relationship'] = 'vid';
-    $fields['title']['relationship'] = 'vid';
-    $fields['status']['relationship'] = 'vid';
-    $fields['changed']['relationship'] = 'vid';
-    $fields['edit_node']['relationship'] = 'vid';
-    $fields['nid_1']['relationship'] = 'vid';
-    */
 
     // Make the Node Id and Section columns sortable
 
@@ -202,7 +196,6 @@ function gsb_public_views_default_views_alter(&$views) {
     $style_options_columns = &$views['workbench_edited']->display['default']->display_options['style_options']['columns'];
 
     $style_options_columns['nid_1'] = 'nid_1';
-    //$style_options_columns['section'] = 'section';
 
     $sorts['changed']['relationship'] = 'vid';
 
