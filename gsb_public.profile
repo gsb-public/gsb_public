@@ -184,15 +184,6 @@ function gsb_public_views_default_views_alter(&$views) {
         'empty_column' => 0,
     );
 
-    /*
-    $style_options_info['section'] = array(
-        'sortable' => 1,
-        'default_sort_order' => 'asc',
-        'align' => '',
-        'separator' => '',
-    );
-    */
-
     $style_options_columns = &$views['workbench_edited']->display['default']->display_options['style_options']['columns'];
 
     $style_options_columns['nid_1'] = 'nid_1';
