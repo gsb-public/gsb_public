@@ -48,13 +48,19 @@ function gsb_public_views_default_views_alter(&$views) {
   // The "My Edits" page is created via the "workbench_edited" 
   // view.
 
-  // Also add the Node Id as a column that gets displayed in the
+  // Also add the Node Id and Section as columns that gets displayed in the
   // view's results table.
 
   if (isset($views['workbench_edited'])) {
 
     $filters = &$views['workbench_edited']->display['default']->display_options['filters'];
     $fields = &$views['workbench_edited']->display['default']->display_options['fields'];
+
+    $relationships =  &$views['workbench_edited']->display['default']->display_options['relationships'];
+
+    $relationships['vid']['id'] = 'vid';
+    $relationships['vid']['table'] = 'node_revision';
+    $relationships['vid']['field'] = 'vid';
 
     $filters['nid']['id'] = 'nid';
     $filters['nid']['table'] = 'node';
@@ -73,26 +79,54 @@ function gsb_public_views_default_views_alter(&$views) {
       4 => 0,
     );
 
+    $filters['title']['relationship'] = 'vid';
+    $filters['type']['relationship'] = 'vid';
+    $filters['status']['relationship'] = 'vid';
+    $filters['nid']['relationship'] = 'vid';
+    $filters['status']['relationship'] = 'vid';
+
     $fields['nid_1']['id'] = 'nid_1';
     $fields['nid_1']['table'] = 'node';
     $fields['nid_1']['field'] = 'nid';
     $fields['nid_1']['relationship'] = 'vid';
     $fields['nid_1']['label'] = 'Node Id';
 
-    // Make the Node Id column sortable
+    //$fields['section']['id'] = 'section';
+    //$fields['section']['table'] = 'workbench_access';
+    //$fields['section']['field'] = 'section';
+
+    $fields['nid']['relationship'] = 'vid';
+    $fields['title']['relationship'] = 'vid';
+    $fields['status']['relationship'] = 'vid';
+    $fields['changed']['relationship'] = 'vid';
+    $fields['edit_node']['relationship'] = 'vid';
+    $fields['nid_1']['relationship'] = 'vid';
+
+    // Make the Node Id and Section columns sortable
 
     $style_options_info = &$views['workbench_edited']->display['default']->display_options['style_options']['info'];
-
+    
     $style_options_info['nid_1'] = array(
         'sortable' => 1,
         'default_sort_order' => 'asc',
         'align' => '',
         'separator' => '',
     );
-    
+
+    /*
+    $style_options_info['section'] = array(
+        'sortable' => 1,
+        'default_sort_order' => 'asc',
+        'align' => '',
+        'separator' => '',
+    );*/
+
     $style_options_columns = &$views['workbench_edited']->display['default']->display_options['style_options']['columns'];
 
     $style_options_columns['nid_1'] = 'nid_1';
+    //$style_options_columns['section'] = 'section';
+
+    $views['workbench_edited']->display['default']->display_options['sorts']['changed']['relationship'] = 'vid';
 
   }
 
