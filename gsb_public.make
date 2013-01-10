@@ -72,14 +72,23 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 
 ; Not related to panopoly, but GSB added contrib modules.
 
-projects[workbench][version] = 1.1
+projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
+projects[workbench][download][type] = git
+projects[workbench][download][revision] = bb7fa65
+projects[workbench][download][branch] = 7.x-1.x
 
-projects[workbench_access][version] = 1.0
+projects[workbench_access][version] = 1.x-dev
 projects[workbench_access][subdir] = contrib
+projects[workbench_access][download][type] = git
+projects[workbench_access][download][revision] = 1fbf6f3
+projects[workbench_access][download][branch] = 7.x-1.x
 
-projects[workbench_moderation][version] = 1.2
+projects[workbench_moderation][version] = 1.x-dev
 projects[workbench_moderation][subdir] = contrib
+projects[workbench_moderation][download][type] = git
+projects[workbench_moderation][download][revision] = 3422c07
+projects[workbench_moderation][download][branch] = 7.x-1.x
 
 projects[views_url_alias][version] = 1.0-beta1
 projects[views_url_alias][subdir] = contrib
