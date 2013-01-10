@@ -79,6 +79,46 @@ function gsb_public_views_default_views_alter(&$views) {
       4 => 0,
     );
 
+    $filters['uid_revision']['id'] = 'uid_revision';
+    $filters['uid_revision']['table'] = 'node';
+    $filters['uid_revision']['field'] = 'uid_revision';
+    $filters['uid_revision']['relationship'] = 'vid';
+    $filters['uid_revision']['value'] = '';
+    $filters['uid_revision']['exposed'] = TRUE;
+    $filters['uid_revision']['expose']['operator_id'] = 'uid_revision_op';
+    $filters['uid_revision']['expose']['label'] = 'Updated By';
+    $filters['uid_revision']['expose']['operator'] = 'uid_revision_op';
+    $filters['uid_revision']['expose']['identifier'] = 'uid_revision';
+    $filters['uid_revision']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      5 => 0,
+      4 => 0,
+    );
+
+    $filters['alias']['id'] = 'alias';
+    $filters['alias']['table'] = 'url_alias';
+    $filters['alias']['field'] = 'alias';
+    $filters['alias']['relationship'] = 'vid';
+    $filters['alias']['operator'] = 'contains';
+    $filters['alias']['exposed'] = TRUE;
+    $filters['alias']['expose']['operator_id'] = 'alias_op';
+    $filters['alias']['expose']['label'] = 'Path';
+    $filters['alias']['expose']['operator'] = 'alias_op';
+    $filters['alias']['expose']['identifier'] = 'alias';
+    $filters['alias']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      5 => 0,
+      4 => 0,
+    );
+    $filters['alias']['expose']['autocomplete_items'] = '10';
+    $filters['alias']['expose']['autocomplete_raw_suggestion'] = 1;
+    $filters['alias']['expose']['autocomplete_raw_dropdown'] = 1;
+    $filters['alias']['expose']['autocomplete_dependent'] = 0;    
+
     $filters['title']['relationship'] = 'vid';
     $filters['type']['relationship'] = 'vid';
     $filters['status']['relationship'] = 'vid';
