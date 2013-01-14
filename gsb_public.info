@@ -53,6 +53,7 @@ dependencies[] = workbench_moderation
 
 ; GSB Custom Modules
 dependencies[] = gsb_section_autoconfig
+dependencies[] = gsb_fpp_customization
 
 ; GSB Features
 dependencies[] = gsb_feature_club
