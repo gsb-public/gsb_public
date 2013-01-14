@@ -146,3 +146,10 @@ projects[gsb_revamp][type] = theme
 projects[gsb_revamp][download][type] = git
 projects[gsb_revamp][download][url] = https://github.com/gsbitse/gsb_revamp.git
 projects[gsb_revamp][download][branch] = master
+
+; GSB FPP Customization
+projects[gsb_fpp_customization][type] = module
+projects[gsb_fpp_customization][download][type] = git
+projects[gsb_fpp_customization][download][url] = https://github.com/gsbitse/gsb_fpp_customization.git
+projects[gsb_fpp_customization][download][tag] = 1.0
+projects[gsb_fpp_customization][subdir] = custom
