@@ -84,7 +84,7 @@ function gsb_public_views_default_views_alter(&$views) {
     );
 
     // filter - Updated By
-
+    /*
     $filters['uid_revision']['id'] = 'uid_revision';
     $filters['uid_revision']['table'] = 'node';
     $filters['uid_revision']['field'] = 'uid_revision';
@@ -102,6 +102,7 @@ function gsb_public_views_default_views_alter(&$views) {
       5 => 0,
       4 => 0,
     );
+    */
 
     // filter - Path
 
