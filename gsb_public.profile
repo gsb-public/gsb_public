@@ -43,6 +43,43 @@ function gsb_public_views_default_views_alter(&$views) {
     $views['workbench_moderation']->disabled = TRUE;
   }
 
+  _gsb_public_views_alter_workbench_editted($views);
+
+  _gsb_public_views_alter_workbench_recent_content($views);
+
+}
+
+function _gsb_public_get_content_modules(&$modules) {
+
+    if (module_exists("gsb_feature_page")) {
+        $modules[] = "gsb_feature_page";
+    }
+
+    if (module_exists("gsb_feature_club")) {
+        $modules[] = "gsb_feature_club";
+    }
+
+}
+
+function _gsb_public_add_permissions($modules, &$permissions) {
+
+    if (in_array('gsb_feature_page', $modules)) {
+        $permissions[] = "create gsb_page content";
+        $permissions[] = "edit own gsb_page content";
+        $permissions[] = "delete own gsb_page content";
+        $permissions[] = "administer panelizer node gsb_page content";
+    }
+
+    if (in_array('gsb_feature_club', $modules)) {
+        $permissions[] = "create gsb_club content";
+        $permissions[] = "edit own gsb_club content";
+        $permissions[] = "delete own gsb_club content";
+    }
+
+}
+
+function _gsb_public_views_alter_workbench_editted(&$views) {
+
   // Add additional filters to the "My Edits" page that is 
   // part of the Workbench dashboard.
   // The "My Edits" page is created via the "workbench_edited" 
@@ -193,6 +230,10 @@ function gsb_public_views_default_views_alter(&$views) {
 
   }
 
+}
+
+function _gsb_public_views_alter_workbench_recent_content(&$views) {
+
   if (isset($views['workbench_recent_content'])) {
 
     $filters = &$views['workbench_recent_content']->display['default']->display_options['filters'];
@@ -320,35 +361,6 @@ function gsb_public_views_default_views_alter(&$views) {
     //&$views['workbench_recent_content']->display['default']->display_options['path'] = 'admin/workbench/content/all';
 
   }
-
-}
-
-function _gsb_public_get_content_modules(&$modules) {
-
-    if (module_exists("gsb_feature_page")) {
-        $modules[] = "gsb_feature_page";
-    }
-
-    if (module_exists("gsb_feature_club")) {
-        $modules[] = "gsb_feature_club";
-    }
-
-}
-
-function _gsb_public_add_permissions($modules, &$permissions) {
-
-    if (in_array('gsb_feature_page', $modules)) {
-        $permissions[] = "create gsb_page content";
-        $permissions[] = "edit own gsb_page content";
-        $permissions[] = "delete own gsb_page content";
-        $permissions[] = "administer panelizer node gsb_page content";
-    }
-
-    if (in_array('gsb_feature_club', $modules)) {
-        $permissions[] = "create gsb_club content";
-        $permissions[] = "edit own gsb_club content";
-        $permissions[] = "delete own gsb_club content";
-    }
 
 }
 
