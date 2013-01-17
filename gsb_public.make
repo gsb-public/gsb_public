@@ -133,7 +133,7 @@ projects[gsb_feature_person][subdir] = custom/features
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
 projects[open_framework][download][url] = https://github.com/SU-SWS/open_framework.git
-projects[open_framework][download][tag] = 7.x-2.0
+projects[open_framework][download][tag] = 7.x-2.02
 
 ; GSB Framework Theme
 projects[gsb_framework][type] = theme
