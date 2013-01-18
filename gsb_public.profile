@@ -31,6 +31,10 @@ function gsb_public_menu_alter(&$items) {
   if (isset($items["admin/workbench/sections"])) {
     $items["admin/workbench/sections"]["access callback"] = FALSE;
   }
+
+  if (isset($items["admin/workbench/content"])) {
+    $items["admin/workbench/content"]["title"] = "Content";
+  }
   
 }
 
