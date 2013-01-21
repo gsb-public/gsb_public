@@ -101,6 +101,12 @@ projects[gsb_section_autoconfig][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_section_autoconfig][download][tag] = 1.3
 projects[gsb_section_autoconfig][subdir] = custom
 
+projects[gsb_media_center][type] = module
+projects[gsb_media_center][download][type] = git
+projects[gsb_media_center][download][url] = https://github.com/gsbitse/gsb_media_center.git
+projects[gsb_media_center][download][branch] = master
+projects[gsb_media_center][subdir] = custom
+
 ; GSB Feature Club
 projects[gsb_feature_club][type] = module
 projects[gsb_feature_club][download][type] = git
