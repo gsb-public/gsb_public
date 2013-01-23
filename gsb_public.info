@@ -60,3 +60,5 @@ dependencies[] = gsb_feature_club
 dependencies[] = gsb_feature_event
 dependencies[] = gsb_feature_page
 dependencies[] = gsb_feature_person
+dependencies[] = gsb_feature_news
+
