@@ -125,6 +125,13 @@ projects[gsb_feature_person][download][url] = https://github.com/gsbitse/gsb_fea
 projects[gsb_feature_person][download][tag] = 1.0
 projects[gsb_feature_person][subdir] = custom/features
 
+; GSB Feature News
+projects[gsb_feature_news][type] = module
+projects[gsb_feature_news][download][type] = git
+projects[gsb_feature_news][download][url] = https://github.com/gsbitse/gsb_feature_news.git
+projects[gsb_feature_news][download][tag] = 1.0
+projects[gsb_feature_news][subdir] = custom/features
+
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
