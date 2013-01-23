@@ -132,6 +132,13 @@ projects[gsb_feature_news][download][url] = https://github.com/gsbitse/gsb_featu
 projects[gsb_feature_news][download][tag] = 1.0
 projects[gsb_feature_news][subdir] = custom/features
 
+; GSB Feature Wysiwyg
+projects[gsb_feature_wysiwyg][type] = module
+projects[gsb_feature_wysiwyg][download][type] = git
+projects[gsb_feature_wysiwyg][download][url] = https://github.com/gsbitse/gsb_feature_wysiwyg.git
+projects[gsb_feature_wysiwyg][download][tag] = 1.0
+projects[gsb_feature_wysiwyg][subdir] = custom/features
+
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
