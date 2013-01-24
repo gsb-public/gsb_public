@@ -83,10 +83,10 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
-projects[features_override][version] = 2.x-dev
-projects[features_override][subdir] = contrib
-projects[features_override][download][type] = git
-projects[features_override][download][branch] = 7.x-2.x
+; projects[features_override][version] = 2.x-dev
+; projects[features_override][subdir] = contrib
+; projects[features_override][download][type] = git
+; projects[features_override][download][branch] = 7.x-2.x
 
 ; GSB Projects
 
