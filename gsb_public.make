@@ -83,6 +83,11 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
+projects[features_override][version] = 2.x-dev
+projects[features_override][subdir] = contrib
+projects[features_override][download][type] = git
+projects[features_override][download][branch] = 7.x-2.x
+
 ; GSB Projects
 
 projects[gsb_section_autoconfig][type] = module
@@ -133,11 +138,18 @@ projects[gsb_feature_news][download][tag] = 1.0
 projects[gsb_feature_news][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
-projects[gsb_feature_wysiwyg][type] = module
-projects[gsb_feature_wysiwyg][download][type] = git
-projects[gsb_feature_wysiwyg][download][url] = https://github.com/gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][tag] = 1.0
-projects[gsb_feature_wysiwyg][subdir] = custom/features
+; projects[gsb_feature_wysiwyg][type] = module
+; projects[gsb_feature_wysiwyg][download][type] = git
+; projects[gsb_feature_wysiwyg][download][url] = https://github.com/gsbitse/gsb_feature_wysiwyg.git
+; projects[gsb_feature_wysiwyg][download][tag] = 1.0
+; projects[gsb_feature_wysiwyg][subdir] = custom/features
+
+; GSB Panopoly Wysiwyg Override
+projects[gsb_panopoly_wysiwyg_override][type] = module
+projects[gsb_panopoly_wysiwyg_override][download][type] = git
+projects[gsb_panopoly_wysiwyg_override][download][url] = https://github.com/gsbitse/gsb_panopoly_wysiwyg_override.git
+projects[gsb_panopoly_wysiwyg_override][download][tag] = 1.0
+projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
