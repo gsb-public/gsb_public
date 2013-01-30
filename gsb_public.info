@@ -49,6 +49,11 @@ dependencies[] = uuid
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
+dependencies[] = job_scheduler
+dependencies[] = feeds
+dependencies[] = feeds_ui
+dependencies[] = feeds_tamper
+dependencies[] = feeds_jsonpath_parser
 
 ; GSB Custom Modules
 dependencies[] = gsb_section_autoconfig
@@ -62,5 +67,6 @@ dependencies[] = gsb_feature_page
 dependencies[] = gsb_feature_person
 dependencies[] = gsb_feature_news
 dependencies[] = gsb_panopoly_wysiwyg_override
+dependencies[] = gsb_feature_import_gathercontent
 
 

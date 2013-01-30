@@ -90,12 +90,16 @@ projects[job_scheduler][subdir] = contrib
 
 projects[feeds][version] = 2.0-alpha7
 projects[feeds][subdir] = contrib
+projects[feeds][patch][feeds-http_request-POST-handle] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/feeds-http_request-POST-handle.patch
 
 projects[feeds_tamper][version] = 1.0-beta4
 projects[feeds_tamper][subdir] = contrib
 
 projects[feeds_jsonpath_parser][version] = 1.0-beta2
 projects[feeds_jsonpath_parser][subdir] = contrib
+
+projects[feeds_jsonpath_parser][download][type] = get
+projects[feeds_jsonpath_parser][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
 
 ; GSB Projects
 
@@ -152,6 +156,13 @@ projects[gsb_panopoly_wysiwyg_override][download][type] = git
 projects[gsb_panopoly_wysiwyg_override][download][url] = https://github.com/gsbitse/gsb_panopoly_wysiwyg_override.git
 projects[gsb_panopoly_wysiwyg_override][download][tag] = 1.1
 projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
+
+; GSB Features Import GatherContent
+projects[gsb_feature_import_gathercontent][type] = module
+projects[gsb_feature_import_gathercontent][download][type] = git
+projects[gsb_feature_import_gathercontent][download][url] = https://github.com/gsbitse/gsb_feature_import_gathercontent.git
+projects[gsb_feature_import_gathercontent][download][tag] = 1.0
+projects[gsb_feature_import_gathercontent][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
