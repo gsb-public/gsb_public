@@ -83,9 +83,6 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
-projects[auto_nodetitle][version] = 1.0
-projects[auto_nodetitle][subdir] = contrib
-
 ; GSB Projects
 
 projects[gsb_section_autoconfig][type] = module
