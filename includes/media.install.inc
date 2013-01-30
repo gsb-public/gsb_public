@@ -8,26 +8,22 @@ function _gsb_public_setup_media() {
   /*** Default ***/
 
   // File Image
-  $display = file_display_new('image', 'default', 'file_image');
-  $display->status = TRUE;
-  $display->settings += array(
+  $settings = array(
     'image_style' => 'gsb_image_large',
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
-  file_display_save((object) $display);
+  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'default', 'formatter' => 'file_image', 'settings' => $settings));
 
   /*** Preview ***/
 
   // File Image
-  $display = file_display_new('image', 'preview', 'file_image');
-  $display->status = TRUE;
-  $display->settings += array(
+  $settings = array(
     'image_style' => 'gsb_image_small',
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
-  file_display_save((object) $display);
+  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'preview', 'formatter' => 'file_image', 'settings' => $settings));
 
   /**
    * Configure Video Displays
@@ -36,19 +32,15 @@ function _gsb_public_setup_media() {
   /*** Default ***/
 
   // Vimeo
-  $display = file_display_new('video', 'default', 'media_vimeo_video');
-  $display->status = TRUE;
-  $display->settings += array(
+  $settings = array(
     'width' => 627,
     'height' => 353,
     'autoplay' => 0,
   );
-  file_display_save((object) $display);
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'default', 'formatter' => 'media_vimeo_video', 'settings' => $settings));
 
   // Youtube
-  $display = file_display_new('video', 'default', 'media_youtube_video');
-  $display->status = TRUE;
-  $display->settings += array(
+  $settings = array(
     'theme' => 'dark',
     'width' => 627,
     'height' => 353,
@@ -61,23 +53,32 @@ function _gsb_public_setup_media() {
     'showinfo' => 1,
     'chromeless' => 0,
   );
-  file_display_save((object) $display);
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'default', 'formatter' => 'media_youtube_video', 'settings' => $settings));
 
   /*** Preview ***/
 
   // Vimeo
-  $display = file_display_new('video', 'preview', 'media_vimeo_image');
-  $display->status = TRUE;
-  $display->settings += array(
+  $settings = array(
     'image_style' => 'gsb_image_small',
   );
-  file_display_save((object) $display);
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter' => 'media_vimeo_image', 'settings' => $settings));
 
   // Youtube
-  $display = file_display_new('video', 'preview', 'media_youtube_image');
-  $display->status = TRUE;
-  $display->settings += array(
+  $settings = array(
     'image_style' => 'gsb_image_small',
   );
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter' => 'media_youtube_image', 'settings' => $settings));
+
+}
+
+/**
+ * Saves a file display based on the settings given.
+ */
+function _gsb_public_media_save_display($options) {
+  $display = file_display_new($options['file_type'], $options['view_mode'], $options['formatter_name']);
+  $display->status = TRUE;
+  $settings = $display->settings;
+  $settings += $options['settings'];
+  $display->settings = $settings;
   file_display_save((object) $display);
 }
