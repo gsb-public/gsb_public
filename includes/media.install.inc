@@ -75,10 +75,19 @@ function _gsb_public_setup_media() {
  * Saves a file display based on the settings given.
  */
 function _gsb_public_media_save_display($options) {
+  $displays = file_displays_load($options['file_type'], $options['view_mode'], TRUE);
+  $display = isset($displays[$options['formatter_name']]) ? $displays[$options['formatter_name']] : file_display_new($options['file_type'], $options['view_mode'], $options['formatter_name']);
+  $display->status = TRUE;
+  $settings = (array) $display->settings;
+  $settings += $options['settings'];
+  $display->settings = $settings;
+  file_display_save((object) $display);
+  /**
   $display = file_display_new($options['file_type'], $options['view_mode'], $options['formatter_name']);
   $display->status = TRUE;
   $settings = (array) $display->settings;
   $settings += $options['settings'];
   $display->settings = $settings;
   file_display_save((object) $display);
+  **/
 }
