@@ -77,7 +77,7 @@ function _gsb_public_setup_media() {
 function _gsb_public_media_save_display($options) {
   $display = file_display_new($options['file_type'], $options['view_mode'], $options['formatter_name']);
   $display->status = TRUE;
-  $settings = $display->settings;
+  $settings = (array) $display->settings;
   $settings += $options['settings'];
   $display->settings = $settings;
   file_display_save((object) $display);
