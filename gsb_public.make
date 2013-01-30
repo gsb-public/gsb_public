@@ -83,6 +83,20 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
+; Modules for import - Feeds related basically
+
+projects[job_scheduler][version] = 7.x-2.0-alpha3
+projects[job_scheduler][subdir] = contrib
+
+projects[feeds][version] = 7.x-2.0-alpha7
+projects[feeds][subdir] = contrib
+
+projects[feeds_tamper][version] = 7.x-1.0-beta4
+projects[feeds_tamper][subdir] = contrib
+
+projects[feeds_jsonpath_parser][version] = 7.x-1.0-beta2
+projects[feeds_jsonpath_parser][subdir] = contrib
+
 ; GSB Projects
 
 projects[gsb_section_autoconfig][type] = module
