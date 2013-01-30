@@ -150,7 +150,7 @@ projects[gsb_feature_news][subdir] = custom/features
 projects[gsb_panopoly_wysiwyg_override][type] = module
 projects[gsb_panopoly_wysiwyg_override][download][type] = git
 projects[gsb_panopoly_wysiwyg_override][download][url] = https://github.com/gsbitse/gsb_panopoly_wysiwyg_override.git
-projects[gsb_panopoly_wysiwyg_override][download][tag] = 1.0
+projects[gsb_panopoly_wysiwyg_override][download][tag] = 1.1
 projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
