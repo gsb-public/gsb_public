@@ -61,6 +61,7 @@ dependencies[] = gsb_feature_event
 dependencies[] = gsb_feature_page
 dependencies[] = gsb_feature_person
 dependencies[] = gsb_feature_news
+dependencies[] = gsb_feature_slideshow
 dependencies[] = gsb_panopoly_wysiwyg_override
 
 
