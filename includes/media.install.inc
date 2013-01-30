@@ -13,7 +13,7 @@ function _gsb_public_setup_media() {
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
-  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'default', 'formatter' => 'file_image', 'settings' => $settings));
+  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'default', 'formatter_name' => 'file_image', 'settings' => $settings));
 
   /*** Preview ***/
 
@@ -23,7 +23,7 @@ function _gsb_public_setup_media() {
     'alt' => '[file:field_file_image_alt_text]',
     'title' => '[file:field_file_image_title_text]',
   );
-  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'preview', 'formatter' => 'file_image', 'settings' => $settings));
+  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'preview', 'formatter_name' => 'file_image', 'settings' => $settings));
 
   /**
    * Configure Video Displays
@@ -37,7 +37,7 @@ function _gsb_public_setup_media() {
     'height' => 353,
     'autoplay' => 0,
   );
-  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'default', 'formatter' => 'media_vimeo_video', 'settings' => $settings));
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'default', 'formatter_name' => 'media_vimeo_video', 'settings' => $settings));
 
   // Youtube
   $settings = array(
@@ -53,7 +53,7 @@ function _gsb_public_setup_media() {
     'showinfo' => 1,
     'chromeless' => 0,
   );
-  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'default', 'formatter' => 'media_youtube_video', 'settings' => $settings));
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'default', 'formatter_name' => 'media_youtube_video', 'settings' => $settings));
 
   /*** Preview ***/
 
@@ -61,13 +61,13 @@ function _gsb_public_setup_media() {
   $settings = array(
     'image_style' => 'gsb_image_small',
   );
-  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter' => 'media_vimeo_image', 'settings' => $settings));
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter_name' => 'media_vimeo_image', 'settings' => $settings));
 
   // Youtube
   $settings = array(
     'image_style' => 'gsb_image_small',
   );
-  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter' => 'media_youtube_image', 'settings' => $settings));
+  _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter_name' => 'media_youtube_image', 'settings' => $settings));
 
 }
 
