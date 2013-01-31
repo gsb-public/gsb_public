@@ -95,8 +95,8 @@ projects[feeds][patch][feeds-http_request-POST-handle] = https://raw.github.com/
 projects[feeds_tamper][version] = 1.0-beta4
 projects[feeds_tamper][subdir] = contrib
 
-projects[feeds_jsonpath_parser][version] = 1.0-beta2
-projects[feeds_jsonpath_parser][subdir] = contrib
+;projects[feeds_jsonpath_parser][version] = 1.0-beta2
+;projects[feeds_jsonpath_parser][subdir] = contrib
 
 ;projects[feeds_jsonpath_parser][download][type] = file
 ;projects[feeds_jsonpath_parser][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
