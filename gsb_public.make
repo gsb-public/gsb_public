@@ -98,8 +98,8 @@ projects[feeds_tamper][subdir] = contrib
 projects[feeds_jsonpath_parser][version] = 1.0-beta2
 projects[feeds_jsonpath_parser][subdir] = contrib
 
-projects[feeds_jsonpath_parser][download][type] = get
-projects[feeds_jsonpath_parser][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
+;projects[feeds_jsonpath_parser][download][type] = get
+;projects[feeds_jsonpath_parser][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
 
 ; GSB Projects
 
