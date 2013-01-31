@@ -2,30 +2,6 @@
 
 function _gsb_public_setup_media() {
   /**
-   * Configure Image Displays
-   */
-
-  /*** Default ***/
-
-  // File Image
-  $settings = array(
-    'image_style' => 'gsb_image_large',
-    'alt' => '[file:field_file_image_alt_text]',
-    'title' => '[file:field_file_image_title_text]',
-  );
-  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'default', 'formatter_name' => 'file_image', 'settings' => $settings));
-
-  /*** Preview ***/
-
-  // File Image
-  $settings = array(
-    'image_style' => 'gsb_image_small',
-    'alt' => '[file:field_file_image_alt_text]',
-    'title' => '[file:field_file_image_title_text]',
-  );
-  _gsb_public_media_save_display(array('file_type' => 'image', 'view_mode' => 'preview', 'formatter_name' => 'file_image', 'settings' => $settings));
-
-  /**
    * Configure Video Displays
    */
 
@@ -82,12 +58,4 @@ function _gsb_public_media_save_display($options) {
   $settings += $options['settings'];
   $display->settings = $settings;
   file_display_save((object) $display);
-  /**
-  $display = file_display_new($options['file_type'], $options['view_mode'], $options['formatter_name']);
-  $display->status = TRUE;
-  $settings = (array) $display->settings;
-  $settings += $options['settings'];
-  $display->settings = $settings;
-  file_display_save((object) $display);
-  **/
 }
