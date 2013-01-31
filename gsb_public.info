@@ -53,6 +53,7 @@ dependencies[] = job_scheduler
 dependencies[] = feeds
 dependencies[] = feeds_ui
 dependencies[] = feeds_tamper
+dependencies[] = feeds_tamper_ui
 dependencies[] = feeds_jsonpath_parser
 
 ; GSB Custom Modules
