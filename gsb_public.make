@@ -146,6 +146,13 @@ projects[gsb_feature_news][download][url] = https://github.com/gsbitse/gsb_featu
 projects[gsb_feature_news][download][tag] = 1.0
 projects[gsb_feature_news][subdir] = custom/features
 
+; GSB Feature Spotlight
+projects[gsb_feature_spotlight][type] = module
+projects[gsb_feature_spotlight][download][type] = git
+projects[gsb_feature_spotlight][download][url] = https://github.com/gsbitse/gsb_feature_spotlight.git
+projects[gsb_feature_spotlight][download][branch] = master
+projects[gsb_feature_spotlight][subdir] = custom/features
+
 ; GSB Panopoly Images Override
 projects[gsb_panopoly_images_override][type] = module
 projects[gsb_panopoly_images_override][download][type] = git
