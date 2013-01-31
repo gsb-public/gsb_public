@@ -98,12 +98,8 @@ projects[feeds_tamper][subdir] = contrib
 projects[feeds_jsonpath_parser][version] = 1.0-beta2
 projects[feeds_jsonpath_parser][subdir] = contrib
 
-<<<<<<< HEAD
-projects[feeds_jsonpath_parser][download][type] = file
-=======
-projects[feeds_jsonpath_parser][download][type] = get
->>>>>>> parent of 6c35b82... Drush make replace whole module for some reason when download - remove download for now
-projects[feeds_jsonpath_parser][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
+;projects[feeds_jsonpath_parser][download][type] = file
+;projects[feeds_jsonpath_parser][download][url] = http://jsonpath.googlecode.com/files/jsonpath-0.8.1.php
 
 ; GSB Projects
 
