@@ -186,7 +186,7 @@ projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 projects[gsb_feature_import_gathercontent][type] = module
 projects[gsb_feature_import_gathercontent][download][type] = git
 projects[gsb_feature_import_gathercontent][download][url] = https://github.com/gsbitse/gsb_feature_import_gathercontent.git
-projects[gsb_feature_import_gathercontent][download][tag] = 1.0
+projects[gsb_feature_import_gathercontent][download][tag] = 1.1
 projects[gsb_feature_import_gathercontent][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
