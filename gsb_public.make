@@ -71,7 +71,7 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 
 ; Not related to panopoly, but GSB added contrib modules.
 
-projects[fancybox][version] = 2.0-dev
+projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
 projects[fancybox][download][type] = git
 projects[fancybox][download][revision] = 272acd3
