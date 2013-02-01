@@ -46,6 +46,7 @@ dependencies[] = devel
 dependencies[] = uuid
 
 ; GSB Additional Contrib Modules
+dependencies[] = fancybox
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation

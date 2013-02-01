@@ -71,6 +71,12 @@ projects[panopoly_search][download][branch] = 7.x-1.x
 
 ; Not related to panopoly, but GSB added contrib modules.
 
+projects[fancybox][version] = 2.0-alpha3
+projects[fancybox][subdir] = contrib
+
+libraries[fancybox][download][type] = get
+libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
+
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
