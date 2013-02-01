@@ -180,7 +180,10 @@ projects[gsb_feature_import_gathercontent][subdir] = custom/features
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = git
 projects[open_framework][download][url] = https://github.com/SU-SWS/open_framework.git
-projects[open_framework][download][tag] = 7.x-2.02
+projects[open_framework][download][revision] = 3f3fbb4f32
+projects[open_framework][download][branch] = 7.x-2.x
+projects[open_framework][patch][remove-jquery] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/openframework-jquery.patch
+
 
 ; GSB Framework Theme
 projects[gsb_framework][type] = theme
