@@ -83,22 +83,6 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
-; Modules for import - Feeds related basically
-
-projects[job_scheduler][version] = 2.0-alpha3
-projects[job_scheduler][subdir] = contrib
-
-projects[feeds][version] = 2.0-alpha7
-projects[feeds][subdir] = contrib
-projects[feeds][patch][feeds-http_request-POST-handle] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/feeds-http_request-POST-handle.patch
-
-projects[feeds_tamper][version] = 1.0-beta4
-projects[feeds_tamper][subdir] = contrib
-
-projects[feeds_jsonpath_parser][version] = 1.0-beta2
-projects[feeds_jsonpath_parser][subdir] = contrib
-projects[feeds_jsonpath_parser][patch][add-jsonpatch-lib] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/add-jsonpatch-lib.patch
-
 ; GSB Projects
 
 projects[gsb_section_autoconfig][type] = module
@@ -180,7 +164,7 @@ projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 projects[gsb_feature_import_gathercontent][type] = module
 projects[gsb_feature_import_gathercontent][download][type] = git
 projects[gsb_feature_import_gathercontent][download][url] = https://github.com/gsbitse/gsb_feature_import_gathercontent.git
-projects[gsb_feature_import_gathercontent][download][tag] = 1.1
+projects[gsb_feature_import_gathercontent][download][tag] = 1.2
 projects[gsb_feature_import_gathercontent][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
