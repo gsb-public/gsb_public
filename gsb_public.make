@@ -180,7 +180,7 @@ projects[gsb_feature_import_gathercontent][subdir] = custom/features
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = get
 projects[open_framework][download][url] = https://github.com/SU-SWS/open_framework/archive/7.x-2.02.zip
-projects[open_framework][patch][remove-jquery] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/openframework-jquery.patch
+;projects[open_framework][patch][remove-jquery] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/openframework-jquery.patch
 projects[open_framework][patch][separate-nav] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/sepearate-nav-styles.patch
 
 
