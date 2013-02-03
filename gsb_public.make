@@ -74,10 +74,10 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
-projects[workbench][download][revision] = 38f6f5f
+projects[workbench][download][revision] = 16a8fff
 projects[workbench][download][branch] = 7.x-1.x
 
-projects[workbench_access][version] = 1.1
+projects[workbench_access][version] = 1.2
 projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.3
