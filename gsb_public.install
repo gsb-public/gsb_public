@@ -15,6 +15,7 @@ function gsb_public_install() {
     'users',
     'filter_formats',
     'workbench',
+    'panopoly',
     'cron',
     'cache',
     'files',
