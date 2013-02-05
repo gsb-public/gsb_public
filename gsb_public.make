@@ -80,6 +80,11 @@ projects[fancybox][download][branch] = 7.x-2.x
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
 
+projects[menu_minipanels][version] = 1.1
+projects[menu_minipanels][subdir] = contrib
+libraries[qtip][download][type] = file
+libraries[qtip][download][url] = https://raw.github.com/Craga89/qTip1/master/1.0.0-rc3/jquery.qtip-1.0.0-rc3.js
+
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
