@@ -23,6 +23,7 @@ function gsb_public_install() {
     'themes',
     'media',
     'fancybox',
+    'search',
     'cleanup',  // please leave this as the last task to run
   );
 
