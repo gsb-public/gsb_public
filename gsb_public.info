@@ -68,3 +68,4 @@ dependencies[] = gsb_feature_slideshow
 dependencies[] = gsb_feature_spotlight
 dependencies[] = gsb_panopoly_images_override
 dependencies[] = gsb_panopoly_wysiwyg_override
+dependencies[] = gsb_search_server

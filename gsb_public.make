@@ -100,7 +100,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_feature_club][type] = module
 projects[gsb_feature_club][download][type] = git
 projects[gsb_feature_club][download][url] = https://github.com/gsbitse/gsb_feature_club.git
-projects[gsb_feature_club][download][tag] = 1.1
+projects[gsb_feature_club][download][branch] = master
 projects[gsb_feature_club][subdir] = custom/features
 
 ; GSB Feature Event
@@ -158,6 +158,13 @@ projects[gsb_panopoly_wysiwyg_override][download][type] = git
 projects[gsb_panopoly_wysiwyg_override][download][url] = https://github.com/gsbitse/gsb_panopoly_wysiwyg_override.git
 projects[gsb_panopoly_wysiwyg_override][download][tag] = 1.1
 projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
+
+; GSB Search Server
+projects[gsb_search_server][type] = module
+projects[gsb_search_server][download][type] = git
+projects[gsb_search_server][download][url] = https://github.com/gsbitse/gsb_search_server.git
+projects[gsb_search_server][download][branch] = master
+projects[gsb_search_server][subdir] = custom/features
 
 ; GSB Features Import GatherContent
 projects[gsb_feature_import_gathercontent][type] = module
