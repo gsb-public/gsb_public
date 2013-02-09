@@ -9,6 +9,9 @@ projects[panopoly_core][download][type] = git
 projects[panopoly_core][download][revision] = 3bcd157
 projects[panopoly_core][download][branch] = 7.x-1.x
 projects[panopoly_core][patch][1884656] = http://drupal.org/files/1884656-views_patch-2.patch
+; Patch for default config
+projects[defaultconfig][subdir] = contrib
+projects[defaultconfig][patch][1912312] = http://drupal.org/files/defaultconfig-remove-notice-1912312.patch
 
 projects[panopoly_images][version] = 1.x-dev
 projects[panopoly_images][subdir] = panopoly
