@@ -45,6 +45,15 @@ function _gsb_public_setup_media() {
   );
   _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter_name' => 'media_youtube_image', 'settings' => $settings));
 
+
+  // Change the default browser plugins for media center.
+  $browser_plugins = array(
+    'gsb_media_center_image',
+    'gsb_media_center_video',
+    'gsb_media_center_document',
+  );
+  variable_set('media__wysiwyg_browser_plugins', $browser_plugins);
+
 }
 
 /**
