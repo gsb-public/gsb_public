@@ -4,6 +4,6 @@
  * Revert features after install
  */
 function _gsb_public_setup_revert() {
-  // Add revert for one feature
-  features_revert(array('gsb_feature_club' => array('field', 'views_view', 'ctools', 'node', 'features_api', 'variable', 'search_api_index', 'page_manager')));
+  // I have to make single page revert witch is delete basically. It will restore panel page from sources so we have variant enbaled by default. I took time to figure out how it is possible
+  page_manager_page_delete(page_manager_page_load('club_search_page'));
 }
