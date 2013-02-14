@@ -205,3 +205,11 @@ projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = https://github.com/gsbitse/gsb_fpp_customization.git
 projects[gsb_fpp_customization][download][tag] = 1.0
 projects[gsb_fpp_customization][subdir] = custom
+
+
+; Override make files.  This absolutely has to be last.
+projects[gsb_make_overrides][type] = module
+projects[gsb_make_overrides][download][type] = git
+projects[gsb_make_overrides][download][url] = https://github.com/gsbitse/gsb_make_overrides.git
+projects[gsb_make_overrides][download][branch] = master
+projects[gsb_make_overrides][subdir] = custom
