@@ -85,12 +85,12 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
-projects[workbench_predefined_options][version] = 1.x-dev
-projects[workbench_predefined_options][subdir] = contrib
-projects[workbench_predefined_options][download][type] = git
-projects[workbench_predefined_options][download][url] = http://git.drupal.org/project/workbench_predefined_options.git
-projects[workbench_predefined_options][download][revision] = a398acd
-projects[workbench_predefined_options][download][branch] = 7.x-1.x
+;projects[workbench_predefined_options][version] = 1.x-dev
+;projects[workbench_predefined_options][subdir] = contrib
+;projects[workbench_predefined_options][download][type] = git
+;projects[workbench_predefined_options][download][url] = http://git.drupal.org/project/workbench_predefined_options.git
+;projects[workbench_predefined_options][download][revision] = a398acd
+;projects[workbench_predefined_options][download][branch] = 7.x-1.x
 
 ; GSB Projects
 

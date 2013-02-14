@@ -52,7 +52,7 @@ dependencies[] = menu_minipanels
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
-dependencies[] = workbench_predefined_options
+;dependencies[] = workbench_predefined_options
 
 ; GSB Custom Modules
 dependencies[] = gsb_section_autoconfig
