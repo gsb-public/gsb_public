@@ -8,6 +8,7 @@
 function gsb_public_install() {
 
   $actions = array(
+    'revert',
     'siteinfo',
     'time_date',
     'userinfo',
@@ -23,7 +24,6 @@ function gsb_public_install() {
     'themes',
     'media',
     'fancybox',
-    'revert',
     'cleanup',  // please leave this as the last task to run
   );
 
