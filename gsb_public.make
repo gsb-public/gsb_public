@@ -108,7 +108,7 @@ projects[gsb_feature_club][subdir] = custom/features
 projects[gsb_feature_event][type] = module
 projects[gsb_feature_event][download][type] = git
 projects[gsb_feature_event][download][url] = https://github.com/gsbitse/gsb_feature_event.git
-projects[gsb_feature_event][download][tag] = 1.2
+projects[gsb_feature_event][download][branch] = master
 projects[gsb_feature_event][subdir] = custom/features
 
 ; GSB Feature Page
