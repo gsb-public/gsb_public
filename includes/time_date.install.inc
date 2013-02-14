@@ -3,7 +3,7 @@
 function _gsb_public_setup_time_date() {
 
   $variables = array(
-    'configurable_timezones' => 1, // Users set their own timezone
+    'configurable_timezones' => 0, // Users set their own timezone
     'date_default_timezone' => 'America/Los_Angeles', // Timezone
     'date_first_day' => 0, // First day of the week will be sunday
     'empty_timezone_message' => 0, // Don't show a message to users if the timezone is empty
