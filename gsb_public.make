@@ -66,6 +66,8 @@ projects[fancybox][download][branch] = 7.x-2.x
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
 
+projects[list_predefined_options] = 1.0
+
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
 libraries[qtip][download][type] = file
@@ -82,6 +84,12 @@ projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
+
+projects[workbench_predefined_options][version] = 1.x-dev
+projects[workbench_predefined_options][subdir] = contrib
+projects[workbench_predefined_options][download][type] = git
+projects[workbench_predefined_options][download][revision] = a398acd
+projects[workbench_predefined_options][download][branch] = 7.x-1.x
 
 ; GSB Projects
 
