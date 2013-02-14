@@ -85,6 +85,7 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
+projects[workbench_predefined_options][type] = module
 projects[workbench_predefined_options][version] = 1.x-dev
 projects[workbench_predefined_options][subdir] = contrib
 projects[workbench_predefined_options][download][type] = git
