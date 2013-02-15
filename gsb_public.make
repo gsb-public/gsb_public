@@ -177,7 +177,6 @@ projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
 projects[panopoly_core][download][revision] = 3bcd157
 projects[panopoly_core][download][branch] = 7.x-1.x
-projects[panopoly_core][patch][1884656] = http://drupal.org/files/1884656-views_patch-2.patch
 projects[panopoly_core][patch][panopoly_core_default_config] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/panopoly_core_default_config.patch
 
 projects[panopoly_images][version] = 1.x-dev
