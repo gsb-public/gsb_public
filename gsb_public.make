@@ -142,7 +142,8 @@ projects[fancybox][download][branch] = 7.x-2.x
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
 
-projects[list_predefined_options] = 1.0
+projects[list_predefined_options][version] = 1.0
+projects[list_predefined_options][subdir] = contrib
 
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
