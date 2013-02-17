@@ -47,12 +47,10 @@ dependencies[] = uuid
 
 ; GSB Additional Contrib Modules
 dependencies[] = fancybox
-dependencies[] = list_predefined_options
 dependencies[] = menu_minipanels
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
-dependencies[] = workbench_predefined_options
 
 ; GSB Custom Modules
 dependencies[] = gsb_section_autoconfig
