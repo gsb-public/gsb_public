@@ -62,7 +62,7 @@ function _gsb_public_setup_media() {
    * Add sections field.
    */
   /** Section field and instance **/
-
+/**
   // Define the sections field.
   $sections_field = array(
     'active' => '1',
@@ -174,6 +174,7 @@ function _gsb_public_setup_media() {
   if (!field_info_instance($sections_instance['entity_type'], $sections_instance['field_name'], $sections_instance['bundle'])) {
     field_create_instance($sections_instance);
   }
+  **/
 }
 
 /**
