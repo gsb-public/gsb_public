@@ -62,7 +62,7 @@ function _gsb_public_setup_media() {
    * Add sections field.
    */
   /** Section field and instance **/
-/**
+
   // Define the sections field.
   $sections_field = array(
     'active' => '1',
@@ -70,20 +70,31 @@ function _gsb_public_setup_media() {
     'deleted' => '0',
     'entity_types' => array(),
     'field_name' => 'field_sections',
-    'foreign keys' => array(),
+    'foreign keys' => array(
+      'tid' => array(
+        'columns' => array(
+          'tid' => 'tid',
+        ),
+        'table' => 'taxonomy_term_data',
+      ),
+    ),
     'indexes' => array(
-      'value' => array(
-        0 => 'value',
+      'tid' => array(
+        0 => 'tid',
       ),
     ),
     'locked' => '0',
-    'module' => 'list',
+    'module' => 'taxonomy',
     'settings' => array(
-      'allowed_values' => array(),
-      'allowed_values_function' => 'workbench_predefined_options_access_sections',
+      'allowed_values' => array(
+        0 => array(
+          'vocabulary' => 'workbench_sections',
+          'parent' => '0',
+        ),
+      ),
     ),
     'translatable' => '0',
-    'type' => 'list_text',
+    'type' => 'taxonomy_term_reference',
   );
 
   // As long as the sections field doesn't already exist create it.
@@ -100,12 +111,18 @@ function _gsb_public_setup_media() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => 'list',
+        'module' => 'taxonomy',
         'settings' => array(),
-        'type' => 'list_default',
-        'weight' => 4,
+        'type' => 'taxonomy_term_reference_link',
+        'weight' => 2,
       ),
       'gsb_slideshow' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
         'label' => 'above',
         'settings' => array(),
         'type' => 'hidden',
@@ -133,7 +150,7 @@ function _gsb_public_setup_media() {
     'entity_type' => 'file',
     'field_name' => 'field_sections',
     'label' => 'Sections',
-    'required' => 0,
+    'required' => 1,
     'settings' => array(
       'user_register_form' => FALSE,
     ),
@@ -142,8 +159,9 @@ function _gsb_public_setup_media() {
       'module' => 'options',
       'settings' => array(),
       'type' => 'options_buttons',
-      'weight' => 0,
+      'weight' => '-2',
     ),
+    'workbench_access_field' => 0,
   );
 
   // As long as the image sections instance doesn't already exist create it.
@@ -174,7 +192,6 @@ function _gsb_public_setup_media() {
   if (!field_info_instance($sections_instance['entity_type'], $sections_instance['field_name'], $sections_instance['bundle'])) {
     field_create_instance($sections_instance);
   }
-  **/
 }
 
 /**
