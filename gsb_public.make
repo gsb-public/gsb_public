@@ -184,7 +184,7 @@ projects[gsb_feature_import_gathercontent][subdir] = custom/features
 ; GSB Features Mega Menu
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
-projects[gsb_feature_mega_menu][download][url] = https://github.com/jk-propeople/gsb_feature_mega_menu-
+projects[gsb_feature_mega_menu][download][url] = https://github.com/jk-propeople/gsb_feature_mega_menu-.git
 projects[gsb_feature_mega_menu][download][branch] = master
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
