@@ -1,13 +1,20 @@
 <?php
 
 function _gsb_public_setup_workbench() {
+  $vocabulary = (object) array(
+    'name' => 'Workbench Sections',
+    'machine_name' => 'workbench_sections',
+    'description' => t('This holds the roles for the sections in workbench.'),
+  );
+
+  taxonomy_vocabulary_save($vocabulary);
   $variables = array(
-    'workbench_access' => 'menu',
-    'workbench_access_allow_multiple' => 0,
-    'workbench_access_auto_assign' => 0,
+    'workbench_access' => 'taxonomy',
+    'workbench_access_allow_multiple' => 1,
+    'workbench_access_auto_assign' => 1,
     'workbench_access_label' => 'Section',
-    'workbench_access_menu' => array(
-      'main-menu' => 'main-menu'
+    'workbench_access_taxonomy' => array(
+      'workbench_sections' => 'workbench_sections'
     ),
   );
 
