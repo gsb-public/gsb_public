@@ -49,11 +49,11 @@ projects[gsb_feature_event_display][download][branch] = master
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Page
-projects[gsb_feature_page][type] = module
-projects[gsb_feature_page][download][type] = git
-projects[gsb_feature_page][download][url] = https://github.com/gsbitse/gsb_feature_page.git
-projects[gsb_feature_page][download][tag] = 1.3
-projects[gsb_feature_page][subdir] = custom/features
+projects[gsb_feature_page_ct][type] = module
+projects[gsb_feature_page_ct][download][type] = git
+projects[gsb_feature_page_ct][download][url] = https://github.com/gsbitse/gsb_feature_page_ct.git
+projects[gsb_feature_page_ct][download][tag] = 1.3
+projects[gsb_feature_page_ct][subdir] = custom/features
 
 ; GSB Feature Person
 projects[gsb_feature_person][type] = module
