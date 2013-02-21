@@ -57,6 +57,13 @@ projects[gsb_feature_news][download][url] = https://github.com/gsbitse/gsb_featu
 projects[gsb_feature_news][download][tag] = 1.0
 projects[gsb_feature_news][subdir] = custom/features
 
+; GSB Feature Social Feed
+projects[gsb_feature_social_feed][type] = module
+projects[gsb_feature_social_feed][download][type] = git
+projects[gsb_feature_social_feed][download][url] = https://github.com/gsbitse/gsb_feature_social_feed.git
+projects[gsb_feature_social_feed][download][tag] = 1.0
+projects[gsb_feature_social_feed][subdir] = custom/features
+
 ; GSB Feature Spotlight
 projects[gsb_feature_spotlight][type] = module
 projects[gsb_feature_spotlight][download][type] = git
