@@ -36,11 +36,17 @@ projects[gsb_feature_club_display][download][branch] = master
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Feature Event
-projects[gsb_feature_event][type] = module
-projects[gsb_feature_event][download][type] = git
-projects[gsb_feature_event][download][url] = https://github.com/gsbitse/gsb_feature_event.git
-projects[gsb_feature_event][download][branch] = master
-projects[gsb_feature_event][subdir] = custom/features
+projects[gsb_feature_event_ct][type] = module
+projects[gsb_feature_event_ct][download][type] = git
+projects[gsb_feature_event_ct][download][url] = https://github.com/gsbitse/gsb_feature_event_ct.git
+projects[gsb_feature_event_ct][download][branch] = master
+projects[gsb_feature_event_ct][subdir] = custom/features
+
+projects[gsb_feature_event_display][type] = module
+projects[gsb_feature_event_display][download][type] = git
+projects[gsb_feature_event_display][download][url] = https://github.com/gsbitse/gsb_feature_event_display.git
+projects[gsb_feature_event_display][download][branch] = master
+projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Page
 projects[gsb_feature_page][type] = module
