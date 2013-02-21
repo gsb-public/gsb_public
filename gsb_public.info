@@ -65,6 +65,7 @@ dependencies[] = gsb_feature_news
 dependencies[] = gsb_feature_page
 dependencies[] = gsb_feature_person
 dependencies[] = gsb_feature_slideshow
+dependencies[] = gsb_feature_social_feed
 dependencies[] = gsb_feature_spotlight
 dependencies[] = gsb_feature_video
 dependencies[] = gsb_panopoly_images_override
