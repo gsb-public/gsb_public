@@ -52,7 +52,7 @@ projects[gsb_feature_event_display][subdir] = custom/features
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
 projects[gsb_feature_page_ct][download][url] = https://github.com/gsbitse/gsb_feature_page_ct.git
-projects[gsb_feature_page_ct][download][tag] = master
+projects[gsb_feature_page_ct][download][branch] = master
 projects[gsb_feature_page_ct][subdir] = custom/features
 
 ; GSB Feature Person
@@ -66,7 +66,7 @@ projects[gsb_feature_person][subdir] = custom/features
 projects[gsb_feature_news_ct][type] = module
 projects[gsb_feature_news_ct][download][type] = git
 projects[gsb_feature_news_ct][download][url] = https://github.com/gsbitse/gsb_feature_news_ct.git
-projects[gsb_feature_news_ct][download][tag] = master
+projects[gsb_feature_news_ct][download][branch] = master
 projects[gsb_feature_news_ct][subdir] = custom/features
 
 ; GSB Feature Social Feed
