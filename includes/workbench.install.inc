@@ -8,6 +8,28 @@ function _gsb_public_setup_workbench() {
   );
   taxonomy_vocabulary_save($vocabulary);
 
+  // Create a field
+  $field = array(
+    'field_name' => 'field_workbench_section_path',
+    'type' => 'text',
+    'label' => t('Menu Location'),
+  );
+  field_create_field($field);
+
+  // Attach the field to our taxonomy entity
+  $instance = array(
+    'field_name' => 'field_workbench_section_path',
+    'entity_type' => 'taxonomy_term',
+    'bundle' => 'workbench_sections',
+    'label' => t('Menu Location'),
+    'description' => t('The path where the menu should appear.'),
+    'widget' => array(
+      'type' => 'text_textfield',
+      'weight' => 3
+    ),
+  );
+  field_create_instance($instance);
+
   $term = (object) array(
     'vid' => $vocabulary->vid,
     'name' => 'Administrators',
