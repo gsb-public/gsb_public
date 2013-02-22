@@ -6,8 +6,15 @@ function _gsb_public_setup_workbench() {
     'machine_name' => 'workbench_sections',
     'description' => t('This holds the roles for the sections in workbench.'),
   );
-
   taxonomy_vocabulary_save($vocabulary);
+
+  $term = (object) array(
+    'vid' => $vocabulary->vid,
+    'name' => 'Administrators',
+    'description' => t('Administrators of the site.'),
+  );
+  taxonomy_term_save($term);
+
   $variables = array(
     'workbench_access' => 'taxonomy',
     'workbench_access_allow_multiple' => 1,
@@ -17,7 +24,6 @@ function _gsb_public_setup_workbench() {
       'workbench_sections' => 'workbench_sections'
     ),
   );
-
   _gsb_public_variable_set_multiple($variables);
 
   // Remove the needs_review state.
