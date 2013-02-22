@@ -134,9 +134,16 @@ projects[gsb_feature_import_gathercontent][subdir] = custom/features
 ; GSB Features Mega Menu
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
-projects[gsb_feature_mega_menu][download][url] = https://github.com/jk-propeople/gsb_feature_mega_menu-.git
+projects[gsb_feature_mega_menu][download][url] = https://github.com/gsbitse/gsb_feature_mega_menu.git
 projects[gsb_feature_mega_menu][download][branch] = master
 projects[gsb_feature_mega_menu][subdir] = custom/features
+
+; GSB Features Accordion
+projects[gsb_feature_accordion][type] = module
+projects[gsb_feature_accordion][download][type] = git
+projects[gsb_feature_accordion][download][url] = https://github.com/gsbitse/gsb_feature_accordion.git
+projects[gsb_feature_accordion][download][branch] = master
+projects[gsb_feature_accordion][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
