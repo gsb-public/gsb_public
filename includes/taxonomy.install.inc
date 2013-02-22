@@ -1,91 +1,60 @@
 <?php
 
 function _gsb_public_setup_taxonomy() {
-  $vocabulary = (object) array(
-    'name' => 'Function',
-    'machine_name' => 'function',
-    'description' => t(''),
+  $vocabularies = array(
+    'academic_area' => array(
+      'name' => 'Academic Area',
+      'description' => t(''),
+    ),
+    'business_insight_topic' => array(
+      'name' => 'Business Insight Topic',
+      'description' => t(''),
+    ),
+    'club_category' => array(
+      'name' => 'Club Category',
+      'description' => t(''),
+    ),
+    'company_organization' => array(
+      'name' => 'Company/Organization',
+      'description' => t(''),
+    ),
+    'event_category' => array(
+      'name' => 'Event Category',
+      'description' => t(''),
+    ),
+    'event_series' => array(
+      'name' => 'Event Series',
+      'description' => t(''),
+    ),
+    'function' => array(
+      'name' => 'Function',
+      'description' => t(''),
+    ),
+    'industry' => array(
+      'name' => 'Industry',
+      'description' => t(''),
+    ),
+    'program' => array(
+      'name' => 'Program',
+      'description' => t(''),
+    ),
+    'region' => array(
+      'name' => 'Region',
+      'description' => t(''),
+    ),
+    'target_audience' => array(
+      'name' => 'Target Audience',
+      'description' => t(''),
+    ),
   );
 
-  taxonomy_vocabulary_save($vocabulary);
+  foreach ($vocabularies as $machine_name => $info) {
+    $vocabulary = (object) array(
+      'machine_name' => $machine_name,
+      'name' => $info['name'],
+      'description' => $info['description'],
+    );
 
-  $vocabulary = (object) array(
-    'name' => 'Industry',
-    'machine_name' => 'industry',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Region',
-    'machine_name' => 'region',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Business Insight Topic',
-    'machine_name' => 'business_insight_topic',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Event Category',
-    'machine_name' => 'event_category',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Target Audience',
-    'machine_name' => 'target_audience',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Company/Organization',
-    'machine_name' => 'company_organization',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Course Category',
-    'machine_name' => 'course_category',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Academic Area',
-    'machine_name' => 'academic_areas',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Event Series',
-    'machine_name' => 'event_series',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
-
-  $vocabulary = (object) array(
-    'name' => 'Program',
-    'machine_name' => 'program',
-    'description' => t(''),
-  );
-
-  taxonomy_vocabulary_save($vocabulary);
+    taxonomy_vocabulary_save($vocabulary);
+  }
 }
