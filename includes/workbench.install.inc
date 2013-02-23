@@ -74,7 +74,7 @@ function _gsb_public_setup_workbench() {
     'description' => t('Administrators of the site.'),
   );
   taxonomy_term_save($term);
-/**
+
   $record = array(
     'access_id' => $term->tid,
     'access_scheme' => 'taxonomy',
@@ -82,7 +82,6 @@ function _gsb_public_setup_workbench() {
     'access_type_id' => $section_id,
   );
   workbench_access_section_save($record);
-**/
 
   // Remove the needs_review state.
   $state = new stdClass();
