@@ -30,6 +30,28 @@ function _gsb_public_setup_workbench() {
   );
   field_create_instance($instance);
 
+  // Create a field
+  $field = array(
+    'field_name' => 'field_workbench_section_use_menu',
+    'type' => 'list_boolean',
+    'label' => t('Use a menu for this section.'),
+  );
+  field_create_field($field);
+
+  // Attach the field to our taxonomy entity
+  $instance = array(
+    'field_name' => 'field_workbench_section_use_menu',
+    'entity_type' => 'taxonomy_term',
+    'bundle' => 'workbench_sections',
+    'label' => t('Use a menu for this section.'),
+    'description' => t('If checked a menu will be created for this section.'),
+    'widget' => array(
+      'type' => 'options_onoff',
+      'weight' => 2
+    ),
+  );
+  field_create_instance($instance);
+
   $term = (object) array(
     'vid' => $vocabulary->vid,
     'name' => 'Administrators',
