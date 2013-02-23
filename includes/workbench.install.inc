@@ -44,10 +44,13 @@ function _gsb_public_setup_workbench() {
     'entity_type' => 'taxonomy_term',
     'bundle' => 'workbench_sections',
     'label' => t('Use a menu for this section.'),
-    'description' => t('If checked a menu will be created for this section.'),
+    'description' => t('If checked a menu will be created for this section. If you uncheck this after it has been checked the menu will not be deleted. It will have to be manually deleted.'),
     'widget' => array(
       'type' => 'options_onoff',
-      'weight' => 2
+      'weight' => 2,
+      'settings' => array(
+        'display_label' => 1,
+      ),
     ),
   );
   field_create_instance($instance);
