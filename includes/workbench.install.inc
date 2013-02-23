@@ -68,6 +68,13 @@ function _gsb_public_setup_workbench() {
   );
   _gsb_public_variable_set_multiple($variables);
 
+  $term = (object) array(
+    'vid' => $vocabulary->vid,
+    'name' => 'Administrators',
+    'description' => t('Administrators of the site.'),
+  );
+  taxonomy_term_save($term);
+
   $record = array(
     'access_id' => $section_id,
     'access_scheme' => 'taxonomy',
@@ -76,13 +83,6 @@ function _gsb_public_setup_workbench() {
   );
   workbench_access_section_save($record);
 
-  $term = (object) array(
-    'vid' => $vocabulary->vid,
-    'name' => 'Administrators',
-    'description' => t('Administrators of the site.'),
-  );
-  taxonomy_term_save($term);
-/**
   $record = array(
     'access_id' => $term->tid,
     'access_scheme' => 'taxonomy',
@@ -90,7 +90,7 @@ function _gsb_public_setup_workbench() {
     'access_type_id' => $section_id,
   );
   workbench_access_section_save($record);
-**/
+
   // Remove the needs_review state.
   $state = new stdClass();
   $state->name = 'needs_review';
