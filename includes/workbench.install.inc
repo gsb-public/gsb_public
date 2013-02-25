@@ -34,26 +34,76 @@ function _gsb_public_setup_workbench() {
 
   // Create a field
   $field = array(
+    'active' => '1',
+    'cardinality' => '1',
+    'deleted' => '0',
+    'entity_types' => array(),
     'field_name' => 'field_workbench_section_use_menu',
+    'foreign keys' => array(),
+    'indexes' => array(
+      'value' => array(
+        0 => 'value',
+      ),
+    ),
+    'label' => 'Use a menu for this section.',
+    'locked' => '0',
+    'module' => 'list',
+    'settings' => array(
+      'allowed_values' => array(
+        0 => '',
+        1 => '',
+      ),
+      'allowed_values_function' => '',
+    ),
+    'translatable' => '0',
     'type' => 'list_boolean',
-    'label' => t('Use a menu for this section.'),
   );
   field_create_field($field);
 
   // Attach the field to our taxonomy entity
   $instance = array(
-    'field_name' => 'field_workbench_section_use_menu',
+    'bundle' => 'workbench_sections',
+    'default_value' => NULL,
+    'deleted' => '0',
+    'description' => 'If checked a menu will be created for this section. If you uncheck this after it has been checked the menu will not be deleted. It will have to be manually deleted.',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'list',
+        'settings' => array(),
+        'type' => 'list_default',
+        'weight' => 1,
+      ),
+      'featured' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+      'ical' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
     'entity_type' => 'taxonomy_term',
-    'bundle' => $section_id,
-    'label' => t('Use a menu for this section.'),
-    'description' => t('If checked a menu will be created for this section. If you uncheck this after it has been checked the menu will not be deleted. It will have to be manually deleted.'),
+    'field_name' => 'field_workbench_section_use_menu',
+    'label' => 'Use a menu for this section.',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
     'widget' => array(
-      'type' => 'options_onoff',
-      'weight' => 2,
+      'active' => 1,
+      'module' => 'options',
       'settings' => array(
         'display_label' => 1,
       ),
+      'type' => 'options_onoff',
+      'weight' => 2,
     ),
+    'workbench_access_field' => 0,
   );
   field_create_instance($instance);
 
