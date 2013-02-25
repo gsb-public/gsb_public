@@ -9,6 +9,7 @@ function gsb_public_install() {
 
   $actions = array(
     'revert',
+    'migration_prep',
     'siteinfo',
     'time_date',
     'userinfo',
