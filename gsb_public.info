@@ -20,7 +20,7 @@ dependencies[] = dblog
 dependencies[] = update
 
 ; Acquia connector
-dependencies[] = acquia_connector
+dependencies[] = acquia_agent
 
 ; Panopoly Foundation
 dependencies[] = panopoly_core
