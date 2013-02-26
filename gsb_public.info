@@ -19,6 +19,9 @@ dependencies[] = file
 dependencies[] = dblog
 dependencies[] = update
 
+; Acquia connector
+dependencies[] = acquia_connector
+
 ; Panopoly Foundation
 dependencies[] = panopoly_core
 dependencies[] = panopoly_images
