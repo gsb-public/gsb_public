@@ -250,3 +250,7 @@ projects[panopoly_wysiwyg][subdir] = panopoly
 projects[panopoly_wysiwyg][download][type] = git
 projects[panopoly_wysiwyg][download][revision] = c745f0f
 projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
+
+; Acquia connector
+projects[acquia_connector][version] = 2.8
+projects[acquia_connector][subdir] = contrib
