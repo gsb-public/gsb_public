@@ -13,7 +13,7 @@ projects[gsb_make_overrides][subdir] = custom
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
 projects[gsb_section_autoconfig][download][url] = https://github.com/gsbitse/gsb_section_autoconfig.git
-projects[gsb_section_autoconfig][download][tag] = 1.3
+projects[gsb_section_autoconfig][download][branch] = master
 projects[gsb_section_autoconfig][subdir] = custom
 
 projects[gsb_media_center][type] = module
