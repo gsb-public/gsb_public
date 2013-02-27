@@ -145,6 +145,13 @@ projects[gsb_feature_accordion][download][url] = https://github.com/gsbitse/gsb_
 projects[gsb_feature_accordion][download][branch] = master
 projects[gsb_feature_accordion][subdir] = custom/features
 
+; GSB Features CTA
+projects[gsb_feature_cta][type] = module
+projects[gsb_feature_cta][download][type] = git
+projects[gsb_feature_cta][download][url] = https://github.com/gsbitse/gsb_feature_cta.git
+projects[gsb_feature_cta][download][branch] = master
+projects[gsb_feature_cta][subdir] = custom/features
+
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
 projects[open_framework][download][type] = get
