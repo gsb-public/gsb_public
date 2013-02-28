@@ -121,7 +121,7 @@ projects[gsb_panopoly_images_override][subdir] = custom/features
 projects[gsb_panopoly_wysiwyg_override][type] = module
 projects[gsb_panopoly_wysiwyg_override][download][type] = git
 projects[gsb_panopoly_wysiwyg_override][download][url] = https://github.com/gsbitse/gsb_panopoly_wysiwyg_override.git
-projects[gsb_panopoly_wysiwyg_override][download][tag] = 1.1
+projects[gsb_panopoly_wysiwyg_override][download][branch] = master
 projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 
 ; GSB Search Server
