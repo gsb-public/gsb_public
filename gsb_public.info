@@ -20,7 +20,7 @@ dependencies[] = dblog
 dependencies[] = update
 
 ; Acquia connector
-dependencies[] = acquia_connector
+dependencies[] = acquia_agent
 
 ; Panopoly Foundation
 dependencies[] = panopoly_core
@@ -61,11 +61,13 @@ dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_media_center
 
 ; GSB Features
+dependencies[] = gsb_feature_business_insight_ct
 dependencies[] = gsb_feature_club_ct
 dependencies[] = gsb_feature_club_display
 dependencies[] = gsb_feature_event_ct
 dependencies[] = gsb_feature_event_display
 dependencies[] = gsb_feature_import_gathercontent
+dependencies[] = gsb_feature_media_mention_ct
 dependencies[] = gsb_feature_news_ct
 dependencies[] = gsb_feature_page_ct
 dependencies[] = gsb_feature_person_ct
@@ -79,3 +81,4 @@ dependencies[] = gsb_panopoly_wysiwyg_override
 dependencies[] = gsb_search_server
 dependencies[] = gsb_feature_mega_menu
 dependencies[] = gsb_feature_accordion
+dependencies[] = gsb_feature_cta

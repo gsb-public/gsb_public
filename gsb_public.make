@@ -22,6 +22,13 @@ projects[gsb_media_center][download][url] = https://github.com/gsbitse/gsb_media
 projects[gsb_media_center][download][branch] = master
 projects[gsb_media_center][subdir] = custom
 
+; GSB Feature Business Insight
+projects[gsb_feature_business_insight_ct][type] = module
+projects[gsb_feature_business_insight_ct][download][type] = git
+projects[gsb_feature_business_insight_ct][download][url] = https://github.com/gsbitse/gsb_feature_business_insight_ct.git
+projects[gsb_feature_business_insight_ct][download][branch] = master
+projects[gsb_feature_business_insight_ct][subdir] = custom/features
+
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
@@ -67,6 +74,13 @@ projects[gsb_feature_person_display][download][type] = git
 projects[gsb_feature_person_display][download][url] = https://github.com/gsbitse/gsb_feature_person_display.git
 projects[gsb_feature_person_display][download][branch] = master
 projects[gsb_feature_person_display][subdir] = custom/features
+
+; GSB Feature Media Mention
+projects[gsb_feature_media_mention_ct][type] = module
+projects[gsb_feature_media_mention_ct][download][type] = git
+projects[gsb_feature_media_mention_ct][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_ct.git
+projects[gsb_feature_media_mention_ct][download][branch] = master
+projects[gsb_feature_media_mention_ct][subdir] = custom/features
 
 ; GSB Feature News
 projects[gsb_feature_news_ct][type] = module
@@ -144,6 +158,13 @@ projects[gsb_feature_accordion][download][type] = git
 projects[gsb_feature_accordion][download][url] = https://github.com/gsbitse/gsb_feature_accordion.git
 projects[gsb_feature_accordion][download][branch] = master
 projects[gsb_feature_accordion][subdir] = custom/features
+
+; GSB Features CTA
+projects[gsb_feature_cta][type] = module
+projects[gsb_feature_cta][download][type] = git
+projects[gsb_feature_cta][download][url] = https://github.com/gsbitse/gsb_feature_cta.git
+projects[gsb_feature_cta][download][branch] = master
+projects[gsb_feature_cta][subdir] = custom/features
 
 ; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
 projects[open_framework][type] = theme
