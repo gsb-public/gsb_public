@@ -18,16 +18,16 @@ function _gsb_public_setup_taxonomy() {
       'name' => 'Company/Organization',
       'description' => t(''),
     ),
+    'discipline' => array(
+      'name' => 'Discipline',
+      'description' => t(''),
+    ),
     'event_category' => array(
       'name' => 'Event Category',
       'description' => t(''),
     ),
     'event_series' => array(
       'name' => 'Event Series',
-      'description' => t(''),
-    ),
-    'function' => array(
-      'name' => 'Function',
       'description' => t(''),
     ),
     'industry' => array(
@@ -40,6 +40,10 @@ function _gsb_public_setup_taxonomy() {
     ),
     'region' => array(
       'name' => 'Region',
+      'description' => t(''),
+    ),
+    'tag' => array(
+      'name' => 'Tag',
       'description' => t(''),
     ),
     'target_audience' => array(
