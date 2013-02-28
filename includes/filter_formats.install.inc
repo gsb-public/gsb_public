@@ -36,21 +36,6 @@ function _gsb_public_setup_filter_formats() {
     "img[!src|title|alt|style|width|height|class|hspace|vspace],\n" .
     "@[style]";
 
-  $format->filters["wysiwyg"]["settings"]["rule_valid_classes"] = 
-    "caption,\n" .
-    "caption-inner,\n" .
-    "caption-left,\n" .
-    "caption-center,\n" .
-    "caption-right,\n" .
-    "caption-text,\n" .
-    "wysiwyg-break,\n" .
-    "panopoly-image-full,\n" .
-    "panopoly-image-half,\n" .
-    "panopoly-image-quarter,\n" .
-    "panopoly-image-thumbnail,\n" .
-    "acc-title,\n" .
-    "acc-body";
-
   // Save the panopoly wysiwyg format.
   filter_format_save($format);
 
