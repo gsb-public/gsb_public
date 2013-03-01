@@ -62,6 +62,7 @@ dependencies[] = gsb_media_center
 
 ; GSB Features
 dependencies[] = gsb_feature_business_insight_ct
+dependencies[] = gsb_feature_business_insight_display
 dependencies[] = gsb_feature_club_ct
 dependencies[] = gsb_feature_club_display
 dependencies[] = gsb_feature_event_ct
