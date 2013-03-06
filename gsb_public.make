@@ -61,6 +61,13 @@ projects[gsb_feature_event_display][download][url] = https://github.com/gsbitse/
 projects[gsb_feature_event_display][download][branch] = master
 projects[gsb_feature_event_display][subdir] = custom/features
 
+; GSB Feature Existing Node FPP
+projects[gsb_feature_existing_node_fpp ][type] = module
+projects[gsb_feature_existing_node_fpp ][download][type] = git
+projects[gsb_feature_existing_node_fpp ][download][url] = https://github.com/gsbitse/gsb_feature_existing_node_fpp.git
+projects[gsb_feature_existing_node_fpp ][download][branch] = master
+projects[gsb_feature_existing_node_fpp ][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
