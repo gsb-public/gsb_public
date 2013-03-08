@@ -79,6 +79,7 @@ dependencies[] = gsb_feature_slideshow
 dependencies[] = gsb_feature_social_feed
 dependencies[] = gsb_feature_spotlight
 dependencies[] = gsb_feature_video
+dependencies[] = gsb_feature_video_ct
 dependencies[] = gsb_panopoly_images_override
 dependencies[] = gsb_panopoly_wysiwyg_override
 dependencies[] = gsb_search_server
