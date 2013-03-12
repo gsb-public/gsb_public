@@ -22,13 +22,6 @@ projects[gsb_media_center][download][url] = https://github.com/gsbitse/gsb_media
 projects[gsb_media_center][download][branch] = master
 projects[gsb_media_center][subdir] = custom
 
-; GSB Feature Flags
-projects[gsb_feature_flags][type] = module
-projects[gsb_feature_flags][download][type] = git
-projects[gsb_feature_flags][download][url] = https://github.com/gsbitse/gsb_feature_flags.git
-projects[gsb_feature_flags][download][branch] = master
-projects[gsb_feature_flags][subdir] = custom/features
-
 ; GSB Feature Business Insight
 projects[gsb_feature_business_insight_ct][type] = module
 projects[gsb_feature_business_insight_ct][download][type] = git
