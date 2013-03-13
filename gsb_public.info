@@ -68,6 +68,7 @@ dependencies[] = gsb_feature_club_display
 dependencies[] = gsb_feature_event_ct
 dependencies[] = gsb_feature_event_display
 dependencies[] = gsb_feature_existing_node_fpp
+dependencies[] = gsb_feature_image_cta_fpp
 dependencies[] = gsb_feature_import_gathercontent
 dependencies[] = gsb_feature_media_mention_ct
 dependencies[] = gsb_feature_media_mention_display
