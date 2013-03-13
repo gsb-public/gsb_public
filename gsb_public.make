@@ -176,6 +176,13 @@ projects[gsb_search_server][download][url] = https://github.com/gsbitse/gsb_sear
 projects[gsb_search_server][download][branch] = master
 projects[gsb_search_server][subdir] = custom/features
 
+; GSB Features Image CTA Fpp
+projects[gsb_feature_image_cta_fpp][type] = module
+projects[gsb_feature_image_cta_fpp][download][type] = git
+projects[gsb_feature_image_cta_fpp][download][url] = https://github.com/gsbitse/gsb_feature_image_cta_fpp.git
+projects[gsb_feature_image_cta_fpp][download][branch] = master
+projects[gsb_feature_image_cta_fpp][subdir] = custom/features
+
 ; GSB Features Import GatherContent
 projects[gsb_feature_import_gathercontent][type] = module
 projects[gsb_feature_import_gathercontent][download][type] = git
