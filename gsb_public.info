@@ -50,6 +50,7 @@ dependencies[] = uuid
 ; GSB Additional Contrib Modules
 dependencies[] = fancybox
 dependencies[] = hierarchical_select
+dependencies[] = hs_taxonomy
 dependencies[] = menu_minipanels
 dependencies[] = workbench
 dependencies[] = workbench_access
