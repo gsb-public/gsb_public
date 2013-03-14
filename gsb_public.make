@@ -155,6 +155,13 @@ projects[gsb_feature_migrate][download][url] = https://github.com/gsbitse/gsb_fe
 projects[gsb_feature_migrate][download][branch] = master
 projects[gsb_feature_migrate][subdir] = custom/features
 
+; GSB Quote FPP
+projects[gsb_feature_quote_fpp][type] = module
+projects[gsb_feature_quote_fpp][download][type] = git
+projects[gsb_feature_quote_fpp][download][url] = https://github.com/gsbitse/gsb_feature_quote_fpp.git
+projects[gsb_feature_quote_fpp][download][branch] = master
+projects[gsb_feature_quote_fpp][subdir] = custom/features
+
 ; GSB Panopoly Images Override
 projects[gsb_panopoly_images_override][type] = module
 projects[gsb_panopoly_images_override][download][type] = git
