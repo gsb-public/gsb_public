@@ -9,7 +9,7 @@ function _gsb_public_setup_roles() {
   $section_editor = user_role_load_by_name('editor');
 
   // Rename to section editor
-  $section_editor->name = 'section editor'
+  $section_editor->name = 'section editor';
   user_role_save($section_editor);
 
   // Remove any existing permissions
