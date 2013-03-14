@@ -154,7 +154,7 @@ function _gsb_public_setup_taxonomy() {
  */
 function _gsb_public_taxonomy_terms_process($terms, $vid, $parent_tid = NULL) {
   // Loop through our terms
-  foreach($terms as $index = > $info) {
+  foreach($terms as $index => $info) {
     // If index is an integer then the name will be info.
     // Otherwise it's index.
     if (is_int($index)) {
