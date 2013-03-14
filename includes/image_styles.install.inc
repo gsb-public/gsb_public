@@ -3,7 +3,7 @@
 function _gsb_public_setup_image_styles() {
   // Declare our image styles
   $image_styles = array(
-    'gsb_image_square' => array(
+    '170x170' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(
@@ -12,7 +12,7 @@ function _gsb_public_setup_image_styles() {
         ),
       ),
     ),
-    'gsb_image_small' => array(
+    '270x158' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(
@@ -21,7 +21,7 @@ function _gsb_public_setup_image_styles() {
         ),
       ),
     ),
-    'gsb_image_large' => array(
+    '627x367' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(
@@ -30,30 +30,21 @@ function _gsb_public_setup_image_styles() {
         ),
       ),
     ),
-    'gsb_homepage_carousel' => array(
+    '170x100' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '542',
-          'height' => '261',
+          'width' => '170',
+          'height' => '100',
         ),
       ),
     ),
-    'gsb_homepage_evergreen' => array(
+    '44x44' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(
-          'width' => '566',
-          'height' => '396',
-        ),
-      ),
-    ),
-    'gsb_homepage_social_feed_events' => array(
-      array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => '263',
-          'height' => '396',
+          'width' => '44',
+          'height' => '44',
         ),
       ),
     ),
