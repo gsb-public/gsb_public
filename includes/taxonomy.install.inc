@@ -155,6 +155,7 @@ function _gsb_public_setup_taxonomy() {
         'Conferences',
         'Info Session',
         'On-campus Events',
+        'Online Events',
         'Seminars',
         'Speakers',
         'Workshops',
