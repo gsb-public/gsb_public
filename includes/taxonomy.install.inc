@@ -181,7 +181,7 @@ function _gsb_public_taxonomy_terms_process($terms, $vid, $parent_tid = NULL) {
     // If info is an array we have a hierarchy so let's pass that through to
     // this function.
     if (is_array($info)) {
-      _gsb_public_taxonomy_term_process($info, $vid, $term->tid);
+      _gsb_public_taxonomy_terms_process($info, $vid, $term->tid);
     }
   }
 }
