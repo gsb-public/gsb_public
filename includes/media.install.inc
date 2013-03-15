@@ -35,13 +35,13 @@ function _gsb_public_setup_media() {
 
   // Vimeo
   $settings = array(
-    'image_style' => 'gsb_image_small',
+    'image_style' => '270x158',
   );
   _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter_name' => 'media_vimeo_image', 'settings' => $settings));
 
   // Youtube
   $settings = array(
-    'image_style' => 'gsb_image_small',
+    'image_style' => '270x158',
   );
   _gsb_public_media_save_display(array('file_type' => 'video', 'view_mode' => 'preview', 'formatter_name' => 'media_youtube_image', 'settings' => $settings));
 
