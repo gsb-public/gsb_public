@@ -236,6 +236,13 @@ projects[gsb_fpp_customization][download][url] = https://github.com/gsbitse/gsb_
 projects[gsb_fpp_customization][download][tag] = 1.0
 projects[gsb_fpp_customization][subdir] = custom
 
+; GSB Public Custom Blocks
+projects[gsb_public_custom_blocks][type] = module
+projects[gsb_public_custom_blocks][download][type] = git
+projects[gsb_public_custom_blocks][download][url] = https://github.com/gsbitse/gsb_public_custom_blocks.git
+projects[gsb_public_custom_blocks][download][branch] = master
+projects[gsb_public_custom_blocks][subdir] = custom
+
 ; Not related to panopoly, but GSB added contrib modules.
 
 projects[fancybox][version] = 2.x-dev

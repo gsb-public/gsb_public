@@ -60,6 +60,7 @@ dependencies[] = workbench_moderation
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_media_center
+dependencies[] = gsb_public_custom_blocks
 
 ; GSB Features
 dependencies[] = gsb_feature_business_insight_ct
