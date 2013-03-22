@@ -51,6 +51,7 @@ dependencies[] = uuid
 dependencies[] = fancybox
 dependencies[] = hierarchical_select
 dependencies[] = hs_taxonomy
+dependencies[] = maxlength
 dependencies[] = menu_minipanels
 dependencies[] = workbench
 dependencies[] = workbench_access

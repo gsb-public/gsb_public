@@ -257,6 +257,12 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[hierarchical_select][version] = 3.0-alpha5
 projects[hierarchical_select][subdir] = contrib
 
+projects[maxlength][version] = 3.x-dev
+projects[maxlength][subdir] = contrib
+projects[maxlength][download][type] = git
+projects[maxlength][download][revision] = 6604311
+projects[maxlength][download][branch] = 7.x-3.x
+
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
 libraries[qtip][download][type] = file
