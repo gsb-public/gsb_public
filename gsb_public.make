@@ -229,6 +229,13 @@ projects[gsb_revamp][download][type] = git
 projects[gsb_revamp][download][url] = https://github.com/gsbitse/gsb_revamp.git
 projects[gsb_revamp][download][branch] = master
 
+; GSB Public Admin Theme
+projects[gsb_theme_admin][type] = theme
+projects[gsb_theme_admin][download][type] = git
+projects[gsb_theme_admin][download][url] = https://github.com/gsbitse/gsb_theme_admin.git
+projects[gsb_theme_admin][download][branch] = master
+
+
 ; GSB FPP Customization
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
