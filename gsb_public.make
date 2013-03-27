@@ -141,6 +141,13 @@ projects[gsb_feature_video_ct][download][type] = git
 projects[gsb_feature_video_ct][download][url] = https://github.com/gsbitse/gsb_feature_video_ct.git
 projects[gsb_feature_video_ct][subdir] = custom/features
 
+; GSB Feature Webform Content Type
+projects[gsb_feature_webform_ct][type] = module
+projects[gsb_feature_webform_ct][download][type] = git
+projects[gsb_feature_webform_ct][download][url] = https://github.com/gsbitse/gsb_feature_webform_ct.git
+projects[gsb_feature_webform_ct][download][branch] = master
+projects[gsb_feature_webform_ct][subdir] = custom
+
 ; GSB Feature Migrate
 projects[gsb_feature_migrate][type] = module
 projects[gsb_feature_migrate][download][type] = git
@@ -274,6 +281,12 @@ projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
 libraries[qtip][download][type] = file
 libraries[qtip][download][url] = https://raw.github.com/Craga89/qTip1/master/1.0.0-rc3/jquery.qtip-1.0.0-rc3.js
+
+projects[metatag][version] = 1.0-beta5
+projects[metatag][subdir] = contrib
+
+projects[node_clone][version] = 1.0-rc1
+projects[node_clone][subdir] = contrib
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
