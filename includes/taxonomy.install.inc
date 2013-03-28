@@ -158,7 +158,7 @@ function _gsb_public_setup_taxonomy() {
         'Admissions Events',
         'Alumni',
         'Conferences',
-        'Info Session'
+        'Info Session',
         'On-campus Events',
         'Online Events',
         'Seminars',
