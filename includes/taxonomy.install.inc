@@ -153,7 +153,12 @@ function _gsb_public_setup_taxonomy() {
         ),
         'Alumni',
         'Conferences',
-        'Info Session',
+        'Info Session' => array(
+          'Executive Education',
+          'MBA',
+          'MSx',
+          'PhD',
+        ),
         'On-campus Events',
         'Online Events',
         'Seminars',
