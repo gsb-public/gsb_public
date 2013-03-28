@@ -56,6 +56,16 @@ function _gsb_public_setup_taxonomy() {
       'description' => t(''),
       'terms' => array(),
     ),
+    'department' => array(
+      'name' => 'Department',
+      'description' => t(''),
+      'terms' => array(
+        'Executive Education Admissions',
+        'MBA Admissions',
+        'MSx Admissions',
+        'PhD Admissions',
+      ),
+    ),
     'discipline' => array(
       'name' => 'Discipline',
       'description' => t(''),
@@ -145,20 +155,10 @@ function _gsb_public_setup_taxonomy() {
       'description' => t(''),
       'terms' => array(
         'Academic Calendar',
-        'Admissions Events' => array(
-          'Executive Education',
-          'MBA',
-          'MSx',
-          'PhD',
-        ),
+        'Admissions Events',
         'Alumni',
         'Conferences',
-        'Info Session' => array(
-          'Executive Education',
-          'MBA',
-          'MSx',
-          'PhD',
-        ),
+        'Info Session'
         'On-campus Events',
         'Online Events',
         'Seminars',
