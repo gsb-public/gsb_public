@@ -122,9 +122,9 @@ projects[gsb_feature_spotlight][download][branch] = master
 projects[gsb_feature_spotlight][subdir] = custom/features
 
 ; GSB Feature Slideshow
-projects[gsb_feature_slideshow][type] = module
-projects[gsb_feature_slideshow][download][type] = git
-projects[gsb_feature_slideshow][download][url] = https://github.com/gsbitse/gsb_feature_slideshow.git
+projects[gsb_feature_slideshow_fpp][type] = module
+projects[gsb_feature_slideshow_fpp][download][type] = git
+projects[gsb_feature_slideshow_fpp][download][url] = https://github.com/gsbitse/gsb_feature_slideshow_fpp.git
 projects[gsb_feature_slideshow][download][tag] = 1.0
 projects[gsb_feature_slideshow][subdir] = custom/features
 
@@ -146,7 +146,7 @@ projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = https://github.com/gsbitse/gsb_feature_webform_ct.git
 projects[gsb_feature_webform_ct][download][branch] = master
-projects[gsb_feature_webform_ct][subdir] = custom
+projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Migrate
 projects[gsb_feature_migrate][type] = module
