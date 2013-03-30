@@ -125,7 +125,7 @@ projects[gsb_feature_spotlight][subdir] = custom/features
 projects[gsb_feature_slideshow][type] = module
 projects[gsb_feature_slideshow][download][type] = git
 projects[gsb_feature_slideshow][download][url] = https://github.com/gsbitse/gsb_feature_slideshow.git
-projects[gsb_feature_slideshow][download][tag] = 1.0
+projects[gsb_feature_slideshow][download][branch] = master
 projects[gsb_feature_slideshow][subdir] = custom/features
 
 ; GSB Feature Video
