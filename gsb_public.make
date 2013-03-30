@@ -122,11 +122,11 @@ projects[gsb_feature_spotlight][download][branch] = master
 projects[gsb_feature_spotlight][subdir] = custom/features
 
 ; GSB Feature Slideshow
-projects[gsb_feature_slideshow][type] = module
-projects[gsb_feature_slideshow][download][type] = git
-projects[gsb_feature_slideshow][download][url] = https://github.com/gsbitse/gsb_feature_slideshow_fpp.git
-projects[gsb_feature_slideshow][download][branch] = master
-projects[gsb_feature_slideshow][subdir] = custom/features
+projects[gsb_feature_slideshow_fpp][type] = module
+projects[gsb_feature_slideshow_fpp][download][type] = git
+projects[gsb_feature_slideshow_fpp][download][url] = https://github.com/gsbitse/gsb_feature_slideshow_fpp.git
+projects[gsb_feature_slideshow_fpp][download][branch] = master
+projects[gsb_feature_slideshow_fpp][subdir] = custom/features
 
 ; GSB Feature Video
 projects[gsb_feature_video][type] = module
