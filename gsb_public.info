@@ -81,7 +81,6 @@ dependencies[] = gsb_feature_import_gathercontent
 dependencies[] = gsb_feature_media_mention_ct
 dependencies[] = gsb_feature_media_mention_display
 dependencies[] = gsb_feature_page_ct
-dependencies[] = gsb_feature_person_ct
 dependencies[] = gsb_feature_person_display
 dependencies[] = gsb_feature_school_story_ct
 dependencies[] = gsb_feature_slideshow_fpp
