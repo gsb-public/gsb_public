@@ -38,6 +38,20 @@ function _gsb_public_setup_taxonomy() {
         'Transportation',
       ),
     ),
+    'centers_research_programs' => array(
+      'name' => 'Centers and Research Programs',
+      'description' => t(''),
+      'terms' => array(
+        'Executive Education',
+        'MBA',
+        'MSx',
+        'PhD',
+        'SEED Program',
+        'SIGM',
+        'Social Innovation Program',
+        'Stanford Ignite',
+      ),
+    ),
     'club_category' => array(
       'name' => 'Club Category',
       'description' => t(''),
