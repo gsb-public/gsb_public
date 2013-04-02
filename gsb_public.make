@@ -258,6 +258,8 @@ projects[gsb_public_custom_blocks][download][branch] = master
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; Not related to panopoly, but GSB added contrib modules.
+projects[ds][version] = 2.2
+projects[ds][subdir] = contrib
 
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
@@ -267,6 +269,9 @@ projects[fancybox][download][branch] = 7.x-2.x
 
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
+
+projects[ffc][version] = 1.0-beta2
+projects[ffc][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
