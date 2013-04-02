@@ -104,7 +104,7 @@ projects[gsb_feature_school_story_ct][subdir] = custom/features
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git
 projects[gsb_feature_social_feed][download][url] = https://github.com/gsbitse/gsb_feature_social_feed.git
-projects[gsb_feature_social_feed][download][tag] = 1.0
+projects[gsb_feature_social_feed][download][tag] = master
 projects[gsb_feature_social_feed][subdir] = custom/features
 
 ; GSB Feature Spotlight
