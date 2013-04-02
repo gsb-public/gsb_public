@@ -121,6 +121,13 @@ projects[gsb_feature_slideshow_fpp][download][url] = https://github.com/gsbitse/
 projects[gsb_feature_slideshow_fpp][download][branch] = master
 projects[gsb_feature_slideshow_fpp][subdir] = custom/features
 
+; GSB Feature Student Content Type
+projects[gsb_feature_student_ct][type] = module
+projects[gsb_feature_student_ct][download][type] = git
+projects[gsb_feature_student_ct][download][url] = https://github.com/gsbitse/gsb_feature_student_ct.git
+projects[gsb_feature_student_ct][download][branch] = master
+projects[gsb_feature_student_ct][subdir] = custom/features
+
 ; GSB Feature Video
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
