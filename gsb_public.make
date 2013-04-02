@@ -268,8 +268,11 @@ projects[fancybox][download][branch] = 7.x-2.x
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
 
-projects[hierarchical_select][version] = 3.0-alpha5
+projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
+projects[hierarchical_select][download][type] = git
+projects[hierarchical_select][download][revision] = 1da92c0
+projects[hierarchical_select][download][branch] = 7.x-3.x
 
 projects[maxlength][version] = 3.x-dev
 projects[maxlength][subdir] = contrib
