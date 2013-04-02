@@ -279,6 +279,9 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
+projects[field_formatter_settings][version] = 1.0
+projects[field_formatter_settings][subdir] = contrib
+
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][download][type] = git

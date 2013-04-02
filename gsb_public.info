@@ -52,6 +52,7 @@ dependencies[] = ds
 dependencies[] = ds_ui
 dependencies[] = fancybox
 dependencies[] = ffc
+dependencies[] = field_formatter_settings
 dependencies[] = hierarchical_select
 dependencies[] = hs_taxonomy
 dependencies[] = maxlength
