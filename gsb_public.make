@@ -236,6 +236,12 @@ projects[gsb_revamp][download][type] = git
 projects[gsb_revamp][download][url] = https://github.com/gsbitse/gsb_revamp.git
 projects[gsb_revamp][download][branch] = master
 
+; GSB Public Theme
+projects[gsb_theme][type] = theme
+projects[gsb_theme][download][type] = git
+projects[gsb_theme][download][url] = https://github.com/gsbitse/gsb_theme.git
+projects[gsb_theme][download][branch] = master
+
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
 projects[gsb_theme_admin][download][type] = git
