@@ -382,3 +382,4 @@ projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
 ; Acquia connector
 projects[acquia_connector][version] = 2.8
 projects[acquia_connector][subdir] = contrib
+projects[acquia_connector][patch][1960452] = http://drupal.org/files/1960452-d7-1.patch
