@@ -299,6 +299,12 @@ projects[metatag][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
+projects[telephone][version] = 1.x-dev
+projects[telephone][subdir] = contrib
+projects[telephone][download][type] = git
+projects[telephone][download][revision] = 3de75b4
+projects[telephone][download][branch] = 7.x-1.x
+
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
