@@ -75,6 +75,13 @@ projects[gsb_feature_existing_node_fpp ][download][url] = https://github.com/gsb
 projects[gsb_feature_existing_node_fpp ][download][branch] = master
 projects[gsb_feature_existing_node_fpp ][subdir] = custom/features
 
+; GSB Feature Faculty Content Type
+projects[gsb_feature_faculty_ct][type] = module
+projects[gsb_feature_faculty_ct][download][type] = git
+projects[gsb_feature_faculty_ct][download][url] = https://github.com/gsbitse/gsb_feature_faculty_ct.git
+projects[gsb_feature_faculty_ct][download][branch] = master
+projects[gsb_feature_faculty_ct][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
