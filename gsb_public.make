@@ -133,7 +133,7 @@ projects[gsb_feature_student_ct][subdir] = custom/features
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
 projects[gsb_feature_video][download][url] = https://github.com/gsbitse/gsb_feature_video.git
-projects[gsb_feature_video][download][tag] = 1.0
+projects[gsb_feature_video][download][branch] = master
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Video Content Type
