@@ -140,6 +140,7 @@ projects[gsb_feature_video][subdir] = custom/features
 projects[gsb_feature_video_ct][type] = module
 projects[gsb_feature_video_ct][download][type] = git
 projects[gsb_feature_video_ct][download][url] = https://github.com/gsbitse/gsb_feature_video_ct.git
+projects[gsb_feature_video_ct][download][branch] = master
 projects[gsb_feature_video_ct][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
