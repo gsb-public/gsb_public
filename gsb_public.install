@@ -27,6 +27,7 @@ function gsb_public_install() {
     'media',
     'fancybox',
     'acquia',
+    'ds',
     'cleanup',  // please leave this as the last task to run
   );
 

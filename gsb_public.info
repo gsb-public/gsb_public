@@ -50,6 +50,7 @@ dependencies[] = uuid
 ; GSB Additional Contrib Modules
 dependencies[] = ds
 dependencies[] = ds_ui
+dependencies[] = ds_extras
 dependencies[] = fancybox
 dependencies[] = ffc
 dependencies[] = field_formatter_settings
