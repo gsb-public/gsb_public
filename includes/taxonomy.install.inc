@@ -631,7 +631,7 @@ function _gsb_public_setup_taxonomy() {
     );
     taxonomy_vocabulary_save($vocabulary);
 
-    _gsb_public_taxonomy_terms_process($info['terms'], $vocabulary->vid);
+    _gsb_public_taxonomy_terms_process($info['terms'], $vocabulary);
   }
 }
 
@@ -645,22 +645,18 @@ function _gsb_public_setup_taxonomy() {
  * @param $parent_tid
  *   The parent terms ID.
  */
-function _gsb_public_taxonomy_terms_process($terms, $vid, $parent_tid = NULL) {
+function _gsb_public_taxonomy_terms_process($terms, $vocabulary, $parent_tid = NULL) {
   // Loop through our terms
   foreach($terms as $index => $info) {
     // If index is an integer then the name will be info.
     // Otherwise it's index.
-    if (is_int($index)) {
-      $name = $info;
-    }
-    else {
-      $name = $index;
-    }
+    $name = (is_int($index)) ? $info : $index;
 
     // Build our term object.
     $term = (object) array(
-      'vid' => $vid,
+      'vid' => $vocabulary->vid,
       'name' => $name,
+      'vocabulary_machine_name' => $vocabulary->machine_name,
     );
 
     // If there is a parent_tid then add it.
@@ -674,7 +670,7 @@ function _gsb_public_taxonomy_terms_process($terms, $vid, $parent_tid = NULL) {
     // If info is an array we have a hierarchy so let's pass that through to
     // this function.
     if (is_array($info)) {
-      _gsb_public_taxonomy_terms_process($info, $vid, $term->tid);
+      _gsb_public_taxonomy_terms_process($info, $vocabulary, $term->tid);
     }
   }
 }
