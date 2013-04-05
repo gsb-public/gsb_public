@@ -89,6 +89,12 @@ projects[gsb_feature_page_ct][download][url] = https://github.com/gsbitse/gsb_fe
 projects[gsb_feature_page_ct][download][branch] = master
 projects[gsb_feature_page_ct][subdir] = custom/features
 
+projects[gsb_feature_people_display][type] = module
+projects[gsb_feature_people_display][download][type] = git
+projects[gsb_feature_people_display][download][url] = https://github.com/gsbitse/gsb_feature_people_display.git
+projects[gsb_feature_people_display][download][branch] = master
+projects[gsb_feature_people_display][subdir] = custom/features
+
 projects[gsb_feature_person_display][type] = module
 projects[gsb_feature_person_display][download][type] = git
 projects[gsb_feature_person_display][download][url] = https://github.com/gsbitse/gsb_feature_person_display.git
