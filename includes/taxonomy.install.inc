@@ -587,41 +587,16 @@ function _gsb_public_setup_taxonomy() {
   /*******************************************************************
    * This is temporary until we are done so devs don't have to suffer.
    *******************************************************************/
-
-  $vocabularies['region']['terms'] = array(
-    'Africa' => array(
-      'Eastern Africa',
-      'Middle Africa',
-      'Northern Africa',
-      'Southern Africa',
-      'Western Africa',
-    ),
-    'Americas' => array(
-      'Caribbean',
-      'Central America',
-      'South America',
-      'Northern America',
-    ),
-    'Asia' => array(
-      'Central Asia',
-      'Eastern Asia',
-      'Southern Asia',
-      'South-Eastern Asia',
-      'Western Asia',
-    ),
-    'Europe' => array(
-      'Eastern Europe',
-      'Northern Europe',
-      'Southern Europe',
-      'Western Europe',
-    ),
-    'Oceania' => array(
-      'Australia and New Zealand',
-      'Melanesia',
-      'Micronesia',
-      'Polynesia',
-    ),
-  );
+  $vocabularies['academic_area']['terms'] = array();
+  $vocabularies['centers_research_programs']['terms'] = array();
+  $vocabularies['club_category']['terms'] = array();
+  $vocabularies['department']['terms'] = array();
+  $vocabularies['discipline']['terms'] = array();
+  $vocabularies['event_category']['terms'] = array();
+  $vocabularies['industry']['terms'] = array();
+  $vocabularies['program']['terms'] = array();
+  $vocabularies['region']['terms'] = array();
+  $vocabularies['target_audience']['terms'] = array();
 
   foreach ($vocabularies as $machine_name => $info) {
     $vocabulary = (object) array(
