@@ -95,11 +95,11 @@ projects[gsb_feature_people_display][download][url] = https://github.com/gsbitse
 projects[gsb_feature_people_display][download][branch] = master
 projects[gsb_feature_people_display][subdir] = custom/features
 
-projects[gsb_feature_person_display][type] = module
-projects[gsb_feature_person_display][download][type] = git
-projects[gsb_feature_person_display][download][url] = https://github.com/gsbitse/gsb_feature_person_display.git
-projects[gsb_feature_person_display][download][branch] = master
-projects[gsb_feature_person_display][subdir] = custom/features
+projects[gsb_feature_people_fpp][type] = module
+projects[gsb_feature_people_fpp][download][type] = git
+projects[gsb_feature_people_fpp][download][url] = https://github.com/gsbitse/gsb_feature_people_fpp.git
+projects[gsb_feature_people_fpp][download][branch] = master
+projects[gsb_feature_people_fpp][subdir] = custom/features
 
 ; GSB Feature Media Mention
 projects[gsb_feature_media_mention_ct][type] = module
