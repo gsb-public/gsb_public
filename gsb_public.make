@@ -268,7 +268,7 @@ projects[gsb_theme_admin][download][branch] = master
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = https://github.com/gsbitse/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 1.0
+projects[gsb_fpp_customization][download][branch] = master
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB Public Custom Blocks
