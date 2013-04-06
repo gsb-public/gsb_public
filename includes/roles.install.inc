@@ -16,14 +16,6 @@ function _gsb_public_setup_roles() {
   user_role_revoke_permissions($section_editor->rid, array_keys(module_invoke_all('permission')));
 
   $section_editor_permissions = array(
-    'create fieldable basic_file',
-    'edit fieldable basic_file',
-    'create fieldable text',
-    'edit fieldable text',
-    'create fieldable table',
-    'edit fieldable table',
-    'create fieldable video',
-    'edit fieldable video',
     'administer files',
     'create files',
     'use text format panopoly_wysiwyg_text',
@@ -46,14 +38,6 @@ function _gsb_public_setup_roles() {
   user_role_save($section_manager);
 
   $section_manager_permissions = array(
-    'create fieldable basic_file',
-    'edit fieldable basic_file',
-    'create fieldable text',
-    'edit fieldable text',
-    'create fieldable table',
-    'edit fieldable table',
-    'create fieldable video',
-    'edit fieldable video',
     'create files',
     'use text format panopoly_wysiwyg_text',
     'use text format panopoly_html_text',
