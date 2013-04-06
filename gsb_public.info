@@ -48,9 +48,11 @@ dependencies[] = devel
 dependencies[] = uuid
 
 ; GSB Additional Contrib Modules
+dependencies[] = auto_entitylabel
 dependencies[] = ds
 dependencies[] = ds_ui
 dependencies[] = ds_extras
+dependencies[] = entity_view_mode
 dependencies[] = fancybox
 dependencies[] = ffc
 dependencies[] = field_formatter_settings

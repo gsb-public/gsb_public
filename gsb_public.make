@@ -279,8 +279,14 @@ projects[gsb_public_custom_blocks][download][branch] = master
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; Not related to panopoly, but GSB added contrib modules.
+projects[auto_entitylabel][version] = 1.1
+projects[auto_entitylabel][subdir] = contrib
+
 projects[ds][version] = 2.2
 projects[ds][subdir] = contrib
+
+projects[entity_view_mode][version] = 1.0-beta3
+projects[entity_view_mode][subdir] = contrib
 
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
