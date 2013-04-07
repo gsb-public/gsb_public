@@ -42,6 +42,13 @@ projects[gsb_feature_business_insight_display][download][url] = https://github.c
 projects[gsb_feature_business_insight_display][download][branch] = master
 projects[gsb_feature_business_insight_display][subdir] = custom/features
 
+; GSB Feature Case Study Content Type
+projects[gsb_feature_case_study_ct][type] = module
+projects[gsb_feature_case_study_ct][download][type] = git
+projects[gsb_feature_case_study_ct][download][url] = https://github.com/gsbitse/gsb_feature_case_study_ct.git
+projects[gsb_feature_case_study_ct][download][branch] = master
+projects[gsb_feature_case_study_ct][subdir] = custom/features
+
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
