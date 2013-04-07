@@ -101,6 +101,13 @@ projects[gsb_feature_people_fpp][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_feature_people_fpp][download][branch] = master
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
+; GSB Feature Publication Content Type
+projects[gsb_feature_publication_ct][type] = module
+projects[gsb_feature_publication_ct][download][type] = git
+projects[gsb_feature_publication_ct][download][url] = https://github.com/gsbitse/gsb_feature_publication_ct.git
+projects[gsb_feature_publication_ct][download][branch] = master
+projects[gsb_feature_publication_ct][subdir] = custom/features
+
 ; GSB Feature Media Mention
 projects[gsb_feature_media_mention_ct][type] = module
 projects[gsb_feature_media_mention_ct][download][type] = git
