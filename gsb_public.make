@@ -299,6 +299,13 @@ projects[gsb_public_custom_blocks][download][url] = https://github.com/gsbitse/g
 projects[gsb_public_custom_blocks][download][branch] = master
 projects[gsb_public_custom_blocks][subdir] = custom
 
+; GSB Public Custom Blocks
+projects[gsb_field_formatter][type] = module
+projects[gsb_field_formatter][download][type] = git
+projects[gsb_field_formatter][download][url] = https://github.com/gsbitse/gsb_field_formatter.git
+projects[gsb_field_formatter][download][branch] = master
+projects[gsb_field_formatter][subdir] = custom
+
 ; Not related to panopoly, but GSB added contrib modules.
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
