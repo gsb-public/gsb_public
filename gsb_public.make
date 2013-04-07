@@ -89,6 +89,13 @@ projects[gsb_feature_faculty_ct][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_feature_faculty_ct][download][branch] = master
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
+; GSB Feature News Content Type
+projects[gsb_feature_news_ct][type] = module
+projects[gsb_feature_news_ct][download][type] = git
+projects[gsb_feature_news_ct][download][url] = https://github.com/gsbitse/gsb_feature_news_ct.git
+projects[gsb_feature_news_ct][download][branch] = master
+projects[gsb_feature_news_ct][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
