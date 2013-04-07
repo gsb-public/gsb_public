@@ -88,6 +88,7 @@ dependencies[] = gsb_feature_image_cta_fpp
 dependencies[] = gsb_feature_import_gathercontent
 dependencies[] = gsb_feature_media_mention_ct
 dependencies[] = gsb_feature_media_mention_display
+dependencies[] = gsb_feature_news_ct
 dependencies[] = gsb_feature_page_ct
 dependencies[] = gsb_feature_people_display
 dependencies[] = gsb_feature_people_fpp
