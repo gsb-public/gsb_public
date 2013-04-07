@@ -89,6 +89,7 @@ dependencies[] = gsb_feature_media_mention_display
 dependencies[] = gsb_feature_page_ct
 dependencies[] = gsb_feature_people_display
 dependencies[] = gsb_feature_people_fpp
+dependencies[] = gsb_feature_research_paper_ct
 dependencies[] = gsb_feature_slideshow_fpp
 dependencies[] = gsb_feature_social_feed
 dependencies[] = gsb_feature_spotlight
