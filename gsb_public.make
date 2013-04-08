@@ -338,6 +338,12 @@ projects[ffc][subdir] = contrib
 projects[field_formatter_settings][version] = 1.0
 projects[field_formatter_settings][subdir] = contrib
 
+projects[file_entity][version] = 2.x-dev
+projects[file_entity][subdir] = contrib
+projects[file_entity][download][type] = git
+projects[file_entity][download][revision] = c2d5c3d
+projects[file_entity][download][branch] = 7.x-2.x
+
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][download][type] = git
@@ -349,6 +355,24 @@ projects[maxlength][subdir] = contrib
 projects[maxlength][download][type] = git
 projects[maxlength][download][revision] = 6604311
 projects[maxlength][download][branch] = 7.x-3.x
+
+projects[media][version] = 2.x-dev
+projects[media][subdir] = contrib
+projects[media][download][type] = git
+projects[media][download][revision] = ecb9392
+projects[media][download][branch] = 7.x-2.x
+projects[media][patch][1319528] = http://drupal.org/files/media-browser-enter-submit-frontpage-1319528-11.patch
+
+projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][subdir] = contrib
+projects[media_youtube][patch][1812976] = http://drupal.org/files/1812976-1x-fix-against-b3.patch
+
+projects[media_vimeo][version] = 1.0-beta5
+projects[media_vimeo][subdir] = contrib
+projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
+
+projects[menu_block][version] = 2.3
+projects[menu_block][subdir] = contrib
 
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
@@ -406,12 +430,6 @@ projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
 projects[panopoly_magic][download][revision] = 64d984e
 projects[panopoly_magic][download][branch] = 7.x-1.x
-
-projects[panopoly_widgets][version] = 1.x-dev
-projects[panopoly_widgets][subdir] = panopoly
-projects[panopoly_widgets][download][type] = git
-projects[panopoly_widgets][download][revision] = 2a98c9e
-projects[panopoly_widgets][download][branch] = 7.x-1.x
 
 projects[panopoly_admin][version] = 1.x-dev
 projects[panopoly_admin][subdir] = panopoly
