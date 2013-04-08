@@ -343,6 +343,7 @@ projects[file_entity][subdir] = contrib
 projects[file_entity][download][type] = git
 projects[file_entity][download][revision] = c2d5c3d
 projects[file_entity][download][branch] = 7.x-2.x
+projects[file_entity][patch][1935724] = http://drupal.org/files/1935724-d7-3.patch
 
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
@@ -362,6 +363,8 @@ projects[media][download][type] = git
 projects[media][download][revision] = ecb9392
 projects[media][download][branch] = 7.x-2.x
 projects[media][patch][1319528] = http://drupal.org/files/media-browser-enter-submit-frontpage-1319528-11.patch
+projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-3.patch
+projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
 
 projects[media_youtube][version] = 1.0-beta3
 projects[media_youtube][subdir] = contrib
