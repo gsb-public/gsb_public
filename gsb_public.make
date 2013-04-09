@@ -89,6 +89,26 @@ projects[gsb_feature_faculty_ct][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_feature_faculty_ct][download][branch] = master
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
+; GSB Feature Media Mention
+projects[gsb_feature_media_mention_ct][type] = module
+projects[gsb_feature_media_mention_ct][download][type] = git
+projects[gsb_feature_media_mention_ct][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_ct.git
+projects[gsb_feature_media_mention_ct][download][branch] = master
+projects[gsb_feature_media_mention_ct][subdir] = custom/features
+
+projects[gsb_feature_media_mention_display][type] = module
+projects[gsb_feature_media_mention_display][download][type] = git
+projects[gsb_feature_media_mention_display][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_display.git
+projects[gsb_feature_media_mention_display][download][branch] = master
+projects[gsb_feature_media_mention_display][subdir] = custom/features
+
+; GSB Feature MSx Fellows Content Type
+projects[gsb_feature_msx_fellows_ct][type] = module
+projects[gsb_feature_msx_fellows_ct][download][type] = git
+projects[gsb_feature_msx_fellows_ct][download][url] = https://github.com/gsbitse/gsb_feature_msx_fellows_ct.git
+projects[gsb_feature_msx_fellows_ct][download][branch] = master
+projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
+
 ; GSB Feature News Content Type
 projects[gsb_feature_news_ct][type] = module
 projects[gsb_feature_news_ct][download][type] = git
@@ -115,32 +135,19 @@ projects[gsb_feature_people_fpp][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_feature_people_fpp][download][branch] = master
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
+; GSB Feature PhD Candidate Content Type
+projects[gsb_feature_phd_candidate_ct][type] = module
+projects[gsb_feature_phd_candidate_ct][download][type] = git
+projects[gsb_feature_phd_candidate_ct][download][url] = https://github.com/gsbitse/gsb_feature_phd_candidate_ct.git
+projects[gsb_feature_phd_candidate_ct][download][branch] = master
+projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
+
 ; GSB Feature Publication Content Type
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = https://github.com/gsbitse/gsb_feature_publication_ct.git
 projects[gsb_feature_publication_ct][download][branch] = master
 projects[gsb_feature_publication_ct][subdir] = custom/features
-
-; GSB Feature Media Mention
-projects[gsb_feature_media_mention_ct][type] = module
-projects[gsb_feature_media_mention_ct][download][type] = git
-projects[gsb_feature_media_mention_ct][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_ct.git
-projects[gsb_feature_media_mention_ct][download][branch] = master
-projects[gsb_feature_media_mention_ct][subdir] = custom/features
-
-projects[gsb_feature_media_mention_display][type] = module
-projects[gsb_feature_media_mention_display][download][type] = git
-projects[gsb_feature_media_mention_display][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_display.git
-projects[gsb_feature_media_mention_display][download][branch] = master
-projects[gsb_feature_media_mention_display][subdir] = custom/features
-
-; GSB Feature MSx Fellows Content Type
-projects[gsb_feature_msx_fellows_ct][type] = module
-projects[gsb_feature_msx_fellows_ct][download][type] = git
-projects[gsb_feature_msx_fellows_ct][download][url] = https://github.com/gsbitse/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][branch] = master
-projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature Research Paper Content Type
 projects[gsb_feature_research_paper_ct][type] = module
