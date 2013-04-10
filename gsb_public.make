@@ -89,6 +89,13 @@ projects[gsb_feature_faculty_ct][download][url] = https://github.com/gsbitse/gsb
 projects[gsb_feature_faculty_ct][download][branch] = master
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
+; GSB Feature Links FPP
+projects[gsb_feature_links_fpp][type] = module
+projects[gsb_feature_links_fpp][download][type] = git
+projects[gsb_feature_links_fpp][download][url] = https://github.com/gsbitse/gsb_feature_links_fpp.git
+projects[gsb_feature_links_fpp][download][branch] = master
+projects[gsb_feature_links_fpp][subdir] = custom/features
+
 ; GSB Feature Media Mention
 projects[gsb_feature_media_mention_ct][type] = module
 projects[gsb_feature_media_mention_ct][download][type] = git
@@ -183,6 +190,13 @@ projects[gsb_feature_student_ct][download][type] = git
 projects[gsb_feature_student_ct][download][url] = https://github.com/gsbitse/gsb_feature_student_ct.git
 projects[gsb_feature_student_ct][download][branch] = master
 projects[gsb_feature_student_ct][subdir] = custom/features
+
+; GSB Feature Text FPP
+projects[gsb_feature_text_fpp][type] = module
+projects[gsb_feature_text_fpp][download][type] = git
+projects[gsb_feature_text_fpp][download][url] = https://github.com/gsbitse/gsb_feature_text_fpp.git
+projects[gsb_feature_text_fpp][download][branch] = master
+projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
 projects[gsb_feature_video][type] = module
