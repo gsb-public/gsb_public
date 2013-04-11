@@ -100,6 +100,7 @@ dependencies[] = gsb_feature_research_paper_ct
 dependencies[] = gsb_feature_slideshow_fpp
 dependencies[] = gsb_feature_social_feed
 dependencies[] = gsb_feature_spotlight
+dependencies[] = gsb_feature_staff_ct
 dependencies[] = gsb_feature_student_ct
 dependencies[] = gsb_feature_text_fpp
 dependencies[] = gsb_feature_video
