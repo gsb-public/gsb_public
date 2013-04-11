@@ -53,6 +53,7 @@ dependencies[] = ds
 dependencies[] = ds_ui
 dependencies[] = ds_extras
 dependencies[] = entity_view_mode
+dependencies[] = eva
 dependencies[] = fancybox
 dependencies[] = ffc
 dependencies[] = field_formatter_settings

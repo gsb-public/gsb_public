@@ -358,6 +358,9 @@ projects[ds][subdir] = contrib
 projects[entity_view_mode][version] = 1.0-beta3
 projects[entity_view_mode][subdir] = contrib
 
+projects[eva][version] = 1.2
+projects[eva][subdir] = contrib
+
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
 projects[fancybox][download][type] = git
