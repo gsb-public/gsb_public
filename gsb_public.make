@@ -170,6 +170,13 @@ projects[gsb_feature_research_paper_ct][download][url] = https://github.com/gsbi
 projects[gsb_feature_research_paper_ct][download][branch] = master
 projects[gsb_feature_research_paper_ct][subdir] = custom/features
 
+; GSB Feature Research Paper Display
+projects[gsb_feature_research_paper_display][type] = module
+projects[gsb_feature_research_paper_display][download][type] = git
+projects[gsb_feature_research_paper_display][download][url] = https://github.com/gsbitse/gsb_feature_research_paper_display.git
+projects[gsb_feature_research_paper_display][download][branch] = master
+projects[gsb_feature_research_paper_display][subdir] = custom/features
+
 ; GSB Feature Social Feed
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git
