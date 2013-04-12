@@ -325,7 +325,7 @@ projects[gsb_revamp][download][branch] = master
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = https://github.com/gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = wp-770
+projects[gsb_theme][download][branch] = master
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
