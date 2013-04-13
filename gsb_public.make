@@ -49,6 +49,13 @@ projects[gsb_feature_case_study_ct][download][url] = https://github.com/gsbitse/
 projects[gsb_feature_case_study_ct][download][branch] = master
 projects[gsb_feature_case_study_ct][subdir] = custom/features
 
+; GSB Feature Case Study Display
+projects[gsb_feature_case_study_display][type] = module
+projects[gsb_feature_case_study_display][download][type] = git
+projects[gsb_feature_case_study_display][download][url] = https://github.com/gsbitse/gsb_feature_case_study_display.git
+projects[gsb_feature_case_study_display][download][branch] = master
+projects[gsb_feature_case_study_display][subdir] = custom/features
+
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
@@ -130,6 +137,13 @@ projects[gsb_feature_news_ct][download][url] = https://github.com/gsbitse/gsb_fe
 projects[gsb_feature_news_ct][download][branch] = master
 projects[gsb_feature_news_ct][subdir] = custom/features
 
+; GSB Feature News Display
+projects[gsb_feature_news_display][type] = module
+projects[gsb_feature_news_display][download][type] = git
+projects[gsb_feature_news_display][download][url] = https://github.com/gsbitse/gsb_feature_news_display.git
+projects[gsb_feature_news_display][download][branch] = master
+projects[gsb_feature_news_display][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
@@ -162,6 +176,13 @@ projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = https://github.com/gsbitse/gsb_feature_publication_ct.git
 projects[gsb_feature_publication_ct][download][branch] = master
 projects[gsb_feature_publication_ct][subdir] = custom/features
+
+; GSB Feature Publication Display
+projects[gsb_feature_publication_display][type] = module
+projects[gsb_feature_publication_display][download][type] = git
+projects[gsb_feature_publication_display][download][url] = https://github.com/gsbitse/gsb_feature_publication_display.git
+projects[gsb_feature_publication_display][download][branch] = master
+projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Feature Research Paper Content Type
 projects[gsb_feature_research_paper_ct][type] = module
