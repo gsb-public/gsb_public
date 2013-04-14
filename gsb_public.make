@@ -376,6 +376,7 @@ projects[eva][subdir] = contrib
 projects[eva][download][type] = git
 projects[eva][download][revision] = 6d92c27
 projects[eva][download][branch] = 7.x-1.x
+projects[eva][patch][1772204] = http://drupal.org/files/1772204-d7-1.patch
 
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
