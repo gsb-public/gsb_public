@@ -470,7 +470,13 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
-; The Panopoly Foundation
+; Panopoly
+
+projects[panopoly_admin][version] = 1.x-dev
+projects[panopoly_admin][subdir] = panopoly
+projects[panopoly_admin][download][type] = git
+projects[panopoly_admin][download][revision] = 4d9d071
+projects[panopoly_admin][download][branch] = 7.x-1.x
 
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
@@ -485,13 +491,11 @@ projects[panopoly_magic][download][type] = git
 projects[panopoly_magic][download][revision] = 3a1f8f9
 projects[panopoly_magic][download][branch] = 7.x-1.x
 
-projects[panopoly_admin][version] = 1.x-dev
-projects[panopoly_admin][subdir] = panopoly
-projects[panopoly_admin][download][type] = git
-projects[panopoly_admin][download][revision] = 4d9d071
-projects[panopoly_admin][download][branch] = 7.x-1.x
-
-; The Panopoly Toolset
+projects[panopoly_theme][version] = 1.x-dev
+projects[panopoly_theme][subdir] = panopoly
+projects[panopoly_theme][download][type] = git
+projects[panopoly_theme][download][revision] = b8d3809
+projects[panopoly_theme][download][branch] = 7.x-1.x
 
 projects[panopoly_wysiwyg][version] = 1.x-dev
 projects[panopoly_wysiwyg][subdir] = panopoly
