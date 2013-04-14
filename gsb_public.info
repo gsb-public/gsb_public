@@ -105,7 +105,6 @@ dependencies[] = gsb_feature_text_fpp
 dependencies[] = gsb_feature_video
 dependencies[] = gsb_feature_video_ct
 dependencies[] = gsb_feature_webform_ct
-dependencies[] = gsb_panopoly_images_override
 dependencies[] = gsb_panopoly_wysiwyg_override
 dependencies[] = gsb_search_server
 dependencies[] = gsb_feature_mega_menu

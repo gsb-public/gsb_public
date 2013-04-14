@@ -275,13 +275,6 @@ projects[gsb_feature_quote_fpp][download][url] = https://github.com/gsbitse/gsb_
 projects[gsb_feature_quote_fpp][download][branch] = master
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
-; GSB Panopoly Images Override
-projects[gsb_panopoly_images_override][type] = module
-projects[gsb_panopoly_images_override][download][type] = git
-projects[gsb_panopoly_images_override][download][url] = https://github.com/gsbitse/gsb_panopoly_images_override.git
-projects[gsb_panopoly_images_override][download][branch] = master
-projects[gsb_panopoly_images_override][subdir] = custom/features
-
 ; GSB Panopoly Wysiwyg Override
 projects[gsb_panopoly_wysiwyg_override][type] = module
 projects[gsb_panopoly_wysiwyg_override][download][type] = git
