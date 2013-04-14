@@ -331,24 +331,6 @@ projects[gsb_feature_cta][download][url] = https://github.com/gsbitse/gsb_featur
 projects[gsb_feature_cta][download][branch] = master
 projects[gsb_feature_cta][subdir] = custom/features
 
-; Stanford Open Framework Theme (framework based on Twitter Bootstrap)
-projects[open_framework][type] = theme
-projects[open_framework][download][type] = get
-projects[open_framework][download][url] = https://github.com/SU-SWS/open_framework/archive/7.x-2.02.zip
-projects[open_framework][patch][remove-jquery] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/openframework-jquery.patch
-
-; GSB Framework Theme
-projects[gsb_framework][type] = theme
-projects[gsb_framework][download][type] = git
-projects[gsb_framework][download][url] = https://github.com/gsbitse/gsb_framework.git
-projects[gsb_framework][download][branch] = master
-
-; GSB Public Revamp Theme
-projects[gsb_revamp][type] = theme
-projects[gsb_revamp][download][type] = git
-projects[gsb_revamp][download][url] = https://github.com/gsbitse/gsb_revamp.git
-projects[gsb_revamp][download][branch] = master
-
 ; GSB Public Theme
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
@@ -384,22 +366,28 @@ projects[gsb_field_formatter][download][branch] = master
 projects[gsb_field_formatter][subdir] = custom
 
 ; Not related to panopoly, but GSB added contrib modules.
+projects[addressfield][version] = 1.0-beta3
+projects[addressfield][subdir] = contrib
+
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
 
 projects[ds][version] = 2.2
 projects[ds][subdir] = contrib
 
-projects[entity_view_mode][version] = 1.0-beta3
-projects[entity_view_mode][subdir] = contrib
+projects[email][version] = 1.2
+projects[email][subdir] = contrib
 
-projects[eva][version] = 1.2
+projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
+projects[eva][download][type] = git
+projects[eva][download][revision] = 6d92c27
+projects[eva][download][branch] = 7.x-1.x
 
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
 projects[fancybox][download][type] = git
-projects[fancybox][download][revision] = 272acd3
+projects[fancybox][download][revision] = dd48c77
 projects[fancybox][download][branch] = 7.x-2.x
 
 libraries[fancybox][download][type] = get
@@ -407,6 +395,10 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
+
+projects[field_collection][version] = 1.0-beta5
+projects[field_collection][subdir] = contrib
+projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-1.patch
 
 projects[field_formatter_settings][version] = 1.0
 projects[field_formatter_settings][subdir] = contrib
@@ -423,6 +415,8 @@ projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][download][type] = git
 projects[hierarchical_select][download][revision] = 1da92c0
 projects[hierarchical_select][download][branch] = 7.x-3.x
+projects[hierarchical_select][patch][1959666] = http://drupal.org/files/hierarchical_select-array-to-string-theme-hierarchical-select-1959666-1.patch
+projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
 
 projects[maxlength][version] = 3.x-dev
 projects[maxlength][subdir] = contrib
@@ -447,8 +441,11 @@ projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
 
-projects[menu_block][version] = 2.3
+projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
+projects[menu_block][download][type] = git
+projects[menu_block][download][revision] = 32ab1cf
+projects[menu_block][download][branch] = 7.x-2.x
 
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
@@ -470,7 +467,7 @@ projects[telephone][download][branch] = 7.x-1.x
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
-projects[workbench][download][revision] = 16a8fff
+projects[workbench][download][revision] = 6856e4a
 projects[workbench][download][branch] = 7.x-1.x
 
 projects[workbench_access][version] = 1.2
@@ -487,37 +484,18 @@ projects[panopoly_core][download][type] = git
 projects[panopoly_core][download][revision] = 3bcd157
 projects[panopoly_core][download][branch] = 7.x-1.x
 projects[panopoly_core][patch][panopoly_core_default_config] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/panopoly_core_default_config.patch
-projects[panopoly_core][patch][1942588] = http://drupal.org/files/1942588-d7-1.patch
-
-projects[panopoly_images][version] = 1.x-dev
-projects[panopoly_images][subdir] = panopoly
-projects[panopoly_images][download][type] = git
-projects[panopoly_images][download][revision] = 98eb0f5
-projects[panopoly_images][download][branch] = 7.x-1.x
-
-projects[panopoly_theme][version] = 1.x-dev
-projects[panopoly_theme][subdir] = panopoly
-projects[panopoly_theme][download][type] = git
-projects[panopoly_theme][download][revision] = 372aeb0
-projects[panopoly_theme][download][branch] = 7.x-1.x
 
 projects[panopoly_magic][version] = 1.x-dev
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 64d984e
+projects[panopoly_magic][download][revision] = 3a1f8f9
 projects[panopoly_magic][download][branch] = 7.x-1.x
 
 projects[panopoly_admin][version] = 1.x-dev
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][download][type] = git
-projects[panopoly_admin][download][revision] = 165fafb
+projects[panopoly_admin][download][revision] = 4d9d071
 projects[panopoly_admin][download][branch] = 7.x-1.x
-
-projects[panopoly_users][version] = 1.x-dev
-projects[panopoly_users][subdir] = panopoly
-projects[panopoly_users][download][type] = git
-projects[panopoly_users][download][revision] = cb4ca09
-projects[panopoly_users][download][branch] = 7.x-1.x
 
 ; The Panopoly Toolset
 
@@ -541,14 +519,18 @@ projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
 
 ; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.0-beta3
+projects[better_exposed_filters][version] = 3.x-dev
 projects[better_exposed_filters][subdir] = contrib
+projects[better_exposed_filters][download][type] = git
+projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
+projects[better_exposed_filters][download][revision] = 6e8b9a0
+projects[better_exposed_filters][download][branch] = 7.x-3.x
 
 ; Load more functionality for views
 projects[views_load_more][type] = module
 projects[views_load_more][download][type] = git
 projects[views_load_more][download][url] = http://git.drupal.org/project/views_load_more.git
-projects[views_load_more][download][revision] = 2f367c5
+projects[views_load_more][download][revision] = 28de384
 projects[views_load_more][download][branch] = 7.x-1.x
 projects[views_load_more][subdir] = contrib
 projects[views_load_more][patch][1923870] = http://drupal.org/files/views_load_more-adding_back_to_the_top_link_issue-1923870-2.patch
