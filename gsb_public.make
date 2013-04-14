@@ -4,7 +4,7 @@ core = 7.x
 ; Override make files. This absolutely has to be first.
 projects[gsb_make_overrides][type] = module
 projects[gsb_make_overrides][download][type] = git
-projects[gsb_make_overrides][download][url] = https://github.com/gsbitse/gsb_make_overrides.git
+projects[gsb_make_overrides][download][url] = git@github.com:gsbitse/gsb_make_overrides.git
 projects[gsb_make_overrides][download][branch] = master
 projects[gsb_make_overrides][subdir] = custom
 
@@ -12,349 +12,349 @@ projects[gsb_make_overrides][subdir] = custom
 
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
-projects[gsb_section_autoconfig][download][url] = https://github.com/gsbitse/gsb_section_autoconfig.git
+projects[gsb_section_autoconfig][download][url] = git@github.com:gsbitse/gsb_section_autoconfig.git
 projects[gsb_section_autoconfig][download][branch] = master
 projects[gsb_section_autoconfig][subdir] = custom
 
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
-projects[gsb_media_center][download][url] = https://github.com/gsbitse/gsb_media_center.git
+projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_center.git
 projects[gsb_media_center][download][branch] = master
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Feature Alumni Content Type
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
-projects[gsb_feature_alumni_ct][download][url] = https://github.com/gsbitse/gsb_feature_alumni_ct.git
+projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsbitse/gsb_feature_alumni_ct.git
 projects[gsb_feature_alumni_ct][download][branch] = master
 projects[gsb_feature_alumni_ct][subdir] = custom/features
 
 ; GSB Feature Business Insight
 projects[gsb_feature_business_insight_ct][type] = module
 projects[gsb_feature_business_insight_ct][download][type] = git
-projects[gsb_feature_business_insight_ct][download][url] = https://github.com/gsbitse/gsb_feature_business_insight_ct.git
+projects[gsb_feature_business_insight_ct][download][url] = git@github.com:gsbitse/gsb_feature_business_insight_ct.git
 projects[gsb_feature_business_insight_ct][download][branch] = master
 projects[gsb_feature_business_insight_ct][subdir] = custom/features
 
 projects[gsb_feature_business_insight_display][type] = module
 projects[gsb_feature_business_insight_display][download][type] = git
-projects[gsb_feature_business_insight_display][download][url] = https://github.com/gsbitse/gsb_feature_business_insight_display.git
+projects[gsb_feature_business_insight_display][download][url] = git@github.com:gsbitse/gsb_feature_business_insight_display.git
 projects[gsb_feature_business_insight_display][download][branch] = master
 projects[gsb_feature_business_insight_display][subdir] = custom/features
 
 ; GSB Feature Case Study Content Type
 projects[gsb_feature_case_study_ct][type] = module
 projects[gsb_feature_case_study_ct][download][type] = git
-projects[gsb_feature_case_study_ct][download][url] = https://github.com/gsbitse/gsb_feature_case_study_ct.git
+projects[gsb_feature_case_study_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_study_ct.git
 projects[gsb_feature_case_study_ct][download][branch] = master
 projects[gsb_feature_case_study_ct][subdir] = custom/features
 
 ; GSB Feature Case Study Display
 projects[gsb_feature_case_study_display][type] = module
 projects[gsb_feature_case_study_display][download][type] = git
-projects[gsb_feature_case_study_display][download][url] = https://github.com/gsbitse/gsb_feature_case_study_display.git
+projects[gsb_feature_case_study_display][download][url] = git@github.com:gsbitse/gsb_feature_case_study_display.git
 projects[gsb_feature_case_study_display][download][branch] = master
 projects[gsb_feature_case_study_display][subdir] = custom/features
 
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
-projects[gsb_feature_club_ct][download][url] = https://github.com/gsbitse/gsb_feature_club_ct.git
+projects[gsb_feature_club_ct][download][url] = git@github.com:gsbitse/gsb_feature_club_ct.git
 projects[gsb_feature_club_ct][download][branch] = master
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
-projects[gsb_feature_club_display][download][url] = https://github.com/gsbitse/gsb_feature_club_display.git
+projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
 projects[gsb_feature_club_display][download][branch] = master
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Feature Event
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
-projects[gsb_feature_event_ct][download][url] = https://github.com/gsbitse/gsb_feature_event_ct.git
+projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
 projects[gsb_feature_event_ct][download][branch] = master
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
-projects[gsb_feature_event_display][download][url] = https://github.com/gsbitse/gsb_feature_event_display.git
+projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
 projects[gsb_feature_event_display][download][branch] = master
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
 projects[gsb_feature_existing_node_fpp][type] = module
 projects[gsb_feature_existing_node_fpp][download][type] = git
-projects[gsb_feature_existing_node_fpp][download][url] = https://github.com/gsbitse/gsb_feature_existing_node_fpp.git
+projects[gsb_feature_existing_node_fpp][download][url] = git@github.com:gsbitse/gsb_feature_existing_node_fpp.git
 projects[gsb_feature_existing_node_fpp][download][branch] = master
 projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 
 ; GSB Feature Faculty Content Type
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
-projects[gsb_feature_faculty_ct][download][url] = https://github.com/gsbitse/gsb_feature_faculty_ct.git
+projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsbitse/gsb_feature_faculty_ct.git
 projects[gsb_feature_faculty_ct][download][branch] = master
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
 projects[gsb_feature_faculty_display][type] = module
 projects[gsb_feature_faculty_display][download][type] = git
-projects[gsb_feature_faculty_display][download][url] = https://github.com/gsbitse/gsb_feature_faculty_display.git
+projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gsb_feature_faculty_display.git
 projects[gsb_feature_faculty_display][download][branch] = master
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
 ; GSB Feature Links FPP
 projects[gsb_feature_links_fpp][type] = module
 projects[gsb_feature_links_fpp][download][type] = git
-projects[gsb_feature_links_fpp][download][url] = https://github.com/gsbitse/gsb_feature_links_fpp.git
+projects[gsb_feature_links_fpp][download][url] = git@github.com:gsbitse/gsb_feature_links_fpp.git
 projects[gsb_feature_links_fpp][download][branch] = master
 projects[gsb_feature_links_fpp][subdir] = custom/features
 
 ; GSB Feature Media Mention
 projects[gsb_feature_media_mention_ct][type] = module
 projects[gsb_feature_media_mention_ct][download][type] = git
-projects[gsb_feature_media_mention_ct][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_ct.git
+projects[gsb_feature_media_mention_ct][download][url] = git@github.com:gsbitse/gsb_feature_media_mention_ct.git
 projects[gsb_feature_media_mention_ct][download][branch] = master
 projects[gsb_feature_media_mention_ct][subdir] = custom/features
 
 projects[gsb_feature_media_mention_display][type] = module
 projects[gsb_feature_media_mention_display][download][type] = git
-projects[gsb_feature_media_mention_display][download][url] = https://github.com/gsbitse/gsb_feature_media_mention_display.git
+projects[gsb_feature_media_mention_display][download][url] = git@github.com:gsbitse/gsb_feature_media_mention_display.git
 projects[gsb_feature_media_mention_display][download][branch] = master
 projects[gsb_feature_media_mention_display][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
-projects[gsb_feature_msx_fellows_ct][download][url] = https://github.com/gsbitse/gsb_feature_msx_fellows_ct.git
+projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_ct.git
 projects[gsb_feature_msx_fellows_ct][download][branch] = master
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature News Content Type
 projects[gsb_feature_news_ct][type] = module
 projects[gsb_feature_news_ct][download][type] = git
-projects[gsb_feature_news_ct][download][url] = https://github.com/gsbitse/gsb_feature_news_ct.git
+projects[gsb_feature_news_ct][download][url] = git@github.com:gsbitse/gsb_feature_news_ct.git
 projects[gsb_feature_news_ct][download][branch] = master
 projects[gsb_feature_news_ct][subdir] = custom/features
 
 ; GSB Feature News Display
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
-projects[gsb_feature_news_display][download][url] = https://github.com/gsbitse/gsb_feature_news_display.git
+projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_feature_news_display.git
 projects[gsb_feature_news_display][download][branch] = master
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
-projects[gsb_feature_page_ct][download][url] = https://github.com/gsbitse/gsb_feature_page_ct.git
+projects[gsb_feature_page_ct][download][url] = git@github.com:gsbitse/gsb_feature_page_ct.git
 projects[gsb_feature_page_ct][download][branch] = master
 projects[gsb_feature_page_ct][subdir] = custom/features
 
 projects[gsb_feature_people_display][type] = module
 projects[gsb_feature_people_display][download][type] = git
-projects[gsb_feature_people_display][download][url] = https://github.com/gsbitse/gsb_feature_people_display.git
+projects[gsb_feature_people_display][download][url] = git@github.com:gsbitse/gsb_feature_people_display.git
 projects[gsb_feature_people_display][download][branch] = master
 projects[gsb_feature_people_display][subdir] = custom/features
 
 projects[gsb_feature_people_fpp][type] = module
 projects[gsb_feature_people_fpp][download][type] = git
-projects[gsb_feature_people_fpp][download][url] = https://github.com/gsbitse/gsb_feature_people_fpp.git
+projects[gsb_feature_people_fpp][download][url] = git@github.com:gsbitse/gsb_feature_people_fpp.git
 projects[gsb_feature_people_fpp][download][branch] = master
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
 ; GSB Feature PhD Candidate Content Type
 projects[gsb_feature_phd_candidate_ct][type] = module
 projects[gsb_feature_phd_candidate_ct][download][type] = git
-projects[gsb_feature_phd_candidate_ct][download][url] = https://github.com/gsbitse/gsb_feature_phd_candidate_ct.git
+projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
 projects[gsb_feature_phd_candidate_ct][download][branch] = master
 projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB Feature Publication Content Type
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
-projects[gsb_feature_publication_ct][download][url] = https://github.com/gsbitse/gsb_feature_publication_ct.git
+projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
 projects[gsb_feature_publication_ct][download][branch] = master
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 ; GSB Feature Publication Display
 projects[gsb_feature_publication_display][type] = module
 projects[gsb_feature_publication_display][download][type] = git
-projects[gsb_feature_publication_display][download][url] = https://github.com/gsbitse/gsb_feature_publication_display.git
+projects[gsb_feature_publication_display][download][url] = git@github.com:gsbitse/gsb_feature_publication_display.git
 projects[gsb_feature_publication_display][download][branch] = master
 projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Feature Research Paper Content Type
 projects[gsb_feature_research_paper_ct][type] = module
 projects[gsb_feature_research_paper_ct][download][type] = git
-projects[gsb_feature_research_paper_ct][download][url] = https://github.com/gsbitse/gsb_feature_research_paper_ct.git
+projects[gsb_feature_research_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_research_paper_ct.git
 projects[gsb_feature_research_paper_ct][download][branch] = master
 projects[gsb_feature_research_paper_ct][subdir] = custom/features
 
 ; GSB Feature Research Paper Display
 projects[gsb_feature_research_paper_display][type] = module
 projects[gsb_feature_research_paper_display][download][type] = git
-projects[gsb_feature_research_paper_display][download][url] = https://github.com/gsbitse/gsb_feature_research_paper_display.git
+projects[gsb_feature_research_paper_display][download][url] = git@github.com:gsbitse/gsb_feature_research_paper_display.git
 projects[gsb_feature_research_paper_display][download][branch] = master
 projects[gsb_feature_research_paper_display][subdir] = custom/features
 
 ; GSB Feature Social Feed
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git
-projects[gsb_feature_social_feed][download][url] = https://github.com/gsbitse/gsb_feature_social_feed.git
+projects[gsb_feature_social_feed][download][url] = git@github.com:gsbitse/gsb_feature_social_feed.git
 projects[gsb_feature_social_feed][download][branch] = master
 projects[gsb_feature_social_feed][subdir] = custom/features
 
 ; GSB Feature Spotlight
 projects[gsb_feature_spotlight][type] = module
 projects[gsb_feature_spotlight][download][type] = git
-projects[gsb_feature_spotlight][download][url] = https://github.com/gsbitse/gsb_feature_spotlight.git
+projects[gsb_feature_spotlight][download][url] = git@github.com:gsbitse/gsb_feature_spotlight.git
 projects[gsb_feature_spotlight][download][branch] = master
 projects[gsb_feature_spotlight][subdir] = custom/features
 
 ; GSB Feature Slideshow
 projects[gsb_feature_slideshow_fpp][type] = module
 projects[gsb_feature_slideshow_fpp][download][type] = git
-projects[gsb_feature_slideshow_fpp][download][url] = https://github.com/gsbitse/gsb_feature_slideshow_fpp.git
+projects[gsb_feature_slideshow_fpp][download][url] = git@github.com:gsbitse/gsb_feature_slideshow_fpp.git
 projects[gsb_feature_slideshow_fpp][download][branch] = master
 projects[gsb_feature_slideshow_fpp][subdir] = custom/features
 
 ; GSB Feature Staff Content Type
 projects[gsb_feature_staff_ct][type] = module
 projects[gsb_feature_staff_ct][download][type] = git
-projects[gsb_feature_staff_ct][download][url] = https://github.com/gsbitse/gsb_feature_staff_ct.git
+projects[gsb_feature_staff_ct][download][url] = git@github.com:gsbitse/gsb_feature_staff_ct.git
 projects[gsb_feature_staff_ct][download][branch] = master
 projects[gsb_feature_staff_ct][subdir] = custom/features
 
 ; GSB Feature Student Content Type
 projects[gsb_feature_student_ct][type] = module
 projects[gsb_feature_student_ct][download][type] = git
-projects[gsb_feature_student_ct][download][url] = https://github.com/gsbitse/gsb_feature_student_ct.git
+projects[gsb_feature_student_ct][download][url] = git@github.com:gsbitse/gsb_feature_student_ct.git
 projects[gsb_feature_student_ct][download][branch] = master
 projects[gsb_feature_student_ct][subdir] = custom/features
 
 ; GSB Feature Text FPP
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
-projects[gsb_feature_text_fpp][download][url] = https://github.com/gsbitse/gsb_feature_text_fpp.git
+projects[gsb_feature_text_fpp][download][url] = git@github.com:gsbitse/gsb_feature_text_fpp.git
 projects[gsb_feature_text_fpp][download][branch] = master
 projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
-projects[gsb_feature_video][download][url] = https://github.com/gsbitse/gsb_feature_video.git
+projects[gsb_feature_video][download][url] = git@github.com:gsbitse/gsb_feature_video.git
 projects[gsb_feature_video][download][branch] = master
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Video Content Type
 projects[gsb_feature_video_ct][type] = module
 projects[gsb_feature_video_ct][download][type] = git
-projects[gsb_feature_video_ct][download][url] = https://github.com/gsbitse/gsb_feature_video_ct.git
+projects[gsb_feature_video_ct][download][url] = git@github.com:gsbitse/gsb_feature_video_ct.git
 projects[gsb_feature_video_ct][download][branch] = master
 projects[gsb_feature_video_ct][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
-projects[gsb_feature_webform_ct][download][url] = https://github.com/gsbitse/gsb_feature_webform_ct.git
+projects[gsb_feature_webform_ct][download][url] = git@github.com:gsbitse/gsb_feature_webform_ct.git
 projects[gsb_feature_webform_ct][download][branch] = master
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Migrate
 projects[gsb_feature_migrate][type] = module
 projects[gsb_feature_migrate][download][type] = git
-projects[gsb_feature_migrate][download][url] = https://github.com/gsbitse/gsb_feature_migrate.git
+projects[gsb_feature_migrate][download][url] = git@github.com:gsbitse/gsb_feature_migrate.git
 projects[gsb_feature_migrate][download][branch] = master
 projects[gsb_feature_migrate][subdir] = custom/features
 
 ; GSB Quote FPP
 projects[gsb_feature_quote_fpp][type] = module
 projects[gsb_feature_quote_fpp][download][type] = git
-projects[gsb_feature_quote_fpp][download][url] = https://github.com/gsbitse/gsb_feature_quote_fpp.git
+projects[gsb_feature_quote_fpp][download][url] = git@github.com:gsbitse/gsb_feature_quote_fpp.git
 projects[gsb_feature_quote_fpp][download][branch] = master
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
 ; GSB Panopoly Wysiwyg Override
 projects[gsb_panopoly_wysiwyg_override][type] = module
 projects[gsb_panopoly_wysiwyg_override][download][type] = git
-projects[gsb_panopoly_wysiwyg_override][download][url] = https://github.com/gsbitse/gsb_panopoly_wysiwyg_override.git
+projects[gsb_panopoly_wysiwyg_override][download][url] = git@github.com:gsbitse/gsb_panopoly_wysiwyg_override.git
 projects[gsb_panopoly_wysiwyg_override][download][branch] = master
 projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 
 ; GSB Search Server
 projects[gsb_search_server][type] = module
 projects[gsb_search_server][download][type] = git
-projects[gsb_search_server][download][url] = https://github.com/gsbitse/gsb_search_server.git
+projects[gsb_search_server][download][url] = git@github.com:gsbitse/gsb_search_server.git
 projects[gsb_search_server][download][branch] = master
 projects[gsb_search_server][subdir] = custom/features
 
 ; GSB Features Image CTA Fpp
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
-projects[gsb_feature_image_cta_fpp][download][url] = https://github.com/gsbitse/gsb_feature_image_cta_fpp.git
+projects[gsb_feature_image_cta_fpp][download][url] = git@github.com:gsbitse/gsb_feature_image_cta_fpp.git
 projects[gsb_feature_image_cta_fpp][download][branch] = master
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Import GatherContent
 projects[gsb_feature_import_gathercontent][type] = module
 projects[gsb_feature_import_gathercontent][download][type] = git
-projects[gsb_feature_import_gathercontent][download][url] = https://github.com/gsbitse/gsb_feature_import_gathercontent.git
+projects[gsb_feature_import_gathercontent][download][url] = git@github.com:gsbitse/gsb_feature_import_gathercontent.git
 projects[gsb_feature_import_gathercontent][download][branch] = master
 projects[gsb_feature_import_gathercontent][subdir] = custom/features
 
 ; GSB Features Mega Menu
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
-projects[gsb_feature_mega_menu][download][url] = https://github.com/gsbitse/gsb_feature_mega_menu.git
+projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feature_mega_menu.git
 projects[gsb_feature_mega_menu][download][branch] = master
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Features Accordion
 projects[gsb_feature_accordion][type] = module
 projects[gsb_feature_accordion][download][type] = git
-projects[gsb_feature_accordion][download][url] = https://github.com/gsbitse/gsb_feature_accordion.git
+projects[gsb_feature_accordion][download][url] = git@github.com:gsbitse/gsb_feature_accordion.git
 projects[gsb_feature_accordion][download][branch] = master
 projects[gsb_feature_accordion][subdir] = custom/features
 
 ; GSB Features CTA
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
-projects[gsb_feature_cta][download][url] = https://github.com/gsbitse/gsb_feature_cta.git
+projects[gsb_feature_cta][download][url] = git@github.com:gsbitse/gsb_feature_cta.git
 projects[gsb_feature_cta][download][branch] = master
 projects[gsb_feature_cta][subdir] = custom/features
 
 ; GSB Public Theme
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
-projects[gsb_theme][download][url] = https://github.com/gsbitse/gsb_theme.git
+projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
 projects[gsb_theme][download][branch] = master
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
 projects[gsb_theme_admin][download][type] = git
-projects[gsb_theme_admin][download][url] = https://github.com/gsbitse/gsb_theme_admin.git
+projects[gsb_theme_admin][download][url] = git@github.com:gsbitse/gsb_theme_admin.git
 projects[gsb_theme_admin][download][branch] = master
 
 
 ; GSB FPP Customization
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
-projects[gsb_fpp_customization][download][url] = https://github.com/gsbitse/gsb_fpp_customization.git
+projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_customization.git
 projects[gsb_fpp_customization][download][branch] = master
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
-projects[gsb_public_custom_blocks][download][url] = https://github.com/gsbitse/gsb_public_custom_blocks.git
+projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
 projects[gsb_public_custom_blocks][download][branch] = master
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Public Custom Blocks
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
-projects[gsb_field_formatter][download][url] = https://github.com/gsbitse/gsb_field_formatter.git
+projects[gsb_field_formatter][download][url] = git@github.com:gsbitse/gsb_field_formatter.git
 projects[gsb_field_formatter][download][branch] = master
 projects[gsb_field_formatter][subdir] = custom
 
