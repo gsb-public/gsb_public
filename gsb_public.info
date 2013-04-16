@@ -68,6 +68,7 @@ dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_field_formatter
 
 ; GSB Features
+dependencies[] = gsb_feature_base_fields
 dependencies[] = gsb_feature_alumni_ct
 dependencies[] = gsb_feature_business_insight_ct
 dependencies[] = gsb_feature_business_insight_display
