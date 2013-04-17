@@ -110,6 +110,13 @@ projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gs
 projects[gsb_feature_faculty_display][download][branch] = master
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
+; GSB Feature File Types
+projects[gsb_feature_file_types][type] = module
+projects[gsb_feature_file_types][download][type] = git
+projects[gsb_feature_file_types][download][url] = git@github.com:gsbitse/gsb_feature_file_types.git
+projects[gsb_feature_file_types][download][branch] = master
+projects[gsb_feature_file_types][subdir] = custom/features
+
 ; GSB Feature Links FPP
 projects[gsb_feature_links_fpp][type] = module
 projects[gsb_feature_links_fpp][download][type] = git
