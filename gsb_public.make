@@ -485,6 +485,7 @@ projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][download][type] = git
 projects[panopoly_admin][download][revision] = 4d9d071
 projects[panopoly_admin][download][branch] = 7.x-1.x
+projects[panopoly_admin][patch][remove-file-entity-permissions] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-file-entity-permissions.patch
 
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
