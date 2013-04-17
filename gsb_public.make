@@ -407,9 +407,8 @@ projects[field_formatter_settings][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
 projects[file_entity][subdir] = contrib
 projects[file_entity][download][type] = git
-projects[file_entity][download][revision] = c2d5c3d
+projects[file_entity][download][revision] = 52984da
 projects[file_entity][download][branch] = 7.x-2.x
-projects[file_entity][patch][1935724] = http://drupal.org/files/1935724-d7-3.patch
 
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
@@ -434,9 +433,11 @@ projects[media][patch][1319528] = http://drupal.org/files/media-browser-enter-su
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-3.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
 
-projects[media_youtube][version] = 1.0-beta3
+projects[media_youtube][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][patch][1812976] = http://drupal.org/files/1812976-1x-fix-against-b3.patch
+projects[media_youtube][download][type] = git
+projects[media_youtube][download][revision] = c53660c
+projects[media_youtube][download][branch] = 7.x-2.x
 
 projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
