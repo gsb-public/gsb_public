@@ -587,7 +587,7 @@ function _gsb_public_setup_taxonomy() {
   /*******************************************************************
    * This is temporary until we are done so devs don't have to suffer.
    *******************************************************************/
-/**  $vocabularies['academic_area']['terms'] = array();
+  $vocabularies['academic_area']['terms'] = array();
   $vocabularies['centers_research_programs']['terms'] = array();
   $vocabularies['club_category']['terms'] = array();
   $vocabularies['department']['terms'] = array();
@@ -597,7 +597,7 @@ function _gsb_public_setup_taxonomy() {
   $vocabularies['program']['terms'] = array();
   $vocabularies['region']['terms'] = array();
   $vocabularies['target_audience']['terms'] = array();
-**/
+
   foreach ($vocabularies as $machine_name => $info) {
     $vocabulary = (object) array(
       'machine_name' => $machine_name,
