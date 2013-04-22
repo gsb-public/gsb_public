@@ -119,3 +119,19 @@ function gsb_public_update_7002() {
   // Date Time only Format
   variable_set('date_format_time_only', 'g:ia');
 }
+
+/**
+ * Add a 'dayname_no_year' date format.
+ */
+function gsb_public_update_7003() {
+  // Insert custom format: 2:45pm
+  db_insert('date_formats')
+    ->fields(array('format' => 'l, M d', 'type' => 'custom', 'locked' => 0))
+    ->execute();
+  // Insert custom format: 2:45pm
+  db_insert('date_format_type')
+    ->fields(array('type' => 'dayname_no_year', 'title' => 'Day name, no year', 'locked' => 0))
+    ->execute();
+  // Date Time only Format
+  variable_set('date_format_dayname_no_year', 'l, M d');
+}
