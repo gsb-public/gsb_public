@@ -466,8 +466,7 @@ projects[menu_block][download][branch] = 7.x-2.x
 
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
-libraries[qtip][download][type] = file
-libraries[qtip][download][url] = https://raw.github.com/Craga89/qTip1/master/1.0.0-rc3/jquery.qtip-1.0.0-rc3.js
+projects[menu_minipanels][patch] = http://drupal.org/files/1977018-d7-1.patch
 
 projects[metatag][version] = 1.0-beta5
 projects[metatag][subdir] = contrib
