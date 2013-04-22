@@ -42,6 +42,7 @@ dependencies[] = devel
 dependencies[] = uuid
 
 ; GSB Additional Contrib Modules
+dependencies[] = apc_flush
 dependencies[] = auto_entitylabel
 dependencies[] = ds
 dependencies[] = ds_ui
