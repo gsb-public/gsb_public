@@ -376,6 +376,11 @@ projects[gsb_field_formatter][subdir] = custom
 projects[addressfield][version] = 1.0-beta3
 projects[addressfield][subdir] = contrib
 
+projects[apc_flush][subdir] = contrib
+projects[apc_flush][type] = module
+projects[apc_flush][download][type] = git
+projects[apc_flush][download][url] = http://git.drupal.org/sandbox/bibo/1823868.git
+
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
 
