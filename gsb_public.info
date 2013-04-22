@@ -51,6 +51,7 @@ dependencies[] = eva
 dependencies[] = fancybox
 dependencies[] = ffc
 dependencies[] = field_formatter_settings
+dependencies[] = google_analytics
 dependencies[] = hierarchical_select
 dependencies[] = hs_taxonomy
 dependencies[] = imagecache_actions
