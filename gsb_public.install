@@ -103,3 +103,19 @@ function gsb_public_update_7001() {
     }
   }
 }
+
+/**
+ * Add a 'time_only' date format.
+ */
+function gsb_public_update_7002() {
+  // Insert custom format: 2:45pm
+  db_insert('date_formats')
+    ->fields(array('format' => 'g:ia', 'type' => 'custom', 'locked' => 0))
+    ->execute();
+  // Insert custom format: 2:45pm
+  db_insert('date_format_type')
+    ->fields(array('type' => 'time_only', 'title' => 'Time only', 'locked' => 0))
+    ->execute();
+  // Date Time only Format
+  variable_set('date_format_time_only', 'g:ia');
+}

@@ -39,6 +39,11 @@ function _gsb_public_setup_time_date() {
     ->fields(array('format' => 'm/d/Y', 'type' => 'custom', 'locked' => 0))
     ->execute();
 
+  // Insert custom format: 2:45pm
+  db_insert('date_formats')
+    ->fields(array('format' => 'g:ia', 'type' => 'custom', 'locked' => 0))
+    ->execute();
+
   // Insert custom format: November 25, 2011 - 2:45pm
   db_insert('date_format_type')
     ->fields(array('type' => 'long_time', 'title' => 'Long With Time', 'locked' => 0))
@@ -59,6 +64,11 @@ function _gsb_public_setup_time_date() {
     ->fields(array('type' => 'year', 'title' => 'Year', 'locked' => 0))
     ->execute();
 
+  // Insert custom format: 2:45pm
+  db_insert('date_format_type')
+    ->fields(array('type' => 'time_only', 'title' => 'Time only', 'locked' => 0))
+    ->execute();
+
   // Date Long Format
   $variables['date_format_long_time'] = 'F j, Y - g:ia';
   $variables['date_format_long'] = 'F j, Y';
@@ -73,6 +83,9 @@ function _gsb_public_setup_time_date() {
 
   // Date Year Format
   $variables['date_format_year'] = 'Y';
+
+  // Date Time Format
+  $variables['date_format_time_only'] = 'g:ia';
 
   _gsb_public_variable_set_multiple($variables);
 }
