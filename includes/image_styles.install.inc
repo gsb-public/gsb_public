@@ -70,11 +70,10 @@ function _gsb_public_setup_image_styles() {
     ),
     '566x396' => array(
       array(
-        'name' => 'image_scale',
+        'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 566,
           'height' => 396,
-          'upscale' => 1,
         ),
         'weight' => 1,
       ),

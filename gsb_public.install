@@ -136,11 +136,10 @@ function gsb_public_update_7004() {
   $image_styles = array(
     '566x396' => array(
       array(
-        'name' => 'image_scale',
+        'name' => 'image_scale_and_crop',
         'data' => array(
           'width' => 566,
           'height' => 396,
-          'upscale' => 1,
         ),
         'weight' => 1,
       ),
