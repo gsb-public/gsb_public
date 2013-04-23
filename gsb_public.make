@@ -376,6 +376,9 @@ projects[gsb_field_formatter][subdir] = custom
 projects[addressfield][version] = 1.0-beta3
 projects[addressfield][subdir] = contrib
 
+projects[addthis][version] = 4.x
+projects[addthis][subdir] = contrib
+
 projects[apc_flush][subdir] = contrib
 projects[apc_flush][type] = module
 projects[apc_flush][download][type] = git
