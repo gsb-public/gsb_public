@@ -422,9 +422,8 @@ projects[file_entity][download][type] = git
 projects[file_entity][download][revision] = 52984da
 projects[file_entity][download][branch] = 7.x-2.x
 
+projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][download][type] = git
-projects[google_analytics][download][branch] = 7.x-1.3
 
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
