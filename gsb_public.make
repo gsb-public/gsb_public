@@ -561,4 +561,4 @@ projects[views_load_more][download][url] = http://git.drupal.org/project/views_l
 projects[views_load_more][download][revision] = 28de384
 projects[views_load_more][download][branch] = 7.x-1.x
 projects[views_load_more][subdir] = contrib
-projects[views_load_more][patch][1923870] = http://drupal.org/files/1923870-d7-1.patch
+projects[views_load_more][patch][1923870] = http://drupal.org/files/1923870-d7-2.patch
