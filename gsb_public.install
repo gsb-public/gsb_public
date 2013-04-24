@@ -161,3 +161,10 @@ function _gsb_public_install_add_image_style($image_styles) {
     }
   }
 }
+
+/**
+ * Enable the addthis and computed_field modules.
+ */
+function gsb_public_update_7005() {
+  module_enable(array('addthis', 'computed_field'));
+}
