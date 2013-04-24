@@ -389,9 +389,9 @@ projects[auto_entitylabel][subdir] = contrib
 
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
-projects[computed_field][type] = git
-projects[computed_field][revision] = 4380d90
-projects[computed_field][branch] = 7.x-1.x
+projects[computed_field][download][type] = git
+projects[computed_field][download][revision] = 4380d90
+projects[computed_field][download][branch] = 7.x-1.x
 
 projects[ds][version] = 2.2
 projects[ds][subdir] = contrib
