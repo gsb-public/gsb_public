@@ -45,6 +45,7 @@ dependencies[] = uuid
 dependencies[] = addthis
 dependencies[] = apc_flush
 dependencies[] = auto_entitylabel
+dependencies[] = computed_field
 dependencies[] = ds
 dependencies[] = ds_ui
 dependencies[] = ds_extras
