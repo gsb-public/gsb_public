@@ -168,3 +168,25 @@ function _gsb_public_install_add_image_style($image_styles) {
 function gsb_public_update_7005() {
   module_enable(array('addthis', 'computed_field'));
 }
+
+/**
+ * Add another image style.
+ */
+function gsb_public_update_7006() {
+  // Declare our image styles
+  $image_styles = array(
+    '145x_variable' => array(
+      array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 145,
+          'height' => '',
+          'upscale' => 1,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+  _gsb_public_install_add_image_style($image_styles);
+}
+
