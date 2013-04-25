@@ -78,6 +78,17 @@ function _gsb_public_setup_image_styles() {
         'weight' => 1,
       ),
     ),
+    '145x_variable' => array(
+      array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 145,
+          'height' => '',
+          'upscale' => 1,
+        ),
+        'weight' => 1,
+      ),
+    ),
   );
 
   // Loop through the image styles and add them.
