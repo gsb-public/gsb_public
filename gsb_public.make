@@ -289,6 +289,13 @@ projects[gsb_feature_quote_fpp][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_quote_fpp][download][branch] = master
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
+; GSB Panels Pages
+projects[gsb_panels_pages][type] = module
+projects[gsb_panels_pages][download][type] = git
+projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pages.git
+projects[gsb_panels_pages][download][branch] = master
+projects[gsb_panels_pages][subdir] = custom
+
 ; GSB Panopoly Wysiwyg Override
 projects[gsb_panopoly_wysiwyg_override][type] = module
 projects[gsb_panopoly_wysiwyg_override][download][type] = git
