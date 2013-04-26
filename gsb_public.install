@@ -19,6 +19,7 @@ function gsb_public_install() {
     'taxonomy',
     'workbench',
     'panopoly',
+    'pathauto',
     'cron',
     'cache',
     'files',
