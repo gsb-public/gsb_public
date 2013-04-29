@@ -275,6 +275,13 @@ projects[gsb_feature_webform_ct][download][url] = git@github.com:gsbitse/gsb_fea
 projects[gsb_feature_webform_ct][download][branch] = master
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
+; GSB Feature Week In The Life Content Type
+projects[gsb_feature_week_in_the_life_ct][type] = module
+projects[gsb_feature_week_in_the_life_ct][download][type] = git
+projects[gsb_feature_week_in_the_life_ct][download][url] = git@github.com:gsbitse/gsb_feature_week_in_the_life_ct.git
+projects[gsb_feature_week_in_the_life_ct][download][branch] = master
+projects[gsb_feature_week_in_the_life_ct][subdir] = custom/features
+
 ; GSB Feature Migrate
 projects[gsb_feature_migrate][type] = module
 projects[gsb_feature_migrate][download][type] = git
