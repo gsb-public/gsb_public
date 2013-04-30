@@ -16,6 +16,7 @@ function _gsb_public_setup_roles() {
   user_role_revoke_permissions($section_editor->rid, array_keys(module_invoke_all('permission')));
 
   $section_editor_permissions = array(
+
     'administer files',
     'create files',
     'use text format panopoly_wysiwyg_text',
@@ -26,6 +27,26 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
     'use panels in place editing',
+
+    'edit fieldable accordion',  
+
+    'create fieldable existing_node',
+    'edit fieldable existing_node',
+
+    'edit fieldable People',
+
+    'edit fieldable quote',
+
+    'edit fieldable slideshow',
+
+    'edit fieldable spotlight',
+
+    'edit fieldable links',
+  
+    'edit fieldable text',
+  
+    'edit fieldable video',
+
   );
 
   user_role_grant_permissions($section_editor->rid, $section_editor_permissions);
@@ -57,10 +78,6 @@ function _gsb_public_setup_roles() {
     'create fieldable existing_node',
     'edit fieldable existing_node',
     'delete fieldable existing_node', 
-
-    'create fieldable image_cta',
-    'edit fieldable image_cta',
-    'delete fieldable image_cta',
 
     'create fieldable people',
     'edit fieldable People',
