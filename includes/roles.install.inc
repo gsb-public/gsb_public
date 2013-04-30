@@ -38,12 +38,62 @@ function _gsb_public_setup_roles() {
   user_role_save($section_manager);
 
   $section_manager_permissions = array(
+
     'create files',
     'use text format panopoly_wysiwyg_text',
     'use text format panopoly_html_text',
     'access content',
     'view own unpublished content',
     'use panels in place editing',
+    
+    'create fieldable accordion',
+    'edit fieldable accordion',
+    'delete fieldable accordion',     
+
+    'create fieldable cta',
+    'edit fieldable cta',
+    'delete fieldable cta',   
+
+    'create fieldable existing_node',
+    'edit fieldable existing_node',
+    'delete fieldable existing_node', 
+
+    'create fieldable image_cta',
+    'edit fieldable image_cta',
+    'delete fieldable image_cta',
+
+    'create fieldable people',
+    'edit fieldable People',
+    'delete fieldable people',
+
+    'create fieldable quote',
+    'edit fieldable quote',
+    'delete fieldable quote',
+
+    'create fieldable slideshow',
+    'edit fieldable slideshow',
+    'delete fieldable slideshow',
+
+    'create fieldable social_feed',
+    'edit fieldable social_feed',
+    'delete fieldable social_feed', 
+
+    'create fieldable spotlight',
+    'edit fieldable spotlight',
+    'delete fieldable spotlight', 
+  
+    'create fieldable links',
+    'edit fieldable links',
+    'delete fieldable links', 
+  
+    'create fieldable text',
+    'edit fieldable text',
+    'delete fieldable text',  
+  
+    'create fieldable video',
+    'edit fieldable video',
+    'delete fieldable video', 
+
   );
 
   user_role_grant_permissions($section_manager->rid, $section_manager_permissions);
