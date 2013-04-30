@@ -1,6 +1,7 @@
 <?php
 
 function _gsb_public_setup_roles() {
+
   // Update the administrator role
   $administrator = user_role_load_by_name('administrator');
   user_role_grant_permissions($administrator->rid, array_keys(module_invoke_all('permission')));
@@ -15,25 +16,23 @@ function _gsb_public_setup_roles() {
   // Remove any existing permissions
   user_role_revoke_permissions($section_editor->rid, array_keys(module_invoke_all('permission')));
 
+  // Update section editor role
+
   $section_editor_permissions = array(
 
     'administer files',
     'create files',
     'use text format panopoly_wysiwyg_text',
     'use text format panopoly_html_text',
-    'administer nodes',
-    'access content',
-    'view own unpublished content',
-    'view revisions',
-    'revert revisions',
-    'use panels in place editing',
+
+    // FPP permissions
 
     'edit fieldable accordion',  
 
     'create fieldable existing_node',
     'edit fieldable existing_node',
 
-    'edit fieldable people',
+    'edit fieldable People',
 
     'edit fieldable quote',
 
@@ -47,12 +46,63 @@ function _gsb_public_setup_roles() {
   
     'edit fieldable video',
 
+    // File entity
+
+    'view own files',
+    'view files',    
+
+    // Filter
+
+    'use text format panopoly_wysiwyg_text',  
+
+    // Media Internet Sources
+
+    'add media from remote sources',    
+
+    // Mobile friendly navigation toolbar
+
+    'access navbar',              
+
+    // Node permissions
+
+    'access content',
+    'view own unpublished content',
+    'view revisions',
+    'revert revisions',    
+
+    'edit any alumni content',
+  
+    'create event content',
+    'edit own event content',
+    'edit any event content',
+    'delete own event content',
+  
+    'edit any msx_fellows content',
+  
+    'edit any page content',
+  
+    'edit any phd_candidate content',
+
+    'edit any staff content',
+
+    'edit any webform content',  
+
+    // Panels
+
+    'view pane admin links',
+    'use panels in place editing',
+
+    // Workbench
+
+    'access workbench',
+
   );
 
   user_role_grant_permissions($section_editor->rid, $section_editor_permissions);
 
 
   // Create a section manager role
+
   $section_manager = new stdClass();
   $section_manager->name = 'section manager';
   $section_manager->weight = 3;
@@ -63,9 +113,8 @@ function _gsb_public_setup_roles() {
     'create files',
     'use text format panopoly_wysiwyg_text',
     'use text format panopoly_html_text',
-    'access content',
-    'view own unpublished content',
-    'use panels in place editing',
+
+    // FPP permissions    
     
     'create fieldable accordion',
     'edit fieldable accordion',
@@ -110,6 +159,80 @@ function _gsb_public_setup_roles() {
     'create fieldable video',
     'edit fieldable video',
     'delete fieldable video', 
+
+    // File entity
+
+    'view own files',
+    'view files',  
+
+    // Filter
+
+    'use text format panopoly_wysiwyg_text',    
+
+    // Media Internet Sources
+
+    'add media from remote sources',       
+
+    // Menu
+
+    'administer menu',     
+
+    // Mobile friendly navigation toolbar
+
+    'access navbar',    
+
+    // Node permissions
+
+    'administer nodes',
+    'access content',
+    'view own unpublished content',
+    'view revisions',
+    'revert revisions',
+
+    'create alumni content',
+    'edit own alumni content',
+    'edit any alumni content',
+    'delete own alumni content',
+  
+    'create event content',
+    'edit own event content',
+    'edit any event content',
+    'delete own event content',
+  
+    'create msx_fellows content',
+    'edit own msx_fellows content',
+    'edit any msx_fellows content',
+    'delete own msx_fellows content',
+  
+    'create page content',
+    'edit own page content',
+    'edit any page content',
+    'delete own page content',
+  
+    'create phd_candidate content',
+    'edit own phd_candidate content',
+    'edit any phd_candidate content',
+    'delete own phd_candidate content',
+  
+    'create staff content',
+    'edit own staff content',
+    'edit any staff content',
+    'delete own staff content',
+
+    'create webform content',
+    'edit own webform content',
+    'edit any webform content',
+    'delete own webform content',
+
+    // Panels
+
+    'view pane admin links',
+    'use panels in place editing',
+    'change layouts in place editing',
+
+    // Workbench
+
+    'access workbench',    
 
   );
 
