@@ -33,7 +33,7 @@ function _gsb_public_setup_roles() {
     'create fieldable existing_node',
     'edit fieldable existing_node',
 
-    'edit fieldable People',
+    'edit fieldable people',
 
     'edit fieldable quote',
 
@@ -80,7 +80,7 @@ function _gsb_public_setup_roles() {
     'delete fieldable existing_node', 
 
     'create fieldable people',
-    'edit fieldable People',
+    'edit fieldable people',
     'delete fieldable people',
 
     'create fieldable quote',
