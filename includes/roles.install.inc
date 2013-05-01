@@ -398,55 +398,6 @@ function _gsb_public_setup_roles() {
 
   );
 
-  user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);  
-
-
-  // Create the MBA Program role
-
-  $mba_program = new stdClass();
-  $mba_program->name = 'mba_program';
-  $mba_program->weight = 7;
-  user_role_save($mba_program);
-
-  $mba_program_permissions = array(
-
-    // Node permissions  
-
-    'create club content',
-    'edit own club content',
-    'edit any club content',
-    'delete own club content',      
-
-    'edit any faculty content',    
-
-    'create week_in_the_life content',
-    'edit own week_in_the_life content',
-    'edit any week_in_the_life content',
-    'delete own week_in_the_life content',        
-
-  );
-
-  user_role_grant_permissions($mba_program->rid, $mba_program_permissions);  
-
-
-  // Create the Library role
-
-  $library = new stdClass();
-  $library->name = 'library';
-  $library->weight = 8;
-  user_role_save($library);
-
-  $library_permissions = array(
-
-    // Node permissions  
-
-    'create research_paper content',
-    'edit own research_paper content',
-    'edit any research_paper content',
-    'delete own research_paper content',       
-
-  );
-
-  user_role_grant_permissions($library->rid, $library_permissions);  
+  user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);   
 
 }
