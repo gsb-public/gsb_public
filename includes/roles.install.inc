@@ -296,7 +296,7 @@ function _gsb_public_setup_roles() {
   // Create the CWO Admin role
 
   $cwo_admin = new stdClass();
-  $cwo_admin->name = 'fa';
+  $cwo_admin->name = 'cwo_admin';
   $cwo_admin->weight = 5;
   user_role_save($cwo_admin);
 
@@ -346,7 +346,7 @@ function _gsb_public_setup_roles() {
   // Create the Marketing Admin role
 
   $marketing_admin = new stdClass();
-  $marketing_admin->name = 'fa';
+  $marketing_admin->name = 'marketing_admin';
   $marketing_admin->weight = 6;
   user_role_save($marketing_admin);
 
@@ -399,7 +399,5 @@ function _gsb_public_setup_roles() {
   );
 
   user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);  
-
-
 
 }
