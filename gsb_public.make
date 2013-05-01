@@ -525,6 +525,9 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
+projects[redirect][version] = 1.0-rc1
+projects[redirect][subdir] = contrib
+
 ; Panopoly
 
 projects[panopoly_admin][version] = 1.x-dev
