@@ -237,4 +237,169 @@ function _gsb_public_setup_roles() {
   );
 
   user_role_grant_permissions($section_manager->rid, $section_manager_permissions);
+
+  // Create the FA role
+
+  $fa = new stdClass();
+  $fa->name = 'fa';
+  $fa->weight = 4;
+  user_role_save($fa);
+
+  $fa_permissions = array(
+
+    // File entity
+
+    'view own files',
+    'view files',  
+
+    // Filter
+
+    'use text format panopoly_wysiwyg_text',    
+
+    // Media Internet Sources
+
+    'add media from remote sources',    
+    
+    // Mobile friendly navigation toolbar
+
+    'access navbar',     
+    
+    // Node permissions
+
+    'access content',
+    'view own unpublished content',
+    'view revisions',
+    'revert revisions',       
+
+    'create event content',
+    'edit own event content',
+    'delete own event content',       
+
+    'create faculty content',
+    'edit own faculty content',
+    'edit any faculty content',
+    'delete own faculty content',   
+
+    'create publication content', 
+    'edit own publication content', 
+    'edit any publication content', 
+    'delete own publication content',      
+
+    // Workbench
+
+    'access workbench',       
+
+  );
+
+  user_role_grant_permissions($fa->rid, $fa_permissions);
+
+  // Create the CWO Admin role
+
+  $cwo_admin = new stdClass();
+  $cwo_admin->name = 'fa';
+  $cwo_admin->weight = 5;
+  user_role_save($cwo_admin);
+
+  $cwo_admin_permissions = array(
+
+    // File entity
+
+    'view own files',
+    'view files',  
+
+    // Filter
+
+    'use text format panopoly_wysiwyg_text',    
+
+    // Media Internet Sources
+
+    'add media from remote sources',     
+    
+    // Mobile friendly navigation toolbar
+
+    'access navbar',     
+    
+    // Node permissions
+
+    'access content',
+    'view own unpublished content',
+    'view revisions',
+    'revert revisions',       
+
+    'create case_study content',
+    'edit own case_study content',
+    'edit any case_study content',
+    'delete own case_study content',     
+
+    'create event content',
+    'edit own event content',
+    'delete own event content',  
+
+    // Workbench
+
+    'access workbench',              
+
+  );
+
+  user_role_grant_permissions($cwo_admin->rid, $cwo_admin_permissions);  
+
+  // Create the Marketing Admin role
+
+  $marketing_admin = new stdClass();
+  $marketing_admin->name = 'fa';
+  $marketing_admin->weight = 6;
+  user_role_save($marketing_admin);
+
+  $marketing_admin_permissions = array(
+
+    // FPP permissions    
+
+    'create fieldable image_cta',
+    'edit fieldable image_cta',
+    'delete fieldable image_cta',
+
+    // Mini panels
+
+    'administer mini panels',       
+
+    // Node permissions
+
+    'create business_insight content', 
+    'edit own business_insight content', 
+    'edit any business_insight content', 
+    'delete own business_insight content', 
+
+    'create club content',
+    'edit own club content',
+    'edit any club content',
+    'delete own club content',        
+
+    'edit any faculty content',
+
+    'create media_mention content',
+    'edit own media_mention content',
+    'edit any media_mention content',
+    'delete own media_mention content',             
+
+    'create news content',
+    'edit own news content',
+    'edit any news content',
+    'delete own news content',     
+
+    'create publication content',
+    'edit own publication content',
+    'edit any publication content',
+    'delete own publication content',  
+
+    'create gsb_video content',
+    'edit own gsb_video content',
+    'edit any gsb_video content',
+    'delete own gsb_video content',      
+
+  );
+
+  user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);  
+
+
+
 }
