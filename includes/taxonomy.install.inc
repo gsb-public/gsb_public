@@ -102,7 +102,7 @@ function _gsb_public_setup_taxonomy() {
           'Organizational Change',
           'Technological Change',
           'Transitions & Renewals',
-          'Reslilience',
+          'Resilience',
         ),
         'Economics' => array(
           'Behavioral Economics',
