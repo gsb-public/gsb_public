@@ -414,6 +414,9 @@ projects[computed_field][download][type] = git
 projects[computed_field][download][revision] = 4380d90
 projects[computed_field][download][branch] = 7.x-1.x
 
+projects[diff][version] = 3.2
+projects[diff][subdir] = contrib
+
 projects[ds][version] = 2.2
 projects[ds][subdir] = contrib
 
@@ -506,6 +509,13 @@ projects[metatag][subdir] = contrib
 
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
+
+projects[breadcrumbs_by_path][version] = 1.x-dev
+projects[breadcrumbs_by_path][subdir] = contrib
+projects[breadcrumbs_by_path][download][type] = git
+projects[breadcrumbs_by_path][download][revision] = 8f6896f
+projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
+projects[breadcrumbs_by_path][patch][1985572] = http://drupal.org/files/allow-blocks.patch
 
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib

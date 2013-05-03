@@ -43,6 +43,8 @@ function gsb_public_install() {
     $time = $time_end - $time_start;
     drush_print('End of ' . $action . ' action. Completed in ' . $time . ' seconds.');
   }
+
+  db_query("UPDATE {system} SET weight = '-6' WHERE name = 'breadcrumbs_by_path'");
 }
 
 function _gsb_public_variable_set_multiple($variables) {
@@ -245,3 +247,11 @@ function gsb_public_update_7008() {
 
 }
 
+/**
+ * Enable diff and breadcrumbs_by_path module.
+ */
+function gsb_public_update_7009() {
+  module_enable(array('diff', 'breadcrumbs_by_path'));
+
+  db_query("UPDATE {system} SET weight = '-6' WHERE name = 'breadcrumbs_by_path'");
+}
