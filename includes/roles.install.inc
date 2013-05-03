@@ -92,6 +92,10 @@ function _gsb_public_setup_roles() {
     'view pane admin links',
     'use panels in place editing',
 
+    // System
+
+    "view the administration theme",
+
     // Workbench
 
     'access workbench',
@@ -185,6 +189,7 @@ function _gsb_public_setup_roles() {
 
     'administer nodes',
     'access content',
+    'access content overview',
     'view own unpublished content',
     'view revisions',
     'revert revisions',
@@ -229,6 +234,14 @@ function _gsb_public_setup_roles() {
     'view pane admin links',
     'use panels in place editing',
     'change layouts in place editing',
+
+    // Panelizer
+
+    'administer panelizer node page content',
+
+    // System
+
+    "view the administration theme",
 
     // Workbench
 
