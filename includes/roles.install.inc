@@ -245,7 +245,11 @@ function _gsb_public_setup_roles() {
 
     // Workbench
 
-    'access workbench',    
+    'access workbench',
+
+    // Workbench Moderation
+
+    'bypass workbench moderation',
 
   );
 
