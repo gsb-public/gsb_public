@@ -92,6 +92,10 @@ function _gsb_public_setup_roles() {
     'view pane admin links',
     'use panels in place editing',
 
+    // Panelizer
+
+    'administer panelizer node page content',
+
     // System
 
     "view the administration theme",
