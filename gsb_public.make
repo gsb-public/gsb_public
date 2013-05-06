@@ -408,6 +408,9 @@ projects[apc_flush][download][url] = http://git.drupal.org/sandbox/bibo/1823868.
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
 
+projects[breakpoints][version] = 1.0
+projects[breakpoints][subdir] = contrib
+
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
 projects[computed_field][download][type] = git
