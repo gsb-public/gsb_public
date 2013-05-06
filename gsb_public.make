@@ -394,6 +394,7 @@ projects[apc_flush][download][url] = http://git.drupal.org/sandbox/bibo/1823868.
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
 
+; Backbone library used by Navbar
 libraries[backbone][download][type] = get
 libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
 
@@ -530,6 +531,7 @@ projects[workbench_moderation][subdir] = contrib
 projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
 
+; Underscore library used by Navbar
 libraries[underscore][download][type] = get
 libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
 
