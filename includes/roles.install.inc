@@ -27,7 +27,7 @@ function _gsb_public_setup_roles() {
 
     // FPP permissions
 
-    'edit fieldable accordion',  
+    'edit fieldable accordion',
 
     'create fieldable existing_node',
     'edit fieldable existing_node',
@@ -41,51 +41,49 @@ function _gsb_public_setup_roles() {
     'edit fieldable spotlight',
 
     'edit fieldable links',
-  
+
     'edit fieldable text',
-  
+
     'edit fieldable video',
 
     // File entity
 
     'view own files',
-    'view files',    
+    'view files',
 
     // Filter
 
-    'use text format panopoly_wysiwyg_text',  
+    'use text format panopoly_wysiwyg_text',
 
     // Media Internet Sources
 
-    'add media from remote sources',    
+    'add media from remote sources',
 
     // Mobile friendly navigation toolbar
 
-    'access navbar',              
+    'access navbar',
 
     // Node permissions
 
     'access content',
     'view own unpublished content',
     'view revisions',
-    'revert revisions',    
+    'revert revisions',
 
-    'edit any alumni content',
-  
     'create event content',
     'edit own event content',
     'edit any event content',
     'delete own event content',
-  
+
     'edit any msx_fellows content',
-  
+
     'edit any page content',
-  
+
     'edit any phd_candidate content',
 
     'edit any staff content',
 
-    'edit any webform content',  
+    'edit any webform content',
 
     // Panels
 
@@ -122,19 +120,19 @@ function _gsb_public_setup_roles() {
     'use text format panopoly_wysiwyg_text',
     'use text format panopoly_html_text',
 
-    // FPP permissions    
-    
+    // FPP permissions
+
     'create fieldable accordion',
     'edit fieldable accordion',
-    'delete fieldable accordion',     
+    'delete fieldable accordion',
 
     'create fieldable cta',
     'edit fieldable cta',
-    'delete fieldable cta',   
+    'delete fieldable cta',
 
     'create fieldable existing_node',
     'edit fieldable existing_node',
-    'delete fieldable existing_node', 
+    'delete fieldable existing_node',
 
     'create fieldable people',
     'edit fieldable people',
@@ -150,44 +148,44 @@ function _gsb_public_setup_roles() {
 
     'create fieldable social_feed',
     'edit fieldable social_feed',
-    'delete fieldable social_feed', 
+    'delete fieldable social_feed',
 
     'create fieldable spotlight',
     'edit fieldable spotlight',
-    'delete fieldable spotlight', 
-  
+    'delete fieldable spotlight',
+
     'create fieldable links',
     'edit fieldable links',
-    'delete fieldable links', 
-  
+    'delete fieldable links',
+
     'create fieldable text',
     'edit fieldable text',
-    'delete fieldable text',  
-  
+    'delete fieldable text',
+
     'create fieldable video',
     'edit fieldable video',
-    'delete fieldable video', 
+    'delete fieldable video',
 
     // File entity
 
     'view own files',
-    'view files',  
+    'view files',
 
     // Filter
 
-    'use text format panopoly_wysiwyg_text',    
+    'use text format panopoly_wysiwyg_text',
 
     // Media Internet Sources
 
-    'add media from remote sources',       
+    'add media from remote sources',
 
     // Menu
 
-    'administer menu',     
+    'administer menu',
 
     // Mobile friendly navigation toolbar
 
-    'access navbar',    
+    'access navbar',
 
     // Node permissions
 
@@ -198,31 +196,26 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
 
-    'create alumni content',
-    'edit own alumni content',
-    'edit any alumni content',
-    'delete own alumni content',
-  
     'create event content',
     'edit own event content',
     'edit any event content',
     'delete own event content',
-  
+
     'create msx_fellows content',
     'edit own msx_fellows content',
     'edit any msx_fellows content',
     'delete own msx_fellows content',
-  
+
     'create page content',
     'edit own page content',
     'edit any page content',
     'delete own page content',
-  
+
     'create phd_candidate content',
     'edit own phd_candidate content',
     'edit any phd_candidate content',
     'delete own phd_candidate content',
-  
+
     'create staff content',
     'edit own staff content',
     'edit any staff content',
@@ -271,44 +264,44 @@ function _gsb_public_setup_roles() {
     // File entity
 
     'view own files',
-    'view files',  
+    'view files',
 
     // Filter
 
-    'use text format panopoly_wysiwyg_text',    
+    'use text format panopoly_wysiwyg_text',
 
     // Media Internet Sources
 
-    'add media from remote sources',    
-    
+    'add media from remote sources',
+
     // Mobile friendly navigation toolbar
 
-    'access navbar',     
-    
+    'access navbar',
+
     // Node permissions
 
     'access content',
     'view own unpublished content',
     'view revisions',
-    'revert revisions',       
+    'revert revisions',
 
     'create event content',
     'edit own event content',
-    'delete own event content',       
+    'delete own event content',
 
     'create faculty content',
     'edit own faculty content',
     'edit any faculty content',
-    'delete own faculty content',   
+    'delete own faculty content',
 
-    'create publication content', 
-    'edit own publication content', 
-    'edit any publication content', 
-    'delete own publication content',      
+    'create publication content',
+    'edit own publication content',
+    'edit any publication content',
+    'delete own publication content',
 
     // Workbench
 
-    'access workbench',       
+    'access workbench',
 
   );
 
@@ -326,43 +319,43 @@ function _gsb_public_setup_roles() {
     // File entity
 
     'view own files',
-    'view files',  
+    'view files',
 
     // Filter
 
-    'use text format panopoly_wysiwyg_text',    
+    'use text format panopoly_wysiwyg_text',
 
     // Media Internet Sources
 
-    'add media from remote sources',     
-    
+    'add media from remote sources',
+
     // Mobile friendly navigation toolbar
 
-    'access navbar',     
-    
+    'access navbar',
+
     // Node permissions
 
     'access content',
     'view own unpublished content',
     'view revisions',
-    'revert revisions',       
+    'revert revisions',
 
     'create case_study content',
     'edit own case_study content',
     'edit any case_study content',
-    'delete own case_study content',     
+    'delete own case_study content',
 
     'create event content',
     'edit own event content',
-    'delete own event content',  
+    'delete own event content',
 
     // Workbench
 
-    'access workbench',              
+    'access workbench',
 
   );
 
-  user_role_grant_permissions($cwo_admin->rid, $cwo_admin_permissions);  
+  user_role_grant_permissions($cwo_admin->rid, $cwo_admin_permissions);
 
   // Create the Marketing Admin role
 
@@ -373,7 +366,7 @@ function _gsb_public_setup_roles() {
 
   $marketing_admin_permissions = array(
 
-    // FPP permissions    
+    // FPP permissions
 
     'create fieldable image_cta',
     'edit fieldable image_cta',
@@ -381,44 +374,44 @@ function _gsb_public_setup_roles() {
 
     // Mini panels
 
-    'administer mini panels',       
+    'administer mini panels',
 
     // Node permissions
 
-    'create business_insight content', 
-    'edit own business_insight content', 
-    'edit any business_insight content', 
-    'delete own business_insight content', 
+    'create business_insight content',
+    'edit own business_insight content',
+    'edit any business_insight content',
+    'delete own business_insight content',
 
     'create club content',
     'edit own club content',
     'edit any club content',
-    'delete own club content',        
+    'delete own club content',
 
     'edit any faculty content',
 
     'create media_mention content',
     'edit own media_mention content',
     'edit any media_mention content',
-    'delete own media_mention content',             
+    'delete own media_mention content',
 
     'create news content',
     'edit own news content',
     'edit any news content',
-    'delete own news content',     
+    'delete own news content',
 
     'create publication content',
     'edit own publication content',
     'edit any publication content',
-    'delete own publication content',  
+    'delete own publication content',
 
     'create gsb_video content',
     'edit own gsb_video content',
     'edit any gsb_video content',
-    'delete own gsb_video content',      
+    'delete own gsb_video content',
 
   );
 
-  user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);   
+  user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);
 
 }
