@@ -29,13 +29,6 @@ projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_fe
 projects[gsb_feature_base_fields][download][branch] = master
 projects[gsb_feature_base_fields][subdir] = custom/features
 
-; GSB Feature Alumni Content Type
-projects[gsb_feature_alumni_ct][type] = module
-projects[gsb_feature_alumni_ct][download][type] = git
-projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsbitse/gsb_feature_alumni_ct.git
-projects[gsb_feature_alumni_ct][download][branch] = master
-projects[gsb_feature_alumni_ct][subdir] = custom/features
-
 ; GSB Feature Business Insight
 projects[gsb_feature_business_insight_ct][type] = module
 projects[gsb_feature_business_insight_ct][download][type] = git
@@ -239,13 +232,6 @@ projects[gsb_feature_staff_ct][download][type] = git
 projects[gsb_feature_staff_ct][download][url] = git@github.com:gsbitse/gsb_feature_staff_ct.git
 projects[gsb_feature_staff_ct][download][branch] = master
 projects[gsb_feature_staff_ct][subdir] = custom/features
-
-; GSB Feature Student Content Type
-projects[gsb_feature_student_ct][type] = module
-projects[gsb_feature_student_ct][download][type] = git
-projects[gsb_feature_student_ct][download][url] = git@github.com:gsbitse/gsb_feature_student_ct.git
-projects[gsb_feature_student_ct][download][branch] = master
-projects[gsb_feature_student_ct][subdir] = custom/features
 
 ; GSB Feature Text FPP
 projects[gsb_feature_text_fpp][type] = module
