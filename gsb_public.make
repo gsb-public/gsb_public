@@ -394,6 +394,9 @@ projects[apc_flush][download][url] = http://git.drupal.org/sandbox/bibo/1823868.
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
 
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
+
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
 projects[computed_field][download][type] = git
@@ -523,6 +526,9 @@ projects[workbench_moderation][subdir] = contrib
 
 projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
+
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
 
 ; Panopoly
 
