@@ -397,6 +397,9 @@ projects[auto_entitylabel][subdir] = contrib
 libraries[backbone][download][type] = get
 libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
 
+projects[breakpoints][version] = 1.0
+projects[breakpoints][subdir] = contrib
+
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
 projects[computed_field][download][type] = git
