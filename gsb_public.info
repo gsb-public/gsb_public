@@ -32,6 +32,7 @@ dependencies[] = panopoly_wysiwyg
 
 ; Panopoly Recommended - Admin
 dependencies[] = navbar
+dependencies[] = breakpoints
 dependencies[] = backports
 dependencies[] = simplified_menu_admin
 dependencies[] = module_filter
