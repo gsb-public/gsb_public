@@ -191,6 +191,7 @@ function _gsb_public_setup_roles() {
 
     'administer nodes',
     'access content',
+    'access content overview',
     'view own unpublished content',
     'view revisions',
     'revert revisions',
@@ -199,6 +200,7 @@ function _gsb_public_setup_roles() {
     'edit own event content',
     'edit any event content',
     'delete own event content',
+    'delete any event content',   
 
     'create msx_fellows content',
     'edit own msx_fellows content',
@@ -286,17 +288,13 @@ function _gsb_public_setup_roles() {
 
     'create event content',
     'edit own event content',
+    'edit any event content',
     'delete own event content',
+    'delete any event content',   
 
-    'create faculty content',
-    'edit own faculty content',
     'edit any faculty content',
-    'delete own faculty content',
 
-    'create publication content',
-    'edit own publication content',
     'edit any publication content',
-    'delete own publication content',
 
     // Workbench
 
@@ -305,6 +303,65 @@ function _gsb_public_setup_roles() {
   );
 
   user_role_grant_permissions($fa->rid, $fa_permissions);
+
+  // Create the AA role
+
+  $aa = new stdClass();
+  $aa->name = 'aa';
+  $aa->weight = 4;
+  user_role_save($aa);
+
+  $aa_permissions = array(
+
+    // File entity
+
+    'view own files',
+    'view files',
+
+    // Filter
+
+    'use text format panopoly_wysiwyg_text',
+
+    // Media Internet Sources
+
+    'add media from remote sources',
+
+    // Mobile friendly navigation toolbar
+
+    'access navbar',
+
+    // Node permissions
+
+    'access content',
+    'view own unpublished content',
+    'view revisions',
+    'revert revisions',
+
+    'create event content',
+    'edit own event content',
+    'edit any event content',
+    'delete own event content',
+    'delete any event content',    
+
+    'create faculty content',
+    'edit own faculty content',
+    'edit any faculty content',
+    'delete own faculty content',
+    'delete any faculty content',       
+
+    'create publication content',
+    'edit own publication content',
+    'edit any publication content',
+    'delete own publication content',
+    'delete any publication content',      
+
+    // Workbench
+
+    'access workbench',
+
+  );
+
+  user_role_grant_permissions($aa->rid, $aa_permissions);  
 
   // Create the CWO Admin role
 
@@ -346,7 +403,9 @@ function _gsb_public_setup_roles() {
 
     'create event content',
     'edit own event content',
+    'edit any event content',    
     'delete own event content',
+    'delete any event content',    
 
     // Workbench
 
