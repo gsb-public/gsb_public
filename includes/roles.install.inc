@@ -87,7 +87,6 @@ function _gsb_public_setup_roles() {
 
     // Panels
 
-    'view pane admin links',
     'use panels in place editing',
 
     // Panelizer
@@ -229,7 +228,6 @@ function _gsb_public_setup_roles() {
 
     // Panels
 
-    'view pane admin links',
     'use panels in place editing',
     'change layouts in place editing',
 
