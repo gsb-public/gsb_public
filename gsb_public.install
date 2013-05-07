@@ -197,7 +197,7 @@ function gsb_public_update_7006() {
  * Add pathauto ignore words
  */
 function gsb_public_update_7007() {
-  variable_set("pathauto_ignore_words", 
+  variable_set("pathauto_ignore_words",
     "a, an, as, at, before, but, by, for, from, is, in, into, like, of, off, on, onto, our, per, since, than, the, this, that, to, up, via, with");
 }
 
@@ -224,14 +224,14 @@ function gsb_public_update_7008() {
     foreach ($terms as $key => $term) {
   	  if ($term->name == 'On-campus Events') {
         $term_found = true;
-  	    break;	
+  	    break;
   	  }
     }
 
     if ($term_found) {
-  	  // Rename term 'On-campus Events' 
+  	  // Rename term 'On-campus Events'
   	  // to.         'On-campus'
-  	  $term->name = 'On-campus'; 
+  	  $term->name = 'On-campus';
 		  taxonomy_term_save($term);
     }
 
@@ -241,7 +241,7 @@ function gsb_public_update_7008() {
       'vid' => $vocabulary->vid,
       'name' => 'Diverse Communities',
     );
-    taxonomy_term_save($term);  
+    taxonomy_term_save($term);
 
   }
 
@@ -254,4 +254,9 @@ function gsb_public_update_7009() {
   module_enable(array('diff', 'breadcrumbs_by_path'));
 
   db_query("UPDATE {system} SET weight = '-6' WHERE name = 'breadcrumbs_by_path'");
+}
+
+// Enable breakpoints module.
+function gsb_public_update_7010() {
+  module_enable(array('breakpoints'));
 }
