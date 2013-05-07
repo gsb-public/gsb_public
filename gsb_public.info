@@ -77,6 +77,7 @@ dependencies[] = gsb_media_center
 dependencies[] = gsb_panels_pages
 dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_field_formatter
+dependencies[] = gsb_tokens
 
 ; GSB Features
 dependencies[] = gsb_feature_base_fields

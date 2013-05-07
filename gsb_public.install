@@ -260,3 +260,8 @@ function gsb_public_update_7009() {
 function gsb_public_update_7010() {
   module_enable(array('breakpoints'));
 }
+
+// Enable gsb_tokens module.
+function gsb_public_update_7011() {
+  module_enable(array('gsb_tokens'));
+}

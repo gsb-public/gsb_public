@@ -22,6 +22,13 @@ projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_cen
 projects[gsb_media_center][download][branch] = master
 projects[gsb_media_center][subdir] = custom
 
+projects[gsb_tokens][type] = module
+projects[gsb_tokens][download][type] = git
+projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
+projects[gsb_tokens][download][branch] = master
+projects[gsb_tokens][subdir] = custom
+
+
 ; GSB Feature base fields
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
