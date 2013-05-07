@@ -191,7 +191,6 @@ function _gsb_public_setup_roles() {
 
     'administer nodes',
     'access content',
-    'access content overview',
     'view own unpublished content',
     'view revisions',
     'revert revisions',
