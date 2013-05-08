@@ -27,7 +27,7 @@ function _gsb_public_setup_filter_formats() {
   $format->filters["wysiwyg"]["settings"]["valid_elements"] =
     "a[!href|target<_blank|title|style],\n" .
     "div[style|class|align<center?justify?left?right],\n" .
-    "p,br,em,i,strong,u,cite,blockquote,hr,ul,ol,li,dl,dt,dd,\n" .
+    "p,br,em,i,strong,u,cite,blockquote,hr,ul,ol,li,dl,dt,dd,sup,\n" .
     "table,tbody,thead,th,tr,td,\n" .
     "span[style],p[style|class],\n" .
     "h1,h2,h3,h4,h5,h6,\n" .
