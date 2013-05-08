@@ -150,6 +150,15 @@ function _gsb_public_views_alter_workbench_editted(&$views) {
     $fields['nid_1']['relationship'] = 'vid';
     $fields['nid_1']['label'] = 'Node Id';
 
+    // field - delete node
+
+    $fields['delete_node']['id'] = 'delete_node';
+    $fields['delete_node']['table'] = 'views_entity_node';
+    $fields['delete_node']['field'] = 'delete_node';
+    $fields['delete_node']['label'] = '';
+    $fields['delete_node']['element_label_colon'] = FALSE;
+    $fields['delete_node']['text'] = 'delete'; 
+
     // field - Section
 
     $fields['section']['id'] = 'section';
@@ -274,6 +283,15 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $fields['nid']['table'] = 'node';
     $fields['nid']['field'] = 'nid';
     $fields['nid']['label'] = 'Node Id';
+
+    // field - delete node
+
+    $fields['delete_node']['id'] = 'delete_node';
+    $fields['delete_node']['table'] = 'views_entity_node';
+    $fields['delete_node']['field'] = 'delete_node';
+    $fields['delete_node']['label'] = '';
+    $fields['delete_node']['element_label_colon'] = FALSE;
+    $fields['delete_node']['text'] = 'delete';     
 
     unset($views['workbench_recent_content']->display['page_1']->display_options['defaults']['fields']);
 
