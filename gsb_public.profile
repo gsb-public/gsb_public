@@ -142,14 +142,6 @@ function _gsb_public_views_alter_workbench_editted(&$views) {
     $filters['status']['relationship'] = 'vid';
     $filters['type']['relationship'] = 'vid';
 
-    // field - Node Id
-
-    $fields['nid_1']['id'] = 'nid_1';
-    $fields['nid_1']['table'] = 'node';
-    $fields['nid_1']['field'] = 'nid';
-    $fields['nid_1']['relationship'] = 'vid';
-    $fields['nid_1']['label'] = 'Node Id';
-
     // field - delete node
 
     $fields['delete_node']['id'] = 'delete_node';
@@ -158,6 +150,14 @@ function _gsb_public_views_alter_workbench_editted(&$views) {
     $fields['delete_node']['label'] = '';
     $fields['delete_node']['element_label_colon'] = FALSE;
     $fields['delete_node']['text'] = 'delete'; 
+
+    // field - Node Id
+
+    $fields['nid_1']['id'] = 'nid_1';
+    $fields['nid_1']['table'] = 'node';
+    $fields['nid_1']['field'] = 'nid';
+    $fields['nid_1']['relationship'] = 'vid';
+    $fields['nid_1']['label'] = 'Node Id';
 
     // field - Section
 
