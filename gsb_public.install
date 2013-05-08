@@ -265,3 +265,31 @@ function gsb_public_update_7010() {
 function gsb_public_update_7011() {
   module_enable(array('gsb_tokens'));
 }
+
+/**
+ * Update the panopoly_wysiwyg_text format filter
+ */
+function gsb_public_update_7012() { 
+  $format = filter_format_load('panopoly_wysiwyg_text');
+  $filters = filter_list_format($format->format);
+  // Build the $format->filters array...
+  $format->filters = array();
+  foreach($filters as $name => $filter) {
+    foreach($filter as $k => $v) {
+      $format->filters[$name][$k] = $v;
+    }
+  }
+  $format->filters["wysiwyg"]['settings']["valid_elements"] =
+    "a[!href|target<_blank|title|style],\n" .
+    "div[style|class|id|align<center?justify?left?right],\n" .
+    "p,br,em,i,strong,u,cite,blockquote,hr,ul,ol,li,dl,dt,dd,sup,sub,\n" .
+    "table,tbody,thead,th,tr,td,\n" .
+    "span[style|id],p[style|class|id],\n" .
+    "h1,h2,h3,h4,h5,h6,\n" .
+    "object,iframe,area,embed,\n" .
+    "address,abbr,caption,pre,code,script,\n" .
+    "img[!src|title|alt|style|width|height|class|hspace|vspace|id],\n" .
+    "@[style]";
+  // Save the panopoly wysiwyg format.
+  filter_format_save($format);
+}
