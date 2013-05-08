@@ -47,6 +47,7 @@ dependencies[] = addthis
 dependencies[] = apc_flush
 dependencies[] = auto_entitylabel
 dependencies[] = computed_field
+dependencies[] = concat_field
 dependencies[] = diff
 dependencies[] = ds
 dependencies[] = ds_ui
