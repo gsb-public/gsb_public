@@ -393,6 +393,13 @@ projects[gsb_field_formatter][download][url] = git@github.com:gsbitse/gsb_field_
 projects[gsb_field_formatter][download][branch] = master
 projects[gsb_field_formatter][subdir] = custom
 
+; GSB Panels IPE Overrides
+projects[gsb_panels_ipe_overrides][type] = module
+projects[gsb_panels_ipe_overrides][download][type] = git
+projects[gsb_panels_ipe_overrides][download][url] = git@github.com:gsbitse/gsb_panels_ipe_overrides.git
+projects[gsb_panels_ipe_overrides][download][branch] = master
+projects[gsb_panels_ipe_overrides][subdir] = custom
+
 ; Not related to panopoly, but GSB added contrib modules.
 projects[addressfield][version] = 1.0-beta3
 projects[addressfield][subdir] = contrib
