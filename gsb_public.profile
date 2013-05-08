@@ -278,12 +278,6 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $filters['alias']['expose']['autocomplete_raw_dropdown'] = 1;
     $filters['alias']['expose']['autocomplete_dependent'] = 0;
 
-    /* Field: Content: Nid */
-    $fields['nid']['id'] = 'nid';
-    $fields['nid']['table'] = 'node';
-    $fields['nid']['field'] = 'nid';
-    $fields['nid']['label'] = 'Node Id';
-
     // field - delete node
 
     $fields['delete_node']['id'] = 'delete_node';
@@ -292,6 +286,12 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $fields['delete_node']['label'] = '';
     $fields['delete_node']['element_label_colon'] = FALSE;
     $fields['delete_node']['text'] = 'delete';     
+
+    /* Field: Content: Nid */
+    $fields['nid']['id'] = 'nid';
+    $fields['nid']['table'] = 'node';
+    $fields['nid']['field'] = 'nid';
+    $fields['nid']['label'] = 'Node Id';
 
     unset($views['workbench_recent_content']->display['page_1']->display_options['defaults']['fields']);
 
