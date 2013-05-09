@@ -101,6 +101,7 @@ dependencies[] = gsb_feature_links_fpp
 dependencies[] = gsb_feature_media_mention_ct
 dependencies[] = gsb_feature_media_mention_display
 dependencies[] = gsb_feature_msx_fellows_ct
+dependencies[] = gsb_feature_msx_fellows_display
 dependencies[] = gsb_feature_news_ct
 dependencies[] = gsb_feature_news_display
 dependencies[] = gsb_feature_page_ct
