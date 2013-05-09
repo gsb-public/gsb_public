@@ -144,6 +144,13 @@ projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsbitse/gsb
 projects[gsb_feature_msx_fellows_ct][download][branch] = master
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
+; GSB Feature MSx Fellows Display
+projects[gsb_feature_msx_fellows_display][type] = module
+projects[gsb_feature_msx_fellows_display][download][type] = git
+projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_display.git
+projects[gsb_feature_msx_fellows_display][download][branch] = master
+projects[gsb_feature_msx_fellows_display][subdir] = custom/features
+
 ; GSB Feature News Content Type
 projects[gsb_feature_news_ct][type] = module
 projects[gsb_feature_news_ct][download][type] = git
