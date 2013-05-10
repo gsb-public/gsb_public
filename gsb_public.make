@@ -541,6 +541,9 @@ projects[breadcrumbs_by_path][download][revision] = 8f6896f
 projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][1985572] = http://drupal.org/files/allow-blocks.patch
 
+projects[views_responsive_grid][version] = 1.3
+projects[views_responsive_grid][subdir] = contrib
+
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git
