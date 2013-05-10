@@ -65,6 +65,7 @@ dependencies[] = maxlength
 dependencies[] = menu_minipanels
 dependencies[] = metatag
 dependencies[] = breadcrumbs_by_path
+dependencies[] = views_responsive_grid
 dependencies[] = telephone
 dependencies[] = workbench
 dependencies[] = workbench_access
