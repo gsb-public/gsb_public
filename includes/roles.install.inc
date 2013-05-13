@@ -91,7 +91,7 @@ function _gsb_public_setup_roles() {
 
     'edit any gsb_video content',
 
-    'edit any alumni content',
+    //'edit any alumni content',
     'edit any student content',
 
     // Panels
@@ -216,11 +216,11 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
 
-    'create alumni content',
-    'edit own alumni content',
-    'edit any alumni content',
-    'delete own alumni content',
-    'delete any alumni content',       
+    //'create alumni content',
+    //'edit own alumni content',
+    //'edit any alumni content',
+    //'delete own alumni content',
+    //'delete any alumni content',       
 
     'create event content',
     'edit own event content',
