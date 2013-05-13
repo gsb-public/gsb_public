@@ -185,7 +185,7 @@ function _gsb_public_setup_roles() {
     'view own files',
     'view files',
 
-    'edit any image files'
+    'edit any image files',
     'edit any video files',
     'edit any audio files',
     'edit any document files',  
