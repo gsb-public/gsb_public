@@ -347,6 +347,10 @@ function gsb_public_form_alter(&$form, &$form_state, $form_id) {
     
     $node = $form['#node'];
 
+    if (!module_exists('workbench_moderation')) {
+      return;
+    }
+
     if (!user_access('view moderation messages')
         || (!$node && !($node = menu_get_object()))
         || !workbench_moderation_node_type_moderated($node->type)) {
