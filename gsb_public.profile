@@ -334,3 +334,46 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
 
 }
 
+/**
+ * Implementation of hook_form_alter()
+ * 
+ * We set a workbench message to tell the user the current Revision State, on 
+ * any of our node edit forms - if the user has moderation access.
+ * 
+ */
+function gsb_public_form_alter(&$form, &$form_state, $form_id) {
+
+  if (isset($form['#entity_type']) &&  $form['#entity_type'] == 'node') {
+    
+    $node = $form['#node'];
+
+    if (!user_access('view moderation messages')
+        || (!$node && !($node = menu_get_object()))
+        || !workbench_moderation_node_type_moderated($node->type)) {
+      return;
+    }
+
+    if (!isset($node->workbench_moderation)) {
+      return;
+    }
+
+    // An array of messages to add to the general workbench block.
+    $info_block_messages = array();
+
+    $state = $node->workbench_moderation;
+
+    $info_block_messages[] = array(
+      'label' => t('Revision state'),
+      'message' => check_plain(workbench_moderation_state_label($state['my_revision']->state)),
+    );
+
+    // Send the info block array to a static variable.
+    workbench_moderation_set_message($info_block_messages);
+
+  }
+
+}
+
+
+
+
