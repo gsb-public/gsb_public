@@ -91,8 +91,8 @@ function _gsb_public_setup_roles() {
 
     'edit any gsb_video content',
 
-    //'edit any alumni content',
-    //'edit any student content',
+    'edit any alumni content',
+    'edit any student content',
 
     // Panels
 
@@ -216,11 +216,11 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
 
-    //'create alumni content',
-    //'edit own alumni content',
-    //'edit any alumni content',
-    //'delete own alumni content',
-    //'delete any alumni content',       
+    'create alumni content',
+    'edit own alumni content',
+    'edit any alumni content',
+    'delete own alumni content',
+    'delete any alumni content',       
 
     'create event content',
     'edit own event content',
@@ -252,11 +252,11 @@ function _gsb_public_setup_roles() {
     'delete own staff content',
     'delete any staff content',  
 
-    //'create student content',
-    //'edit own student content',
-    //'edit any student content',
-    //'delete own student content',
-    //'delete any student content',  
+    'create student content',
+    'edit own student content',
+    'edit any student content',
+    'delete own student content',
+    'delete any student content',  
 
     'create webform content',
     'edit own webform content',
@@ -467,7 +467,7 @@ function _gsb_public_setup_roles() {
 
     'create fieldable image_cta',
     'edit fieldable image_cta',
-    'delete fieldable image_cta',
+    'delete fieldable image_cta',   
 
     // Mini panels
 
@@ -479,33 +479,38 @@ function _gsb_public_setup_roles() {
     'edit own business_insight content',
     'edit any business_insight content',
     'delete own business_insight content',
+    'delete any business_insight content',    
 
-    'create club content',
-    'edit own club content',
-    'edit any club content',
-    'delete own club content',
+    //'create club content',
+    //'edit own club content',
+    //'edit any club content',
+    //'delete own club content',
 
-    'edit any faculty content',
+    //'edit any faculty content',
 
     'create media_mention content',
     'edit own media_mention content',
     'edit any media_mention content',
     'delete own media_mention content',
+    'delete any media_mention content',   
 
     'create news content',
     'edit own news content',
     'edit any news content',
     'delete own news content',
+    'delete any news content',       
 
     'create publication content',
     'edit own publication content',
     'edit any publication content',
     'delete own publication content',
+    'delete any publication content',        
 
     'create gsb_video content',
     'edit own gsb_video content',
     'edit any gsb_video content',
     'delete own gsb_video content',
+    'delete any gsb_video content',       
 
   );
 
