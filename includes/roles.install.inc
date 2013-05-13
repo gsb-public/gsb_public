@@ -92,7 +92,7 @@ function _gsb_public_setup_roles() {
     'edit any gsb_video content',
 
     //'edit any alumni content',
-    'edit any student content',
+    //'edit any student content',
 
     // Panels
 
@@ -252,11 +252,11 @@ function _gsb_public_setup_roles() {
     'delete own staff content',
     'delete any staff content',  
 
-    'create student content',
-    'edit own student content',
-    'edit any student content',
-    'delete own student content',
-    'delete any student content',  
+    //'create student content',
+    //'edit own student content',
+    //'edit any student content',
+    //'delete own student content',
+    //'delete any student content',  
 
     'create webform content',
     'edit own webform content',
