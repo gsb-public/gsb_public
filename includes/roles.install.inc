@@ -20,14 +20,11 @@ function _gsb_public_setup_roles() {
 
   $section_editor_permissions = array(
 
-    'administer files',
-    'create files',
-    'use text format panopoly_wysiwyg_text',
-    'use text format panopoly_html_text',
-
     // FPP permissions
 
     'edit fieldable accordion',
+
+    'edit fieldable cta',
 
     'create fieldable existing_node',
     'edit fieldable existing_node',
@@ -44,16 +41,23 @@ function _gsb_public_setup_roles() {
 
     'edit fieldable text',
 
-    'edit fieldable video',
+    'edit fieldable video',   
 
     // File entity
 
+    'create files',
     'view own files',
     'view files',
+
+    'edit any image files'
+    'edit any video files',
+    'edit any audio files',
+    'edit any document files',  
 
     // Filter
 
     'use text format panopoly_wysiwyg_text',
+    'use text format panopoly_html_text',
 
     // Media Internet Sources
 
@@ -75,7 +79,7 @@ function _gsb_public_setup_roles() {
     'edit any event content',
     'delete own event content',
 
-    'edit any msx_fellows content',
+    'edit any msx_fellows content', 
 
     'edit any page content',
 
@@ -84,6 +88,11 @@ function _gsb_public_setup_roles() {
     'edit any staff content',
 
     'edit any webform content',
+
+    'edit any gsb_video content',
+
+    'edit any alumni content',
+    'edit any student content',
 
     // Panels
 
@@ -101,6 +110,13 @@ function _gsb_public_setup_roles() {
 
     'access workbench',
 
+    // Workbench Moderation
+
+    'bypass workbench moderation',
+    'view moderation history',
+    'view moderation messages',
+    'view all unpublished content',
+
   );
 
   user_role_grant_permissions($section_editor->rid, $section_editor_permissions);
@@ -116,8 +132,6 @@ function _gsb_public_setup_roles() {
   $section_manager_permissions = array(
 
     'create files',
-    'use text format panopoly_wysiwyg_text',
-    'use text format panopoly_html_text',
 
     // FPP permissions
 
@@ -167,12 +181,19 @@ function _gsb_public_setup_roles() {
 
     // File entity
 
+    'create files',
     'view own files',
     'view files',
+
+    'edit any image files'
+    'edit any video files',
+    'edit any audio files',
+    'edit any document files',  
 
     // Filter
 
     'use text format panopoly_wysiwyg_text',
+    'use text format panopoly_html_text',    
 
     // Media Internet Sources
 
@@ -195,6 +216,12 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
 
+    'create alumni content',
+    'edit own alumni content',
+    'edit any alumni content',
+    'delete own alumni content',
+    'delete any alumni content',       
+
     'create event content',
     'edit own event content',
     'edit any event content',
@@ -205,26 +232,37 @@ function _gsb_public_setup_roles() {
     'edit own msx_fellows content',
     'edit any msx_fellows content',
     'delete own msx_fellows content',
+    'delete any msx_fellows content',    
 
     'create page content',
     'edit own page content',
     'edit any page content',
     'delete own page content',
+    'delete any page content',  
 
     'create phd_candidate content',
     'edit own phd_candidate content',
     'edit any phd_candidate content',
     'delete own phd_candidate content',
+    'delete any phd_candidate content',  
 
     'create staff content',
     'edit own staff content',
     'edit any staff content',
     'delete own staff content',
+    'delete any staff content',  
+
+    'create student content',
+    'edit own student content',
+    'edit any student content',
+    'delete own student content',
+    'delete any student content',  
 
     'create webform content',
     'edit own webform content',
     'edit any webform content',
     'delete own webform content',
+    'delete any webform content',  
 
     // Panels
 
@@ -242,10 +280,13 @@ function _gsb_public_setup_roles() {
     // Workbench
 
     'access workbench',
-
+    
     // Workbench Moderation
 
     'bypass workbench moderation',
+    'view moderation history',
+    'view moderation messages',
+    'view all unpublished content',    
 
   );
 
