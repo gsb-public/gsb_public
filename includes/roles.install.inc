@@ -473,20 +473,21 @@ function _gsb_public_setup_roles() {
 
     'administer mini panels',
 
+    // Menu
+
+    'administer menu',
+
+    // Mobile friendly navigation toolbar
+
+    'access navbar',
+
     // Node permissions
 
     'create business_insight content',
     'edit own business_insight content',
     'edit any business_insight content',
     'delete own business_insight content',
-    'delete any business_insight content',    
-
-    //'create club content',
-    //'edit own club content',
-    //'edit any club content',
-    //'delete own club content',
-
-    //'edit any faculty content',
+    'delete any business_insight content',
 
     'create media_mention content',
     'edit own media_mention content',
@@ -510,7 +511,15 @@ function _gsb_public_setup_roles() {
     'edit own gsb_video content',
     'edit any gsb_video content',
     'delete own gsb_video content',
-    'delete any gsb_video content',       
+    'delete any gsb_video content',
+
+    // Page Manager
+
+    'administer page manager',
+
+    // System
+
+    "view the administration theme",
 
   );
 
