@@ -515,6 +515,7 @@ function _gsb_public_setup_roles() {
 
     // Page Manager
 
+    'use page manager',
     'administer page manager',
 
     // System
