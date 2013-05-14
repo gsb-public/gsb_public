@@ -429,7 +429,7 @@ libraries[backbone][download][url] = https://github.com/documentcloud/backbone/a
 projects[breakpoints][version] = 1.0
 projects[breakpoints][subdir] = contrib
 
-projects[concat_field][version] = 1.0
+projects[concat_field][version] = 1.1
 projects[concat_field][subdir] = contrib
 
 projects[computed_field][version] = 1.x-dev
