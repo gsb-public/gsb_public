@@ -476,7 +476,7 @@ projects[field_formatter_settings][subdir] = contrib
 projects[file_entity][version] = 2.x-dev
 projects[file_entity][subdir] = contrib
 projects[file_entity][download][type] = git
-projects[file_entity][download][revision] = 52984da
+projects[file_entity][download][revision] = e6f091e
 projects[file_entity][download][branch] = 7.x-2.x
 
 projects[google_analytics][version] = 2.x
