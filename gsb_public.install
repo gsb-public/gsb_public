@@ -214,25 +214,25 @@ function gsb_public_update_7008() {
   foreach ($vocabularies as $vid => $vocabulary) {
     if ($vocabulary->machine_name == 'event_category') {
       $vocab_found = true;
-		  break;
-	  }
+      break;
+    }
   }
 
   if ($vocab_found) {
 
     $terms = taxonomy_get_tree($vid);
     foreach ($terms as $key => $term) {
-  	  if ($term->name == 'On-campus Events') {
+      if ($term->name == 'On-campus Events') {
         $term_found = true;
-  	    break;
-  	  }
+        break;
+      }
     }
 
     if ($term_found) {
-  	  // Rename term 'On-campus Events'
-  	  // to.         'On-campus'
-  	  $term->name = 'On-campus';
-		  taxonomy_term_save($term);
+      // Rename term 'On-campus Events'
+      // to.         'On-campus'
+      $term->name = 'On-campus';
+      taxonomy_term_save($term);
     }
 
     // Add term 'Diverse Communities'
@@ -269,7 +269,7 @@ function gsb_public_update_7011() {
 /**
  * Update the panopoly_wysiwyg_text format filter
  */
-function gsb_public_update_7012() { 
+function gsb_public_update_7012() {
   $format = filter_format_load('panopoly_wysiwyg_text');
   $filters = filter_list_format($format->format);
   // Build the $format->filters array...

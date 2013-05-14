@@ -149,7 +149,7 @@ function _gsb_public_views_alter_workbench_editted(&$views) {
     $fields['delete_node']['field'] = 'delete_node';
     $fields['delete_node']['label'] = '';
     $fields['delete_node']['element_label_colon'] = FALSE;
-    $fields['delete_node']['text'] = 'delete'; 
+    $fields['delete_node']['text'] = 'delete';
 
     // field - Node Id
 
@@ -285,7 +285,7 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $fields['delete_node']['field'] = 'delete_node';
     $fields['delete_node']['label'] = '';
     $fields['delete_node']['element_label_colon'] = FALSE;
-    $fields['delete_node']['text'] = 'delete';     
+    $fields['delete_node']['text'] = 'delete';
 
     /* Field: Content: Nid */
     $fields['nid']['id'] = 'nid';
@@ -336,15 +336,15 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
 
 /**
  * Implementation of hook_form_alter()
- * 
- * We set a workbench message to tell the user the current Revision State, on 
+ *
+ * We set a workbench message to tell the user the current Revision State, on
  * any of our node edit forms - if the user has moderation access.
- * 
+ *
  */
 function gsb_public_form_alter(&$form, &$form_state, $form_id) {
 
   if (isset($form['#entity_type']) &&  $form['#entity_type'] == 'node') {
-    
+
     $node = $form['#node'];
 
     if (!module_exists('workbench_moderation')) {
