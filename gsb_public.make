@@ -478,6 +478,7 @@ projects[file_entity][subdir] = contrib
 projects[file_entity][download][type] = git
 projects[file_entity][download][revision] = e6f091e
 projects[file_entity][download][branch] = 7.x-2.x
+projects[file_entity][patch][1994080] = http://drupal.org/files/file_entity-fix_previous_button-1994080.patch
 
 projects[google_analytics][version] = 2.x
 projects[google_analytics][subdir] = contrib
