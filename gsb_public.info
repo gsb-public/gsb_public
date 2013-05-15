@@ -28,7 +28,7 @@ dependencies[] = panopoly_magic
 dependencies[] = panopoly_admin
 
 ; Panopoly Toolset
-dependencies[] = panopoly_wysiwyg
+; dependencies[] = panopoly_wysiwyg
 
 ; Panopoly Recommended - Admin
 dependencies[] = navbar
@@ -123,7 +123,8 @@ dependencies[] = gsb_feature_video_ct
 dependencies[] = gsb_feature_webform_ct
 dependencies[] = gsb_feature_week_in_the_life_ct
 dependencies[] = gsb_feature_week_in_the_life_display
-dependencies[] = gsb_panopoly_wysiwyg_override
+dependencies[] = gsb_feature_wysiwyg
+; dependencies[] = gsb_panopoly_wysiwyg_override
 dependencies[] = gsb_search_server
 dependencies[] = gsb_feature_mega_menu
 dependencies[] = gsb_feature_accordion
