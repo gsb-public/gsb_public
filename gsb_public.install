@@ -267,10 +267,10 @@ function gsb_public_update_7011() {
 }
 
 /**
- * Update the panopoly_wysiwyg_text format filter
+ * Update the gsb_wysiwyg_text format filter
  */
 function gsb_public_update_7012() {
-  $format = filter_format_load('panopoly_wysiwyg_text');
+  $format = filter_format_load('gsb_wysiwyg_text');
   $filters = filter_list_format($format->format);
   // Build the $format->filters array...
   $format->filters = array();
