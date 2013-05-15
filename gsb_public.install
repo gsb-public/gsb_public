@@ -27,6 +27,7 @@ function gsb_public_install() {
     'themes',
     'media',
     'menu',
+    'blocks',
     'fancybox',
     'acquia',
     'ds',
