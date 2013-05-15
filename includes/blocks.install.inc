@@ -12,6 +12,7 @@ function _gsb_public_setup_blocks() {
       'weight' => 0,
       'region' => 'navigation',
       'pages' => '',
+      'title' => '<none>',
       'cache' => -1,
     ),
   );
