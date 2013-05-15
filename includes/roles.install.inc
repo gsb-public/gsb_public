@@ -41,7 +41,7 @@ function _gsb_public_setup_roles() {
 
     'edit fieldable text',
 
-    'edit fieldable video',   
+    'edit fieldable video',
 
     // File entity
 
@@ -52,7 +52,7 @@ function _gsb_public_setup_roles() {
     'edit any image files',
     'edit any video files',
     'edit any audio files',
-    'edit any document files',  
+    'edit any document files',
 
     // Filter
 
@@ -79,7 +79,7 @@ function _gsb_public_setup_roles() {
     'edit any event content',
     'delete own event content',
 
-    'edit any msx_fellows content', 
+    'edit any msx_fellows content',
 
     'edit any page content',
 
@@ -188,7 +188,7 @@ function _gsb_public_setup_roles() {
     'edit any image files',
     'edit any video files',
     'edit any audio files',
-    'edit any document files',  
+    'edit any document files',
 
     // Filter
 
@@ -220,49 +220,49 @@ function _gsb_public_setup_roles() {
     //'edit own alumni content',
     //'edit any alumni content',
     //'delete own alumni content',
-    //'delete any alumni content',       
+    //'delete any alumni content',
 
     'create event content',
     'edit own event content',
     'edit any event content',
     'delete own event content',
-    'delete any event content',   
+    'delete any event content',
 
     'create msx_fellows content',
     'edit own msx_fellows content',
     'edit any msx_fellows content',
     'delete own msx_fellows content',
-    'delete any msx_fellows content',    
+    'delete any msx_fellows content',
 
     'create page content',
     'edit own page content',
     'edit any page content',
     'delete own page content',
-    'delete any page content',  
+    'delete any page content',
 
     'create phd_candidate content',
     'edit own phd_candidate content',
     'edit any phd_candidate content',
     'delete own phd_candidate content',
-    'delete any phd_candidate content',  
+    'delete any phd_candidate content',
 
     'create staff content',
     'edit own staff content',
     'edit any staff content',
     'delete own staff content',
-    'delete any staff content',  
+    'delete any staff content',
 
     //'create student content',
     //'edit own student content',
     //'edit any student content',
     //'delete own student content',
-    //'delete any student content',  
+    //'delete any student content',
 
     'create webform content',
     'edit own webform content',
     'edit any webform content',
     'delete own webform content',
-    'delete any webform content',  
+    'delete any webform content',
 
     // Panels
 
@@ -280,13 +280,13 @@ function _gsb_public_setup_roles() {
     // Workbench
 
     'access workbench',
-    
+
     // Workbench Moderation
 
     'bypass workbench moderation',
     'view moderation history',
     'view moderation messages',
-    'view all unpublished content',    
+    'view all unpublished content',
 
   );
 
@@ -329,7 +329,7 @@ function _gsb_public_setup_roles() {
     'edit own event content',
     'edit any event content',
     'delete own event content',
-    'delete any event content',   
+    'delete any event content',
 
     'edit any faculty content',
 
@@ -380,19 +380,19 @@ function _gsb_public_setup_roles() {
     'edit own event content',
     'edit any event content',
     'delete own event content',
-    'delete any event content',    
+    'delete any event content',
 
     'create faculty content',
     'edit own faculty content',
     'edit any faculty content',
     'delete own faculty content',
-    'delete any faculty content',       
+    'delete any faculty content',
 
     'create publication content',
     'edit own publication content',
     'edit any publication content',
     'delete own publication content',
-    'delete any publication content',      
+    'delete any publication content',
 
     // Workbench
 
@@ -400,7 +400,7 @@ function _gsb_public_setup_roles() {
 
   );
 
-  user_role_grant_permissions($aa->rid, $aa_permissions);  
+  user_role_grant_permissions($aa->rid, $aa_permissions);
 
   // Create the CWO Admin role
 
@@ -442,9 +442,9 @@ function _gsb_public_setup_roles() {
 
     'create event content',
     'edit own event content',
-    'edit any event content',    
+    'edit any event content',
     'delete own event content',
-    'delete any event content',    
+    'delete any event content',
 
     // Workbench
 
@@ -473,39 +473,54 @@ function _gsb_public_setup_roles() {
 
     'administer mini panels',
 
+    // Menu
+
+    'administer menu',
+
+    // Mobile friendly navigation toolbar
+
+    'access navbar',
+
     // Node permissions
 
     'create business_insight content',
     'edit own business_insight content',
     'edit any business_insight content',
     'delete own business_insight content',
-
-    'create club content',
-    'edit own club content',
-    'edit any club content',
-    'delete own club content',
-
-    'edit any faculty content',
+    'delete any business_insight content',
 
     'create media_mention content',
     'edit own media_mention content',
     'edit any media_mention content',
     'delete own media_mention content',
+    'delete any media_mention content',
 
     'create news content',
     'edit own news content',
     'edit any news content',
     'delete own news content',
+    'delete any news content',
 
     'create publication content',
     'edit own publication content',
     'edit any publication content',
     'delete own publication content',
+    'delete any publication content',
 
     'create gsb_video content',
     'edit own gsb_video content',
     'edit any gsb_video content',
     'delete own gsb_video content',
+    'delete any gsb_video content',
+    
+    // Page Manager
+
+    'use page manager',
+    'administer page manager',
+
+    // System
+
+    "view the administration theme",    
 
   );
 
