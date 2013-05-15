@@ -318,11 +318,11 @@ projects[gsb_panels_pages][download][branch] = master
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Panopoly Wysiwyg Override
-; projects[gsb_panopoly_wysiwyg_override][type] = module
-; projects[gsb_panopoly_wysiwyg_override][download][type] = git
-; projects[gsb_panopoly_wysiwyg_override][download][url] = git@github.com:gsbitse/gsb_panopoly_wysiwyg_override.git
-; projects[gsb_panopoly_wysiwyg_override][download][branch] = master
-; projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
+projects[gsb_panopoly_wysiwyg_override][type] = module
+projects[gsb_panopoly_wysiwyg_override][download][type] = git
+projects[gsb_panopoly_wysiwyg_override][download][url] = git@github.com:gsbitse/gsb_panopoly_wysiwyg_override.git
+projects[gsb_panopoly_wysiwyg_override][download][branch] = master
+projects[gsb_panopoly_wysiwyg_override][subdir] = custom/features
 
 ; GSB Search Server
 projects[gsb_search_server][type] = module
@@ -607,11 +607,11 @@ projects[panopoly_theme][download][type] = git
 projects[panopoly_theme][download][revision] = b8d3809
 projects[panopoly_theme][download][branch] = 7.x-1.x
 
-; projects[panopoly_wysiwyg][version] = 1.x-dev
-; projects[panopoly_wysiwyg][subdir] = panopoly
-; projects[panopoly_wysiwyg][download][type] = git
-; projects[panopoly_wysiwyg][download][revision] = c745f0f
-; projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
+projects[panopoly_wysiwyg][version] = 1.x-dev
+projects[panopoly_wysiwyg][subdir] = panopoly
+projects[panopoly_wysiwyg][download][type] = git
+projects[panopoly_wysiwyg][download][revision] = c745f0f
+projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
 
 ; Acquia connector
 projects[acquia_connector][version] = 2.9
