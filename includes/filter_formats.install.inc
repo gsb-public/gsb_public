@@ -4,7 +4,7 @@ function _gsb_public_setup_filter_formats() {
 
   // update the panopoly
 
-  $format = filter_format_load('panopoly_wysiwyg_text');
+  $format = filter_format_load('gsb_wysiwyg_text');
 
   // Work-around for what *seems* to be a bug somewhere in Drupal filter
   // format loading/saving.  There's probably a better way, but this seems to work.
