@@ -408,10 +408,10 @@ projects[gsb_panels_ipe_overrides][download][branch] = master
 projects[gsb_panels_ipe_overrides][subdir] = custom
 
 ; Not related to panopoly, but GSB added contrib modules.
-projects[addressfield][version] = 1.0-beta3
+projects[addressfield][version] = 1.0-beta4
 projects[addressfield][subdir] = contrib
 
-projects[addthis][version] = 4.x
+projects[addthis][version] = 4.0-alpha2
 projects[addthis][subdir] = contrib
 
 projects[apc_flush][subdir] = contrib
@@ -529,7 +529,7 @@ projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
 projects[menu_minipanels][patch][1977018] = http://drupal.org/files/1977018-d7-2.patch
 
-projects[metatag][version] = 1.0-beta5
+projects[metatag][version] = 1.0-beta7
 projects[metatag][subdir] = contrib
 
 projects[node_clone][version] = 1.0-rc1
@@ -607,9 +607,8 @@ projects[panopoly_wysiwyg][download][revision] = c745f0f
 projects[panopoly_wysiwyg][download][branch] = 7.x-1.x
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.8
+projects[acquia_connector][version] = 2.9
 projects[acquia_connector][subdir] = contrib
-projects[acquia_connector][patch][1960452] = http://drupal.org/files/1960452-d7-3.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
