@@ -515,6 +515,7 @@ projects[media][download][branch] = 7.x-2.x
 projects[media][patch][1319528] = http://drupal.org/files/media-browser-enter-submit-frontpage-1319528-11.patch
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-3.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
+projects[media][patch][835516] = http://drupal.org/files/835516-wysiwyg-fields-60.patch
 
 projects[media_youtube][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
