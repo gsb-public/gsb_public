@@ -294,3 +294,37 @@ function gsb_public_update_7012() {
   // Save the panopoly wysiwyg format.
   filter_format_save($format);
 }
+
+/**
+ * Update the wysiwyg modules
+ */
+function gsb_public_update_7013() {
+
+  // Disable some wysiwyg modules
+  
+  module_disable(array('gsb_panopoly_wyiswyg_override'));
+  drupal_uninstall_modules(array('gsb_panopoly_wyiswyg_override'));
+
+  module_disable(array('panopoly_wyiswyg'));
+  drupal_uninstall_modules(array('panopoly_wyiswyg'));
+
+  module_disable(array('wysiwyg_filter'));
+  drupal_uninstall_modules(array('wysiwyg_filter'));
+  
+  // Update the body field
+
+  $num_updated = db_update('field_revision_field_body') 
+    ->fields(array(
+      'field_body_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_body_format', 'panopoly_wysiwyg_text', '=')
+    ->execute();
+  
+  $num_updated = db_update('field_data_field_body') 
+    ->fields(array(
+      'field_body_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_body_format', 'panopoly_wysiwyg_text', '=')
+    ->execute();  
+
+}
