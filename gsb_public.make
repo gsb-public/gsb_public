@@ -247,6 +247,13 @@ projects[gsb_feature_staff_ct][download][url] = git@github.com:gsbitse/gsb_featu
 projects[gsb_feature_staff_ct][download][branch] = master
 projects[gsb_feature_staff_ct][subdir] = custom/features
 
+; GSB Feature Toolbar
+projects[gsb_feature_toolbar][type] = module
+projects[gsb_feature_toolbar][download][type] = git
+projects[gsb_feature_toolbar][download][url] = git@github.com:gsbitse/gsb_feature_toolbar.git
+projects[gsb_feature_toolbar][download][branch] = master
+projects[gsb_feature_toolbar][subdir] = custom/features
+
 ; GSB Feature Text FPP
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
