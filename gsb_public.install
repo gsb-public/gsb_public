@@ -328,3 +328,23 @@ function gsb_public_update_7013() {
     ->execute();  
 
 }
+
+/**
+ * Remove navbar and related modules
+ */
+function gsb_public_update_7014() {
+
+  // Remove navbar and related modules
+  
+  module_disable(array('gsb_admin_enhancements'));
+  drupal_uninstall_modules(array('gsb_admin_enhancements'));
+  
+  module_disable(array('navbar'));
+  drupal_uninstall_modules(array('navbar'));  
+  
+  // Enable the admin menu modules
+  
+  module_enable(array('admin_menu','admin_menu_toolbar'));
+  
+}
+
