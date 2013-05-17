@@ -23,6 +23,10 @@ function gsb_public_views_default_views_alter(&$views) {
   if (isset($views['workbench_moderation'])) {
     $views['workbench_moderation']->disabled = TRUE;
   }
+  
+  if (isset($views['workbench_current_user'])) {
+    $views['workbench_current_user']->disabled = TRUE;
+  }  
 
   _gsb_public_views_alter_workbench_editted($views);
 
