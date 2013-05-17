@@ -378,14 +378,6 @@ projects[gsb_theme_admin][download][type] = git
 projects[gsb_theme_admin][download][url] = git@github.com:gsbitse/gsb_theme_admin.git
 projects[gsb_theme_admin][download][branch] = master
 
-; GSB Admin Enhancements
-projects[gsb_admin_enhancements][type] = module
-projects[gsb_admin_enhancements][download][type] = git
-projects[gsb_admin_enhancements][download][url] = git@github.com:gsbitse/gsb_admin_enhancements.git
-projects[gsb_admin_enhancements][download][branch] = master
-projects[gsb_admin_enhancements][subdir] = custom
-
-
 ; GSB FPP Customization
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
