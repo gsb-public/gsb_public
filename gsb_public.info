@@ -28,7 +28,6 @@ dependencies[] = panopoly_magic
 dependencies[] = panopoly_admin
 
 ; Panopoly Recommended - Admin
-dependencies[] = navbar
 dependencies[] = breakpoints
 dependencies[] = backports
 dependencies[] = simplified_menu_admin
@@ -41,6 +40,8 @@ dependencies[] = uuid
 
 ; GSB Additional Contrib Modules
 dependencies[] = addthis
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
 dependencies[] = apc_flush
 dependencies[] = auto_entitylabel
 dependencies[] = computed_field
@@ -69,7 +70,6 @@ dependencies[] = workbench_access
 dependencies[] = workbench_moderation
 
 ; GSB Custom Modules
-dependencies[] = gsb_admin_enhancements
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_media_center
