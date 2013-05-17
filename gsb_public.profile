@@ -34,6 +34,16 @@ function gsb_public_views_default_views_alter(&$views) {
 
 }
 
+function gsb_public_workbench_content_alter(&$output) {
+
+  // Remove the "My Profile" block from the workbench page
+  
+  if (isset($output['workbench_current_user'])) {
+    unset($output['workbench_current_user']);
+  }
+
+}
+
 function _gsb_public_views_alter_workbench_editted(&$views) {
 
   // Add additional filters to the "My Edits" page that is
