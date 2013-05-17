@@ -310,6 +310,13 @@ projects[gsb_feature_migrate][download][url] = git@github.com:gsbitse/gsb_featur
 projects[gsb_feature_migrate][download][branch] = master
 projects[gsb_feature_migrate][subdir] = custom/features
 
+; GSB Feature GSA Search
+projects[gsb_feature_gsa_search][type] = module
+projects[gsb_feature_gsa_search][download][type] = git
+projects[gsb_feature_gsa_search][download][url] = git@github.com:gsbitse/gsb_feature_gsa_search.git
+projects[gsb_feature_gsa_search][download][branch] = master
+projects[gsb_feature_gsa_search][subdir] = custom/features
+
 ; GSB Quote FPP
 projects[gsb_feature_quote_fpp][type] = module
 projects[gsb_feature_quote_fpp][download][type] = git
