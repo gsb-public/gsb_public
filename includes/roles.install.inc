@@ -63,10 +63,6 @@ function _gsb_public_setup_roles() {
 
     'add media from remote sources',
 
-    // Mobile friendly navigation toolbar
-
-    'access navbar',
-
     // Node permissions
 
     'access content',
@@ -203,10 +199,6 @@ function _gsb_public_setup_roles() {
 
     'administer menu',
 
-    // Mobile friendly navigation toolbar
-
-    'access navbar',
-
     // Node permissions
 
     'administer nodes',
@@ -314,10 +306,6 @@ function _gsb_public_setup_roles() {
 
     'add media from remote sources',
 
-    // Mobile friendly navigation toolbar
-
-    'access navbar',
-
     // Node permissions
 
     'access content',
@@ -364,10 +352,6 @@ function _gsb_public_setup_roles() {
     // Media Internet Sources
 
     'add media from remote sources',
-
-    // Mobile friendly navigation toolbar
-
-    'access navbar',
 
     // Node permissions
 
@@ -424,10 +408,6 @@ function _gsb_public_setup_roles() {
 
     'add media from remote sources',
 
-    // Mobile friendly navigation toolbar
-
-    'access navbar',
-
     // Node permissions
 
     'access content',
@@ -476,10 +456,6 @@ function _gsb_public_setup_roles() {
     // Menu
 
     'administer menu',
-
-    // Mobile friendly navigation toolbar
-
-    'access navbar',
 
     // Node permissions
 
