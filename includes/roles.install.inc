@@ -195,10 +195,6 @@ function _gsb_public_setup_roles() {
 
     'add media from remote sources',
 
-    // Menu
-
-    'administer menu',
-
     // Node permissions
 
     'administer nodes',
@@ -452,10 +448,6 @@ function _gsb_public_setup_roles() {
     // Mini panels
 
     'administer mini panels',
-
-    // Menu
-
-    'administer menu',
 
     // Node permissions
 
