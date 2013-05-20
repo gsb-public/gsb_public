@@ -488,7 +488,11 @@ function _gsb_public_setup_roles() {
 
     // System
 
-    "view the administration theme",    
+    "view the administration theme",   
+    
+    // Workbench
+
+    'access workbench',    
 
   );
 
