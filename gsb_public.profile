@@ -41,7 +41,44 @@ function gsb_public_workbench_content_alter(&$output) {
   if (isset($output['workbench_current_user'])) {
     unset($output['workbench_current_user']);
   }
+  
+  /*
+  
+  todo: currently this gets added to the bottom of the my workbench page. Modify so that...
+  this gets added to the top of the page instead.
 
+  $node_types_output = '';
+
+  $node_types = _gsb_public_get_user_node_types();
+  $create_menu = '<ul class="create-menu action-links">';
+  foreach ($node_types as $name => $label) {
+    $type = str_replace('_', '-', $name);
+    $create_menu .= sprintf('<li>%s</li>', l($label, 'node/add/' . $type));
+  }
+  $create_menu .= '</ul>';
+  if ($node_types) {
+    $node_types_output .= '<div class="create-menu-title">You can create the following content:</div>';
+    $node_types_output .= $create_menu;
+  }
+
+  $output['node_types_output']['#markup'] = $node_types_output;
+  
+  */
+
+}
+
+function _gsb_public_get_user_node_types() {
+  static $types = FALSE;
+  if ($types === FALSE) {
+    $types = array();
+    $node_types = node_type_get_types();
+    foreach ($node_types as $name => $node_type) {
+      if (node_access('create', $name)) {
+        $types[$name] = $node_type->name;
+      }
+    }
+  }
+  return $types;
 }
 
 function _gsb_public_views_alter_workbench_editted(&$views) {
