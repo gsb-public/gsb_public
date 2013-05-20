@@ -301,7 +301,7 @@ function gsb_public_update_7012() {
 function gsb_public_update_7013() {
 
   // Disable some wysiwyg modules
-  
+
   module_disable(array('gsb_panopoly_wyiswyg_override'));
   drupal_uninstall_modules(array('gsb_panopoly_wyiswyg_override'));
 
@@ -310,22 +310,22 @@ function gsb_public_update_7013() {
 
   module_disable(array('wysiwyg_filter'));
   drupal_uninstall_modules(array('wysiwyg_filter'));
-  
+
   // Update the body field
 
-  $num_updated = db_update('field_revision_field_body') 
+  $num_updated = db_update('field_revision_field_body')
     ->fields(array(
       'field_body_format' => 'gsb_wysiwyg_text',
     ))
     ->condition('field_body_format', 'panopoly_wysiwyg_text', '=')
     ->execute();
-  
-  $num_updated = db_update('field_data_field_body') 
+
+  $num_updated = db_update('field_data_field_body')
     ->fields(array(
       'field_body_format' => 'gsb_wysiwyg_text',
     ))
     ->condition('field_body_format', 'panopoly_wysiwyg_text', '=')
-    ->execute();  
+    ->execute();
 
 }
 
@@ -335,16 +335,22 @@ function gsb_public_update_7013() {
 function gsb_public_update_7014() {
 
   // Remove navbar and related modules
-  
+
   module_disable(array('gsb_admin_enhancements'));
   drupal_uninstall_modules(array('gsb_admin_enhancements'));
-  
+
   module_disable(array('navbar'));
-  drupal_uninstall_modules(array('navbar'));  
-  
+  drupal_uninstall_modules(array('navbar'));
+
   // Enable the admin menu modules
-  
+
   module_enable(array('admin_menu','admin_menu_toolbar'));
-  
+
 }
 
+/**
+ * Enable gsb_feature_gsa_search module.
+ */
+function gsb_public_update_7015() {
+  module_enable(array('gsb_feature_gsa_search'));
+}
