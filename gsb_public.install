@@ -31,6 +31,7 @@ function gsb_public_install() {
     'fancybox',
     'acquia',
     'ds',
+    'quickbar',
     'cleanup',  // please leave this as the last task to run
   );
 
