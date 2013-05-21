@@ -354,3 +354,27 @@ function gsb_public_update_7014() {
 function gsb_public_update_7015() {
   module_enable(array('gsb_feature_gsa_search'));
 }
+
+/**
+ * Update the gsb_wysiwyg_text format filter allowed html settings
+ */
+function gsb_public_update_7016() {
+
+  $format = filter_format_load('gsb_wysiwyg_text');
+  $filters = filter_list_format($format->format);
+
+  // Build the $format->filters array...
+  $format->filters = array();
+  foreach($filters as $name => $filter) {
+    foreach($filter as $k => $v) {
+      $format->filters[$name][$k] = $v;
+    }
+  }
+
+  $format->filters["filter_html"]['status'] = '1'; 
+  $format->filters["filter_html"]['settings']['allowed_html'] = '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <div> <p> <br> <i> <u> <cite> <hr> <sub> <sup> <table> <tbody> <thead> <th> <tr> <td> <span> <h1> <h2> <h3> <h4> <h5> <h6> <object> <iframe> <area> <embed> <address> <abbr> <caption> <pre> <code> <script> <img>'; 
+
+  // Save the format.
+  filter_format_save($format);
+
+}
