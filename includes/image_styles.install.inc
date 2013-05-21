@@ -41,7 +41,7 @@ function _gsb_public_setup_image_styles() {
         'weight' => 2,
       ),
     ),
-    '450ч263' => array(
+    '450x263' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(

@@ -386,7 +386,7 @@ function gsb_public_update_7016() {
 function gsb_public_update_7017() {
   // Declare our image styles
   $image_styles = array(
-    '450ч263' => array(
+    '450x263' => array(
       array(
         'name' => 'image_scale_and_crop',
         'data' => array(
