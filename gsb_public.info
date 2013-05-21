@@ -128,3 +128,4 @@ dependencies[] = gsb_feature_accordion
 dependencies[] = gsb_feature_cta
 dependencies[] = gsb_feature_quote_fpp
 dependencies[] = gsb_feature_gsa_search
+dependencies[] = gsb_feature_diptych_fpp

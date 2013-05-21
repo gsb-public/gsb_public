@@ -373,6 +373,13 @@ projects[gsb_feature_cta][download][url] = git@github.com:gsbitse/gsb_feature_ct
 projects[gsb_feature_cta][download][branch] = master
 projects[gsb_feature_cta][subdir] = custom/features
 
+; GSB Feature Diptych FPP
+projects[gsb_feature_diptych_fpp][type] = module
+projects[gsb_feature_diptych_fpp][download][type] = git
+projects[gsb_feature_diptych_fpp][download][url] = git@github.com:gsbitse/gsb_feature_diptych_fpp.git
+projects[gsb_feature_diptych_fpp][download][branch] = master
+projects[gsb_feature_diptych_fpp][subdir] = custom/features
+
 ; GSB Public Theme
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
