@@ -70,6 +70,15 @@ function _gsb_public_setup_image_styles() {
         'weight' => 2,
       ),
     ),
+    '600x440' => array(
+      array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '600',
+          'height' => '440',
+        ),
+      ),
+    ),
     '627x367' => array(
       array(
         'name' => 'image_scale_and_crop',

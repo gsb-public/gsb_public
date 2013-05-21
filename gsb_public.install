@@ -415,6 +415,15 @@ function gsb_public_update_7017() {
         'weight' => 2,
       ),
     ),
+    '600x440' => array(
+      array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '600',
+          'height' => '440',
+        ),
+      ),
+    ),
   );
   _gsb_public_install_add_image_style($image_styles);
 }
