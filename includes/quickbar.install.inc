@@ -1,6 +1,6 @@
 <?php
 
-function _gsb_public_setup_cache() 
+function _gsb_public_setup_quickbar() 
 
   // set the quickbar configuration for the roles and menus
   // used by revamp
