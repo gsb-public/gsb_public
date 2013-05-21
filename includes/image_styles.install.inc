@@ -41,6 +41,35 @@ function _gsb_public_setup_image_styles() {
         'weight' => 2,
       ),
     ),
+    '450ч263' => array(
+      array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '450',
+          'height' => '263',
+        ),
+      ),
+    ),
+    '450x263_video' => array(
+      array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '450',
+          'height' => '263',
+        ),
+        'weight' => 1,
+      ),
+      array(
+        'name' => 'canvasactions_file2canvas',
+        'data' => array(
+          'xpos' => 'center',
+          'ypos' => 'center',
+          'alpha' => 100,
+          'path' => 'profiles/gsb_public/themes/gsb_theme/images/video_play.png',
+        ),
+        'weight' => 2,
+      ),
+    ),
     '627x367' => array(
       array(
         'name' => 'image_scale_and_crop',

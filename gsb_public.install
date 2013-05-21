@@ -372,10 +372,49 @@ function gsb_public_update_7016() {
     }
   }
 
-  $format->filters["filter_html"]['status'] = '1'; 
-  $format->filters["filter_html"]['settings']['allowed_html'] = '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <div> <p> <br> <i> <u> <cite> <hr> <sub> <sup> <table> <tbody> <thead> <th> <tr> <td> <span> <h1> <h2> <h3> <h4> <h5> <h6> <object> <iframe> <area> <embed> <address> <abbr> <caption> <pre> <code> <script> <img>'; 
+  $format->filters["filter_html"]['status'] = '1';
+  $format->filters["filter_html"]['settings']['allowed_html'] = '<a> <em> <strong> <cite> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <div> <p> <br> <i> <u> <cite> <hr> <sub> <sup> <table> <tbody> <thead> <th> <tr> <td> <span> <h1> <h2> <h3> <h4> <h5> <h6> <object> <iframe> <area> <embed> <address> <abbr> <caption> <pre> <code> <script> <img>';
 
   // Save the format.
   filter_format_save($format);
 
+}
+
+/*
+ * Add 450x263 and 450x263_video image format.
+ */
+function gsb_public_update_7017() {
+  // Declare our image styles
+  $image_styles = array(
+    '450ч263' => array(
+      array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '450',
+          'height' => '263',
+        ),
+      ),
+    ),
+    '450x263_video' => array(
+      array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => '450',
+          'height' => '263',
+        ),
+        'weight' => 1,
+      ),
+      array(
+        'name' => 'canvasactions_file2canvas',
+        'data' => array(
+          'xpos' => 'center',
+          'ypos' => 'center',
+          'alpha' => 100,
+          'path' => 'profiles/gsb_public/themes/gsb_theme/images/video_play.png',
+        ),
+        'weight' => 2,
+      ),
+    ),
+  );
+  _gsb_public_install_add_image_style($image_styles);
 }
