@@ -5,6 +5,8 @@ function _gsb_public_setup_quickbar() {
   // set the quickbar configuration for the roles and menus
   // used by revamp
 
+  /**************
+
   $roles = user_roles();
   
   $menus = array();
@@ -35,5 +37,7 @@ function _gsb_public_setup_quickbar() {
   
   variable_set('quickbar_role_weights', serialize($weights));
   variable_set('quickbar_role_menus', serialize($menus));
+  
+  ************************/
 
 }
