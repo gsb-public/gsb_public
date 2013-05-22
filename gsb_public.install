@@ -427,3 +427,10 @@ function gsb_public_update_7017() {
   );
   _gsb_public_install_add_image_style($image_styles);
 }
+
+/**
+ * Enable gsb_feature_diptych_fpp module.
+ */
+function gsb_public_update_7018() {
+  module_enable(array('gsb_feature_diptych_fpp'));
+}
