@@ -345,6 +345,40 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $filters['alias']['expose']['autocomplete_raw_dropdown'] = 1;
     $filters['alias']['expose']['autocomplete_dependent'] = 0;
 
+    /* Filter criterion: Date: Date (node) */
+    $filters['date_filter']['id'] = 'date_filter';
+    $filters['date_filter']['table'] = 'node';
+    $filters['date_filter']['field'] = 'date_filter';
+    $filters['date_filter']['operator'] = 'between';
+    $filters['date_filter']['exposed'] = TRUE;
+    $filters['date_filter']['expose']['operator_id'] = 'date_filter_op';
+    $filters['date_filter']['expose']['label'] = 'Date (node)';
+    $filters['date_filter']['expose']['operator'] = 'date_filter_op';
+    $filters['date_filter']['expose']['identifier'] = 'date_filter';
+    $filters['date_filter']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      4 => 0,
+      5 => 0,
+      7 => 0,
+      6 => 0,
+      8 => 0,
+    );
+
+    $filters['date_filter']['group_info']['label'] = 'Date (node)';
+    $filters['date_filter']['group_info']['identifier'] = 'date_filter';
+    $filters['date_filter']['group_info']['remember'] = FALSE;
+    $filters['date_filter']['group_info']['group_items'] = array(
+      1 => array(),
+      2 => array(),
+      3 => array(),
+    );
+    $filters['date_filter']['form_type'] = 'date_popup';
+    $filters['date_filter']['date_fields'] = array(
+      'node.changed' => 'node.changed',
+    );    
+
     // field - delete node
 
     $fields['delete_node']['id'] = 'delete_node';
