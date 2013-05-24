@@ -41,11 +41,9 @@ function gsb_public_workbench_content_alter(&$output) {
   if (isset($output['workbench_current_user'])) {
     unset($output['workbench_current_user']);
   }
-  
-  /*
-  
-  todo: currently this gets added to the bottom of the my workbench page. Modify so that...
-  this gets added to the top of the page instead.
+
+  // Create a section with add/create links to all the content types
+  // the user has access to add/create.
 
   $node_types_output = '';
 
@@ -61,9 +59,27 @@ function gsb_public_workbench_content_alter(&$output) {
     $node_types_output .= $create_menu;
   }
 
+  // Find where the rendered output starts, which should be after all the
+  // items that start with "#"
+
+  $index = 0;
+  foreach($output as $key => $value) {
+    if (substr($key, 0, 1) == '#') {
+      $index++;
+    } else {
+      break;
+    }
+  }
+
+  // Slice the existing output so that we can put our new add/create section at the top
+  // of the items that will be rendered
+
+  $output_part1 = array_slice($output, 0, $index);
+  $output_part2 = array_slice($output, $index);
+
+  $output = $output_part1;
   $output['node_types_output']['#markup'] = $node_types_output;
-  
-  */
+  $output = array_merge($output, $output_part2);
 
 }
 
