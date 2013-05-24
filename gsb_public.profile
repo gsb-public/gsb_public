@@ -377,7 +377,34 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $filters['date_filter']['form_type'] = 'date_popup';
     $filters['date_filter']['date_fields'] = array(
       'node.changed' => 'node.changed',
-    );    
+    );
+
+    /* Filter criterion: User: Name (raw) */
+    $filters['name']['id'] = 'name';
+    $filters['name']['table'] = 'users';
+    $filters['name']['field'] = 'name';
+    $filters['name']['relationship'] = 'uid';
+    $filters['name']['operator'] = 'contains';
+    $filters['name']['exposed'] = TRUE;
+    $filters['name']['expose']['operator_id'] = 'name_op';
+    $filters['name']['expose']['label'] = 'Author';
+    $filters['name']['expose']['operator'] = 'name_op';
+    $filters['name']['expose']['identifier'] = 'name';
+    $filters['name']['expose']['remember_roles'] = array(
+      2 => '2',
+      1 => 0,
+      3 => 0,
+      4 => 0,
+      5 => 0,
+      7 => 0,
+      6 => 0,
+      8 => 0,
+    );
+    $filters['name']['expose']['autocomplete_items'] = '10';
+    $filters['name']['expose']['autocomplete_field'] = 'name';
+    $filters['name']['expose']['autocomplete_raw_suggestion'] = 1;
+    $filters['name']['expose']['autocomplete_raw_dropdown'] = 1;
+    $filters['name']['expose']['autocomplete_dependent'] = 0;
 
     // field - delete node
 
