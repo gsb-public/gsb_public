@@ -473,9 +473,6 @@ projects[breadcrumbs_by_path][download][revision] = 8f6896f
 projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][1985572] = http://drupal.org/files/allow-blocks.patch
 
-projects[breakpoints][version] = 1.0
-projects[breakpoints][subdir] = contrib
-
 projects[concat_field][version] = 1.1
 projects[concat_field][subdir] = contrib
 
