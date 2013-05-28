@@ -62,6 +62,7 @@ dependencies[] = workbench_access
 dependencies[] = workbench_moderation
 
 ; GSB Custom Modules
+dependencies[] = gsb_acquia_tokens
 dependencies[] = gsb_field_formatter
 dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_media_center

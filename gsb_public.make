@@ -12,6 +12,13 @@ projects[gsb_make_overrides][subdir] = custom
 ;  GSB Projects
 ;============================================
 
+; GSB Acquia Tokens
+projects[gsb_acquia_tokens][type] = module
+projects[gsb_acquia_tokens][download][type] = git
+projects[gsb_acquia_tokens][download][url] = git@github.com:gsbitse/gsb_acquia_tokens.git
+projects[gsb_acquia_tokens][download][branch] = master
+projects[gsb_acquia_tokens][subdir] = custom
+
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
