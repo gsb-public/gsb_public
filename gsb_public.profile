@@ -267,8 +267,17 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $filters = &$views['workbench_recent_content']->display['default']->display_options['filters'];
     $fields = &$views['workbench_recent_content']->display['default']->display_options['fields'];
     $menu = &$views['workbench_recent_content']->display['default']->display_options['menu'];
+    $relationships =  &$views['workbench_recent_content']->display['default']->display_options['relationships']; 
+    
+    // relationships
 
-    //
+    /* Relationship: Content revision: User */
+
+    $relationships['uid_1']['id'] = 'uid_1';
+    $relationships['uid_1']['table'] = 'node_revision';
+    $relationships['uid_1']['field'] = 'uid';       
+
+    // filters
 
     $filters['title']['group'] = 1;
     $filters['type']['group'] = 1;
@@ -420,6 +429,22 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $fields['nid']['table'] = 'node';
     $fields['nid']['field'] = 'nid';
     $fields['nid']['label'] = 'Node Id';
+
+    /* Field: Content: Published */
+    $fields['status']['id'] = 'status';
+    $fields['status']['table'] = 'node';
+    $fields['status']['field'] = 'status';
+    $fields['status']['element_label_colon'] = FALSE;
+    $fields['status']['not'] = 0;    
+
+    /* Field: User: Name */
+    $fields['name_1']['id'] = 'name_1';
+    $fields['name_1']['table'] = 'users';
+    $fields['name_1']['field'] = 'name';
+    $fields['name_1']['relationship'] = 'uid_1';
+    $fields['name_1']['label'] = 'Updated By';
+    $fields['name_1']['element_label_colon'] = FALSE;
+    $fields['name_1']['link_to_user'] = FALSE;    
 
     unset($views['workbench_recent_content']->display['page_1']->display_options['defaults']['fields']);
 
