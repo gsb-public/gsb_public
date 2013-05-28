@@ -590,7 +590,6 @@ function _gsb_public_setup_taxonomy() {
    *******************************************************************/
   $vocabularies['academic_area']['terms'] = array();
   $vocabularies['centers_research_programs']['terms'] = array();
-  $vocabularies['club_category']['terms'] = array();
   $vocabularies['department']['terms'] = array();
   $vocabularies['discipline']['terms'] = array();
   $vocabularies['event_category']['terms'] = array();
