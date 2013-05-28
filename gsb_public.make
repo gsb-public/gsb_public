@@ -417,20 +417,6 @@ projects[gsb_feature_wysiwyg][download][branch] = master
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ;================================================
 ;  GSB Themes
 ;================================================
@@ -448,13 +434,13 @@ projects[gsb_theme_admin][download][url] = git@github.com:gsbitse/gsb_theme_admi
 projects[gsb_theme_admin][download][branch] = master
 
 
-
-
-
 ;========================================
 ;  Additional Contrib Modules
 ;========================================
 
+; Acquia connector
+projects[acquia_connector][version] = 2.9
+projects[acquia_connector][subdir] = contrib
 
 projects[addressfield][version] = 1.0-beta4
 projects[addressfield][subdir] = contrib
@@ -464,6 +450,21 @@ projects[addthis][subdir] = contrib
 
 projects[auto_entitylabel][version] = 1.1
 projects[auto_entitylabel][subdir] = contrib
+
+; Better exposed filters for checkbox in views
+projects[better_exposed_filters][version] = 3.x-dev
+projects[better_exposed_filters][subdir] = contrib
+projects[better_exposed_filters][download][type] = git
+projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
+projects[better_exposed_filters][download][revision] = 6e8b9a0
+projects[better_exposed_filters][download][branch] = 7.x-3.x
+
+projects[breadcrumbs_by_path][version] = 1.x-dev
+projects[breadcrumbs_by_path][subdir] = contrib
+projects[breadcrumbs_by_path][download][type] = git
+projects[breadcrumbs_by_path][download][revision] = 8f6896f
+projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
+projects[breadcrumbs_by_path][patch][1985572] = http://drupal.org/files/allow-blocks.patch
 
 projects[breakpoints][version] = 1.0
 projects[breakpoints][subdir] = contrib
@@ -476,6 +477,14 @@ projects[computed_field][subdir] = contrib
 projects[computed_field][download][type] = git
 projects[computed_field][download][revision] = 4380d90
 projects[computed_field][download][branch] = 7.x-1.x
+
+; Add context filter by query in url
+projects[ctools_query_string_context][type] = module
+projects[ctools_query_string_context][download][type] = git
+projects[ctools_query_string_context][download][url] = http://git.drupal.org/sandbox/balint.kleri/1442298.git
+projects[ctools_query_string_context][download][revision] = dc75839
+projects[ctools_query_string_context][download][branch] = 7.x
+projects[ctools_query_string_context][subdir] = custom/modules
 
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
@@ -576,12 +585,8 @@ projects[metatag][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
-projects[breadcrumbs_by_path][version] = 1.x-dev
-projects[breadcrumbs_by_path][subdir] = contrib
-projects[breadcrumbs_by_path][download][type] = git
-projects[breadcrumbs_by_path][download][revision] = 8f6896f
-projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
-projects[breadcrumbs_by_path][patch][1985572] = http://drupal.org/files/allow-blocks.patch
+projects[redirect][version] = 1.0-rc1
+projects[redirect][subdir] = contrib
 
 projects[views_responsive_grid][version] = 1.3
 projects[views_responsive_grid][subdir] = contrib
@@ -591,6 +596,15 @@ projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git
 projects[telephone][download][revision] = 3de75b4
 projects[telephone][download][branch] = 7.x-1.x
+
+; Load more functionality for views
+projects[views_load_more][type] = module
+projects[views_load_more][download][type] = git
+projects[views_load_more][download][url] = http://git.drupal.org/project/views_load_more.git
+projects[views_load_more][download][revision] = 28de384
+projects[views_load_more][download][branch] = 7.x-1.x
+projects[views_load_more][subdir] = contrib
+projects[views_load_more][patch][1923870] = http://drupal.org/files/1923870-d7-3.patch
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
@@ -604,10 +618,10 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
 
-projects[redirect][version] = 1.0-rc1
-projects[redirect][subdir] = contrib
 
-; Panopoly
+;=========================================
+;  Panopoly Features
+;=========================================
 
 projects[panopoly_admin][version] = 1.x-dev
 projects[panopoly_admin][subdir] = panopoly
@@ -636,32 +650,3 @@ projects[panopoly_theme][subdir] = panopoly
 projects[panopoly_theme][download][type] = git
 projects[panopoly_theme][download][revision] = b8d3809
 projects[panopoly_theme][download][branch] = 7.x-1.x
-
-; Acquia connector
-projects[acquia_connector][version] = 2.9
-projects[acquia_connector][subdir] = contrib
-
-; Add context filter by query in url
-projects[ctools_query_string_context][type] = module
-projects[ctools_query_string_context][download][type] = git
-projects[ctools_query_string_context][download][url] = http://git.drupal.org/sandbox/balint.kleri/1442298.git
-projects[ctools_query_string_context][download][revision] = dc75839
-projects[ctools_query_string_context][download][branch] = 7.x
-projects[ctools_query_string_context][subdir] = custom/modules
-
-; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.x-dev
-projects[better_exposed_filters][subdir] = contrib
-projects[better_exposed_filters][download][type] = git
-projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
-projects[better_exposed_filters][download][revision] = 6e8b9a0
-projects[better_exposed_filters][download][branch] = 7.x-3.x
-
-; Load more functionality for views
-projects[views_load_more][type] = module
-projects[views_load_more][download][type] = git
-projects[views_load_more][download][url] = http://git.drupal.org/project/views_load_more.git
-projects[views_load_more][download][revision] = 28de384
-projects[views_load_more][download][branch] = 7.x-1.x
-projects[views_load_more][subdir] = contrib
-projects[views_load_more][patch][1923870] = http://drupal.org/files/1923870-d7-3.patch
