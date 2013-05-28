@@ -28,6 +28,12 @@ projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
 projects[gsb_tokens][download][branch] = master
 projects[gsb_tokens][subdir] = custom
 
+projects[simplesaml_auth][type] = module
+projects[simplesaml_auth][download][type] = git
+projects[simplesaml_auth][download][url] = git@github.com:gsbitse/simplesaml_auth.git
+projects[simplesaml_auth][download][branch] = master
+projects[simplesaml_auth][subdir] = custom
+
 
 ; GSB Feature base fields
 projects[gsb_feature_base_fields][type] = module

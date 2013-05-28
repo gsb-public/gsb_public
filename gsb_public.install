@@ -434,3 +434,10 @@ function gsb_public_update_7017() {
 function gsb_public_update_7018() {
   module_enable(array('gsb_feature_diptych_fpp'));
 }
+
+/**
+ * Enable simplesaml_auth module.
+ */
+function gsb_public_update_7019() {
+  module_enable(array('simplesaml_auth'));
+}
