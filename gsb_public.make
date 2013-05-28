@@ -549,6 +549,9 @@ projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarch
 projects[imagecache_actions][version] = 1.1
 projects[imagecache_actions][subdir] = contrib
 
+projects[login_destination][version] = 1.1
+projects[login_destination][subdir] = contrib
+
 projects[maxlength][version] = 3.x-dev
 projects[maxlength][subdir] = contrib
 projects[maxlength][download][type] = git

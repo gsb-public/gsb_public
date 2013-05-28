@@ -50,6 +50,7 @@ dependencies[] = hierarchical_select
 dependencies[] = hs_taxonomy
 dependencies[] = imagecache_actions
 dependencies[] = imagecache_canvasactions
+dependencies[] = login_destination
 dependencies[] = maxlength
 dependencies[] = menu_minipanels
 dependencies[] = metatag
