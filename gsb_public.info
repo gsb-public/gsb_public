@@ -28,7 +28,6 @@ dependencies[] = panopoly_magic
 dependencies[] = panopoly_admin
 
 ; Panopoly Recommended - Admin
-dependencies[] = breakpoints
 dependencies[] = backports
 dependencies[] = simplified_menu_admin
 dependencies[] = module_filter
@@ -42,7 +41,6 @@ dependencies[] = uuid
 dependencies[] = addthis
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
-dependencies[] = apc_flush
 dependencies[] = auto_entitylabel
 dependencies[] = computed_field
 dependencies[] = concat_field
