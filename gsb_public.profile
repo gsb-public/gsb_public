@@ -488,16 +488,14 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
 }
 
 /**
- * Implementation of hook_form_alter()
+ * Implements hook_form_BASE_FORM_ID_alter() for node_form().
  *
  * We set a workbench message to tell the user the current Revision State, on
  * any of our node edit forms - if the user has moderation access.
  *
  */
-function gsb_public_form_alter(&$form, &$form_state, $form_id) {
-
+function gsb_public_form_node_form_alter(&$form, &$form_state, $form_id) {
   if (isset($form['#entity_type']) &&  $form['#entity_type'] == 'node') {
-
     $node = $form['#node'];
 
     if (!module_exists('workbench_moderation')) {
@@ -526,11 +524,5 @@ function gsb_public_form_alter(&$form, &$form_state, $form_id) {
 
     // Send the info block array to a static variable.
     workbench_moderation_set_message($info_block_messages);
-
   }
-
 }
-
-
-
-
