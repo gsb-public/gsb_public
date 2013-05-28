@@ -122,7 +122,6 @@ dependencies[] = gsb_feature_webform_ct
 dependencies[] = gsb_feature_week_in_the_life_ct
 dependencies[] = gsb_feature_week_in_the_life_display
 dependencies[] = gsb_feature_wysiwyg
-dependencies[] = gsb_search_server
 dependencies[] = gsb_feature_mega_menu
 dependencies[] = gsb_feature_accordion
 dependencies[] = gsb_feature_cta

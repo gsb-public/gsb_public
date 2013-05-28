@@ -331,13 +331,6 @@ projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pa
 projects[gsb_panels_pages][download][branch] = master
 projects[gsb_panels_pages][subdir] = custom
 
-; GSB Search Server
-projects[gsb_search_server][type] = module
-projects[gsb_search_server][download][type] = git
-projects[gsb_search_server][download][url] = git@github.com:gsbitse/gsb_search_server.git
-projects[gsb_search_server][download][branch] = master
-projects[gsb_search_server][subdir] = custom/features
-
 ; GSB Features Image CTA Fpp
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
