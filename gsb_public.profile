@@ -526,3 +526,83 @@ function gsb_public_form_node_form_alter(&$form, &$form_state, $form_id) {
     workbench_moderation_set_message($info_block_messages);
   }
 }
+
+/**
+ * Implements hook_form_BASE_FORM_ID_alter() for views exposed form
+ *
+ * Alter the workbench filter fields into fieldsets.
+ *
+ */
+function gsb_public_form_views_exposed_form_alter(&$form, $form_state) {
+
+  // Alter the workbench "All Recent Content" filters
+  
+  if (isset($form['#id']) && $form['#id'] == 'views-exposed-form-workbench-recent-content-page-1') {
+
+    // Create "Filter Settings" section
+
+    $fieldset_top = $form['#id'] . '_fieldset_top';
+
+    $form[$fieldset_top] = array(
+      '#type' => 'fieldset',
+      '#title' => t('Filter Settings'),
+      '#collapsible' => FALSE,
+      '#collapsed' => FALSE,
+    );
+
+    // Note: top to bottom order of fields - matches list order
+    $top_filters = array( 'title' => 'filter-title'
+                        , 'access_id' => 'filter-access_id'
+                        , 'type' => 'filter-type'
+                        , 'published' => 'filter-status'
+                        , 'name' => 'filter-name'
+                        , 'nid' => 'filter-nid'
+                        );
+
+    // Move the keys to the new fieldset.  
+    foreach ($top_filters as $key => $value) {
+      $form[$fieldset_top][$key] = $form[$key];
+      unset($form[$key]);
+    }
+
+    // Create "Advanced Filter Settings" section
+
+    $fieldset = $form['#id'] . '_fieldset';
+
+    $form[$fieldset] = array(
+      '#type' => 'fieldset',
+      '#title' => t('Advanced Filter Settings'),
+      '#collapsible' => TRUE,
+      '#collapsed' => TRUE,
+    );
+
+    // Note: top to bottom order of fields - matches list order
+    $advanced_filters = array( 'date_filter'=> 'filter-date_filter'
+                             , 'uid_revision' => 'filter-uid_revision'
+                             , 'alias' => 'filter-alias'
+                             );
+
+    // Move the keys to the new fieldset.
+    foreach ($advanced_filters as $key => $value) {
+      $form[$fieldset][$key] = $form[$key];
+      unset($form[$key]);
+    }
+
+    // Move field labels from [#info] array and unset.
+    foreach ($form['#info'] as $key => $info) {
+      // for "Filter Settings" fields
+      if (in_array($key, array_values($top_filters))) {
+        $form[$fieldset_top][$info['value']]['#title'] = $form[$fieldset_top][$info['operator']]['#title'] = $info['label'];
+        unset($form['#info'][$key]);
+      }
+      // and for "Advanced Filter Settings" fields
+      if (in_array($key, array_values($advanced_filters))) {
+        $form[$fieldset][$info['value']]['#title'] = $form[$fieldset][$info['operator']]['#title'] = $info['label'];
+        unset($form['#info'][$key]);
+      }
+    }
+
+  }
+
+}
+
