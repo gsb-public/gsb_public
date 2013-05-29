@@ -29,6 +29,7 @@ function gsb_public_install() {
     'menu',
     'blocks',
     'fancybox',
+    'login_destination',
     'acquia',
     'ds',
     'quickbar',
