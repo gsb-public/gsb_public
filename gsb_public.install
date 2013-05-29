@@ -37,17 +37,23 @@ function gsb_public_install() {
   );
 
   foreach($actions as $action) {
-    drush_print('Starting ' . $action . ' action');
+    _gsb_public_print('Starting ' . $action . ' action');
     $time_start = microtime(true);
     include_once('includes/' . $action . '.install.inc');
     $func = '_gsb_public_setup_' . $action;
     $func();
     $time_end = microtime(true);
     $time = $time_end - $time_start;
-    drush_print('End of ' . $action . ' action. Completed in ' . $time . ' seconds.');
+    _gsb_public_print('End of ' . $action . ' action. Completed in ' . $time . ' seconds.');
   }
 
   db_query("UPDATE {system} SET weight = '-6' WHERE name = 'breadcrumbs_by_path'");
+}
+
+function _gsb_public_print($text) {
+  if (PHP_SAPI == 'cli') {
+    drush_print($text);
+  }
 }
 
 function _gsb_public_variable_set_multiple($variables) {
