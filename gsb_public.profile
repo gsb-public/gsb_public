@@ -267,7 +267,8 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $filters = &$views['workbench_recent_content']->display['default']->display_options['filters'];
     $fields = &$views['workbench_recent_content']->display['default']->display_options['fields'];
     $menu = &$views['workbench_recent_content']->display['default']->display_options['menu'];
-    $relationships =  &$views['workbench_recent_content']->display['default']->display_options['relationships']; 
+    $relationships =  &$views['workbench_recent_content']->display['default']->display_options['relationships'];
+    $exposed_form =  &$views['workbench_recent_content']->display['default']->display_options['exposed_form'];
     
     // relationships
 
@@ -477,6 +478,149 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $style_options_columns['edit_node'] = 'edit_node';
     $style_options_columns['nid'] = 'nid';
 
+    // exposed form using better_exposed_filters
+
+    $exposed_form['type'] = 'better_exposed_filters';
+    $exposed_form['options']['bef'] = array(
+      'general' => array(
+       'allow_secondary' => 1,
+       'secondary_label' => 'Advanced Filter Settings',
+      ),
+      'title' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'type' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'bef_select_all_none' => FALSE,
+         'bef_collapsible' => 0,
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'status' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'bef_select_all_none' => FALSE,
+         'bef_collapsible' => 0,
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'nid' => array(
+       'bef_format' => 'default',
+       'slider_options' => array(
+         'bef_slider_min' => '',
+         'bef_slider_max' => '',
+         'bef_slider_step' => '1',
+         'bef_slider_animate' => '',
+         'bef_slider_orientation' => 'horizontal',
+       ),
+       'more_options' => array(
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'uid_revision' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'bef_select_all_none' => FALSE,
+         'bef_collapsible' => 0,
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'alias' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'date_filter' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'is_secondary' => 1,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+      'name' => array(
+       'bef_format' => 'default',
+       'more_options' => array(
+         'is_secondary' => 0,
+         'bef_filter_description' => '',
+         'tokens' => array(
+           'available' => array(
+             0 => 'global_types',
+           ),
+         ),
+         'rewrite' => array(
+           'filter_rewrite_values' => '',
+         ),
+       ),
+      ),
+    );
+
     $menu['type'] = 'tab';
     $menu['title'] = 'All Recent Content';
     $menu['weight'] = '2';
@@ -527,82 +671,4 @@ function gsb_public_form_node_form_alter(&$form, &$form_state, $form_id) {
   }
 }
 
-/**
- * Implements hook_form_BASE_FORM_ID_alter() for views exposed form
- *
- * Alter the workbench filter fields into fieldsets.
- *
- */
-function gsb_public_form_views_exposed_form_alter(&$form, $form_state) {
-
-  // Alter the workbench "All Recent Content" filters
-  
-  if (isset($form['#id']) && $form['#id'] == 'views-exposed-form-workbench-recent-content-page-1') {
-
-    // Create "Filter Settings" section
-
-    $fieldset_top = $form['#id'] . '_fieldset_top';
-
-    $form[$fieldset_top] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Filter Settings'),
-      '#collapsible' => FALSE,
-      '#collapsed' => FALSE,
-    );
-
-    // Note: top to bottom order of fields - matches list order
-    $top_filters = array( 'title' => 'filter-title'
-                        , 'access_id' => 'filter-access_id'
-                        , 'type' => 'filter-type'
-                        , 'published' => 'filter-status'
-                        , 'name' => 'filter-name'
-                        , 'nid' => 'filter-nid'
-                        );
-
-    // Move the keys to the new fieldset.  
-    foreach ($top_filters as $key => $value) {
-      $form[$fieldset_top][$key] = $form[$key];
-      unset($form[$key]);
-    }
-
-    // Create "Advanced Filter Settings" section
-
-    $fieldset = $form['#id'] . '_fieldset';
-
-    $form[$fieldset] = array(
-      '#type' => 'fieldset',
-      '#title' => t('Advanced Filter Settings'),
-      '#collapsible' => TRUE,
-      '#collapsed' => TRUE,
-    );
-
-    // Note: top to bottom order of fields - matches list order
-    $advanced_filters = array( 'date_filter'=> 'filter-date_filter'
-                             , 'uid_revision' => 'filter-uid_revision'
-                             , 'alias' => 'filter-alias'
-                             );
-
-    // Move the keys to the new fieldset.
-    foreach ($advanced_filters as $key => $value) {
-      $form[$fieldset][$key] = $form[$key];
-      unset($form[$key]);
-    }
-
-    // Move field labels from [#info] array and unset.
-    foreach ($form['#info'] as $key => $info) {
-      // for "Filter Settings" fields
-      if (in_array($key, array_values($top_filters))) {
-        $form[$fieldset_top][$info['value']]['#title'] = $form[$fieldset_top][$info['operator']]['#title'] = $info['label'];
-        unset($form['#info'][$key]);
-      }
-      // and for "Advanced Filter Settings" fields
-      if (in_array($key, array_values($advanced_filters))) {
-        $form[$fieldset][$info['value']]['#title'] = $form[$fieldset][$info['operator']]['#title'] = $info['label'];
-        unset($form['#info'][$key]);
-      }
-    }
-
-  }
-
-}
 
