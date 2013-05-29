@@ -46,8 +46,6 @@ function gsb_public_install() {
     $time = $time_end - $time_start;
     _gsb_public_print('End of ' . $action . ' action. Completed in ' . $time . ' seconds.');
   }
-
-  db_query("UPDATE {system} SET weight = '-6' WHERE name = 'breadcrumbs_by_path'");
 }
 
 function _gsb_public_print($text) {

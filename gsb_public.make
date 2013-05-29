@@ -469,9 +469,8 @@ projects[better_exposed_filters][download][branch] = 7.x-3.x
 projects[breadcrumbs_by_path][version] = 1.x-dev
 projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][download][type] = git
-projects[breadcrumbs_by_path][download][revision] = 8f6896f
+projects[breadcrumbs_by_path][download][revision] = 2d60c5d
 projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
-projects[breadcrumbs_by_path][patch][1985572] = http://drupal.org/files/allow-blocks.patch
 
 projects[concat_field][version] = 1.1
 projects[concat_field][subdir] = contrib
