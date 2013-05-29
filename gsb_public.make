@@ -472,7 +472,7 @@ projects[breadcrumbs_by_path][download][type] = git
 projects[breadcrumbs_by_path][download][revision] = 2d60c5d
 projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 
-projects[concat_field][version] = 1.1
+projects[concat_field][version] = 1.2
 projects[concat_field][subdir] = contrib
 
 projects[computed_field][version] = 1.x-dev
