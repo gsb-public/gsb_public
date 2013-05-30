@@ -86,6 +86,13 @@ projects[simplesaml_auth][subdir] = custom
 ;  GSB Features
 ;=======================================
 
+; GSB Features Academic Calendar
+projects[gsb_feature_academic_calendar_ct][type] = module
+projects[gsb_feature_academic_calendar_ct][download][type] = git
+projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsbitse/gsb_feature_academic_calendar_ct.git
+projects[gsb_feature_academic_calendar_ct][download][branch] = master
+projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
+
 ; GSB Features Accordion
 projects[gsb_feature_accordion][type] = module
 projects[gsb_feature_accordion][download][type] = git
