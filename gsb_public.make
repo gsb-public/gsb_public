@@ -446,7 +446,7 @@ projects[gsb_theme_admin][download][branch] = master
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.9
+projects[acquia_connector][version] = 2.10
 projects[acquia_connector][subdir] = contrib
 
 projects[addressfield][version] = 1.0-beta4
