@@ -2,20 +2,9 @@
 
 function gsb_public_views_default_views_alter(&$views) {
 
-  // Remove the workbench "drafts", "needs review" tabs,
-  // by disabling the workbench_moderation view.
+  //_gsb_public_views_alter_workbench_edited($views);
 
-  if (isset($views['workbench_moderation'])) {
-    $views['workbench_moderation']->disabled = TRUE;
-  }
-  
-  if (isset($views['workbench_current_user'])) {
-    $views['workbench_current_user']->disabled = TRUE;
-  }  
-
-  _gsb_public_views_alter_workbench_edited($views);
-
-  _gsb_public_views_alter_workbench_recent_content($views);
+  //_gsb_public_views_alter_workbench_recent_content($views);
 
 }
 
