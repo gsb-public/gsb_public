@@ -455,7 +455,7 @@ projects[addressfield][subdir] = contrib
 projects[addthis][version] = 4.0-alpha2
 projects[addthis][subdir] = contrib
 
-projects[auto_entitylabel][version] = 1.1
+projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
@@ -492,7 +492,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.2
+projects[ds][version] = 2.3
 projects[ds][subdir] = contrib
 
 projects[email][version] = 1.2
