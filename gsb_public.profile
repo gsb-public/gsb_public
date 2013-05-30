@@ -1,20 +1,5 @@
 <?php
 
-function gsb_public_menu_alter(&$items) {
-
-  // If the workbench sections tab page is defined,
-  // we remove it by setting the "access callback" to FALSE
-
-  if (isset($items["admin/workbench/sections"])) {
-    $items["admin/workbench/sections"]["access callback"] = FALSE;
-  }
-
-  if (isset($items["admin/workbench/content"])) {
-    $items["admin/workbench/content"]["title"] = "Content";
-  }
-
-}
-
 function gsb_public_views_default_views_alter(&$views) {
 
   // Remove the workbench "drafts", "needs review" tabs,
@@ -28,76 +13,13 @@ function gsb_public_views_default_views_alter(&$views) {
     $views['workbench_current_user']->disabled = TRUE;
   }  
 
-  _gsb_public_views_alter_workbench_editted($views);
+  _gsb_public_views_alter_workbench_edited($views);
 
   _gsb_public_views_alter_workbench_recent_content($views);
 
 }
 
-function gsb_public_workbench_content_alter(&$output) {
-
-  // Remove the "My Profile" block from the workbench page
-  
-  if (isset($output['workbench_current_user'])) {
-    unset($output['workbench_current_user']);
-  }
-
-  // Create a section with add/create links to all the content types
-  // the user has access to add/create.
-
-  $node_types_output = '';
-
-  $node_types = _gsb_public_get_user_node_types();
-  $create_menu = '<ul class="create-menu action-links">';
-  foreach ($node_types as $name => $label) {
-    $type = str_replace('_', '-', $name);
-    $create_menu .= sprintf('<li>%s</li>', l($label, 'node/add/' . $type));
-  }
-  $create_menu .= '</ul>';
-  if ($node_types) {
-    $node_types_output .= '<div class="create-menu-title">You can create the following content:</div>';
-    $node_types_output .= $create_menu;
-  }
-
-  // Find where the rendered output starts, which should be after all the
-  // items that start with "#"
-
-  $index = 0;
-  foreach($output as $key => $value) {
-    if (substr($key, 0, 1) == '#') {
-      $index++;
-    } else {
-      break;
-    }
-  }
-
-  // Slice the existing output so that we can put our new add/create section at the top
-  // of the items that will be rendered
-
-  $output_part1 = array_slice($output, 0, $index);
-  $output_part2 = array_slice($output, $index);
-
-  $output = $output_part1;
-  $output['node_types_output']['#markup'] = $node_types_output;
-  $output = array_merge($output, $output_part2);
-
-}
-
-function _gsb_public_get_user_node_types() {
-  static $types = FALSE;
-  if ($types === FALSE) {
-    $types = array();
-    $node_types = node_type_get_types();
-    foreach ($node_types as $name => $node_type) {
-      if (node_access('create', $name)) {
-        $types[$name] = $node_type->name;
-      }
-    }
-  }
-  return $types;
-}
-
-function _gsb_public_views_alter_workbench_editted(&$views) {
+function _gsb_public_views_alter_workbench_edited(&$views) {
 
   // Add additional filters to the "My Edits" page that is
   // part of the Workbench dashboard.
@@ -466,6 +388,24 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
         'separator' => '',
         'empty_column' => 0,
     );
+    
+    $style_options_info['section'] = array(
+        'sortable' => 1,
+        'default_sort_order' => 'asc',
+        'align' => '',
+        'separator' => '',
+        'empty_column' => 0,
+    );
+
+    $style_options_info = &$views['workbench_recent_content']->display['page_1']->display_options['style_options']['info'];
+
+    $style_options_info['section'] = array(
+        'sortable' => 1,
+        'default_sort_order' => 'asc',
+        'align' => '',
+        'separator' => '',
+        'empty_column' => 0,
+    );
 
     $views['workbench_recent_content']->display['default']->display_options['style_options']['order'] = 'desc';
 
@@ -477,6 +417,7 @@ function _gsb_public_views_alter_workbench_recent_content(&$views) {
     $style_options_columns['changed'] = 'changed';
     $style_options_columns['edit_node'] = 'edit_node';
     $style_options_columns['nid'] = 'nid';
+    $style_options_columns['nid'] = 'section';    
 
     // exposed form using better_exposed_filters
 
