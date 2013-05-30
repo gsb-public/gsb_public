@@ -446,3 +446,10 @@ function gsb_public_update_7018() {
 function gsb_public_update_7019() {
   module_enable(array('simplesaml_auth'));
 }
+
+/**
+ * Enable gsb_feature_academic_calendar_ct module.
+ */
+function gsb_public_update_7020() {
+  module_enable(array('gsb_feature_academic_calendar_ct'));
+}
