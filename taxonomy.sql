@@ -497,7 +497,8 @@ INSERT INTO `taxonomy_term_data` (`tid`, `vid`, `name`, `description`, `format`,
 (12236, 166, 'Public', NULL, NULL, 0, '0a25133b-a241-4136-9f25-d22dbe366237'),
 (12241, 166, 'Staff', NULL, NULL, 0, '0b9a56b5-f637-4f55-ac2c-c25d9f7d0d4e'),
 (12246, 166, 'Stanford Community', NULL, NULL, 0, '3be15f82-9f26-4c6b-88d7-0f296fdfd7cb'),
-(12251, 166, 'Students', NULL, NULL, 0, '91a76994-5375-433d-b57e-da1461460f31');
+(12251, 166, 'Students', NULL, NULL, 0, '91a76994-5375-433d-b57e-da1461460f31'),
+(12256,171,'Administrators','Administrators of the site.',NULL,0,'a078dce9-f120-4a0c-bffe-efb0c772d2ea');
 -- --------------------------------------------------------
 
 --
@@ -617,6 +618,7 @@ INSERT INTO `taxonomy_term_hierarchy` (`tid`, `parent`) VALUES
 (12241, 0),
 (12246, 0),
 (12251, 0),
+(12256, 0),
 (10226, 10221),
 (10231, 10221),
 (10236, 10221),

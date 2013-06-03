@@ -119,12 +119,14 @@ function _gsb_public_setup_workbench() {
   );
   _gsb_public_variable_set_multiple($variables);
 
+  /**
   $term = (object) array(
     'vid' => $vocabulary->vid,
     'name' => 'Administrators',
     'description' => t('Administrators of the site.'),
   );
   taxonomy_term_save($term);
+  **/
 
   $record = array(
     'access_id' => $section_id,
