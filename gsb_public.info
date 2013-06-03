@@ -74,6 +74,7 @@ dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_tokens
 dependencies[] = simplesaml_auth
+dependencies[] = feature_flag
 
 ; GSB Features
 dependencies[] = gsb_feature_academic_calendar_ct
