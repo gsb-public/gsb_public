@@ -82,6 +82,13 @@ projects[simplesaml_auth][download][url] = git@github.com:gsbitse/simplesaml_aut
 projects[simplesaml_auth][download][branch] = master
 projects[simplesaml_auth][subdir] = custom
 
+; Feature Flag
+projects[gsb_media_center][type] = module
+projects[gsb_media_center][download][type] = git
+projects[gsb_media_center][download][url] = git@github.com:gsbitse/feature_flag.git
+projects[gsb_media_center][download][branch] = master
+projects[gsb_media_center][subdir] = custom
+
 ;=======================================
 ;  GSB Features
 ;=======================================
