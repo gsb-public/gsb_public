@@ -32,6 +32,7 @@ dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
 dependencies[] = auto_entitylabel
 dependencies[] = backports
+dependencies[] = backup_migrate
 dependencies[] = breadcrumbs_by_path
 dependencies[] = computed_field
 dependencies[] = concat_field

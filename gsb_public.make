@@ -479,6 +479,9 @@ projects[addthis][subdir] = contrib
 projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
 
+projects[backup_migrate][version] = 2.7
+projects[backup_migrate][subdir] = contrib
+
 ; Better exposed filters for checkbox in views
 projects[better_exposed_filters][version] = 3.x-dev
 projects[better_exposed_filters][subdir] = contrib

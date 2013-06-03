@@ -460,3 +460,10 @@ function gsb_public_update_7020() {
 function gsb_public_update_7021() {
   module_enable(array('gsb_feature_academic_calendar_display'));
 }
+
+/**
+ * Enable backup_migrate module.
+ */
+function gsb_public_update_7022() {
+  module_enable(array('backup_migrate'));
+}
