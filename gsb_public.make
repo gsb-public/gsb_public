@@ -495,8 +495,6 @@ projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 
 projects[concat_field][version] = 1.x-dev
 projects[concat_field][subdir] = contrib
-projects[concat_field][download][branch] = 7.x-1.x
-projects[concat_field][download][revision] = 2cb3e05
 
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
