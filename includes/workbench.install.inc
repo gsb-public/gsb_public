@@ -2,13 +2,14 @@
 
 function _gsb_public_setup_workbench() {
   $section_id = 'workbench_sections';
-
+/**
   $vocabulary = (object) array(
     'name' => 'Workbench Sections',
     'machine_name' => $section_id,
     'description' => t('This holds the roles for the sections in workbench.'),
   );
   taxonomy_vocabulary_save($vocabulary);
+**/
 
   // Create a field
   $field = array(
