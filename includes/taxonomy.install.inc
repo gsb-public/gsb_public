@@ -1,6 +1,7 @@
 <?php
 
 function _gsb_public_setup_taxonomy() {
+  /**
   $vocabularies = array(
     'academic_area' => array(
       'name' => 'Academic Area',
@@ -597,7 +598,7 @@ function _gsb_public_setup_taxonomy() {
   $vocabularies['program']['terms'] = array();
   $vocabularies['region']['terms'] = array();
   $vocabularies['target_audience']['terms'] = array();**/
-
+/**
   foreach ($vocabularies as $machine_name => $info) {
     $vocabulary = (object) array(
       'machine_name' => $machine_name,
@@ -608,6 +609,10 @@ function _gsb_public_setup_taxonomy() {
 
     _gsb_public_taxonomy_terms_process($info['terms'], $vocabulary);
   }
+  **/
+  backup_migrate_include('crud');
+  backup_migrate_perform_restore('cc5f668fd558e415d1b8564e7d17b3cb', 'taxonomy.sql');
+
 }
 
 /**

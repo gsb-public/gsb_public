@@ -136,6 +136,8 @@ function _gsb_public_setup_workbench() {
   );
   workbench_access_section_save($record);
 
+  $term = taxonomy_get_term_by_name('Administrators');
+
   $record = array(
     'access_id' => $term->tid,
     'access_scheme' => 'taxonomy',
