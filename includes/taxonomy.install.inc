@@ -610,8 +610,12 @@ function _gsb_public_setup_taxonomy() {
     _gsb_public_taxonomy_terms_process($info['terms'], $vocabulary);
   }
   **/
-  backup_migrate_include('crud');
-  backup_migrate_perform_restore('cc5f668fd558e415d1b8564e7d17b3cb', 'taxonomy.sql');
+  backup_migrate_include('crud', 'files', 'filters');
+  $file = new backup_file(array('filepath' => 'profiles/gsb_public/taxonomy.sql'));
+  $settings = array();
+  $settings = backup_migrate_crud_create_item('profile', $settings);
+  $settings->source_id = 'db';
+  backup_migrate_filters_restore($file, $settings);
 
 }
 
