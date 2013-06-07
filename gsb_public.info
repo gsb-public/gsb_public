@@ -95,6 +95,7 @@ dependencies[] = gsb_feature_faculty_ct
 dependencies[] = gsb_feature_faculty_display
 dependencies[] = gsb_feature_file_types
 dependencies[] = gsb_feature_gsa_search
+dependencies[] = gsb_feature_house_ads
 dependencies[] = gsb_feature_image_cta_fpp
 dependencies[] = gsb_feature_import_gathercontent
 dependencies[] = gsb_feature_links_fpp
