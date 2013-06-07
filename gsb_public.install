@@ -16,7 +16,6 @@ function gsb_public_install() {
     'roles',
     'users',
     'filter_formats',
-    'backup_migrate',
     'taxonomy',
     'workbench',
     'panopoly',

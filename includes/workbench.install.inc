@@ -136,10 +136,10 @@ function _gsb_public_setup_workbench() {
   );
   workbench_access_section_save($record);
 
-  $term = taxonomy_get_term_by_name('Administrators');
+  $administrator_tid = 12256;
 
   $record = array(
-    'access_id' => $term->tid,
+    'access_id' => $administrator_tid,
     'access_scheme' => 'taxonomy',
     'access_type' => 'taxonomy',
     'access_type_id' => $section_id,
@@ -149,7 +149,7 @@ function _gsb_public_setup_workbench() {
   $roles = user_roles();
   $rid = array_search('administrator', $roles);
   // Add role to workbench access section.
-  workbench_access_role_section_save($rid, $term->tid, 'taxonomy');
+  workbench_access_role_section_save($rid, $administrator_tid, 'taxonomy');
 
   // Remove the needs_review state.
   $state = new stdClass();
