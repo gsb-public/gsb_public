@@ -62,6 +62,8 @@ dependencies[] = views_responsive_grid
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
+dependencies[] = phone
+dependencies[] = webform_phone
 
 ; GSB Custom Modules
 dependencies[] = gsb_acquia_tokens
