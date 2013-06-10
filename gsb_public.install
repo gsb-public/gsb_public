@@ -16,6 +16,7 @@ function gsb_public_install() {
     'roles',
     'users',
     'filter_formats',
+    'backup_migrate',
     'taxonomy',
     'workbench',
     'panopoly',
@@ -466,4 +467,22 @@ function gsb_public_update_7021() {
  */
 function gsb_public_update_7022() {
   module_enable(array('backup_migrate'));
+}
+
+/**
+ * Setting gsb_fpp_customization to follow panopoly_magic, in the module peckin' order.
+ */
+function gsb_public_update_7023() {
+
+  // Make the weight of gsb_fpp_customization one higher than panopoly_magic.
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('name', 'panopoly_magic', '=')
+              ->execute()
+              ->fetchField();
+
+  db_update('system')
+    ->fields(array('weight' => $weight +1))
+    ->condition('name', 'gsb_fpp_customization', '=')
+    ->execute();
 }
