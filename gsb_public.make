@@ -504,6 +504,17 @@ projects[better_exposed_filters][download][url] = http://git.drupal.org/project/
 projects[better_exposed_filters][download][revision] = 6e8b9a0
 projects[better_exposed_filters][download][branch] = 7.x-3.x
 
+; Phone module for Webform Phone
+projects[phone][version] = 1.x-dev
+projects[phone][subdir] = contrib
+projects[phone][download][type] = git
+projects[phone][download][url] = http://git.drupal.org/project/phone.git
+projects[phone][download][revision] = 5e0ea65
+projects[phone][download][branch] = 7.x-1.x
+
+projects[webform_phone][version] = 1.11
+projects[webform_phone][subdir] = contrib
+
 projects[breadcrumbs_by_path][version] = 1.x-dev
 projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][download][type] = git
