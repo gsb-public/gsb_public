@@ -79,7 +79,7 @@ function _gsb_public_setup_roles() {
 
     'edit any page content',
 
-    'edit any phd_candidate content',
+    //'edit any phd_candidate content',
 
     'edit any staff content',
 
@@ -189,7 +189,7 @@ function _gsb_public_setup_roles() {
     // Filter
 
     'use text format gsb_wysiwyg_text',
-    'use text format gsb_html_text',    
+    'use text format gsb_html_text',
 
     // Media Internet Sources
 
@@ -228,11 +228,13 @@ function _gsb_public_setup_roles() {
     'delete own page content',
     'delete any page content',
 
+    /**
     'create phd_candidate content',
     'edit own phd_candidate content',
     'edit any phd_candidate content',
     'delete own phd_candidate content',
     'delete any phd_candidate content',
+    **/
 
     'create staff content',
     'edit own staff content',
@@ -317,7 +319,7 @@ function _gsb_public_setup_roles() {
 
     'edit any faculty content',
 
-    'edit any publication content',
+    //'edit any publication content',
 
     // Workbench
 
@@ -368,12 +370,13 @@ function _gsb_public_setup_roles() {
     'delete own faculty content',
     'delete any faculty content',
 
+    /**
     'create publication content',
     'edit own publication content',
     'edit any publication content',
     'delete own publication content',
     'delete any publication content',
-
+**/
     // Workbench
 
     'access workbench',
@@ -411,10 +414,12 @@ function _gsb_public_setup_roles() {
     'view revisions',
     'revert revisions',
 
+    /**
     'create case_study content',
     'edit own case_study content',
     'edit any case_study content',
     'delete own case_study content',
+**/
 
     'create event content',
     'edit own event content',
@@ -450,7 +455,7 @@ function _gsb_public_setup_roles() {
     'administer mini panels',
 
     // Node permissions
-
+/**
     'create business_insight content',
     'edit own business_insight content',
     'edit any business_insight content',
@@ -474,13 +479,14 @@ function _gsb_public_setup_roles() {
     'edit any publication content',
     'delete own publication content',
     'delete any publication content',
+**/
 
     'create gsb_video content',
     'edit own gsb_video content',
     'edit any gsb_video content',
     'delete own gsb_video content',
     'delete any gsb_video content',
-    
+
     // Page Manager
 
     'use page manager',
@@ -488,11 +494,11 @@ function _gsb_public_setup_roles() {
 
     // System
 
-    "view the administration theme",   
-    
+    "view the administration theme",
+
     // Workbench
 
-    'access workbench',    
+    'access workbench',
 
   );
 
