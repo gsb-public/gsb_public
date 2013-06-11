@@ -244,12 +244,12 @@ projects[gsb_feature_links_fpp][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_links_fpp][download][branch] = master
 projects[gsb_feature_links_fpp][subdir] = custom/features
 
-; GSB Feature House Ads
-projects[gsb_feature_house_ads][type] = module
-projects[gsb_feature_house_ads][download][type] = git
-projects[gsb_feature_house_ads][download][url] = git@github.com:gsbitse/gsb_feature_house_ads.git
-projects[gsb_feature_house_ads][download][branch] = master
-projects[gsb_feature_house_ads][subdir] = custom/features
+; GSB Feature House Ads FPP
+projects[gsb_feature_house_ads_fpp][type] = module
+projects[gsb_feature_house_ads_fpp][download][type] = git
+projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsbitse/gsb_feature_house_ads_fpp.git
+projects[gsb_feature_house_ads_fpp][download][branch] = master
+projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
 ; GSB Feature Media Mention
 projects[gsb_feature_media_mention_ct][type] = module
