@@ -711,3 +711,10 @@ projects[panopoly_theme][subdir] = panopoly
 projects[panopoly_theme][download][type] = git
 projects[panopoly_theme][download][revision] = b8d3809
 projects[panopoly_theme][download][branch] = 7.x-1.x
+
+;================================================================
+; Libraries
+;================================================================
+
+libraries[easyResponsiveTabs][download][type] = get
+libraries[easyResponsiveTabs][download][url] = https://raw.github.com/gsbitse/Easy-Responsive-Tabs-to-Accordion/master/js/easyResponsiveTabs.js
