@@ -492,3 +492,10 @@ function gsb_public_update_7023() {
 function gsb_public_update_7024() {
   module_enable(array('phone', "webform_phone"));
 }
+
+/**
+ * Enable house ads feature.
+ */
+function gsb_public_update_7025() {
+  module_enable(array('gsb_feature_house_ads_fpp'));
+}
