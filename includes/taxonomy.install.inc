@@ -177,6 +177,7 @@ function _gsb_public_setup_taxonomy() {
         'Diverse Communities',
         'Info Session',
         'On-campus',
+        'Off-campus',
         'Online',
         'Seminars',
         'Speakers',

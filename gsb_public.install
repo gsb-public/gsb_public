@@ -515,3 +515,29 @@ function gsb_public_update_7026() {
   // Date Year Format
   variable_set('european_date_format', 'd M Y');
 }
+
+/**
+ * Insert 'Off-campus' term into 'Event Category' vocab.
+ */
+function gsb_public_update_7027() {
+  $fields = array(
+    'tid' => '10582',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '10582',
+    'vid' => 136,
+    'name' => 'Off-campus',,
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '55e1bbfc-fe67-4f12-994e-d6c57e57c889',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+}
