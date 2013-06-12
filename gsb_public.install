@@ -531,7 +531,7 @@ function gsb_public_update_7027() {
   $fields = array(
     'tid' => '10582',
     'vid' => 136,
-    'name' => 'Off-campus',,
+    'name' => 'Off-campus',
     'description' => NULL,
     'format' => NULL,
     'weight' => 0,
