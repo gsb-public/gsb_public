@@ -72,6 +72,7 @@ dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_media_center
 dependencies[] = gsb_panels_ipe_overrides
 dependencies[] = gsb_panels_pages
+dependencies[] = gsb_panopoly_magic_customization
 dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_tokens
