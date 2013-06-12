@@ -499,3 +499,19 @@ function gsb_public_update_7024() {
 function gsb_public_update_7025() {
   module_enable(array('gsb_feature_house_ads_fpp'));
 }
+
+/**
+ * Add a 'european_date_format' date format.
+ */
+function gsb_public_update_7026() {
+  // Insert custom format: 25 Nov 2011
+  db_insert('date_formats')
+    ->fields(array('format' => 'd M Y', 'type' => 'custom', 'locked' => 0))
+    ->execute();
+  // Insert custom format: 2011
+  db_insert('date_format_type')
+    ->fields(array('type' => 'european_date_format', 'title' => 'European date format', 'locked' => 0))
+    ->execute();
+  // Date Year Format
+  variable_set('european_date_format', 'd M Y');
+}
