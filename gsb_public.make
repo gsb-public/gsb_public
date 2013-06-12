@@ -61,6 +61,13 @@ projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pa
 projects[gsb_panels_pages][download][branch] = master
 projects[gsb_panels_pages][subdir] = custom
 
+; GSB Panopoly Magic Customization
+projects[gsb_panopoly_magic_customization][type] = module
+projects[gsb_panopoly_magic_customization][download][type] = git
+projects[gsb_panopoly_magic_customization][download][url] = git@github.com:gsbitse/gsb_panopoly_magic_customization.git
+projects[gsb_panopoly_magic_customization][download][branch] = master
+projects[gsb_panopoly_magic_customization][subdir] = custom
+
 ; GSB Section Autoconfig
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
