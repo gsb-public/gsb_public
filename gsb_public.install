@@ -541,3 +541,12 @@ function gsb_public_update_7027() {
     ->fields($fields)
     ->execute();
 }
+
+/**
+ * Enable gsb panopoly magic customization module
+ */
+function gsb_public_update_7028() {
+  module_enable(array('gsb_panopoly_magic_customization'));
+}
+
+
