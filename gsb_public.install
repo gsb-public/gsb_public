@@ -549,4 +549,28 @@ function gsb_public_update_7028() {
   module_enable(array('gsb_panopoly_magic_customization'));
 }
 
+/**
+ * Insert 'MS' term into 'Program' vocab.
+ */
+function gsb_public_update_7029() {
+  $fields = array(
+    'tid' => '10887',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
 
+  $fields = array(
+    'tid' => '10887',
+    'vid' => 151,
+    'name' => 'MS',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '73271ac4-f333-400f-a25d-96ea10e5337d',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+}

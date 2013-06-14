@@ -266,6 +266,7 @@ function _gsb_public_setup_taxonomy() {
         'Executive Education',
         'MBA',
         'MSx',
+        'MS',
         'PhD',
         'SEED Program',
         'SIGM',
