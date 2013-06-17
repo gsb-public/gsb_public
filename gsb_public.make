@@ -725,3 +725,7 @@ projects[panopoly_theme][download][branch] = 7.x-1.x
 
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/5c346ab52c8633eb1c10f2a27e6a6537797a87eb/js/easyResponsiveTabs.js
+
+libraries[tmhOAuth][download][type] = git
+libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
+libraries[tmhOAuth][download][tag] = 0.8.2
