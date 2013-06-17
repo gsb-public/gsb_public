@@ -24,14 +24,14 @@ function _gsb_public_setup_time_date() {
     ->fields(array('format' => 'F j, Y', 'type' => 'custom', 'locked' => 0))
     ->execute();
 
-  // Insert custom format: Nov. 25, 2011 - 2:45pm
+  // Insert custom format: Nov 25, 2011 - 2:45pm
   db_insert('date_formats')
-    ->fields(array('format' => 'M. j, Y - g:ia', 'type' => 'custom', 'locked' => 0))
+    ->fields(array('format' => 'M j, Y - g:ia', 'type' => 'custom', 'locked' => 0))
     ->execute();
 
-  // Insert custom format: Nov. 25, 2011
+  // Insert custom format: Nov 25, 2011
   db_insert('date_formats')
-    ->fields(array('format' => 'M. j, Y', 'type' => 'custom', 'locked' => 0))
+    ->fields(array('format' => 'M j, Y', 'type' => 'custom', 'locked' => 0))
     ->execute();
 
   // Insert custom format: 11/25/2011
@@ -94,8 +94,8 @@ function _gsb_public_setup_time_date() {
   $variables['date_format_long'] = 'F j, Y';
 
   // Date Medium Format
-  $variables['date_format_medium_time'] = 'M. j, Y - g:ia';
-  $variables['date_format_medium'] = 'M. j, Y';
+  $variables['date_format_medium_time'] = 'M j, Y - g:ia';
+  $variables['date_format_medium'] = 'M j, Y';
 
   // Date Short Format
   $variables['date_format_short_time'] = 'm/d/Y - g:ia';
