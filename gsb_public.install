@@ -33,6 +33,7 @@ function gsb_public_install() {
     'acquia',
     'ds',
     'quickbar',
+    'panels',
     'cleanup',  // please leave this as the last task to run
   );
 
