@@ -12,6 +12,13 @@ projects[gsb_make_overrides][subdir] = custom
 ;  GSB Projects
 ;============================================
 
+; Feature Flag
+projects[feature_flag][type] = module
+projects[feature_flag][download][type] = git
+projects[feature_flag][download][url] = git@github.com:gsbitse/feature_flag.git
+projects[feature_flag][download][branch] = master
+projects[feature_flag][subdir] = custom
+
 ; GSB Acquia Tokens
 projects[gsb_acquia_tokens][type] = module
 projects[gsb_acquia_tokens][download][type] = git
@@ -82,19 +89,19 @@ projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
 projects[gsb_tokens][download][branch] = master
 projects[gsb_tokens][subdir] = custom
 
+; Pathauto Title Alias
+projects[pathauto_title_alias][type] = module
+projects[pathauto_title_alias][download][type] = git
+projects[pathauto_title_alias][download][url] = git@github.com:gsbitse/pathauto_title_alias.git
+projects[pathauto_title_alias][download][branch] = master
+projects[pathauto_title_alias][subdir] = custom
+
 ; SimpleSAML Auth
 projects[simplesaml_auth][type] = module
 projects[simplesaml_auth][download][type] = git
 projects[simplesaml_auth][download][url] = git@github.com:gsbitse/simplesaml_auth.git
 projects[simplesaml_auth][download][branch] = master
 projects[simplesaml_auth][subdir] = custom
-
-; Feature Flag
-projects[feature_flag][type] = module
-projects[feature_flag][download][type] = git
-projects[feature_flag][download][url] = git@github.com:gsbitse/feature_flag.git
-projects[feature_flag][download][branch] = master
-projects[feature_flag][subdir] = custom
 
 ;=======================================
 ;  GSB Features
