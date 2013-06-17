@@ -10,4 +10,8 @@ function _gsb_public_setup_panels() {
   variable_set('panelizer_node:event_allowed_layouts', $value);
   variable_set('panelizer_node:webform_allowed_layouts', $value);
 
+  variable_set('panelizer_node:page_allowed_layouts_default', 0); 
+  variable_set('panelizer_node:event_allowed_layouts_default', 0);  
+  variable_set('panelizer_node:webform_allowed_layouts_default', 0);   
+
 }
