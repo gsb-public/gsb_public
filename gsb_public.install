@@ -575,3 +575,13 @@ function gsb_public_update_7029() {
     ->fields($fields)
     ->execute();
 }
+
+/**
+ * Change date formats that contain M.
+ */
+function gsb_public_update_7030() {
+  db_update('date_formats')->fields(array('format' => 'M j, Y - g:ia'))->condition('format', 'M. j, Y - g:ia')->execute();
+  db_update('date_formats')->fields(array('format' => 'M j, Y'))->condition('format', 'M. j, Y')->execute();
+  variable_set('date_format_medium', 'M j, Y');
+  variable_set('date_format_medium_time', 'M j, Y - g:ia');
+}
