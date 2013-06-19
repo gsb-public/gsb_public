@@ -47,6 +47,13 @@ projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_
 projects[gsb_fpp_customization][download][branch] = master
 projects[gsb_fpp_customization][subdir] = custom
 
+; GSB FPP Stock Content
+projects[gsb_fpp_stock_content][type] = module
+projects[gsb_fpp_stock_content][download][type] = git
+projects[gsb_fpp_stock_content][download][url] = git@github.com:gsbitse/gsb_fpp_stock_content.git
+projects[gsb_fpp_stock_content][download][branch] = master
+projects[gsb_fpp_stock_content][subdir] = custom
+
 ; GSB Media Center
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
