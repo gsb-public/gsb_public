@@ -85,7 +85,7 @@ function _gsb_public_setup_roles() {
 
     'edit any webform content',
 
-    'edit any gsb_video content',
+    //'edit any gsb_video content',
 
     //'edit any alumni content',
     //'edit any student content',
