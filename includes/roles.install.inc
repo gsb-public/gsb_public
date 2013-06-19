@@ -481,11 +481,13 @@ function _gsb_public_setup_roles() {
     'delete any publication content',
 **/
 
+/**
     'create gsb_video content',
     'edit own gsb_video content',
     'edit any gsb_video content',
     'delete own gsb_video content',
     'delete any gsb_video content',
+**/
 
     // Page Manager
 
