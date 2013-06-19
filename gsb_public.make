@@ -143,31 +143,31 @@ projects[gsb_feature_base_fields][download][branch] = master
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Business Insight
-projects[gsb_feature_business_insight_ct][type] = module
-projects[gsb_feature_business_insight_ct][download][type] = git
-projects[gsb_feature_business_insight_ct][download][url] = git@github.com:gsbitse/gsb_feature_business_insight_ct.git
-projects[gsb_feature_business_insight_ct][download][branch] = master
-projects[gsb_feature_business_insight_ct][subdir] = custom/features
+;projects[gsb_feature_business_insight_ct][type] = module
+;projects[gsb_feature_business_insight_ct][download][type] = git
+;projects[gsb_feature_business_insight_ct][download][url] = git@github.com:gsbitse/gsb_feature_business_insight_ct.git
+;projects[gsb_feature_business_insight_ct][download][branch] = master
+;projects[gsb_feature_business_insight_ct][subdir] = custom/features
 
-projects[gsb_feature_business_insight_display][type] = module
-projects[gsb_feature_business_insight_display][download][type] = git
-projects[gsb_feature_business_insight_display][download][url] = git@github.com:gsbitse/gsb_feature_business_insight_display.git
-projects[gsb_feature_business_insight_display][download][branch] = master
-projects[gsb_feature_business_insight_display][subdir] = custom/features
+;projects[gsb_feature_business_insight_display][type] = module
+;projects[gsb_feature_business_insight_display][download][type] = git
+;projects[gsb_feature_business_insight_display][download][url] = git@github.com:gsbitse/gsb_feature_business_insight_display.git
+;projects[gsb_feature_business_insight_display][download][branch] = master
+;projects[gsb_feature_business_insight_display][subdir] = custom/features
 
 ; GSB Feature Case Study Content Type
-projects[gsb_feature_case_study_ct][type] = module
-projects[gsb_feature_case_study_ct][download][type] = git
-projects[gsb_feature_case_study_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_study_ct.git
-projects[gsb_feature_case_study_ct][download][branch] = master
-projects[gsb_feature_case_study_ct][subdir] = custom/features
+;projects[gsb_feature_case_study_ct][type] = module
+;projects[gsb_feature_case_study_ct][download][type] = git
+;projects[gsb_feature_case_study_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_study_ct.git
+;projects[gsb_feature_case_study_ct][download][branch] = master
+;projects[gsb_feature_case_study_ct][subdir] = custom/features
 
 ; GSB Feature Case Study Display
-projects[gsb_feature_case_study_display][type] = module
-projects[gsb_feature_case_study_display][download][type] = git
-projects[gsb_feature_case_study_display][download][url] = git@github.com:gsbitse/gsb_feature_case_study_display.git
-projects[gsb_feature_case_study_display][download][branch] = master
-projects[gsb_feature_case_study_display][subdir] = custom/features
+;projects[gsb_feature_case_study_display][type] = module
+;projects[gsb_feature_case_study_display][download][type] = git
+;projects[gsb_feature_case_study_display][download][url] = git@github.com:gsbitse/gsb_feature_case_study_display.git
+;projects[gsb_feature_case_study_display][download][branch] = master
+;projects[gsb_feature_case_study_display][subdir] = custom/features
 
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
@@ -252,11 +252,11 @@ projects[gsb_feature_image_cta_fpp][download][branch] = master
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Import GatherContent
-projects[gsb_feature_import_gathercontent][type] = module
-projects[gsb_feature_import_gathercontent][download][type] = git
-projects[gsb_feature_import_gathercontent][download][url] = git@github.com:gsbitse/gsb_feature_import_gathercontent.git
-projects[gsb_feature_import_gathercontent][download][branch] = master
-projects[gsb_feature_import_gathercontent][subdir] = custom/features
+;projects[gsb_feature_import_gathercontent][type] = module
+;projects[gsb_feature_import_gathercontent][download][type] = git
+;projects[gsb_feature_import_gathercontent][download][url] = git@github.com:gsbitse/gsb_feature_import_gathercontent.git
+;projects[gsb_feature_import_gathercontent][download][branch] = master
+;projects[gsb_feature_import_gathercontent][subdir] = custom/features
 
 ; GSB Feature Links FPP
 projects[gsb_feature_links_fpp][type] = module
@@ -273,17 +273,17 @@ projects[gsb_feature_house_ads_fpp][download][branch] = master
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
 ; GSB Feature Media Mention
-projects[gsb_feature_media_mention_ct][type] = module
-projects[gsb_feature_media_mention_ct][download][type] = git
-projects[gsb_feature_media_mention_ct][download][url] = git@github.com:gsbitse/gsb_feature_media_mention_ct.git
-projects[gsb_feature_media_mention_ct][download][branch] = master
-projects[gsb_feature_media_mention_ct][subdir] = custom/features
+;projects[gsb_feature_media_mention_ct][type] = module
+;projects[gsb_feature_media_mention_ct][download][type] = git
+;projects[gsb_feature_media_mention_ct][download][url] = git@github.com:gsbitse/gsb_feature_media_mention_ct.git
+;projects[gsb_feature_media_mention_ct][download][branch] = master
+;projects[gsb_feature_media_mention_ct][subdir] = custom/features
 
-projects[gsb_feature_media_mention_display][type] = module
-projects[gsb_feature_media_mention_display][download][type] = git
-projects[gsb_feature_media_mention_display][download][url] = git@github.com:gsbitse/gsb_feature_media_mention_display.git
-projects[gsb_feature_media_mention_display][download][branch] = master
-projects[gsb_feature_media_mention_display][subdir] = custom/features
+;projects[gsb_feature_media_mention_display][type] = module
+;projects[gsb_feature_media_mention_display][download][type] = git
+;projects[gsb_feature_media_mention_display][download][url] = git@github.com:gsbitse/gsb_feature_media_mention_display.git
+;projects[gsb_feature_media_mention_display][download][branch] = master
+;projects[gsb_feature_media_mention_display][subdir] = custom/features
 
 ; GSB Features Mega Menu
 projects[gsb_feature_mega_menu][type] = module
@@ -293,11 +293,11 @@ projects[gsb_feature_mega_menu][download][branch] = master
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Feature Migrate
-projects[gsb_feature_migrate][type] = module
-projects[gsb_feature_migrate][download][type] = git
-projects[gsb_feature_migrate][download][url] = git@github.com:gsbitse/gsb_feature_migrate.git
-projects[gsb_feature_migrate][download][branch] = master
-projects[gsb_feature_migrate][subdir] = custom/features
+;projects[gsb_feature_migrate][type] = module
+;projects[gsb_feature_migrate][download][type] = git
+;projects[gsb_feature_migrate][download][url] = git@github.com:gsbitse/gsb_feature_migrate.git
+;projects[gsb_feature_migrate][download][branch] = master
+;projects[gsb_feature_migrate][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
 projects[gsb_feature_msx_fellows_ct][type] = module
@@ -314,18 +314,18 @@ projects[gsb_feature_msx_fellows_display][download][branch] = master
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
 ; GSB Feature News Content Type
-projects[gsb_feature_news_ct][type] = module
-projects[gsb_feature_news_ct][download][type] = git
-projects[gsb_feature_news_ct][download][url] = git@github.com:gsbitse/gsb_feature_news_ct.git
-projects[gsb_feature_news_ct][download][branch] = master
-projects[gsb_feature_news_ct][subdir] = custom/features
+;projects[gsb_feature_news_ct][type] = module
+;projects[gsb_feature_news_ct][download][type] = git
+;projects[gsb_feature_news_ct][download][url] = git@github.com:gsbitse/gsb_feature_news_ct.git
+;projects[gsb_feature_news_ct][download][branch] = master
+;projects[gsb_feature_news_ct][subdir] = custom/features
 
 ; GSB Feature News Display
-projects[gsb_feature_news_display][type] = module
-projects[gsb_feature_news_display][download][type] = git
-projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][branch] = master
-projects[gsb_feature_news_display][subdir] = custom/features
+;projects[gsb_feature_news_display][type] = module
+;projects[gsb_feature_news_display][download][type] = git
+;projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_feature_news_display.git
+;projects[gsb_feature_news_display][download][branch] = master
+;projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
@@ -347,25 +347,25 @@ projects[gsb_feature_people_fpp][download][branch] = master
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
 ; GSB Feature PhD Candidate Content Type
-projects[gsb_feature_phd_candidate_ct][type] = module
-projects[gsb_feature_phd_candidate_ct][download][type] = git
-projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
-projects[gsb_feature_phd_candidate_ct][download][branch] = master
-projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
+;projects[gsb_feature_phd_candidate_ct][type] = module
+;projects[gsb_feature_phd_candidate_ct][download][type] = git
+;projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
+;projects[gsb_feature_phd_candidate_ct][download][branch] = master
+;projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB Feature Publication Content Type
-projects[gsb_feature_publication_ct][type] = module
-projects[gsb_feature_publication_ct][download][type] = git
-projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][branch] = master
-projects[gsb_feature_publication_ct][subdir] = custom/features
+;projects[gsb_feature_publication_ct][type] = module
+;projects[gsb_feature_publication_ct][download][type] = git
+;projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
+;projects[gsb_feature_publication_ct][download][branch] = master
+;projects[gsb_feature_publication_ct][subdir] = custom/features
 
 ; GSB Feature Publication Display
-projects[gsb_feature_publication_display][type] = module
-projects[gsb_feature_publication_display][download][type] = git
-projects[gsb_feature_publication_display][download][url] = git@github.com:gsbitse/gsb_feature_publication_display.git
-projects[gsb_feature_publication_display][download][branch] = master
-projects[gsb_feature_publication_display][subdir] = custom/features
+;projects[gsb_feature_publication_display][type] = module
+;projects[gsb_feature_publication_display][download][type] = git
+;projects[gsb_feature_publication_display][download][url] = git@github.com:gsbitse/gsb_feature_publication_display.git
+;projects[gsb_feature_publication_display][download][branch] = master
+;projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Quote FPP
 projects[gsb_feature_quote_fpp][type] = module
@@ -375,18 +375,18 @@ projects[gsb_feature_quote_fpp][download][branch] = master
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
 ; GSB Feature Research Paper Content Type
-projects[gsb_feature_research_paper_ct][type] = module
-projects[gsb_feature_research_paper_ct][download][type] = git
-projects[gsb_feature_research_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_research_paper_ct.git
-projects[gsb_feature_research_paper_ct][download][branch] = master
-projects[gsb_feature_research_paper_ct][subdir] = custom/features
+;projects[gsb_feature_research_paper_ct][type] = module
+;projects[gsb_feature_research_paper_ct][download][type] = git
+;projects[gsb_feature_research_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_research_paper_ct.git
+;projects[gsb_feature_research_paper_ct][download][branch] = master
+;projects[gsb_feature_research_paper_ct][subdir] = custom/features
 
 ; GSB Feature Research Paper Display
-projects[gsb_feature_research_paper_display][type] = module
-projects[gsb_feature_research_paper_display][download][type] = git
-projects[gsb_feature_research_paper_display][download][url] = git@github.com:gsbitse/gsb_feature_research_paper_display.git
-projects[gsb_feature_research_paper_display][download][branch] = master
-projects[gsb_feature_research_paper_display][subdir] = custom/features
+;projects[gsb_feature_research_paper_display][type] = module
+;projects[gsb_feature_research_paper_display][download][type] = git
+;projects[gsb_feature_research_paper_display][download][url] = git@github.com:gsbitse/gsb_feature_research_paper_display.git
+;projects[gsb_feature_research_paper_display][download][branch] = master
+;projects[gsb_feature_research_paper_display][subdir] = custom/features
 
 ; GSB Feature Social Feed
 projects[gsb_feature_social_feed][type] = module
@@ -438,11 +438,11 @@ projects[gsb_feature_video][download][branch] = master
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Video Content Type
-projects[gsb_feature_video_ct][type] = module
-projects[gsb_feature_video_ct][download][type] = git
-projects[gsb_feature_video_ct][download][url] = git@github.com:gsbitse/gsb_feature_video_ct.git
-projects[gsb_feature_video_ct][download][branch] = master
-projects[gsb_feature_video_ct][subdir] = custom/features
+;projects[gsb_feature_video_ct][type] = module
+;projects[gsb_feature_video_ct][download][type] = git
+;projects[gsb_feature_video_ct][download][url] = git@github.com:gsbitse/gsb_feature_video_ct.git
+;projects[gsb_feature_video_ct][download][branch] = master
+;projects[gsb_feature_video_ct][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
 projects[gsb_feature_webform_ct][type] = module
