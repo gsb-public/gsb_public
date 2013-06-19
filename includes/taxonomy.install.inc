@@ -187,7 +187,9 @@ function _gsb_public_setup_taxonomy() {
     'event_series' => array(
       'name' => 'Event Series',
       'description' => t(''),
-      'terms' => array(),
+      'terms' => array(
+        'View From The Top',
+      ),
     ),
     'industry' => array(
       'name' => 'Industry',

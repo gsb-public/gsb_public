@@ -576,7 +576,6 @@ function gsb_public_update_7029() {
     ->execute();
 }
 
-
 /*
  * Set the 'allowed layouts' for the page content type
  */
@@ -620,3 +619,28 @@ function gsb_public_update_7033() {
   module_enable(array('gsb_fpp_stock_content'));
 }
 
+/**
+ * Insert 'View From The Top' term into 'Event Series' vocab.
+ */
+function gsb_public_update_7034() {
+  $fields = array(
+    'tid' => '10602',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '10602',
+    'vid' => 141,
+    'name' => 'View From The Top',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '20fd5ebe-bfff-4322-b57d-155fd6743ee0',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+}
