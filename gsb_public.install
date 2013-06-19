@@ -612,3 +612,11 @@ function gsb_public_update_7031() {
 function gsb_public_update_7032() {
   module_enable(array('pathauto_title_alias'));
 }
+
+/**
+ * Enable gsb_fpp_stock_content module.
+ */
+function gsb_public_update_7033() {
+  module_enable(array('gsb_fpp_stock_content'));
+}
+
