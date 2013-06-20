@@ -68,6 +68,7 @@ dependencies[] = webform_phone
 ; GSB Custom Modules
 dependencies[] = feature_flag
 dependencies[] = gsb_acquia_tokens
+dependencies[] = gsb_academic_year
 dependencies[] = gsb_field_formatter
 dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_fpp_stock_content

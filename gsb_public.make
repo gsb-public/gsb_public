@@ -26,6 +26,13 @@ projects[gsb_acquia_tokens][download][url] = git@github.com:gsbitse/gsb_acquia_t
 projects[gsb_acquia_tokens][download][branch] = master
 projects[gsb_acquia_tokens][subdir] = custom
 
+; GSB Academic Year
+projects[gsb_academic_year][type] = module
+projects[gsb_academic_year][download][type] = git
+projects[gsb_academic_year][download][url] = git@github.com:gsbitse/gsb_academic_year.git
+projects[gsb_academic_year][download][branch] = master
+projects[gsb_academic_year][subdir] = custom
+
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
