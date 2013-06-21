@@ -644,3 +644,10 @@ function gsb_public_update_7034() {
     ->fields($fields)
     ->execute();
 }
+
+/**
+ * Enable gsb_feature_workbench module.
+ */
+function gsb_public_update_7035() {
+  module_enable(array('gsb_feature_workbench'));
+}
