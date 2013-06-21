@@ -651,3 +651,10 @@ function gsb_public_update_7034() {
 function gsb_public_update_7035() {
   module_enable(array('gsb_feature_workbench'));
 }
+
+/**
+ * Enable menu_trail_by_path module.
+ */
+function gsb_public_update_7036() {
+  module_enable(array('menu_trail_by_path'));
+}

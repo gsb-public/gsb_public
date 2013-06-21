@@ -667,6 +667,9 @@ projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
 projects[menu_minipanels][patch][1977018] = http://drupal.org/files/1977018-d7-2.patch
 
+projects[menu_trail_by_path][version] = 2.0
+projects[menu_trail_by_path][subdir] = contrib
+
 projects[metatag][version] = 1.0-beta7
 projects[metatag][subdir] = contrib
 
