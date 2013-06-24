@@ -63,13 +63,23 @@ function _gsb_public_setup_image_styles() {
     ),
     '450x263_video' => array(
       array(
-        'name' => 'image_scale_and_crop',
+        'name' => 'image_scale',
         'data' => array(
-          'width' => '450',
-          'height' => '263',
+          'width' => 450,
+          'height' => '',
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
+      array(
+        'name' => 'image_crop',
+        'data' => array(
+          'width' => 450,
+          'height' => 263,
+          'anchor' => 'center-top',
+        ),
+        'weight' => 2,
+      ),    
       array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
@@ -78,7 +88,7 @@ function _gsb_public_setup_image_styles() {
           'alpha' => 100,
           'path' => 'profiles/gsb_public/themes/gsb_theme/images/video_play.png',
         ),
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
     '600x440' => array(
@@ -154,7 +164,6 @@ function _gsb_public_setup_image_styles() {
         'data' => array(
           'width' => 566,
           'height' => '',
-          'upscale' => 1,
         ),
         'weight' => 1,
       ),
