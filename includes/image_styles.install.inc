@@ -43,12 +43,23 @@ function _gsb_public_setup_image_styles() {
     ),
     '450x263' => array(
       array(
-        'name' => 'image_scale_and_crop',
+        'name' => 'image_scale',
         'data' => array(
-          'width' => '450',
-          'height' => '263',
+          'width' => 450,
+          'height' => '',
+          'upscale' => 1,
         ),
+        'weight' => 1,
       ),
+      array(
+        'name' => 'image_crop',
+        'data' => array(
+          'width' => 450,
+          'height' => 263,
+          'anchor' => 'center-top',
+        ),
+        'weight' => 2,
+      ),    
     ),
     '450x263_video' => array(
       array(
@@ -108,13 +119,23 @@ function _gsb_public_setup_image_styles() {
     ),
     '566x396' => array(
       array(
-        'name' => 'image_scale_and_crop',
+        'name' => 'image_scale',
         'data' => array(
           'width' => 566,
-          'height' => 396,
+          'height' => '',
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
+      array(
+        'name' => 'image_crop',
+        'data' => array(
+          'width' => 566,
+          'height' => 396,
+          'anchor' => 'center-top',
+        ),
+        'weight' => 2,
+      ),      
     ),
     '145x_variable' => array(
       array(
@@ -127,6 +148,17 @@ function _gsb_public_setup_image_styles() {
         'weight' => 1,
       ),
     ),
+    '566x_variable' => array(
+      array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 566,
+          'height' => '',
+          'upscale' => 1,
+        ),
+        'weight' => 1,
+      ),
+    ),    
   );
 
   // Loop through the image styles and add them.
