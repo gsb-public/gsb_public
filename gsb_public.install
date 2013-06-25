@@ -797,7 +797,9 @@ function gsb_public_update_7037() {
     $style = image_style_load($name);
     if (empty($style)) {
       $style = image_style_save(array('name' => $name));
-    } 
+    } else {
+      image_style_save($style);
+    }
     foreach ($effects as $effect) {
       $effect['isid'] = $style['isid'];
       image_effect_save($effect);
