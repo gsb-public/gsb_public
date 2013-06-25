@@ -662,6 +662,7 @@ function gsb_public_update_7036() {
 /**
  * Update image styles
  */
+/* 
 function gsb_public_update_7037() {
 
   // Declare our image styles
@@ -797,11 +798,12 @@ function gsb_public_update_7037() {
     $style = image_style_load($name);
     if (empty($style)) {
       $style = image_style_save(array('name' => $name));
+      foreach ($effects as $effect) {
+        $effect['isid'] = $style['isid'];
+        image_effect_save($effect);
+      }      
     } 
-    foreach ($effects as $effect) {
-      $effect['isid'] = $style['isid'];
-      image_effect_save($effect);
-    }
   }
   
 }
+*/
