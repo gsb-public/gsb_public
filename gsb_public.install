@@ -662,7 +662,6 @@ function gsb_public_update_7036() {
 /**
  * Update image styles
  */
-/* 
 function gsb_public_update_7037() {
 
   // Declare our image styles
@@ -707,22 +706,43 @@ function gsb_public_update_7037() {
     ),
     '450x263' => array(
       array(
-        'name' => 'image_scale_and_crop',
+        'name' => 'image_scale',
         'data' => array(
-          'width' => '450',
-          'height' => '263',
-        ),
-      ),
-    ),
-    '450x263_video' => array(
-      array(
-        'name' => 'image_scale_and_crop',
-        'data' => array(
-          'width' => '450',
-          'height' => '263',
+          'width' => 450,
+          'height' => '',
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
+      array(
+        'name' => 'image_crop',
+        'data' => array(
+          'width' => 450,
+          'height' => 263,
+          'anchor' => 'center-top',
+        ),
+        'weight' => 2,
+      ),    
+    ),
+    '450x263_video' => array(
+      array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 450,
+          'height' => '',
+          'upscale' => 1,
+        ),
+        'weight' => 1,
+      ),
+      array(
+        'name' => 'image_crop',
+        'data' => array(
+          'width' => 450,
+          'height' => 263,
+          'anchor' => 'center-top',
+        ),
+        'weight' => 2,
+      ),    
       array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
@@ -731,7 +751,7 @@ function gsb_public_update_7037() {
           'alpha' => 100,
           'path' => 'profiles/gsb_public/themes/gsb_theme/images/video_play.png',
         ),
-        'weight' => 2,
+        'weight' => 3,
       ),
     ),
     '600x440' => array(
@@ -772,13 +792,23 @@ function gsb_public_update_7037() {
     ),
     '566x396' => array(
       array(
-        'name' => 'image_scale_and_crop',
+        'name' => 'image_scale',
         'data' => array(
           'width' => 566,
-          'height' => 396,
+          'height' => '',
+          'upscale' => 1,
         ),
         'weight' => 1,
       ),
+      array(
+        'name' => 'image_crop',
+        'data' => array(
+          'width' => 566,
+          'height' => 396,
+          'anchor' => 'center-top',
+        ),
+        'weight' => 2,
+      ),      
     ),
     '145x_variable' => array(
       array(
@@ -791,19 +821,38 @@ function gsb_public_update_7037() {
         'weight' => 1,
       ),
     ),
+    '566x_variable' => array(
+      array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => 566,
+          'height' => '',
+        ),
+        'weight' => 1,
+      ),
+    ),    
   );
 
   // Loop through the image styles and add them.
   foreach ($image_styles as $name => $effects) {
+
     $style = image_style_load($name);
+    
     if (empty($style)) {
       $style = image_style_save(array('name' => $name));
-      foreach ($effects as $effect) {
-        $effect['isid'] = $style['isid'];
-        image_effect_save($effect);
-      }      
-    } 
+    } else {
+      $style_effects = $style['effects']; 
+      foreach ($style_effects as $style_effect) {
+        image_effect_delete($style_effect);
+      }   
+    }
+
+    foreach ($effects as $effect) {
+      $effect['isid'] = $style['isid'];
+      image_effect_save($effect);
+    }  
+
   }
-  
+
 }
-*/
+
