@@ -856,3 +856,35 @@ function gsb_public_update_7037() {
 
 }
 
+/**
+ * Update image styles for media's image preview and teaser
+ */
+function gsb_public_update_7038() {
+
+  // overriding image view modes preview and teaser which are 
+  // initially setup in media.module
+
+  module_load_include('inc', 'file_entity', 'file_entity.file_api');
+
+  $default_image_styles = array(
+    'preview' => '450x263',
+    'teaser' => '450x263',
+  );
+
+  foreach ($default_image_styles as $view_mode => $image_style) {
+
+    $image_displays = file_displays_load('image', $view_mode);
+
+    $display_name = 'image__' . $view_mode . '__file_image';;
+
+    if (isset($image_displays[$display_name])) {
+      $display = $image_displays[$display_name];
+      $display->settings['image_style'] = $image_style;
+      file_display_save((object) $display);
+    }
+    
+  }    
+
+}
+
+
