@@ -1,6 +1,9 @@
 <?php
 
 function _gsb_public_setup_image_styles() {
+
+  /* testing whether this can be removed given new gsb_feature_image_styles module
+
   // Declare our image styles
   $image_styles = array(
     '170x170' => array(
@@ -178,4 +181,7 @@ function _gsb_public_setup_image_styles() {
       image_effect_save($effect);
     }
   }
+  
+  */
+  
 }

@@ -888,3 +888,11 @@ function gsb_public_update_7038() {
 }
 
 
+/**
+ * Enable gsb_feature_image_styles module.
+ */
+function gsb_public_update_7039() {
+  module_enable(array('gsb_feature_image_styles'));
+}
+
+
