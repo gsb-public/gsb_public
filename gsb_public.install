@@ -18,6 +18,7 @@ function gsb_public_install() {
     'filter_formats',
     'taxonomy',
     'workbench',
+    'webform',
     'panopoly',
     'pathauto',
     'cron',
@@ -722,7 +723,7 @@ function gsb_public_update_7037() {
           'anchor' => 'center-top',
         ),
         'weight' => 2,
-      ),    
+      ),
     ),
     '450x263_video' => array(
       array(
@@ -742,7 +743,7 @@ function gsb_public_update_7037() {
           'anchor' => 'center-top',
         ),
         'weight' => 2,
-      ),    
+      ),
       array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
@@ -808,7 +809,7 @@ function gsb_public_update_7037() {
           'anchor' => 'center-top',
         ),
         'weight' => 2,
-      ),      
+      ),
     ),
     '145x_variable' => array(
       array(
@@ -830,27 +831,27 @@ function gsb_public_update_7037() {
         ),
         'weight' => 1,
       ),
-    ),    
+    ),
   );
 
   // Loop through the image styles and add them.
   foreach ($image_styles as $name => $effects) {
 
     $style = image_style_load($name);
-    
+
     if (empty($style)) {
       $style = image_style_save(array('name' => $name));
     } else {
-      $style_effects = $style['effects']; 
+      $style_effects = $style['effects'];
       foreach ($style_effects as $style_effect) {
         image_effect_delete($style_effect);
-      }   
+      }
     }
 
     foreach ($effects as $effect) {
       $effect['isid'] = $style['isid'];
       image_effect_save($effect);
-    }  
+    }
 
   }
 
@@ -861,7 +862,7 @@ function gsb_public_update_7037() {
  */
 function gsb_public_update_7038() {
 
-  // overriding image view modes preview and teaser which are 
+  // overriding image view modes preview and teaser which are
   // initially setup in media.module
 
   module_load_include('inc', 'file_entity', 'file_entity.file_api');
@@ -882,8 +883,8 @@ function gsb_public_update_7038() {
       $display->settings['image_style'] = $image_style;
       file_display_save((object) $display);
     }
-    
-  }    
+
+  }
 
 }
 
@@ -895,4 +896,12 @@ function gsb_public_update_7039() {
   module_enable(array('gsb_feature_image_styles'));
 }
 
-
+/**
+ * Remove default body field from Webform content type.
+ */
+function gsb_public_update_7940() {
+  $instance = field_info_instance('node', 'body', 'webform');
+  if (!empty($instance)) {
+    field_delete_instance($instance);
+  }
+}
