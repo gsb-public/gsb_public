@@ -79,7 +79,7 @@ projects[gsb_panels_ipe_overrides][subdir] = custom
 projects[gsb_panels_pages][type] = module
 projects[gsb_panels_pages][download][type] = git
 projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pages.git
-projects[gsb_panels_pages][download][branch] = master
+projects[gsb_panels_pages][download][branch] = WP-1604
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Panopoly Magic Customization
@@ -502,7 +502,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = master
+projects[gsb_theme][download][branch] = WP-1604
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
