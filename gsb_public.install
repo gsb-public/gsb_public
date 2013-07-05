@@ -895,4 +895,51 @@ function gsb_public_update_7039() {
   module_enable(array('gsb_feature_image_styles'));
 }
 
+/**
+ * Insert new terms into 'Department' vocab.
+ */
+function gsb_public_update_7040() {
 
+  $fields = array(
+    'tid' => '12691',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '12691',
+    'vid' => 126,
+    'name' => 'Financial Aid Office',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '1d0ab1b4-e3b6-4b6c-ac65-c72b7cd24c24',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+    
+  $fields = array(
+    'tid' => '12696',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '12696',
+    'vid' => 126,
+    'name' => 'Schwab Residential Center',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'eb97f609-8c1f-42fa-aea0-f44c480733bb',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();    
+
+}
