@@ -77,9 +77,11 @@ function _gsb_public_setup_taxonomy() {
       'description' => t(''),
       'terms' => array(
         'Executive Education Admissions',
+        'Financial Aid Office',
         'MBA Admissions',
         'MSx Admissions',
         'PhD Admissions',
+        'Schwab Residential Center',
       ),
     ),
     'discipline' => array(
