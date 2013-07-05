@@ -402,6 +402,13 @@ projects[gsb_feature_quote_fpp][subdir] = custom/features
 ;projects[gsb_feature_research_paper_display][download][branch] = master
 ;projects[gsb_feature_research_paper_display][subdir] = custom/features
 
+; GSB Feature SimpleSAML
+projects[gsb_feature_simplesaml][type] = module
+projects[gsb_feature_simplesaml][download][type] = git
+projects[gsb_feature_simplesaml][download][url] = git@github.com:gsbitse/gsb_feature_simplesaml.git
+projects[gsb_feature_simplesaml][download][branch] = master
+projects[gsb_feature_simplesaml][subdir] = custom/features
+
 ; GSB Feature Social Feed
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git

@@ -124,6 +124,7 @@ dependencies[] = gsb_feature_quote_fpp
 ;dependencies[] = gsb_feature_research_paper_ct
 ;dependencies[] = gsb_feature_research_paper_display
 dependencies[] = gsb_feature_slideshow_fpp
+dependencies[] = gsb_feature_simplesaml
 dependencies[] = gsb_feature_social_feed
 dependencies[] = gsb_feature_spotlight
 dependencies[] = gsb_feature_staff_ct
