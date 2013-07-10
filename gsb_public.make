@@ -33,6 +33,13 @@ projects[gsb_academic_year][download][url] = git@github.com:gsbitse/gsb_academic
 projects[gsb_academic_year][download][branch] = master
 projects[gsb_academic_year][subdir] = custom
 
+; GSB AddThis Customization
+projects[gsb_addthis_customization][type] = module
+projects[gsb_addthis_customization][download][type] = git
+projects[gsb_addthis_customization][download][url] = git@github.com:gsbitse/gsb_addthis_customization.git
+projects[gsb_addthis_customization][download][branch] = master
+projects[gsb_addthis_customization][subdir] = custom
+
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
