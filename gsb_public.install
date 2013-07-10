@@ -1148,3 +1148,11 @@ function gsb_public_update_7046() {
     menu_link_save($link);
   }
 }
+
+
+/**
+ * Enable gsb_addthis_customization module.
+ */
+function gsb_public_update_7041() {
+  module_enable(array('gsb_addthis_customization'));
+}
