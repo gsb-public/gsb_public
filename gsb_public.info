@@ -85,6 +85,7 @@ dependencies[] = simplesaml_auth
 
 ; GSB Features
 dependencies[] = gsb_feature_academic_calendar_ct
+dependencies[] = gsb_feature_academic_calendar_display
 dependencies[] = gsb_feature_accordion
 dependencies[] = gsb_feature_base_fields
 ;dependencies[] = gsb_feature_business_insight_ct
