@@ -984,4 +984,10 @@ function gsb_public_update_7041() {
       ->fields($fields)
       ->execute();
   }
+ 
+/**
+ * Enable gsb_panels_ipe_overrides module.
+ */
+function gsb_public_update_7042() {
+  module_enable(array('gsb_panels_ipe_overrides'));
 }
