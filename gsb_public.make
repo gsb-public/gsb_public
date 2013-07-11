@@ -661,6 +661,7 @@ projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-3.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
 projects[media][patch][835516] = http://drupal.org/files/835516-wysiwyg-fields-60.patch
 projects[media][patch][1919578] = http://drupal.org/files/media-popup_not_closing-1919578.patch
+projects[media][patch][media-addjs] = https://raw.github.com/gsbitse/gsb-revamp-patches/WP-1836/media-addjs.patch
 
 projects[media_youtube][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
