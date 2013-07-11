@@ -722,7 +722,7 @@ function gsb_public_update_7037() {
           'anchor' => 'center-top',
         ),
         'weight' => 2,
-      ),    
+      ),
     ),
     '450x263_video' => array(
       array(
@@ -742,7 +742,7 @@ function gsb_public_update_7037() {
           'anchor' => 'center-top',
         ),
         'weight' => 2,
-      ),    
+      ),
       array(
         'name' => 'canvasactions_file2canvas',
         'data' => array(
@@ -808,7 +808,7 @@ function gsb_public_update_7037() {
           'anchor' => 'center-top',
         ),
         'weight' => 2,
-      ),      
+      ),
     ),
     '145x_variable' => array(
       array(
@@ -830,27 +830,27 @@ function gsb_public_update_7037() {
         ),
         'weight' => 1,
       ),
-    ),    
+    ),
   );
 
   // Loop through the image styles and add them.
   foreach ($image_styles as $name => $effects) {
 
     $style = image_style_load($name);
-    
+
     if (empty($style)) {
       $style = image_style_save(array('name' => $name));
     } else {
-      $style_effects = $style['effects']; 
+      $style_effects = $style['effects'];
       foreach ($style_effects as $style_effect) {
         image_effect_delete($style_effect);
-      }   
+      }
     }
 
     foreach ($effects as $effect) {
       $effect['isid'] = $style['isid'];
       image_effect_save($effect);
-    }  
+    }
 
   }
 
@@ -861,7 +861,7 @@ function gsb_public_update_7037() {
  */
 function gsb_public_update_7038() {
 
-  // overriding image view modes preview and teaser which are 
+  // overriding image view modes preview and teaser which are
   // initially setup in media.module
 
   module_load_include('inc', 'file_entity', 'file_entity.file_api');
@@ -882,8 +882,8 @@ function gsb_public_update_7038() {
       $display->settings['image_style'] = $image_style;
       file_display_save((object) $display);
     }
-    
-  }    
+
+  }
 
 }
 
@@ -920,7 +920,7 @@ function gsb_public_update_7040() {
   db_insert('taxonomy_term_data')
     ->fields($fields)
     ->execute();
-    
+
   $fields = array(
     'tid' => '12696',
     'parent' => 0,
@@ -940,6 +940,48 @@ function gsb_public_update_7040() {
   );
   db_insert('taxonomy_term_data')
     ->fields($fields)
-    ->execute();    
+    ->execute();
 
+}
+
+/**
+ * Insert new terms into 'Department' vocab.
+ */
+function gsb_public_update_7041() {
+  $terms = array(
+    // tid, vid, name, description, format, weight, uuid, parent
+    array(12697, 126, 'Library', NULL, NULL, 0, '55c6cad0-9dc7-4c83-8f69-5d7fce9cd21c', 0),
+    array(12698, 126, 'Marketing and Communications', NULL, NULL, 0, 'b7ea5692-5461-4098-96d6-63739b1d1faa', 0),
+    array(12699, 126, 'Behavioral Lab', NULL, NULL, 0, 'b712f5ce-ad21-4195-8452-30a1935c07a5', 0),
+    array(12701, 126, 'Global Innovation Programs', NULL, NULL, 0, '4069965f-05dd-4c67-ab6e-ebab14d89206', 0),
+    array(12702, 126, 'Academic Administration', NULL, NULL, 0, '5f971c42-03c1-46b1-9469-93572c213c65', 0),
+    array(12704, 126, 'Stanford MSx Program', NULL, NULL, 0, '9448bf0f-8e6b-40f1-aad5-5ad10f45c9ae', 0),
+    array(12705, 126, 'Faculty Support', NULL, NULL, 0, 'de4f8306-3995-4b03-8047-5a8dfd6d431c', 0),
+  );
+
+  foreach ($terms as $term) {
+    list($tid, $vid, $name, $description, $format, $weight, $uuid, $parent) = $term;
+    $fields = array(
+      'tid' => $tid,
+      'parent' => $parent,
+    );
+
+    db_insert('taxonomy_term_hierarchy')
+      ->fields($fields)
+      ->execute();
+
+    $fields = array(
+      'tid' => $tid,
+      'vid' => $vid,
+      'name' => $name,
+      'description' => $description,
+      'format' => $format,
+      'weight' => $weight,
+      'uuid' => $uuid,
+    );
+
+    db_insert('taxonomy_term_data')
+      ->fields($fields)
+      ->execute();
+  }
 }
