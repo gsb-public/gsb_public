@@ -995,7 +995,7 @@ function gsb_public_update_7042() {
 /**
  * Alpha sort the programs.
  */
-function gsb_public_update_7041() {
+function gsb_public_update_7043() {
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 0))
@@ -1057,7 +1057,7 @@ function gsb_public_update_7041() {
 /**
  * Delete the older program field that was replaced.
  */
-function gsb_public_update_7042() {
+function gsb_public_update_7044() {
 
   $instance = field_info_instance('node', 'field_program_single', 'academic_calendar_event');
    
