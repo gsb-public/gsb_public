@@ -61,6 +61,31 @@ function _gsb_public_variable_set_multiple($variables) {
   }
 }
 
+function _gsb_public_terms_add($terms) {
+  foreach($terms as $tid => $term) {
+    $fields = array(
+      'tid' => $tid,
+      'parent' => $term['parent'],
+    );
+    db_insert('taxonomy_term_hierarchy')
+      ->fields($fields)
+      ->execute();
+
+    $fields = array(
+      'tid' => $tid,
+      'vid' => $term['vid'],
+      'name' => $term['name'],
+      'description' => $term['description'],
+      'format' => $term['format'],
+      'weight' => $term['weight'],
+      'uuid' => $term['uuid'],
+    );
+    db_insert('taxonomy_term_data')
+      ->fields($fields)
+      ->execute();
+  }
+}
+
 /**
  * Add a 'year' date format.
  */
@@ -899,48 +924,28 @@ function gsb_public_update_7039() {
  * Insert new terms into 'Department' vocab.
  */
 function gsb_public_update_7040() {
-
-  $fields = array(
-    'tid' => '12691',
-    'parent' => 0,
+  $terms = array(
+    '10203' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Financial Aid Office',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => '1d0ab1b4-e3b6-4b6c-ac65-c72b7cd24c24',
+    ),
+    '10217' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Schwab Residential Center',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => 'eb97f609-8c1f-42fa-aea0-f44c480733bb',
+    ),
   );
-  db_insert('taxonomy_term_hierarchy')
-    ->fields($fields)
-    ->execute();
 
-  $fields = array(
-    'tid' => '12691',
-    'vid' => 126,
-    'name' => 'Financial Aid Office',
-    'description' => NULL,
-    'format' => NULL,
-    'weight' => 0,
-    'uuid' => '1d0ab1b4-e3b6-4b6c-ac65-c72b7cd24c24',
-  );
-  db_insert('taxonomy_term_data')
-    ->fields($fields)
-    ->execute();
-
-  $fields = array(
-    'tid' => '12696',
-    'parent' => 0,
-  );
-  db_insert('taxonomy_term_hierarchy')
-    ->fields($fields)
-    ->execute();
-
-  $fields = array(
-    'tid' => '12696',
-    'vid' => 126,
-    'name' => 'Schwab Residential Center',
-    'description' => NULL,
-    'format' => NULL,
-    'weight' => 0,
-    'uuid' => 'eb97f609-8c1f-42fa-aea0-f44c480733bb',
-  );
-  db_insert('taxonomy_term_data')
-    ->fields($fields)
-    ->execute();
+  _gsb_public_terms_add($terms);
 
 }
 
@@ -949,41 +954,71 @@ function gsb_public_update_7040() {
  */
 function gsb_public_update_7041() {
   $terms = array(
-    // tid, vid, name, description, format, weight, uuid, parent
-    array(12697, 126, 'Library', NULL, NULL, 0, '55c6cad0-9dc7-4c83-8f69-5d7fce9cd21c', 0),
-    array(12698, 126, 'Marketing and Communications', NULL, NULL, 0, 'b7ea5692-5461-4098-96d6-63739b1d1faa', 0),
-    array(12699, 126, 'Behavioral Lab', NULL, NULL, 0, 'b712f5ce-ad21-4195-8452-30a1935c07a5', 0),
-    array(12701, 126, 'Global Innovation Programs', NULL, NULL, 0, '4069965f-05dd-4c67-ab6e-ebab14d89206', 0),
-    array(12702, 126, 'Academic Administration', NULL, NULL, 0, '5f971c42-03c1-46b1-9469-93572c213c65', 0),
-    array(12704, 126, 'Stanford MSx Program', NULL, NULL, 0, '9448bf0f-8e6b-40f1-aad5-5ad10f45c9ae', 0),
-    array(12705, 126, 'Faculty Support', NULL, NULL, 0, 'de4f8306-3995-4b03-8047-5a8dfd6d431c', 0),
+    '10205' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Library',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => '55c6cad0-9dc7-4c83-8f69-5d7fce9cd21c',
+    ),
+    '10207' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Marketing and Communications',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => 'b7ea5692-5461-4098-96d6-63739b1d1faa',
+    ),
+    '10200' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Behavioral Lab',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => 'b712f5ce-ad21-4195-8452-30a1935c07a5',
+    ),
+    '10204' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Global Innovation Programs',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => '4069965f-05dd-4c67-ab6e-ebab14d89206',
+    ),
+    '10199' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Academic Administration',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' =>  '5f971c42-03c1-46b1-9469-93572c213c65',
+    ),
+    '10218' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Stanford MSx Program',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => '9448bf0f-8e6b-40f1-aad5-5ad10f45c9ae',
+    ),
+    '10202' => array(
+      'parent' => 0,
+      'vid' => 126,
+      'name' => 'Faculty Support','description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => 'de4f8306-3995-4b03-8047-5a8dfd6d431c',
+    ),
   );
 
-  foreach ($terms as $term) {
-    list($tid, $vid, $name, $description, $format, $weight, $uuid, $parent) = $term;
-    $fields = array(
-      'tid' => $tid,
-      'parent' => $parent,
-    );
-
-    db_insert('taxonomy_term_hierarchy')
-      ->fields($fields)
-      ->execute();
-
-    $fields = array(
-      'tid' => $tid,
-      'vid' => $vid,
-      'name' => $name,
-      'description' => $description,
-      'format' => $format,
-      'weight' => $weight,
-      'uuid' => $uuid,
-    );
-
-    db_insert('taxonomy_term_data')
-      ->fields($fields)
-      ->execute();
-  }
+  _gsb_public_terms_add($terms);
 }
 
 /**
