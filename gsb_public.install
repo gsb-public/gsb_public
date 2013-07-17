@@ -1104,3 +1104,26 @@ function gsb_public_update_7044() {
   field_purge_batch(10);
 
 }
+
+/**
+ * Update WITL paths and aliases.
+ */
+function gsb_public_update_7045() {
+  // Change WITL link in navigation.
+  $link = menu_link_load(15466);
+  $link['link_path'] = 'programs/mba/student-life/week-in-the-life';
+  menu_link_save($link);
+
+  $old_path = 'programs/mba/student-life/gsb-unofficial/week-in-the-life/';
+  $new_path = 'programs/mba/student-life/week-in-the-life/';
+  $match = '%' . $old_path . '%';
+  $select = db_select('url_alias');
+  $select->condition('alias', $match, 'LIKE');
+  $results = $select->fields('url_alias')->execute();
+  foreach ($results as $path) {
+    // Replace old path with new path.
+    $path->alias = str_replace($old_path, $new_path, $path->alias);
+    $path = (array) $path;
+    path_save($path);
+  }
+}
