@@ -434,7 +434,7 @@ projects[gsb_feature_spotlight][subdir] = custom/features
 projects[gsb_feature_slideshow_fpp][type] = module
 projects[gsb_feature_slideshow_fpp][download][type] = git
 projects[gsb_feature_slideshow_fpp][download][url] = git@github.com:gsbitse/gsb_feature_slideshow_fpp.git
-projects[gsb_feature_slideshow_fpp][download][branch] = master
+projects[gsb_feature_slideshow_fpp][download][branch] = WPBQA-246
 projects[gsb_feature_slideshow_fpp][subdir] = custom/features
 
 ; GSB Feature Staff Content Type
