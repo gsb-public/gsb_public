@@ -1156,3 +1156,9 @@ function gsb_public_update_7047() {
   module_enable(array('gsb_addthis_customization'));
 }
 
+/**
+ * Delete Academic Calendar from Event Category vocabulary.
+ */
+function gsb_public_update_7048() {
+  taxonomy_term_delete('10556');
+}
