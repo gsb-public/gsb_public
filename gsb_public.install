@@ -1127,3 +1127,24 @@ function gsb_public_update_7045() {
     path_save($path);
   }
 }
+ 
+/**
+ * Remove menu minipanels from Our Programs submenu.
+ */
+function gsb_public_update_7046() {
+  // mlid of Our programs link.
+  $plid = '16511';
+
+  $query = db_select('menu_links', 'ml');
+  $query->fields('ml');
+  $query->condition('ml.plid', $plid);
+  $results = $query->execute();
+
+  foreach ($results as $item) {
+    $link = menu_link_load($item->mlid);
+    // Get rid of menu minipanels options.
+    $link['options']['minipanel'] = '';
+    unset($link['options']['menu_minipanels_hover']);
+    menu_link_save($link);
+  }
+}
