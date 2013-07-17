@@ -1149,10 +1149,10 @@ function gsb_public_update_7046() {
   }
 }
 
-
 /**
  * Enable gsb_addthis_customization module.
  */
-function gsb_public_update_7041() {
+function gsb_public_update_7047() {
   module_enable(array('gsb_addthis_customization'));
 }
+
