@@ -1089,7 +1089,6 @@ function gsb_public_update_7043() {
 
 }
 
-
 /**
  * Delete the older program field that was replaced.
  */
@@ -1161,4 +1160,65 @@ function gsb_public_update_7047() {
  */
 function gsb_public_update_7048() {
   taxonomy_term_delete('10556');
+}
+
+/**
+ * Usage and Alpha (hybrid) sort the programs.
+ */
+function gsb_public_update_7049() {
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 0))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'MBA', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 1))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'MS', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 2))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'MSx', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 3))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'PhD', '=')
+    ->execute();
+    
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 4))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'Executive Education', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 5))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'SEED Program', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 6))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'SIGM', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 7))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'Social Innovation Program', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 8))
+    ->condition('vid', '151', '=')
+    ->condition('name', 'Stanford Ignite', '=')
+    ->execute();
+
 }
