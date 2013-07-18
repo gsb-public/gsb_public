@@ -1222,3 +1222,88 @@ function gsb_public_update_7049() {
     ->execute();
 
 }
+
+/**
+ * Usage and Alpha (hybrid) sort the department.
+ */
+function gsb_public_update_7050() {
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 0))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'MBA Admissions', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 1))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'MSx Admissions', '=')
+    ->execute();
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 2))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'PhD Admissions', '=')
+    ->execute();
+    
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 3))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Executive Education Admissions', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 4))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Academic Administration', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 5))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Behavioral Lab', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 6))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Faculty Support', '=')
+    ->execute();        
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 7))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Financial Aid Office', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 8))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Global Innovation Programs', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 9))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Library', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 10))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Marketing and Communications', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 11))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Schwab Residential Center', '=')
+    ->execute();    
+
+ db_update('taxonomy_term_data')
+    ->fields(array('weight' => 12))
+    ->condition('vid', '126', '=')
+    ->condition('name', 'Stanford MSx Program', '=')
+    ->execute();        
+
+}
