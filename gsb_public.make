@@ -448,7 +448,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsbitse/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][branch] = master
+projects[gsb_feature_toolbar][download][branch] = WP-1950
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Feature Text FPP
