@@ -248,7 +248,7 @@ projects[gsb_feature_faculty_display][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsbitse/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][branch] = WP-1942
+projects[gsb_feature_file_types][download][branch] = master
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature GSA Search
@@ -269,7 +269,7 @@ projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsbitse/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][branch] = WP-1942
+projects[gsb_feature_image_styles][download][branch] = master
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Features Import GatherContent
