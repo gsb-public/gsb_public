@@ -103,6 +103,7 @@ dependencies[] = gsb_feature_existing_node_fpp
 dependencies[] = gsb_feature_faculty_ct
 dependencies[] = gsb_feature_faculty_display
 dependencies[] = gsb_feature_file_types
+dependencies[] = gsb_feature_google_analytics_settings
 dependencies[] = gsb_feature_gsa_search
 dependencies[] = gsb_feature_house_ads_fpp
 dependencies[] = gsb_feature_image_cta_fpp
