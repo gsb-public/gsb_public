@@ -1307,3 +1307,11 @@ function gsb_public_update_7050() {
     ->execute();        
 
 }
+
+/**
+ * Enable google_analytics module.
+ */
+function gsb_public_update_7051() {
+  module_enable(array('google_analytics'));
+}
+
