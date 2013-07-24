@@ -1126,7 +1126,7 @@ function gsb_public_update_7045() {
     path_save($path);
   }
 }
- 
+
 /**
  * Remove menu minipanels from Our Programs submenu.
  */
@@ -1190,12 +1190,12 @@ function gsb_public_update_7049() {
     ->condition('vid', '151', '=')
     ->condition('name', 'PhD', '=')
     ->execute();
-    
+
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '151', '=')
     ->condition('name', 'Executive Education', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
@@ -1245,65 +1245,84 @@ function gsb_public_update_7050() {
     ->condition('vid', '126', '=')
     ->condition('name', 'PhD Admissions', '=')
     ->execute();
-    
+
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 3))
     ->condition('vid', '126', '=')
     ->condition('name', 'Executive Education Admissions', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '126', '=')
     ->condition('name', 'Academic Administration', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
     ->condition('vid', '126', '=')
     ->condition('name', 'Behavioral Lab', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 6))
     ->condition('vid', '126', '=')
     ->condition('name', 'Faculty Support', '=')
-    ->execute();        
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 7))
     ->condition('vid', '126', '=')
     ->condition('name', 'Financial Aid Office', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 8))
     ->condition('vid', '126', '=')
     ->condition('name', 'Global Innovation Programs', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 9))
     ->condition('vid', '126', '=')
     ->condition('name', 'Library', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 10))
     ->condition('vid', '126', '=')
     ->condition('name', 'Marketing and Communications', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 11))
     ->condition('vid', '126', '=')
     ->condition('name', 'Schwab Residential Center', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 12))
     ->condition('vid', '126', '=')
     ->condition('name', 'Stanford MSx Program', '=')
-    ->execute();        
+    ->execute();
 
+}
+
+/**
+ * Add back Academic Calendar term to Event Category. This will be used for filtering.
+ */
+function gsb_public_update_7051() {
+  $terms = array(
+    '10556' => array(
+      'parent' => 0,
+      'vid' => 136,
+      'name' => 'Academic Calendar',
+      'description' => NULL,
+      'format' => NULL,
+      'weight' => 0,
+      'uuid' => 'cb3a4832-13bc-412b-8cc1-a106e373b660',
+    ),
+  );
+
+  _gsb_public_terms_add($terms);
 }
