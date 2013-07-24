@@ -251,6 +251,13 @@ projects[gsb_feature_file_types][download][url] = git@github.com:gsbitse/gsb_fea
 projects[gsb_feature_file_types][download][branch] = master
 projects[gsb_feature_file_types][subdir] = custom/features
 
+; GSB Feature Google Analytics Settings
+projects[gsb_feature_google_analytics_settings][type] = module
+projects[gsb_feature_google_analytics_settings][download][type] = git
+projects[gsb_feature_google_analytics_settings][download][url] = git@github.com:gsbitse/gsb_feature_google_analytics_settings.git
+projects[gsb_feature_google_analytics_settings][download][branch] = WP-1951
+projects[gsb_feature_google_analytics_settings][subdir] = custom/features
+
 ; GSB Feature GSA Search
 projects[gsb_feature_gsa_search][type] = module
 projects[gsb_feature_gsa_search][download][type] = git
