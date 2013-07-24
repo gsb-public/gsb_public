@@ -1309,9 +1309,10 @@ function gsb_public_update_7050() {
 }
 
 /**
- * Enable google_analytics module.
+ * Enable the google_analytics and gsb_feature_google_analytics_settings modules.
  */
 function gsb_public_update_7051() {
   module_enable(array('google_analytics'));
+  module_enable(array('gsb_feature_google_analytics_settings'));
 }
 
