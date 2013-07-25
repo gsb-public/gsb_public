@@ -779,3 +779,7 @@ libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Ea
 libraries[tmhOAuth][download][type] = git
 libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
 libraries[tmhOAuth][download][tag] = 0.8.2
+
+libraries[weather][download][type] = git
+libraries[weather][download][url] = git@github.com:asgorobets/weather_widget.git
+libraries[weather][download][branch] = master
