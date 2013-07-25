@@ -132,7 +132,7 @@ projects[simplesaml_auth][subdir] = custom
 projects[gsb_feature_academic_calendar_ct][type] = module
 projects[gsb_feature_academic_calendar_ct][download][type] = git
 projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsbitse/gsb_feature_academic_calendar_ct.git
-projects[gsb_feature_academic_calendar_ct][download][branch] = master
+projects[gsb_feature_academic_calendar_ct][download][branch] = WPBQA-242
 projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 
 ; GSB Features Academic Calendar Display
@@ -214,7 +214,7 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][branch] = master
+projects[gsb_feature_event_ct][download][branch] = WPBQA-242
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
@@ -497,7 +497,7 @@ projects[gsb_feature_week_in_the_life_display][subdir] = custom/features
 projects[gsb_feature_workbench][type] = module
 projects[gsb_feature_workbench][download][type] = git
 projects[gsb_feature_workbench][download][url] = git@github.com:gsbitse/gsb_feature_workbench.git
-projects[gsb_feature_workbench][download][branch] = master
+projects[gsb_feature_workbench][download][branch] = WPBQA-242
 projects[gsb_feature_workbench][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
