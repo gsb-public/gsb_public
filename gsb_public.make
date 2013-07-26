@@ -560,17 +560,6 @@ projects[better_exposed_filters][download][url] = http://git.drupal.org/project/
 projects[better_exposed_filters][download][revision] = 6e8b9a0
 projects[better_exposed_filters][download][branch] = 7.x-3.x
 
-; Phone module for Webform Phone
-projects[phone][version] = 1.x-dev
-projects[phone][subdir] = contrib
-projects[phone][download][type] = git
-projects[phone][download][url] = http://git.drupal.org/project/phone.git
-projects[phone][download][revision] = 5e0ea65
-projects[phone][download][branch] = 7.x-1.x
-
-projects[webform_phone][version] = 1.11
-projects[webform_phone][subdir] = contrib
-
 projects[breadcrumbs_by_path][version] = 1.x-dev
 projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][download][type] = git
@@ -584,7 +573,6 @@ projects[concat_field][subdir] = contrib
 projects[concat_field][download][type] = git
 projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
-
 
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
@@ -603,7 +591,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.3
+projects[ds][version] = 2.4
 projects[ds][subdir] = contrib
 
 projects[email][version] = 1.2
@@ -653,7 +641,7 @@ projects[hierarchical_select][download][branch] = 7.x-3.x
 projects[hierarchical_select][patch][1959666] = http://drupal.org/files/1959666-d7-2.patch
 projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
 
-projects[imagecache_actions][version] = 1.1
+projects[imagecache_actions][version] = 1.3
 projects[imagecache_actions][subdir] = contrib
 
 projects[login_destination][version] = 1.1
@@ -709,16 +697,21 @@ projects[metatag][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
+; Phone module for Webform Phone
+projects[phone][version] = 1.x-dev
+projects[phone][subdir] = contrib
+projects[phone][download][type] = git
+projects[phone][download][url] = http://git.drupal.org/project/phone.git
+projects[phone][download][revision] = 173dd71
+projects[phone][download][branch] = 7.x-1.x
+
 projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
-
-projects[views_responsive_grid][version] = 1.3
-projects[views_responsive_grid][subdir] = contrib
 
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git
-projects[telephone][download][revision] = 3de75b4
+projects[telephone][download][revision] = e91203f
 projects[telephone][download][branch] = 7.x-1.x
 
 ; Load more functionality for views
@@ -730,6 +723,12 @@ projects[views_load_more][download][branch] = 7.x-1.x
 projects[views_load_more][subdir] = contrib
 projects[views_load_more][patch][1923870] = http://drupal.org/files/1923870-d7-3.patch
 projects[views_load_more][patch][1454750] = http://drupal.org/files/view_load_more-table-style.patch
+
+projects[views_responsive_grid][version] = 1.3
+projects[views_responsive_grid][subdir] = contrib
+
+projects[webform_phone][version] = 1.13
+projects[webform_phone][subdir] = contrib
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
