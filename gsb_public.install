@@ -1126,7 +1126,7 @@ function gsb_public_update_7045() {
     path_save($path);
   }
 }
- 
+
 /**
  * Remove menu minipanels from Our Programs submenu.
  */
@@ -1190,12 +1190,12 @@ function gsb_public_update_7049() {
     ->condition('vid', '151', '=')
     ->condition('name', 'PhD', '=')
     ->execute();
-    
+
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '151', '=')
     ->condition('name', 'Executive Education', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
@@ -1245,66 +1245,66 @@ function gsb_public_update_7050() {
     ->condition('vid', '126', '=')
     ->condition('name', 'PhD Admissions', '=')
     ->execute();
-    
+
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 3))
     ->condition('vid', '126', '=')
     ->condition('name', 'Executive Education Admissions', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '126', '=')
     ->condition('name', 'Academic Administration', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
     ->condition('vid', '126', '=')
     ->condition('name', 'Behavioral Lab', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 6))
     ->condition('vid', '126', '=')
     ->condition('name', 'Faculty Support', '=')
-    ->execute();        
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 7))
     ->condition('vid', '126', '=')
     ->condition('name', 'Financial Aid Office', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 8))
     ->condition('vid', '126', '=')
     ->condition('name', 'Global Innovation Programs', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 9))
     ->condition('vid', '126', '=')
     ->condition('name', 'Library', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 10))
     ->condition('vid', '126', '=')
     ->condition('name', 'Marketing and Communications', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 11))
     ->condition('vid', '126', '=')
     ->condition('name', 'Schwab Residential Center', '=')
-    ->execute();    
+    ->execute();
 
  db_update('taxonomy_term_data')
     ->fields(array('weight' => 12))
     ->condition('vid', '126', '=')
     ->condition('name', 'Stanford MSx Program', '=')
-    ->execute();        
+    ->execute();
 
 }
 
@@ -1320,5 +1320,33 @@ function gsb_public_update_7051() {
  */
 function gsb_public_update_7052() {
   module_enable(array('gsb_addthis_customization'));
+}
+
+/**
+ * Enable the login destination module.
+ */
+function gsb_public_update_7053() {
+  module_enable(array('login_destination'));
+
+  $current_roles = user_roles();
+  $roles_to_use = array('administrator', 'section editor', 'section manager', 'fa', 'aa', 'cwo_admin');
+  $roles = array_intersect($current_roles, $roles_to_use);
+
+  $rids = array();
+  foreach($roles as $rid => $role) {
+    $rids[$rid] = $rid;
+  }
+
+  $record = array(
+    'triggers' => array('login' => 'login'),
+    'roles' => $rids,
+    'pages_type' => 0,
+    'pages' => '',
+    'destination_type' => 0,
+    'destination' => 'admin/workbench',
+    'weight' => 0,
+  );
+
+  db_insert('login_destination')->fields($record)->execute();
 }
 
