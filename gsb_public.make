@@ -40,6 +40,13 @@ projects[gsb_addthis_customization][download][url] = git@github.com:gsbitse/gsb_
 projects[gsb_addthis_customization][download][branch] = master
 projects[gsb_addthis_customization][subdir] = custom
 
+; GSB Advanced Menu Customization
+projects[gsb_feature_advanced_menu_customization][type] = module
+projects[gsb_feature_advanced_menu_customization][download][type] = git
+projects[gsb_feature_advanced_menu_customization][download][url] = git@github.com:gsbitse/gsb_feature_advanced_menu_customization.git
+projects[gsb_feature_advanced_menu_customization][download][branch] = master
+projects[gsb_feature_advanced_menu_customization][subdir] = custom
+
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
