@@ -1339,7 +1339,7 @@ function gsb_public_update_7053() {
 
   $record = array(
     'triggers' => array('login' => 'login'),
-    'roles' => $rids,
+    'roles' => serialize($rids),
     'pages_type' => 0,
     'pages' => '',
     'destination_type' => 0,
