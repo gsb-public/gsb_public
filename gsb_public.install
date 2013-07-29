@@ -1334,11 +1334,11 @@ function gsb_public_update_7053() {
 
   $rids = array();
   foreach($roles as $rid => $role) {
-    $rids[$rid] = $rid;
+    $rids[$rid] = (string) $rid;
   }
 
   $record = array(
-    'triggers' => array('login' => 'login'),
+    'triggers' => serialize(array('login' => 'login')),
     'roles' => serialize($rids),
     'pages_type' => 0,
     'pages' => '',
