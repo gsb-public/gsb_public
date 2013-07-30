@@ -750,29 +750,26 @@ projects[workbench_moderation][subdir] = contrib
 projects[panopoly_admin][version] = 1.x-dev
 projects[panopoly_admin][subdir] = panopoly
 projects[panopoly_admin][download][type] = git
-projects[panopoly_admin][download][revision] = 4d9d071
+projects[panopoly_admin][download][revision] = f4cbdaa
 projects[panopoly_admin][download][branch] = 7.x-1.x
 projects[panopoly_admin][patch][remove-file-entity-permissions] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-file-entity-permissions.patch
 
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = 192ed62
+projects[panopoly_core][download][revision] = 678cb81
 projects[panopoly_core][download][branch] = 7.x-1.x
-projects[panopoly_core][patch][panopoly_core_default_config] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/panopoly_core_default_config.patch
 
 projects[panopoly_magic][version] = 1.x-dev
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 3a1f8f9
+projects[panopoly_magic][download][revision] = 7dc1a5e
 projects[panopoly_magic][download][branch] = 7.x-1.x
-projects[panopoly_magic][patch][1961726] = http://drupal.org/files/panopoly_magic-1961726-4.patch
-projects[panopoly_magic][patch][1983788] = http://drupal.org/files/panopoly_magic-1983788-1.patch
 
 projects[panopoly_theme][version] = 1.x-dev
 projects[panopoly_theme][subdir] = panopoly
 projects[panopoly_theme][download][type] = git
-projects[panopoly_theme][download][revision] = b8d3809
+projects[panopoly_theme][download][revision] = 3451629
 projects[panopoly_theme][download][branch] = 7.x-1.x
 
 ;================================================================
