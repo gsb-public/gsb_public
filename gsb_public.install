@@ -1350,3 +1350,9 @@ function gsb_public_update_7053() {
   db_insert('login_destination')->fields($record)->execute();
 }
 
+/**
+ * Enable the heirarchichal select menu module.
+ */
+function gsb_public_update_7054() {
+  module_enable(array('hs_menu'));
+}

@@ -48,6 +48,7 @@ dependencies[] = ffc
 dependencies[] = field_formatter_settings
 dependencies[] = googleanalytics
 dependencies[] = hierarchical_select
+dependencies[] = hs_menu
 dependencies[] = hs_taxonomy
 dependencies[] = imagecache_actions
 dependencies[] = imagecache_canvasactions
