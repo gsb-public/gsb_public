@@ -1363,3 +1363,34 @@ function gsb_public_update_7054() {
 function gsb_public_update_7055() {
   module_enable(array('gsb_advanced_menu_customization'));
 }
+
+/**
+ * Insert 'Academic Calendar' term into 'Event Category' vocab.
+ */
+function gsb_public_update_7056() {
+
+  // (10556, 136, 'Academic Calendar', NULL, NULL, 0, 'cb3a4832-13bc-412b-8cc1-a106e373b660'),
+
+  $fields = array(
+    'tid' => '10556',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '10556',
+    'vid' => 136,
+    'name' => 'Academic Calendar',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => 'cb3a4832-13bc-412b-8cc1-a106e373b660',
+  );
+
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+
+}
