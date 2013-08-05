@@ -44,7 +44,7 @@ projects[gsb_addthis_customization][subdir] = custom
 projects[gsb_advanced_menu_customization][type] = module
 projects[gsb_advanced_menu_customization][download][type] = git
 projects[gsb_advanced_menu_customization][download][url] = git@github.com:gsbitse/gsb_advanced_menu_customization.git
-projects[gsb_advanced_menu_customization][download][branch] = WP-1871
+projects[gsb_advanced_menu_customization][download][branch] = master
 projects[gsb_advanced_menu_customization][subdir] = custom
 
 ; GSB Public Custom Blocks
