@@ -1401,3 +1401,12 @@ function gsb_public_update_7056() {
 function gsb_public_update_7057() {
   module_enable(array('pathauto_menu_link'));
 }
+
+/**
+ * Enable gsb_feature_simplesaml module.
+ */
+function gsb_public_update_7058() {
+  module_enable(array('gsb_feature_simplesaml'));
+}
+
+
