@@ -705,6 +705,15 @@ projects[metatag][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
+projects[pathauto_menu_link][version] = 1.x-dev
+projects[pathauto_menu_link][subdir] = contrib
+projects[pathauto_menu_link][download][type] = git
+projects[pathauto_menu_link][download][url] = http://git.drupal.org/project/pathauto_menu_link.git
+projects[pathauto_menu_link][download][revision] = da4ff46
+projects[pathauto_menu_link][download][branch] = 7.x-1.x
+projects[pathauto_menu_link][patch][2059853] = https://drupal.org/files/2059853-d7-1.patch
+projects[pathauto_menu_link][patch][2059863] = https://drupal.org/files/2059863-d7-1.patch
+
 ; Phone module for Webform Phone
 projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib

@@ -1357,7 +1357,7 @@ function gsb_public_update_7054() {
   module_enable(array('hs_menu'));
 }
 
-/** 
+/**
  * Enable gsb_advanced_menu_customization module.
  */
 function gsb_public_update_7055() {
@@ -1393,4 +1393,11 @@ function gsb_public_update_7056() {
     ->fields($fields)
     ->execute();
 
+}
+
+/**
+ * Enable the pathauto_menu_link module
+ */
+function gsb_public_update_7057() {
+  module_enable(array('pathauto_menu_link'));
 }
