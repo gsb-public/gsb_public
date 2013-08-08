@@ -1409,4 +1409,11 @@ function gsb_public_update_7058() {
   module_enable(array('gsb_feature_simplesaml'));
 }
 
-
+/**
+ * Enable gsb_acquia_tokens module.
+ */
+function gsb_public_update_7059() {
+  if (!module_exists('gsb_acquia_tokens')) {
+    module_enable(array('gsb_acquia_tokens'));
+  }
+}
