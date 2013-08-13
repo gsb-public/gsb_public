@@ -1417,3 +1417,12 @@ function gsb_public_update_7059() {
     module_enable(array('gsb_acquia_tokens'));
   }
 }
+
+/**
+ * Enable CacheExclude module.
+ */
+function gsb_public_update_7060() {
+  if (!module_exists('cacheexclude')) {
+    module_enable(array('cacheexclude'));
+  }
+}

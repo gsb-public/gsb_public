@@ -34,6 +34,7 @@ dependencies[] = auto_entitylabel
 dependencies[] = backports
 dependencies[] = backup_migrate
 dependencies[] = breadcrumbs_by_path
+dependencies[] = cacheexclude
 dependencies[] = computed_field
 dependencies[] = concat_field
 dependencies[] = date_popup_authored
