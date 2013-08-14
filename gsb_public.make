@@ -728,6 +728,9 @@ projects[phone][download][branch] = 7.x-1.x
 projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
 
+projects[site_verify][version] = 1.0
+projects[site_verify][subdir] = contrib
+
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git

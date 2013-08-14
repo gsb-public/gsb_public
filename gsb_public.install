@@ -1426,3 +1426,12 @@ function gsb_public_update_7060() {
     module_enable(array('cacheexclude'));
   }
 }
+
+/**
+ * Enable Site Verify module.
+ */
+function gsb_public_update_7061() {
+  if (!module_exists('site_verify')) {
+    module_enable(array('site_verify'));
+  }
+}
