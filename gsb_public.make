@@ -75,6 +75,13 @@ projects[gsb_fpp_stock_content][download][url] = git@github.com:gsbitse/gsb_fpp_
 projects[gsb_fpp_stock_content][download][branch] = master
 projects[gsb_fpp_stock_content][subdir] = custom
 
+; GSB FPP Xray
+projects[gsb_fpp_xray][type] = module
+projects[gsb_fpp_xray][download][type] = git
+projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
+projects[gsb_fpp_xray][download][branch] = master
+projects[gsb_fpp_xray][subdir] = custom
+
 ; GSB Media Center
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
