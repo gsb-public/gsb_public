@@ -51,7 +51,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 1.0
+projects[gsb_public_custom_blocks][download][branch] = release-1.1
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
@@ -180,7 +180,7 @@ projects[gsb_feature_club_ct][subdir] = custom/features
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 1.0
+projects[gsb_feature_club_display][download][branch] = release-1.1
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -207,7 +207,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 1.0
+projects[gsb_feature_event_display][download][branch] = release-1.1
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -284,7 +284,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][tag] = 1.0
+projects[gsb_feature_mega_menu][download][branch] = release-1.1
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
