@@ -583,6 +583,12 @@ projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
 
+projects[menu_attributes][version] = 1.x-dev
+projects[menu_attributes][subdir] = contrib
+projects[menu_attributes][download][type] = git
+projects[menu_attributes][download][revision] = ed7e9aa
+projects[menu_attributes][download][branch] = 7.x-1.x
+
 projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
 projects[menu_block][download][type] = git

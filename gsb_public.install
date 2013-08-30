@@ -1435,3 +1435,12 @@ function gsb_public_update_7061() {
     module_enable(array('site_verify'));
   }
 }
+
+/**
+ * Enable Menu Attributes
+ */
+function gsb_public_update_7062() {
+  if (!module_exists('menu_attributes')) {
+    module_enable(array('menu_attributes'));
+  }
+}

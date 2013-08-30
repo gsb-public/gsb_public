@@ -55,6 +55,7 @@ dependencies[] = imagecache_actions
 dependencies[] = imagecache_canvasactions
 dependencies[] = login_destination
 dependencies[] = maxlength
+dependencies[] = menu_attributes
 dependencies[] = menu_minipanels
 dependencies[] = menu_trail_by_path
 dependencies[] = metatag
