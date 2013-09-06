@@ -51,7 +51,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-1.1
+projects[gsb_public_custom_blocks][download][tag] = 1.1
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
@@ -65,7 +65,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][branch] = 1.0
+projects[gsb_fpp_customization][download][tag] = 1.0
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -79,7 +79,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][branch] = master
+projects[gsb_fpp_xray][download][tag] = 1.0
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Media Center
@@ -180,7 +180,7 @@ projects[gsb_feature_club_ct][subdir] = custom/features
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][branch] = release-1.1
+projects[gsb_feature_club_display][download][tag] = 1.1
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -207,7 +207,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][branch] = release-1.1
+projects[gsb_feature_event_display][download][tag] = 1.1
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -284,14 +284,14 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][branch] = release-1.1
+projects[gsb_feature_mega_menu][download][tag] = 1.1
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][branch] = release-1.1
+projects[gsb_feature_msx_fellows_ct][download][tag] = 1.1
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
@@ -366,7 +366,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsbitse/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][branch] = release-1.1
+projects[gsb_feature_toolbar][download][tag] = 1.1
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Feature Text FPP
@@ -427,7 +427,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = release-1.1
+projects[gsb_theme][download][tag] = 1.1
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
