@@ -5,7 +5,7 @@ core = 7.x
 projects[gsb_make_overrides][type] = module
 projects[gsb_make_overrides][download][type] = git
 projects[gsb_make_overrides][download][url] = git@github.com:gsbitse/gsb_make_overrides.git
-projects[gsb_make_overrides][download][tag] = 1.0
+projects[gsb_make_overrides][download][branch] = release-1.1
 projects[gsb_make_overrides][subdir] = custom
 
 ;============================================
@@ -207,7 +207,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 1.1
+projects[gsb_feature_event_display][download][branch] = release-1.2
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -415,7 +415,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][tag] = 1.0
+projects[gsb_feature_wysiwyg][download][branch] = release-1.1
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
@@ -441,7 +441,7 @@ projects[gsb_theme_admin][download][tag] = 1.0
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.10
+projects[acquia_connector][version] = 2.11
 projects[acquia_connector][subdir] = contrib
 
 projects[addressfield][version] = 1.0-beta4
@@ -461,7 +461,7 @@ projects[better_exposed_filters][version] = 3.x-dev
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][download][type] = git
 projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
-projects[better_exposed_filters][download][revision] = 6e8b9a0
+projects[better_exposed_filters][download][revision] = 08f0995
 projects[better_exposed_filters][download][branch] = 7.x-3.x
 
 projects[breadcrumbs_by_path][version] = 1.x-dev
@@ -498,7 +498,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.4
+projects[ds][version] = 2.6
 projects[ds][subdir] = contrib
 
 projects[email][version] = 1.2
@@ -514,7 +514,7 @@ projects[eva][patch][1772204] = http://drupal.org/files/1772204-d7-1.patch
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
 projects[fancybox][download][type] = git
-projects[fancybox][download][revision] = dd48c77
+projects[fancybox][download][revision] = 02fd052
 projects[fancybox][download][branch] = 7.x-2.x
 
 libraries[fancybox][download][type] = get
@@ -530,26 +530,17 @@ projects[field_collection][patch][1807460] = http://drupal.org/files/field_colle
 projects[field_formatter_settings][version] = 1.0
 projects[field_formatter_settings][subdir] = contrib
 
-projects[file_entity][version] = 2.x-dev
+projects[file_entity][version] = 2.0-alpha2
 projects[file_entity][subdir] = contrib
-projects[file_entity][download][type] = git
-projects[file_entity][download][revision] = e6f091e
-projects[file_entity][download][branch] = 7.x-2.x
-projects[file_entity][patch][1994080] = http://drupal.org/files/file_entity-fix_previous_button-1994080.patch
 
 projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
 
-projects[hierarchical_select][version] = 3.x-dev
+projects[hierarchical_select][version] = 3.0-alpha6
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][download][type] = git
-projects[hierarchical_select][download][revision] = 1da92c0
-projects[hierarchical_select][download][branch] = 7.x-3.x
-projects[hierarchical_select][patch][1959666] = http://drupal.org/files/1959666-d7-2.patch
 projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
-projects[hierarchical_select][patch][1315192] = https://drupal.org/files/1315192-fix-syntax-error-8.patch
 
-projects[imagecache_actions][version] = 1.3
+projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
 
 projects[login_destination][version] = 1.1
@@ -558,25 +549,19 @@ projects[login_destination][subdir] = contrib
 projects[maxlength][version] = 3.x-dev
 projects[maxlength][subdir] = contrib
 projects[maxlength][download][type] = git
-projects[maxlength][download][revision] = 6604311
+projects[maxlength][download][revision] = 8db419b
 projects[maxlength][download][branch] = 7.x-3.x
 
-projects[media][version] = 2.x-dev
+projects[media][version] = 2.0-alpha2
 projects[media][subdir] = contrib
-projects[media][download][type] = git
-projects[media][download][revision] = ecb9392
-projects[media][download][branch] = 7.x-2.x
-projects[media][patch][1319528] = http://drupal.org/files/media-browser-enter-submit-frontpage-1319528-11.patch
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-3.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
-projects[media][patch][835516] = http://drupal.org/files/835516-wysiwyg-fields-60.patch
-projects[media][patch][1919578] = http://drupal.org/files/media-popup_not_closing-1919578.patch
 projects[media][patch][media-addjs] = https://raw.github.com/gsbitse/gsb-revamp-patches/WPBQA-262/media-addjs.patch
 
 projects[media_youtube][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
 projects[media_youtube][download][type] = git
-projects[media_youtube][download][revision] = c53660c
+projects[media_youtube][download][revision] = 5faa00c
 projects[media_youtube][download][branch] = 7.x-2.x
 
 projects[media_vimeo][version] = 1.0-beta5
@@ -625,7 +610,7 @@ projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 projects[phone][download][type] = git
 projects[phone][download][url] = http://git.drupal.org/project/phone.git
-projects[phone][download][revision] = 173dd71
+projects[phone][download][revision] = 39dedb9
 projects[phone][download][branch] = 7.x-1.x
 
 projects[redirect][version] = 1.0-rc1
@@ -684,7 +669,7 @@ projects[panopoly_admin][patch][remove-pathauto-changes] = https://raw.github.co
 projects[panopoly_core][version] = 1.x-dev
 projects[panopoly_core][subdir] = panopoly
 projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = 678cb81
+projects[panopoly_core][download][revision] = 68d38ad
 projects[panopoly_core][download][branch] = 7.x-1.x
 
 projects[panopoly_magic][version] = 1.x-dev
