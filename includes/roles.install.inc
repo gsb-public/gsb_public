@@ -12,11 +12,12 @@ function _gsb_public_setup_roles() {
   $administrator = user_role_load_by_name('administrator');
   user_role_grant_permissions($administrator->rid, array_keys(module_invoke_all('permission')));
 
-  // Create a default role for site administrators, with all available permissions assigned.
-  $section_editor_role = new stdClass();
-  $section_editor_role->name = 'section editor';
-  $section_editor_role->weight = 2;
-  user_role_save($section_editor_role);
+  // Update the editor role
+  $section_editor = user_role_load_by_name('editor');
+
+  // Rename to section editor
+  $section_editor->name = 'section editor';
+  user_role_save($section_editor);
 
   // Remove any existing permissions
   user_role_revoke_permissions($section_editor->rid, array_keys(module_invoke_all('permission')));
