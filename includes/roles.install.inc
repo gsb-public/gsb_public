@@ -2,6 +2,12 @@
 
 function _gsb_public_setup_roles() {
 
+  // Create a default role for site administrators, with all available permissions assigned.
+  $admin_role = new stdClass();
+  $admin_role->name = 'administrator';
+  $admin_role->weight = 2;
+  user_role_save($admin_role);
+
   // Update the administrator role
   $administrator = user_role_load_by_name('administrator');
   user_role_grant_permissions($administrator->rid, array_keys(module_invoke_all('permission')));
