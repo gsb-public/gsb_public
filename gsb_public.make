@@ -610,7 +610,7 @@ projects[phone][version] = 1.x-dev
 projects[phone][subdir] = contrib
 projects[phone][download][type] = git
 projects[phone][download][url] = http://git.drupal.org/project/phone.git
-projects[phone][download][revision] = 39dedb9
+projects[phone][download][revision] = 173dd71
 projects[phone][download][branch] = 7.x-1.x
 
 projects[redirect][version] = 1.0-rc1
