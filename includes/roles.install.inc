@@ -105,7 +105,7 @@ function _gsb_public_setup_roles() {
 
     // Panelizer
 
-// 'administer panelizer node page content',
+   'administer panelizer node page content',
 
     // System
 
