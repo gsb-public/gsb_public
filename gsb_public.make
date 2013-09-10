@@ -65,7 +65,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][branch] = 1.0
+projects[gsb_fpp_customization][download][tag] = 1.0
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -79,7 +79,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][branch] = master
+projects[gsb_fpp_xray][download][tag] = 1.0
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Media Center
@@ -284,7 +284,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][tag] = 1.0
+projects[gsb_feature_mega_menu][download][tag] = 1.1
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
@@ -366,7 +366,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsbitse/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][tag] = 1.0
+projects[gsb_feature_toolbar][download][tag] = 1.1
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Feature Text FPP
@@ -533,7 +533,7 @@ projects[field_formatter_settings][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha2
 projects[file_entity][subdir] = contrib
 
-projects[google_analytics][version] = 2.x
+projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.x-dev
@@ -572,6 +572,12 @@ projects[media_youtube][download][branch] = 7.x-2.x
 projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
+
+projects[menu_attributes][version] = 1.x-dev
+projects[menu_attributes][subdir] = contrib
+projects[menu_attributes][download][type] = git
+projects[menu_attributes][download][revision] = ed7e9aa
+projects[menu_attributes][download][branch] = 7.x-1.x
 
 projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
