@@ -2,8 +2,7 @@
 
 function _gsb_public_setup_roles() {
 
-  return;
-
+/************
   // Create an administrator role
 
   $administrator = new stdClass();
@@ -14,6 +13,7 @@ function _gsb_public_setup_roles() {
   // Update the administrator role
   $administrator = user_role_load_by_name('administrator');
   user_role_grant_permissions($administrator->rid, array_keys(module_invoke_all('permission')));
+***************/
 
   // Create an section editor role
 
