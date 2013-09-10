@@ -2,10 +2,7 @@
 
 function _gsb_public_setup_roles() {
 
-  watchdog('test', 'in _gsb_public_setup_roles 0');	
-
-  node_access_rebuild();
-  //module_enable(array('panelizer'));
+  entity_info_cache_clear();
 
   // Create an administrator role
 
