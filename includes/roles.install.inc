@@ -2,6 +2,8 @@
 
 function _gsb_public_setup_roles() {
 
+  module_enable(array('panelizer');
+
   // Create an administrator role
 
   $administrator = new stdClass();
@@ -102,7 +104,7 @@ function _gsb_public_setup_roles() {
 
     // Panelizer
 
-// 'administer panelizer node page content',
+   'administer panelizer node page content',
 
     // System
 
