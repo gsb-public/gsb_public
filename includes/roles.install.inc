@@ -2,7 +2,7 @@
 
 function _gsb_public_setup_roles() {
 
-  entity_info_cache_clear();
+  cache_clear_all();
 
   // Create an administrator role
 
