@@ -2,7 +2,7 @@
 
 function _gsb_public_setup_roles() {
 
-  module_enable(array('panelizer');
+  module_enable(array('panelizer'));
 
   // Create an administrator role
 
