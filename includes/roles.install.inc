@@ -22,24 +22,6 @@ function _gsb_public_setup_roles() {
 
   $section_editor = user_role_load_by_name('section editor');
 
-//////////////////////////////
-
-    // Update section editor role
-
-  $section_editor_permissions = array(
-
-    // Workbench Moderation
-
-    'create files',
-
-  );
-
-  user_role_grant_permissions($section_editor->rid, $section_editor_permissions);
-
-  return;
-
-/////////////////////////////////  
-
   // Update section editor role
 
   $section_editor_permissions = array(
@@ -120,7 +102,7 @@ function _gsb_public_setup_roles() {
 
     // Panelizer
 
-    'administer panelizer node page content',
+// 'administer panelizer node page content',
 
     // System
 
@@ -284,7 +266,7 @@ function _gsb_public_setup_roles() {
 
     // Panelizer
 
-    'administer panelizer node page content',
+// 'administer panelizer node page content',
 
     // System
 
