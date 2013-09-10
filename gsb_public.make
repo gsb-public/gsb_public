@@ -86,7 +86,7 @@ projects[gsb_fpp_xray][subdir] = custom
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
 projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_center.git
-projects[gsb_media_center][download][tag] = 1.0
+projects[gsb_media_center][download][branch] = release-1.1
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Panels IPE Overrides
