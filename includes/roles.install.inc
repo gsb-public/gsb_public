@@ -2,19 +2,25 @@
 
 function _gsb_public_setup_roles() {
 
+  // Create an administrator role
+
+  $administrator = new stdClass();
+  $administrator->name = 'administrator';
+  $administrator->weight = 3;
+  user_role_save($administrator);
+
   // Update the administrator role
   $administrator = user_role_load_by_name('administrator');
   user_role_grant_permissions($administrator->rid, array_keys(module_invoke_all('permission')));
 
-  // Update the editor role
-  $section_editor = user_role_load_by_name('editor');
+  // Create an section editor role
 
-  // Rename to section editor
+  $section_editor = new stdClass();
   $section_editor->name = 'section editor';
+  $section_editor->weight = 3;
   user_role_save($section_editor);
 
-  // Remove any existing permissions
-  user_role_revoke_permissions($section_editor->rid, array_keys(module_invoke_all('permission')));
+  $section_editor = user_role_load_by_name('section editor');
 
   // Update section editor role
 
