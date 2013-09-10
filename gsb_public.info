@@ -20,10 +20,10 @@ dependencies[] = shortcut
 dependencies[] = update
 
 ; Panopoly Foundation
-dependencies[] = panopoly_admin
-dependencies[] = panopoly_core
-dependencies[] = panopoly_magic
-dependencies[] = panopoly_theme
+;dependencies[] = panopoly_admin
+;dependencies[] = panopoly_core
+;dependencies[] = panopoly_magic
+;dependencies[] = panopoly_theme
 
 ; Contrib Modules
 dependencies[] = acquia_agent
