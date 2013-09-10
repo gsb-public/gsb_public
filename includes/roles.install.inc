@@ -2,6 +2,8 @@
 
 function _gsb_public_setup_roles() {
 
+  return;
+
   // Create an administrator role
 
   $administrator = new stdClass();
