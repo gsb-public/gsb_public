@@ -65,7 +65,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 1.0
+projects[gsb_fpp_customization][download][branch] = no_panopoly
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -79,7 +79,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][tag] = 1.0
+projects[gsb_fpp_xray][download][branch] = master
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Media Center
@@ -174,13 +174,13 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsbitse/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][tag] = 1.0
+projects[gsb_feature_club_ct][download][tag] = no_panopoly
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 1.2
+projects[gsb_feature_club_display][download][tag] = no_panopoly
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -201,13 +201,13 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 1.0
+projects[gsb_feature_event_ct][download][tag] = no_panopoly
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 1.2
+projects[gsb_feature_event_display][download][branch] = no_panopoly
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -284,7 +284,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][tag] = 1.1
+projects[gsb_feature_mega_menu][download][tag] = 1.0
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
@@ -317,7 +317,7 @@ projects[gsb_feature_people_display][subdir] = custom/features
 projects[gsb_feature_people_fpp][type] = module
 projects[gsb_feature_people_fpp][download][type] = git
 projects[gsb_feature_people_fpp][download][url] = git@github.com:gsbitse/gsb_feature_people_fpp.git
-projects[gsb_feature_people_fpp][download][tag] = 1.0
+projects[gsb_feature_people_fpp][download][tag] = no_panopoly
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
 ; GSB Quote FPP
@@ -366,7 +366,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsbitse/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][tag] = 1.1
+projects[gsb_feature_toolbar][download][tag] = 1.0
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Feature Text FPP
@@ -380,7 +380,7 @@ projects[gsb_feature_text_fpp][subdir] = custom/features
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
 projects[gsb_feature_video][download][url] = git@github.com:gsbitse/gsb_feature_video.git
-projects[gsb_feature_video][download][tag] = 1.0
+projects[gsb_feature_video][download][tag] = no_panopoly
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
@@ -533,7 +533,7 @@ projects[field_formatter_settings][subdir] = contrib
 projects[file_entity][version] = 2.0-alpha2
 projects[file_entity][subdir] = contrib
 
-projects[google_analytics][version] = 1.3
+projects[google_analytics][version] = 2.x
 projects[google_analytics][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.x-dev
@@ -572,12 +572,6 @@ projects[media_youtube][download][branch] = 7.x-2.x
 projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
-
-projects[menu_attributes][version] = 1.x-dev
-projects[menu_attributes][subdir] = contrib
-projects[menu_attributes][download][type] = git
-projects[menu_attributes][download][revision] = ed7e9aa
-projects[menu_attributes][download][branch] = 7.x-1.x
 
 projects[menu_block][version] = 2.x-dev
 projects[menu_block][subdir] = contrib
@@ -663,19 +657,166 @@ projects[workbench_moderation][subdir] = contrib
 ;  Panopoly Features
 ;=========================================
 
-projects[panopoly_admin][version] = 1.x-dev
-projects[panopoly_admin][subdir] = panopoly
-projects[panopoly_admin][download][type] = git
-projects[panopoly_admin][download][revision] = f4cbdaa
-projects[panopoly_admin][download][branch] = 7.x-1.x
-projects[panopoly_admin][patch][remove-file-entity-permissions] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-file-entity-permissions-2.patch
-projects[panopoly_admin][patch][remove-pathauto-changes] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-pathauto-changes.patch
+;================================================================
+; Panopoly Admin Makefile 
+;================================================================
 
-projects[panopoly_core][version] = 1.x-dev
-projects[panopoly_core][subdir] = panopoly
-projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = 68d38ad
-projects[panopoly_core][download][branch] = 7.x-1.x
+; UX/UI Improvements
+
+projects[backports][version] = 1.0-alpha1
+projects[backports][subdir] = contrib
+
+projects[module_filter][version] = 1.7
+projects[module_filter][subdir] = contrib
+
+projects[simplified_menu_admin][version] = 1.0-beta2
+projects[simplified_menu_admin][subdir] = contrib
+
+projects[date_popup_authored][version] = 1.1
+projects[date_popup_authored][subdir] = contrib
+
+projects[admin_views][version] = 1.2
+projects[admin_views][subdir] = contrib
+
+projects[save_draft][version] = 1.4
+projects[save_draft][subdir] = contrib
+
+; Admin Toolbar Modules
+
+projects[admin][version] = 2.0-beta3
+projects[admin][subdir] = contrib
+projects[admin][patch][1334804] = http://drupal.org/files/1334804-admin-jquery-updated-6.patch
+
+projects[navbar][version] = 1.x-dev
+projects[navbar][subdir] = contrib
+projects[navbar][download][type] = git
+projects[navbar][download][revision] = 455f81d
+projects[navbar][download][branch] = 7.x-1.x
+projects[navbar][patch][1334804] = https://drupal.org/files/navbar-conflict-1757466-14.patch
+
+projects[breakpoints][version] = 1.1
+projects[breakpoints][subdir] = contrib
+
+projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][subdir] = contrib
+
+projects[jquery_update][version] = 2.3
+projects[jquery_update][subdir] = contrib
+
+; Libraries
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
+
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
+
+;================================================================
+; Panopoly Core Makefile 
+;================================================================
+
+; Panels and Chaos Tools Magic
+
+projects[ctools][version] = 1.3
+projects[ctools][subdir] = contrib
+projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
+
+projects[panels][version] = 3.x-dev
+projects[panels][subdir] = contrib
+projects[panels][download][type] = git
+projects[panels][download][revision] = 2bb470e
+projects[panels][download][branch] = 7.x-3.x
+
+projects[panels_breadcrumbs][version] = 2.1
+projects[panels_breadcrumbs][subdir] = contrib
+
+projects[panelizer][version] = 3.1
+projects[panelizer][subdir] = contrib
+
+projects[fieldable_panels_panes][version] = 1.x-dev
+projects[fieldable_panels_panes][subdir] = contrib
+projects[fieldable_panels_panes][download][type] = git
+projects[fieldable_panels_panes][download][revision] = 3b9c8b6
+projects[fieldable_panels_panes][download][branch] = 7.x-1.x
+
+projects[pm_existing_pages][version] = 1.4
+projects[pm_existing_pages][subdir] = contrib
+
+projects[fape][version] = 1.x-dev
+projects[fape][subdir] = contrib
+projects[fape][download][type] = git
+projects[fape][download][revision] = 1143ee2
+projects[fape][download][branch] = 7.x-1.x
+
+; Views Magic
+
+projects[views][version] = 3.7
+projects[views][subdir] = contrib
+
+projects[views_autocomplete_filters][version] = 1.0-rc1
+projects[views_autocomplete_filters][subdir] = contrib
+
+projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][subdir] = contrib
+
+; The Usual Suspects
+
+projects[pathauto][version] = 1.2
+projects[pathauto][subdir] = contrib
+projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
+
+projects[token][version] = 1.5
+projects[token][subdir] = contrib
+
+projects[entity][version] = 1.1
+projects[entity][subdir] = contrib
+
+projects[libraries][version] = 2.1
+projects[libraries][subdir] = contrib
+
+; Field modules
+
+projects[date][version] = 2.6
+projects[date][subdir] = contrib
+
+projects[entityreference][version] = 1.0
+projects[entityreference][subdir] = contrib
+
+projects[field_group][version] = 1.1
+projects[field_group][subdir] = contrib
+
+projects[link][version] = 1.1
+projects[link][subdir] = contrib
+
+; Harness the Power of Features and Apps with Default Content
+
+projects[apps][version] = 1.0-beta7
+projects[apps][subdir] = contrib
+projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
+
+projects[features][version] = 2.0-rc1
+projects[features][subdir] = contrib
+
+projects[strongarm][version] = 2.0
+projects[strongarm][subdir] = contrib
+
+projects[defaultconfig][version] = 1.0-alpha9
+projects[defaultconfig][subdir] = contrib
+
+projects[defaultcontent][version] = 1.0-alpha9
+projects[defaultcontent][subdir] = contrib
+projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
+projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
+
+; Recommended Modules
+projects[devel][version] = 1.3
+projects[devel][subdir] = contrib
+
+projects[uuid][version] = 1.0-alpha5
+projects[uuid][subdir] = contrib
+
+;================================================================
+; Panopoly Magic 
+;================================================================
 
 projects[panopoly_magic][version] = 1.x-dev
 projects[panopoly_magic][subdir] = panopoly
@@ -683,11 +824,28 @@ projects[panopoly_magic][download][type] = git
 projects[panopoly_magic][download][revision] = 7dc1a5e
 projects[panopoly_magic][download][branch] = 7.x-1.x
 
-projects[panopoly_theme][version] = 1.x-dev
-projects[panopoly_theme][subdir] = panopoly
-projects[panopoly_theme][download][type] = git
-projects[panopoly_theme][download][revision] = 3451629
-projects[panopoly_theme][download][branch] = 7.x-1.x
+;================================================================
+; Panopoly Theme Makefile
+;================================================================
+
+; Summon the Power of Respond.js
+
+projects[respondjs][version] = 1.2
+projects[respondjs][subdir] = contrib
+
+libraries[respondjs][download][type] = get
+libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
+
+; Bundle a Few Panopoly Approved Themes
+
+projects[responsive_bartik][version] = 1.0-beta2
+projects[responsive_bartik][type] = theme
+
+; projects[radix][version] = 1.x-dev
+; projects[radix][type] = theme
+; projects[radix][download][type] = git
+; projects[radix][download][revision] = b873330
+; projects[radix][download][branch] = 7.x-1.x
 
 ;================================================================
 ; Libraries
