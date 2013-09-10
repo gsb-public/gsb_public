@@ -2,9 +2,6 @@
 
 function _gsb_public_setup_roles() {
 
-  module_enable(array('gsb_feature_page_ct'));
-  module_enable(array('gsb_feature_page_display'));
-
   // Create an administrator role
 
   $administrator = new stdClass();
