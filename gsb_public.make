@@ -5,7 +5,7 @@ core = 7.x
 projects[gsb_make_overrides][type] = module
 projects[gsb_make_overrides][download][type] = git
 projects[gsb_make_overrides][download][url] = git@github.com:gsbitse/gsb_make_overrides.git
-projects[gsb_make_overrides][download][branch] = release-1.1
+projects[gsb_make_overrides][download][tag] = 1.1
 projects[gsb_make_overrides][subdir] = custom
 
 ;============================================
@@ -86,7 +86,7 @@ projects[gsb_fpp_xray][subdir] = custom
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
 projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_center.git
-projects[gsb_media_center][download][branch] = release-1.1
+projects[gsb_media_center][download][tag] = 1.1
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Panels IPE Overrides
@@ -207,7 +207,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][branch] = release-1.2
+projects[gsb_feature_event_display][download][branch] = 1.2
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -415,7 +415,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][branch] = release-1.1
+projects[gsb_feature_wysiwyg][download][branch] = 1.1
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
