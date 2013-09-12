@@ -2,6 +2,9 @@
 
 function _gsb_public_setup_roles() {
 
+  features_flush_caches();
+  drupal_static_reset();
+
   // Create an administrator role
 
   $administrator = new stdClass();
@@ -102,7 +105,7 @@ function _gsb_public_setup_roles() {
 
     // Panelizer
 
-// 'administer panelizer node page content',
+    'administer panelizer node page content',
 
     // System
 
@@ -266,7 +269,7 @@ function _gsb_public_setup_roles() {
 
     // Panelizer
 
-// 'administer panelizer node page content',
+    'administer panelizer node page content',
 
     // System
 
