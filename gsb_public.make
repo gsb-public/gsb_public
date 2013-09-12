@@ -848,11 +848,11 @@ projects[uuid][subdir] = contrib
 ; Panopoly Magic 
 ;================================================================
 
-;projects[panopoly_magic][version] = 1.x-dev
-;projects[panopoly_magic][subdir] = panopoly
-;projects[panopoly_magic][download][type] = git
-;projects[panopoly_magic][download][revision] = 7dc1a5e
-;projects[panopoly_magic][download][branch] = 7.x-1.x
+projects[panopoly_magic][version] = 1.x-dev
+projects[panopoly_magic][subdir] = panopoly
+projects[panopoly_magic][download][type] = git
+projects[panopoly_magic][download][revision] = 7dc1a5e
+projects[panopoly_magic][download][branch] = 7.x-1.x
 
 ;================================================================
 ; Panopoly Theme Makefile
