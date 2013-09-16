@@ -174,13 +174,13 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsbitse/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][tag] = 1.0
+projects[gsb_feature_club_ct][download][branch] = no_panopoly
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 1.2
+projects[gsb_feature_club_display][download][branch] = no_panopoly
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -201,13 +201,13 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 1.0
+projects[gsb_feature_event_ct][download][branch] = no_panopoly
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 1.2
+projects[gsb_feature_event_display][download][branch] = no_panopoly
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -317,7 +317,7 @@ projects[gsb_feature_people_display][subdir] = custom/features
 projects[gsb_feature_people_fpp][type] = module
 projects[gsb_feature_people_fpp][download][type] = git
 projects[gsb_feature_people_fpp][download][url] = git@github.com:gsbitse/gsb_feature_people_fpp.git
-projects[gsb_feature_people_fpp][download][tag] = 1.0
+projects[gsb_feature_people_fpp][download][branch] = no_panopoly
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
 ; GSB Quote FPP
@@ -380,7 +380,7 @@ projects[gsb_feature_text_fpp][subdir] = custom/features
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
 projects[gsb_feature_video][download][url] = git@github.com:gsbitse/gsb_feature_video.git
-projects[gsb_feature_video][download][tag] = 1.0
+projects[gsb_feature_video][download][branch] = no_panopoly
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
