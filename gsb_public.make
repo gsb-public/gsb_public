@@ -51,7 +51,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 1.1
+projects[gsb_public_custom_blocks][download][branch] = release-1.2
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
