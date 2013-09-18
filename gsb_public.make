@@ -180,7 +180,7 @@ projects[gsb_feature_club_ct][subdir] = custom/features
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 1.1
+projects[gsb_feature_club_display][download][branch] = release-1.2
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -207,7 +207,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][branch] = 1.2
+projects[gsb_feature_event_display][download][tag] = 1.2
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
