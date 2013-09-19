@@ -51,7 +51,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-1.2
+projects[gsb_public_custom_blocks][download][tag] = 1.2
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
@@ -180,7 +180,7 @@ projects[gsb_feature_club_ct][subdir] = custom/features
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][branch] = release-1.2
+projects[gsb_feature_club_display][download][tag] = 1.2
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -235,7 +235,7 @@ projects[gsb_feature_faculty_display][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsbitse/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][branch] = release-1.1
+projects[gsb_feature_file_types][download][tag] = 1.1
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Google Analytics Settings
@@ -291,14 +291,14 @@ projects[gsb_feature_mega_menu][subdir] = custom/features
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][branch] = release-1.2
+projects[gsb_feature_msx_fellows_ct][download][tag] = 1.2
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
 projects[gsb_feature_msx_fellows_display][type] = module
 projects[gsb_feature_msx_fellows_display][download][type] = git
 projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_display.git
-projects[gsb_feature_msx_fellows_display][download][branch] = release-1.1
+projects[gsb_feature_msx_fellows_display][download][tag] = 1.1
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
 ; GSB Feature Page
@@ -427,7 +427,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = release-1.2
+projects[gsb_theme][download][tag] = 1.2
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
