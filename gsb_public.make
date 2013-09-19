@@ -51,11 +51,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-<<<<<<< HEAD
 projects[gsb_public_custom_blocks][download][tag] = 1.2
-=======
-projects[gsb_public_custom_blocks][download][tag] = 1.1
->>>>>>> reverting back a couple unintended changes
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
@@ -185,7 +181,6 @@ projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
 projects[gsb_feature_club_display][download][branch] = no_panopoly
->>>>>>> reverting back a couple unintended changes
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -296,11 +291,7 @@ projects[gsb_feature_mega_menu][subdir] = custom/features
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_ct.git
-<<<<<<< HEAD
 projects[gsb_feature_msx_fellows_ct][download][tag] = 1.2
-=======
-projects[gsb_feature_msx_fellows_ct][download][tag] = 1.1
->>>>>>> reverting back a couple unintended changes
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
@@ -436,11 +427,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-<<<<<<< HEAD
 projects[gsb_theme][download][tag] = 1.2
-=======
-projects[gsb_theme][download][tag] = 1.1
->>>>>>> reverting back a couple unintended changes
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme

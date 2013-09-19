@@ -2,6 +2,12 @@
 
 function _gsb_public_setup_roles() {
 
+<<<<<<< HEAD
+=======
+  features_flush_caches();
+  drupal_static_reset();
+
+>>>>>>> 295c2dc7689551566738e0607b50bd51c33a4769
   // Create an administrator role
 
   $administrator = new stdClass();
