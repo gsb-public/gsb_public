@@ -456,15 +456,13 @@ projects[admin_menu][subdir] = contrib
 projects[admin_views][version] = 1.2
 projects[admin_views][subdir] = contrib
 
+;[mark for removal] - need to remove panopoly admin first.
 projects[apps][version] = 1.0-beta7
 projects[apps][subdir] = contrib
 projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
 projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
-
-libraries[backbone][download][type] = get
-libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
 
 projects[backports][version] = 1.0-alpha1
 projects[backports][subdir] = contrib
@@ -488,6 +486,7 @@ projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][2013130] = http://drupal.org/files/breadcrumbs_by_path-add_missing_breadcrumb_paths-2013130.patch
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
 
+; [mark for removal] - May not be needed because it's used for navbar. Need to disable it in production first.
 projects[breakpoints][version] = 1.1
 projects[breakpoints][subdir] = contrib
 
@@ -681,13 +680,6 @@ projects[metatag][subdir] = contrib
 projects[module_filter][version] = 1.8
 projects[module_filter][subdir] = contrib
 
-projects[navbar][version] = 1.x-dev
-projects[navbar][subdir] = contrib
-projects[navbar][download][type] = git
-projects[navbar][download][revision] = 455f81d
-projects[navbar][download][branch] = 7.x-1.x
-projects[navbar][patch][1334804] = https://drupal.org/files/navbar-conflict-1757466-14.patch
-
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
@@ -736,12 +728,6 @@ projects[respondjs][subdir] = contrib
 libraries[respondjs][download][type] = get
 libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
 
-projects[save_draft][version] = 1.4
-projects[save_draft][subdir] = contrib
-
-projects[simplified_menu_admin][version] = 1.0-beta2
-projects[simplified_menu_admin][subdir] = contrib
-
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
@@ -754,15 +740,13 @@ projects[telephone][download][type] = git
 projects[telephone][download][revision] = e91203f
 projects[telephone][download][branch] = 7.x-1.x
 
+; Used for twitter feed.
 libraries[tmhOAuth][download][type] = git
 libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
 libraries[tmhOAuth][download][tag] = 0.8.2
 
 projects[token][version] = 1.5
 projects[token][subdir] = contrib
-
-libraries[underscore][download][type] = get
-libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
 
 projects[uuid][version] = 1.0-alpha5
 projects[uuid][subdir] = contrib
