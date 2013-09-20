@@ -2,7 +2,7 @@
 
 function _gsb_public_setup_roles() {
 
-  features_flush_caches();
+  //features_flush_caches();
   drupal_static_reset();
 
   // Create an administrator role
