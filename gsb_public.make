@@ -1,13 +1,6 @@
 api = 2
 core = 7.x
 
-; Override make files. This absolutely has to be first.
-projects[gsb_make_overrides][type] = module
-projects[gsb_make_overrides][download][type] = git
-projects[gsb_make_overrides][download][url] = git@github.com:gsbitse/gsb_make_overrides.git
-projects[gsb_make_overrides][download][tag] = 1.1
-projects[gsb_make_overrides][subdir] = custom
-
 ;============================================
 ;  GSB Projects
 ;============================================
@@ -513,9 +506,12 @@ projects[computed_field][download][type] = git
 projects[computed_field][download][revision] = 4380d90
 projects[computed_field][download][branch] = 7.x-1.x
 
-projects[ctools][version] = 1.3
+projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
-projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
+projects[ctools][download][type] = git
+projects[ctools][download][revision] = 876c1a8
+projects[ctools][download][branch] = 7.x-1.x
+projects[ctools][patch][1901106] = http://drupal.org/files/1901106-ctools-views_content-exposed_form_override-5.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
@@ -533,6 +529,7 @@ projects[date_popup_authored][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
 projects[defaultconfig][subdir] = contrib
+projects[defaultconfig][patch][1912312] = http://drupal.org/files/defaultconfig-remove-notice-1912312.patch
 
 projects[defaultcontent][version] = 1.0-alpha9
 projects[defaultcontent][subdir] = contrib
@@ -554,7 +551,7 @@ libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Ea
 projects[email][version] = 1.2
 projects[email][subdir] = contrib
 
-projects[entity][version] = 1.1
+projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.0
@@ -582,17 +579,15 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.0-rc1
+projects[features][version] = 2.0-rc3
 projects[features][subdir] = contrib
+projects[features][patch][1597186] = https://drupal.org/files/1597186-6-features-do-not-cache-includes.patch
 
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
-projects[fieldable_panels_panes][version] = 1.x-dev
+projects[fieldable_panels_panes][version] = 1.5
 projects[fieldable_panels_panes][subdir] = contrib
-projects[fieldable_panels_panes][download][type] = git
-projects[fieldable_panels_panes][download][revision] = 3b9c8b6
-projects[fieldable_panels_panes][download][branch] = 7.x-1.x
 
 projects[field_collection][version] = 1.0-beta5
 projects[field_collection][subdir] = contrib
@@ -622,8 +617,10 @@ projects[hierarchical_select][patch][1315192] = https://drupal.org/files/1315192
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
 
+; This overrides jquery_update in panopoly_admin
 projects[jquery_update][version] = 2.3
 projects[jquery_update][subdir] = contrib
+projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-fixes-states-js-1448490.patch
 
 projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
@@ -681,7 +678,7 @@ projects[menu_trail_by_path][download][branch] = 7.x-2.x
 projects[metatag][version] = 1.0-beta7
 projects[metatag][subdir] = contrib
 
-projects[module_filter][version] = 1.7
+projects[module_filter][version] = 1.8
 projects[module_filter][subdir] = contrib
 
 projects[navbar][version] = 1.x-dev
@@ -772,6 +769,9 @@ projects[uuid][subdir] = contrib
 
 projects[views][version] = 3.7
 projects[views][subdir] = contrib
+projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
+projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
+projects[views][patch][1333932] = http://drupal.org/files/1333932-sort-exposed-clicksort.patch
 
 projects[views_autocomplete_filters][version] = 1.0-rc1
 projects[views_autocomplete_filters][subdir] = contrib
