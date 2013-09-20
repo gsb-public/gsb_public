@@ -1,9 +1,9 @@
 <?php
 
 function _gsb_public_setup_roles() {
-
+  //We need both of these to get ther permissions right.
   features_flush_caches();
-  //drupal_static_reset();
+  drupal_static_reset();
 
   // Create an administrator role
 
