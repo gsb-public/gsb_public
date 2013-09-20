@@ -435,6 +435,9 @@ projects[gsb_theme_admin][download][type] = git
 projects[gsb_theme_admin][download][url] = git@github.com:gsbitse/gsb_theme_admin.git
 projects[gsb_theme_admin][download][tag] = 1.0
 
+projects[responsive_bartik][version] = 1.0-beta2
+projects[responsive_bartik][type] = theme
+
 
 ;========================================
 ;  Additional Contrib Modules
@@ -450,8 +453,28 @@ projects[addressfield][subdir] = contrib
 projects[addthis][version] = 4.0-alpha2
 projects[addthis][subdir] = contrib
 
+projects[admin][version] = 2.0-beta3
+projects[admin][subdir] = contrib
+projects[admin][patch][1334804] = http://drupal.org/files/1334804-admin-jquery-updated-6.patch
+
+projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][subdir] = contrib
+
+projects[admin_views][version] = 1.2
+projects[admin_views][subdir] = contrib
+
+projects[apps][version] = 1.0-beta7
+projects[apps][subdir] = contrib
+projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
+
 projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
+
+libraries[backbone][download][type] = get
+libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
+
+projects[backports][version] = 1.0-alpha1
+projects[backports][subdir] = contrib
 
 projects[backup_migrate][version] = 2.7
 projects[backup_migrate][subdir] = contrib
@@ -472,6 +495,9 @@ projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][2013130] = http://drupal.org/files/breadcrumbs_by_path-add_missing_breadcrumb_paths-2013130.patch
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
 
+projects[breakpoints][version] = 1.1
+projects[breakpoints][subdir] = contrib
+
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
@@ -487,6 +513,10 @@ projects[computed_field][download][type] = git
 projects[computed_field][download][revision] = 4380d90
 projects[computed_field][download][branch] = 7.x-1.x
 
+projects[ctools][version] = 1.3
+projects[ctools][subdir] = contrib
+projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
+
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
 projects[ctools_query_string_context][download][type] = git
@@ -495,14 +525,40 @@ projects[ctools_query_string_context][download][revision] = dc75839
 projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
 
+projects[date][version] = 2.6
+projects[date][subdir] = contrib
+
+projects[date_popup_authored][version] = 1.1
+projects[date_popup_authored][subdir] = contrib
+
+projects[defaultconfig][version] = 1.0-alpha9
+projects[defaultconfig][subdir] = contrib
+
+projects[defaultcontent][version] = 1.0-alpha9
+projects[defaultcontent][subdir] = contrib
+projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
+projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
+
+projects[devel][version] = 1.3
+projects[devel][subdir] = contrib
+
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
 projects[ds][version] = 2.6
 projects[ds][subdir] = contrib
 
+libraries[easyResponsiveTabs][download][type] = get
+libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/5c346ab52c8633eb1c10f2a27e6a6537797a87eb/js/easyResponsiveTabs.js
+
 projects[email][version] = 1.2
 projects[email][subdir] = contrib
+
+projects[entity][version] = 1.1
+projects[entity][subdir] = contrib
+
+projects[entityreference][version] = 1.0
+projects[entityreference][subdir] = contrib
 
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
@@ -520,8 +576,23 @@ projects[fancybox][download][branch] = 7.x-2.x
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
 
+projects[fape][version] = 1.x-dev
+projects[fape][subdir] = contrib
+projects[fape][download][type] = git
+projects[fape][download][revision] = 1143ee2
+projects[fape][download][branch] = 7.x-1.x
+
+projects[features][version] = 2.0-rc1
+projects[features][subdir] = contrib
+
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
+
+projects[fieldable_panels_panes][version] = 1.x-dev
+projects[fieldable_panels_panes][subdir] = contrib
+projects[fieldable_panels_panes][download][type] = git
+projects[fieldable_panels_panes][download][revision] = 3b9c8b6
+projects[fieldable_panels_panes][download][branch] = 7.x-1.x
 
 projects[field_collection][version] = 1.0-beta5
 projects[field_collection][subdir] = contrib
@@ -532,6 +603,9 @@ projects[field_formatter_settings][subdir] = contrib
 
 projects[file_entity][version] = 2.0-alpha2
 projects[file_entity][subdir] = contrib
+
+projects[field_group][version] = 1.1
+projects[field_group][subdir] = contrib
 
 projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
@@ -547,6 +621,15 @@ projects[hierarchical_select][patch][1315192] = https://drupal.org/files/1315192
 
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
+
+projects[jquery_update][version] = 2.3
+projects[jquery_update][subdir] = contrib
+
+projects[libraries][version] = 2.1
+projects[libraries][subdir] = contrib
+
+projects[link][version] = 1.1
+projects[link][subdir] = contrib
 
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
@@ -598,8 +681,34 @@ projects[menu_trail_by_path][download][branch] = 7.x-2.x
 projects[metatag][version] = 1.0-beta7
 projects[metatag][subdir] = contrib
 
+projects[module_filter][version] = 1.7
+projects[module_filter][subdir] = contrib
+
+projects[navbar][version] = 1.x-dev
+projects[navbar][subdir] = contrib
+projects[navbar][download][type] = git
+projects[navbar][download][revision] = 455f81d
+projects[navbar][download][branch] = 7.x-1.x
+projects[navbar][patch][1334804] = https://drupal.org/files/navbar-conflict-1757466-14.patch
+
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
+
+projects[panelizer][version] = 3.1
+projects[panelizer][subdir] = contrib
+
+projects[panels][version] = 3.x-dev
+projects[panels][subdir] = contrib
+projects[panels][download][type] = git
+projects[panels][download][revision] = 2bb470e
+projects[panels][download][branch] = 7.x-3.x
+
+projects[panels_breadcrumbs][version] = 2.1
+projects[panels_breadcrumbs][subdir] = contrib
+
+projects[pathauto][version] = 1.2
+projects[pathauto][subdir] = contrib
+projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
 
 projects[pathauto_menu_link][version] = 1.x-dev
 projects[pathauto_menu_link][subdir] = contrib
@@ -618,17 +727,57 @@ projects[phone][download][url] = http://git.drupal.org/project/phone.git
 projects[phone][download][revision] = 173dd71
 projects[phone][download][branch] = 7.x-1.x
 
+projects[pm_existing_pages][version] = 1.4
+projects[pm_existing_pages][subdir] = contrib
+
 projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
 
+projects[respondjs][version] = 1.2
+projects[respondjs][subdir] = contrib
+
+libraries[respondjs][download][type] = get
+libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
+
+projects[save_draft][version] = 1.4
+projects[save_draft][subdir] = contrib
+
+projects[simplified_menu_admin][version] = 1.0-beta2
+projects[simplified_menu_admin][subdir] = contrib
+
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
+
+projects[strongarm][version] = 2.0
+projects[strongarm][subdir] = contrib
 
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git
 projects[telephone][download][revision] = e91203f
 projects[telephone][download][branch] = 7.x-1.x
+
+libraries[tmhOAuth][download][type] = git
+libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
+libraries[tmhOAuth][download][tag] = 0.8.2
+
+projects[token][version] = 1.5
+projects[token][subdir] = contrib
+
+libraries[underscore][download][type] = get
+libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
+
+projects[uuid][version] = 1.0-alpha5
+projects[uuid][subdir] = contrib
+
+projects[views][version] = 3.7
+projects[views][subdir] = contrib
+
+projects[views_autocomplete_filters][version] = 1.0-rc1
+projects[views_autocomplete_filters][subdir] = contrib
+
+projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][subdir] = contrib
 
 ; Load more functionality for views
 projects[views_load_more][type] = module
@@ -677,11 +826,11 @@ projects[panopoly_core][download][type] = git
 projects[panopoly_core][download][revision] = 68d38ad
 projects[panopoly_core][download][branch] = 7.x-1.x
 
-;projects[panopoly_magic][version] = 1.x-dev
-;projects[panopoly_magic][subdir] = panopoly
-;projects[panopoly_magic][download][type] = git
-;projects[panopoly_magic][download][revision] = 7dc1a5e
-;projects[panopoly_magic][download][branch] = 7.x-1.x
+projects[panopoly_magic][version] = 1.x-dev
+projects[panopoly_magic][subdir] = panopoly
+projects[panopoly_magic][download][type] = git
+projects[panopoly_magic][download][revision] = 7dc1a5e
+projects[panopoly_magic][download][branch] = 7.x-1.x
 
 projects[panopoly_theme][version] = 1.x-dev
 projects[panopoly_theme][subdir] = panopoly
@@ -689,214 +838,3 @@ projects[panopoly_theme][download][type] = git
 projects[panopoly_theme][download][revision] = 3451629
 projects[panopoly_theme][download][branch] = 7.x-1.x
 
-;================================================================
-; Panopoly Admin Makefile 
-;================================================================
-
-; UX/UI Improvements
-
-projects[backports][version] = 1.0-alpha1
-projects[backports][subdir] = contrib
-
-projects[module_filter][version] = 1.7
-projects[module_filter][subdir] = contrib
-
-projects[simplified_menu_admin][version] = 1.0-beta2
-projects[simplified_menu_admin][subdir] = contrib
-
-projects[date_popup_authored][version] = 1.1
-projects[date_popup_authored][subdir] = contrib
-
-projects[admin_views][version] = 1.2
-projects[admin_views][subdir] = contrib
-
-projects[save_draft][version] = 1.4
-projects[save_draft][subdir] = contrib
-
-; Admin Toolbar Modules
-
-projects[admin][version] = 2.0-beta3
-projects[admin][subdir] = contrib
-projects[admin][patch][1334804] = http://drupal.org/files/1334804-admin-jquery-updated-6.patch
-
-projects[navbar][version] = 1.x-dev
-projects[navbar][subdir] = contrib
-projects[navbar][download][type] = git
-projects[navbar][download][revision] = 455f81d
-projects[navbar][download][branch] = 7.x-1.x
-projects[navbar][patch][1334804] = https://drupal.org/files/navbar-conflict-1757466-14.patch
-
-projects[breakpoints][version] = 1.1
-projects[breakpoints][subdir] = contrib
-
-projects[admin_menu][version] = 3.0-rc4
-projects[admin_menu][subdir] = contrib
-
-projects[jquery_update][version] = 2.3
-projects[jquery_update][subdir] = contrib
-
-; Libraries
-libraries[backbone][download][type] = get
-libraries[backbone][download][url] = https://github.com/documentcloud/backbone/archive/1.0.0.zip
-
-libraries[underscore][download][type] = get
-libraries[underscore][download][url] = https://github.com/documentcloud/underscore/archive/1.4.4.zip
-
-;================================================================
-; Panopoly Core Makefile 
-;================================================================
-
-;projects[panopoly_core][version] = 1.x-dev
-;projects[panopoly_core][subdir] = panopoly
-;projects[panopoly_core][download][type] = git
-;projects[panopoly_core][download][revision] = 678cb81
-;projects[panopoly_core][download][branch] = 7.x-1.x
-
-; Panels and Chaos Tools Magic
-
-projects[ctools][version] = 1.3
-projects[ctools][subdir] = contrib
-projects[ctools][patch][1925018] = http://drupal.org/files/ctools-1925018-61.patch
-
-projects[panels][version] = 3.x-dev
-projects[panels][subdir] = contrib
-projects[panels][download][type] = git
-projects[panels][download][revision] = 2bb470e
-projects[panels][download][branch] = 7.x-3.x
-
-projects[panels_breadcrumbs][version] = 2.1
-projects[panels_breadcrumbs][subdir] = contrib
-
-projects[panelizer][version] = 3.1
-projects[panelizer][subdir] = contrib
-
-projects[fieldable_panels_panes][version] = 1.x-dev
-projects[fieldable_panels_panes][subdir] = contrib
-projects[fieldable_panels_panes][download][type] = git
-projects[fieldable_panels_panes][download][revision] = 3b9c8b6
-projects[fieldable_panels_panes][download][branch] = 7.x-1.x
-
-projects[pm_existing_pages][version] = 1.4
-projects[pm_existing_pages][subdir] = contrib
-
-projects[fape][version] = 1.x-dev
-projects[fape][subdir] = contrib
-projects[fape][download][type] = git
-projects[fape][download][revision] = 1143ee2
-projects[fape][download][branch] = 7.x-1.x
-
-; Views Magic
-projects[views][version] = 3.7
-projects[views][subdir] = contrib
-
-projects[views_autocomplete_filters][version] = 1.0-rc1
-projects[views_autocomplete_filters][subdir] = contrib
-
-projects[views_bulk_operations][version] = 3.1
-projects[views_bulk_operations][subdir] = contrib
-
-; The Usual Suspects
-
-projects[pathauto][version] = 1.2
-projects[pathauto][subdir] = contrib
-projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
-
-projects[token][version] = 1.5
-projects[token][subdir] = contrib
-
-projects[entity][version] = 1.1
-projects[entity][subdir] = contrib
-
-projects[libraries][version] = 2.1
-projects[libraries][subdir] = contrib
-
-; Field modules
-
-projects[date][version] = 2.6
-projects[date][subdir] = contrib
-
-projects[entityreference][version] = 1.0
-projects[entityreference][subdir] = contrib
-
-projects[field_group][version] = 1.1
-projects[field_group][subdir] = contrib
-
-projects[link][version] = 1.1
-projects[link][subdir] = contrib
-
-; Harness the Power of Features and Apps with Default Content
-
-projects[apps][version] = 1.0-beta7
-projects[apps][subdir] = contrib
-projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
-
-projects[features][version] = 2.0-rc1
-projects[features][subdir] = contrib
-
-projects[strongarm][version] = 2.0
-projects[strongarm][subdir] = contrib
-
-projects[defaultconfig][version] = 1.0-alpha9
-projects[defaultconfig][subdir] = contrib
-
-projects[defaultcontent][version] = 1.0-alpha9
-projects[defaultcontent][subdir] = contrib
-projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
-projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
-
-; Recommended Modules
-projects[devel][version] = 1.3
-projects[devel][subdir] = contrib
-
-projects[uuid][version] = 1.0-alpha5
-projects[uuid][subdir] = contrib
-
-;================================================================
-; Panopoly Magic 
-;================================================================
-
-projects[panopoly_magic][version] = 1.x-dev
-projects[panopoly_magic][subdir] = panopoly
-projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 7dc1a5e
-projects[panopoly_magic][download][branch] = 7.x-1.x
-
-;================================================================
-; Panopoly Theme Makefile
-;================================================================
-
-;projects[panopoly_theme][version] = 1.x-dev
-;projects[panopoly_theme][subdir] = panopoly
-;projects[panopoly_theme][download][type] = git
-;projects[panopoly_theme][download][revision] = 3451629
-;projects[panopoly_theme][download][branch] = 7.x-1.x
-
-; Summon the Power of Respond.js
-
-projects[respondjs][version] = 1.2
-projects[respondjs][subdir] = contrib
-
-libraries[respondjs][download][type] = get
-libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
-
-; Bundle a Few Panopoly Approved Themes
-
-projects[responsive_bartik][version] = 1.0-beta2
-projects[responsive_bartik][type] = theme
-
-; projects[radix][version] = 1.x-dev
-; projects[radix][type] = theme
-; projects[radix][download][type] = git
-; projects[radix][download][revision] = b873330
-; projects[radix][download][branch] = 7.x-1.x
-
-;================================================================
-; Libraries
-;================================================================
-
-libraries[easyResponsiveTabs][download][type] = get
-libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/5c346ab52c8633eb1c10f2a27e6a6537797a87eb/js/easyResponsiveTabs.js
-
-libraries[tmhOAuth][download][type] = git
-libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
-libraries[tmhOAuth][download][tag] = 0.8.2
