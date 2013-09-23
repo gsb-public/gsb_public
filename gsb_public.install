@@ -1444,3 +1444,13 @@ function gsb_public_update_7062() {
     module_enable(array('menu_attributes'));
   }
 }
+
+/**
+ * Disable Unneeded modules
+ */
+function gsb_public_update_7063() {
+  $modules = array('panopoly_admin', 'panopoly_core', 'panopoly_theme', 'apps');
+  module_disable($modules, 'FALSE');
+  drupal_uninstall_modules($modules, 'FALSE');
+}
+
