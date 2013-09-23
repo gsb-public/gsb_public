@@ -486,10 +486,6 @@ projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][2013130] = http://drupal.org/files/breadcrumbs_by_path-add_missing_breadcrumb_paths-2013130.patch
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
 
-; [mark for removal] - May not be needed because it's used for navbar. Need to disable it in production first.
-projects[breakpoints][version] = 1.1
-projects[breakpoints][subdir] = contrib
-
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
