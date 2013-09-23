@@ -446,10 +446,6 @@ projects[addressfield][subdir] = contrib
 projects[addthis][version] = 4.0-alpha2
 projects[addthis][subdir] = contrib
 
-projects[admin][version] = 2.0-beta3
-projects[admin][subdir] = contrib
-projects[admin][patch][1334804] = http://drupal.org/files/1334804-admin-jquery-updated-6.patch
-
 projects[admin_menu][version] = 3.0-rc4
 projects[admin_menu][subdir] = contrib
 
