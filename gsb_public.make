@@ -489,17 +489,17 @@ projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcr
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
-projects[concat_field][version] = 1.x-dev
-projects[concat_field][subdir] = contrib
-projects[concat_field][download][type] = git
-projects[concat_field][download][revision] = 450acb25
-projects[concat_field][download][branch] = 7.x-1.x
-
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
 projects[computed_field][download][type] = git
 projects[computed_field][download][revision] = 4380d90
 projects[computed_field][download][branch] = 7.x-1.x
+
+projects[concat_field][version] = 1.x-dev
+projects[concat_field][subdir] = contrib
+projects[concat_field][download][type] = git
+projects[concat_field][download][revision] = 450acb25
+projects[concat_field][download][branch] = 7.x-1.x
 
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
@@ -591,11 +591,11 @@ projects[field_collection][patch][1807460] = http://drupal.org/files/field_colle
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[file_entity][version] = 2.0-alpha2
-projects[file_entity][subdir] = contrib
-
 projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
+
+projects[file_entity][version] = 2.0-alpha2
+projects[file_entity][subdir] = contrib
 
 projects[google_analytics][version] = 1.3
 projects[google_analytics][subdir] = contrib
