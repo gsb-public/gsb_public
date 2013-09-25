@@ -313,6 +313,14 @@ projects[gsb_feature_people_fpp][download][url] = git@github.com:gsbitse/gsb_fea
 projects[gsb_feature_people_fpp][download][tag] = 1.1
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
+; GSB PhD Candidate Content Type
+
+projects[gsb_feature_phd_candidate_ct][type] = module
+projects[gsb_feature_phd_candidate_ct][download][type] = git
+projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
+projects[gsb_feature_phd_candidate_ct][download][branch] = WP-2052
+projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
+
 ; GSB Quote FPP
 projects[gsb_feature_quote_fpp][type] = module
 projects[gsb_feature_quote_fpp][download][type] = git
