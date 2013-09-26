@@ -2,8 +2,10 @@
 
 function _gsb_public_setup_roles() {
   //We need both of these to get ther permissions right.
-  features_flush_caches();
-  drupal_static_reset();
+
+  //features_flush_caches();
+  features_revert_module('gsb_feature_page_ct');
+  drupal_static_reset('panelizer_entity_plugin_get_handler');
 
   // Create an administrator role
 
