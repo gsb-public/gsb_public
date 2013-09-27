@@ -428,9 +428,6 @@ projects[gsb_theme_admin][download][type] = git
 projects[gsb_theme_admin][download][url] = git@github.com:gsbitse/gsb_theme_admin.git
 projects[gsb_theme_admin][download][tag] = 1.0
 
-projects[responsive_bartik][version] = 1.0-beta2
-projects[responsive_bartik][type] = theme
-
 
 ;========================================
 ;  Additional Contrib Modules
@@ -451,11 +448,6 @@ projects[admin_menu][subdir] = contrib
 
 projects[admin_views][version] = 1.2
 projects[admin_views][subdir] = contrib
-
-;[mark for removal] - need to remove panopoly admin first.
-projects[apps][version] = 1.0-beta7
-projects[apps][subdir] = contrib
-projects[apps][patch][1790902] = http://drupal.org/files/1790902-check-last-modified-existing.patch
 
 projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
@@ -788,29 +780,9 @@ projects[workbench_moderation][subdir] = contrib
 ;  Panopoly Features
 ;=========================================
 
-projects[panopoly_admin][version] = 1.x-dev
-projects[panopoly_admin][subdir] = panopoly
-projects[panopoly_admin][download][type] = git
-projects[panopoly_admin][download][revision] = f4cbdaa
-projects[panopoly_admin][download][branch] = 7.x-1.x
-projects[panopoly_admin][patch][remove-file-entity-permissions] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-file-entity-permissions-2.patch
-projects[panopoly_admin][patch][remove-pathauto-changes] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-pathauto-changes.patch
-
-projects[panopoly_core][version] = 1.x-dev
-projects[panopoly_core][subdir] = panopoly
-projects[panopoly_core][download][type] = git
-projects[panopoly_core][download][revision] = 68d38ad
-projects[panopoly_core][download][branch] = 7.x-1.x
-
 projects[panopoly_magic][version] = 1.x-dev
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
 projects[panopoly_magic][download][revision] = 7dc1a5e
 projects[panopoly_magic][download][branch] = 7.x-1.x
-
-projects[panopoly_theme][version] = 1.x-dev
-projects[panopoly_theme][subdir] = panopoly
-projects[panopoly_theme][download][type] = git
-projects[panopoly_theme][download][revision] = 3451629
-projects[panopoly_theme][download][branch] = 7.x-1.x
 
