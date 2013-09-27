@@ -1516,8 +1516,8 @@ function gsb_public_update_7065() {
  * Enable PhD Candidates module
  */
 function gsb_public_update_7066() {
-  if (!module_exists('gsb_feature_phd_candidates_ct')) {
-    module_enable(array('gsb_feature_phd_candidates_ct'));
+  if (!module_exists('gsb_feature_phd_candidate_ct')) {
+    module_enable(array('gsb_feature_phd_candidate_ct'));
   }
 }
 
