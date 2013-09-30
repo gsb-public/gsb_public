@@ -761,6 +761,9 @@ projects[views_autocomplete_filters][subdir] = contrib
 projects[views_bulk_operations][version] = 3.1
 projects[views_bulk_operations][subdir] = contrib
 
+projects[views_field_view][version] = 1.1
+projects[views_field_view][subdir] = contrib
+
 ; Load more functionality for views
 projects[views_load_more][type] = module
 projects[views_load_more][download][type] = git
