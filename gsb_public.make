@@ -160,7 +160,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 1.0
+projects[gsb_feature_base_fields][download][branch] = WP-2052
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Club
@@ -312,6 +312,22 @@ projects[gsb_feature_people_fpp][download][type] = git
 projects[gsb_feature_people_fpp][download][url] = git@github.com:gsbitse/gsb_feature_people_fpp.git
 projects[gsb_feature_people_fpp][download][tag] = 1.1
 projects[gsb_feature_people_fpp][subdir] = custom/features
+
+; GSB PhD Candidate Content Type
+
+projects[gsb_feature_phd_candidate_ct][type] = module
+projects[gsb_feature_phd_candidate_ct][download][type] = git
+projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
+projects[gsb_feature_phd_candidate_ct][download][branch] = WP-2052
+projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
+
+; GSB PhD Candidate Display
+
+projects[gsb_feature_phd_candidate_display][type] = module
+projects[gsb_feature_phd_candidate_display][download][type] = git
+projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
+projects[gsb_feature_phd_candidate_display][download][branch] = WP-2064
+projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
 ; GSB Quote FPP
 projects[gsb_feature_quote_fpp][type] = module
