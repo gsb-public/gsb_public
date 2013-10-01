@@ -1454,3 +1454,30 @@ function gsb_public_update_7063() {
   drupal_uninstall_modules($modules, 'FALSE');
 }
 
+/**
+ * Insert 'Metals & Mining' term into 'Industry' vocab.
+ */
+function gsb_public_update_7064() {
+  $fields = array(
+    'tid' => '10743',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '10743',
+    'vid' => 146,
+    'name' => 'Metals & Mining',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '239dfac9-4072-4186-93af-7c7ca565e404',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+}
+
+
