@@ -1454,9 +1454,68 @@ function gsb_public_update_7063() {
 }
 
 /**
- * Enable PhD Candidates module
+ * Insert 'Metals & Mining' term into 'Industry' vocab.
  */
 function gsb_public_update_7064() {
+  $fields = array(
+    'tid' => '10743',
+    'parent' => 0,
+  );
+  db_insert('taxonomy_term_hierarchy')
+    ->fields($fields)
+    ->execute();
+
+  $fields = array(
+    'tid' => '10743',
+    'vid' => 146,
+    'name' => 'Metals & Mining',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 0,
+    'uuid' => '239dfac9-4072-4186-93af-7c7ca565e404',
+  );
+  db_insert('taxonomy_term_data')
+    ->fields($fields)
+    ->execute();
+}
+
+/**
+ * Insert SIGM and Ignite into departments
+ */
+function gsb_public_update_7065() {
+  $query = db_insert('taxonomy_term_hierarchy')->fields(array('tid', 'parent'));
+  $query->values(array('tid' => '10219', 'parent' => 0));
+  $query->values(array('tid' => '10220', 'parent' => 0));
+  $query->execute();
+
+
+  $query = db_insert('taxonomy_term_data')->fields(array('tid', 'vid', 'name', 'description', 'format', 'weight', 'uuid'));
+  $query->values(array(
+    'tid' => '10219',
+    'vid' => 126,
+    'name' => 'Ignite Admissions',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 4,
+    'uuid' => 'be12f903-a926-46d2-9208-fca66f1b8414',
+  ));
+  $query->values(array(
+    'tid' => '10220',
+    'vid' => 126,
+    'name' => 'SIGM Admissions',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 5,
+    'uuid' => '1123ec56-425a-4395-bd6c-2d2e0526a756',
+  ));
+
+  $query->execute();
+}
+
+/**
+ * Enable PhD Candidates module
+ */
+function gsb_public_update_7066() {
   if (!module_exists('gsb_feature_phd_candidate_ct')) {
     module_enable(array('gsb_feature_phd_candidate_ct'));
   }
@@ -1465,7 +1524,7 @@ function gsb_public_update_7064() {
 /**
  * Enable PHD Candidates Display Module.
  */
-function gsb_public_update_7065() {
+function gsb_public_update_7067() {
   if (!module_exists('gsb_feature_phd_candidate_display')) {
     module_enable(array('gsb_feature_phd_candidate_display'));
   }  
@@ -1477,7 +1536,7 @@ function gsb_public_update_7065() {
 /** 
  * Update authenticated user permissions for edit own phd candidate 
  */
-function gsb_public_update_7066() {
+function gsb_public_update_7068() {
   // Get the authenticated user role
   $authenticated_user = user_role_load_by_name('authenticated user');
 
@@ -1494,7 +1553,7 @@ function gsb_public_update_7066() {
 /**
  * Enable simple_field_formatter module.
  */
-function gsb_public_update_7067() {
+function gsb_public_update_7069() {
   if (!module_exists('simple_field_formatter')) {
     module_enable(array('simple_field_formatter'));
   }
@@ -1503,7 +1562,7 @@ function gsb_public_update_7067() {
 /**
  * Enable new two digit date format.
  */
-function gsb_public_update_7068() {
+function gsb_public_update_7070() {
   // Insert custom format: 11
   db_insert('date_formats')
     ->fields(array('format' => 'y', 'type' => 'custom', 'locked' => 0))
