@@ -1521,3 +1521,14 @@ function gsb_public_update_7066() {
   }
 }
 
+/**
+ * Enable PHD Candidates Display Module.
+ */
+function gsb_public_update_7065() {
+  if (!module_exists('gsb_feature_phd_candidate_display')) {
+    module_enable(array('gsb_feature_phd_candidate_display'));
+  }  
+  if (!module_exists('views_field_view')) {
+    module_enable(array('views_field_view'));
+  }  
+}
