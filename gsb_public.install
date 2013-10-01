@@ -1454,3 +1454,17 @@ function gsb_public_update_7063() {
   drupal_uninstall_modules($modules, 'FALSE');
 }
 
+/**
+ * Enable PhD Candidates module
+ */
+function gsb_public_update_7064() {
+  if (!module_exists('gsb_feature_phd_candidate_ct')) {
+    module_enable(array('gsb_feature_phd_candidate_ct'));
+  }
+  if (!module_exists('gsb_feature_phd_candidate_display')) {
+    module_enable(array('gsb_feature_phd_candidate_display'));
+  }  
+  if (!module_exists('views_field_view')) {
+    module_enable(array('views_field_view'));
+  }  
+}
