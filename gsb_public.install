@@ -1480,4 +1480,35 @@ function gsb_public_update_7064() {
     ->execute();
 }
 
+/**
+ * Insert SIGM and Ignite into departments
+ */
+function gsb_public_update_7065() {
+  $query = db_insert('taxonomy_term_hierarchy')->fields(array('tid', 'parent'));
+  $query->values(array('tid' => '10219', 'parent' => 0));
+  $query->values(array('tid' => '10220', 'parent' => 0));
+  $query->execute();
 
+
+  $query = db_insert('taxonomy_term_data')->fields(array('tid', 'vid', 'name', 'description', 'format', 'weight', 'uuid'));
+  $query->values(array(
+    'tid' => '10219',
+    'vid' => 126,
+    'name' => 'Ignite Admissions',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 4,
+    'uuid' => 'be12f903-a926-46d2-9208-fca66f1b8414',
+  ));
+  $query->values(array(
+    'tid' => '10220',
+    'vid' => 126,
+    'name' => 'SIGM Admissions',
+    'description' => NULL,
+    'format' => NULL,
+    'weight' => 5,
+    'uuid' => '1123ec56-425a-4395-bd6c-2d2e0526a756',
+  ));
+
+  $query->execute();
+}
