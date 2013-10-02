@@ -1488,7 +1488,6 @@ function gsb_public_update_7065() {
   $query->values(array('tid' => '10220', 'parent' => 0));
   $query->execute();
 
-
   $query = db_insert('taxonomy_term_data')->fields(array('tid', 'vid', 'name', 'description', 'format', 'weight', 'uuid'));
   $query->values(array(
     'tid' => '10219',
