@@ -51,7 +51,7 @@ projects[gsb_public_custom_blocks][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsbitse/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 1.0
+projects[gsb_field_formatter][download][branch] = WP-2069
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB FPP Customization
@@ -318,7 +318,7 @@ projects[gsb_feature_people_fpp][subdir] = custom/features
 projects[gsb_feature_phd_candidate_ct][type] = module
 projects[gsb_feature_phd_candidate_ct][download][type] = git
 projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
-projects[gsb_feature_phd_candidate_ct][download][branch] = release-1.0
+projects[gsb_feature_phd_candidate_ct][download][branch] = WP-2069
 projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB Quote FPP
