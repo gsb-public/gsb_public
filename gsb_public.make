@@ -734,6 +734,13 @@ projects[respondjs][subdir] = contrib
 libraries[respondjs][download][type] = get
 libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
 
+; Used for responsive tables.
+libraries[responsive-tables][download][type] = git
+libraries[responsive-tables][download][url] = git@github.com:zurb/responsive-tables.git
+libraries[responsive-tables][download][revision] = 0d34bc64df
+libraries[responsive-tables][patch][remove-table-styles] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-table-styles.patch
+libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/drupalize-js.patch
+
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
