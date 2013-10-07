@@ -1455,24 +1455,22 @@ function gsb_public_update_7063() {
 }
 
 /**
- * Update authen user permissions for edit own phd candidate 
+ * Update authen user permissions for 
+ *  edit own phd candidate
+ *  and view the administration theme
  */
 function gsb_public_update_7064() {
 
   // Get the authenticated user role
-
   $authenticated_user = user_role_load_by_name('authenticated user');
 
   $authenticated_user_permissions = array(
-
     // edit own permission for phd candidate content type
-
-    'edit own phd_candidate content',  
-
+    'edit own phd_candidate content',
+    'view the administration theme',
   );
 
   // Update authenticated user role permissions
-
   user_role_grant_permissions($authenticated_user->rid, $authenticated_user_permissions);
 
 }
