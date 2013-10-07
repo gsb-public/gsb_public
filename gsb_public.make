@@ -726,6 +726,9 @@ projects[respondjs][subdir] = contrib
 libraries[respondjs][download][type] = get
 libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
 
+projects[simple_field_formatter][version] = 2.0-beta1
+projects[simple_field_formatter][subdir] = contrib
+
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
