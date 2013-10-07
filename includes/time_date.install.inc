@@ -19,6 +19,11 @@ function _gsb_public_setup_time_date() {
     ->fields(array('format' => 'Y', 'type' => 'custom', 'locked' => 0))
     ->execute();
 
+  // Insert custom format: 11
+  db_insert('date_formats')
+    ->fields(array('format' => 'y', 'type' => 'custom', 'locked' => 0))
+    ->execute();
+
   // Insert custom format: November 25, 2011
   db_insert('date_formats')
     ->fields(array('format' => 'F j, Y', 'type' => 'custom', 'locked' => 0))
@@ -73,6 +78,11 @@ function _gsb_public_setup_time_date() {
   db_insert('date_format_type')
     ->fields(array('type' => 'year', 'title' => 'Year', 'locked' => 0))
     ->execute();
+    
+  // Insert custom format: 11
+  db_insert('date_format_type')
+    ->fields(array('type' => 'two_digit_year', 'title' => 'Two digit year format', 'locked' => 0))
+    ->execute();    
 
   // Insert custom format: 2:45pm
   db_insert('date_format_type')
@@ -103,6 +113,9 @@ function _gsb_public_setup_time_date() {
 
   // Date Year Format
   $variables['date_format_year'] = 'Y';
+  
+  // Date Two Digit Year Format
+  $variables['date_format_two_digit_year'] = 'y';  
 
   // Date Time Format
   $variables['date_format_time_only'] = 'g:ia';
