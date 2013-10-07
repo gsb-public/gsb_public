@@ -517,19 +517,15 @@ function _gsb_public_setup_roles() {
   user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);
 
   // Get the authenticated user role
-
   $authenticated_user = user_role_load_by_name('authenticated user');
 
   $authenticated_user_permissions = array(
-
     // edit own permission for phd candidate content type
-
     'edit own phd_candidate content',  
-
+    'view the administration theme',
   );
 
   // Update authenticated user role permissions
-
   user_role_grant_permissions($authenticated_user->rid, $authenticated_user_permissions);
 
 }
