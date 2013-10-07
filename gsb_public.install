@@ -1543,6 +1543,7 @@ function gsb_public_update_7066() {
   $authenticated_user_permissions = array(
     // edit own permission for phd candidate content type
     'edit own phd_candidate content',
+    'view the administration theme',
   );
 
   // Update authenticated user role permissions
