@@ -1490,3 +1490,12 @@ function gsb_public_update_7066() {
   user_role_grant_permissions($authenticated_user->rid, $authenticated_user_permissions);
 }
 
+/**
+ * Enable simple_field_formatter module.
+ */
+function gsb_public_update_7067() {
+  if (!module_exists('simple_field_formatter')) {
+    module_enable(array('simple_field_formatter'));
+  }
+}
+
