@@ -58,7 +58,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 1.1
+projects[gsb_fpp_customization][download][tag] = 1.2
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -200,7 +200,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 1.3
+projects[gsb_feature_event_display][download][tag] = 1.4
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -270,7 +270,7 @@ projects[gsb_feature_links_fpp][subdir] = custom/features
 projects[gsb_feature_house_ads_fpp][type] = module
 projects[gsb_feature_house_ads_fpp][download][type] = git
 projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsbitse/gsb_feature_house_ads_fpp.git
-projects[gsb_feature_house_ads_fpp][download][branch] = release-1.1
+projects[gsb_feature_house_ads_fpp][download][tag] = 1.1
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
 ; GSB Features Mega Menu
