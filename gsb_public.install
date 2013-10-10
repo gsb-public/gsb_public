@@ -1515,15 +1515,6 @@ function gsb_public_update_7068() {
     ->execute();
 
   // Date Two Digit Year Format
-  $variables['date_format_two_digit_year'] = 'y';
-}
-
-
-/**
- * Enable set new two digit date format.
- */
-function gsb_public_update_7069() {
-  // Date Two Digit Year Format
   variable_set('date_format_two_digit_year', 'y');
 }
 
