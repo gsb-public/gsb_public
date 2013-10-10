@@ -1573,7 +1573,7 @@ function gsb_public_update_7070() {
     ->execute();
 
   // Date Two Digit Year Format
-  $variables['date_format_two_digit_year'] = 'y';
+  variable_set('date_format_two_digit_year', 'y');
 }
 
 /**
