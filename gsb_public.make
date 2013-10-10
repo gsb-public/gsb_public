@@ -128,7 +128,7 @@ projects[gsb_tokens][subdir] = custom
 projects[pathauto_title_alias][type] = module
 projects[pathauto_title_alias][download][type] = git
 projects[pathauto_title_alias][download][url] = git@github.com:gsbitse/pathauto_title_alias.git
-projects[pathauto_title_alias][download][tag] = 1.0
+projects[pathauto_title_alias][download][branch] = release-1.1
 projects[pathauto_title_alias][subdir] = custom
 
 ; SimpleSAML Auth
