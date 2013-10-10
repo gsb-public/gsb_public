@@ -174,7 +174,7 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsbitse/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][tag] = 1.1
+projects[gsb_feature_club_ct][download][branch] = release-1.2
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
