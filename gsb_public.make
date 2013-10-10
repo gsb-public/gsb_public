@@ -305,7 +305,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
 projects[gsb_feature_page_ct][download][url] = git@github.com:gsbitse/gsb_feature_page_ct.git
-projects[gsb_feature_page_ct][download][tag] = 1.0
+projects[gsb_feature_page_ct][download][branch] = release-1.1
 projects[gsb_feature_page_ct][subdir] = custom/features
 
 projects[gsb_feature_people_display][type] = module
