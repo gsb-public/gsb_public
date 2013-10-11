@@ -733,9 +733,6 @@ projects[respondjs][subdir] = contrib
 libraries[respondjs][download][type] = get
 libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarball/master
 
-projects[simple_field_formatter][version] = 2.0-beta1
-projects[simple_field_formatter][subdir] = contrib
-
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
@@ -812,4 +809,3 @@ projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
 projects[panopoly_magic][download][revision] = 7dc1a5e
 projects[panopoly_magic][download][branch] = 7.x-1.x
-

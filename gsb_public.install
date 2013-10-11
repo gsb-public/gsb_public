@@ -1526,14 +1526,14 @@ function gsb_public_update_7066() {
 function gsb_public_update_7067() {
   if (!module_exists('gsb_feature_phd_candidate_display')) {
     module_enable(array('gsb_feature_phd_candidate_display'));
-  }  
+  }
   if (!module_exists('views_field_view')) {
     module_enable(array('views_field_view'));
-  }  
+  }
 }
 
-/** 
- * Update authenticated user permissions for edit own phd candidate 
+/**
+ * Update authenticated user permissions for edit own phd candidate
  */
 function gsb_public_update_7068() {
   // Get the authenticated user role
@@ -1550,18 +1550,9 @@ function gsb_public_update_7068() {
 }
 
 /**
- * Enable simple_field_formatter module.
- */
-function gsb_public_update_7069() {
-  if (!module_exists('simple_field_formatter')) {
-    module_enable(array('simple_field_formatter'));
-  }
-}
-
-/**
  * Enable new two digit date format.
  */
-function gsb_public_update_7070() {
+function gsb_public_update_7069() {
   // Insert custom format: 11
   db_insert('date_formats')
     ->fields(array('format' => 'y', 'type' => 'custom', 'locked' => 0))
@@ -1579,9 +1570,8 @@ function gsb_public_update_7070() {
 /**
  * Enable gsb_custom_section_title module.
  */
-function gsb_public_update_7071() {
+function gsb_public_update_7070() {
   if (!module_exists('gsb_custom_section_title')) {
     module_enable(array('gsb_custom_section_title'));
   }
 }
-
