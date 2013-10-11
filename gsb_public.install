@@ -1575,3 +1575,18 @@ function gsb_public_update_7070() {
     module_enable(array('gsb_custom_section_title'));
   }
 }
+
+/**
+ * Enable cmis related modules.
+ */
+function gsb_public_update_7071() {
+  if (!module_exists('cmis')) {
+    module_enable(array('cmis'));
+  }
+  if (!module_exists('cmis_common')) {
+    module_enable(array('cmis_common'));
+  }  
+  if (!module_exists('gsb_cmis_test')) {
+    module_enable(array('gsb_cmis_test'));
+  }
+}
