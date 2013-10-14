@@ -44,7 +44,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_cmis_test][type] = module
 projects[gsb_cmis_test][download][type] = git
 projects[gsb_cmis_test][download][url] = git@github.com:gsbitse/gsb_cmis_test.git
-projects[gsb_cmis_test][download][branch] = WP-2145
+projects[gsb_cmis_test][download][branch] = WP-2161
 projects[gsb_cmis_test][subdir] = custom
 
 ; GSB Custom Section Title
