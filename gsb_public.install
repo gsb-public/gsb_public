@@ -1575,3 +1575,12 @@ function gsb_public_update_7070() {
     module_enable(array('gsb_custom_section_title'));
   }
 }
+
+/**
+ * Enable zurb_responsive_tables.
+ */
+function gsb_public_update_7072() {
+  if (!module_exists('zurb_responsive_tables')) {
+    module_enable(array('zurb_responsive_tables'));
+  }
+}
