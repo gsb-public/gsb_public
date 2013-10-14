@@ -1590,3 +1590,12 @@ function gsb_public_update_7071() {
     module_enable(array('gsb_cmis_test'));
   }
 }
+
+/**
+ * Enable zurb_responsive_tables.
+ */
+function gsb_public_update_7072() {
+  if (!module_exists('zurb_responsive_tables')) {
+    module_enable(array('zurb_responsive_tables'));
+  }
+}

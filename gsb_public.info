@@ -102,6 +102,7 @@ dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_tokens
 dependencies[] = pathauto_title_alias
 dependencies[] = simplesaml_auth
+dependencies[] = zurb_responsive_tables
 
 ; GSB Features
 dependencies[] = gsb_feature_academic_calendar_ct

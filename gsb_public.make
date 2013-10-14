@@ -145,6 +145,13 @@ projects[simplesaml_auth][download][url] = git@github.com:gsbitse/simplesaml_aut
 projects[simplesaml_auth][download][tag] = 1.0
 projects[simplesaml_auth][subdir] = custom
 
+; Zurb Responsive Tables
+projects[zurb_responsive_tables][type] = module
+projects[zurb_responsive_tables][download][type] = git
+projects[zurb_responsive_tables][download][url] = git@github.com:gsbitse/zurb_responsive_tables.git
+projects[zurb_responsive_tables][download][branch] = release-1.0
+projects[zurb_responsive_tables][subdir] = custom
+
 ;=======================================
 ;  GSB Features
 ;=======================================
