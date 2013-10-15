@@ -27,6 +27,7 @@ function gsb_public_install() {
     'media',
     'menu',
     'blocks',
+    'breadcrumbs_by_path',
     'fancybox',
     'login_destination',
     'acquia',
