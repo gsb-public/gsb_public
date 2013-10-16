@@ -27,6 +27,7 @@ function gsb_public_install() {
     'media',
     'menu',
     'blocks',
+    'breadcrumbs_by_path',
     'fancybox',
     'login_destination',
     'acquia',
@@ -1584,3 +1585,10 @@ function gsb_public_update_7072() {
     module_enable(array('zurb_responsive_tables'));
   }
 }
+
+/**
+ * Set variable breadcrumbs_by_path_current_title to 1.
+ */
+function gsb_public_update_7073() {
+  variable_set('breadcrumbs_by_path_current_title', 1);
+} 
