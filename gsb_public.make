@@ -318,7 +318,7 @@ projects[gsb_feature_page_ct][subdir] = custom/features
 projects[gsb_feature_people_display][type] = module
 projects[gsb_feature_people_display][download][type] = git
 projects[gsb_feature_people_display][download][url] = git@github.com:gsbitse/gsb_feature_people_display.git
-projects[gsb_feature_people_display][download][tag] = 1.0
+projects[gsb_feature_people_display][download][branch] = 1.1
 projects[gsb_feature_people_display][subdir] = custom/features
 
 projects[gsb_feature_people_fpp][type] = module
