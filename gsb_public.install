@@ -1592,3 +1592,11 @@ function gsb_public_update_7072() {
 function gsb_public_update_7073() {
   variable_set('breadcrumbs_by_path_current_title', 1);
 } 
+
+/**
+ * Set variable breadcrumbs_by_path variables
+ */
+function gsb_public_update_7074() {
+  variable_set('breadcrumbs_by_path_current_title', 1);
+  variable_set('breadcrumbs_by_path_exclude_paths', '<front>');
+} 
