@@ -256,7 +256,7 @@ projects[gsb_feature_google_analytics_settings][subdir] = custom/features
 projects[gsb_feature_gsa_search][type] = module
 projects[gsb_feature_gsa_search][download][type] = git
 projects[gsb_feature_gsa_search][download][url] = git@github.com:gsbitse/gsb_feature_gsa_search.git
-projects[gsb_feature_gsa_search][download][tag] = 1.0
+projects[gsb_feature_gsa_search][download][branch] = release-1.1
 projects[gsb_feature_gsa_search][subdir] = custom/features
 
 ; GSB Features Image CTA Fpp
