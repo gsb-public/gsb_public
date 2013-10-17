@@ -636,6 +636,7 @@ projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-
 
 projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
+projects[libraries][patch][1938638] = https://drupal.org/files/libraries-undefined-index-foo.patch
 
 projects[link][version] = 1.1
 projects[link][subdir] = contrib
