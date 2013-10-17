@@ -345,7 +345,7 @@ projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 projects[gsb_feature_quote_fpp][type] = module
 projects[gsb_feature_quote_fpp][download][type] = git
 projects[gsb_feature_quote_fpp][download][url] = git@github.com:gsbitse/gsb_feature_quote_fpp.git
-projects[gsb_feature_quote_fpp][download][tag] = 1.0
+projects[gsb_feature_quote_fpp][download][branch] = release-1.1
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
