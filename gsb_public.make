@@ -284,7 +284,7 @@ projects[gsb_feature_links_fpp][subdir] = custom/features
 projects[gsb_feature_house_ads_fpp][type] = module
 projects[gsb_feature_house_ads_fpp][download][type] = git
 projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsbitse/gsb_feature_house_ads_fpp.git
-projects[gsb_feature_house_ads_fpp][download][tag] = 1.1
+projects[gsb_feature_house_ads_fpp][download][branch] = 1.2
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
 ; GSB Features Mega Menu
