@@ -194,14 +194,14 @@ projects[gsb_feature_club_display][subdir] = custom/features
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
 projects[gsb_feature_cta][download][url] = git@github.com:gsbitse/gsb_feature_cta.git
-projects[gsb_feature_cta][download][tag] = 1.0
+projects[gsb_feature_cta][download][branch] = release-1.1
 projects[gsb_feature_cta][subdir] = custom/features
 
 ; GSB Feature Diptych FPP
 projects[gsb_feature_diptych_fpp][type] = module
 projects[gsb_feature_diptych_fpp][download][type] = git
 projects[gsb_feature_diptych_fpp][download][url] = git@github.com:gsbitse/gsb_feature_diptych_fpp.git
-projects[gsb_feature_diptych_fpp][download][tag] = 1.0
+projects[gsb_feature_diptych_fpp][download][branch] = release-1.1
 projects[gsb_feature_diptych_fpp][subdir] = custom/features
 
 ; GSB Feature Event
