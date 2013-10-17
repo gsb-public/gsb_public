@@ -394,7 +394,7 @@ projects[gsb_feature_toolbar][subdir] = custom/features
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
 projects[gsb_feature_text_fpp][download][url] = git@github.com:gsbitse/gsb_feature_text_fpp.git
-projects[gsb_feature_text_fpp][download][tag] = 1.0
+projects[gsb_feature_text_fpp][download][branch] = release-1.1
 projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
