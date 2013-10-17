@@ -401,7 +401,7 @@ projects[gsb_feature_text_fpp][subdir] = custom/features
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
 projects[gsb_feature_video][download][url] = git@github.com:gsbitse/gsb_feature_video.git
-projects[gsb_feature_video][download][tag] = 1.1
+projects[gsb_feature_video][download][branch] = 1.2
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
