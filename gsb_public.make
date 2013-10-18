@@ -284,14 +284,14 @@ projects[gsb_feature_links_fpp][subdir] = custom/features
 projects[gsb_feature_house_ads_fpp][type] = module
 projects[gsb_feature_house_ads_fpp][download][type] = git
 projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsbitse/gsb_feature_house_ads_fpp.git
-projects[gsb_feature_house_ads_fpp][download][branch] = 1.2
+projects[gsb_feature_house_ads_fpp][download][branch] = release-1.2
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
 ; GSB Features Mega Menu
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][branch] = 1.2
+projects[gsb_feature_mega_menu][download][branch] = release-1.2
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
@@ -318,7 +318,7 @@ projects[gsb_feature_page_ct][subdir] = custom/features
 projects[gsb_feature_people_display][type] = module
 projects[gsb_feature_people_display][download][type] = git
 projects[gsb_feature_people_display][download][url] = git@github.com:gsbitse/gsb_feature_people_display.git
-projects[gsb_feature_people_display][download][branch] = 1.1
+projects[gsb_feature_people_display][download][branch] = release-1.1
 projects[gsb_feature_people_display][subdir] = custom/features
 
 projects[gsb_feature_people_fpp][type] = module
@@ -401,14 +401,14 @@ projects[gsb_feature_text_fpp][subdir] = custom/features
 projects[gsb_feature_video][type] = module
 projects[gsb_feature_video][download][type] = git
 projects[gsb_feature_video][download][url] = git@github.com:gsbitse/gsb_feature_video.git
-projects[gsb_feature_video][download][branch] = 1.2
+projects[gsb_feature_video][download][branch] = release-1.2
 projects[gsb_feature_video][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsbitse/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 1.0
+projects[gsb_feature_webform_ct][download][branch] = release-1.1
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
