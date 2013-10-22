@@ -640,7 +640,8 @@ projects[libraries][patch][1938638] = https://drupal.org/files/libraries-undefin
 
 projects[link][version] = 1.1
 projects[link][subdir] = contrib
-projects[link][patch][2117099] = https://drupal.org/files/link-2117099-1.patch
+projects[link][patch][2117099] = https://drupal.org/files/link-2117099-2.patch
+projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
