@@ -100,7 +100,7 @@ projects[gsb_panels_ipe_overrides][subdir] = custom
 projects[gsb_panels_pages][type] = module
 projects[gsb_panels_pages][download][type] = git
 projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pages.git
-projects[gsb_panels_pages][download][tag] = 1.0
+projects[gsb_panels_pages][download][branch] = release-2.0
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Panopoly Magic Customization
@@ -208,13 +208,13 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 1.2
+projects[gsb_feature_event_ct][download][branch] = release-2.0
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 1.5
+projects[gsb_feature_event_display][download][branch] = release-2.0
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -448,7 +448,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][tag] = 1.4
+projects[gsb_theme][download][branch] = release-2.0
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
