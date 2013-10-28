@@ -58,7 +58,7 @@ projects[gsb_public_custom_blocks][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsbitse/gsb_field_formatter.git
-projects[gsb_field_formatter][download][branch] = release-2.0
+projects[gsb_field_formatter][download][tag] = 2.0
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB FPP Customization
@@ -174,7 +174,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-2.0
+projects[gsb_feature_base_fields][download][tag] = 2.0
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Club
@@ -331,7 +331,7 @@ projects[gsb_feature_people_fpp][subdir] = custom/features
 projects[gsb_feature_phd_candidate_ct][type] = module
 projects[gsb_feature_phd_candidate_ct][download][type] = git
 projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
-projects[gsb_feature_phd_candidate_ct][download][branch] = release-2.0
+projects[gsb_feature_phd_candidate_ct][download][tag] = 2.0
 projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB PhD Candidate Display
