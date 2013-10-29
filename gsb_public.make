@@ -128,7 +128,7 @@ projects[gsb_panopoly_magic_customization][subdir] = custom
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
 projects[gsb_section_autoconfig][download][url] = git@github.com:gsbitse/gsb_section_autoconfig.git
-projects[gsb_section_autoconfig][download][tag] = 1.0
+projects[gsb_section_autoconfig][download][branch] = release-2.0
 projects[gsb_section_autoconfig][subdir] = custom
 
 ; GSB Tokens
@@ -277,7 +277,7 @@ projects[gsb_feature_gsa_search][subdir] = custom/features
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
 projects[gsb_feature_image_cta_fpp][download][url] = git@github.com:gsbitse/gsb_feature_image_cta_fpp.git
-projects[gsb_feature_image_cta_fpp][download][tag] = 1.1
+projects[gsb_feature_image_cta_fpp][download][branch] = release-2.0
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Image Styles
