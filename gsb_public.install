@@ -1600,3 +1600,13 @@ function gsb_public_update_7074() {
   variable_set('breadcrumbs_by_path_current_title', 1);
   variable_set('breadcrumbs_by_path_exclude_paths', '<front>');
 } 
+
+/**
+ * Enable gsb_feature_image_fpp.
+ */
+function gsb_public_update_7075() {
+  if (!module_exists('gsb_feature_image_fpp')) {
+    module_enable(array('gsb_feature_image_fpp'));
+  }
+}
+
