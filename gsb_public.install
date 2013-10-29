@@ -1602,20 +1602,30 @@ function gsb_public_update_7074() {
 } 
 
 /**
- * Enable cmis related modules.
+ * Enable gsb_feature_image_fpp.
  */
 function gsb_public_update_7075() {
+  if (!module_exists('gsb_feature_image_fpp')) {
+    module_enable(array('gsb_feature_image_fpp'));
+  }
+}
+
+/**
+ * Enable cmis related modules.
+ */
+function gsb_public_update_7076() {
   if (!module_exists('cmis')) {
     module_enable(array('cmis'));
   }
   if (!module_exists('cmis_common')) {
     module_enable(array('cmis_common'));
-  }  
+  }
   if (!module_exists('gsb_cmis_api')) {
     module_enable(array('gsb_cmis_api'));
   }
   if (!module_exists('gsb_cmis_test')) {
     module_enable(array('gsb_cmis_test'));
-  }  
+  }
 }
+
 
