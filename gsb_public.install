@@ -1605,7 +1605,7 @@ function gsb_public_update_7074() {
  * Enable gsb_feature_image_fpp.
  */
 function gsb_public_update_7075() {
-  if (!module_exists('gsb_feature_image_fpp')) {
+if (!module_exists('gsb_feature_image_fpp')) {
     module_enable(array('gsb_feature_image_fpp'));
   }
 }
