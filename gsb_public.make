@@ -273,6 +273,13 @@ projects[gsb_feature_gsa_search][download][url] = git@github.com:gsbitse/gsb_fea
 projects[gsb_feature_gsa_search][download][tag] = 1.1
 projects[gsb_feature_gsa_search][subdir] = custom/features
 
+; GSB Features Image Fpp
+projects[gsb_feature_image_fpp][type] = module
+projects[gsb_feature_image_fpp][download][type] = git
+projects[gsb_feature_image_fpp][download][url] = git@github.com:gsbitse/gsb_feature_image_fpp.git
+projects[gsb_feature_image_fpp][download][tag] = WP-22434
+projects[gsb_feature_image_fpp][subdir] = custom/features
+
 ; GSB Features Image CTA Fpp
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
