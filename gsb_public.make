@@ -586,6 +586,7 @@ libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Ea
 
 projects[email][version] = 1.2
 projects[email][subdir] = contrib
+projects[email][patch][1346102] = https://drupal.org/files/edit_link_and_title_text-1346102-11.patch
 
 projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
