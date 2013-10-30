@@ -100,7 +100,7 @@ projects[gsb_fpp_xray][subdir] = custom
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
 projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_center.git
-projects[gsb_media_center][download][branch] = 2.0
+projects[gsb_media_center][download][branch] = release-2.0
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Panels IPE Overrides
@@ -359,7 +359,7 @@ projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 projects[gsb_feature_phd_candidate_display][type] = module
 projects[gsb_feature_phd_candidate_display][download][type] = git
 projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_display.git
-projects[gsb_feature_phd_candidate_display][download][branch] = 2.0
+projects[gsb_feature_phd_candidate_display][download][branch] = release-2.0
 projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
 ; GSB Quote FPP
