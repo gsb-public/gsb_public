@@ -1610,3 +1610,10 @@ function gsb_public_update_7075() {
   }
 }
 
+/**
+ * Enable syslog and disable dblog.
+ */
+function gsb_public_update_7076() {
+  module_disable(array('dblog'));
+  module_enable(array('syslog'));
+}

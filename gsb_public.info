@@ -4,7 +4,6 @@ version = VERSION
 core = 7.x
 
 ; Drupal Core
-dependencies[] = dblog
 dependencies[] = field
 dependencies[] = field_ui
 dependencies[] = file
@@ -17,6 +16,7 @@ dependencies[] = path
 dependencies[] = taxonomy
 dependencies[] = search
 dependencies[] = shortcut
+dependencies[] = syslog
 dependencies[] = update
 
 ; Panopoly Foundation
