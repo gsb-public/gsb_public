@@ -1637,12 +1637,6 @@ function gsb_public_update_7078() {
   if (!module_exists('cmis_common')) {
     module_enable(array('cmis_common'));
   }
-  if (!module_exists('gsb_cmis_api')) {
-    module_enable(array('gsb_cmis_api'));
-  }
-  if (!module_exists('gsb_cmis_test')) {
-    module_enable(array('gsb_cmis_test'));
-  }
 }
 
 /**
