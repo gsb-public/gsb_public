@@ -128,7 +128,7 @@ projects[gsb_panopoly_magic_customization][subdir] = custom
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
 projects[gsb_section_autoconfig][download][url] = git@github.com:gsbitse/gsb_section_autoconfig.git
-projects[gsb_section_autoconfig][download][tag] = 1.0
+projects[gsb_section_autoconfig][download][branch] = WP-2298
 projects[gsb_section_autoconfig][subdir] = custom
 
 ; GSB Tokens
