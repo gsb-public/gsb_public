@@ -774,6 +774,7 @@ projects[strongarm][subdir] = contrib
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git
+projects[telephone][download][url] = http://git.drupal.org/project/telephone.git
 projects[telephone][download][revision] = e91203f
 projects[telephone][download][branch] = 7.x-1.x
 
