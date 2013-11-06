@@ -65,14 +65,14 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-2.0
+projects[gsb_public_custom_blocks][download][tag] = 2.0
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsbitse/gsb_field_formatter.git
-projects[gsb_field_formatter][download][branch] = release-2.1
+projects[gsb_field_formatter][download][tag] = 2.1
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB FPP Customization
@@ -93,14 +93,14 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][branch] = release-2.0
+projects[gsb_fpp_xray][download][tag] = 2.0
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Media Center
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
 projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_center.git
-projects[gsb_media_center][download][branch] = release-2.0
+projects[gsb_media_center][download][tag] = 2.0
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Panels IPE Overrides
@@ -114,7 +114,7 @@ projects[gsb_panels_ipe_overrides][subdir] = custom
 projects[gsb_panels_pages][type] = module
 projects[gsb_panels_pages][download][type] = git
 projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pages.git
-projects[gsb_panels_pages][download][branch] = release-2.0
+projects[gsb_panels_pages][download][tag] = 2.0
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Panopoly Magic Customization
@@ -128,7 +128,7 @@ projects[gsb_panopoly_magic_customization][subdir] = custom
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
 projects[gsb_section_autoconfig][download][url] = git@github.com:gsbitse/gsb_section_autoconfig.git
-projects[gsb_section_autoconfig][download][branch] = release-2.0
+projects[gsb_section_autoconfig][download][tag] = 2.0
 projects[gsb_section_autoconfig][subdir] = custom
 
 ; GSB Tokens
@@ -167,7 +167,7 @@ projects[zurb_responsive_tables][subdir] = custom
 projects[gsb_feature_academic_calendar_ct][type] = module
 projects[gsb_feature_academic_calendar_ct][download][type] = git
 projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsbitse/gsb_feature_academic_calendar_ct.git
-projects[gsb_feature_academic_calendar_ct][download][branch] = release-2.0
+projects[gsb_feature_academic_calendar_ct][download][tag] = 2.0
 projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 
 ; GSB Features Academic Calendar Display
@@ -195,13 +195,13 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsbitse/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][branch] = release-2.0
+projects[gsb_feature_club_ct][download][tag] = 2.0
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][branch] = release-2.0
+projects[gsb_feature_club_display][download][tag] = 2.0
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Features CTA
@@ -222,13 +222,13 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][branch] = release-2.0
+projects[gsb_feature_event_ct][download][tag] = 2.0
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsbitse/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][branch] = release-2.0
+projects[gsb_feature_event_display][download][tag] = 2.0
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -249,14 +249,14 @@ projects[gsb_feature_faculty_ct][subdir] = custom/features
 projects[gsb_feature_faculty_display][type] = module
 projects[gsb_feature_faculty_display][download][type] = git
 projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gsb_feature_faculty_display.git
-projects[gsb_feature_faculty_display][download][branch] = release-2.0
+projects[gsb_feature_faculty_display][download][tag] = 2.0
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
 ; GSB Feature File Types
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsbitse/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][branch] = release-2.0
+projects[gsb_feature_file_types][download][tag] = 2.0
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Google Analytics Settings
@@ -277,21 +277,21 @@ projects[gsb_feature_gsa_search][subdir] = custom/features
 projects[gsb_feature_image_fpp][type] = module
 projects[gsb_feature_image_fpp][download][type] = git
 projects[gsb_feature_image_fpp][download][url] = git@github.com:gsbitse/gsb_feature_image_fpp.git
-projects[gsb_feature_image_fpp][download][branch] = release-2.0
+projects[gsb_feature_image_fpp][download][tag] = 2.0
 projects[gsb_feature_image_fpp][subdir] = custom/features
 
 ; GSB Features Image CTA Fpp
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
 projects[gsb_feature_image_cta_fpp][download][url] = git@github.com:gsbitse/gsb_feature_image_cta_fpp.git
-projects[gsb_feature_image_cta_fpp][download][branch] = release-2.0
+projects[gsb_feature_image_cta_fpp][download][tag] = 2.0
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Image Styles
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsbitse/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][branch] = release-2.0
+projects[gsb_feature_image_styles][download][tag] = 2.0
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Feature Links FPP
@@ -359,7 +359,7 @@ projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 projects[gsb_feature_phd_candidate_display][type] = module
 projects[gsb_feature_phd_candidate_display][download][type] = git
 projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_display.git
-projects[gsb_feature_phd_candidate_display][download][branch] = release-2.0
+projects[gsb_feature_phd_candidate_display][download][tag] = 2.0
 projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
 ; GSB Quote FPP
@@ -469,7 +469,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = release-2.0
+projects[gsb_theme][download][tag] = 2.0
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
