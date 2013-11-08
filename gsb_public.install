@@ -1617,3 +1617,12 @@ function gsb_public_update_7076() {
   module_disable(array('dblog'));
   module_enable(array('syslog'));
 }
+
+/**
+ * Enable gsb_feature_featured_person_fpp.
+ */
+function gsb_public_update_7077() {
+  if (!module_exists('gsb_feature_featured_person_fpp')) {
+    module_enable(array('gsb_feature_featured_person_fpp'));
+  }
+}
