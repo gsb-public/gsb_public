@@ -252,6 +252,13 @@ projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gs
 projects[gsb_feature_faculty_display][download][tag] = 2.0
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
+; GSB GSB Feature Featured Person FPP
+projects[gsb_feature_featured_person_fpp][type] = module
+projects[gsb_feature_featured_person_fpp][download][type] = git
+projects[gsb_feature_featured_person_fpp][download][url] = git@github.com:gsbitse/gsb_feature_featured_person_fpp.git
+projects[gsb_feature_featured_person_fpp][download][branch] = release-3.0
+projects[gsb_feature_featured_person_fpp][subdir] = custom/features
+
 ; GSB Feature File Types
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
