@@ -591,6 +591,9 @@ projects[ds][patch][2076897] = https://drupal.org/files/prefix-suffix-v2.patch
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
 
+projects[elysia_cron][version] = 2.1
+projects[elysia_cron][subdir] = contrib
+
 projects[email][version] = 1.2
 projects[email][subdir] = contrib
 projects[email][patch][1346102] = https://drupal.org/files/edit_link_and_title_text-1346102-11.patch

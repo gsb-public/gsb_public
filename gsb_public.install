@@ -1619,9 +1619,18 @@ function gsb_public_update_7076() {
 }
 
 /**
- * Enable cmis related modules.
+ * Enable elysia_cron module
  */
 function gsb_public_update_7077() {
+  if (!module_exists('elysia_cron')) {
+    module_enable(array('elysia_cron'));
+  }
+}
+
+/**
+ * Enable cmis related modules.
+ */
+function gsb_public_update_7078() {
   if (!module_exists('cmis')) {
     module_enable(array('cmis'));
   }
@@ -1639,7 +1648,7 @@ function gsb_public_update_7077() {
 /**
  * Enable gsb_feature_featured_person_fpp
  */
-function gsb_public_update_7078() {
+function gsb_public_update_7079() {
   if (!module_exists('gsb_feature_featured_person_fpp')) {
     module_enable(array('gsb_feature_featured_person_fpp'));
   }
