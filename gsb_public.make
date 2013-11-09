@@ -86,7 +86,7 @@ projects[gsb_fpp_customization][subdir] = custom
 projects[gsb_fpp_stock_content][type] = module
 projects[gsb_fpp_stock_content][download][type] = git
 projects[gsb_fpp_stock_content][download][url] = git@github.com:gsbitse/gsb_fpp_stock_content.git
-projects[gsb_fpp_stock_content][download][tag] = 1.0
+projects[gsb_fpp_stock_content][download][branch] = release-3.0
 projects[gsb_fpp_stock_content][subdir] = custom
 
 ; GSB FPP Xray
