@@ -1617,3 +1617,13 @@ function gsb_public_update_7076() {
   module_disable(array('dblog'));
   module_enable(array('syslog'));
 }
+
+/**
+ * Enable elysia_cron module
+ */
+function gsb_public_update_7077() {
+  if (!module_exists('elysia_cron')) {
+    module_enable(array('elysia_cron'));
+  }
+}
+

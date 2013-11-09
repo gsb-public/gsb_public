@@ -43,6 +43,7 @@ dependencies[] = diff
 dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_ui
+dependencies[] = elysia_cron
 dependencies[] = eva
 dependencies[] = fancybox
 dependencies[] = fape
