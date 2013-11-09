@@ -1670,3 +1670,12 @@ function gsb_public_update_7080() {
   }
 }
 
+/**
+ * Enable gsb_feature_featured_person_fpp
+ */
+function gsb_public_update_7078() {
+  if (!module_exists('gsb_feature_featured_person_fpp')) {
+    module_enable(array('gsb_feature_featured_person_fpp'));
+  }
+}
+
