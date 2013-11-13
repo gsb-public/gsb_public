@@ -65,7 +65,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 2.0
+projects[gsb_public_custom_blocks][download][branch] = release-2.1
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
@@ -188,7 +188,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 2.0
+projects[gsb_feature_base_fields][download][branch] = release-2.1
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Club
