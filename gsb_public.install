@@ -1663,3 +1663,15 @@ function gsb_public_update_7080() {
   }
 }
 
+/**
+ * Enable gsb_feature_case_ct and gsb_feature_working_paper_ct module
+ */
+function gsb_public_update_7078() {
+  if (!module_exists('gsb_feature_case_ct')) {
+    module_enable(array('gsb_feature_case_ct'));
+  }
+  if (!module_exists('gsb_feature_working_paper_ct')) {
+    module_enable(array('gsb_feature_working_paper_ct'));
+  }
+}
+
