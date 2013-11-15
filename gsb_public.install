@@ -1627,3 +1627,11 @@ function gsb_public_update_7077() {
   }
 }
 
+/**
+ * Enable gsb_feature_faculty_profile_ct module
+ */
+function gsb_public_update_7078() {
+  if (!module_exists('gsb_feature_faculty_profile_ct')) {
+    module_enable(array('gsb_feature_faculty_profile_ct'));
+  }
+}
