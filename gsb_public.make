@@ -238,6 +238,13 @@ projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gs
 projects[gsb_feature_faculty_display][download][tag] = 2.0
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
+; GSB GSB Feature Faculty Profile Content Type
+projects[gsb_feature_faculty_profile_ct][type] = module
+projects[gsb_feature_faculty_profile_ct][download][type] = git
+projects[gsb_feature_faculty_profile_ct][download][url] = git@github.com:gsbitse/gsb_feature_faculty_profile_ct.git
+projects[gsb_feature_faculty_profile_ct][download][branch] = WP-2351
+projects[gsb_feature_faculty_profile_ct][subdir] = custom/features
+
 ; GSB Feature File Types
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
