@@ -792,6 +792,9 @@ libraries[responsive-tables][download][revision] = 0d34bc64df
 libraries[responsive-tables][patch][remove-table-styles] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-table-styles.patch
 libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/drupalize-js.patch
 
+projects[select_or_other][version] = 2.20
+projects[select_or_other][subdir] = contrib
+
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
