@@ -51,7 +51,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-2.1
+projects[gsb_public_custom_blocks][download][tag] = 2.1
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Field Formatter
@@ -121,7 +121,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
 projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
-projects[gsb_tokens][download][branch] = release-1.0
+projects[gsb_tokens][download][tag] = 2.0
 projects[gsb_tokens][subdir] = custom
 
 ; Pathauto Title Alias
@@ -174,7 +174,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-2.1
+projects[gsb_feature_base_fields][download][tag] = 2.1
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Club
@@ -401,7 +401,7 @@ projects[gsb_feature_toolbar][subdir] = custom/features
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
 projects[gsb_feature_text_fpp][download][url] = git@github.com:gsbitse/gsb_feature_text_fpp.git
-projects[gsb_feature_text_fpp][download][branch] = release-1.2
+projects[gsb_feature_text_fpp][download][tag] = 2.0
 projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
@@ -443,7 +443,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][branch] = release-1.3
+projects[gsb_feature_wysiwyg][download][tag] = 2.0
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
@@ -455,7 +455,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = release-2.1
+projects[gsb_theme][download][tag] = 2.1
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
