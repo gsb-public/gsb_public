@@ -1689,7 +1689,7 @@ function gsb_public_update_7080() {
 }
 
 /**
- * Enable gsb_feature_case_ct and gsb_feature_working_paper_ct module
+ * Enable gsb_feature_case_ct and gsb_feature_working_paper_ct modules
  */
 function gsb_public_update_7078() {
   if (!module_exists('gsb_feature_case_ct')) {
@@ -1697,6 +1697,18 @@ function gsb_public_update_7078() {
   }
   if (!module_exists('gsb_feature_working_paper_ct')) {
     module_enable(array('gsb_feature_working_paper_ct'));
+  }
+}
+
+/**
+ * Enable gsb_cmis_api and gsb_cmis_test modules
+ */
+function gsb_public_update_7079() {
+  if (!module_exists('gsb_cmis_api')) {
+    module_enable(array('gsb_cmis_api'));
+  }
+  if (!module_exists('gsb_cmis_test')) {
+    module_enable(array('gsb_cmis_test'));
   }
 }
 
