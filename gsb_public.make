@@ -40,18 +40,18 @@ projects[gsb_advanced_menu_customization][download][url] = git@github.com:gsbits
 projects[gsb_advanced_menu_customization][download][tag] = 1.0
 projects[gsb_advanced_menu_customization][subdir] = custom
 
-; GSB CMIS Test
+; GSB Cmis Api
 projects[gsb_cmis_api][type] = module
 projects[gsb_cmis_api][download][type] = git
 projects[gsb_cmis_api][download][url] = git@github.com:gsbitse/gsb_cmis_api.git
-projects[gsb_cmis_api][download][branch] = WP-2253
+projects[gsb_cmis_api][download][branch] = WP-2361
 projects[gsb_cmis_api][subdir] = custom
 
-; GSB CMIS Test
+; GSB Cmis Test
 projects[gsb_cmis_test][type] = module
 projects[gsb_cmis_test][download][type] = git
 projects[gsb_cmis_test][download][url] = git@github.com:gsbitse/gsb_cmis_test.git
-projects[gsb_cmis_test][download][branch] = WP-2253
+projects[gsb_cmis_test][download][branch] = WP-2361
 projects[gsb_cmis_test][subdir] = custom
 
 ; GSB Custom Section Title
