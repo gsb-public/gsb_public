@@ -72,6 +72,7 @@ dependencies[] = metatag
 dependencies[] = module_filter
 dependencies[] = site_verify
 dependencies[] = telephone
+dependencies[] = typogrify
 dependencies[] = uuid
 dependencies[] = views_field_view
 dependencies[] = views_responsive_grid
