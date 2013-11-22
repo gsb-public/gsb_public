@@ -89,6 +89,13 @@ projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_cen
 projects[gsb_media_center][download][tag] = 2.0
 projects[gsb_media_center][subdir] = custom
 
+; GSB Migrate
+projects[gsb_migrate][type] = module
+projects[gsb_migrate][download][type] = git
+projects[gsb_migrate][download][url] = git@github.com:gsbitse/gsb_migrate.git
+projects[gsb_migrate][download][branch] = master
+projects[gsb_migrate][subdir] = custom
+
 ; GSB Panels IPE Overrides
 projects[gsb_panels_ipe_overrides][type] = module
 projects[gsb_panels_ipe_overrides][download][type] = git
@@ -401,7 +408,7 @@ projects[gsb_feature_toolbar][subdir] = custom/features
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
 projects[gsb_feature_text_fpp][download][url] = git@github.com:gsbitse/gsb_feature_text_fpp.git
-projects[gsb_feature_text_fpp][download][branch] = release-1.2
+projects[gsb_feature_text_fpp][download][branch] = master
 projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
