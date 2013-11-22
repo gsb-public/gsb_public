@@ -1627,3 +1627,11 @@ function gsb_public_update_7077() {
   }
 }
 
+/**
+ * Enable typogrify module.
+ */
+function gsb_public_update_7078() {
+  if (!module_exists('typogrify')) {
+    module_enable(array('typogrify'));
+  }
+}
