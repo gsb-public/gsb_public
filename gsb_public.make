@@ -443,7 +443,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][branch] = release-1.3
+projects[gsb_feature_wysiwyg][download][branch] = master
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
