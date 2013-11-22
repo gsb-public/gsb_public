@@ -135,7 +135,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
 projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
-projects[gsb_tokens][download][branch] = release-2.1
+projects[gsb_tokens][download][tag] = 2.1
 projects[gsb_tokens][subdir] = custom
 
 ; Pathauto Title Alias
