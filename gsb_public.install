@@ -1682,7 +1682,7 @@ function gsb_public_update_7081() {
 /**
  * Enable select_or_other module
  */
-function gsb_public_update_7080() {
+function gsb_public_update_7082() {
   if (!module_exists('select_or_other')) {
     module_enable(array('select_or_other'));
   }
@@ -1691,7 +1691,7 @@ function gsb_public_update_7080() {
 /**
  * Enable gsb_feature_case_ct and gsb_feature_working_paper_ct modules
  */
-function gsb_public_update_7081() {
+function gsb_public_update_7082() {
   if (!module_exists('gsb_feature_case_ct')) {
     module_enable(array('gsb_feature_case_ct'));
   }
