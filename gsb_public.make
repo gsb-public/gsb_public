@@ -640,9 +640,8 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.0-rc3
+projects[features][version] = 2.0
 projects[features][subdir] = contrib
-projects[features][patch][1597186] = https://drupal.org/files/1597186-6-features-do-not-cache-includes.patch
 
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
