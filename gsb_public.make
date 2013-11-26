@@ -476,7 +476,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = release-3.0
+projects[gsb_theme][download][branch] = WP-2419
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
