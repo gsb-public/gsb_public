@@ -656,7 +656,7 @@ projects[field_collection][patch][1807460] = http://drupal.org/files/field_colle
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[field_group][version] = 1.3
+projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
 
 projects[file_entity][version] = 2.0-alpha3
