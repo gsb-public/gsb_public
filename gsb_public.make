@@ -188,7 +188,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-3.0
+projects[gsb_feature_base_fields][download][branch] = WP-2448
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Club
@@ -242,7 +242,7 @@ projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsbitse/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][branch] = release-3.0
+projects[gsb_feature_faculty_ct][download][branch] = WP-2448
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
