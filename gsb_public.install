@@ -1682,7 +1682,7 @@ function gsb_public_update_7081() {
 /**
  * Enable select_or_other module
  */
-function gsb_public_update_7078() {
+function gsb_public_update_7080() {
   if (!module_exists('select_or_other')) {
     module_enable(array('select_or_other'));
   }
