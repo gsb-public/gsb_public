@@ -1637,9 +1637,25 @@ function gsb_public_update_7078() {
 }
 
 /**
- * Enable cmis related modules.
+ * Enable acquia_purge and expire module.
  */
 function gsb_public_update_7079() {
+  $modules = array();
+  if (!module_exists('expire')) {
+    $modules[] = 'expire';
+  }
+  if (!module_exists('acquia_purge')) {
+    $modules[] = 'acquia_purge';
+  }
+  if ($modules) {
+    module_enable($modules);
+  }
+}
+
+/**
+ * Enable cmis related modules.
+ */
+function gsb_public_update_7080() {
   if (!module_exists('cmis')) {
     module_enable(array('cmis'));
   }
@@ -1657,7 +1673,7 @@ function gsb_public_update_7079() {
 /**
  * Enable gsb_feature_featured_person_fpp
  */
-function gsb_public_update_7080() {
+function gsb_public_update_7081() {
   if (!module_exists('gsb_feature_featured_person_fpp')) {
     module_enable(array('gsb_feature_featured_person_fpp'));
   }
@@ -1666,7 +1682,7 @@ function gsb_public_update_7080() {
 /**
  * Enable select_or_other module
  */
-function gsb_public_update_7081() {
+function gsb_public_update_7082() {
   if (!module_exists('select_or_other')) {
     module_enable(array('select_or_other'));
   }
@@ -1675,7 +1691,7 @@ function gsb_public_update_7081() {
 /**
  * Enable gsb_feature_case_ct and gsb_feature_working_paper_ct modules
  */
-function gsb_public_update_7082() {
+function gsb_public_update_7083() {
   if (!module_exists('gsb_feature_case_ct')) {
     module_enable(array('gsb_feature_case_ct'));
   }
