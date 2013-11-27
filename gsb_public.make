@@ -167,7 +167,7 @@ projects[gsb_feature_academic_calendar_display][subdir] = custom/features
 projects[gsb_feature_accordion][type] = module
 projects[gsb_feature_accordion][download][type] = git
 projects[gsb_feature_accordion][download][url] = git@github.com:gsbitse/gsb_feature_accordion.git
-projects[gsb_feature_accordion][download][tag] = 1.1
+projects[gsb_feature_accordion][download][branch] = release-2.0
 projects[gsb_feature_accordion][subdir] = custom/features
 
 ; GSB Feature base fields
