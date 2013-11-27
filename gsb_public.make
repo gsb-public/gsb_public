@@ -415,7 +415,7 @@ projects[gsb_feature_video][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsbitse/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 1.1
+projects[gsb_feature_webform_ct][download][branch] = release-2.0
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
