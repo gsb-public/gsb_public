@@ -472,6 +472,9 @@ projects[gsb_theme_admin][download][tag] = 1.0
 projects[acquia_connector][version] = 2.12
 projects[acquia_connector][subdir] = contrib
 
+projects[acquia_purge][version] = 1.0-beta1
+projects[acquia_purge][subdir] = contrib
+
 projects[addressfield][version] = 1.0-beta4
 projects[addressfield][subdir] = contrib
 
@@ -586,6 +589,9 @@ projects[eva][download][type] = git
 projects[eva][download][revision] = 6d92c27
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][patch][1772204] = http://drupal.org/files/1772204-d7-1.patch
+
+projects[expire][version] = 2.0-beta2
+projects[expire][subdir] = contrib
 
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib

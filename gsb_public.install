@@ -1635,3 +1635,19 @@ function gsb_public_update_7078() {
     module_enable(array('typogrify'));
   }
 }
+
+/**
+ * Enable acquia_purge and expire module.
+ */
+function gsb_public_update_7079() {
+  $modules = array();
+  if (!module_exists('expire')) {
+    $modules[] = 'expire';
+  }
+  if (!module_exists('acquia_purge')) {
+    $modules[] = 'acquia_purge';
+  }
+  if ($modules) {
+    module_enable($modules);
+  }
+}

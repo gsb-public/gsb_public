@@ -24,6 +24,7 @@ dependencies[] = panopoly_magic
 
 ; Contrib Modules
 dependencies[] = acquia_agent
+dependencies[] = acquia_purge
 dependencies[] = addressfield
 dependencies[] = addthis
 dependencies[] = admin_menu
@@ -45,6 +46,7 @@ dependencies[] = ds_extras
 dependencies[] = ds_ui
 dependencies[] = elysia_cron
 dependencies[] = eva
+dependencies[] = expire
 dependencies[] = fancybox
 dependencies[] = fape
 dependencies[] = features
