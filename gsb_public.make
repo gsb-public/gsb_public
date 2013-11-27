@@ -504,7 +504,7 @@ projects[gsb_theme_admin][download][tag] = 1.0
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.11
+projects[acquia_connector][version] = 2.12
 projects[acquia_connector][subdir] = contrib
 
 projects[addressfield][version] = 1.0-beta4
@@ -525,7 +525,7 @@ projects[auto_entitylabel][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
 projects[backports][subdir] = contrib
 
-projects[backup_migrate][version] = 2.7
+projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
@@ -615,7 +615,7 @@ projects[email][patch][1346102] = https://drupal.org/files/edit_link_and_title_t
 projects[entity][version] = 1.2
 projects[entity][subdir] = contrib
 
-projects[entityreference][version] = 1.0
+projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
 projects[eva][version] = 1.x-dev
@@ -656,13 +656,13 @@ projects[field_collection][patch][1807460] = http://drupal.org/files/field_colle
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.3
 projects[field_group][subdir] = contrib
 
-projects[file_entity][version] = 2.0-alpha2
+projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][subdir] = contrib
 
-projects[google_analytics][version] = 1.3
+projects[google_analytics][version] = 1.4
 projects[google_analytics][subdir] = contrib
 
 projects[hierarchical_select][version] = 3.x-dev
@@ -686,7 +686,7 @@ projects[libraries][version] = 2.1
 projects[libraries][subdir] = contrib
 projects[libraries][patch][1938638] = https://drupal.org/files/libraries-undefined-index-foo.patch
 
-projects[link][version] = 1.1
+projects[link][version] = 1.2
 projects[link][subdir] = contrib
 projects[link][patch][2117099] = https://drupal.org/files/link-2117099-2.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
@@ -700,7 +700,7 @@ projects[maxlength][download][type] = git
 projects[maxlength][download][revision] = 8db419b
 projects[maxlength][download][branch] = 7.x-3.x
 
-projects[media][version] = 2.0-alpha2
+projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-4.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
@@ -841,7 +841,7 @@ projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
 projects[views][patch][1333932] = http://drupal.org/files/1333932-sort-exposed-clicksort.patch
 
-projects[views_autocomplete_filters][version] = 1.0-rc1
+projects[views_autocomplete_filters][version] = 1.0
 projects[views_autocomplete_filters][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.1
@@ -863,7 +863,7 @@ projects[views_load_more][patch][1454750] = http://drupal.org/files/view_load_mo
 projects[views_responsive_grid][version] = 1.3
 projects[views_responsive_grid][subdir] = contrib
 
-projects[webform_phone][version] = 1.13
+projects[webform_phone][version] = 1.14
 projects[webform_phone][subdir] = contrib
 
 projects[workbench][version] = 1.x-dev
