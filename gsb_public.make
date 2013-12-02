@@ -47,12 +47,12 @@ projects[gsb_cmis_api][download][url] = git@github.com:gsbitse/gsb_cmis_api.git
 projects[gsb_cmis_api][download][branch] = WP-2361
 projects[gsb_cmis_api][subdir] = custom
 
-; GSB Cmis Test
-projects[gsb_cmis_test][type] = module
-projects[gsb_cmis_test][download][type] = git
-projects[gsb_cmis_test][download][url] = git@github.com:gsbitse/gsb_cmis_test.git
-projects[gsb_cmis_test][download][branch] = WP-2361
-projects[gsb_cmis_test][subdir] = custom
+; GSB Cmis
+projects[gsb_cmis][type] = module
+projects[gsb_cmis][download][type] = git
+projects[gsb_cmis][download][url] = git@github.com:gsbitse/gsb_cmis.git
+projects[gsb_cmis][download][branch] = WP-2361
+projects[gsb_cmis][subdir] = custom
 
 ; GSB Custom Section Title
 projects[gsb_custom_section_title][type] = module
