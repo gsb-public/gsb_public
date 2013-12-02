@@ -188,14 +188,14 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = WP-2354
+projects[gsb_feature_base_fields][download][branch] = WP-2361
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Case
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][branch] = WP-2354
+projects[gsb_feature_case_ct][download][branch] = WP-2361
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Club
@@ -464,7 +464,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][branch] = WP-2354
+projects[gsb_feature_working_paper_ct][download][branch] = WP-2361
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
