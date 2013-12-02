@@ -1676,14 +1676,14 @@ function gsb_public_update_7078() {
 }
 
 /**
- * Enable gsb_cmis_api and gsb_cmis_test modules
+ * Enable gsb_cmis_api and gsb_cmis modules
  */
 function gsb_public_update_7079() {
   if (!module_exists('gsb_cmis_api')) {
     module_enable(array('gsb_cmis_api'));
   }
-  if (!module_exists('gsb_cmis_test')) {
-    module_enable(array('gsb_cmis_test'));
+  if (!module_exists('gsb_cmis')) {
+    module_enable(array('gsb_cmis'));
   }
 }
 
