@@ -1699,3 +1699,12 @@ function gsb_public_update_7083() {
     module_enable(array('gsb_feature_working_paper_ct'));
   }
 }
+
+/**
+ * Enable gsb_feature_case_display module
+ */
+function gsb_public_update_7084() {
+  if (!module_exists('gsb_feature_case_display')) {
+    module_enable(array('gsb_feature_case_display'));
+  }
+}
