@@ -202,7 +202,7 @@ projects[gsb_feature_case_ct][subdir] = custom/features
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsbitse/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][branch] = WP-2354
+projects[gsb_feature_case_display][download][branch] = WP-2501
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Club
