@@ -198,6 +198,13 @@ projects[gsb_feature_case_ct][download][url] = git@github.com:gsbitse/gsb_featur
 projects[gsb_feature_case_ct][download][branch] = release-3.0
 projects[gsb_feature_case_ct][subdir] = custom/features
 
+; GSB Feature Case Display
+projects[gsb_feature_case_display][type] = module
+projects[gsb_feature_case_display][download][type] = git
+projects[gsb_feature_case_display][download][url] = git@github.com:gsbitse/gsb_feature_case_display.git
+projects[gsb_feature_case_display][download][branch] = release-3.0
+projects[gsb_feature_case_display][subdir] = custom/features
+
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
@@ -674,11 +681,9 @@ projects[google_analytics][subdir] = contrib
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][download][type] = git
-projects[hierarchical_select][download][revision] = 1da92c0
+projects[hierarchical_select][download][revision] = b3e34d9
 projects[hierarchical_select][download][branch] = 7.x-3.x
-projects[hierarchical_select][patch][1959666] = http://drupal.org/files/1959666-d7-2.patch
 projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
-projects[hierarchical_select][patch][1315192] = https://drupal.org/files/1315192-fix-syntax-error-8.patch
 
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
