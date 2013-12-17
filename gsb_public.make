@@ -429,7 +429,7 @@ projects[gsb_feature_slideshow_fpp][subdir] = custom/features
 projects[gsb_feature_staff_ct][type] = module
 projects[gsb_feature_staff_ct][download][type] = git
 projects[gsb_feature_staff_ct][download][url] = git@github.com:gsbitse/gsb_feature_staff_ct.git
-projects[gsb_feature_staff_ct][download][branch] = release-2.0
+projects[gsb_feature_staff_ct][download][tag] = 2.0
 projects[gsb_feature_staff_ct][subdir] = custom/features
 
 ; GSB Feature Toolbar
