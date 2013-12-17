@@ -93,7 +93,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][branch] = 2.1
+projects[gsb_fpp_xray][download][tag] = 2.1
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Media Center
@@ -340,7 +340,7 @@ projects[gsb_feature_mega_menu][subdir] = custom/features
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsbitse/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][branch] = release-2.0
+projects[gsb_feature_msx_fellows_ct][download][tag] = 2.0
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
