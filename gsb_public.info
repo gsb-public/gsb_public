@@ -92,7 +92,6 @@ dependencies[] = gsb_field_formatter
 dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_fpp_stock_content
 dependencies[] = gsb_media_center
-dependencies[] = gsb_migrate
 dependencies[] = gsb_panels_ipe_overrides
 dependencies[] = gsb_panels_pages
 dependencies[] = gsb_panopoly_magic_customization
