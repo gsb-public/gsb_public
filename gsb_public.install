@@ -1708,3 +1708,12 @@ function gsb_public_update_7084() {
     module_enable(array('gsb_feature_case_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_working_paper_display module
+ */
+function gsb_public_update_7085() {
+  if (!module_exists('gsb_feature_working_paper_display')) {
+    module_enable(array('gsb_feature_working_paper_display'));
+  }
+}
