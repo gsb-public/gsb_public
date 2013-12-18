@@ -152,4 +152,5 @@ dependencies[] = gsb_feature_week_in_the_life_ct
 dependencies[] = gsb_feature_week_in_the_life_display
 dependencies[] = gsb_feature_workbench
 dependencies[] = gsb_feature_working_paper_ct
+dependencies[] = gsb_feature_working_paper_display
 dependencies[] = gsb_feature_wysiwyg
