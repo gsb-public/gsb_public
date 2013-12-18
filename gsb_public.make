@@ -103,6 +103,13 @@ projects[gsb_media_center][download][url] = git@github.com:gsbitse/gsb_media_cen
 projects[gsb_media_center][download][tag] = 2.0
 projects[gsb_media_center][subdir] = custom
 
+; GSB Migrate
+projects[gsb_migrate][type] = module
+projects[gsb_migrate][download][type] = git
+projects[gsb_migrate][download][url] = git@github.com:gsbitse/gsb_migrate.git
+projects[gsb_migrate][download][branch] = master
+projects[gsb_migrate][subdir] = custom
+
 ; GSB Panels IPE Overrides
 projects[gsb_panels_ipe_overrides][type] = module
 projects[gsb_panels_ipe_overrides][download][type] = git
@@ -578,6 +585,7 @@ projects[concat_field][subdir] = contrib
 projects[concat_field][download][type] = git
 projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
+projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
@@ -672,6 +680,7 @@ projects[fieldable_panels_panes][subdir] = contrib
 projects[field_collection][version] = 1.0-beta5
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-1.patch
+projects[field_collection][patch][1175082] = https://drupal.org/files/field_collection-migrate-1175082-222.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
