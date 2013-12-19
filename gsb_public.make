@@ -51,7 +51,7 @@ projects[gsb_cmis_api][subdir] = custom
 projects[gsb_cmis][type] = module
 projects[gsb_cmis][download][type] = git
 projects[gsb_cmis][download][url] = git@github.com:gsbitse/gsb_cmis.git
-projects[gsb_cmis][download][branch] = release-3.0
+projects[gsb_cmis][download][tag] = 3.0
 projects[gsb_cmis][subdir] = custom
 
 ; GSB Custom Section Title
@@ -79,14 +79,14 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsbitse/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][branch] = release-3.0
+projects[gsb_fpp_customization][download][tag] = 3.0
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
 projects[gsb_fpp_stock_content][type] = module
 projects[gsb_fpp_stock_content][download][type] = git
 projects[gsb_fpp_stock_content][download][url] = git@github.com:gsbitse/gsb_fpp_stock_content.git
-projects[gsb_fpp_stock_content][download][branch] = release-3.0
+projects[gsb_fpp_stock_content][download][tag] = 3.0
 projects[gsb_fpp_stock_content][subdir] = custom
 
 ; GSB FPP Xray
@@ -195,14 +195,14 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-3.0
+projects[gsb_feature_base_fields][download][tag] = 3.0
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Case
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][branch] = release-3.0
+projects[gsb_feature_case_ct][download][tag] = 3.0
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
