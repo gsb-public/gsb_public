@@ -107,7 +107,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_migrate][type] = module
 projects[gsb_migrate][download][type] = git
 projects[gsb_migrate][download][url] = git@github.com:gsbitse/gsb_migrate.git
-projects[gsb_migrate][download][branch] = master
+projects[gsb_migrate][download][tag] = 3.0
 projects[gsb_migrate][subdir] = custom
 
 ; GSB Panels IPE Overrides
