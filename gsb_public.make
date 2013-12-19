@@ -44,7 +44,7 @@ projects[gsb_advanced_menu_customization][subdir] = custom
 projects[gsb_cmis_api][type] = module
 projects[gsb_cmis_api][download][type] = git
 projects[gsb_cmis_api][download][url] = git@github.com:gsbitse/gsb_cmis_api.git
-projects[gsb_cmis_api][download][branch] = release-3.0
+projects[gsb_cmis_api][download][tag] = 3.0
 projects[gsb_cmis_api][subdir] = custom
 
 ; GSB Cmis
