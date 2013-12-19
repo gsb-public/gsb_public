@@ -209,7 +209,7 @@ projects[gsb_feature_case_ct][subdir] = custom/features
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsbitse/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][branch] = release-3.0
+projects[gsb_feature_case_display][download][tag] = 3.0
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Club
@@ -263,7 +263,7 @@ projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsbitse/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][branch] = release-3.0
+projects[gsb_feature_faculty_ct][download][tag] = 3.0
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
