@@ -1717,3 +1717,21 @@ function gsb_public_update_7085() {
     module_enable(array('gsb_feature_working_paper_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_book_ct and gsb_feature_in_the_news_ct.
+ */
+function gsb_public_update_7086() {
+  $modules = array();
+  if (!module_exists('gsb_feature_book_ct')) {
+    $modules[] = 'gsb_feature_book_ct';
+  }
+
+  if (!modules_exists('gsb_feature_in_the_news_ct')) {
+    $modules[] = 'gsb_feature_in_the_news_ct';
+  }
+
+  if (!empty($modules)) {
+    module_enable($modules);
+  }
+}
