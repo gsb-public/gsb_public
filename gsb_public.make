@@ -329,13 +329,6 @@ projects[gsb_feature_image_styles][download][url] = git@github.com:gsbitse/gsb_f
 projects[gsb_feature_image_styles][download][tag] = 2.0
 projects[gsb_feature_image_styles][subdir] = custom/features
 
-; GSB Feature in the news
-projects[gsb_feature_in_the_news_ct][type] = module
-projects[gsb_feature_in_the_news_ct][download][type] = git
-projects[gsb_feature_in_the_news_ct][download][url] = git@github.com:gsbitse/gsb_feature_in_the_news_ct.git
-projects[gsb_feature_in_the_news_ct][download][branch] = release-3.0
-projects[gsb_feature_in_the_news_ct][subdir] = custom/features
-
 ; GSB Feature Links FPP
 projects[gsb_feature_links_fpp][type] = module
 projects[gsb_feature_links_fpp][download][type] = git

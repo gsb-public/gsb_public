@@ -1727,10 +1727,6 @@ function gsb_public_update_7086() {
     $modules[] = 'gsb_feature_book_ct';
   }
 
-  if (!modules_exists('gsb_feature_in_the_news_ct')) {
-    $modules[] = 'gsb_feature_in_the_news_ct';
-  }
-
   if (!empty($modules)) {
     module_enable($modules);
   }
