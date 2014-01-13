@@ -195,7 +195,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-3.1
+projects[gsb_feature_base_fields][download][branch] = WP-2606
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature book
@@ -209,7 +209,7 @@ projects[gsb_feature_book_ct][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][branch] = release-3.1
+projects[gsb_feature_case_ct][download][branch] = WP-2606
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
@@ -492,7 +492,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][branch] = release-3.1
+projects[gsb_feature_working_paper_ct][download][branch] = WP-2606
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
