@@ -195,7 +195,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 3.0
+projects[gsb_feature_base_fields][download][branch] = in-the-news-ct
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Case
@@ -300,6 +300,13 @@ projects[gsb_feature_gsa_search][download][type] = git
 projects[gsb_feature_gsa_search][download][url] = git@github.com:gsbitse/gsb_feature_gsa_search.git
 projects[gsb_feature_gsa_search][download][tag] = 1.1
 projects[gsb_feature_gsa_search][subdir] = custom/features
+
+; GSB Feature In The News
+projects[gsb_feature_in_the_news_ct][type] = module
+projects[gsb_feature_in_the_news_ct][download][type] = git
+projects[gsb_feature_in_the_news_ct][download][url] = git@github.com:gsbitse/gsb_feature_in_the_news_ct.git
+projects[gsb_feature_in_the_news_ct][download][branch] = master
+projects[gsb_feature_in_the_news_ct][subdir] = custom/features
 
 ; GSB Features Image Fpp
 projects[gsb_feature_image_fpp][type] = module
