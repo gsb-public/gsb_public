@@ -1731,3 +1731,12 @@ function gsb_public_update_7086() {
     module_enable($modules);
   }
 }
+
+/**
+ * Enable gsb_az_filter module
+ */
+function gsb_public_update_7087() {
+  if (!module_exists('gsb_az_filter')) {
+    module_enable(array('gsb_az_filter'));
+  }
+}
