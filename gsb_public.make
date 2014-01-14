@@ -45,7 +45,7 @@ projects[gsb_az_filter][type] = module
 projects[gsb_az_filter][download][type] = git
 projects[gsb_az_filter][download][url] = git@github.com:gsbitse/gsb_az_filter.git
 projects[gsb_az_filter][download][branch] = release-3.0
-projects[gsb_cmis_api][subdir] = custom
+projects[gsb_az_filter][subdir] = custom
 
 ; GSB Cmis Api
 projects[gsb_cmis_api][type] = module
