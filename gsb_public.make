@@ -107,7 +107,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_migrate][type] = module
 projects[gsb_migrate][download][type] = git
 projects[gsb_migrate][download][url] = git@github.com:gsbitse/gsb_migrate.git
-projects[gsb_migrate][download][tag] = 3.0
+projects[gsb_migrate][download][branch] = WP-2563
 projects[gsb_migrate][subdir] = custom
 
 ; GSB Panels IPE Overrides
@@ -195,14 +195,14 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-3.1
+projects[gsb_feature_base_fields][download][branch] = WP-2562
 projects[gsb_feature_base_fields][subdir] = custom/features
 
-; GSB Feature book
+; GSB Feature Book
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsbitse/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][branch] = release-3.0
+projects[gsb_feature_book_ct][download][branch] = WP-2562
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Case
