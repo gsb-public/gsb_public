@@ -277,7 +277,7 @@ projects[gsb_feature_faculty_ct][subdir] = custom/features
 projects[gsb_feature_faculty_display][type] = module
 projects[gsb_feature_faculty_display][download][type] = git
 projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gsb_feature_faculty_display.git
-projects[gsb_feature_faculty_display][download][tag] = 3.0
+projects[gsb_feature_faculty_display][download][branch] = release-3.1
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
 ; GSB GSB Feature Featured Person FPP
