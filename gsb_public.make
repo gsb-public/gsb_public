@@ -40,6 +40,13 @@ projects[gsb_advanced_menu_customization][download][url] = git@github.com:gsbits
 projects[gsb_advanced_menu_customization][download][tag] = 1.0
 projects[gsb_advanced_menu_customization][subdir] = custom
 
+; GSB AZ Filter
+projects[gsb_az_filter][type] = module
+projects[gsb_az_filter][download][type] = git
+projects[gsb_az_filter][download][url] = git@github.com:gsbitse/gsb_az_filter.git
+projects[gsb_az_filter][download][branch] = release-3.0
+projects[gsb_cmis_api][subdir] = custom
+
 ; GSB Cmis Api
 projects[gsb_cmis_api][type] = module
 projects[gsb_cmis_api][download][type] = git
