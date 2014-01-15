@@ -587,7 +587,7 @@ projects[cacheexclude][subdir] = contrib
 
 projects[cmis][version] = 1.6
 projects[cmis][subdir] = contrib
-projects[cmis][patch] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
+projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
 
 projects[computed_field][version] = 1.x-dev
 projects[computed_field][subdir] = contrib
