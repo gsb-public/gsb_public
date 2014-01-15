@@ -31,6 +31,7 @@ function gsb_public_install() {
     'fancybox',
     'login_destination',
     'acquia',
+    'cmis',
     'ds',
     'quickbar',
     'panels',
@@ -1739,4 +1740,11 @@ function gsb_public_update_7087() {
   if (!module_exists('gsb_az_filter')) {
     module_enable(array('gsb_az_filter'));
   }
+}
+
+/**
+ * Add setting for cmis_common to not verify the certificate.
+ */
+function gsb_public_update_7088() {
+  variable_set('cmis_common_no_verify_cert', TRUE);
 }
