@@ -1720,7 +1720,7 @@ function gsb_public_update_7085() {
 }
 
 /**
- * Enable gsb_feature_book_ct and gsb_feature_in_the_news_ct.
+ * Enable gsb_feature_book_ct.
  */
 function gsb_public_update_7086() {
   $modules = array();
