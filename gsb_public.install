@@ -1720,9 +1720,27 @@ function gsb_public_update_7085() {
 }
 
 /**
- * Enable gsb_feature_book_ct.
+ * Enable gsb_az_filter module
  */
 function gsb_public_update_7086() {
+  if (!module_exists('gsb_az_filter')) {
+    module_enable(array('gsb_az_filter'));
+  }
+}
+
+/**
+ * Add setting for cmis_common to not verify the certificate.
+ */
+function gsb_public_update_7087() {
+  variable_set('cmis_common_no_verify_cert', TRUE);
+
+}
+
+/**
+ * Enable gsb_feature_book_ct.
+ */
+/**
+function gsb_public_update_7088() {
   $modules = array();
   if (!module_exists('gsb_feature_book_ct')) {
     $modules[] = 'gsb_feature_book_ct';
@@ -1732,19 +1750,4 @@ function gsb_public_update_7086() {
     module_enable($modules);
   }
 }
-
-/**
- * Enable gsb_az_filter module
- */
-function gsb_public_update_7087() {
-  if (!module_exists('gsb_az_filter')) {
-    module_enable(array('gsb_az_filter'));
-  }
-}
-
-/**
- * Add setting for cmis_common to not verify the certificate.
- */
-function gsb_public_update_7088() {
-  variable_set('cmis_common_no_verify_cert', TRUE);
-}
+**/
