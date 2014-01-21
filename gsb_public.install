@@ -1748,3 +1748,12 @@ function gsb_public_update_7087() {
 function gsb_public_update_7088() {
   variable_set('cmis_common_no_verify_cert', TRUE);
 }
+
+/**
+ * Enable gsb_courses module
+ */
+function gsb_public_update_7089() {
+  if (!module_exists('gsb_courses')) {
+    module_enable(array('gsb_courses'));
+  }
+}

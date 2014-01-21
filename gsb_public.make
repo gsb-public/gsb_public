@@ -239,6 +239,13 @@ projects[gsb_feature_club_display][download][url] = git@github.com:gsbitse/gsb_f
 projects[gsb_feature_club_display][download][tag] = 2.0
 projects[gsb_feature_club_display][subdir] = custom/features
 
+; GSB Feature Course
+projects[gsb_courses][type] = module
+projects[gsb_courses][download][type] = git
+projects[gsb_courses][download][url] = git@github.com:gsbitse/gsb_courses.git
+projects[gsb_courses[download][tag] = 2.0
+projects[gsb_courses[subdir] = custom/features
+
 ; GSB Features CTA
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
