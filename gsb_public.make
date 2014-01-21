@@ -202,7 +202,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 3.1
+projects[gsb_feature_base_fields][download][branch] = WP-2643
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature book
@@ -211,6 +211,20 @@ projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsbitse/gsb_feature_book_ct.git
 projects[gsb_feature_book_ct][download][tag] = 3.0
 projects[gsb_feature_book_ct][subdir] = custom/features
+
+; GSB Feature Business Website
+projects[gsb_feature_business_website_ct][type] = module
+projects[gsb_feature_business_website_ct][download][type] = git
+projects[gsb_feature_business_website_ct][download][url] = git@github.com:gsbitse/gsb_feature_business_website_ct.git
+projects[gsb_feature_business_website_ct][download][branch] = WP-2643
+projects[gsb_feature_business_website_ct][subdir] = custom/features
+
+; GSB Feature Business Website Display
+projects[gsb_feature_business_website_display][type] = module
+projects[gsb_feature_business_website_display][download][type] = git
+projects[gsb_feature_business_website_display][download][url] = git@github.com:gsbitse/gsb_feature_business_website_display.git
+projects[gsb_feature_business_website_display][download][branch] = WP-2643
+projects[gsb_feature_business_website_display][subdir] = custom/features
 
 ; GSB Feature Case
 projects[gsb_feature_case_ct][type] = module
