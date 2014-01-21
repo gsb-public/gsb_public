@@ -243,7 +243,7 @@ projects[gsb_feature_club_display][subdir] = custom/features
 projects[gsb_courses][type] = module
 projects[gsb_courses][download][type] = git
 projects[gsb_courses][download][url] = git@github.com:gsbitse/gsb_courses.git
-projects[gsb_courses[download][tag] = 2.0
+projects[gsb_courses[download][branch] = release-3.0
 projects[gsb_courses[subdir] = custom/features
 
 ; GSB Features CTA
