@@ -219,6 +219,20 @@ projects[gsb_feature_book_display][download][url] = git@github.com:gsbitse/gsb_f
 projects[gsb_feature_book_display][download][tag] = 3.0
 projects[gsb_feature_book_display][subdir] = custom/features
 
+; GSB Feature Business Website
+projects[gsb_feature_business_website_ct][type] = module
+projects[gsb_feature_business_website_ct][download][type] = git
+projects[gsb_feature_business_website_ct][download][url] = git@github.com:gsbitse/gsb_feature_business_website_ct.git
+projects[gsb_feature_business_website_ct][download][branch] = release-3.0
+projects[gsb_feature_business_website_ct][subdir] = custom/features
+
+; GSB Feature Business Website Display
+projects[gsb_feature_business_website_display][type] = module
+projects[gsb_feature_business_website_display][download][type] = git
+projects[gsb_feature_business_website_display][download][url] = git@github.com:gsbitse/gsb_feature_business_website_display.git
+projects[gsb_feature_business_website_display][download][branch] = release-3.0
+projects[gsb_feature_business_website_display][subdir] = custom/features
+
 ; GSB Feature Case
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
