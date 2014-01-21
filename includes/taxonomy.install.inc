@@ -39,6 +39,16 @@ function _gsb_public_setup_taxonomy() {
         'Transportation',
       ),
     ),
+    'business_website_categories' => array(
+      'name' => 'Business Website Categories',
+      'description' => t(''),
+      'terms' => array(
+        'Accounting',
+        'Advertising',
+        'Agriculture',
+        'Apparel',
+      ),
+    ),  
     'centers_research_programs' => array(
       'name' => 'Centers and Research Programs',
       'description' => t(''),
