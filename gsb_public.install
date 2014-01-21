@@ -1852,3 +1852,15 @@ function gsb_public_update_7094() {
     module_enable(array('gsb_feature_publication_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_business_website_ct and display modules
+ */
+function gsb_public_update_7095() {
+  if (!module_exists('gsb_feature_business_website_ct')) {
+    module_enable(array('gsb_feature_business_website_ct'));
+  }
+  if (!module_exists('gsb_feature_business_website_display')) {
+    module_enable(array('gsb_feature_business_website_display'));
+  }  
+}
