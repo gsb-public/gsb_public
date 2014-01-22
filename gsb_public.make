@@ -646,9 +646,11 @@ projects[devel][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.6
+projects[ds][version] = 2.x-dev
 projects[ds][subdir] = contrib
-projects[ds][patch][2076897] = https://drupal.org/files/prefix-suffix-v2.patch
+projects[ds][download][type] = git
+projects[ds][download][revision] = df72825
+projects[ds][download][branch] = 7.x-2.x
 
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
