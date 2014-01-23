@@ -202,7 +202,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 3.1
+projects[gsb_feature_base_fields][download][branch] = WP-2572-2
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -252,6 +252,13 @@ projects[gsb_courses][download][type] = git
 projects[gsb_courses][download][url] = git@github.com:gsbitse/gsb_courses.git
 projects[gsb_courses][download][branch] = release-3.0
 projects[gsb_courses[subdir] = custom/features
+
+; GSB Feature Course
+projects[gsb_feature_course_ct][type] = module
+projects[gsb_feature_course_ct][download][type] = git
+projects[gsb_feature_course_ct][download][url] = git@github.com:gsbitse/gsb_feature_course_ct.git
+projects[gsb_feature_course_ct][download][branch] = WP-2572-2
+projects[gsb_feature_course_ct[subdir] = custom/features
 
 ; GSB Features CTA
 projects[gsb_feature_cta][type] = module
