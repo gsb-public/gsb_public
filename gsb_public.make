@@ -205,12 +205,19 @@ projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_fe
 projects[gsb_feature_base_fields][download][tag] = 3.1
 projects[gsb_feature_base_fields][subdir] = custom/features
 
-; GSB Feature book
+; GSB Feature Book
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsbitse/gsb_feature_book_ct.git
 projects[gsb_feature_book_ct][download][tag] = 3.0
 projects[gsb_feature_book_ct][subdir] = custom/features
+
+; GSB Feature Book Display
+projects[gsb_feature_book_display][type] = module
+projects[gsb_feature_book_display][download][type] = git
+projects[gsb_feature_book_display][download][url] = git@github.com:gsbitse/gsb_feature_book_display.git
+projects[gsb_feature_book_display][download][branch] = WP-2673
+projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Case
 projects[gsb_feature_case_ct][type] = module
