@@ -1757,3 +1757,12 @@ function gsb_public_update_7089() {
     module_enable(array('gsb_courses'));
   }
 }
+
+/**
+ * Enable gsb_feature_book_display module
+ */
+function gsb_public_update_7090() {
+  if (!module_exists('gsb_feature_book_display')) {
+    module_enable(array('gsb_feature_book_display'));
+  }
+}
