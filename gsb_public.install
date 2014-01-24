@@ -1750,11 +1750,11 @@ function gsb_public_update_7088() {
 }
 
 /**
- * Enable gsb_courses module
+ * Enable gsb_feature_course_ct module
  */
 function gsb_public_update_7089() {
-  if (!module_exists('gsb_courses')) {
-    module_enable(array('gsb_courses'));
+  if (!module_exists('gsb_feature_course_ct')) {
+    module_enable(array('gsb_feature_course_ct'));
   }
 }
 
