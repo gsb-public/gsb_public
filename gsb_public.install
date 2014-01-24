@@ -1750,7 +1750,7 @@ function gsb_public_update_7088() {
 }
 
 /**
- * Enable gsb_courses module
+ * Enable gsb_feature_course_ct module
  */
 function gsb_public_update_7089() {
   if (!module_exists('gsb_feature_course_ct')) {
@@ -1764,5 +1764,14 @@ function gsb_public_update_7089() {
 function gsb_public_update_7090() {
   if (!module_exists('gsb_feature_book_display')) {
     module_enable(array('gsb_feature_book_display'));
+  }
+}
+
+/**
+ * Enable gsb_courses_display module.
+ */
+function gsb_public_update_7091() {
+  if (!module_exists('gsb_feature_course_display')) {
+    module_enable(array('gsb_feature_course_display'));
   }
 }
