@@ -954,4 +954,4 @@ projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
 projects[panopoly_magic][download][revision] = 7dc1a5e
 projects[panopoly_magic][download][branch] = 7.x-1.x
-projects[panopoly_magic][patch][view_mode_teaser] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/panopoly-magic-view-mode-teaser.patch
+projects[panopoly_magic][patch][1983788] = https://drupal.org/files/issues/panopoly-magic-1983788-5.patch
