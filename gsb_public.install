@@ -1775,3 +1775,12 @@ function gsb_public_update_7091() {
     module_enable(array('gsb_feature_course_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_publication_ct module.
+ */
+function gsb_public_update_7092() {
+  if (!module_exists('gsb_feature_publication_ct')) {
+    module_enable(array('gsb_feature_publication_ct'));
+  }
+}

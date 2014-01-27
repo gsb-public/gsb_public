@@ -425,6 +425,13 @@ projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsbi
 projects[gsb_feature_phd_candidate_display][download][tag] = 2.0
 projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
+; GSB Publication
+projects[gsb_feature_publication_ct][type] = module
+projects[gsb_feature_publication_ct][download][type] = git
+projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
+projects[gsb_feature_publication_ct][download][branch] = release-3.0
+projects[gsb_feature_publication_ct][subdir] = custom/features
+
 ; GSB Quote FPP
 projects[gsb_feature_quote_fpp][type] = module
 projects[gsb_feature_quote_fpp][download][type] = git
