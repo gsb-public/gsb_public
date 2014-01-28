@@ -75,11 +75,7 @@ INSERT INTO `taxonomy_term_data` (`tid`, `vid`, `name`, `description`, `format`,
 (10126, 111, 'Center for Entrepreneurial Studies', NULL, NULL, 0, '2f52a752-3034-458c-b5ee-8cb1bebdfb77'),
 (10131, 111, 'Center for Leadership Development and Research', NULL, NULL, 0, 'cc1f9b87-9259-446e-88a7-f566cb2df8d1'),
 (10136, 111, 'Center for Global Business and the Economy', NULL, NULL, 0, '968ab4cb-9123-489b-8c7a-acd8c4173541'),
-// Removing this term
-//(10141, 111, 'PHI', NULL, NULL, 0, 'f50bb473-0a1e-49b6-a24f-082a28e84d26'),
 (10146, 111, 'Global Supply Chain Management Forum', NULL, NULL, 0, 'fb64aaeb-4992-42fd-80b7-c976689d572e'),
-// Removing this term
-//(10151, 111, 'SPRIE', NULL, NULL, 0, 'b7acf499-0150-4f0a-8ce7-0a5c55315164'),
 (10156, 111, 'Stanford Institute for Innovation in Developing Economies', NULL, NULL, 0, 'e3407528-ce3e-4adb-8604-b8789e59861c'),
 (10161, 111, 'Steyer-Taylor Center for Energy Policy and Finance', NULL, NULL, 0, 'c4800c97-0033-4fb5-b88d-0b39f7ed963f'),
 (10166, 116, 'Administrative Committee', NULL, NULL, 0, '7bf8f185-a9c5-41ce-b3dd-f6568fd2fbc0'),
