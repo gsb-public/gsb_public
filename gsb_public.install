@@ -1784,3 +1784,62 @@ function gsb_public_update_7092() {
     module_enable(array('gsb_feature_publication_ct'));
   }
 }
+
+/**
+ * Update the 'centers_research_programs' vocabulary
+ */
+function gsb_public_update_7093() {
+
+  $vocab_found = false;
+
+  $vocabularies = taxonomy_get_vocabularies();
+  foreach ($vocabularies as $vid => $vocabulary) {
+    if ($vocabulary->machine_name == 'centers_research_programs') {
+      $vocab_found = true;
+      break;
+    }
+  }
+
+  if ($vocab_found) {
+
+    $terms = taxonomy_get_tree($vid);
+    foreach ($terms as $key => $term) {
+      if ($term->name == 'CSI') {
+        $term->name = 'Center for Social Innovation';
+        taxonomy_term_save($term);
+      }
+      else if ($term->name == 'CES') {
+        $term->name = 'Center for Entrepreneurial Studies';
+        taxonomy_term_save($term);
+      }
+      else if ($term->name == 'CGBE') {
+        $term->name = 'Center for Global Business and the Economy';
+        taxonomy_term_save($term);
+      }
+      else if ($term->name == 'CLDR') {
+        $term->name = 'Center for Leadership Development and Research';
+        taxonomy_term_save($term);
+      }
+      else if ($term->name == 'SC Forum') {
+        $term->name = 'Global Supply Chain Management Forum';
+        taxonomy_term_save($term);
+      }
+      else if ($term->name == 'SEED') {
+        $term->name = 'Stanford Institute for Innovation in Developing Economies';
+        taxonomy_term_save($term);
+      }
+      else if ($term->name == 'STEYER-TAYLOR') {
+        $term->name = 'Steyer-Taylor Center for Energy Policy and Finance';
+        taxonomy_term_save($term);
+      }               
+      else if ($term->name == 'PHI') {
+        taxonomy_term_delete($term->tid);
+      }    
+      else if ($term->name == 'SPRIE') {
+        taxonomy_term_delete($term->tid);
+      }          
+
+    }
+  }
+
+}
