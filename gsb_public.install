@@ -1843,3 +1843,12 @@ function gsb_public_update_7093() {
   }
 
 }
+
+/**
+ * Enable gsb_feature_publication_display module.
+ */
+function gsb_public_update_7094() {
+  if (!module_exists('gsb_feature_publication_display')) {
+    module_enable(array('gsb_feature_publication_display'));
+  }
+}
