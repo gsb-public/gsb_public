@@ -209,14 +209,14 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsbitse/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 3.1
+projects[gsb_feature_book_ct][download][branch] = release-3.2
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
 projects[gsb_feature_book_display][type] = module
 projects[gsb_feature_book_display][download][type] = git
 projects[gsb_feature_book_display][download][url] = git@github.com:gsbitse/gsb_feature_book_display.git
-projects[gsb_feature_book_display][download][tag] = 3.0
+projects[gsb_feature_book_display][download][branch] = release-3.1
 projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Business Website
