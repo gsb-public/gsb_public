@@ -1864,3 +1864,29 @@ function gsb_public_update_7095() {
     module_enable(array('gsb_feature_business_website_display'));
   }  
 }
+
+
+/**
+ * Update the book field_year_of_publication_value value to save only Y format
+ */
+function gsb_public_update_7096() {
+
+  $query = db_select('field_data_field_year_of_publication','year_pub');
+  $query->fields('year_pub', array(
+    'entity_type','bundle','deleted','entity_id','revision_id','language','delta',
+    'field_year_of_publication_value'
+  ));
+  $query->condition('year_pub.bundle','book','=');
+  $result = $query->execute();
+  
+  foreach ($result as $item) {
+    $timestamp = strtotime($item->field_year_of_publication_value);
+    $date_time = date_create('@' . $timestamp);
+    $date = date_format($date_time, 'Y') . '-01-01 00:00:00';
+    db_update('field_data_field_year_of_publication')
+      ->fields(array('field_year_of_publication_value' => $date))
+      ->condition('entity_id', $item->entity_id, '=')
+      ->execute();
+  } 
+  
+}
