@@ -1864,3 +1864,12 @@ function gsb_public_update_7095() {
     module_enable(array('gsb_feature_business_website_display'));
   }  
 }
+
+/**
+ * Enable gsb_feature_rss_feeds.
+ */
+function gsb_public_update_7096() {
+  if (!module_exists('gsb_feature_rss_feeds')) {
+    module_enable(array('gsb_feature_rss_feeds'));
+  }
+}
