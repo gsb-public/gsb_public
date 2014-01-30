@@ -459,6 +459,13 @@ projects[gsb_feature_quote_fpp][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_quote_fpp][download][tag] = 1.1
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
+; GSB Feature RSS Feeds
+projects[gsb_feature_rss_feeds][type] = module
+projects[gsb_feature_rss_feeds][download][type] = git
+projects[gsb_feature_rss_feeds][download][url] = git@github.com:gsbitse/gsb_feature_rss_feeds.git
+projects[gsb_feature_rss_feeds][download][branch] = release-3.0
+projects[gsb_feature_rss_feeds][subdir] = custom/features
+
 ; GSB Feature SimpleSAML
 projects[gsb_feature_simplesaml][type] = module
 projects[gsb_feature_simplesaml][download][type] = git
@@ -955,6 +962,13 @@ projects[views_load_more][patch][1454750] = http://drupal.org/files/view_load_mo
 
 projects[views_responsive_grid][version] = 1.3
 projects[views_responsive_grid][subdir] = contrib
+
+projects[views_xml_backend][type] = module
+projects[views_xml_backend][download][type] = git
+projects[views_xml_backend][download][url] = http://git.drupal.org/project/views_xml_backend.git
+projects[views_xml_backend][download][revision] = 9858ea6
+projects[views_xml_backend][download][branch] = 7.x-1.x
+projects[views_xml_backend][subdir] = contrib
 
 projects[webform_phone][version] = 1.14
 projects[webform_phone][subdir] = contrib
