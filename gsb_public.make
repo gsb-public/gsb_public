@@ -449,7 +449,7 @@ projects[gsb_feature_publication_ct][subdir] = custom/features
 projects[gsb_feature_publication_display][type] = module
 projects[gsb_feature_publication_display][download][type] = git
 projects[gsb_feature_publication_display][download][url] = git@github.com:gsbitse/gsb_feature_publication_display.git
-projects[gsb_feature_publication_display][download][tag] = 3.0
+projects[gsb_feature_publication_display][download][branch] = release-3.1
 projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Quote FPP
