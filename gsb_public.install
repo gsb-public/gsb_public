@@ -1897,3 +1897,12 @@ function gsb_public_update_7097() {
       ->execute();
   } 
 }
+
+/**
+ * Enable gsb_agenda.
+ */
+function gsb_public_update_7098() {
+  if (!module_exists('gsb_agenda')) {
+    module_enable(array('gsb_agenda'));
+  }
+}

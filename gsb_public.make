@@ -47,6 +47,13 @@ projects[gsb_az_filter][download][url] = git@github.com:gsbitse/gsb_az_filter.gi
 projects[gsb_az_filter][download][tag] = 3.0
 projects[gsb_az_filter][subdir] = custom
 
+; GSB Agenda
+projects[gsb_agenda][type] = module
+projects[gsb_agenda][download][type] = git
+projects[gsb_agenda][download][url] = git@github.com:gsbitse/gsb_agenda.git
+projects[gsb_agenda][download][tag] = WP-2796
+projects[gsb_agenda][subdir] = custom
+
 ; GSB Cmis Api
 projects[gsb_cmis_api][type] = module
 projects[gsb_cmis_api][download][type] = git
@@ -614,6 +621,9 @@ projects[admin_views][subdir] = contrib
 
 projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
+
+projects[agenda][version] = 1.4
+projects[agenda][subdir] = contrib
 
 projects[backports][version] = 1.0-alpha1
 projects[backports][subdir] = contrib
