@@ -1906,3 +1906,15 @@ function gsb_public_update_7098() {
     module_enable(array('gsb_agenda'));
   }
 }
+
+/**
+ * Create Business Website Categories vocabulary.
+ */
+function gsb_public_update_7099() {
+  $vocabulary = (object) array(
+    'machine_name' => 'business_website_categories',
+    'name' => 'Business Website Categories',
+    'description' => '',
+  );
+  taxonomy_vocabulary_save($vocabulary);
+}
