@@ -1918,3 +1918,20 @@ function gsb_public_update_7099() {
   );
   taxonomy_vocabulary_save($vocabulary);
 }
+
+/**
+ * Setting gsb_feature_publication_display to follow panopoly_magic, in the module peckin' order.
+ */
+function gsb_public_update_7100() {
+  // Make the weight of our module one higher than panopoly_magic.
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('name', 'panopoly_magic', '=')
+              ->execute()
+              ->fetchField();
+
+  db_update('system')
+    ->fields(array('weight' => $weight +1))
+    ->condition('name', 'gsb_feature_publication_display', '=')
+    ->execute();
+}
