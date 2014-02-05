@@ -636,9 +636,9 @@ projects[better_exposed_filters][version] = 3.x-dev
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][download][type] = git
 projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
-projects[better_exposed_filters][download][revision] = 08f0995
+projects[better_exposed_filters][download][revision] = 3dd91de
 projects[better_exposed_filters][download][branch] = 7.x-3.x
-projects[better_exposed_filters][patch][1983960] = https://drupal.org/files/issues/bef-1983960-10.patch
+projects[better_exposed_filters][patch][2189321] = https://drupal.org/files/issues/bef-2189321.patch
 
 projects[breadcrumbs_by_path][version] = 1.x-dev
 projects[breadcrumbs_by_path][subdir] = contrib
