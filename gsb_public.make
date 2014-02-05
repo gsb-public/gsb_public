@@ -770,6 +770,7 @@ projects[field_formatter_settings][subdir] = contrib
 
 projects[field_group][version] = 1.1
 projects[field_group][subdir] = contrib
+projects[field_group][patch][2189777] = https://drupal.org/files/issues/field_group_patch-2189777-1.patch
 
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][subdir] = contrib
