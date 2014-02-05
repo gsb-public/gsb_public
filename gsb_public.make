@@ -921,6 +921,9 @@ projects[select_or_other][subdir] = contrib
 projects[site_verify][version] = 1.0
 projects[site_verify][subdir] = contrib
 
+projects[smart_trim][version] = 1.4
+projects[smart_trim][subdir] = contrib
+
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
