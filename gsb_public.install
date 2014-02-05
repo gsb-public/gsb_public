@@ -1935,3 +1935,12 @@ function gsb_public_update_7100() {
     ->condition('name', 'gsb_feature_publication_display', '=')
     ->execute();
 }
+
+/**
+ * Enable smart_trim
+ */
+function gsb_public_update_7101() {
+  if (!module_exists('smart_trim')) {
+    module_enable(array('smart_trim'));
+  }
+}
