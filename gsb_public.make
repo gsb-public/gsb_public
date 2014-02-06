@@ -135,7 +135,7 @@ projects[gsb_panels_ipe_overrides][subdir] = custom
 projects[gsb_panels_pages][type] = module
 projects[gsb_panels_pages][download][type] = git
 projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pages.git
-projects[gsb_panels_pages][download][tag] = 2.0
+projects[gsb_panels_pages][download][branch] = WP-2846
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Panopoly Magic Customization
@@ -237,7 +237,7 @@ projects[gsb_feature_business_website_ct][subdir] = custom/features
 projects[gsb_feature_business_website_display][type] = module
 projects[gsb_feature_business_website_display][download][type] = git
 projects[gsb_feature_business_website_display][download][url] = git@github.com:gsbitse/gsb_feature_business_website_display.git
-projects[gsb_feature_business_website_display][download][branch] = release-3.0
+projects[gsb_feature_business_website_display][download][branch] = WP-2846
 projects[gsb_feature_business_website_display][subdir] = custom/features
 
 ; GSB Feature Case
@@ -450,7 +450,7 @@ projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][branch] = release-3.1
+projects[gsb_feature_publication_ct][download][branch] = WP-2831-1
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 projects[gsb_feature_publication_display][type] = module
