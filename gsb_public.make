@@ -725,6 +725,7 @@ projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
+projects[entityreference][patch][1346102] = https://drupal.org/files/issues/entityreference-1986070-6.patch
 
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
