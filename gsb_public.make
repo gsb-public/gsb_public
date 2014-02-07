@@ -638,7 +638,7 @@ projects[better_exposed_filters][download][type] = git
 projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
 projects[better_exposed_filters][download][revision] = 3dd91de
 projects[better_exposed_filters][download][branch] = 7.x-3.x
-projects[better_exposed_filters][patch][2189321] = https://drupal.org/files/issues/bef-2189321.patch
+projects[better_exposed_filters][patch][2189321] = https://drupal.org/files/issues/bef-2189321-2.patch
 
 projects[breadcrumbs_by_path][version] = 1.x-dev
 projects[breadcrumbs_by_path][subdir] = contrib
