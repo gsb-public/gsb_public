@@ -1944,3 +1944,10 @@ function gsb_public_update_7101() {
     module_enable(array('smart_trim'));
   }
 }
+
+/**
+ * Change jpeg quality to 100%
+ */
+function gsb_public_update_7102() {
+  variable_set('image_jpeg_quality', 100);
+}
