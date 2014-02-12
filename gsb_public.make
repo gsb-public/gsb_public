@@ -209,7 +209,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 3.3
+projects[gsb_feature_base_fields][download][branch] = WP-2895
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -244,7 +244,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsbitse/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][tag] = 3.3
+projects[gsb_feature_case_ct][download][branch] = WP-2895
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
