@@ -850,6 +850,9 @@ projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
 projects[menu_minipanels][patch][1977018] = http://drupal.org/files/1977018-d7-2.patch
 
+projects[menu_position][version] = 1.1
+projects[menu_position][subdir] = contrib
+
 projects[menu_trail_by_path][version] = 2.x-dev
 projects[menu_trail_by_path][subdir] = contrib
 projects[menu_trail_by_path][download][type] = git

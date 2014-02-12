@@ -33,6 +33,7 @@ function gsb_public_install() {
     'acquia',
     'cmis',
     'ds',
+    'menu_position',
     'quickbar',
     'panels',
     'cleanup',  // please leave this as the last task to run
@@ -1950,4 +1951,15 @@ function gsb_public_update_7101() {
  */
 function gsb_public_update_7102() {
   variable_set('image_jpeg_quality', 100);
+}
+
+/**
+ * Enable menu_position
+ */
+function gsb_public_update_7103() {
+  if (!module_exists('menu_position')) {
+    module_enable(array('menu_position'));
+  }
+  
+  variable_set('menu_position_active_link_display', 'parent');
 }

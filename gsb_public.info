@@ -69,6 +69,7 @@ dependencies[] = media_vimeo
 dependencies[] = menu_attributes
 dependencies[] = menu_block
 dependencies[] = menu_minipanels
+dependencies[] = menu_position
 dependencies[] = menu_trail_by_path
 dependencies[] = metatag
 dependencies[] = module_filter
