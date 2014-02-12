@@ -568,7 +568,7 @@ projects[gsb_feature_working_paper_ct][subdir] = custom/features
 projects[gsb_feature_working_paper_display][type] = module
 projects[gsb_feature_working_paper_display][download][type] = git
 projects[gsb_feature_working_paper_display][download][url] = git@github.com:gsbitse/gsb_feature_working_paper_display.git
-projects[gsb_feature_working_paper_display][download][branch] = release-3.3
+projects[gsb_feature_working_paper_display][download][tag] = 3.3
 projects[gsb_feature_working_paper_display][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
