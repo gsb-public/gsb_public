@@ -51,7 +51,7 @@ projects[gsb_az_filter][subdir] = custom
 projects[gsb_agenda][type] = module
 projects[gsb_agenda][download][type] = git
 projects[gsb_agenda][download][url] = git@github.com:gsbitse/gsb_agenda.git
-projects[gsb_agenda][download][branch] = release-3.0
+projects[gsb_agenda][download][tag] = 3.0
 projects[gsb_agenda][subdir] = custom
 
 ; GSB Cmis Api
