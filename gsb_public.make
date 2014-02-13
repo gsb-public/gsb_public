@@ -533,7 +533,7 @@ projects[gsb_feature_video][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsbitse/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][branch] = WP-2932
+projects[gsb_feature_webform_ct][download][branch] = release-3.0
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -575,7 +575,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][branch] = WP-2932
+projects[gsb_feature_wysiwyg][download][branch] = release-3.0
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
