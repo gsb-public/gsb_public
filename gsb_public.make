@@ -601,16 +601,16 @@ projects[gsb_theme_admin][download][tag] = 3.1
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.12
+projects[acquia_connector][version] = 2.13
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.0-beta1
 projects[acquia_purge][subdir] = contrib
 
-projects[addressfield][version] = 1.0-beta4
+projects[addressfield][version] = 1.0-beta5
 projects[addressfield][subdir] = contrib
 
-projects[addthis][version] = 4.0-alpha2
+projects[addthis][version] = 4.0-alpha4
 projects[addthis][subdir] = contrib
 
 projects[admin_menu][version] = 3.0-rc4
@@ -632,12 +632,8 @@ projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.x-dev
+projects[better_exposed_filters][version] = 3.0-beta4
 projects[better_exposed_filters][subdir] = contrib
-projects[better_exposed_filters][download][type] = git
-projects[better_exposed_filters][download][url] = http://git.drupal.org/project/better_exposed_filters.git
-projects[better_exposed_filters][download][revision] = 3dd91de
-projects[better_exposed_filters][download][branch] = 7.x-3.x
 projects[better_exposed_filters][patch][2189321] = https://drupal.org/files/issues/bef-2189321-2.patch
 
 projects[breadcrumbs_by_path][version] = 1.x-dev
@@ -668,11 +664,8 @@ projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 
-projects[ctools][version] = 1.x-dev
+projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
-projects[ctools][download][type] = git
-projects[ctools][download][revision] = 876c1a8
-projects[ctools][download][branch] = 7.x-1.x
 projects[ctools][patch][1901106] = http://drupal.org/files/1901106-ctools-views_content-exposed_form_override-5.patch
 
 ; Add context filter by query in url
@@ -683,7 +676,7 @@ projects[ctools_query_string_context][download][revision] = dc75839
 projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
 
-projects[date][version] = 2.6
+projects[date][version] = 2.7
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.1
@@ -794,9 +787,8 @@ projects[jquery_update][version] = 2.3
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-fixes-states-js-1448490.patch
 
-projects[libraries][version] = 2.1
+projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
-projects[libraries][patch][1938638] = https://drupal.org/files/libraries-undefined-index-foo.patch
 
 projects[link][version] = 1.2
 projects[link][subdir] = contrib
@@ -859,7 +851,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.0-beta7
+projects[metatag][version] = 1.0-beta9
 projects[metatag][subdir] = contrib
 
 projects[module_filter][version] = 1.8
@@ -894,12 +886,8 @@ projects[pathauto_menu_link][patch][2059853] = https://drupal.org/files/2059853-
 projects[pathauto_menu_link][patch][2059863] = https://drupal.org/files/2059863-d7-1.patch
 
 ; Phone module for Webform Phone
-projects[phone][version] = 1.x-dev
+projects[phone][version] = 1.0-beta1
 projects[phone][subdir] = contrib
-projects[phone][download][type] = git
-projects[phone][download][url] = http://git.drupal.org/project/phone.git
-projects[phone][download][revision] = 173dd71
-projects[phone][download][branch] = 7.x-1.x
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
@@ -962,7 +950,7 @@ projects[views][patch][1333932] = http://drupal.org/files/1333932-sort-exposed-c
 projects[views_autocomplete_filters][version] = 1.0
 projects[views_autocomplete_filters][subdir] = contrib
 
-projects[views_bulk_operations][version] = 3.1
+projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_field_view][version] = 1.1
@@ -988,7 +976,7 @@ projects[views_xml_backend][download][revision] = 9858ea6
 projects[views_xml_backend][download][branch] = 7.x-1.x
 projects[views_xml_backend][subdir] = contrib
 
-projects[webform_phone][version] = 1.14
+projects[webform_phone][version] = 1.17
 projects[webform_phone][subdir] = contrib
 
 projects[workbench][version] = 1.x-dev
