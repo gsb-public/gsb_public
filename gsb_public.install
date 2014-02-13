@@ -1963,3 +1963,50 @@ function gsb_public_update_7103() {
   
   variable_set('menu_position_active_link_display', 'parent');
 }
+
+/**
+ * Update the 'business_insight_topic' vocabulary
+ */
+function gsb_public_update_7104() {
+  $vocab_found = false;
+  $vocabularies = taxonomy_get_vocabularies();
+  foreach ($vocabularies as $vid => $vocabulary) {
+    if ($vocabulary->machine_name == 'business_insight_topic') {
+      $vocab_found = true;
+      break;
+    }
+  }
+  $new_terms = array(
+    "Career & Success",
+    "Corporate Governance",
+    "Education",
+    "Energy",
+    "Entrepreneurship",
+    "Global Business",
+    "Health Care",
+    "Leadership",
+    "Management",
+    "Nonprofit",
+    "Public Sector",
+    "Social Innovation",
+  );
+  if ($vocab_found) {
+    $terms = taxonomy_get_tree($vid);
+    foreach ($new_terms as $new_term) {
+      $term_found = false;
+      foreach ($terms as $key => $term) {
+        if ($term->name == $new_term) {
+          $term_found = true;
+          break;
+        }
+      }
+      if (!$term_found) {
+        $term = (object) array(
+          'vid' => $vocabulary->vid,
+          'name' => $new_term,
+        );
+        taxonomy_term_save($term);   
+      }
+    }
+  }  
+}  
