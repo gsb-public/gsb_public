@@ -533,7 +533,7 @@ projects[gsb_feature_video][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsbitse/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 2.0
+projects[gsb_feature_webform_ct][download][branch] = WP-2932
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -575,7 +575,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][tag] = 2.1
+projects[gsb_feature_wysiwyg][download][branch] = WP-2932
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
@@ -996,9 +996,7 @@ projects[workbench_moderation][subdir] = contrib
 ;  Panopoly Features
 ;=========================================
 
-projects[panopoly_magic][version] = 1.x-dev
+projects[panopoly_magic][version] = 1.1
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][download][type] = git
-projects[panopoly_magic][download][revision] = 7dc1a5e
-projects[panopoly_magic][download][branch] = 7.x-1.x
 projects[panopoly_magic][patch][1983788] = https://drupal.org/files/issues/panopoly-magic-1983788-5.patch
