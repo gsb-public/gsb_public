@@ -347,7 +347,7 @@ projects[gsb_feature_file_types][subdir] = custom/features
 projects[gsb_feature_google_analytics_settings][type] = module
 projects[gsb_feature_google_analytics_settings][download][type] = git
 projects[gsb_feature_google_analytics_settings][download][url] = git@github.com:gsbitse/gsb_feature_google_analytics_settings.git
-projects[gsb_feature_google_analytics_settings][download][tag] = 1.1
+projects[gsb_feature_google_analytics_settings][download][branch] = release-3.0
 projects[gsb_feature_google_analytics_settings][subdir] = custom/features
 
 ; GSB Feature GSA Search
@@ -768,8 +768,11 @@ projects[field_group][patch][2189777] = https://drupal.org/files/issues/field_gr
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][subdir] = contrib
 
-projects[google_analytics][version] = 1.4
+projects[google_analytics][version] = 2.x-dev
 projects[google_analytics][subdir] = contrib
+projects[google_analytics][download][type] = git
+projects[google_analytics][download][revision] = f0f27ea
+projects[google_analytics][download][branch] = 7.x-2.x
 
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
