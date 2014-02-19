@@ -1963,3 +1963,12 @@ function gsb_public_update_7103() {
   
   variable_set('menu_position_active_link_display', 'parent');
 }
+
+/**
+ * Enable gsb_connecting_link.
+ */
+function gsb_public_update_7104() {
+  if (!module_exists('gsb_connecting_link')) {
+    module_enable(array('gsb_connecting_link'));
+  }
+}

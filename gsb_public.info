@@ -93,6 +93,7 @@ dependencies[] = gsb_academic_year
 dependencies[] = gsb_addthis_customization
 dependencies[] = gsb_advanced_menu_customization
 dependencies[] = gsb_az_filter
+dependencies[] = gsb_connecting_link
 dependencies[] = gsb_custom_section_title
 dependencies[] = gsb_field_formatter
 dependencies[] = gsb_fpp_customization
