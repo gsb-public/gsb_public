@@ -68,6 +68,13 @@ projects[gsb_cmis][download][url] = git@github.com:gsbitse/gsb_cmis.git
 projects[gsb_cmis][download][tag] = 3.1
 projects[gsb_cmis][subdir] = custom
 
+; GSB Connecting Link
+projects[gsb_connecting_link][type] = module
+projects[gsb_connecting_link][download][type] = git
+projects[gsb_connecting_link][download][url] = git@github.com:gsbitse/gsb_connecting_link.git
+projects[gsb_connecting_link][download][branch] = 7.x-1.x
+projects[gsb_connecting_link][subdir] = custom
+
 ; GSB Custom Section Title
 projects[gsb_custom_section_title][type] = module
 projects[gsb_custom_section_title][download][type] = git
