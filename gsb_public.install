@@ -2010,3 +2010,12 @@ function gsb_public_update_7104() {
     }
   }  
 }  
+ 
+/**
+ * Enable gsb_connecting_link.
+ */
+function gsb_public_update_7105() {
+  if (!module_exists('gsb_connecting_link')) {
+    module_enable(array('gsb_connecting_link'));
+  }
+}
