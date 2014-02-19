@@ -1975,22 +1975,21 @@ function gsb_public_update_7104() {
       $vocab_found = true;
       break;
     }
-  }
-  $new_terms = array(
-    "Career & Success",
-    "Corporate Governance",
-    "Education",
-    "Energy",
-    "Entrepreneurship",
-    "Global Business",
-    "Health Care",
-    "Leadership",
-    "Management",
-    "Nonprofit",
-    "Public Sector",
-    "Social Innovation",
-  );
+  }  
   if ($vocab_found) {
+    // add any new terms
+    $new_terms = array(
+      "Career & Success",
+      "Corporate Governance",
+      "Education",
+      "Energy",
+      "Entrepreneurship",
+      "Global Business",
+      "Health Care",
+      "Leadership",
+      "Nonprofit",
+      "Public Sector",
+    );
     $terms = taxonomy_get_tree($vid);
     foreach ($new_terms as $new_term) {
       $term_found = false;
@@ -2005,8 +2004,22 @@ function gsb_public_update_7104() {
           'vid' => $vocabulary->vid,
           'name' => $new_term,
         );
-        taxonomy_term_save($term);   
+        taxonomy_term_save($term);
       }
     }
-  }  
-}  
+    // rename terms
+    $rename_terms = array(
+      "Business & Society" => "Social Innovation",
+      "Media & Entertainment" => "Management",
+    );
+    foreach ($rename_terms as $old => $new) {
+      foreach ($terms as $key => $term) {
+        if ($term->name == $old) {
+          $term->name = $new;
+          taxonomy_term_save($term);
+          break;
+        }
+      }
+    }
+  }
+}
