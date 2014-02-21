@@ -2025,44 +2025,58 @@ function gsb_public_update_7105() {
 function gsb_public_update_7105() {
 
   // the mapping array has the following structure:
-  //  from vocab term name
+  //    from vocab term name
+  //    remove from term - true deletes the from term
   //    from vocab name
   //    from field name
-  //    to vocab name maps => list of new term names
+  //    to vocab name
+  //    to term names
 
   $mapping = array(
-    "Consumer" => array(
+    array(
+      'from_term_name' => 'Consumer',
+      'remove_from_term' => true,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Marketing"),
     ),    
-    "Technology" => array(
+    array(
+      'from_term_name' => 'Technology',
+      'remove_from_term' => true,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Operations, Information & Technology"),
     ),
-    "Operations" => array(
+    array(
+      'from_term_name' => 'Operations',
+      'remove_from_term' => true,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Operations, Information & Technology"),
      ),
-    "Transportation" => array(
+    array(
+      'from_term_name' => 'Transportation',
+      'remove_from_term' => true,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'business_insight_topic',
       'to_term_names' => array("Management"),
      ),    
-    "Finance & Economics" => array(
+    array(
+      'from_term_name' => 'Finance & Economics',
+      'remove_from_term' => true,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Accounting","Economics","Finance","Political Economy"),
-     ),     
+     ),
     /* no nodes found needing this update
-    "Marketing" => array(
+    array(
+      'from_term_name' => 'Marketing',
+      'remove_from_term' => false,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
@@ -2070,31 +2084,44 @@ function gsb_public_update_7105() {
      ),   
     */
     /* no nodes found needing this update
-    "Marketing" => array(
+    array(
+      'from_term_name' => 'Marketing',
+      'remove_from_term' => true,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'business_insight_topic',
       'to_term_names' => array("Career & Success"),
      ),        
-     */  
-    /* @todo need to make a small code adjustment to handle this one
-    "Management & Organizations"  => array(
+     */
+    array(
+      'from_term_name' => 'Management & Organizations',
+      'remove_from_term' => false,
       'from_vocab_name' => 'business_insight_topic',
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'business_insight_topic',
       'to_term_names' => array("Career & Success","Corporate Governance","Management"),
      ),
-     */        
+    array(
+      'from_term_name' => 'Management & Organizations',
+      'remove_from_term' => true,
+      'from_vocab_name' => 'business_insight_topic',
+      'from_field_name' => 'field_business_insight_topic',
+      'to_vocab_name' => 'academic_area',
+      'to_term_names' => array("Organizational Behavior"),
+     ),
   );
 
-  foreach ($mapping as $from_term_name => $mapping_info) {
+  foreach ($mapping as $mapping_info) {
 
     // get the mapping info
 
+    $from_term_name =  $mapping_info['from_term_name'];
+    $remove_from_term = $mapping_info['remove_from_term'];
     $from_vocab_name = $mapping_info['from_vocab_name'];
     $from_field_name = $mapping_info['from_field_name'];
     $to_vocab_name = $mapping_info['to_vocab_name'];
     $to_term_names = $mapping_info['to_term_names'];
+    watchdog('tax_mapping','remove_from_term = ',$remove_from_term,WATCHDOG_NOTICE);
     watchdog('tax_mapping','from_vocab_name = ',$from_vocab_name,WATCHDOG_NOTICE);
     watchdog('tax_mapping','from_term_name = ',$from_term_name,WATCHDOG_NOTICE);
     watchdog('tax_mapping','from_field_name = ',$from_field_name,WATCHDOG_NOTICE);
@@ -2120,7 +2147,7 @@ function gsb_public_update_7105() {
 
     // update all the entities
 
-    _gsb_public_update_entities($entities, $from_vocab_name, $from_term->tid, $to_vocab_name, $to_terms);
+    _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_term->tid, $to_vocab_name, $to_terms);
   }
 }
 
@@ -2140,7 +2167,7 @@ function _gsb_public_get_terms($term_names,$vocab_name) {
 /**
  * Update the taxonomies from/to for a list of entities
  */
-function _gsb_public_update_entities($entities, $from_vocab_name, $from_tid, $to_vocab_name, $to_terms) {
+function _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_tid, $to_vocab_name, $to_terms) {
 
   watchdog('tax_mapping',"in _gsb_public_update_entities",array(),WATCHDOG_NOTICE);
   watchdog('tax_mapping','from tid = ',$from_tid,WATCHDOG_NOTICE);
@@ -2160,13 +2187,19 @@ function _gsb_public_update_entities($entities, $from_vocab_name, $from_tid, $to
       $set_to_terms = true;
     }
 
-    // remove term in 'from' vocab, but only if we were able to update to new terms
-    // so this means the entity needs to have a field for both the 'from' and the 'to'
-    if ($set_to_terms) {
+    // check the $remove_from_term flag to determine if we should try to remove
+    // the 'from' term.
+    // also, we will remove the 'from' term only if we were able to update the 'to' terms
+    // so this means the entity needs to have a field for both the 'from' and the 'to' vocabs
+
+    if ($remove_from_term && $set_to_terms) {
       $field_names = _gsb_public_get_field_name_by_vocab_name($node, $from_vocab_name);
       foreach($field_names as $field_name) {
         _gsb_public_remove_field_term($ewrapper,$field_name,$from_tid);
       }
+    }
+
+    if ($set_to_terms) {
       watchdog('tax_mapping','updated node nid = ',$node->nid,WATCHDOG_NOTICE);
       $ewrapper->save();
     }
@@ -2257,3 +2290,12 @@ function _gsb_public_get_field_name_by_vocab_name($node, $vocab_name) {
   }
   return $field_vocabs;
 }
+
+
+
+
+
+
+
+
+
