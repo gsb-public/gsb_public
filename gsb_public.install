@@ -89,6 +89,147 @@ function _gsb_public_terms_add($terms) {
 }
 
 /**
+ * Get the terms for a given set of term names and a given vocab name
+ */
+function _gsb_public_get_terms($term_names,$vocab_name) {
+  $terms = array();
+  foreach ($term_names as $term_name) {
+    $term = taxonomy_get_term_by_name($term_name, $vocab_name);
+    $term = array_shift($term);
+    $terms[] = $term;
+  }
+  return $terms;
+}
+
+/**
+ * Update the taxonomies from/to for a list of entities
+ */
+function _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_tid, $to_vocab_name, $to_terms) {
+
+  watchdog('tax_mapping',"in _gsb_public_update_entities",array(),WATCHDOG_NOTICE);
+  watchdog('tax_mapping','from tid = ',array($from_tid),WATCHDOG_NOTICE);
+
+  foreach($entities as $entity) {
+
+    $node = node_load($entity->entity_id);
+    watchdog('tax_mapping','node id = ',array($node->nid),WATCHDOG_NOTICE);
+
+    $ewrapper = entity_metadata_wrapper('node', $node);
+
+    // update the terms in 'to' vocab
+    $set_to_terms = false;
+    $field_names = _gsb_public_get_field_name_by_vocab_name($node, $to_vocab_name);
+    foreach($field_names as $field_name) {
+      _gsb_public_set_field_terms($ewrapper,$field_name,$to_terms);
+      $set_to_terms = true;
+    }
+
+    // check the $remove_from_term flag to determine if we should try to remove
+    // the 'from' term.
+    // also, we will remove the 'from' term only if we were able to update the 'to' terms
+    // so this means the entity needs to have a field for both the 'from' and the 'to' vocabs
+
+    if ($remove_from_term && $set_to_terms) {
+      $field_names = _gsb_public_get_field_name_by_vocab_name($node, $from_vocab_name);
+      foreach($field_names as $field_name) {
+        _gsb_public_remove_field_term($ewrapper,$field_name,$from_tid);
+      }
+    }
+
+    if ($set_to_terms) {
+      watchdog('tax_mapping','updated node nid = ',array($node->nid),WATCHDOG_NOTICE);
+      $ewrapper->save();
+    }
+
+    //watchdog('tax_mapping','wrapper = ',_wrapper_debug($ewrapper),WATCHDOG_NOTICE);
+  }
+
+}
+
+/**
+ * Set the terms for a term reference field
+ */
+function _gsb_public_set_field_terms($ewrapper,$field_name,$new_terms) {
+  $current_terms = array();
+  if (!empty($ewrapper->{$field_name})) {
+    $current_terms = $ewrapper->{$field_name}->value();
+  }
+  watchdog('tax_mapping',$field_name.' current_terms = ',$current_terms,WATCHDOG_NOTICE);
+  $new_terms = _gsb_public_combine_terms($current_terms, $new_terms);
+  watchdog('tax_mapping',$field_name.' new_terms = ',$new_terms,WATCHDOG_NOTICE);
+  $ewrapper->{$field_name}->set($new_terms);
+}
+
+/**
+ * Remove a term from a term reference field
+ */
+function _gsb_public_remove_field_term($ewrapper,$field_name,$tid) {
+  $current_terms = $ewrapper->{$field_name}->value();
+  watchdog('tax_mapping',$field_name.' current_terms = ',$current_terms,WATCHDOG_NOTICE);
+  $new_terms = _gsb_public_remove_term($tid, $current_terms);
+  watchdog('tax_mapping',$field_name.' new_terms = ',$new_terms,WATCHDOG_NOTICE);
+  $ewrapper->{$field_name}->set($new_terms);
+}
+
+/**
+ * Remove a term from a list of terms
+ */
+function _gsb_public_remove_term($tid, $current_terms) {
+  $new_terms = array();
+  foreach($current_terms as $term) {
+    if ($term->tid != $tid) {
+      $new_terms[] = $term;
+    }
+  }
+  return $new_terms;
+}
+
+/**
+ * Combine a list of terms, with check to see if term is already
+ * in the list
+ */
+function _gsb_public_combine_terms($terms1, $terms2) {
+  $new_terms = $terms2;
+  foreach($terms1 as $term1) {
+    $found = false;
+    foreach($terms2 as $term2) {
+      if ($term2->tid == $term1->tid) {
+        $found = true;
+        break;
+      }
+    }
+    if (!$found) {
+      $new_terms[] = $term1;
+    }
+  }
+  return $new_terms;
+}
+
+/**
+ * Get a list of field names that reference a vocab within a node
+ */
+function _gsb_public_get_field_name_by_vocab_name($node, $vocab_name) {
+  //watchdog('tax_mapping','in _gsb_public_get_field_name_by_vocab_name',array(),WATCHDOG_NOTICE);
+  //watchdog('tax_mapping','node = ',$node,WATCHDOG_NOTICE);
+  $map = field_info_field_map();
+  $field_vocabs = array();
+  foreach (field_info_fields() as $field_name => $field_info) {
+    // Only process taxonomy term reference fields.
+    if ($field_info['type'] == 'taxonomy_term_reference') {
+      // Loop through the allowed values to find the vocabularies used by the field.
+      foreach ($field_info['settings']['allowed_values'] as $allowed_value) {
+        // Restrict to fields used by this content type and matching the specified vocabulary.
+        if ($allowed_value['vocabulary'] == $vocab_name && in_array($node->type, $map[$field_name]['bundles']['node'])) {
+          $field_vocabs[$field_name] = $field_name;
+        }
+      }
+    }
+  }
+  return $field_vocabs;
+}
+
+
+/**
  * Add a 'year' date format.
  */
 function gsb_public_update_7000() {
@@ -2036,7 +2177,7 @@ function gsb_public_update_7105() {
 /**
  * Update the 'business_insight_topic' vocabulary
  */
-function gsb_public_update_7105() {
+function gsb_public_update_7106() {
 
   // the mapping array has the following structure:
   //    from vocab term name
@@ -2163,144 +2304,4 @@ function gsb_public_update_7105() {
 
     _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_term->tid, $to_vocab_name, $to_terms);
   }
-}
-
-/**
- * Get the terms for a given set of term names and a given vocab name
- */
-function _gsb_public_get_terms($term_names,$vocab_name) {
-  $terms = array();
-  foreach ($term_names as $term_name) {
-    $term = taxonomy_get_term_by_name($term_name, $vocab_name);
-    $term = array_shift($term);
-    $terms[] = $term;
-  }
-  return $terms;
-}
-
-/**
- * Update the taxonomies from/to for a list of entities
- */
-function _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_tid, $to_vocab_name, $to_terms) {
-
-  watchdog('tax_mapping',"in _gsb_public_update_entities",array(),WATCHDOG_NOTICE);
-  watchdog('tax_mapping','from tid = ',array($from_tid),WATCHDOG_NOTICE);
-
-  foreach($entities as $entity) {
-
-    $node = node_load($entity->entity_id);
-    watchdog('tax_mapping','node id = ',array($node->nid),WATCHDOG_NOTICE);
-
-    $ewrapper = entity_metadata_wrapper('node', $node);
-
-    // update the terms in 'to' vocab
-    $set_to_terms = false;
-    $field_names = _gsb_public_get_field_name_by_vocab_name($node, $to_vocab_name);
-    foreach($field_names as $field_name) {
-      _gsb_public_set_field_terms($ewrapper,$field_name,$to_terms);
-      $set_to_terms = true;
-    }
-
-    // check the $remove_from_term flag to determine if we should try to remove
-    // the 'from' term.
-    // also, we will remove the 'from' term only if we were able to update the 'to' terms
-    // so this means the entity needs to have a field for both the 'from' and the 'to' vocabs
-
-    if ($remove_from_term && $set_to_terms) {
-      $field_names = _gsb_public_get_field_name_by_vocab_name($node, $from_vocab_name);
-      foreach($field_names as $field_name) {
-        _gsb_public_remove_field_term($ewrapper,$field_name,$from_tid);
-      }
-    }
-
-    if ($set_to_terms) {
-      watchdog('tax_mapping','updated node nid = ',array($node->nid),WATCHDOG_NOTICE);
-      $ewrapper->save();
-    }
-
-    //watchdog('tax_mapping','wrapper = ',_wrapper_debug($ewrapper),WATCHDOG_NOTICE);
-  }
-
-}
-
-/**
- * Set the terms for a term reference field
- */
-function _gsb_public_set_field_terms($ewrapper,$field_name,$new_terms) {
-  $current_terms = array();
-  if (!empty($ewrapper->{$field_name})) {
-    $current_terms = $ewrapper->{$field_name}->value();
-  }
-  watchdog('tax_mapping',$field_name.' current_terms = ',$current_terms,WATCHDOG_NOTICE);
-  $new_terms = _gsb_public_combine_terms($current_terms, $new_terms);
-  watchdog('tax_mapping',$field_name.' new_terms = ',$new_terms,WATCHDOG_NOTICE);
-  $ewrapper->{$field_name}->set($new_terms);
-}
-
-/**
- * Remove a term from a term reference field
- */
-function _gsb_public_remove_field_term($ewrapper,$field_name,$tid) {
-  $current_terms = $ewrapper->{$field_name}->value();
-  watchdog('tax_mapping',$field_name.' current_terms = ',$current_terms,WATCHDOG_NOTICE);
-  $new_terms = _gsb_public_remove_term($tid, $current_terms);
-  watchdog('tax_mapping',$field_name.' new_terms = ',$new_terms,WATCHDOG_NOTICE);
-  $ewrapper->{$field_name}->set($new_terms);
-}
-
-/**
- * Remove a term from a list of terms
- */
-function _gsb_public_remove_term($tid, $current_terms) {
-  $new_terms = array();
-  foreach($current_terms as $term) {
-    if ($term->tid != $tid) {
-      $new_terms[] = $term;
-    }
-  }
-  return $new_terms;
-}
-
-/**
- * Combine a list of terms, with check to see if term is already
- * in the list
- */
-function _gsb_public_combine_terms($terms1, $terms2) {
-  $new_terms = $terms2;
-  foreach($terms1 as $term1) {
-    $found = false;
-    foreach($terms2 as $term2) {
-      if ($term2->tid == $term1->tid) {
-        $found = true;
-        break;
-      }
-    }
-    if (!$found) {
-      $new_terms[] = $term1;
-    }
-  }
-  return $new_terms;
-}
-
-/**
- * Get a list of field names that reference a vocab within a node
- */
-function _gsb_public_get_field_name_by_vocab_name($node, $vocab_name) {
-  //watchdog('tax_mapping','in _gsb_public_get_field_name_by_vocab_name',array(),WATCHDOG_NOTICE);
-  //watchdog('tax_mapping','node = ',$node,WATCHDOG_NOTICE);
-  $map = field_info_field_map();
-  $field_vocabs = array();
-  foreach (field_info_fields() as $field_name => $field_info) {
-    // Only process taxonomy term reference fields.
-    if ($field_info['type'] == 'taxonomy_term_reference') {
-      // Loop through the allowed values to find the vocabularies used by the field.
-      foreach ($field_info['settings']['allowed_values'] as $allowed_value) {
-        // Restrict to fields used by this content type and matching the specified vocabulary.
-        if ($allowed_value['vocabulary'] == $vocab_name && in_array($node->type, $map[$field_name]['bundles']['node'])) {
-          $field_vocabs[$field_name] = $field_name;
-        }
-      }
-    }
-  }
-  return $field_vocabs;
 }
