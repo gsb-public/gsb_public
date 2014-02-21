@@ -2126,11 +2126,11 @@ function gsb_public_update_7105() {
     $from_field_name = $mapping_info['from_field_name'];
     $to_vocab_name = $mapping_info['to_vocab_name'];
     $to_term_names = $mapping_info['to_term_names'];
-    watchdog('tax_mapping','remove_from_term = ',$remove_from_term,WATCHDOG_NOTICE);
-    watchdog('tax_mapping','from_vocab_name = ',$from_vocab_name,WATCHDOG_NOTICE);
-    watchdog('tax_mapping','from_term_name = ',$from_term_name,WATCHDOG_NOTICE);
-    watchdog('tax_mapping','from_field_name = ',$from_field_name,WATCHDOG_NOTICE);
-    watchdog('tax_mapping','to_vocab_name = ',$to_vocab_name,WATCHDOG_NOTICE);
+    watchdog('tax_mapping','remove_from_term = ',array($remove_from_term),WATCHDOG_NOTICE);
+    watchdog('tax_mapping','from_vocab_name = ',array($from_vocab_name),WATCHDOG_NOTICE);
+    watchdog('tax_mapping','from_term_name = ',array($from_term_name),WATCHDOG_NOTICE);
+    watchdog('tax_mapping','from_field_name = ',array($from_field_name),WATCHDOG_NOTICE);
+    watchdog('tax_mapping','to_vocab_name = ',array($to_vocab_name),WATCHDOG_NOTICE);
     watchdog('tax_mapping','to_term_names = ',$to_term_names,WATCHDOG_NOTICE);
 
     // get the 'from' term
@@ -2175,12 +2175,12 @@ function _gsb_public_get_terms($term_names,$vocab_name) {
 function _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_tid, $to_vocab_name, $to_terms) {
 
   watchdog('tax_mapping',"in _gsb_public_update_entities",array(),WATCHDOG_NOTICE);
-  watchdog('tax_mapping','from tid = ',$from_tid,WATCHDOG_NOTICE);
+  watchdog('tax_mapping','from tid = ',array($from_tid),WATCHDOG_NOTICE);
 
   foreach($entities as $entity) {
 
     $node = node_load($entity->entity_id);
-    watchdog('tax_mapping','node id = ',$node->nid,WATCHDOG_NOTICE);
+    watchdog('tax_mapping','node id = ',array($node->nid),WATCHDOG_NOTICE);
 
     $ewrapper = entity_metadata_wrapper('node', $node);
 
@@ -2205,7 +2205,7 @@ function _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_n
     }
 
     if ($set_to_terms) {
-      watchdog('tax_mapping','updated node nid = ',$node->nid,WATCHDOG_NOTICE);
+      watchdog('tax_mapping','updated node nid = ',array($node->nid),WATCHDOG_NOTICE);
       $ewrapper->save();
     }
 
@@ -2295,12 +2295,3 @@ function _gsb_public_get_field_name_by_vocab_name($node, $vocab_name) {
   }
   return $field_vocabs;
 }
-
-
-
-
-
-
-
-
-
