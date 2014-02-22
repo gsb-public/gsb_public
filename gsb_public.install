@@ -2181,9 +2181,9 @@ function gsb_public_update_7105() {
  */
 function gsb_public_update_7106() {
 
-  if (!module_exists('dblog')) {
-    module_enable(array('dblog'));
-  }  
+  //if (!module_exists('dblog')) {
+    //module_enable(array('dblog'));
+  //}  
 
   // the mapping array has the following structure:
   //    from vocab term name
@@ -2311,5 +2311,5 @@ function gsb_public_update_7106() {
     _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_term->tid, $to_vocab_name, $to_terms);
   }
   
-   module_disable(array('dblog'),TRUE);  
+   //module_disable(array('dblog'),TRUE);  
 }
