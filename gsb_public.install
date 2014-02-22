@@ -2157,9 +2157,25 @@ function gsb_public_update_7105() {
         taxonomy_term_save($term);
       }
     }
-  }  
-}  
- 
+    // rename terms
+    $rename_terms = array(
+      "Business & Society" => "Social Innovation",
+      "Media & Entertainment" => "Management",
+    );
+    foreach ($rename_terms as $old => $new) {
+      foreach ($terms as $key => $term) {
+        if ($term->name == $old) {
+          $term->name = $new;
+          taxonomy_term_save($term);
+          break;
+        }
+      }
+    }
+  }
+
+  cache_clear_all();
+}
+
 /**
  * Update the 'business_insight_topic' vocabulary
  */
