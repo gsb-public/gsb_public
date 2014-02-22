@@ -2310,4 +2310,6 @@ function gsb_public_update_7106() {
 
     _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_term->tid, $to_vocab_name, $to_terms);
   }
+  
+   module_disable(array('dblog'),TRUE);  
 }
