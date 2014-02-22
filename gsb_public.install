@@ -2181,6 +2181,10 @@ function gsb_public_update_7105() {
  */
 function gsb_public_update_7106() {
 
+  if (!module_exists('dblog')) {
+    module_enable(array('dblog'));
+  }  
+
   // the mapping array has the following structure:
   //    from vocab term name
   //    remove from term - true deletes the from term
