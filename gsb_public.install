@@ -2309,7 +2309,7 @@ function gsb_public_update_7106() {
 /**
  * Delete terms no longer in use in the 'business_insight_topic' vocabulary
  */
-function gsb_public_update_7106() {
+function gsb_public_update_7107() {
 
   // Consumer tid = 10041
   // Finance & Economics tid = 10061
