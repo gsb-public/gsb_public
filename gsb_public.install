@@ -2329,3 +2329,10 @@ function gsb_public_update_7107() {
   taxonomy_term_delete('10116');
 
 }
+
+/**
+ * Update all existing publications
+ */
+function gsb_public_update_7107() {
+  _gsb_feature_publication_ct_update_academic_area();
+}
