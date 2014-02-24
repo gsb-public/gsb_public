@@ -2172,7 +2172,6 @@ function gsb_public_update_7105() {
       }
     }
   }
-
   cache_clear_all();
 }
 
