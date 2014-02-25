@@ -2172,7 +2172,6 @@ function gsb_public_update_7105() {
       }
     }
   }
-
   cache_clear_all();
 }
 
@@ -2180,10 +2179,6 @@ function gsb_public_update_7105() {
  * Update the 'business_insight_topic' vocabulary
  */
 function gsb_public_update_7106() {
-
-  //if (!module_exists('dblog')) {
-    //module_enable(array('dblog'));
-  //}  
 
   // the mapping array has the following structure:
   //    from vocab term name
@@ -2310,6 +2305,27 @@ function gsb_public_update_7106() {
 
     _gsb_public_update_entities($entities, $remove_from_term, $from_vocab_name, $from_term->tid, $to_vocab_name, $to_terms);
   }
-  
-   //module_disable(array('dblog'),TRUE);  
+}
+
+/**
+ * Delete terms no longer in use in the 'business_insight_topic' vocabulary
+ */
+function gsb_public_update_7107() {
+
+  // Consumer tid = 10041
+  // Finance & Economics tid = 10061
+  // Management & Organizations tid = 10081
+  // Marketing tid = 10086
+  // Operations tid = 10101
+  // Technology tid = 10111
+  // Transportation tid = 10116
+
+  taxonomy_term_delete('10041');
+  taxonomy_term_delete('10061');
+  taxonomy_term_delete('10081');
+  taxonomy_term_delete('10086');
+  taxonomy_term_delete('10101');
+  taxonomy_term_delete('10111');
+  taxonomy_term_delete('10116');
+
 }
