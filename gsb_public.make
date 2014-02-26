@@ -594,7 +594,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsbitse/gsb_theme.git
-projects[gsb_theme][download][branch] = release-3.4
+projects[gsb_theme][download][tag] = 3.4
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
