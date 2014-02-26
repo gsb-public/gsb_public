@@ -216,7 +216,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-3.4
+projects[gsb_feature_base_fields][download][tag] = 3.4
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
