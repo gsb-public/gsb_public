@@ -142,7 +142,7 @@ projects[gsb_panels_ipe_overrides][subdir] = custom
 projects[gsb_panels_pages][type] = module
 projects[gsb_panels_pages][download][type] = git
 projects[gsb_panels_pages][download][url] = git@github.com:gsbitse/gsb_panels_pages.git
-projects[gsb_panels_pages][download][branch] = release-3.1
+projects[gsb_panels_pages][download][tag] = 3.1
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Panopoly Magic Customization
