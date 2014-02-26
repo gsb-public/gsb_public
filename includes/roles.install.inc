@@ -515,6 +515,12 @@ function _gsb_public_setup_roles() {
   );
 
   user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);
+  
+  // Create the Faculty role
+  $faculty = new stdClass();
+  $faculty->name = 'faculty';
+  $faculty->weight = 7;
+  user_role_save($faculty);  
 
   // Get the authenticated user role
   $authenticated_user = user_role_load_by_name('authenticated user');
