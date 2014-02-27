@@ -117,6 +117,13 @@ projects[gsb_fpp_xray][download][url] = git@github.com:gsbitse/gsb_fpp_xray.git
 projects[gsb_fpp_xray][download][tag] = 3.0
 projects[gsb_fpp_xray][subdir] = custom
 
+; GSB Login Destination
+projects[gsb_login_destination][type] = module
+projects[gsb_login_destination][download][type] = git
+projects[gsb_login_destination][download][url] = git@github.com:gsbitse/gsb_login_destination.git
+projects[gsb_login_destination][download][branch] = WP-3009
+projects[gsb_login_destination][subdir] = custom
+
 ; GSB Media Center
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
