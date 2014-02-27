@@ -2336,3 +2336,12 @@ function gsb_public_update_7107() {
 function gsb_public_update_7108() {
   _gsb_feature_publication_ct_update_academic_area();
 }
+
+/**
+ * Enable gsb_node_modal.
+ */
+function gsb_public_update_7109() {
+  if (!module_exists('gsb_node_modal')) {
+    module_enable(array('gsb_node_modal'));
+  }
+}
