@@ -131,6 +131,13 @@ projects[gsb_migrate][download][url] = git@github.com:gsbitse/gsb_migrate.git
 projects[gsb_migrate][download][tag] = 3.3
 projects[gsb_migrate][subdir] = custom
 
+; GSB Node Modal
+projects[gsb_node_modal][type] = module
+projects[gsb_node_modal][download][type] = git
+projects[gsb_node_modal][download][url] = git@github.com:gsbitse/gsb_node_modal.git
+projects[gsb_node_modal][download][branch] = WP-2994
+projects[gsb_node_modal][subdir] = custom
+
 ; GSB Panels IPE Overrides
 projects[gsb_panels_ipe_overrides][type] = module
 projects[gsb_panels_ipe_overrides][download][type] = git
