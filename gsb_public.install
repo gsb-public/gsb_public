@@ -2345,3 +2345,15 @@ function gsb_public_update_7109() {
     module_enable(array('gsb_node_modal'));
   }
 }
+
+/**
+ * Swap login_destination for gsb_login_destination.
+ */
+function gsb_public_update_7110() {
+  if (!module_exists('gsb_login_destination')) {
+    module_enable(array('gsb_login_destination'));
+  }
+  if (module_exists('login_destination')) {
+    module_disable(array('login_destination'));
+  }
+}
