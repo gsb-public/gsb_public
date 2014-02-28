@@ -743,9 +743,9 @@ projects[entityreference][subdir] = contrib
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
 projects[eva][download][type] = git
-projects[eva][download][revision] = 6d92c27
+projects[eva][download][revision] = 5798231
 projects[eva][download][branch] = 7.x-1.x
-projects[eva][patch][1772204] = http://drupal.org/files/1772204-d7-1.patch
+projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328-9.patch
 
 projects[expire][version] = 2.0-beta2
 projects[expire][subdir] = contrib
