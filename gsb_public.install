@@ -2357,3 +2357,14 @@ function gsb_public_update_7110() {
     module_disable(array('login_destination'));
   }
 }
+
+/**
+ * Add Faculty role.
+ */
+function gsb_public_update_7111() {
+  // Create the Faculty role
+  $faculty = new stdClass();
+  $faculty->name = 'Faculty';
+  $faculty->weight = 7;
+  user_role_save($faculty);
+}  
