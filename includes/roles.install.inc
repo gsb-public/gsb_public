@@ -518,7 +518,7 @@ function _gsb_public_setup_roles() {
   
   // Create the Faculty role
   $faculty = new stdClass();
-  $faculty->name = 'faculty';
+  $faculty->name = 'Faculty';
   $faculty->weight = 7;
   user_role_save($faculty);  
 
