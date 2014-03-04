@@ -2367,4 +2367,13 @@ function gsb_public_update_7111() {
   $faculty->name = 'Faculty';
   $faculty->weight = 7;
   user_role_save($faculty);
-}  
+}
+
+/**
+ * Add gsb_workbench_save_and_publish
+ */
+function gsb_public_update_7112() {
+  if (!module_exists('gsb_workbench_save_and_publish')) {
+    module_enable(array('gsb_workbench_save_and_publish'));
+  }
+}

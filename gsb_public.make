@@ -180,6 +180,13 @@ projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
 projects[gsb_tokens][download][tag] = 2.1
 projects[gsb_tokens][subdir] = custom
 
+; GSB Workbench Save and Publish
+projects[gsb_workbench_save_and_publish][type] = module
+projects[gsb_workbench_save_and_publish][download][type] = git
+projects[gsb_workbench_save_and_publish][download][url] = git@github.com:gsbitse/gsb_workbench_save_and_publish.git
+projects[gsb_workbench_save_and_publish][download][branch] = release-3.0
+projects[gsb_workbench_save_and_publish][subdir] = custom
+
 ; Pathauto Title Alias
 projects[pathauto_title_alias][type] = module
 projects[pathauto_title_alias][download][type] = git
