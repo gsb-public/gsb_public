@@ -978,6 +978,7 @@ projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
 projects[views][patch][1333932] = http://drupal.org/files/1333932-sort-exposed-clicksort.patch
+projects[views][patch][2210755] = http://drupal.org/files/issues/views-2210755-1.patch
 
 projects[views_autocomplete_filters][version] = 1.0
 projects[views_autocomplete_filters][subdir] = contrib
