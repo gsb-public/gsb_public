@@ -2377,3 +2377,12 @@ function gsb_public_update_7112() {
     module_enable(array('gsb_workbench_save_and_publish'));
   }
 }
+
+/**
+ * Add gsb_field_authors
+ */
+function gsb_public_update_7113() {
+  if (!module_exists('gsb_field_authors')) {
+    module_enable(array('gsb_field_authors'));
+  }
+}
