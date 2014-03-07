@@ -2386,3 +2386,12 @@ function gsb_public_update_7113() {
     module_enable(array('gsb_field_authors'));
   }
 }
+
+/**
+ * Add gsb_faculty_role
+ */
+function gsb_public_update_7114() {
+  if (!module_exists('gsb_faculty_role')) {
+    module_enable(array('gsb_faculty_role'));
+  }
+}
