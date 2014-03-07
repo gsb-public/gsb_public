@@ -89,6 +89,13 @@ projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_p
 projects[gsb_public_custom_blocks][download][branch] = release-3.3
 projects[gsb_public_custom_blocks][subdir] = custom
 
+; GSB Faculty Role
+projects[gsb_faculty_role][type] = module
+projects[gsb_faculty_role][download][type] = git
+projects[gsb_faculty_role][download][url] = git@github.com:gsbitse/gsb_faculty_role.git
+projects[gsb_faculty_role][download][branch] = WP-3079
+projects[gsb_faculty_role][subdir] = custom
+
 ; GSB Field Authors
 projects[gsb_field_authors][type] = module
 projects[gsb_field_authors][download][type] = git
