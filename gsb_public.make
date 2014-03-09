@@ -1045,6 +1045,6 @@ projects[workbench_moderation][subdir] = contrib
 ;  Panopoly Features
 ;=========================================
 
-projects[panopoly_magic][version] = 1.2
+projects[panopoly_magic][version] = 1.1
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][patch][1983788] = https://drupal.org/files/issues/panopoly-magic-1983788-5.patch
