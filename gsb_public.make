@@ -646,7 +646,7 @@ projects[gsb_theme_admin][download][branch] = release-3.3
 projects[acquia_connector][version] = 2.13
 projects[acquia_connector][subdir] = contrib
 
-projects[acquia_purge][version] = 1.0-beta1
+projects[acquia_purge][version] = 1.0-beta2
 projects[acquia_purge][subdir] = contrib
 
 projects[addressfield][version] = 1.0-beta5
@@ -733,7 +733,7 @@ projects[defaultcontent][subdir] = contrib
 projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
 projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
 
-projects[devel][version] = 1.3
+projects[devel][version] = 1.4
 projects[devel][subdir] = contrib
 
 projects[diff][version] = 3.2
@@ -768,7 +768,7 @@ projects[eva][download][revision] = 79a8ef
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328-12.patch
 
-projects[expire][version] = 2.0-beta2
+projects[expire][version] = 2.0-rc2
 projects[expire][subdir] = contrib
 
 projects[fancybox][version] = 2.x-dev
@@ -994,7 +994,7 @@ projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.pat
 projects[views][patch][1333932] = http://drupal.org/files/1333932-sort-exposed-clicksort.patch
 projects[views][patch][2210755] = http://drupal.org/files/issues/views-2210755-1.patch
 
-projects[views_autocomplete_filters][version] = 1.0
+projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.2
