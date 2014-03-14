@@ -2395,3 +2395,12 @@ function gsb_public_update_7114() {
     module_enable(array('gsb_faculty_role'));
   }
 }
+
+/**
+ * Add menu_token
+ */
+function gsb_public_update_7115() {
+  if (!module_exists('menu_token')) {
+    module_enable(array('menu_token'));
+  }
+}
