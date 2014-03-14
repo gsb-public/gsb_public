@@ -258,7 +258,7 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsbitse/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 3.4
+projects[gsb_feature_book_ct][download][tag] = WP-3160
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
@@ -492,7 +492,7 @@ projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][tag] = 3.2
+projects[gsb_feature_publication_ct][download][tag] = WP-3163
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 projects[gsb_feature_publication_display][type] = module
@@ -603,7 +603,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][tag] = 3.5
+projects[gsb_feature_working_paper_ct][download][tag] = WP-3056
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
