@@ -2413,3 +2413,12 @@ function gsb_public_update_7116() {
     module_enable(array('gsb_feature_media_item_ct'));
   }
 }
+
+/**
+ * Add gsb_feature_media_item_display
+ */
+function gsb_public_update_7117() {
+  if (!module_exists('gsb_feature_media_item_display')) {
+    module_enable(array('gsb_feature_media_item_display'));
+  }
+}
