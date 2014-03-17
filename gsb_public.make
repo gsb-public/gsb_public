@@ -72,7 +72,7 @@ projects[gsb_cmis][subdir] = custom
 projects[gsb_connecting_link][type] = module
 projects[gsb_connecting_link][download][type] = git
 projects[gsb_connecting_link][download][url] = git@github.com:gsbitse/gsb_connecting_link.git
-projects[gsb_connecting_link][download][tag] = 3.1
+projects[gsb_connecting_link][download][branch] = release-3.2
 projects[gsb_connecting_link][subdir] = custom
 
 ; GSB Custom Section Title
