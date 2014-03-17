@@ -568,7 +568,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsbitse/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][tag] = 1.2
+projects[gsb_feature_toolbar][download][branch] = release-3.0
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Feature Text FPP
