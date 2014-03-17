@@ -2431,3 +2431,16 @@ function gsb_public_update_7118() {
     module_enable(array('submit_field'));
   }
 }
+
+/**
+ * Create Research Databases vocabulary.
+ */
+function gsb_public_update_7119() {
+  $vocabulary = (object) array(
+    'machine_name' => 'research_databases',
+    'name' => 'Research Databases',
+    'description' => '',
+  );
+  taxonomy_vocabulary_save($vocabulary);
+}
+
