@@ -434,6 +434,13 @@ projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsbitse/gsb_
 projects[gsb_feature_house_ads_fpp][download][tag] = 1.2
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
+; GSB Feature Media Item
+projects[gsb_feature_media_item_ct][type] = module
+projects[gsb_feature_media_item_ct][download][type] = git
+projects[gsb_feature_media_item_ct][download][url] = git@github.com:gsbitse/gsb_feature_media_item_ct.git
+projects[gsb_feature_media_item_ct][download][branch] = release-3.0
+projects[gsb_feature_media_item_ct][subdir] = custom/features
+
 ; GSB Features Mega Menu
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git

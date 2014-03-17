@@ -2404,3 +2404,12 @@ function gsb_public_update_7115() {
     module_enable(array('menu_token'));
   }
 }
+
+/**
+ * Add gsb_feature_media_item_ct
+ */
+function gsb_public_update_7116() {
+  if (!module_exists('gsb_feature_media_item_ct')) {
+    module_enable(array('gsb_feature_media_item_ct'));
+  }
+}

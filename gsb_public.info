@@ -142,6 +142,7 @@ dependencies[] = gsb_feature_image_fpp
 dependencies[] = gsb_feature_image_cta_fpp
 dependencies[] = gsb_feature_image_styles
 dependencies[] = gsb_feature_links_fpp
+dependencies[] = gsb_feature_media_item_ct
 dependencies[] = gsb_feature_mega_menu
 dependencies[] = gsb_feature_msx_fellows_ct
 dependencies[] = gsb_feature_msx_fellows_display
