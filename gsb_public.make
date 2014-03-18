@@ -300,7 +300,7 @@ projects[gsb_feature_case_display][subdir] = custom/features
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsbitse/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][tag] = 2.0
+projects[gsb_feature_club_ct][download][branch] = release-3.0
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
