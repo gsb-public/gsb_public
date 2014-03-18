@@ -986,6 +986,9 @@ projects[smart_trim][subdir] = contrib
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
+projects[submit_field][version] = 1.3
+projects[submit_field][subdir] = contrib
+
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
 projects[telephone][download][type] = git

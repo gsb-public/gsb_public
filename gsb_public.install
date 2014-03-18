@@ -2422,3 +2422,12 @@ function gsb_public_update_7117() {
     module_enable(array('gsb_feature_media_item_display'));
   }
 }
+
+/**
+ * Add submit_field
+ */
+function gsb_public_update_7118() {
+  if (!module_exists('submit_field')) {
+    module_enable(array('submit_field'));
+  }
+}

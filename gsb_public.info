@@ -76,6 +76,7 @@ dependencies[] = metatag
 dependencies[] = module_filter
 dependencies[] = site_verify
 dependencies[] = smart_trim
+dependencies[] = submit_field
 dependencies[] = telephone
 dependencies[] = typogrify
 dependencies[] = uuid
