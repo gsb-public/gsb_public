@@ -2436,3 +2436,31 @@ function gsb_public_update_7118() {
   taxonomy_vocabulary_save($vocabulary);
 }
 
+/**
+ * Update the 'research_databases' vocabulary
+ */
+function gsb_public_update_7119() {
+  $vocab_found = false;
+  $vocabularies = taxonomy_get_vocabularies();
+  foreach ($vocabularies as $vid => $vocabulary) {
+    if ($vocabulary->machine_name == 'research_databases') {
+      $vocab_found = true;
+      break;
+    }
+  }
+  if ($vocab_found) {
+    // Add term 'SSRN'
+    $term = (object) array(
+      'vid' => $vocabulary->vid,
+      'name' => 'SSRN',
+    );
+    taxonomy_term_save($term);
+    // Add term 'Unknown'
+    $term = (object) array(
+      'vid' => $vocabulary->vid,
+      'name' => 'Unknown',
+    );
+    taxonomy_term_save($term);
+  }
+}
+
