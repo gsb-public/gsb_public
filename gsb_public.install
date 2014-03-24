@@ -2472,3 +2472,24 @@ function gsb_public_update_7120() {
   }
 }
 
+/**
+ * Delete some field instances from Workin' Paper CT
+ */
+function gsb_public_update_7121() {
+  $field_names = array(
+    'field_permissions_statement',
+    'field_page_count',
+    'field_link_single',
+    'field_learning_objective',
+    'field_citation',
+    'field_year',
+    'field_link_document',
+  );
+  foreach($field_names as $value) {
+    $instance = field_info_instance('node', $value, 'working_paper');
+    field_delete_instance($instance);
+    field_purge_batch(10);
+  }
+}
+
+
