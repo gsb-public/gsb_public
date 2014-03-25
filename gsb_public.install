@@ -2485,11 +2485,10 @@ function gsb_public_update_7121() {
     'field_year',
     'field_link_document',
   );
-  foreach($field_names as $value) {
-    $instance = field_info_instance('node', $value, 'working_paper');
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'working_paper');
     field_delete_instance($instance);
-    field_purge_batch(10);
   }
+  field_purge_batch(10);
 }
-
 
