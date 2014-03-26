@@ -526,7 +526,7 @@ projects[gsb_feature_quote_fpp][subdir] = custom/features
 projects[gsb_feature_rss_feeds][type] = module
 projects[gsb_feature_rss_feeds][download][type] = git
 projects[gsb_feature_rss_feeds][download][url] = git@github.com:gsbitse/gsb_feature_rss_feeds.git
-projects[gsb_feature_rss_feeds][download][branch] = release-3.1
+projects[gsb_feature_rss_feeds][download][tag] = 3.1
 projects[gsb_feature_rss_feeds][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
