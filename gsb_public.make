@@ -438,7 +438,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_media_item_ct][type] = module
 projects[gsb_feature_media_item_ct][download][type] = git
 projects[gsb_feature_media_item_ct][download][url] = git@github.com:gsbitse/gsb_feature_media_item_ct.git
-projects[gsb_feature_media_item_ct][download][branch] = release-3.0
+projects[gsb_feature_media_item_ct][download][tag] = 3.0
 projects[gsb_feature_media_item_ct][subdir] = custom/features
 
 ; GSB Feature Media Item Display
