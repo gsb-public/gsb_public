@@ -2492,3 +2492,15 @@ function gsb_public_update_7121() {
   field_purge_batch(10);
 }
 
+/**
+ * Add custom_add_another and markup modules.
+ */
+function gsb_public_update_7122() {
+  if (!module_exists('custom_add_another')) {
+    module_enable(array('custom_add_another'));
+  }
+
+  if (!module_exists('markup')) {
+    module_enable(array('markup'));
+  }
+}

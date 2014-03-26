@@ -732,6 +732,9 @@ projects[ctools_query_string_context][download][revision] = dc75839
 projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
 
+projects[custom_add_another][version] = 1.0-rc3
+projects[custom_add_another][subdir] = contrib
+
 projects[date][version] = 2.7
 projects[date][subdir] = contrib
 
@@ -863,6 +866,9 @@ projects[maxlength][subdir] = contrib
 projects[maxlength][download][type] = git
 projects[maxlength][download][revision] = 8db419b
 projects[maxlength][download][branch] = 7.x-3.x
+
+projects[markup][version] = 1.1-beta1
+projects[markup][subdir] = contrib
 
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
