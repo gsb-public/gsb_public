@@ -2527,5 +2527,5 @@ function gsb_public_update_7122() {
  * Remove field_teaching_material_name.
  */
 function gsb_public_update_7123() {
-  _gsb_public_delte_fields(array('field_teaching_material_name'));
+  _gsb_public_delete_fields(array('field_teaching_material_name'));
 }
