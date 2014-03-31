@@ -2529,3 +2529,10 @@ function gsb_public_update_7122() {
 function gsb_public_update_7123() {
   _gsb_public_delete_fields(array('field_teaching_material_name'));
 }
+
+/**
+ * Remove podcast and video fields.
+ */
+function gsb_public_update_7124() {
+  _gsb_public_delete_fields(array('field_link_video_unlimited', 'field_link_podcast_unlimited'));
+}
