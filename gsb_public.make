@@ -506,7 +506,7 @@ projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = git@github.com:gsbitse/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][branch] = WP-3163
+projects[gsb_feature_publication_ct][download][branch] = WP-3163-1
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 projects[gsb_feature_publication_display][type] = module
