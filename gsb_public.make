@@ -993,8 +993,12 @@ projects[smart_trim][subdir] = contrib
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
-projects[submit_field][version] = 1.3
+projects[submit_field][version] = 1.x-dev
 projects[submit_field][subdir] = contrib
+projects[submit_field][download][type] = git
+projects[submit_field][download][url] = http://git.drupal.org/project/submit_field.git
+projects[submit_field][download][revision] = 205c0c5
+projects[submit_field][download][branch] = 7.x-1.x
 
 projects[telephone][version] = 1.x-dev
 projects[telephone][subdir] = contrib
