@@ -2570,4 +2570,4 @@ function gsb_public_update_7126() {
     $instance = field_info_instance('node', $field_name, 'publication');
     field_delete_instance($instance);
   }
-  fi
+}
