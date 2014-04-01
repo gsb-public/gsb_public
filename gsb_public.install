@@ -2543,3 +2543,31 @@ function gsb_public_update_7124() {
 function gsb_public_update_7125() {
   _gsb_public_delete_fields(array('field_organization', 'field_position_year', 'field_center_affiliations'));
 }
+
+/**
+ * Delete some field instances from Workin' Paper, Book, Publication and Media Item CT
+ */
+function gsb_public_update_7126() {
+  $field_names = array(
+    'field_date',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'working_paper');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'book');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);  
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'media_item');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);    
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'publication');
+    field_delete_instance($instance);
+  }
+  fi
