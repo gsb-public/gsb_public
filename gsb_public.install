@@ -2551,23 +2551,25 @@ function gsb_public_update_7126() {
   $field_names = array(
     'field_date',
   );
+
   foreach ($field_names as $field_name) {
     $instance = field_info_instance('node', $field_name, 'working_paper');
     field_delete_instance($instance);
   }
-  field_purge_batch(10);
+
   foreach ($field_names as $field_name) {
     $instance = field_info_instance('node', $field_name, 'book');
     field_delete_instance($instance);
   }
-  field_purge_batch(10);  
+
   foreach ($field_names as $field_name) {
     $instance = field_info_instance('node', $field_name, 'media_item');
     field_delete_instance($instance);
   }
-  field_purge_batch(10);    
+
   foreach ($field_names as $field_name) {
     $instance = field_info_instance('node', $field_name, 'publication');
     field_delete_instance($instance);
   }
+  field_purge_batch(10);
 }
