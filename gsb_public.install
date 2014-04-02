@@ -2573,3 +2573,21 @@ function gsb_public_update_7126() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete field_pub_date_month field instance from Workin' Paper and Publication CT
+ */
+function gsb_public_update_7127() {
+  $field_names = array(
+    'field_pub_date_month',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'working_paper');
+    field_delete_instance($instance);
+  }  
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'publication');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
