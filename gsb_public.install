@@ -2591,3 +2591,15 @@ function gsb_public_update_7127() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Enable metatag and gsb_twitter_cards modules.
+ */
+function gsb_public_update_7128() {
+  if (!module_exists('metatag')) {
+    module_enable(array('metatag'));
+  }
+  if (!module_exists('gsb_twitter_cards')) {
+    module_enable(array('gsb_twitter_cards'));
+  }
+}
