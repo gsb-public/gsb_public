@@ -194,6 +194,13 @@ projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
 projects[gsb_tokens][download][tag] = 3.0
 projects[gsb_tokens][subdir] = custom
 
+; GSB Twitter Cards
+projects[gsb_twitter_cards][type] = module
+projects[gsb_twitter_cards][download][type] = git
+projects[gsb_twitter_cards][download][url] = git@github.com:gsbitse/gsb_twitter_cards.git
+projects[gsb_twitter_cards][download][branch] = master
+projects[gsb_twitter_cards][subdir] = custom
+
 ; GSB Workbench Save and Publish
 projects[gsb_workbench_save_and_publish][type] = module
 projects[gsb_workbench_save_and_publish][download][type] = git
