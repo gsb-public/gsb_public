@@ -2599,6 +2599,9 @@ function gsb_public_update_7128() {
   if (!module_exists('metatag')) {
     module_enable(array('metatag'));
   }
+  if (!module_exists('metatag_twitter_cards')) {
+    module_enable(array('metatag_twitter_cards'));
+  }  
   if (!module_exists('gsb_twitter_cards')) {
     module_enable(array('gsb_twitter_cards'));
   }
