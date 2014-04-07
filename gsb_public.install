@@ -2591,3 +2591,17 @@ function gsb_public_update_7127() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete field_title field instance from field_working_papers field collection.
+ */
+function gsb_public_update_7128() {
+  $field_names = array(
+    'field_title',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('field_collection_item', $field_name, 'field_working_papers');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
