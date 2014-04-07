@@ -2605,3 +2605,20 @@ function gsb_public_update_7128() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete old fields.
+ */
+function gsb_public_update_7129() {
+  $instances = array('field_link_unlimited');
+
+  foreach ($instances as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'faculty');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+
+
+  $fields = array('field_greater_univ_aff_unlimited');
+  _gsb_public_delete_fields($fields);
+}
