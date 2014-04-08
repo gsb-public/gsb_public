@@ -2538,10 +2538,10 @@ function gsb_public_update_7124() {
 }
 
 /**
- * Remove field_organization, field_position_year and field_center_affiliations.
+ * Remove field_position_year and field_center_affiliations.
  */
 function gsb_public_update_7125() {
-  _gsb_public_delete_fields(array('field_organization', 'field_position_year', 'field_center_affiliations'));
+  _gsb_public_delete_fields(array('field_position_year', 'field_center_affiliations'));
 }
 
 /**
