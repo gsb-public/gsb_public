@@ -2629,3 +2629,10 @@ function gsb_public_update_7129() {
   $fields = array('field_greater_univ_aff_unlimited');
   _gsb_public_delete_fields($fields);
 }
+
+/**
+ * Delete field_organization.
+ */
+function gsb_public_update_7129() {
+  _gsb_public_delete_fields(array('field_organization'));
+}
