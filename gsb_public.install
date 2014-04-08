@@ -2633,6 +2633,6 @@ function gsb_public_update_7129() {
 /**
  * Delete field_organization.
  */
-function gsb_public_update_7129() {
+function gsb_public_update_7130() {
   _gsb_public_delete_fields(array('field_organization'));
 }
