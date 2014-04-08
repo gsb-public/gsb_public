@@ -631,7 +631,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsbitse/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][branch] = release-3.2
+projects[gsb_feature_wysiwyg][download][tag] = 3.2
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
