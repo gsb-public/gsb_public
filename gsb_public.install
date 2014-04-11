@@ -2645,10 +2645,11 @@ function gsb_public_update_7131() {
   $field = array(
     'field_name' => 'field_default_checkbox_status',
     'type' => 'list_text',
+    'required' => TRUE,
     'settings' => array(
-         'allowed_values' => array(
-           '1' => 'Checked',
-           '0' => 'Unchecked',
+      'allowed_values' => array(
+        1 => 'Checked',
+        0 => 'Unchecked',
       ),
     ),
   );
