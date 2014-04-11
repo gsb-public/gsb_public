@@ -2636,3 +2636,34 @@ function gsb_public_update_7129() {
 function gsb_public_update_7130() {
   _gsb_public_delete_fields(array('field_organization'));
 }
+
+/**
+ * Create new field in taxonomy for research databases.
+ */
+function gsb_public_update_7131() {
+  // Create a field
+  $field = array(
+    'field_name' => 'field_default_checkbox_status',
+    'type' => 'list_text',
+    'settings' => array(
+         'allowed_values' => array(
+           '1' => 'Checked',
+           '0' => 'Unchecked',
+      ),
+    ),
+  );
+  field_create_field($field);
+
+  // Attach the field to our taxonomy entity
+  $instance = array(
+      'field_name' => 'field_default_checkbox_status',
+      'entity_type' => 'taxonomy_term',
+      'bundle' => 'research_databases',
+      'label' => 'Default Checkbox Status',
+      'widget' => array(
+        'type' => 'options_buttons',
+        'weight' => -4,
+      ),
+  );
+  field_create_instance($instance);
+}
