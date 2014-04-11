@@ -2645,11 +2645,10 @@ function gsb_public_update_7131() {
   $field = array(
     'field_name' => 'field_default_checkbox_status',
     'type' => 'list_text',
-    'required' => TRUE,
     'settings' => array(
       'allowed_values' => array(
-        1 => 'Checked',
         0 => 'Unchecked',
+        1 => 'Checked',
       ),
     ),
   );
@@ -2657,14 +2656,21 @@ function gsb_public_update_7131() {
 
   // Attach the field to our taxonomy entity
   $instance = array(
-      'field_name' => 'field_default_checkbox_status',
-      'entity_type' => 'taxonomy_term',
-      'bundle' => 'research_databases',
-      'label' => 'Default Checkbox Status',
-      'widget' => array(
-        'type' => 'options_buttons',
-        'weight' => -4,
+    'ifield_name' => 'field_default_checkbox_status',
+    'entity_type' => 'taxonomy_term',
+    'bundle' => 'research_databases',
+    'label' => 'Default Checkbox Status',
+    'required' => TRUE,
+    'widget' => array(
+      'type' => 'options_buttons',
+      'weight' => -4,
+    ),
+    'default_value' => array(
+      0 => array(
+        'value' => 0,
       ),
+    ),
   );
   field_create_instance($instance);
 }
+
