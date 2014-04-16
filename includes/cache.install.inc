@@ -8,6 +8,10 @@ function _gsb_public_setup_cache() {
     'page_compression' => 0,
     'preprocess_css' => 0,
     'preprocess_js' => 0,
+    'expire_node_actions' => array(
+      2 => 2,
+    ),
+    'expire_node_node_page' => TRUE,
   );
 
   _gsb_public_variable_set_multiple($variables);
