@@ -2674,3 +2674,10 @@ function gsb_public_update_7131() {
   field_create_instance($instance);
 }
 
+/**
+ * Configures the expire module.
+ */
+function gsb_public_update_7132() {
+  variable_set('expire_node_node_page', TRUE);
+  variable_set('expire_node_actions', array(2 => 2));
+}
