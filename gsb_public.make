@@ -724,6 +724,7 @@ projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1901106] = http://drupal.org/files/1901106-ctools-views_content-exposed_form_override-5.patch
 projects[ctools][patch][1315900] = https://drupal.org/files/issues/ctools-1315900-6.patch
+projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
