@@ -212,7 +212,7 @@ projects[pathauto_title_alias][subdir] = custom
 projects[simplesaml_auth][type] = module
 projects[simplesaml_auth][download][type] = git
 projects[simplesaml_auth][download][url] = git@github.com:gsbitse/simplesaml_auth.git
-projects[simplesaml_auth][download][tag] = 1.1
+projects[simplesaml_auth][download][branch] = 1.2-dev
 projects[simplesaml_auth][subdir] = custom
 
 ; Zurb Responsive Tables
