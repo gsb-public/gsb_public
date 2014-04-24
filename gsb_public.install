@@ -2681,3 +2681,14 @@ function gsb_public_update_7132() {
   variable_set('expire_node_node_page', TRUE);
   variable_set('expire_node_actions', array(2 => 2));
 }
+
+/**
+ * Updates the expire module configuration.
+ */
+function gsb_public_update_7133() {
+  variable_set('expire_node_reference_pages', TRUE);
+  variable_set('expire_node_actions', array(
+    1 => 1,
+    2 => 2,
+  ));
+}
