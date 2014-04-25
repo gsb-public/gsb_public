@@ -327,7 +327,7 @@ projects[gsb_feature_course_display][subdir] = custom/features
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
 projects[gsb_feature_cta][download][url] = git@github.com:gsbitse/gsb_feature_cta.git
-projects[gsb_feature_cta][download][branch] = release-3.0
+projects[gsb_feature_cta][download][tag] = 3.0
 projects[gsb_feature_cta][subdir] = custom/features
 
 ; GSB Feature Diptych FPP
