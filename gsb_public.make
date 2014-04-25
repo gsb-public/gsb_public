@@ -100,7 +100,7 @@ projects[gsb_faculty_role][subdir] = custom
 projects[gsb_field_authors][type] = module
 projects[gsb_field_authors][download][type] = git
 projects[gsb_field_authors][download][url] = git@github.com:gsbitse/gsb_field_authors.git
-projects[gsb_field_authors][download][tag] = 3.2
+projects[gsb_field_authors][download][branch] = release-3.3
 projects[gsb_field_authors][subdir] = custom
 
 ; GSB Field Formatter
