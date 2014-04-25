@@ -65,7 +65,7 @@ projects[gsb_cmis_api][subdir] = custom
 projects[gsb_cmis][type] = module
 projects[gsb_cmis][download][type] = git
 projects[gsb_cmis][download][url] = git@github.com:gsbitse/gsb_cmis.git
-projects[gsb_cmis][download][branch] = release-3.3
+projects[gsb_cmis][download][tag] = 3.3
 projects[gsb_cmis][subdir] = custom
 
 ; GSB Connecting Link
