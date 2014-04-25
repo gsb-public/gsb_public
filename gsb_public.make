@@ -265,7 +265,7 @@ projects[gsb_feature_book_ct][subdir] = custom/features
 projects[gsb_feature_book_display][type] = module
 projects[gsb_feature_book_display][download][type] = git
 projects[gsb_feature_book_display][download][url] = git@github.com:gsbitse/gsb_feature_book_display.git
-projects[gsb_feature_book_display][download][branch] = release-3.6
+projects[gsb_feature_book_display][download][tag] = 3.6
 projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Business Website
