@@ -459,6 +459,14 @@ function _gsb_public_setup_roles() {
     'create fieldable image_cta',
     'edit fieldable image_cta',
     'delete fieldable image_cta',
+    
+    // Media Item
+    
+    'create media_item content',
+    'edit own media_item content',
+    'edit any media_item content',
+    'delete own media_item content',
+    'delete any media_item content',        
 
     // Mini panels
 
