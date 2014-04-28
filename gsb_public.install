@@ -2692,3 +2692,10 @@ function gsb_public_update_7133() {
     2 => 2,
   ));
 }
+
+/**
+ * Delete field_prefix_teaching_materials and field_prefix_non_degree_course.
+ */
+function gsb_public_update_7134() {
+  _gsb_public_delete_fields(array('field_prefix_teaching_materials', 'field_prefix_non_degree_course'));
+} 
