@@ -603,7 +603,7 @@ projects[gsb_feature_week_in_the_life_ct][subdir] = custom/features
 projects[gsb_feature_week_in_the_life_display][type] = module
 projects[gsb_feature_week_in_the_life_display][download][type] = git
 projects[gsb_feature_week_in_the_life_display][download][url] = git@github.com:gsbitse/gsb_feature_week_in_the_life_display.git
-projects[gsb_feature_week_in_the_life_display][download][branch] = release-3.0
+projects[gsb_feature_week_in_the_life_display][download][tag] = 3.0
 projects[gsb_feature_week_in_the_life_display][subdir] = custom/features
 
 ; GSB Feature Workbench
