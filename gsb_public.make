@@ -320,7 +320,7 @@ projects[gsb_feature_course_ct][subdir] = custom/features
 projects[gsb_feature_course_display][type] = module
 projects[gsb_feature_course_display][download][type] = git
 projects[gsb_feature_course_display][download][url] = git@github.com:gsbitse/gsb_feature_course_display.git
-projects[gsb_feature_course_display][download][branch] = release-3.3
+projects[gsb_feature_course_display][download][tag] = 3.3
 projects[gsb_feature_course_display][subdir] = custom/features
 
 ; GSB Features CTA
