@@ -149,7 +149,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_migrate][type] = module
 projects[gsb_migrate][download][type] = git
 projects[gsb_migrate][download][url] = git@github.com:gsbitse/gsb_migrate.git
-projects[gsb_migrate][download][tag] = 3.5
+projects[gsb_migrate][download][branch] = release-3.6
 projects[gsb_migrate][subdir] = custom
 
 ; GSB Node Modal
@@ -617,7 +617,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsbitse/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][tag] = 3.9
+projects[gsb_feature_working_paper_ct][download][branch] = release-3.10
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
