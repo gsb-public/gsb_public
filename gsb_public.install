@@ -2707,3 +2707,25 @@ function gsb_public_update_7135() {
   variable_set('gsb_feature_working_paper_ct_item_id', 3000);
 } 
 
+
+/**
+ * Updates the program taxonomy term.
+ */
+function gsb_public_update_7136() {
+// Updating the data to new field
+  $vocabulary = taxonomy_vocabulary_machine_name_load('program');
+  $terms = taxonomy_get_tree($vocabulary->vid);
+
+  foreach ($terms as $key => $term) {
+    if ($term->name == 'Social Innovation Program') {
+      $term->name = 'Executive Program for Nonprofit Leaders';
+      taxonomy_term_save($term);
+    }
+  }
+  $term = (object) array(
+    'vid' => $vocabulary->vid,
+    'name' => 'Executive Program in Social Entrepreneurship',
+    'weight' => 9,
+  );
+  taxonomy_term_save($term);
+}
