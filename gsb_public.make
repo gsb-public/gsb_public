@@ -846,6 +846,7 @@ projects[hierarchical_select][download][type] = git
 projects[hierarchical_select][download][revision] = b3e34d9
 projects[hierarchical_select][download][branch] = 7.x-3.x
 projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
+projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/hs-2270431-1.patch
 
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
