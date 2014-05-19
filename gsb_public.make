@@ -135,7 +135,7 @@ projects[gsb_fpp_xray][subdir] = custom
 projects[gsb_login_destination][type] = module
 projects[gsb_login_destination][download][type] = git
 projects[gsb_login_destination][download][url] = git@github.com:gsbitse/gsb_login_destination.git
-projects[gsb_login_destination][download][tag] = 3.1
+projects[gsb_login_destination][download][branch] = release-3.2
 projects[gsb_login_destination][subdir] = custom
 
 ; GSB Media Center
