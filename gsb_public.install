@@ -2729,3 +2729,10 @@ function gsb_public_update_7136() {
   );
   taxonomy_term_save($term);
 }
+
+/**
+ * Enables the GSB Auto Upload File module.
+ */
+function gsb_public_update_7137() {
+  module_enable(array('gsb_auto_upload_file'));
+}
