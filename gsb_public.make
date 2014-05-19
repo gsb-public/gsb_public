@@ -40,6 +40,13 @@ projects[gsb_advanced_menu_customization][download][url] = git@github.com:gsbits
 projects[gsb_advanced_menu_customization][download][tag] = 1.0
 projects[gsb_advanced_menu_customization][subdir] = custom
 
+; GSB Auto Upload File
+projects[gsb_auto_upload_file][type] = module
+projects[gsb_auto_upload_file][download][type] = git
+projects[gsb_auto_upload_file][download][url] = git@github.com:gsbitse/gsb_auto_upload_file.git
+projects[gsb_auto_upload_file][download][branch] = release-3.0
+projects[gsb_auto_upload_file][subdir] = custom
+
 ; GSB AZ Filter
 projects[gsb_az_filter][type] = module
 projects[gsb_az_filter][download][type] = git
