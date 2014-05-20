@@ -617,7 +617,7 @@ projects[gsb_feature_week_in_the_life_display][subdir] = custom/features
 projects[gsb_feature_workbench][type] = module
 projects[gsb_feature_workbench][download][type] = git
 projects[gsb_feature_workbench][download][url] = git@github.com:gsbitse/gsb_feature_workbench.git
-projects[gsb_feature_workbench][download][branch] = release-3.0
+projects[gsb_feature_workbench][download][tag] = 3.0
 projects[gsb_feature_workbench][subdir] = custom/features
 
 ; GSB Feature Working Paper
