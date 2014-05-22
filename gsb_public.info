@@ -113,6 +113,7 @@ dependencies[] = gsb_panopoly_magic_customization
 dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_tokens
+dependencies[] = gsb_trim
 dependencies[] = gsb_workbench_save_and_publish
 dependencies[] = pathauto_title_alias
 dependencies[] = simplesaml_auth

@@ -201,6 +201,13 @@ projects[gsb_tokens][download][url] = git@github.com:gsbitse/gsb_tokens.git
 projects[gsb_tokens][download][tag] = 3.0
 projects[gsb_tokens][subdir] = custom
 
+; GSB Trim
+projects[gsb_trim][type] = module
+projects[gsb_trim][download][type] = git
+projects[gsb_trim][download][url] = git@github.com:gsbitse/gsb_trim.git
+projects[gsb_trim][download][tag] = 3.0
+projects[gsb_trim][subdir] = custom
+
 ; GSB Workbench Save and Publish
 projects[gsb_workbench_save_and_publish][type] = module
 projects[gsb_workbench_save_and_publish][download][type] = git
