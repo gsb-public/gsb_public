@@ -93,7 +93,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 3.8
+projects[gsb_public_custom_blocks][download][branch] = release-3.9
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Faculty Role
