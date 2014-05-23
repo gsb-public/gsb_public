@@ -953,6 +953,9 @@ projects[module_filter][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
+projects[options_element][version] = 1.12
+projects[options_element][subdir] = contrib
+
 projects[panelizer][version] = 3.1
 projects[panelizer][subdir] = contrib
 
@@ -1074,9 +1077,6 @@ projects[views_xml_backend][download][url] = http://git.drupal.org/project/views
 projects[views_xml_backend][download][revision] = 9858ea6
 projects[views_xml_backend][download][branch] = 7.x-1.x
 projects[views_xml_backend][subdir] = contrib
-
-projects[webform_phone][version] = 1.18
-projects[webform_phone][subdir] = contrib
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib

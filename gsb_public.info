@@ -76,6 +76,7 @@ dependencies[] = menu_token
 dependencies[] = menu_trail_by_path
 dependencies[] = metatag
 dependencies[] = module_filter
+dependencies[] = options_element
 dependencies[] = site_verify
 dependencies[] = smart_trim
 dependencies[] = submit_field
@@ -88,7 +89,6 @@ dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
 dependencies[] = phone
-dependencies[] = webform_phone
 
 ; GSB Custom Modules
 dependencies[] = feature_flag
