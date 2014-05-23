@@ -671,7 +671,7 @@ projects[gsb_theme_admin][download][tag] = 3.8
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.13
+projects[acquia_connector][version] = 2.14
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.0-beta2
@@ -767,7 +767,7 @@ projects[defaultcontent][subdir] = contrib
 projects[defaultcontent][patch][1754428] = http://drupal.org/files/1754428-allow-node-export-alter.patch
 projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-cannot-import-menu-hierarchy-8.patch
 
-projects[devel][version] = 1.4
+projects[devel][version] = 1.5
 projects[devel][subdir] = contrib
 
 projects[diff][version] = 3.2
@@ -785,7 +785,7 @@ libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Ea
 projects[elysia_cron][version] = 2.1
 projects[elysia_cron][subdir] = contrib
 
-projects[email][version] = 1.2
+projects[email][version] = 1.3
 projects[email][subdir] = contrib
 projects[email][patch][1346102] = https://drupal.org/files/edit_link_and_title_text-1346102-11.patch
 
@@ -802,7 +802,7 @@ projects[eva][download][revision] = 79a8ef
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328-13.patch
 
-projects[expire][version] = 2.0-rc2
+projects[expire][version] = 2.0-rc3
 projects[expire][subdir] = contrib
 projects[expire][patch][2248371] = https://drupal.org/files/issues/expire-2248371-1.patch
 
@@ -830,10 +830,9 @@ projects[ffc][subdir] = contrib
 projects[fieldable_panels_panes][version] = 1.5
 projects[fieldable_panels_panes][subdir] = contrib
 
-projects[field_collection][version] = 1.0-beta5
+projects[field_collection][version] = 1.0-beta7
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-1.patch
-projects[field_collection][patch][1175082] = https://drupal.org/files/field_collection-migrate-1175082-222.patch
 projects[field_collection][patch][2211667] = https://drupal.org/files/issues/field_collection_patch-2211667-1.patch
 
 projects[field_formatter_settings][version] = 1.1
@@ -865,16 +864,17 @@ projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
 
-; This overrides jquery_update in panopoly_admin
-projects[jquery_update][version] = 2.3
+projects[jquery_update][version] = 2.4
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-fixes-states-js-1448490.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.2
+projects[link][version] = 1.x-dev
 projects[link][subdir] = contrib
+projects[link][download][type] = git
+projects[link][download][revision] = 7dc306c
+projects[link][download][branch] = 7.x-1.x
 projects[link][patch][2117099] = https://drupal.org/files/link-2117099-2.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[link][patch][1266474] = https://drupal.org/files/issues/1266474-d7-2.patch
@@ -1004,7 +1004,7 @@ libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsbit
 projects[select_or_other][version] = 2.20
 projects[select_or_other][subdir] = contrib
 
-projects[site_verify][version] = 1.0
+projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
 
 projects[smart_trim][version] = 1.4
@@ -1041,12 +1041,10 @@ projects[typogrify][subdir] = contrib
 projects[uuid][version] = 1.0-alpha5
 projects[uuid][subdir] = contrib
 
-projects[views][version] = 3.7
+projects[views][version] = 3.8
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
-projects[views][patch][1333932] = http://drupal.org/files/1333932-sort-exposed-clicksort.patch
-projects[views][patch][2210755] = http://drupal.org/files/issues/views-2210755-1.patch
 
 projects[views_autocomplete_filters][version] = 1.1
 projects[views_autocomplete_filters][subdir] = contrib
@@ -1077,7 +1075,7 @@ projects[views_xml_backend][download][revision] = 9858ea6
 projects[views_xml_backend][download][branch] = 7.x-1.x
 projects[views_xml_backend][subdir] = contrib
 
-projects[webform_phone][version] = 1.17
+projects[webform_phone][version] = 1.18
 projects[webform_phone][subdir] = contrib
 
 projects[workbench][version] = 1.x-dev
@@ -1097,6 +1095,6 @@ projects[workbench_moderation][subdir] = contrib
 ;  Panopoly Features
 ;=========================================
 
-projects[panopoly_magic][version] = 1.2
+projects[panopoly_magic][version] = 1.6
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][patch][1983788] = https://drupal.org/files/issues/panopoly_magic-1983788-6.patch
