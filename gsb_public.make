@@ -804,7 +804,6 @@ projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328
 
 projects[expire][version] = 2.0-rc3
 projects[expire][subdir] = contrib
-projects[expire][patch][2248371] = https://drupal.org/files/issues/expire-2248371-1.patch
 
 projects[fancybox][version] = 2.x-dev
 projects[fancybox][subdir] = contrib
