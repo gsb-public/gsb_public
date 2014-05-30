@@ -2752,3 +2752,23 @@ function gsb_public_update_7138() {
 function gsb_public_update_7139() {
   variable_set('expire_node_reference_field_collection_pages', 1);
 }
+
+/**
+ * Delete featured_person_fpp.
+ */
+function gsb_public_update_7140() {
+  $fields = array('field_display_email', 'field_display_phone');
+  _gsb_public_delete_fields($fields);
+
+  $fields = array('field_title', 'field_body', 'field_person_ref');
+  foreach ($fields as $field) {
+    if ($instance = field_info_instance('fieldable_panels_pane', $field, 'featured_person')) {
+      field_delete_instance($instance);
+    }
+  }
+
+  field_purge_batch(10);
+
+  module_disable(array('gsb_feature_featured_person_fpp'));
+  drupal_uninstall_modules(array('gsb_feature_featured_person_fpp'));
+}
