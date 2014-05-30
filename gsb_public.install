@@ -2745,3 +2745,10 @@ function gsb_public_update_7138() {
     module_enable(array('gsb_trim'));
   }
 }
+
+/**
+ * Set new variable for expiring field collections.
+ */
+function gsb_public_update_7139() {
+  variable_set('expire_node_reference_field_collection_pages', 1);
+}
