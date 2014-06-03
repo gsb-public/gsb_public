@@ -355,7 +355,7 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsbitse/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][branch] = release-3.6
+projects[gsb_feature_event_ct][download][tag] = 3.6
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
