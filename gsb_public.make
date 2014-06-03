@@ -205,7 +205,7 @@ projects[gsb_tokens][subdir] = custom
 projects[gsb_trim][type] = module
 projects[gsb_trim][download][type] = git
 projects[gsb_trim][download][url] = git@github.com:gsbitse/gsb_trim.git
-projects[gsb_trim][download][branch] = release-3.0
+projects[gsb_trim][download][tag] = 3.0
 projects[gsb_trim][subdir] = custom
 
 ; GSB Workbench Save and Publish
