@@ -2772,3 +2772,14 @@ function gsb_public_update_7140() {
   module_disable(array('gsb_feature_featured_person_fpp'));
   drupal_uninstall_modules(array('gsb_feature_featured_person_fpp'));
 }
+
+/**
+ * Enable gsb_feature_homepage_cta_fpp.
+ */
+function gsb_public_update_7141() {
+  if (!module_exists('gsb_feature_homepage_cta_fpp')) {
+    module_enable(array('gsb_feature_homepage_cta_fpp'));
+  }
+}
+
+
