@@ -2772,3 +2772,25 @@ function gsb_public_update_7140() {
   module_disable(array('gsb_feature_featured_person_fpp'));
   drupal_uninstall_modules(array('gsb_feature_featured_person_fpp'));
 }
+
+/**
+ * Updates the department taxonomy term.
+ */
+function gsb_public_update_7141() {
+// Updating the data to new field
+  $vocabulary = taxonomy_vocabulary_machine_name_load('department');
+  $terms = taxonomy_get_tree($vocabulary->vid);
+
+  foreach ($terms as $key => $term) {
+    if ($term->name == 'Ignite Admissions') {
+      $term->name = 'Stanford Ignite Admissions';
+      taxonomy_term_save($term);
+    }
+
+    if ($term->name == 'SIGM Admissions') {
+      $term->name = 'Summer Institute for General Management Admissions';
+      taxonomy_term_save($term);
+    }
+  }
+  taxonomy_term_save($term);
+}
