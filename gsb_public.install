@@ -2782,4 +2782,22 @@ function gsb_public_update_7141() {
   }
 }
 
+/**
+ * Update marketing_admin permissions for create/edit/delete of homepage cta
+ */
+function gsb_public_update_7142() {
+
+  // Get the marketing_admin role
+  $marketing_admin = user_role_load_by_name('marketing_admin');
+
+  $marketing_admin_permissions = array(
+    'create fieldable homepage_cta',
+    'edit fieldable homepage_cta',    
+    'delete fieldable homepage_cta',    
+  );
+
+  // Update marketing_admin role permissions
+  user_role_grant_permissions($marketing_admin->rid, $marketing_admin_permissions);
+}
+
 
