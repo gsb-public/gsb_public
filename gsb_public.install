@@ -2804,7 +2804,6 @@ function gsb_public_update_7142() {
   $result = $query->execute();
   if (isset($result['fieldable_panels_pane'])) {
     $nids = array_keys($result['fieldable_panels_pane']);
-    dpm($nids);
     fieldable_panels_panes_delete_multiple($nids);
   }
 }
