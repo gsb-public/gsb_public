@@ -396,7 +396,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsbitse/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 2.1
+projects[gsb_feature_file_types][download][branch] = release-3.0
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Google Analytics Settings
