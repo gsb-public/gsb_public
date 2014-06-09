@@ -2794,3 +2794,17 @@ function gsb_public_update_7141() {
   }
   taxonomy_term_save($term);
 }
+
+/**
+ * Delete the existing slideshow fpps.
+ */
+function gsb_public_update_7142() {
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'fieldable_panels_pane')->entityCondition('bundle', 'slideshow');
+  $result = $query->execute();
+  if (isset($result['fieldable_panels_pane'])) {
+    $nids = array_keys($result['fieldable_panels_pane']);
+    dpm($nids);
+    fieldable_panels_panes_delete_multiple($nids);
+  }
+}
