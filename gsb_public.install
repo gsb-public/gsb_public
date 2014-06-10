@@ -2772,3 +2772,29 @@ function gsb_public_update_7140() {
   module_disable(array('gsb_feature_featured_person_fpp'));
   drupal_uninstall_modules(array('gsb_feature_featured_person_fpp'));
 }
+
+/**
+ * Convert image_cta fpps to new bg colors.
+ */
+function gsb_public_update_7141() {
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', 'fieldable_panels_pane')->entityCondition('bundle', 'image_cta');
+  $result = $query->execute();
+  if (isset($result['fieldable_panels_pane'])) {
+    $ids = array_keys($result['fieldable_panels_pane']);
+    foreach($ids as $id) {
+      $entity = fieldable_panels_panes_load($id);
+      if (isset($entity->field_image_cta_bg_color['und'][0])) {
+        if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'green') { 
+          $entity->field_image_cta_bg_color['und'][0]['value'] = 'lime';
+          fieldable_panels_panes_save($entity);
+        }
+        if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'dark-teal') { 
+          $entity->field_image_cta_bg_color['und'][0]['value'] = 'teal';
+          fieldable_panels_panes_save($entity);
+        }
+      }  
+    }
+  }
+}
+
