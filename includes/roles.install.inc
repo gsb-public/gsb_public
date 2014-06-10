@@ -462,9 +462,9 @@ function _gsb_public_setup_roles() {
 
     // FPP permissions
     
-    //'create fieldable homepage_cta',
-    //'edit fieldable homepage_cta',
-    //'delete fieldable homepage_cta',
+    'create fieldable homepage_cta',
+    'edit fieldable homepage_cta',
+    'delete fieldable homepage_cta',
 
     'create fieldable image_cta',
     'edit fieldable image_cta',
