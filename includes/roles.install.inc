@@ -36,6 +36,8 @@ function _gsb_public_setup_roles() {
     'edit fieldable accordion',
 
     'edit fieldable cta',
+    
+    'edit fieldable image_cta',    
 
     'create fieldable existing_node',
     'edit fieldable existing_node',
@@ -144,6 +146,10 @@ function _gsb_public_setup_roles() {
     'create fieldable accordion',
     'edit fieldable accordion',
     'delete fieldable accordion',
+
+    'create fieldable image_cta',
+    'edit fieldable image_cta',
+    'delete fieldable image_cta',
 
     'create fieldable cta',
     'edit fieldable cta',
@@ -455,6 +461,10 @@ function _gsb_public_setup_roles() {
   $marketing_admin_permissions = array(
 
     // FPP permissions
+    
+    'create fieldable homepage_cta',
+    'edit fieldable homepage_cta',
+    'delete fieldable homepage_cta',
 
     'create fieldable image_cta',
     'edit fieldable image_cta',
