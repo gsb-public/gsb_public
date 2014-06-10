@@ -2807,3 +2807,12 @@ function gsb_public_update_7142() {
     fieldable_panels_panes_delete_multiple($nids);
   }
 }
+
+/**
+ * Enable gsb_feature_homepage_cta_fpp.
+ */
+function gsb_public_update_7141() {
+  if (!module_exists('gsb_feature_homepage_cta_fpp')) {
+    module_enable(array('gsb_feature_homepage_cta_fpp'));
+  }
+}
