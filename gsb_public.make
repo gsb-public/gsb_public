@@ -265,7 +265,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsbitse/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = WP-3713
+projects[gsb_feature_base_fields][download][branch] = release-3.12
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -413,6 +413,13 @@ projects[gsb_feature_gsa_search][download][url] = git@github.com:gsbitse/gsb_fea
 projects[gsb_feature_gsa_search][download][tag] = 1.1
 projects[gsb_feature_gsa_search][subdir] = custom/features
 
+; GSB Features Homepage CTA Fpp
+projects[gsb_feature_homepage_cta_fpp][type] = module
+projects[gsb_feature_homepage_cta_fpp][download][type] = git
+projects[gsb_feature_homepage_cta_fpp][download][url] = git@github.com:gsbitse/gsb_feature_homepage_cta_fpp.git
+projects[gsb_feature_homepage_cta_fpp][download][branch] = release-1.0
+projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
+
 ; GSB Features Image Fpp
 projects[gsb_feature_image_fpp][type] = module
 projects[gsb_feature_image_fpp][download][type] = git
@@ -424,7 +431,7 @@ projects[gsb_feature_image_fpp][subdir] = custom/features
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
 projects[gsb_feature_image_cta_fpp][download][url] = git@github.com:gsbitse/gsb_feature_image_cta_fpp.git
-projects[gsb_feature_image_cta_fpp][download][branch] = WP-3713
+projects[gsb_feature_image_cta_fpp][download][branch] = release-3.0
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Image Styles
