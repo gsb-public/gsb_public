@@ -2811,7 +2811,7 @@ function gsb_public_update_7142() {
 /**
  * Enable gsb_feature_homepage_cta_fpp.
  */
-function gsb_public_update_7141() {
+function gsb_public_update_7143() {
   if (!module_exists('gsb_feature_homepage_cta_fpp')) {
     module_enable(array('gsb_feature_homepage_cta_fpp'));
   }
