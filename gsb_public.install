@@ -2774,7 +2774,7 @@ function gsb_public_update_7140() {
 }
 
 /**
- * Convert image_cta fpps to new bg colors.
+ * Convert image_cta fpps to new bg colors, and new image files.
  */
 function gsb_public_update_7141() {
   $query = new EntityFieldQuery();
@@ -2784,6 +2784,39 @@ function gsb_public_update_7141() {
     $ids = array_keys($result['fieldable_panels_pane']);
     foreach($ids as $id) {
       $entity = fieldable_panels_panes_load($id);
+      // move the image file
+      $fid = $entity->field_file_single_public['und'][0]['fid'];
+      $file_obj = file_load($fid);
+      gsb_public_update_7141_fileMove($file_obj,'image-cta');    
+      // refetch the entity - with the updated file info
+      $entity = fieldable_panels_panes_load_multiple(array($id), array(), TRUE);
+      $entity = $entity[$id];        
+      // migrate the entity's file info from the older field to the new field
+      $entity_file = $entity->field_file_single_public['und'][0];
+      $entity->field_image_single_public['und'][0] = array(
+        'fid' => $entity_file['fid'],
+        'uid' => $entity->field_file_single_public['und'][0]['uid'],
+        'uri' => $entity->field_file_single_public['und'][0]['uri'],
+        'filemime' => $entity->field_file_single_public['und'][0]['filemime'],
+        'filesize' => $entity->field_file_single_public['und'][0]['filesize'],
+        'status' => $entity->field_file_single_public['und'][0]['status'],
+        'timestamp' => $entity->field_file_single_public['und'][0]['timestamp'],
+        'type' => $entity->field_file_single_public['und'][0]['type'],
+        'uuid' => $entity->field_file_single_public['und'][0]['uuid'],
+        'field_file_image_alt_text' => $entity->field_file_single_public['und'][0]['field_file_image_alt_text'],
+        'field_file_image_title_text' => $entity->field_file_single_public['und'][0]['field_file_image_title_text'],
+        'field_sections' => $entity->field_file_single_public['und'][0]['field_sections'],
+        'field_file_image_alignment' => $entity->field_file_single_public['und'][0]['field_file_image_alignment'],
+        'field_file_image_show_caption' => $entity->field_file_single_public['und'][0]['field_file_image_show_caption'],
+        'metatags' => $entity->field_file_single_public['und'][0]['metatags'],                                                                      
+        'metadata' => $entity->field_file_single_public['und'][0]['metadata'], 
+        'alt' => $entity->field_file_single_public['und'][0]['alt'],  
+        'title' => $entity->field_file_single_public['und'][0]['title'],  
+        'width' => $entity->field_file_single_public['und'][0]['metadata']['width'],  
+        'height' => $entity->field_file_single_public['und'][0]['metadata']['height'],                                          
+      ); 
+      fieldable_panels_panes_save($entity);
+      // update the image bg color
       if (isset($entity->field_image_cta_bg_color['und'][0])) {
         if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'green') { 
           $entity->field_image_cta_bg_color['und'][0]['value'] = 'lime';
@@ -2796,5 +2829,14 @@ function gsb_public_update_7141() {
       }  
     }
   }
+}
+
+/**
+ * Move files as part of update 7141
+ */
+function gsb_public_update_7141_fileMove(&$file_obj, $destination) {
+  $scheme = variable_get('file_default_scheme', 'public') . '://';
+  $destination_uri = $scheme . $destination . '/' . $file_obj->filename;
+  $file_obj = file_move($file_obj, $destination_uri, FILE_EXISTS_RENAME);
 }
 
