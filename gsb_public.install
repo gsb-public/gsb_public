@@ -2886,6 +2886,9 @@ function gsb_public_update_7144_fileMove(&$file_obj, $destination) {
   $file_obj = file_move($file_obj, $destination_uri, FILE_EXISTS_RENAME);
 }
 
+/**
+ * Update permissions for section editor, section manager and marketing admin
+ */
 function gsb_public_update_7145() {
 
   // Get the section editor user role
