@@ -2885,3 +2885,47 @@ function gsb_public_update_7144_fileMove(&$file_obj, $destination) {
   $destination_uri = $scheme . $destination . '/' . $file_obj->filename;
   $file_obj = file_move($file_obj, $destination_uri, FILE_EXISTS_RENAME);
 }
+
+function gsb_public_update_7145() {
+
+  // Get the section editor user role
+  $section_editor_user = user_role_load_by_name('section editor');
+
+  $section_editor_user_permissions = array(
+    // edit the image_cta
+    'edit fieldable image_cta',
+  );
+
+  // Update section editor user role permissions
+  user_role_grant_permissions($section_editor_user->rid, $section_editor_user_permissions);  
+  
+  // Get the section manager user role
+  $section_manager_user = user_role_load_by_name('section manager');
+
+  $section_manager_user_permissions = array(
+    // create/edit/delete the image_cta
+    'create fieldable image_cta',
+    'edit fieldable image_cta',
+    'delete fieldable image_cta',
+  );
+
+  // Update section manager user role permissions
+  user_role_grant_permissions($section_manager_user->rid, $section_manager_user_permissions);
+
+  // Get the marketing admin user role
+  $marketing_admin_user = user_role_load_by_name('marketing_admin');
+
+  $marketing_admin_user_permissions = array(
+    // create/edit/delete the homepage_cta and image_cta
+    'create fieldable homepage_cta',
+    'edit fieldable homepage_cta',
+    'delete fieldable homepage_cta',    
+    'create fieldable image_cta',
+    'edit fieldable image_cta',
+    'delete fieldable image_cta',
+  );
+
+  // Update marketing admin user role permissions
+  user_role_grant_permissions($marketing_admin_user->rid, $marketing_admin_user_permissions);
+
+}
