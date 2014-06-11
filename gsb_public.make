@@ -866,6 +866,7 @@ projects[imagecache_actions][subdir] = contrib
 
 projects[jquery_update][version] = 2.4
 projects[jquery_update][subdir] = contrib
+projects[jquery_update][patch][2123973] = https://drupal.org/files/issues/jquery_effects_missing-2123973-14.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
