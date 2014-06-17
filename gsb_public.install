@@ -2932,3 +2932,33 @@ function gsb_public_update_7145() {
   user_role_grant_permissions($marketing_admin_user->rid, $marketing_admin_user_permissions);
 
 }
+
+/**
+ * Create new taxonomy for Region of Interest.
+ */
+function gsb_public_update_7146() {
+  $_vocabulary = array(
+    'name' => 'Region of Interest',
+    'machine_name' => 'region_interest',
+    'description' => t('Region of Interest taxonomy.'),
+  );
+  $vocabulary = (object) $_vocabulary;
+  taxonomy_vocabulary_save($vocabulary);
+
+  $vocab = taxonomy_vocabulary_machine_name_load('region_interest');
+
+  $terms = array('Africa',
+                 'Asia-Pacific',
+                 'Europe',
+                 'North America',
+                 'South America',
+  );
+
+  foreach ($terms as $term) {
+    $newterm = new stdClass();
+    $newterm->name = $term; // The name of the term
+    $newterm->vid = $vocab->vid; // The ID of the parent vocabulary
+    $newterm->parent = 0; // This tells taxonomy that this is a top-level term
+    taxonomy_term_save($newterm);
+  }
+}
