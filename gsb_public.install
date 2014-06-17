@@ -3001,7 +3001,9 @@ function gsb_public_update_7149() {
     $newterm->vid = $vocab->vid; // The ID of the parent vocabulary
     $newterm->parent = 0; // This tells taxonomy that this is a top-level term
     taxonomy_term_save($newterm);
- 
+  }
+}
+
 /**
  * Enable gsb_feature_idea_story_ct
  */
