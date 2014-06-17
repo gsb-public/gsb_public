@@ -713,6 +713,10 @@ projects[better_exposed_filters][version] = 3.0-beta4
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][patch][2189321] = https://drupal.org/files/issues/bef-2189321-2.patch
 
+; Better formats adds input format visibility settings per-field.
+projects[better_formats][version] = 1.0-beta1
+projects[better_formats][subdir] = contrib
+
 projects[breadcrumbs_by_path][version] = 1.x-dev
 projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][download][type] = git
