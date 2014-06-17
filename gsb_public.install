@@ -2974,9 +2974,41 @@ function gsb_public_update_7148() {
 }
 
 /**
- * Enable gsb_feature_idea_story_ct
+ * Create new taxonomy for Region of Interest.
  */
 function gsb_public_update_7149() {
+  $_vocabulary = array(
+    'name' => 'Region of Interest',
+    'machine_name' => 'region_interest',
+    'description' => t('Region of Interest taxonomy.'),
+  );
+  $vocabulary = (object) $_vocabulary;
+  taxonomy_vocabulary_save($vocabulary);
+
+  $vocab = taxonomy_vocabulary_machine_name_load('region_interest');
+
+  $terms = array(
+    'Africa',
+    'Asia-Pacific',
+    'Europe',
+    'North America',
+    'South America',
+  );
+
+  foreach ($terms as $term) {
+    $newterm = new stdClass();
+    $newterm->name = $term; // The name of the term
+    $newterm->vid = $vocab->vid; // The ID of the parent vocabulary
+    $newterm->parent = 0; // This tells taxonomy that this is a top-level term
+    taxonomy_term_save($newterm);
+  }
+}
+
+
+/**
+ * Enable gsb_feature_idea_story_ct
+ */
+function gsb_public_update_7150() {
   if (!module_exists('gsb_feature_idea_story_ct')) {
     module_enable(array('gsb_feature_idea_story_ct'));
   }
@@ -2985,7 +3017,7 @@ function gsb_public_update_7149() {
 /**
  * Enable markdown module
  */
-function gsb_public_update_7150() {
+function gsb_public_update_7151() {
   if (!module_exists('markdown')) {
     module_enable(array('markdown'));
   }
