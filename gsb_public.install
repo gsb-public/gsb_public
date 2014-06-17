@@ -3004,7 +3004,6 @@ function gsb_public_update_7149() {
   }
 }
 
-
 /**
  * Enable gsb_feature_idea_story_ct
  */
