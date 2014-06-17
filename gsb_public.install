@@ -2932,3 +2932,26 @@ function gsb_public_update_7145() {
   user_role_grant_permissions($marketing_admin_user->rid, $marketing_admin_user_permissions);
 
 }
+
+/**
+ * Remove old fields from image_cta fpp
+ */
+function gsb_public_update_7146() {
+
+  $entity_type = 'fieldable_panels_pane';
+  $bundle = 'image_cta';
+
+  $field_names = array(
+    'field_title', 
+    'field_image_cta_text_pos', 
+    'field_file_single_public'
+  ); 
+
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance($entity_type, $field_name, $bundle);
+    if (!empty($instance)) {
+      field_delete_instance($instance);
+    }
+  }
+  
+}
