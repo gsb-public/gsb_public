@@ -2955,3 +2955,12 @@ function gsb_public_update_7146() {
   }
   
 }
+
+/**
+ * Enable better_formats
+ */
+function gsb_public_update_7147() {
+  if (!module_exists('better_formats')) {
+    module_enable(array('better_formats'));
+  }
+}
