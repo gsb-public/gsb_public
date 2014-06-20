@@ -2964,3 +2964,11 @@ function gsb_public_update_7147() {
     module_enable(array('better_formats'));
   }
 }
+
+/**
+ * Remove old fields from slideshow fpp.
+ */
+function gsb_public_update_7148() {
+  $fields = array('field_slideshow_item', 'field_slideshow_style');
+  _gsb_public_delete_fields($fields);
+}
