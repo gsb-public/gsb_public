@@ -911,6 +911,9 @@ projects[maxlength][download][branch] = 7.x-3.x
 projects[markup][version] = 1.1-beta1
 projects[markup][subdir] = contrib
 
+projects[markdown][version] = 1.2
+projects[markdown][subdir] = contrib
+
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-4.patch
