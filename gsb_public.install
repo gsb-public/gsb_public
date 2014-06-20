@@ -2973,3 +2973,12 @@ function gsb_public_update_7148() {
     module_enable(array('gsb_feature_idea_story_ct'));
   }
 }
+
+/**
+ * Enable markdown module
+ */
+function gsb_public_update_7149() {
+  if (!module_exists('markdown')) {
+    module_enable(array('markdown'));
+  }
+}
