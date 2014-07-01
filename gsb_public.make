@@ -327,7 +327,7 @@ projects[gsb_feature_club_display][subdir] = custom/features
 projects[gsb_feature_course_ct][type] = module
 projects[gsb_feature_course_ct][download][type] = git
 projects[gsb_feature_course_ct][download][url] = git@github.com:gsbitse/gsb_feature_course_ct.git
-projects[gsb_feature_course_ct][download][branch] = release-3.3
+projects[gsb_feature_course_ct][download][tag] = 3.3
 projects[gsb_feature_course_ct][subdir] = custom/features
 
 ; GSB Feature Course
