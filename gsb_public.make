@@ -12,6 +12,13 @@ projects[feature_flag][download][url] = git@github.com:gsbitse/feature_flag.git
 projects[feature_flag][download][tag] = 1.0
 projects[feature_flag][subdir] = custom
 
+; Resources
+projects[resources][type] = module
+projects[resources][download][type] = git
+projects[resources][download][url] = git@github.com:gsbitse/resources.git
+projects[resources][download][branch] = master
+projects[resources][subdir] = custom
+
 ; GSB Acquia Tokens
 projects[gsb_acquia_tokens][type] = module
 projects[gsb_acquia_tokens][download][type] = git
@@ -186,6 +193,13 @@ projects[gsb_panopoly_magic_customization][download][type] = git
 projects[gsb_panopoly_magic_customization][download][url] = git@github.com:gsbitse/gsb_panopoly_magic_customization.git
 projects[gsb_panopoly_magic_customization][download][tag] = 1.0
 projects[gsb_panopoly_magic_customization][subdir] = custom
+
+; GSB Resources
+projects[gsb_resources][type] = module
+projects[gsb_resources][download][type] = git
+projects[gsb_resources][download][url] = git@github.com:gsbitse/gsb_resources.git
+projects[gsb_resources][download][branch] = master
+projects[gsb_resources][subdir] = custom
 
 ; GSB Section Autoconfig
 projects[gsb_section_autoconfig][type] = module

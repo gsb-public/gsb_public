@@ -3021,3 +3021,17 @@ function gsb_public_update_7151() {
     module_enable(array('markdown'));
   }
 }
+
+
+/**
+ * Enable resources and gsb_resources module.
+ */
+function gsb_public_update_7152() {
+  if (!module_exists('resources')) {
+    module_enable(array('resources'));
+  }
+
+  if (!module_exists('gsb_resources')) {
+    module_enable(array('gsb_resources'));
+  }
+}
