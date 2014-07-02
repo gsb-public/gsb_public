@@ -3040,7 +3040,6 @@ function gsb_public_update_7152() {
       field_delete_instance($instance);
     }
   }
-
 }
 
 /**
@@ -3055,4 +3054,3 @@ function gsb_public_update_7153() {
     module_enable(array('gsb_resources'));
   }
 }
-
