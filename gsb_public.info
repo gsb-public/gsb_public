@@ -93,6 +93,7 @@ dependencies[] = phone
 
 ; GSB Custom Modules
 dependencies[] = feature_flag
+dependencies[] = resources
 dependencies[] = gsb_acquia_tokens
 dependencies[] = gsb_academic_year
 dependencies[] = gsb_addthis_customization
@@ -112,6 +113,7 @@ dependencies[] = gsb_panels_ipe_overrides
 dependencies[] = gsb_panels_pages
 dependencies[] = gsb_panopoly_magic_customization
 dependencies[] = gsb_public_custom_blocks
+dependencies[] = gsb_resources
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_tokens
 dependencies[] = gsb_trim
