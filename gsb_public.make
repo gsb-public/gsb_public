@@ -520,14 +520,14 @@ projects[gsb_feature_people_fpp][subdir] = custom/features
 projects[gsb_feature_phd_candidate_ct][type] = module
 projects[gsb_feature_phd_candidate_ct][download][type] = git
 projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_ct.git
-projects[gsb_feature_phd_candidate_ct][download][tag] = 3.3
+projects[gsb_feature_phd_candidate_ct][download][branch] = WP-3883
 projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB PhD Candidate Display
 projects[gsb_feature_phd_candidate_display][type] = module
 projects[gsb_feature_phd_candidate_display][download][type] = git
 projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsbitse/gsb_feature_phd_candidate_display.git
-projects[gsb_feature_phd_candidate_display][download][branch] = WP-3883
+projects[gsb_feature_phd_candidate_display][download][tag] = 2.0
 projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
 ; GSB Publication
