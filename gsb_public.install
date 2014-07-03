@@ -3022,11 +3022,31 @@ function gsb_public_update_7151() {
   }
 }
 
+/**
+ * Remove field_person_fac_ref from phd_candidate ct
+ */
+function gsb_public_update_7152() {
+
+  $entity_type = 'node';
+  $bundle = 'phd_candidate';
+
+  $field_names = array(
+    'field_person_fac_ref',
+  );
+
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance($entity_type, $field_name, $bundle);
+    if (!empty($instance)) {
+      field_delete_instance($instance);
+    }
+  }
+
+}
 
 /**
  * Enable resources and gsb_resources module.
  */
-function gsb_public_update_7152() {
+function gsb_public_update_7153() {
   if (!module_exists('resources')) {
     module_enable(array('resources'));
   }
@@ -3035,3 +3055,4 @@ function gsb_public_update_7152() {
     module_enable(array('gsb_resources'));
   }
 }
+
