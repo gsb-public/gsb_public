@@ -3013,8 +3013,8 @@ function gsb_public_update_7150() {
   $bundle = 'phd_candidate';
 
   $field_names = array(
-    'field_person_fac_ref', 
-  ); 
+    'field_person_fac_ref',
+  );
 
   foreach ($field_names as $field_name) {
     $instance = field_info_instance($entity_type, $field_name, $bundle);
@@ -3022,5 +3022,4 @@ function gsb_public_update_7150() {
       field_delete_instance($instance);
     }
   }
-  
 }  
