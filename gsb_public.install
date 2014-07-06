@@ -3042,3 +3042,36 @@ function gsb_public_update_7152() {
   }
   
 }  
+
+/**
+ * Enable entityreference_autocomplete module
+ */
+function gsb_public_update_7153() {
+  if (!module_exists('entityreference_autocomplete')) {
+    module_enable(array('entityreference_autocomplete'));
+  }
+}
+
+/**
+ * Enable gsb_feature_idea_story_display module
+ */
+function gsb_public_update_7154() {
+  if (!module_exists('gsb_feature_idea_story_display')) {
+    module_enable(array('gsb_feature_idea_story_display'));
+  }
+}
+
+/**
+ * Update adminstrator user permissions for 
+ */
+function gsb_public_update_7155() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer top idea stories',
+  );
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
+
