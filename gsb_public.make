@@ -834,6 +834,9 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
+projects[entityreference_autocomplete][version] = 1.5
+projects[entityreference_autocomplete][subdir] = contrib
+
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
 projects[eva][download][type] = git
