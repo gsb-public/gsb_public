@@ -441,6 +441,13 @@ projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsbitse/gsb_
 projects[gsb_feature_idea_story_ct][download][branch] = release-4.0
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
+; GSB Features Idea Story Display
+projects[gsb_feature_idea_story_display][type] = module
+projects[gsb_feature_idea_story_display][download][type] = git
+projects[gsb_feature_idea_story_display][download][url] = git@github.com:gsbitse/gsb_feature_idea_story_display.git
+projects[gsb_feature_idea_story_display][download][branch] = WP-3903
+projects[gsb_feature_idea_story_display][subdir] = custom/features
+
 ; GSB Features Image Fpp
 projects[gsb_feature_image_fpp][type] = module
 projects[gsb_feature_image_fpp][download][type] = git
