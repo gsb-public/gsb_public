@@ -904,10 +904,12 @@ projects[hierarchical_select][download][branch] = 7.x-3.x
 projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
 projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/hs-2270431-1.patch
 
-projects[hs_lite][download][type] = git
-projects[hs_lite][download][url] = https://www.drupal.org/sandbox/gmercer/2296881.git
-projects[hs_lite][download][branch] = 7.x
+projects[hs_lite][version] = 1.x-dev 
 projects[hs_lite][subdir] = contrib
+projects[hs_lite][download][type] = git
+projects[hs_lite][download][revision] = 2f1e3
+projects[hs_lite][download][branch] = 7.x-1.x
+projects[hs_lite][download][url] = https://www.drupal.org/sandbox/gmercer/2296881.git
 
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
