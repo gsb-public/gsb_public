@@ -903,6 +903,7 @@ projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/
 
 projects[hs_lite][version] = 1.x-dev 
 projects[hs_lite][subdir] = contrib
+projects[hs_lite][type] = module
 projects[hs_lite][download][type] = git
 projects[hs_lite][download][revision] = 2f1e3
 projects[hs_lite][download][branch] = 7.x-1.x
