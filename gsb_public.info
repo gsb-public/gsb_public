@@ -59,6 +59,7 @@ dependencies[] = field_group
 dependencies[] = file_entity
 dependencies[] = googleanalytics
 dependencies[] = hierarchical_select
+dependencies[] = hs_lite
 dependencies[] = hs_menu
 dependencies[] = hs_taxonomy
 dependencies[] = imagecache_actions
