@@ -3114,3 +3114,12 @@ function gsb_public_update_7155() {
   // Remove field marked for deletion.
   field_purge_batch(10);
 }
+
+/**
+ * Enable hs_lite module
+ */
+function gsb_public_update_7157() {
+  if (!module_exists('hs_lite')) {
+    module_enable(array('hs_lite'));
+  }
+}
