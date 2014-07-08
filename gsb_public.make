@@ -438,7 +438,7 @@ projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 projects[gsb_feature_idea_story_ct][type] = module
 projects[gsb_feature_idea_story_ct][download][type] = git
 projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_idea_story_ct.git
-projects[gsb_feature_idea_story_ct][download][branch] = release-4.0
+projects[gsb_feature_idea_story_ct][download][branch] = WP-3862-2
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Idea Story Display
@@ -903,6 +903,11 @@ projects[hierarchical_select][download][revision] = b3e34d9
 projects[hierarchical_select][download][branch] = 7.x-3.x
 projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
 projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/hs-2270431-1.patch
+
+projects[hs_lite][download][type] = git
+projects[hs_lite][download][url] = https://www.drupal.org/sandbox/gmercer/2296881.git
+projects[hs_lite][download][branch] = 7.x
+projects[hs_lite][subdir] = contrib
 
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
