@@ -3022,4 +3022,28 @@ function gsb_public_update_7150() {
       field_delete_instance($instance);
     }
   }
-}  
+}
+
+/**
+ * Update Alumni Story fields.
+ */
+function gsb_public_update_7151() {
+  $entity_type = 'node';
+  $bundles = array('publication', 'book');
+
+  $field_names = array(
+    'field_salutation',
+    'field_first_name',
+    'field_middle_name',
+    'field_last_name',
+    'field_year',
+  );
+  foreach ($bundles as $bundle) {
+    foreach ($field_names as $field_name) {
+      $instance = field_info_instance($entity_type, $field_name, $bundle);
+      if (!empty($instance)) {
+        field_delete_instance($instance);
+      }
+    }
+  }
+}
