@@ -840,7 +840,7 @@ projects[entityreference_autocomplete][subdir] = contrib
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
 projects[eva][download][type] = git
-projects[eva][download][revision] = bc57c
+projects[eva][download][revision] = 79a8ef
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328-13.patch
 
@@ -908,7 +908,7 @@ projects[hs_lite][version] = 1.x-dev
 projects[hs_lite][subdir] = contrib
 projects[hs_lite][type] = module
 projects[hs_lite][download][type] = git
-projects[hs_lite][download][revision] = 7c255
+projects[hs_lite][download][revision] = bc57c
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
 
