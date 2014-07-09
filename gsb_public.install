@@ -3005,27 +3005,9 @@ function gsb_public_update_7149() {
 }
 
 /**
- * Enable gsb_feature_idea_story_ct
- */
-function gsb_public_update_7150() {
-  if (!module_exists('gsb_feature_idea_story_ct')) {
-    module_enable(array('gsb_feature_idea_story_ct'));
-  }
-}
-
-/**
- * Enable markdown module
- */
-function gsb_public_update_7151() {
-  if (!module_exists('markdown')) {
-    module_enable(array('markdown'));
-  }
-}
-
-/**
  * Remove field_person_fac_ref from phd_candidate ct
  */
-function gsb_public_update_7152() {
+function gsb_public_update_7150() {
 
   $entity_type = 'node';
   $bundle = 'phd_candidate';
@@ -3043,9 +3025,52 @@ function gsb_public_update_7152() {
 }
 
 /**
- * Enable resources and gsb_resources module.
+ * Update Alumni Story fields.
+ */
+function gsb_public_update_7151() {
+  $entity_type = 'node';
+  $bundles = array('publication', 'book');
+
+  $field_names = array(
+    'field_salutation',
+    'field_first_name',
+    'field_middle_name',
+    'field_last_name',
+    'field_year',
+  );
+  foreach ($bundles as $bundle) {
+    foreach ($field_names as $field_name) {
+      $instance = field_info_instance($entity_type, $field_name, $bundle);
+      if (!empty($instance)) {
+        field_delete_instance($instance);
+      }
+    }
+  }
+}
+
+
+/**
+ * Enable gsb_feature_idea_story_ct
+ */
+function gsb_public_update_7152() {
+  if (!module_exists('gsb_feature_idea_story_ct')) {
+    module_enable(array('gsb_feature_idea_story_ct'));
+  }
+}
+
+/**
+ * Enable markdown module
  */
 function gsb_public_update_7153() {
+  if (!module_exists('markdown')) {
+    module_enable(array('markdown'));
+  }
+}
+
+/**
+ * Enable resources and gsb_resources module.
+ */
+function gsb_public_update_7154() {
   if (!module_exists('resources')) {
     module_enable(array('resources'));
   }
@@ -3058,7 +3083,7 @@ function gsb_public_update_7153() {
 /**
  * Enable entityreference_autocomplete module
  */
-function gsb_public_update_7154() {
+function gsb_public_update_7155() {
   if (!module_exists('entityreference_autocomplete')) {
     module_enable(array('entityreference_autocomplete'));
   }
@@ -3067,7 +3092,7 @@ function gsb_public_update_7154() {
 /**
  * Enable gsb_feature_idea_story_display module
  */
-function gsb_public_update_7155() {
+function gsb_public_update_7156() {
   if (!module_exists('gsb_feature_idea_story_display')) {
     module_enable(array('gsb_feature_idea_story_display'));
   }
@@ -3076,7 +3101,7 @@ function gsb_public_update_7155() {
 /**
  * Update adminstrator user permissions for 
  */
-function gsb_public_update_7156() {
+function gsb_public_update_7157() {
   // Get the admin user role
   $adminstrator_user = user_role_load_by_name('administrator');
   // Add the permission
@@ -3090,7 +3115,7 @@ function gsb_public_update_7156() {
 /**
  * Enable hs_lite module
  */
-function gsb_public_update_7157() {
+function gsb_public_update_7158() {
   if (!module_exists('hs_lite')) {
     module_enable(array('hs_lite'));
   }
@@ -3099,7 +3124,7 @@ function gsb_public_update_7157() {
 /**
  * Enable Featured Insight Card FPP module.
  */
-function gsb_public_update_7158() {
+function gsb_public_update_7159() {
   if (!module_exists('gsb_feature_featured_insight_card_fpp')) {
     module_enable(array('gsb_feature_featured_insight_card_fpp'));
   }
