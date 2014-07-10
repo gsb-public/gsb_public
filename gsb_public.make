@@ -399,6 +399,13 @@ projects[gsb_feature_faculty_display][download][url] = git@github.com:gsbitse/gs
 projects[gsb_feature_faculty_display][download][tag] = 3.5
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
+; GSB GSB Feature Featured Insight Card FPP
+projects[gsb_feature_featured_insight_card_fpp][type] = module
+projects[gsb_feature_featured_insight_card_fpp][download][type] = git
+projects[gsb_feature_featured_insight_card_fpp][download][url] = git@github.com:gsbitse/gsb_feature_featured_insight_card_fpp.git
+projects[gsb_feature_featured_insight_card_fpp][download][branch] = master
+projects[gsb_feature_featured_insight_card_fpp][subdir] = custom/features
+
 ; GSB GSB Feature Featured Person FPP
 projects[gsb_feature_featured_person_fpp][type] = module
 projects[gsb_feature_featured_person_fpp][download][type] = git

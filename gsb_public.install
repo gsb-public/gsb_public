@@ -3123,3 +3123,12 @@ function gsb_public_update_7157() {
     module_enable(array('hs_lite'));
   }
 }
+
+/**
+ * Enable Featured Insight Card FPP module.
+ */
+function gsb_public_update_7158() {
+  if (!module_exists('gsb_feature_featured_insight_card_fpp')) {
+    module_enable(array('gsb_feature_featured_insight_card_fpp'));
+  }
+}
