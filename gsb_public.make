@@ -275,6 +275,13 @@ projects[gsb_feature_accordion][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_accordion][download][tag] = 3.0
 projects[gsb_feature_accordion][subdir] = custom/features
 
+; GSB Features Announcement CT
+projects[gsb_feature_announcement_ct][type] = module
+projects[gsb_feature_announcement_ct][download][type] = git
+projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsbitse/gsb_feature_announcement_ct.git
+projects[gsb_feature_announcement_ct][download][branch] = WP-316
+projects[gsb_feature_announcement_ct][subdir] = custom/features
+
 ; GSB Feature base fields
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
