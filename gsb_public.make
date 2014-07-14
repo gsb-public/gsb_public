@@ -592,6 +592,13 @@ projects[gsb_feature_rss_feeds][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_rss_feeds][download][tag] = 3.1
 projects[gsb_feature_rss_feeds][subdir] = custom/features
 
+; GSB Features School Story CT
+projects[gsb_feature_school_story_ct][type] = module
+projects[gsb_feature_school_story_ct][download][type] = git
+projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_school_story_ct.git
+projects[gsb_feature_school_story_ct][download][branch] = WP-3931
+projects[gsb_feature_school_story_ct][subdir] = custom/features
+
 ; GSB Feature SimpleSAML
 projects[gsb_feature_simplesaml][type] = module
 projects[gsb_feature_simplesaml][download][type] = git
