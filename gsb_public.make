@@ -1075,6 +1075,9 @@ projects[site_verify][subdir] = contrib
 projects[smart_trim][version] = 1.4
 projects[smart_trim][subdir] = contrib
 
+projects[stage_file_proxy][version] = 1.6
+projects[stage_file_proxy][subdir] = contrib
+
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
