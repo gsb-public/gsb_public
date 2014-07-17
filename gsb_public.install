@@ -3045,6 +3045,8 @@ function gsb_public_update_7151() {
         field_delete_instance($instance);
       }
     }
+  }
+}
 
 /**
  * Enable gsb_feature_idea_story_ct
