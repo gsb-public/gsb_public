@@ -873,7 +873,6 @@ projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
 
-; This overrides jquery_update in panopoly_admin
 projects[jquery_update][version] = 2.3
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-fixes-states-js-1448490.patch
@@ -1108,6 +1107,6 @@ projects[workbench_moderation][subdir] = contrib
 ;  Panopoly Features
 ;=========================================
 
-projects[panopoly_magic][version] = 1.6
+projects[panopoly_magic][version] = 1.7
 projects[panopoly_magic][subdir] = panopoly
 projects[panopoly_magic][patch][1983788] = https://drupal.org/files/issues/panopoly_magic-1983788-6.patch
