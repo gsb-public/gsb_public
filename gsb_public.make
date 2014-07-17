@@ -953,7 +953,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.0-beta9
+projects[metatag][version] = 1.0-rc1
 projects[metatag][subdir] = contrib
 
 projects[module_filter][version] = 1.8
