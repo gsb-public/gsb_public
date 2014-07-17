@@ -925,11 +925,8 @@ projects[field_group][patch][1357896] = https://drupal.org/files/issues/field_gr
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][subdir] = contrib
 
-projects[google_analytics][version] = 2.x-dev
+projects[google_analytics][version] = 2.0
 projects[google_analytics][subdir] = contrib
-projects[google_analytics][download][type] = git
-projects[google_analytics][download][revision] = f0f27ea
-projects[google_analytics][download][branch] = 7.x-2.x
 
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
