@@ -100,7 +100,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsbitse/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 3.12
+projects[gsb_public_custom_blocks][download][branch] = WP-3996
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Faculty Role
@@ -452,7 +452,7 @@ projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 projects[gsb_feature_idea_story_ct][type] = module
 projects[gsb_feature_idea_story_ct][download][type] = git
 projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_idea_story_ct.git
-projects[gsb_feature_idea_story_ct][download][branch] = release-4.0
+projects[gsb_feature_idea_story_ct][download][branch] = WP-3996
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Idea Story Display
@@ -954,6 +954,14 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
+
+projects[mailchimp][version] = 3.1
+projects[mailchimp][subdir] = contrib
+
+libraries[mailchimp][download][type] = "get"
+libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
+libraries[mailchimp][directory_name] = "mailchimp"
+libraries[mailchimp][destination] = "libraries"
 
 projects[maxlength][version] = 3.x-dev
 projects[maxlength][subdir] = contrib

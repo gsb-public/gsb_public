@@ -3146,3 +3146,12 @@ function gsb_public_update_7161() {
     module_enable(array('gsb_feature_school_story_ct'));
   }
 }
+
+/**
+ * Enable mailchimp module.
+ */
+function gsb_public_update_7162() {
+  if (!module_exists('mailchimp')) {
+    module_enable(array('mailchimp'));
+  }
+}

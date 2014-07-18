@@ -65,6 +65,7 @@ dependencies[] = hs_taxonomy
 dependencies[] = imagecache_actions
 dependencies[] = imagecache_canvasactions
 dependencies[] = login_destination
+dependencies[] = mailchimp
 dependencies[] = maxlength
 dependencies[] = markdown
 dependencies[] = markup
