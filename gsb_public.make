@@ -1109,4 +1109,3 @@ projects[workbench_moderation][subdir] = contrib
 
 projects[panopoly_magic][version] = 1.7
 projects[panopoly_magic][subdir] = panopoly
-projects[panopoly_magic][patch][1983788] = https://drupal.org/files/issues/panopoly_magic-1983788-6.patch
