@@ -3155,3 +3155,12 @@ function gsb_public_update_7162() {
     module_enable(array('mailchimp'));
   }
 }
+
+/**
+ * Enable gsb_feature_news_display module.
+ */
+function gsb_public_update_7163() {
+  if (!module_exists('gsb_feature_news_display')) {
+    module_enable(array('gsb_feature_news_display'));
+  }
+}

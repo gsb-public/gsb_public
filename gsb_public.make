@@ -532,6 +532,13 @@ projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsbits
 projects[gsb_feature_msx_fellows_display][download][tag] = 1.2
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
+; GSB Feature News Display
+projects[gsb_feature_news_display][type] = module
+projects[gsb_feature_news_display][download][type] = git
+projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_feature_news_display.git
+projects[gsb_feature_news_display][download][branch] = master
+projects[gsb_feature_news_display][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
