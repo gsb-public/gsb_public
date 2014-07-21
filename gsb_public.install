@@ -3155,3 +3155,23 @@ function gsb_public_update_7162() {
     module_enable(array('mailchimp'));
   }
 }
+
+/**
+ * Remove field_related_other_content from announcement ct
+ */
+function gsb_public_update_7164() {
+
+  $entity_type = 'node';
+  $bundle = 'announcement';
+
+  $field_names = array(
+    'field_related_other_content',
+  );
+
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance($entity_type, $field_name, $bundle);
+    if (!empty($instance)) {
+      field_delete_instance($instance);
+    }
+  }
+}
