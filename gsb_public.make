@@ -536,7 +536,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][branch] = master
+projects[gsb_feature_news_display][download][branch] = release-4.0
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Feature Page
