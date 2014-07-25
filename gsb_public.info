@@ -167,6 +167,7 @@ dependencies[] = gsb_feature_people_display
 dependencies[] = gsb_feature_people_fpp
 dependencies[] = gsb_feature_phd_candidate_ct
 dependencies[] = gsb_feature_phd_candidate_display
+dependencies[] = gsb_feature_pr_contact
 dependencies[] = gsb_feature_publication_ct
 dependencies[] = gsb_feature_publication_display
 dependencies[] = gsb_feature_quote_fpp
