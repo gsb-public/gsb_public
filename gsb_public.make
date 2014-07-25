@@ -572,6 +572,13 @@ projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsbi
 projects[gsb_feature_phd_candidate_display][download][tag] = 2.0
 projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
+; GSB PR Contact
+projects[gsb_feature_pr_contact][type] = module
+projects[gsb_feature_pr_contact][download][type] = git
+projects[gsb_feature_pr_contact][download][url] = git@github.com:gsbitse/gsb_feature_pr_contact.git
+projects[gsb_feature_pr_contact][download][branch] = WP-4055
+projects[gsb_feature_pr_contact][subdir] = custom/features
+
 ; GSB Publication
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git

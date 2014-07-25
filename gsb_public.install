@@ -3164,3 +3164,12 @@ function gsb_public_update_7163() {
     module_enable(array('gsb_feature_news_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_pr_contact module.
+ */
+function gsb_public_update_7164() {
+  if (!module_exists('gsb_feature_pr_contact')) {
+    module_enable(array('gsb_feature_pr_contact'));
+  }
+}
