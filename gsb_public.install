@@ -3173,3 +3173,12 @@ function gsb_public_update_7164() {
     module_enable(array('gsb_feature_pr_contact'));
   }
 }
+
+/**
+ * Enable gsb_rethink module.
+ */
+function gsb_public_update_7165() {
+  if (!module_exists('gsb_rethink')) {
+    module_enable(array('gsb_rethink'));
+  }
+}
