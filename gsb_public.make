@@ -201,6 +201,13 @@ projects[gsb_resources][download][url] = git@github.com:gsbitse/gsb_resources.gi
 projects[gsb_resources][download][branch] = release-4.0
 projects[gsb_resources][subdir] = custom
 
+; GSB Rethink
+projects[gsb_rethink][type] = module
+projects[gsb_rethink][download][type] = git
+projects[gsb_rethink][download][url] = git@github.com:gsbitse/gsb_rethink.git
+projects[gsb_rethink][download][branch] = master
+projects[gsb_rethink][subdir] = custom
+
 ; GSB Section Autoconfig
 projects[gsb_section_autoconfig][type] = module
 projects[gsb_section_autoconfig][download][type] = git
