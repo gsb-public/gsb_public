@@ -1101,6 +1101,7 @@ projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.3
 projects[workbench_moderation][subdir] = contrib
+projects[workbench_moderation][patch][1436260] = https://www.drupal.org/files/issues/1436260-workbench_moderation-states-node_save-74.patch
 
 
 ;=========================================
