@@ -3079,9 +3079,23 @@ function gsb_public_update_7153() {
 }
 
 /**
- * Enable gsb_feature_idea_story_ct
+ * Delete the book ct field_salutation.
  */
 function gsb_public_update_7154() {
+
+  $instance = field_info_instance('node', 'field_salutation', 'book');
+
+  // Mark field for deletion.
+  field_delete_instance($instance);
+
+  // Remove field marked for deletion.
+  field_purge_batch(10);
+}
+
+/**
+ * Enable gsb_feature_idea_story_ct
+ */
+function gsb_public_update_7155() {
   if (!module_exists('gsb_feature_idea_story_ct')) {
     module_enable(array('gsb_feature_idea_story_ct'));
   }
@@ -3090,7 +3104,7 @@ function gsb_public_update_7154() {
 /**
  * Enable markdown module
  */
-function gsb_public_update_7155() {
+function gsb_public_update_7156() {
   if (!module_exists('markdown')) {
     module_enable(array('markdown'));
   }
@@ -3099,7 +3113,7 @@ function gsb_public_update_7155() {
 /**
  * Enable resources and gsb_resources module.
  */
-function gsb_public_update_7156() {
+function gsb_public_update_7157() {
   if (!module_exists('resources')) {
     module_enable(array('resources'));
   }
@@ -3112,7 +3126,7 @@ function gsb_public_update_7156() {
 /**
  * Enable entityreference_autocomplete module
  */
-function gsb_public_update_7157() {
+function gsb_public_update_7158() {
   if (!module_exists('entityreference_autocomplete')) {
     module_enable(array('entityreference_autocomplete'));
   }
@@ -3121,7 +3135,7 @@ function gsb_public_update_7157() {
 /**
  * Enable gsb_feature_idea_story_display module
  */
-function gsb_public_update_7158() {
+function gsb_public_update_7159() {
   if (!module_exists('gsb_feature_idea_story_display')) {
     module_enable(array('gsb_feature_idea_story_display'));
   }
@@ -3130,7 +3144,7 @@ function gsb_public_update_7158() {
 /**
  * Update adminstrator user permissions for 
  */
-function gsb_public_update_7159() {
+function gsb_public_update_7160() {
   // Get the admin user role
   $adminstrator_user = user_role_load_by_name('administrator');
   // Add the permission
@@ -3144,7 +3158,7 @@ function gsb_public_update_7159() {
 /**
  * Enable hs_lite module
  */
-function gsb_public_update_7160() {
+function gsb_public_update_7161() {
   if (!module_exists('hs_lite')) {
     module_enable(array('hs_lite'));
   }
@@ -3153,7 +3167,7 @@ function gsb_public_update_7160() {
 /**
  * Enable Featured Insight Card FPP module.
  */
-function gsb_public_update_7161() {
+function gsb_public_update_7162() {
   if (!module_exists('gsb_feature_featured_insight_card_fpp')) {
     module_enable(array('gsb_feature_featured_insight_card_fpp'));
   }
@@ -3162,7 +3176,7 @@ function gsb_public_update_7161() {
 /**
  * Enable gsb_feature_announcement_ct
  */
-function gsb_public_update_7162() {
+function gsb_public_update_7163() {
   if (!module_exists('gsb_feature_announcement_ct')) {
     module_enable(array('gsb_feature_announcement_ct'));
   }
@@ -3171,7 +3185,7 @@ function gsb_public_update_7162() {
 /**
  * Enable gsb_feature_school_story_ct
  */
-function gsb_public_update_7163() {
+function gsb_public_update_7164() {
   if (!module_exists('gsb_feature_school_story_ct')) {
     module_enable(array('gsb_feature_school_story_ct'));
   }
@@ -3180,7 +3194,7 @@ function gsb_public_update_7163() {
 /**
  * Enable mailchimp module.
  */
-function gsb_public_update_7164() {
+function gsb_public_update_7165() {
   if (!module_exists('mailchimp')) {
     module_enable(array('mailchimp'));
   }
@@ -3189,7 +3203,7 @@ function gsb_public_update_7164() {
 /**
  * Enable gsb_feature_news_display module.
  */
-function gsb_public_update_7165() {
+function gsb_public_update_7166() {
   if (!module_exists('gsb_feature_news_display')) {
     module_enable(array('gsb_feature_news_display'));
   }
@@ -3198,7 +3212,7 @@ function gsb_public_update_7165() {
 /**
  * Enable gsb_feature_pr_contact module.
  */
-function gsb_public_update_7166() {
+function gsb_public_update_7167() {
   if (!module_exists('gsb_feature_pr_contact')) {
     module_enable(array('gsb_feature_pr_contact'));
   }
@@ -3207,7 +3221,7 @@ function gsb_public_update_7166() {
 /**
  * Enable gsb_rethink module.
  */
-function gsb_public_update_7167() {
+function gsb_public_update_7168() {
   if (!module_exists('gsb_rethink')) {
     module_enable(array('gsb_rethink'));
   }
@@ -3216,7 +3230,7 @@ function gsb_public_update_7167() {
 /**
  * Enable gsb_feature_offsite_idea_story_ct module.
  */
-function gsb_public_update_7168() {
+function gsb_public_update_7169() {
   if (!module_exists('gsb_feature_offsite_idea_story_ct')) {
     module_enable(array('gsb_feature_offsite_idea_story_ct'));
   }
@@ -3225,7 +3239,7 @@ function gsb_public_update_7168() {
 /**
  * Enable gsb_feature_offsite_school_story_ct module.
  */
-function gsb_public_update_7169() {
+function gsb_public_update_7170() {
   if (!module_exists('gsb_feature_offsite_school_story_ct')) {
     module_enable(array('gsb_feature_offsite_school_story_ct'));
   }
@@ -3234,7 +3248,7 @@ function gsb_public_update_7169() {
 /**
  * Enable gsb_feature_ranking_ct module.
  */
-function gsb_public_update_7170() {
+function gsb_public_update_7171() {
   if (!module_exists('gsb_feature_ranking_ct')) {
     module_enable(array('gsb_feature_ranking_ct'));
   }
@@ -3243,7 +3257,7 @@ function gsb_public_update_7170() {
 /**
  * Enable gsb_feature_school_story_display module.
  */
-function gsb_public_update_7171() {
+function gsb_public_update_7172() {
   if (!module_exists('gsb_feature_school_story_display')) {
     module_enable(array('gsb_feature_school_story_display'));
   }
