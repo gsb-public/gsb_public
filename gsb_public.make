@@ -606,6 +606,13 @@ projects[gsb_feature_quote_fpp][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_quote_fpp][download][tag] = 1.1
 projects[gsb_feature_quote_fpp][subdir] = custom/features
 
+; GSB Feature Ranking CT
+projects[gsb_feature_ranking_ct][type] = module
+projects[gsb_feature_ranking_ct][download][type] = git
+projects[gsb_feature_ranking_ct][download][url] = git@github.com:gsbitse/gsb_feature_ranking_ct.git
+projects[gsb_feature_ranking_ct][download][branch] = WP-3987
+projects[gsb_feature_ranking_ct][subdir] = custom/features
+
 ; GSB Feature RSS Feeds
 projects[gsb_feature_rss_feeds][type] = module
 projects[gsb_feature_rss_feeds][download][type] = git
