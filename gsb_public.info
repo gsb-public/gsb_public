@@ -172,6 +172,7 @@ dependencies[] = gsb_feature_pr_contact
 dependencies[] = gsb_feature_publication_ct
 dependencies[] = gsb_feature_publication_display
 dependencies[] = gsb_feature_quote_fpp
+dependencies[] = gsb_feature_ranking_ct
 dependencies[] = gsb_feature_slideshow_fpp
 dependencies[] = gsb_feature_simplesaml
 dependencies[] = gsb_feature_social_feed
