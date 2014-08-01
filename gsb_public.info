@@ -163,6 +163,7 @@ dependencies[] = gsb_feature_mega_menu
 dependencies[] = gsb_feature_msx_fellows_ct
 dependencies[] = gsb_feature_msx_fellows_display
 dependencies[] = gsb_feature_news_display
+dependencies[] = gsb_feature_offsite_idea_story_ct
 dependencies[] = gsb_feature_page_ct
 dependencies[] = gsb_feature_people_display
 dependencies[] = gsb_feature_people_fpp
