@@ -546,6 +546,13 @@ projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_f
 projects[gsb_feature_news_display][download][branch] = release-4.0
 projects[gsb_feature_news_display][subdir] = custom/features
 
+; GSB Features Offsite Idea Story CT
+projects[gsb_feature_offsite_idea_story_ct][type] = module
+projects[gsb_feature_offsite_idea_story_ct][download][type] = git
+projects[gsb_feature_offsite_idea_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_offsite_idea_story_ct.git
+projects[gsb_feature_offsite_idea_story_ct][download][branch] = WP-3985
+projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
