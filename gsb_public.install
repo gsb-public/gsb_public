@@ -3182,3 +3182,30 @@ function gsb_public_update_7165() {
     module_enable(array('gsb_rethink'));
   }
 }
+
+/**
+ * Enable gsb_feature_offsite_idea_story_ct module.
+ */
+function gsb_public_update_7166() {
+  if (!module_exists('gsb_feature_offsite_idea_story_ct')) {
+    module_enable(array('gsb_feature_offsite_idea_story_ct'));
+  }
+}
+
+/**
+ * Enable gsb_feature_offsite_school_story_ct module.
+ */
+function gsb_public_update_7167() {
+  if (!module_exists('gsb_feature_offsite_school_story_ct')) {
+    module_enable(array('gsb_feature_offsite_school_story_ct'));
+  }
+}
+
+/**
+ * Enable gsb_feature_ranking_ct module.
+ */
+function gsb_public_update_7168() {
+  if (!module_exists('gsb_feature_ranking_ct')) {
+    module_enable(array('gsb_feature_ranking_ct'));
+  }
+}
