@@ -546,6 +546,20 @@ projects[gsb_feature_news_display][download][url] = git@github.com:gsbitse/gsb_f
 projects[gsb_feature_news_display][download][branch] = release-4.0
 projects[gsb_feature_news_display][subdir] = custom/features
 
+; GSB Features Offsite Idea Story CT
+projects[gsb_feature_offsite_idea_story_ct][type] = module
+projects[gsb_feature_offsite_idea_story_ct][download][type] = git
+projects[gsb_feature_offsite_idea_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_offsite_idea_story_ct.git
+projects[gsb_feature_offsite_idea_story_ct][download][branch] = release-1.0
+projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
+
+; GSB Features Offsite School Story CT
+projects[gsb_feature_offsite_school_story_ct][type] = module
+projects[gsb_feature_offsite_school_story_ct][download][type] = git
+projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_offsite_school_story_ct.git
+projects[gsb_feature_offsite_school_story_ct][download][branch] = release-1.0
+projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
+
 ; GSB Feature Page
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
@@ -605,6 +619,13 @@ projects[gsb_feature_quote_fpp][download][type] = git
 projects[gsb_feature_quote_fpp][download][url] = git@github.com:gsbitse/gsb_feature_quote_fpp.git
 projects[gsb_feature_quote_fpp][download][tag] = 1.1
 projects[gsb_feature_quote_fpp][subdir] = custom/features
+
+; GSB Feature Ranking CT
+projects[gsb_feature_ranking_ct][type] = module
+projects[gsb_feature_ranking_ct][download][type] = git
+projects[gsb_feature_ranking_ct][download][url] = git@github.com:gsbitse/gsb_feature_ranking_ct.git
+projects[gsb_feature_ranking_ct][download][branch] = release-1.0
+projects[gsb_feature_ranking_ct][subdir] = custom/features
 
 ; GSB Feature RSS Feeds
 projects[gsb_feature_rss_feeds][type] = module
