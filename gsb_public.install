@@ -3209,3 +3209,12 @@ function gsb_public_update_7168() {
     module_enable(array('gsb_feature_ranking_ct'));
   }
 }
+
+/**
+ * Enable gsb_feature_school_story_display module.
+ */
+function gsb_public_update_7169() {
+  if (!module_exists('gsb_feature_school_story_display')) {
+    module_enable(array('gsb_feature_school_story_display'));
+  }
+}
