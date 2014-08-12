@@ -44,7 +44,7 @@ function _gsb_public_setup_roles() {
 
     'edit fieldable people',
 
-    'edit fieldable quote',
+    //'edit fieldable quote',
 
     'edit fieldable slideshow',
 
@@ -163,9 +163,9 @@ function _gsb_public_setup_roles() {
     'edit fieldable people',
     'delete fieldable people',
 
-    'create fieldable quote',
-    'edit fieldable quote',
-    'delete fieldable quote',
+    //'create fieldable quote',
+    //'edit fieldable quote',
+    //'delete fieldable quote',
 
     'create fieldable slideshow',
     'edit fieldable slideshow',
@@ -552,4 +552,22 @@ function _gsb_public_setup_roles() {
   // Update authenticated user role permissions
   user_role_grant_permissions($authenticated_user->rid, $authenticated_user_permissions);
 
+ // Create the Marketing:12396 role
+  $marketing_12396 = new stdClass();
+  $marketing_12396->name = 'Marketing:12396';
+  $marketing_12396->weight = 8;
+  user_role_save($marketing_12396);
+
+  // Get the authenticated user role
+  $marketing_12396_user = user_role_load_by_name('marketing:12396');
+
+  $marketing_12396_user_permissions = array(
+    // edit own permission for phd candidate content type
+    'create fieldable quote',
+    'edit fieldable quote',
+    'delete fieldable quote',
+  );
+
+  // Update authenticated user role permissions
+  user_role_grant_permissions($marketing_12396_user->rid, $marketing_12396_user_permissions);
 }
