@@ -3218,3 +3218,48 @@ function gsb_public_update_7169() {
     module_enable(array('gsb_feature_school_story_display'));
   }
 }
+
+/**
+ * Delete fields from Quote FPP.
+ */
+function gsb_public_update_7170() {
+  $field_names = array(
+    'field_link_single',
+    'field_quote_author_name_title',
+    'field_quote_link_company',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('fieldable_panels_pane', $field_name, 'quote');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Update the user permissions for Quote FPP
+ */
+function gsb_public_update_7171() {
+  // Get the user role to update
+  $user_roles = array('section editor', 'editor', 'administrator', 'section manager', 'marketing_admin');
+  $user_permissions = array(
+    'create fieldable quote' => FALSE,
+    'edit fieldable quote' => FALSE,
+    'delete fieldable quote' => FALSE,
+  );
+
+  foreach ($user_roles as $user_role) {
+    $roles_to_update = user_role_load_by_name($user_role);
+    // Revoke permissions to 'all' role for quote
+    user_role_change_permissions($roles_to_update->rid, $user_permissions);
+  }
+
+  $marketing_12396_user = user_role_load_by_name('marketing:12396');
+  $marketing_12396_permissions = array(
+    'create fieldable quote' => TRUE,
+    'edit fieldable quote' => TRUE,
+    'delete fieldable quote' => TRUE,
+  );
+
+  // Grant permissions to our 'marketing 12396' role
+  user_role_change_permissions($marketing_12396_user->rid, $marketing_12396_permissions);
+}
