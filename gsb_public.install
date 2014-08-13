@@ -3276,3 +3276,12 @@ function gsb_public_update_7173() {
     module_enable(array('gsb_feature_school_story_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_topic_teaser_fpp module.
+ */
+function gsb_public_update_7173() {
+  if (!module_exists('gsb_feature_topic_teaser_fpp')) {
+    module_enable(array('gsb_feature_topic_teaser_fpp'));
+  }
+}
