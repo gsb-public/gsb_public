@@ -183,6 +183,7 @@ dependencies[] = gsb_feature_social_feed
 dependencies[] = gsb_feature_spotlight
 dependencies[] = gsb_feature_staff_ct
 dependencies[] = gsb_feature_text_fpp
+dependencies[] = gsb_feature_topic_teaser_fpp
 dependencies[] = gsb_feature_toolbar
 dependencies[] = gsb_feature_video
 dependencies[] = gsb_feature_webform_ct
