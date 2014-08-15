@@ -1133,6 +1133,10 @@ projects[pm_existing_pages][subdir] = contrib
 
 projects[redirect][version] = 1.0-rc1
 projects[redirect][subdir] = contrib
+projects[redirect][download][type] = git
+projects[redirect][download][url] = http://git.drupal.org/project/redirect.git
+projects[redirect][download][tag] = 7.x-1.0-rc1
+projects[redirect][patch][1116408] = https://www.drupal.org/files/redirect-migrate-support-1116408-69.patch
 
 projects[respondjs][version] = 1.2
 projects[respondjs][subdir] = contrib
