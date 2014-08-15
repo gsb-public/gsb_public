@@ -627,6 +627,13 @@ projects[gsb_feature_ranking_ct][download][url] = git@github.com:gsbitse/gsb_fea
 projects[gsb_feature_ranking_ct][download][branch] = release-1.0
 projects[gsb_feature_ranking_ct][subdir] = custom/features
 
+; GSB Feature Ranking Display
+projects[gsb_feature_ranking_display][type] = module
+projects[gsb_feature_ranking_display][download][type] = git
+projects[gsb_feature_ranking_display][download][url] = git@github.com:gsbitse/gsb_feature_ranking_display.git
+projects[gsb_feature_ranking_display][download][branch] = release-4.0
+projects[gsb_feature_ranking_display][subdir] = custom/features
+
 ; GSB Feature RSS Feeds
 projects[gsb_feature_rss_feeds][type] = module
 projects[gsb_feature_rss_feeds][download][type] = git
