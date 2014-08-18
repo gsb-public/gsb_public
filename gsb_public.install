@@ -3356,7 +3356,7 @@ function gsb_public_update_7175() {
 }
 
 /**
- * Disable gsb_feature_quote_fpp module.
+ * Swap gsb_feature_quote_fpp for gsb_feature_insights_quote_fpp.
  */
 function gsb_public_update_7176() {
   if (module_exists('gsb_feature_quote_fpp')) {
