@@ -3295,3 +3295,34 @@ function gsb_public_update_7175() {
   }
 }
 
+/**
+ * Delete fields from Insights Quote FPP.
+ */
+function gsb_public_update_7178() {
+  $field_names = array(
+    'field_link_single',
+    'field_quote_author_name_title',
+    'field_quote_link_company',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('fieldable_panels_pane', $field_name, 'insights_quote');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Update the user permissions for Insights Quote FPP
+ */
+function gsb_public_update_7179() {
+
+  $marketing_12396_user = user_role_load_by_name('marketing:12396');
+  $marketing_12396_permissions = array(
+    'create fieldable insights_quote' => TRUE,
+    'edit fieldable insights_quote' => TRUE,
+    'delete fieldable insights_quote' => TRUE,
+  );
+
+  // Grant permissions to our 'marketing 12396' role
+  user_role_change_permissions($marketing_12396_user->rid, $marketing_12396_permissions);
+}
