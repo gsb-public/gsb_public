@@ -3296,6 +3296,20 @@ function gsb_public_update_7175() {
 }
 
 /**
+ * Disable gsb_feature_quote_fpp module.
+ */
+function gsb_public_update_7176() {
+  if (module_exists('gsb_feature_quote_fpp')) {
+    module_disable(array('gsb_feature_quote_fpp'));
+    drupal_uninstall_modules(array('gsb_feature_quote_fpp'));
+  }
+
+  if (!module_exists('gsb_feature_insights_quote_fpp')) {
+    module_enable(array('gsb_feature_insights_quote_fpp'));
+  }
+}
+
+/**
  * Add new fields in taxonomy for vocabularies.
  */
 function gsb_public_update_7177() {
