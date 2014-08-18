@@ -3356,6 +3356,7 @@ function gsb_public_update_7175() {
 }
 
 /**
+<<<<<<< HEAD
  * Swap gsb_feature_quote_fpp for gsb_feature_insights_quote_fpp.
  */
 function gsb_public_update_7176() {
@@ -3379,4 +3380,20 @@ function gsb_public_update_7177() {
   if (!module_exists('gsb_feature_insight_display')) {
     module_enable(array('gsb_feature_insight_display'));
   }  
+}
+
+/**
+ * Update the user permissions for Insights Quote FPP
+ */
+function gsb_public_update_7178() {
+
+  $marketing_12396_user = user_role_load_by_name('marketing:12396');
+  $marketing_12396_permissions = array(
+    'create fieldable insights_quote' => TRUE,
+    'edit fieldable insights_quote' => TRUE,
+    'delete fieldable insights_quote' => TRUE,
+  );
+
+  // Grant permissions to our 'marketing 12396' role
+  user_role_change_permissions($marketing_12396_user->rid, $marketing_12396_permissions);
 }
