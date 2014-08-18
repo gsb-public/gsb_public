@@ -490,6 +490,13 @@ projects[gsb_feature_image_styles][download][url] = git@github.com:gsbitse/gsb_f
 projects[gsb_feature_image_styles][download][branch] = release-4.0
 projects[gsb_feature_image_styles][subdir] = custom/features
 
+; GSB Feature Insight Display
+projects[gsb_feature_insight_display][type] = module
+projects[gsb_feature_insight_display][download][type] = git
+projects[gsb_feature_insight_display][download][url] = git@github.com:gsbitse/gsb_feature_insight_display.git
+projects[gsb_feature_insight_display][download][branch] = release-4.0
+projects[gsb_feature_insight_display][subdir] = custom/features
+
 ; GSB Feature Links FPP
 projects[gsb_feature_links_fpp][type] = module
 projects[gsb_feature_links_fpp][download][type] = git
@@ -689,6 +696,13 @@ projects[gsb_feature_staff_ct][download][type] = git
 projects[gsb_feature_staff_ct][download][url] = git@github.com:gsbitse/gsb_feature_staff_ct.git
 projects[gsb_feature_staff_ct][download][tag] = 2.0
 projects[gsb_feature_staff_ct][subdir] = custom/features
+
+; GSB Feature Taxonomy
+projects[gsb_feature_taxonomy][type] = module
+projects[gsb_feature_taxonomy][download][type] = git
+projects[gsb_feature_taxonomy][download][url] = git@github.com:gsbitse/gsb_feature_taxonomy.git
+projects[gsb_feature_taxonomy][download][branch] = release-4.0
+projects[gsb_feature_taxonomy][subdir] = custom/features
 
 ; GSB Feature Toolbar
 projects[gsb_feature_toolbar][type] = module
