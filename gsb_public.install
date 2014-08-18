@@ -3355,3 +3355,49 @@ function gsb_public_update_7175() {
   }
 }
 
+/**
+ * Add new fields in taxonomy for vocabularies.
+ */
+function gsb_public_update_7177() {
+  // Create a field
+  $fields = array(
+    'field_topic_page_url' => 'link_field',
+    'field_action' => 'text',
+  );
+
+  foreach($fields as $key => $value) {
+    $field = array(
+      'field_name' => $key,
+      'type' => $value,
+    );
+    field_create_field($field);
+  }
+
+  $bundles = array('academic_area', 'business_insight_topic', 'region_interest');
+
+  foreach ($bundles as $bundle) {
+    // Attach the field to our taxonomy entity
+    $instance = array(
+      'field_name' => 'field_topic_page_url',
+      'entity_type' => 'taxonomy_term',
+      'bundle' => $bundle,
+      'label' => 'Topic page URL',
+      'widget' => array(
+        'weight' => 1,
+       ),
+    );
+    field_create_instance($instance);
+
+    // Attach the field to our taxonomy entity
+    $instance = array(
+      'field_name' => 'field_action',
+      'entity_type' => 'taxonomy_term',
+      'bundle' => $bundle,
+      'label' => 'Action',
+      'widget' => array(
+        'weight' => 2,
+       ),
+    );
+    field_create_instance($instance);
+  }
+}
