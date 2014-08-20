@@ -666,7 +666,7 @@ projects[gsb_feature_school_story_ct][subdir] = custom/features
 projects[gsb_feature_school_story_display][type] = module
 projects[gsb_feature_school_story_display][download][type] = git
 projects[gsb_feature_school_story_display][download][url] = git@github.com:gsbitse/gsb_feature_school_story_display.git
-projects[gsb_feature_school_story_display][download][branch] = release-1.0
+projects[gsb_feature_school_story_display][download][branch] = WP-4196
 projects[gsb_feature_school_story_display][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
