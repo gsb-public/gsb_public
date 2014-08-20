@@ -403,7 +403,7 @@ projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsbitse/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][tag] = 3.12
+projects[gsb_feature_faculty_ct][download][branch] = WP-4196
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
@@ -466,7 +466,7 @@ projects[gsb_feature_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_idea_story_display][type] = module
 projects[gsb_feature_idea_story_display][download][type] = git
 projects[gsb_feature_idea_story_display][download][url] = git@github.com:gsbitse/gsb_feature_idea_story_display.git
-projects[gsb_feature_idea_story_display][download][branch] = release-4.0
+projects[gsb_feature_idea_story_display][download][branch] = WP-4196
 projects[gsb_feature_idea_story_display][subdir] = custom/features
 
 ; GSB Features Image Fpp
