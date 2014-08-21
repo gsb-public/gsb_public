@@ -3269,18 +3269,9 @@ function gsb_public_update_7172() {
 }
 
 /**
- * Enable gsb_feature_school_story_display module.
- */
-function gsb_public_update_7173() {
-  //if (!module_exists('gsb_feature_school_story_display')) {
-    //module_enable(array('gsb_feature_school_story_display'));
-  //}
-}
-
-/**
  * Enable gsb_feature_topic_teaser_fpp module.
  */
-function gsb_public_update_7174() {
+function gsb_public_update_7173() {
   if (!module_exists('gsb_feature_topic_teaser_fpp')) {
     module_enable(array('gsb_feature_topic_teaser_fpp'));
   }
@@ -3289,7 +3280,7 @@ function gsb_public_update_7174() {
 /**
  * Enable gsb_feature_ranking_display module.
  */
-function gsb_public_update_7175() {
+function gsb_public_update_7174() {
   if (!module_exists('gsb_feature_ranking_display')) {
     module_enable(array('gsb_feature_ranking_display'));
   }
@@ -3298,7 +3289,7 @@ function gsb_public_update_7175() {
 /**
  * Swap gsb_feature_quote_fpp for gsb_feature_insights_quote_fpp.
  */
-function gsb_public_update_7176() {
+function gsb_public_update_7175() {
   if (module_exists('gsb_feature_quote_fpp')) {
     module_disable(array('gsb_feature_quote_fpp'));
     drupal_uninstall_modules(array('gsb_feature_quote_fpp'));
@@ -3312,7 +3303,7 @@ function gsb_public_update_7176() {
 /**
  * Enable gsb_feature_taxonomy and gsb_feature_insight_display modules.
  */
-function gsb_public_update_7177() {
+function gsb_public_update_7176() {
   if (!module_exists('gsb_feature_taxonomy')) {
     module_enable(array('gsb_feature_taxonomy'));
   }
@@ -3324,7 +3315,7 @@ function gsb_public_update_7177() {
 /**
  * Update the user permissions for Insights Quote FPP
  */
-function gsb_public_update_7178() {
+function gsb_public_update_7177() {
 
   $marketing_12396_user = user_role_load_by_name('marketing:12396');
   $marketing_12396_permissions = array(
