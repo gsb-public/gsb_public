@@ -3272,9 +3272,9 @@ function gsb_public_update_7172() {
  * Enable gsb_feature_school_story_display module.
  */
 function gsb_public_update_7173() {
-  if (!module_exists('gsb_feature_school_story_display')) {
-    module_enable(array('gsb_feature_school_story_display'));
-  }
+  //if (!module_exists('gsb_feature_school_story_display')) {
+    //module_enable(array('gsb_feature_school_story_display'));
+  //}
 }
 
 /**
