@@ -215,6 +215,13 @@ projects[gsb_section_autoconfig][download][url] = git@github.com:gsbitse/gsb_sec
 projects[gsb_section_autoconfig][download][tag] = 2.0
 projects[gsb_section_autoconfig][subdir] = custom
 
+; GSB Social
+projects[gsb_social][type] = module
+projects[gsb_social][download][type] = git
+projects[gsb_social][download][url] = git@github.com:gsbitse/gsb_social.git
+projects[gsb_social][download][branch] = master
+projects[gsb_social][subdir] = custom
+
 ; GSB Tokens
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
