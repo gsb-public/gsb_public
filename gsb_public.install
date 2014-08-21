@@ -3327,3 +3327,12 @@ function gsb_public_update_7177() {
   // Grant permissions to our 'marketing 12396' role
   user_role_change_permissions($marketing_12396_user->rid, $marketing_12396_permissions);
 }
+
+/**
+ * Enable gsb_social module.
+ */
+function gsb_public_update_7178() {
+  if (!module_exists('gsb_social')) {
+    module_enable(array('gsb_social'));
+  }
+}
