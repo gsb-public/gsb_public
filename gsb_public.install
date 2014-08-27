@@ -3336,3 +3336,10 @@ function gsb_public_update_7178() {
     module_enable(array('gsb_social'));
   }
 }
+
+/**
+ * Enable node_page_disable module.
+ */
+function gsb_public_update_7179() {
+  module_enable(array('node_page_disable'));
+}
