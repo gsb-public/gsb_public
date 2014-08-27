@@ -3565,3 +3565,21 @@ function gsb_public_update_7180() {
   field_purge_batch(10);
 }
 
+/**
+ * Updating the Links FPP to use a link style of black-bar instead of red-bar
+ */
+function gsb_public_update_7181() {
+  $num_updated = db_update('field_data_field_link_style')
+    ->fields(array(
+      'field_link_style_value' => 'black-bar',
+    ))
+    ->condition('field_link_style_value', 'red-bar', '=')
+    ->execute();
+  
+  $num_updated = db_update('field_revision_field_link_style')
+    ->fields(array(
+      'field_link_style_value' => 'black-bar',
+    ))
+    ->condition('field_link_style_value', 'red-bar', '=')
+    ->execute();    
+}
