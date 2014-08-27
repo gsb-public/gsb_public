@@ -3355,3 +3355,10 @@ function gsb_public_update_7179() {
     ->condition('field_link_style_value', 'red-bar', '=')
     ->execute();    
 }
+
+/** 
+ * Enable node_page_disable module.
+ */
+function gsb_public_update_7180() {
+  module_enable(array('node_page_disable'));
+}

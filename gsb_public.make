@@ -1117,6 +1117,9 @@ projects[module_filter][subdir] = contrib
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
+projects[node_page_disable][version] = 1.0-rc2
+projects[node_page_disable][subdir] = contrib
+
 projects[options_element][version] = 1.12
 projects[options_element][subdir] = contrib
 
