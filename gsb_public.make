@@ -424,7 +424,7 @@ projects[gsb_feature_faculty_display][subdir] = custom/features
 projects[gsb_feature_featured_insight_card_fpp][type] = module
 projects[gsb_feature_featured_insight_card_fpp][download][type] = git
 projects[gsb_feature_featured_insight_card_fpp][download][url] = git@github.com:gsbitse/gsb_feature_featured_insight_card_fpp.git
-projects[gsb_feature_featured_insight_card_fpp][download][branch] = release-4.0
+projects[gsb_feature_featured_insight_card_fpp][download][tag] = 4.0
 projects[gsb_feature_featured_insight_card_fpp][subdir] = custom/features
 
 ; GSB GSB Feature Featured Person FPP
