@@ -3362,3 +3362,109 @@ function gsb_public_update_7179() {
 function gsb_public_update_7180() {
   module_enable(array('node_page_disable'));
 }
+
+/**
+ * Removing references to the panopoly wysiwyg formats
+ */
+function gsb_public_update_7181() {
+
+  $num_updated = db_update('field_data_field_body')
+    ->fields(array(
+      'field_body_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_body_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_editorial_summary')
+    ->fields(array(
+      'field_editorial_summary_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_editorial_summary_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_research_statement')
+    ->fields(array(
+      'field_research_statement_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_research_statement_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_witl_post_mba_goals')
+    ->fields(array(
+      'field_witl_post_mba_goals_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_witl_post_mba_goals_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_citation')
+    ->fields(array(
+      'field_citation_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_citation_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_description')
+    ->fields(array(
+      'field_description_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_description_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_job_market_paper_desc')
+    ->fields(array(
+      'field_job_market_paper_desc_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_job_market_paper_desc_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_teaching_statement')
+    ->fields(array(
+      'field_teaching_statement_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_teaching_statement_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_work_in_progress_desc')
+    ->fields(array(
+      'field_work_in_progress_desc_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_work_in_progress_desc_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_learning_objective')
+    ->fields(array(
+      'field_learning_objective_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_learning_objective_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_review')
+    ->fields(array(
+      'field_review_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_review_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_superhead')
+    ->fields(array(
+      'field_superhead_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_superhead_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_updated = db_update('field_data_field_text_slide')
+    ->fields(array(
+      'field_text_slide_format' => 'gsb_wysiwyg_text',
+    ))
+    ->condition('field_text_slide_format', 'panopoly_%', 'LIKE')
+    ->execute();
+
+  $num_deleted = db_delete('wysiwyg')
+    ->condition('format', 'panopoly_html_text')
+    ->execute();
+
+  $num_deleted = db_delete('wysiwyg')
+    ->condition('format', 'panopoly_wysiwyg_text')
+    ->execute();
+
+}
