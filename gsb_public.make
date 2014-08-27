@@ -645,7 +645,7 @@ projects[gsb_feature_publication_display][subdir] = custom/features
 projects[gsb_feature_ranking_ct][type] = module
 projects[gsb_feature_ranking_ct][download][type] = git
 projects[gsb_feature_ranking_ct][download][url] = git@github.com:gsbitse/gsb_feature_ranking_ct.git
-projects[gsb_feature_ranking_ct][download][branch] = release-4.0
+projects[gsb_feature_ranking_ct][download][tag] = 4.0
 projects[gsb_feature_ranking_ct][subdir] = custom/features
 
 ; GSB Feature Ranking Display
