@@ -198,7 +198,7 @@ projects[gsb_panopoly_magic_customization][subdir] = custom
 projects[gsb_resources][type] = module
 projects[gsb_resources][download][type] = git
 projects[gsb_resources][download][url] = git@github.com:gsbitse/gsb_resources.git
-projects[gsb_resources][download][branch] = release-4.0
+projects[gsb_resources][download][tag] = 4.0
 projects[gsb_resources][subdir] = custom
 
 ; GSB Rethink
