@@ -515,7 +515,7 @@ projects[gsb_feature_insights_quote_fpp][subdir] = custom/features
 projects[gsb_feature_links_fpp][type] = module
 projects[gsb_feature_links_fpp][download][type] = git
 projects[gsb_feature_links_fpp][download][url] = git@github.com:gsbitse/gsb_feature_links_fpp.git
-projects[gsb_feature_links_fpp][download][tag] = 1.1
+projects[gsb_feature_links_fpp][download][branch] = release-4.0
 projects[gsb_feature_links_fpp][subdir] = custom/features
 
 ; GSB Quote FPP
