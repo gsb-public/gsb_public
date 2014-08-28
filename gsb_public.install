@@ -3442,3 +3442,52 @@ function gsb_public_update_7179() {
     ->execute();  
 
 }
+
+/**
+ * Removes some field instances and fields that are no longer in use
+ */
+function gsb_public_update_7180() {
+  $field_instances = array(
+    array(
+      'entity_type' => 'node', 
+      'field_name' => 'field_academic_degrees',
+      'bundle' => 'student'
+    ),
+    array(
+      'entity_type' => 'fieldable_panels_pane', 
+      'field_name' => 'field_body',
+      'bundle' => 'quote'
+    ),  
+    array(
+      'entity_type' => 'fieldable_panels_pane', 
+      'field_name' => 'field_link_single',
+      'bundle' => 'quote'
+    ),    
+    array(
+      'entity_type' => 'fieldable_panels_pane', 
+      'field_name' => 'field_quote_link_company',
+      'bundle' => 'quote'
+    ),   
+    array(
+      'entity_type' => 'fieldable_panels_pane', 
+      'field_name' => 'field_quote_author_name_title',
+      'bundle' => 'quote'
+    ),       
+  );
+  
+  foreach ( $field_instances as $fi_info ) {
+    $instance = field_info_instance(
+      $fi_info['entity_type'], 
+      $fi_info['field_name'],
+      $fi_info['bundle']
+    );
+    field_delete_instance($instance);
+    field_purge_batch(10);
+  }
+  
+  field_delete_field('field_quote_link_company');
+  field_purge_batch(10);
+  field_delete_field('field_quote_author_name_title');
+  field_purge_batch(10);
+}
+
