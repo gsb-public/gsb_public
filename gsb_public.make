@@ -896,7 +896,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[custom_add_another][version] = 1.0-rc3
 projects[custom_add_another][subdir] = contrib
 
-projects[date][version] = 2.7
+projects[date][version] = 2.8
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.1
@@ -967,7 +967,7 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.0
+projects[features][version] = 2.2
 projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
@@ -986,7 +986,7 @@ projects[field_collection][patch][1289062] = https://drupal.org/files/issues/fie
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
 projects[field_group][patch][2189777] = https://drupal.org/files/issues/field_group_patch-2189777-1.patch
 projects[field_group][patch][2212431] = https://drupal.org/files/issues/field_group-2212431-1.patch
@@ -1108,7 +1108,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.0-rc1
+projects[metatag][version] = 1.0-rc2
 projects[metatag][subdir] = contrib
 
 projects[module_filter][version] = 1.8
