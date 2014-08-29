@@ -988,9 +988,6 @@ projects[field_formatter_settings][subdir] = contrib
 
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
-projects[field_group][patch][2189777] = https://drupal.org/files/issues/field_group_patch-2189777-1.patch
-projects[field_group][patch][2212431] = https://drupal.org/files/issues/field_group-2212431-1.patch
-projects[field_group][patch][1357896] = https://drupal.org/files/issues/field_group-1357896-dont-focus-on-Enter-7.x-1.1.patch
 
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][subdir] = contrib
@@ -1083,11 +1080,8 @@ projects[menu_attributes][download][type] = git
 projects[menu_attributes][download][revision] = ed7e9aa
 projects[menu_attributes][download][branch] = 7.x-1.x
 
-projects[menu_block][version] = 2.x-dev
+projects[menu_block][version] = 2.4
 projects[menu_block][subdir] = contrib
-projects[menu_block][download][type] = git
-projects[menu_block][download][revision] = 32ab1cf
-projects[menu_block][download][branch] = 7.x-2.x
 
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
