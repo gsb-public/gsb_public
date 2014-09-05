@@ -1175,6 +1175,9 @@ libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsbit
 projects[select_or_other][version] = 2.20
 projects[select_or_other][subdir] = contrib
 
+libraries[sharrre][download][type] = get
+libraries[sharrre][download][url] = https://raw.githubusercontent.com/gsbitse/Sharrre/73bd4fda08be441334bbe27de9658d040d9bb100/jquery.sharrre.js
+
 projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
 
