@@ -975,6 +975,7 @@ projects[ffc][subdir] = contrib
 
 projects[fieldable_panels_panes][version] = 1.5
 projects[fieldable_panels_panes][subdir] = contrib
+projects[fieldable_panels_panes][patch][2237137] = https://www.drupal.org/files/issues/fieldable_panels_panes-n2237137-8.patch
 
 projects[field_collection][version] = 1.0-beta5
 projects[field_collection][subdir] = contrib
