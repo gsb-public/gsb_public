@@ -3544,7 +3544,7 @@ function gsb_public_update_7184() {
   field_delete_instance($instance);
 
   // Remove the field
-  //field_delete_field('field_degree_type');
+  field_delete_field('field_degree_type');
 
   // Remove field marked for deletion.
   field_purge_batch(10);
