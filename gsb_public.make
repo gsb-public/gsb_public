@@ -494,7 +494,7 @@ projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsbitse/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][branch] = release-4.01
+projects[gsb_feature_image_styles][download][branch] = WP-4343
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Feature Insight Display
