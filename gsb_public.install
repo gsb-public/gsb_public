@@ -3549,3 +3549,16 @@ function gsb_public_update_7184() {
   // Remove field marked for deletion.
   field_purge_batch(10);
 }
+
+/** 
+ * Enable metatag_twitter_cards and metatag_opengraph modules.
+ */
+function gsb_public_update_7185() {
+  if (!module_exists('metatag_twitter_cards')) {
+    module_enable(array('metatag_twitter_cards'));
+  }  
+  if (!module_exists('metatag_opengraph')) {
+    module_enable(array('metatag_opengraph'));
+  }    
+}
+
