@@ -165,6 +165,7 @@ dependencies[] = gsb_feature_links_fpp
 dependencies[] = gsb_feature_media_item_ct
 dependencies[] = gsb_feature_media_item_display
 dependencies[] = gsb_feature_mega_menu
+dependencies[] = gsb_feature_metatag
 dependencies[] = gsb_feature_msx_fellows_ct
 dependencies[] = gsb_feature_msx_fellows_display
 dependencies[] = gsb_feature_news_display
