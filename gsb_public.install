@@ -3551,7 +3551,7 @@ function gsb_public_update_7184() {
 }
 
 /** 
- * Enable metatag_twitter_cards and metatag_opengraph modules.
+ * Enable gsb_feature_metatag, metatag_twitter_cards and metatag_opengraph modules.
  */
 function gsb_public_update_7185() {
   if (!module_exists('metatag_twitter_cards')) {
@@ -3560,5 +3560,8 @@ function gsb_public_update_7185() {
   if (!module_exists('metatag_opengraph')) {
     module_enable(array('metatag_opengraph'));
   }    
+  if (!module_exists('gsb_feature_metatag')) {
+    module_enable(array('gsb_feature_metatag'));
+  }     
 }
 
