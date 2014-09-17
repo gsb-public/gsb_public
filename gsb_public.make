@@ -553,6 +553,13 @@ projects[gsb_feature_mega_menu][download][url] = git@github.com:gsbitse/gsb_feat
 projects[gsb_feature_mega_menu][download][tag] = 1.2
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
+; GSB Features Megatag
+projects[gsb_feature_megatag][type] = module
+projects[gsb_feature_megatag][download][type] = git
+projects[gsb_feature_megatag][download][url] = git@github.com:gsbitse/gsb_feature_megatag.git
+projects[gsb_feature_megatag][download][branch] = WP-4387
+projects[gsb_feature_megatag][subdir] = custom/features
+
 ; GSB Feature MSx Fellows Content Type
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
