@@ -557,7 +557,7 @@ projects[gsb_feature_mega_menu][subdir] = custom/features
 projects[gsb_feature_metatag][type] = module
 projects[gsb_feature_metatag][download][type] = git
 projects[gsb_feature_metatag][download][url] = git@github.com:gsbitse/gsb_feature_metatag.git
-projects[gsb_feature_metatag][download][branch] = WP-4387
+projects[gsb_feature_metatag][download][branch] = release-4.0
 projects[gsb_feature_metatag][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
