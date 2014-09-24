@@ -219,7 +219,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsbitse/gsb_social.git
-projects[gsb_social][download][tag] = 4.02
+projects[gsb_social][download][branch] = release-4.03
 projects[gsb_social][subdir] = custom
 
 ; GSB Tokens
