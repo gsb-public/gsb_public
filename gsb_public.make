@@ -1030,6 +1030,9 @@ projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881
 projects[imagecache_actions][version] = 1.4
 projects[imagecache_actions][subdir] = contrib
 
+libraries[jquery-scrolldepth][download][type] = get
+libraries[jquery-scrolldepth][download][url] = https://raw.githubusercontent.com/robflaherty/jquery-scrolldepth/master/jquery.scrolldepth.js
+
 projects[jquery_update][version] = 2.3
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-fixes-states-js-1448490.patch
@@ -1184,6 +1187,9 @@ libraries[responsive-tables][download][url] = git@github.com:zurb/responsive-tab
 libraries[responsive-tables][download][revision] = 0d34bc64df
 libraries[responsive-tables][patch][remove-table-styles] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/remove-table-styles.patch
 libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsbitse/gsb-revamp-patches/master/drupalize-js.patch
+
+libraries[riveted][download][type] = get
+libraries[riveted][download][url] = https://raw.githubusercontent.com/robflaherty/riveted/master/riveted.js
 
 projects[select_or_other][version] = 2.20
 projects[select_or_other][subdir] = contrib
