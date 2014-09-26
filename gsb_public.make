@@ -886,6 +886,9 @@ projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 
+libraries[contentshare][download][type] = get
+libraries[contentshare][download][url] = https://raw.githubusercontent.com/ramswaroop/contentshare.js/master/js/contentshare.js
+
 projects[ctools][version] = 1.4
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1901106] = http://drupal.org/files/1901106-ctools-views_content-exposed_form_override-5.patch
@@ -1032,6 +1035,9 @@ projects[imagecache_actions][subdir] = contrib
 
 libraries[jquery-scrolldepth][download][type] = get
 libraries[jquery-scrolldepth][download][url] = https://raw.githubusercontent.com/robflaherty/jquery-scrolldepth/master/jquery.scrolldepth.js
+
+libraries[jquery-tooltipster][download][type] = get
+libraries[jquery-tooltipster][download][url] = https://raw.githubusercontent.com/ramswaroop/contentshare.js/master/js/jquery.tooltipster.min.js
 
 projects[jquery_update][version] = 2.3
 projects[jquery_update][subdir] = contrib
