@@ -466,7 +466,7 @@ projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 projects[gsb_feature_idea_story_ct][type] = module
 projects[gsb_feature_idea_story_ct][download][type] = git
 projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_idea_story_ct.git
-projects[gsb_feature_idea_story_ct][download][branch] = release-4.03
+projects[gsb_feature_idea_story_ct][download][tag] = 4.02
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Idea Story Display
@@ -673,7 +673,7 @@ projects[gsb_feature_rss_feeds][subdir] = custom/features
 projects[gsb_feature_school_story_ct][type] = module
 projects[gsb_feature_school_story_ct][download][type] = git
 projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_school_story_ct.git
-projects[gsb_feature_school_story_ct][download][tag] = 4.02
+projects[gsb_feature_school_story_ct][download][branch] = release-4.03
 projects[gsb_feature_school_story_ct][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
