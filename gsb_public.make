@@ -445,7 +445,7 @@ projects[gsb_feature_file_types][subdir] = custom/features
 projects[gsb_feature_google_analytics_settings][type] = module
 projects[gsb_feature_google_analytics_settings][download][type] = git
 projects[gsb_feature_google_analytics_settings][download][url] = git@github.com:gsbitse/gsb_feature_google_analytics_settings.git
-projects[gsb_feature_google_analytics_settings][download][tag] = 3.0
+projects[gsb_feature_google_analytics_settings][download][branch] = release-4.0
 projects[gsb_feature_google_analytics_settings][subdir] = custom/features
 
 ; GSB Feature GSA Search
