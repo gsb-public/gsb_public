@@ -1191,6 +1191,9 @@ libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsbit
 libraries[riveted][download][type] = get
 libraries[riveted][download][url] = https://raw.githubusercontent.com/robflaherty/riveted/master/riveted.js
 
+libraries[selection-sharer][download][type] = git
+libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer/tree/master/dist
+
 projects[select_or_other][version] = 2.20
 projects[select_or_other][subdir] = contrib
 
