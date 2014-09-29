@@ -1193,6 +1193,7 @@ libraries[riveted][download][url] = https://raw.githubusercontent.com/robflahert
 
 libraries[selection-sharer][download][type] = git
 libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer
+libraries[selection-sharer][download][tag] = v0.0.15
 
 projects[select_or_other][version] = 2.20
 projects[select_or_other][subdir] = contrib
