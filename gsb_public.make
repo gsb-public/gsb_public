@@ -592,7 +592,7 @@ projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsbitse/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][tag] = 4.02
+projects[gsb_feature_offsite_school_story_ct][download][branch] = release-4.03
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
