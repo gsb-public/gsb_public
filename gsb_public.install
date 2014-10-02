@@ -3565,3 +3565,14 @@ function gsb_public_update_7185() {
   }     
 }
 
+/** 
+ * Update the resource image format to be image_resource_caption.
+ */
+function gsb_public_update_7186() {
+  $num_updated = db_update('field_data_field_body')
+    ->fields(array(
+      'field_body_format' => 'image_resource_caption',
+    ))
+    ->condition('bundle', 'resource_image', '=')
+    ->execute();  
+}
