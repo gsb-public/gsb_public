@@ -938,7 +938,7 @@ projects[elysia_cron][subdir] = contrib
 
 projects[email][version] = 1.3
 projects[email][subdir] = contrib
-projects[email][patch][1346102] = https://drupal.org/files/edit_link_and_title_text-1346102-11.patch
+projects[email][patch][1346102] = https://www.drupal.org/files/issues/edit_link_and_title_text-1346102-17-d7.patch
 
 projects[entity][version] = 1.3
 projects[entity][subdir] = contrib
