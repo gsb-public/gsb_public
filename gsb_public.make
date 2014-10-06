@@ -1200,7 +1200,7 @@ projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
 libraries[sharrre][download][url] = https://github.com/gsbitse/Sharrre
-libraries[sharrre][download][branch] = release-4.01
+libraries[sharrre][download][tag] = 4.01
 
 projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
