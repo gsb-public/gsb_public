@@ -1198,8 +1198,9 @@ libraries[selection-sharer][download][tag] = v0.0.15
 projects[select_or_other][version] = 2.20
 projects[select_or_other][subdir] = contrib
 
-libraries[sharrre][download][type] = get
-libraries[sharrre][download][url] = https://raw.githubusercontent.com/gsbitse/Sharrre/release-4.01/jquery.sharrre.js
+libraries[sharrre][download][type] = git
+libraries[sharrre][download][url] = https://github.com/gsbitse/Sharrre
+libraries[sharrre][download][branch] = release-4.01
 
 projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
