@@ -1202,6 +1202,9 @@ libraries[sharrre][download][type] = git
 libraries[sharrre][download][url] = https://github.com/gsbitse/Sharrre
 libraries[sharrre][download][tag] = 4.01
 
+projects[shield][version] = 1.2
+projects[shield][subdir] = contrib
+
 projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
 
