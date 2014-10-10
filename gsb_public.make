@@ -1005,6 +1005,12 @@ projects[field_group][patch][2189777] = https://drupal.org/files/issues/field_gr
 projects[field_group][patch][2212431] = https://drupal.org/files/issues/field_group-2212431-1.patch
 projects[field_group][patch][1357896] = https://drupal.org/files/issues/field_group-1357896-dont-focus-on-Enter-7.x-1.1.patch
 
+projects[filefield_paths][version] = 1.0-beta4
+projects[filefield_paths][subdir] = contrib
+projects[filefield_paths][download][type] = git
+projects[filefield_paths][download][url] = http://git.drupal.org/project/filefield_paths.git
+projects[filefield_paths][download][branch] = 7.x-1.x
+
 projects[file_entity][version] = 2.0-alpha3
 projects[file_entity][subdir] = contrib
 
