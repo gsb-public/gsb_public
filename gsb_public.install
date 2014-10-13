@@ -3578,12 +3578,9 @@ function gsb_public_update_7186() {
 }
 
 /** 
- * Enable upload_replace and filefield_paths module.
+ * Enable filefield_paths module.
  */
 function gsb_public_update_7187() {
-  if (!module_exists('upload_replace')) {
-    module_enable(array('upload_replace'));
-  }
   if (!module_exists('filefield_paths')) {
     module_enable(array('filefield_paths'));
   }  
