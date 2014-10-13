@@ -3588,3 +3588,56 @@ function gsb_public_update_7187() {
     module_enable(array('filefield_paths'));
   }  
 }
+
+/**
+ * Removes some field instances that are no longer in use
+ */
+function gsb_public_update_7188() {
+  $field_instances = array(
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_industry',
+      'bundle' => 'book'
+    ),
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_industry',
+      'bundle' => 'publication'
+    ),
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_industry',
+      'bundle' => 'event'
+    ),
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_company_organization',
+      'bundle' => 'book'
+    ),
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_company_organization',
+      'bundle' => 'publication'
+    ),
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_company_organization',
+      'bundle' => 'event'
+    ),
+    array(
+      'entity_type' => 'node',
+      'field_name' => 'field_discipline',
+      'bundle' => 'event'
+    ),
+  );
+
+  foreach ( $field_instances as $fi_info ) {
+    $instance = field_info_instance(
+      $fi_info['entity_type'],
+      $fi_info['field_name'],
+      $fi_info['bundle']
+    );
+    field_delete_instance($instance);
+    field_purge_batch(10);
+  }
+}
