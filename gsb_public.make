@@ -1251,13 +1251,6 @@ projects[typogrify][subdir] = contrib
 projects[uuid][version] = 1.0-alpha5
 projects[uuid][subdir] = contrib
 
-projects[upload_replace][version] = 1.0-beta1
-projects[upload_replace][subdir] = contrib
-projects[upload_replace][download][type] = git
-projects[upload_replace][download][url] = http://git.drupal.org/project/upload_replace.git
-projects[upload_replace][download][branch] = 7.x-1.x
-projects[upload_replace][patch][2354305] = https://www.drupal.org/files/issues/upload_replace_patch-2354305-1.patch
-
 projects[views][version] = 3.8
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
