@@ -501,7 +501,7 @@ projects[gsb_feature_image_styles][subdir] = custom/features
 projects[gsb_feature_insight_display][type] = module
 projects[gsb_feature_insight_display][download][type] = git
 projects[gsb_feature_insight_display][download][url] = git@github.com:gsbitse/gsb_feature_insight_display.git
-projects[gsb_feature_insight_display][download][tag] = 4.01
+projects[gsb_feature_insight_display][download][branch] = release-4.02
 projects[gsb_feature_insight_display][subdir] = custom/features
 
 ; GSB Insights Quote FPP
