@@ -3638,3 +3638,9 @@ function gsb_public_update_7188() {
     field_purge_batch(10);
   }
 }
+
+function gsb_public_update_7189() {
+  if (!module_exists('gsb_robots')) {
+    module_enable(array('gsb_robots'));
+  }  
+}
