@@ -480,7 +480,7 @@ projects[gsb_feature_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_idea_story_display][type] = module
 projects[gsb_feature_idea_story_display][download][type] = git
 projects[gsb_feature_idea_story_display][download][url] = git@github.com:gsbitse/gsb_feature_idea_story_display.git
-projects[gsb_feature_idea_story_display][download][tag] = 4.03
+projects[gsb_feature_idea_story_display][download][branch] = release-4.04
 projects[gsb_feature_idea_story_display][subdir] = custom/features
 
 ; GSB Features Image Fpp
