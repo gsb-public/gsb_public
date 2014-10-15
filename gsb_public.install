@@ -3710,3 +3710,20 @@ function gsb_public_update_7189() {
   ";
   variable_set("gsb_robots_content", $content);
 }
+
+/**
+ * Setting gsb_feature_case_display to follow panopoly_magic, in the module peckin' order.
+ */
+function gsb_public_update_7190() {
+  // Make the weight of our module one higher than panopoly_magic.
+  $weight = db_select('system', 's')
+              ->fields('s', array('weight'))
+              ->condition('name', 'panopoly_magic', '=')
+              ->execute()
+              ->fetchField();
+
+  db_update('system')
+    ->fields(array('weight' => $weight +1))
+    ->condition('name', 'gsb_feature_case_display', '=')
+    ->execute();
+}
