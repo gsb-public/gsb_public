@@ -3729,3 +3729,19 @@ function gsb_public_update_7190() {
     ->condition('name', 'gsb_feature_case_display', '=')
     ->execute();
 }
+
+/**
+ * Add pubdate format.
+ */
+function gsb_public_update_7191() {
+  // Insert custom format: Mon, 20 Oct 2014 13:44:37 PDT
+  db_insert('date_formats')
+    ->fields(array('format' => 'D, d M Y H:i:s T', 'type' => 'custom', 'locked' => 0))
+    ->execute();
+  // Insert custom format: Mon, 20 Oct 2014 13:44:37 PDT
+  db_insert('date_format_type')
+    ->fields(array('type' => 'pubdate', 'title' => 'pubDate', 'locked' => 0))
+    ->execute();
+  // Date Time only Format
+  variable_set('date_format_pubdate', 'D, d M Y H:i:s T');
+}
