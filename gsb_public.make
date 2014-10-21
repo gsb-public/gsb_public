@@ -722,7 +722,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_taxonomy][type] = module
 projects[gsb_feature_taxonomy][download][type] = git
 projects[gsb_feature_taxonomy][download][url] = git@github.com:gsb-public/gsb_feature_taxonomy.git
-projects[gsb_feature_taxonomy][download][branch] = release-4.03
+projects[gsb_feature_taxonomy][download][tag] = 4.03
 projects[gsb_feature_taxonomy][subdir] = custom/features
 
 ; GSB Feature Toolbar
