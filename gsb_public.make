@@ -390,7 +390,7 @@ projects[gsb_feature_cta][subdir] = custom/features
 projects[gsb_feature_diptych_fpp][type] = module
 projects[gsb_feature_diptych_fpp][download][type] = git
 projects[gsb_feature_diptych_fpp][download][url] = git@github.com:gsb-public/gsb_feature_diptych_fpp.git
-projects[gsb_feature_diptych_fpp][download][branch] = release-4.0
+projects[gsb_feature_diptych_fpp][download][tag] = 4.0
 projects[gsb_feature_diptych_fpp][subdir] = custom/features
 
 ; GSB Feature Event
