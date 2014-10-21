@@ -3745,3 +3745,119 @@ function gsb_public_update_7191() {
   // Date Time only Format
   variable_set('date_format_pubdate', 'D, d M Y H:i:s T');
 }
+
+/**
+ * Update to copy the image file
+ *   from: field_file_single_public
+ *   to: field_image_single_public
+ */
+function gsb_public_update_7192() {
+  
+  drupal_mkdir('public://image-fpp');
+
+  $ids = array(
+      '5116'  
+    , '5121'  
+    , '5126'  
+    , '5131'  
+    , '5136'  
+    , '5161'  
+    , '5291'  
+    , '5381'  
+    , '5391'  
+    , '5441'  
+    , '5446'  
+    , '5461'  
+    , '5466'  
+    , '5476'  
+    , '5561'  
+    , '5566'  
+    , '6141'  
+    , '6146'  
+    , '6161'  
+    , '6501'  
+    , '6541'  
+    , '6546'  
+    , '6551'  
+    , '6556'  
+    , '6561'  
+    , '6586'  
+    , '6606'  
+    , '6646'  
+    , '6691'  
+    , '6821'  
+    , '6851'  
+    , '6991'  
+    , '7026'  
+    , '7221'  
+    , '7311'  
+    , '7331'  
+    , '7371'  
+    , '7376'  
+    , '7416'  
+    , '7421'  
+    , '7446'  
+    , '7796'  
+    , '7801'  
+    , '7871'  
+    , '7886'  
+    , '7971'  
+    , '8046'  
+    , '8106'  
+    , '8116'  
+    , '8131'  
+    , '8161'  
+    , '8176'  
+    , '8181'  
+    , '8376'  
+    , '8446'  
+    , '8496'  
+    , '8521'  
+    , '8576'  
+    , '8901'  
+    , '8926'  
+    , '9121'  
+    , '9166'  
+    , '9176'  
+    , '9181'  
+    , '9186'  
+    , '9216'  
+    , '9386'  
+    , '9401'  
+    , '9406'  
+    , '9446'  
+    , '9471'  
+    , '9501'  
+    , '9546'  
+    , '9641'  
+    , '9676'  
+    , '9706'  
+    , '9751'  
+    , '9777'  
+    , '9841'  
+    , '9871'  
+    , '9876'  
+    , '10236' 
+    , '10816' 
+    , '10981' 
+    , '13036' 
+    , '13301' 
+    , '13356' 
+    , '13611' 
+  );
+  $entities = entity_load('fieldable_panels_pane', $ids);
+
+  foreach ($entities as $entity) {
+    try {
+      $entity_wrapper = entity_metadata_wrapper('fieldable_panels_pane', $entity);
+      $image_field = $entity_wrapper->field_file_single_public->value();
+      $file = file_load($image_field['fid']);
+      $file_copy = file_copy($file, 'public://image-fpp'.'/'.$image_field['origname']);
+      $entity_wrapper->field_image_single_public->file->set($file_copy);
+      $entity_wrapper->save();
+    }
+    catch (Exception $exception) {
+      continue;
+    }  
+  }
+}  
