@@ -17,7 +17,6 @@ function gsb_public_install() {
     'filter_formats',
     'taxonomy',
     'workbench',
-    'panopoly',
     'pathauto',
     'cron',
     'cache',
@@ -3744,4 +3743,20 @@ function gsb_public_update_7191() {
     ->execute();
   // Date Time only Format
   variable_set('date_format_pubdate', 'D, d M Y H:i:s T');
+}
+
+/**
+ * Disable and uninstall panopoly modules.
+ */
+function gsb_public_update_7192() {
+  // Disable and uninstall the modules
+  module_disable(array('panopoly_magic', 'panopoly_magic_customization'));
+  drupal_uninstall_modules(array('panopoly_magic', 'gsb_panopoly_magic_customization'));
+
+  // Delete the old vocabulary.
+  $vocab = taxonomy_vocabulary_machine_name_load('panopoly_categories');
+  taxonomy_vocabulary_delete($vocab->vid);
+
+  // Delete old field.
+  _gsb_public_delete_fields(array('field_featured_image'));
 }

@@ -2,8 +2,6 @@
 
 function _gsb_public_setup_filter_formats() {
 
-  // update the panopoly
-
   $format = filter_format_load('gsb_wysiwyg_text');
 
   // Work-around for what *seems* to be a bug somewhere in Drupal filter
@@ -36,7 +34,7 @@ function _gsb_public_setup_filter_formats() {
     "img[!src|title|alt|style|width|height|class|hspace|vspace|name|id],\n" .
     "@[style]";
 
-  // Save the panopoly wysiwyg format.
+  // Save the wysiwyg format.
   filter_format_save($format);
 
   // full html format

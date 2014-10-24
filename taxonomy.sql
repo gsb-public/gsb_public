@@ -1035,7 +1035,6 @@ CREATE TABLE IF NOT EXISTS `taxonomy_vocabulary` (
 --
 
 INSERT INTO `taxonomy_vocabulary` (`vid`, `name`, `machine_name`, `description`, `hierarchy`, `module`, `weight`) VALUES
-(1, 'Categories', 'panopoly_categories', 'This is a sitewide taxonomy of categories to organize the content on your site!', 0, 'taxonomy', 0),
 (101, 'Academic Area', 'academic_area', '', 0, 'taxonomy', 0),
 (106, 'Business Insight Topic', 'business_insight_topic', '', 0, 'taxonomy', 0),
 (181, 'Business Website Categories', 'business_website_categories', '', 0, 'taxonomy', 0),
