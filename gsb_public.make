@@ -743,7 +743,7 @@ projects[gsb_feature_topic_teaser_fpp][subdir] = custom/features
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
 projects[gsb_feature_text_fpp][download][url] = git@github.com:gsb-public/gsb_feature_text_fpp.git
-projects[gsb_feature_text_fpp][download][tag] = 3.0
+projects[gsb_feature_text_fpp][download][branch] = release-4.0
 projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
