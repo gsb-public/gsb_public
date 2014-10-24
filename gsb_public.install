@@ -3764,7 +3764,7 @@ function gsb_public_update_7192() {
 /**
  * Resave all the phd_candidate nodes to reset their path.
  */
-function gsb_public_update_7192() {
+function gsb_public_update_7193() {
   $entity_type = 'node';
   $bundle = 'phd_candidate';
   $query = new EntityFieldQuery();
