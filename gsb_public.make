@@ -349,7 +349,7 @@ projects[gsb_feature_case_ct][subdir] = custom/features
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][tag] = 4.01
+projects[gsb_feature_case_display][download][branch] = release-4.02
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Club
