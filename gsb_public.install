@@ -3745,3 +3745,19 @@ function gsb_public_update_7191() {
   // Date Time only Format
   variable_set('date_format_pubdate', 'D, d M Y H:i:s T');
 }
+
+/**
+ * Resave all the phd_candidate nodes to reset their path.
+ */
+function gsb_public_update_7192() {
+  $entity_type = 'node';
+  $bundle = 'phd_candidate';
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', $entity_type)->entityCondition('bundle', $bundle);
+  $result = $query->execute();
+  $nids = array_keys($result['node']);
+  $nodes = node_load_multiple($nids);
+  foreach ($nodes as $node) {
+    node_save($node);
+  }
+}
