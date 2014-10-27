@@ -120,6 +120,7 @@ dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_resources
 dependencies[] = gsb_rethink
 dependencies[] = gsb_section_autoconfig
+dependencies[] = gsb_submenu_alias_update
 dependencies[] = gsb_social
 dependencies[] = gsb_tokens
 dependencies[] = gsb_trim
