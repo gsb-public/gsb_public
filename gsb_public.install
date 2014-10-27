@@ -3776,3 +3776,12 @@ function gsb_public_update_7193() {
     node_save($node);
   }
 }
+
+/** 
+ * Enable gsb_submenu_alias_update module.
+ */
+function gsb_public_update_7194() {
+  if (!module_exists('gsb_submenu_alias_update')) {
+    module_enable(array('gsb_submenu_alias_update'));
+  }  
+}
