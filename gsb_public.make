@@ -1164,6 +1164,7 @@ projects[panels_breadcrumbs][subdir] = contrib
 
 projects[pathauto][version] = 1.2
 projects[pathauto][subdir] = contrib
+projects[pathauto][patch][2174603] = https://www.drupal.org/files/issues/pathauto_patch-2174603-1.patch
 projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
 
 projects[pathauto_menu_link][version] = 1.x-dev
