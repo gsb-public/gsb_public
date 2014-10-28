@@ -3776,3 +3776,12 @@ function gsb_public_update_7193() {
     node_save($node);
   }
 }
+
+/**
+ * Enable email_contact modules.
+ */
+function gsb_public_update_7194() {
+  if (!module_exists('email_contact')) {
+    module_enable(array('email_contact'));
+  }
+}
