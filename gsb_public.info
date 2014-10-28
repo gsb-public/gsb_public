@@ -46,6 +46,7 @@ dependencies[] = ds
 dependencies[] = ds_extras
 dependencies[] = ds_ui
 dependencies[] = elysia_cron
+dependencies[] = email_contact
 dependencies[] = entityreference_autocomplete
 dependencies[] = eva
 dependencies[] = expire
