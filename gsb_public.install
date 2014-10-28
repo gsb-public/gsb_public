@@ -3785,3 +3785,12 @@ function gsb_public_update_7194() {
     module_enable(array('gsb_submenu_alias_update'));
   }  
 }
+
+/**
+ * Enable email_contact modules.
+ */
+function gsb_public_update_7195() {
+  if (!module_exists('email_contact')) {
+    module_enable(array('email_contact'));
+  }
+}
