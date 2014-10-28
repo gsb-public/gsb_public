@@ -956,6 +956,9 @@ projects[email][patch][1346102] = https://www.drupal.org/files/issues/edit_link_
 
 projects[email_contact][version] = 1.x-dev
 projects[email_contact][subdir] = contrib
+projects[email_contact][download][type] = git
+projects[email_contact][download][revision] = fede1e7
+projects[email_contact][download][branch] = 7.x-1.x
 projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/email_contact_patch-2364995-1.patch
 
 projects[entity][version] = 1.3
