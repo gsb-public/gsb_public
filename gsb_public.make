@@ -233,7 +233,7 @@ projects[gsb_social][subdir] = custom
 projects[gsb_submenu_alias_update][type] = module
 projects[gsb_submenu_alias_update][download][type] = git
 projects[gsb_submenu_alias_update][download][url] = git@github.com:gsb-public/gsb_submenu_alias_update.git
-projects[gsb_submenu_alias_update][download][branch] = WP-4542
+projects[gsb_submenu_alias_update][download][branch] = release-4.0
 projects[gsb_submenu_alias_update][subdir] = custom
 
 ; GSB Tokens
