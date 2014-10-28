@@ -947,6 +947,10 @@ projects[email][version] = 1.3
 projects[email][subdir] = contrib
 projects[email][patch][1346102] = https://www.drupal.org/files/issues/edit_link_and_title_text-1346102-17-d7.patch
 
+projects[email_contact][version] = 1.x-dev
+projects[email_contact][subdir] = contrib
+projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/email_contact_patch-2364995-1.patch
+
 projects[entity][version] = 1.3
 projects[entity][subdir] = contrib
 
