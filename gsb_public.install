@@ -3794,3 +3794,31 @@ function gsb_public_update_7195() {
     module_enable(array('email_contact'));
   }
 }
+
+/**
+ * Delete field_program_single field instance from the following:
+ *  'announcement',
+ *   'idea_story',
+ *   'school_story',
+ *   'offsite_school_story',
+ *   'offsite_idea_story',
+ *   'book',
+ *   'publication' 
+ */
+function gsb_public_update_7196() {
+  $field_name = 'field_program_single';
+  $content_types = array(
+    'announcement',
+    'idea_story',
+    'school_story',
+    'offsite_school_story',
+    'offsite_idea_story',
+    'book',
+    'publication'
+  );
+  foreach ($content_types as $ct) {
+    $instance = field_info_instance('node', $field_name, $ct);
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
