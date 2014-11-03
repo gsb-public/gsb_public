@@ -212,7 +212,7 @@ projects[gsb_rethink][subdir] = custom
 projects[gsb_robots][type] = module
 projects[gsb_robots][download][type] = git
 projects[gsb_robots][download][url] = git@github.com:gsb-public/gsb_robots.git
-projects[gsb_robots][download][tag] = 4.01
+projects[gsb_robots][download][branch] = release-4.02
 projects[gsb_robots][subdir] = custom
 
 ; GSB Section Autoconfig
