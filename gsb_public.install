@@ -3822,3 +3822,25 @@ function gsb_public_update_7196() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Move old widget variable from panopoly magic to override_title variable.
+ */
+function gsb_public_update_7197() {
+  $results = db_select('panels_pane', 'p')
+    ->fields('p')
+    ->execute();
+
+  while ($result = $results->fetchAssoc()) {
+    $configuration = unserialize($result['configuration']);
+    if (!empty($configuration['widget_title'])) {
+      $configuration['override_title'] = TRUE;
+      $configuration['override_title_text'] = $configuration['widget_title'];
+
+      db_update('panels_pane')
+        ->fields(array('configuration' => serialize($configuration)))
+        ->condition('pid', $result['pid'])
+        ->execute();
+    }
+  }
+}
