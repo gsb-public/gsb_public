@@ -3844,3 +3844,24 @@ function gsb_public_update_7197() {
     }
   }
 }
+
+
+/**
+ * Remove unused Menu block items.
+ */
+function gsb_public_update_7198() {
+  $deltas = array (15, 16, 22);
+  foreach ( $deltas as $delta ) {
+    variable_del("menu_block_{$delta}_title_link");
+    variable_del("menu_block_{$delta}_admin_title");
+    variable_del("menu_block_{$delta}_parent");
+    variable_del("menu_block_{$delta}_level");
+    variable_del("menu_block_{$delta}_follow");
+    variable_del("menu_block_{$delta}_depth");
+    variable_del("menu_block_{$delta}_expanded");
+    variable_del("menu_block_{$delta}_sort");
+
+    db_delete('block')->condition('module', 'menu_block')->condition('delta', $delta)->execute();
+    db_delete('block_role')->condition('module', 'menu_block')->condition('delta', $delta)->execute();
+  }
+}
