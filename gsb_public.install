@@ -3761,3 +3761,16 @@ function gsb_public_update_7192() {
     node_save($node);
   }
 }
+
+/**
+ * Update all the url aliases for all the phd_candidate nodes
+ */
+function gsb_public_update_7193() {
+  $entity_type = 'node';
+  $bundle = 'phd_candidate';
+  $query = new EntityFieldQuery();
+  $query->entityCondition('entity_type', $entity_type)->entityCondition('bundle', $bundle);
+  $result = $query->execute();
+  $nids = array_keys($result['node']);
+  pathauto_node_update_alias_multiple($nids, 'bulkupdate', array('force' => TRUE));
+}
