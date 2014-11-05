@@ -3762,7 +3762,7 @@ function gsb_public_update_7192() {
 }
 
 /**
- * Resave all the phd_candidate nodes to reset their path.
+ * Update all the url aliases for all the phd_candidate nodes
  */
 function gsb_public_update_7193() {
   $entity_type = 'node';
@@ -3771,10 +3771,7 @@ function gsb_public_update_7193() {
   $query->entityCondition('entity_type', $entity_type)->entityCondition('bundle', $bundle);
   $result = $query->execute();
   $nids = array_keys($result['node']);
-  $nodes = node_load_multiple($nids);
-  foreach ($nodes as $node) {
-    node_save($node);
-  }
+  pathauto_node_update_alias_multiple($nids, 'bulkupdate', array('force' => TRUE));
 }
 
 /** 
