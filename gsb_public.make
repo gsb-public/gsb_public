@@ -592,7 +592,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][branch] = release-4.04
+projects[gsb_feature_news_display][download][tag] = 4.04
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
