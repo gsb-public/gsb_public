@@ -5,6 +5,13 @@ core = 7.x
 ;  GSB Projects
 ;============================================
 
+;Alumni CAS Auth
+projects[alumni_cas_auth][type] = module
+projects[alumni_cas_auth][download][type] = git
+projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
+projects[alumni_cas_auth][download][branch] = WP-4634
+projects[alumni_cas_auth][subdir] = custom
+
 ; Feature Flag
 projects[feature_flag][type] = module
 projects[feature_flag][download][type] = git
