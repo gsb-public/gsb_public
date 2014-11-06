@@ -226,7 +226,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][tag] = 4.04
+projects[gsb_social][download][branch] = release-5.0
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
