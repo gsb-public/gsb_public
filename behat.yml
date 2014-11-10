@@ -1,7 +1,7 @@
 # behat.yml
 default:
     extensions:
-        Behat\MinkExtension:
+        Behat\MinkExtension\Extension:
             base_url: http://public2-dev2.gsb.stanford.edu
             goutte: ~
             selenium2: ~      
