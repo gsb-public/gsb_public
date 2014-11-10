@@ -3862,3 +3862,44 @@ function gsb_public_update_7198() {
     db_delete('block_role')->condition('module', 'menu_block')->condition('delta', $delta)->execute();
   }
 }
+
+/**
+ * Copy old Action values to new CTA Action.
+ */
+function gsb_public_update_7198() {
+  $entity_type = 'fieldable_panels_pane';
+  // Get list of all cta's
+  $query = new EntityFieldQuery();
+  $query
+     ->entityCondition('entity_type', $entity_type)
+     ->entityCondition('bundle', 'cta');
+
+  $entities = $query->execute();
+  // Loop through all cta's
+  foreach($entities[$entity_type] as $entity) {
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->fpid);
+
+    $field_collection = $wrapper->field_cta_item->value();
+    $field_collection = $field_collection[0]->field_cta_action;
+    $key = $field_collection['und'][0]['value'];
+    // Get the values
+    $field = field_info_field('field_cta_action');
+    $name = $field['settings']['allowed_values'][$key];
+
+    $term = taxonomy_get_term_by_name($name);
+    if(empty($term)) {
+      // Add new term if not found
+      $vocabulary = taxonomy_vocabulary_machine_name_load('cta_action');
+      $new_term = (object) array(
+         'vid' => $vocabulary->vid,
+         'name' => $name,
+      );
+      taxonomy_term_save($new_term);
+      $term = taxonomy_get_term_by_name($name);
+    }
+    $tid = array_shift($term)->tid;
+    // Set the action value to new cta action field
+    $wrapper->field_cta_action_item->set($tid);
+    $wrapper->save();
+  }
+}
