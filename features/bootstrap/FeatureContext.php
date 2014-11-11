@@ -4,6 +4,7 @@ use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
+use Behat\Behat\Hook\Scope\BeforeScenarioScope;
 
 /**
  * Defines application features from the specific context.
@@ -30,7 +31,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
    *
    * @BeforeScenario
    */
-  public function performBasicHttpAuthentication(ScenarioEvent $event) {
+  public function performBasicHttpAuthentication(BeforeScenarioScope $scope) {
     $this->getSession()->setBasicAuth(
       $this->parameters['authentication']['username'],
       $this->parameters['authentication']['password']
