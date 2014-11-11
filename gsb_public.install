@@ -3904,3 +3904,16 @@ function gsb_public_update_7199()
     $wrapper->save();
   }
 }
+
+/**
+ * Delete field_cta_action field instance from the following:
+ *  'field collection field_cta_item',
+ */
+function gsb_public_update_7200() {
+  $instance = field_info_instance('field_collection', 'field_cta_action', 'field_cta_item');
+  field_delete_instance($instance);
+
+  // Remove the field
+  field_delete_field('field_cta_action');
+  field_purge_batch(10);
+}
