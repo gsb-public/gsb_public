@@ -6,6 +6,20 @@ use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
 
 /**
+ * If the website is access protected with HTTP basic auth,
+ * we perform an authentication before each scenario with the credentials
+ * from the configuration
+ *
+ * @BeforeScenario
+ */
+public function performBasicHttpAuthentication(ScenarioEvent $event) {
+  $this->getSession()->setBasicAuth(
+    $this->parameters['authentication']['username'],
+    $this->parameters['authentication']['password']
+  );
+}
+
+/**
  * Defines application features from the specific context.
  */
 class FeatureContext implements Context, SnippetAcceptingContext
@@ -19,5 +33,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function __construct()
     {
+      $this->parameters['authentication']['username'] = 'admin';
+      $this->parameters['authentication']['password'] = 'gsbrevamp';
     }
 }
