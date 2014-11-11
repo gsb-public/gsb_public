@@ -3906,8 +3906,7 @@ function gsb_public_update_7199() {
 }
 
 /**
- * Delete field_cta_action field instance from the following:
- *  'field collection field_cta_item',
+ * Delete field_cta_action field instance and field.
  */
 function gsb_public_update_7200() {
   $instance = field_info_instance('field_collection', 'field_cta_action', 'field_cta_item');
