@@ -3866,7 +3866,7 @@ function gsb_public_update_7198() {
 /**
  * Copy old Action values to new CTA Action.
  */
-function gsb_public_update_7199()
+function gsb_public_update_7199() {
   // Add terms to cta action from action field
   $field = field_info_field('field_cta_action');
   foreach($field['settings']['allowed_values'] as $term_name){
