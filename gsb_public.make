@@ -462,6 +462,13 @@ projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_
 projects[gsb_feature_file_types][download][tag] = 4.04
 projects[gsb_feature_file_types][subdir] = custom/features
 
+; GSB Feature Files FPP
+projects[gsb_feature_files_fpp][type] = module
+projects[gsb_feature_files_fpp][download][type] = git
+projects[gsb_feature_files_fpp][download][url] = git@github.com:gsb-public/gsb_feature_files_fpp.git
+projects[gsb_feature_files_fpp][download][branch] = WP-4621
+projects[gsb_feature_files_fpp][subdir] = custom/features
+
 ; GSB Feature Google Analytics Settings
 projects[gsb_feature_google_analytics_settings][type] = module
 projects[gsb_feature_google_analytics_settings][download][type] = git
