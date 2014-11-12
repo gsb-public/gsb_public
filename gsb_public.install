@@ -3918,3 +3918,12 @@ function gsb_public_update_7200() {
   field_delete_field('field_cta_action');
   field_purge_batch(10);
 }
+
+/** 
+ * Enable gsb_feature_files_fpp module.
+ */
+function gsb_public_update_7201() {
+  if (!module_exists('gsb_feature_files_fpp')) {
+    module_enable(array('gsb_feature_files_fpp'));
+  }  
+}
