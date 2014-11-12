@@ -321,7 +321,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-5.0
+projects[gsb_feature_base_fields][download][branch] = WP-4621
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
