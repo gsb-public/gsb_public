@@ -9,4 +9,4 @@ default:
     Behat\MinkExtension:
       goutte: ~
       selenium2: ~
-      base_url: http://public2-dev2.gsb.stanford.edu
+      base_url: http://gsb.stanford.edu

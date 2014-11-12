@@ -1,41 +1,20 @@
 <?php
-
 use Behat\Behat\Context\Context;
 use Behat\Behat\Context\SnippetAcceptingContext;
 use Behat\Gherkin\Node\PyStringNode;
 use Behat\Gherkin\Node\TableNode;
-use Behat\Behat\Hook\Scope\BeforeScenarioScope;
-use Behat\MinkExtension\Context\MinkContext;
-
+use Drupal\DrupalExtension\Context\RawDrupalContext;
 /**
- * Defines application features from the specific context.
+ * Define application features from the specific context.
  */
-class FeatureContext extends MinkContext
-{
+class FeatureContext extends RawDrupalContext implements Context, SnippetAcceptingContext {
   /**
    * Initializes context.
+   * Every scenario gets its own context object.
    *
-   * Every scenario gets its own context instance.
-   * You can also pass arbitrary arguments to the
-   * context constructor through behat.yml.
+   * @param array $parameters
+   *   Context parameters (set them in behat.yml)
    */
-  public function __construct()
-  {
-    $this->parameters['authentication']['username'] = 'admin';
-    $this->parameters['authentication']['password'] = 'gsbrevamp';
+  public function __construct(array $parameters = []) {
+    // Initialize your context here
   }
-
-  /**
-   * If the website is access protected with HTTP basic auth,
-   * we perform an authentication before each scenario with the credentials
-   * from the configuration
-   *
-   * @BeforeScenario
-   */
-  public function performBasicHttpAuthentication(BeforeScenarioScope $scope) {
-    $this->getSession()->setBasicAuth(
-      $this->parameters['authentication']['username'],
-      $this->parameters['authentication']['password']
-    );
-  }
-}
