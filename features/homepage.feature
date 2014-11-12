@@ -2,6 +2,7 @@
 Feature: Homepage
   In order to see the website I need to see the homepage.
 
+  @javascript
   Scenario: Looking at the homepage
     Given I am on the homepage
     Then I should see "Welcome to Site-Install"
