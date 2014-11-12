@@ -18,3 +18,4 @@ class FeatureContext extends RawDrupalContext implements Context, SnippetAccepti
   public function __construct(array $parameters = []) {
     // Initialize your context here
   }
+}
