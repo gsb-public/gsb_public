@@ -3891,17 +3891,19 @@ function gsb_public_update_7199() {
     $wrapper = entity_metadata_wrapper($entity_type, $entity->fpid);
 
     $field_collection = $wrapper->field_cta_item->value();
-    $field_collection = $field_collection[0]->field_cta_action;
-    $key = $field_collection['und'][0]['value'];
+    $field_cta_action = $field_collection[0]->field_cta_action;
+    $key = $field_cta_action['und'][0]['value'];
 
     // Get the values
     $name = $field['settings']['allowed_values'][$key];
     $term = taxonomy_get_term_by_name($name);
     $tid = array_shift($term)->tid;
 
-    // Set the action value to new cta action field
-    $wrapper->field_cta_action_item->set($tid);
-    $wrapper->save();
+    // Get the field collection
+    $raw_collection = $wrapper->field_cta_item[0]->value();
+    $collection_wrapper = entity_metadata_wrapper('field_collection_item', $raw_collection);
+    $collection_wrapper->field_cta_action_item = $tid;
+    $collection_wrapper->save();
   }
 }
 
