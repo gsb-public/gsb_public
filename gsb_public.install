@@ -3867,11 +3867,13 @@ function gsb_public_update_7198() {
  * Copy old Action values to new CTA Action.
  */
 function gsb_public_update_7199() {
-
-  // Revert the feature gsb_feature_taxonomy
-  $feature = features_get_features('gsb_feature_taxonomy');
-  $components = array_keys($feature->info['features']);
-  features_revert(array('gsb_feature_taxonomy' => $components));
+  // Revert all the required features
+  $features = array ('gsb_feature_taxonomy', 'gsb_feature_base_fields', 'gsb_feature_cta');
+  foreach($features as $feature_name) {
+    $feature = features_get_features('gsb_feature_taxonomy', TRUE);
+    $components = array_keys($feature->info['features']);
+    features_revert(array($feature_name => $components));
+  }
 
   // Add terms to cta action from action field
   $field = field_info_field('field_cta_action');
