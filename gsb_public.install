@@ -3927,3 +3927,44 @@ function gsb_public_update_7201() {
     module_enable(array('gsb_feature_files_fpp'));
   }  
 }
+
+/**
+ * Update block admin title.
+ */
+function gsb_public_update_7202() {
+
+  // Update agenda admin title
+  $num_updated = db_update('agenda')
+    ->fields(array(
+      'value' => 'Library: Hours',
+    ))
+    ->condition('bid', 2, '=')
+    ->condition('name', 'title', '=')
+    ->execute();
+
+  // Update Twitter CTA fpp
+  $num_updated = db_update('fieldable_panels_panes')
+    ->fields(array(
+      'admin_title' => 'CTA: Twitter | Faculty List (green)',
+    ))
+    ->condition('fpid', '9266', '=')
+    ->execute();
+
+  $deltas = array(
+    17 => 'Faculty & Research: Academic Areas',
+    21 => 'Alumni: Consultant Toolkit',
+    9 => 'MBA: Application Materials',
+    18 => 'Library: Audiences',
+    12 => 'Financial Aid: Loan Forgiveness',
+    11 => 'MBA: Application Materials',
+    7 => 'Financial Aid: Fellowships',
+    13 => 'PhD: Fields of Study',
+    14 => 'PhD: Application Materials',
+    5 => 'Stanford University Community: Plan Event',
+    8 => 'MSx: Application Materials',
+  );
+
+  foreach ( $deltas as $delta => $value ) {
+    variable_set("menu_block_{$delta}_admin_title", $value);
+  }
+}
