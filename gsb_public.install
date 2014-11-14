@@ -3935,3 +3935,44 @@ function gsb_public_update_7201() {
     module_enable(array('gsb_feature_files_fpp'));
   }  
 }
+
+/**
+ * Update Menu items.
+ */
+function gsb_public_update_7202() {
+  // Update menu items
+  $num_updated = db_update('menu_custom')
+    ->fields(array(
+      'title' => 'Author Menu: Faculty Administration',
+    ))
+    ->condition('menu_name', 'menu-faculty-administration', '=')
+    ->execute();
+
+  $num_updated = db_update('menu_custom')
+    ->fields(array(
+      'title' => 'Section Menu: Library',
+    ))
+    ->condition('menu_name', 'section-13051', '=')
+    ->execute();
+
+  $num_updated = db_update('menu_custom')
+    ->fields(array(
+      'title' => 'Author Menu: Marketing',
+    ))
+    ->condition('menu_name', 'menu-marketing', '=')
+    ->execute();
+
+  $num_updated = db_update('menu_custom')
+    ->fields(array(
+      'title' => 'Section Menu: MBA',
+    ))
+    ->condition('menu_name', 'section-12401', '=')
+    ->execute();
+
+  $num_updated = db_update('menu_custom')
+    ->fields(array(
+      'title' => 'Section Menu: MSx',
+    ))
+    ->condition('menu_name', 'section-12406', '=')
+    ->execute();
+}
