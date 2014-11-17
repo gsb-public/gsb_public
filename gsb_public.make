@@ -487,7 +487,7 @@ projects[gsb_feature_gsa_search][subdir] = custom/features
 projects[gsb_feature_homepage_cta_fpp][type] = module
 projects[gsb_feature_homepage_cta_fpp][download][type] = git
 projects[gsb_feature_homepage_cta_fpp][download][url] = git@github.com:gsb-public/gsb_feature_homepage_cta_fpp.git
-projects[gsb_feature_homepage_cta_fpp][download][tag] = 4.0
+projects[gsb_feature_homepage_cta_fpp][download][branch] = release-5.0
 projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 
 ; GSB Features Idea Story CT
