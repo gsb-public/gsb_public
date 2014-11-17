@@ -4017,3 +4017,12 @@ function gsb_public_update_7203() {
     variable_set("menu_block_{$delta}_admin_title", $value);
   }
 }
+
+/** 
+ * Enable gsb_misc_fixes module.
+ */
+function gsb_public_update_7204() {
+  if (!module_exists('gsb_misc_fixes')) {
+    module_enable(array('gsb_misc_fixes'));
+  }  
+}
