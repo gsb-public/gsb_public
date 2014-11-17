@@ -757,7 +757,7 @@ projects[gsb_feature_toolbar][subdir] = custom/features
 projects[gsb_feature_topic_teaser_fpp][type] = module
 projects[gsb_feature_topic_teaser_fpp][download][type] = git
 projects[gsb_feature_topic_teaser_fpp][download][url] = git@github.com:gsb-public/gsb_feature_topic_teaser_fpp.git
-projects[gsb_feature_topic_teaser_fpp][download][tag] = 4.02
+projects[gsb_feature_topic_teaser_fpp][download][branch] = release-5.0
 projects[gsb_feature_topic_teaser_fpp][subdir] = custom/features
 
 ; GSB Feature Text FPP
