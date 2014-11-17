@@ -166,7 +166,7 @@ projects[gsb_media_center][download][url] = git@github.com:gsb-public/gsb_media_
 projects[gsb_media_center][download][tag] = 3.0
 projects[gsb_media_center][subdir] = custom
 
-; GSB Migrate
+; GSB Misc Fixes
 projects[gsb_misc_fixes][type] = module
 projects[gsb_misc_fixes][download][type] = git
 projects[gsb_misc_fixes][download][url] = git@github.com:gsb-public/gsb_misc_fixes.git
