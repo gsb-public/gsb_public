@@ -113,6 +113,7 @@ dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_fpp_stock_content
 dependencies[] = gsb_login_destination
 dependencies[] = gsb_media_center
+dependencies[] = gsb_misc_fixes
 dependencies[] = gsb_node_modal
 dependencies[] = gsb_panels_ipe_overrides
 dependencies[] = gsb_panels_pages
