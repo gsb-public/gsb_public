@@ -167,6 +167,13 @@ projects[gsb_media_center][download][tag] = 3.0
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Migrate
+projects[gsb_misc_fixes][type] = module
+projects[gsb_misc_fixes][download][type] = git
+projects[gsb_misc_fixes][download][url] = git@github.com:gsb-public/gsb_misc_fixes.git
+projects[gsb_misc_fixes][download][branch] = WP-4636
+projects[gsb_misc_fixes][subdir] = custom
+
+; GSB Migrate
 projects[gsb_migrate][type] = module
 projects[gsb_migrate][download][type] = git
 projects[gsb_migrate][download][url] = git@github.com:gsb-public/gsb_migrate.git
