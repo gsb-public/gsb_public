@@ -667,7 +667,7 @@ projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 projects[gsb_feature_pr_contact][type] = module
 projects[gsb_feature_pr_contact][download][type] = git
 projects[gsb_feature_pr_contact][download][url] = git@github.com:gsb-public/gsb_feature_pr_contact.git
-projects[gsb_feature_pr_contact][download][branch] = release-5.0
+projects[gsb_feature_pr_contact][download][tag] = 5.0
 projects[gsb_feature_pr_contact][subdir] = custom/features
 
 ; GSB Publication
