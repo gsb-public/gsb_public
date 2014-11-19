@@ -473,7 +473,7 @@ projects[gsb_feature_file_types][subdir] = custom/features
 projects[gsb_feature_files_fpp][type] = module
 projects[gsb_feature_files_fpp][download][type] = git
 projects[gsb_feature_files_fpp][download][url] = git@github.com:gsb-public/gsb_feature_files_fpp.git
-projects[gsb_feature_files_fpp][download][branch] = release-5.0
+projects[gsb_feature_files_fpp][download][tag] = 5.0
 projects[gsb_feature_files_fpp][subdir] = custom/features
 
 ; GSB Feature Google Analytics Settings
