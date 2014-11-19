@@ -757,7 +757,7 @@ projects[gsb_feature_taxonomy][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsb-public/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][branch] = release-5.0
+projects[gsb_feature_toolbar][download][tag] = 5.0
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Features Topic Teaser FPP
