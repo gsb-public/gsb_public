@@ -4026,3 +4026,12 @@ function gsb_public_update_7204() {
     module_enable(array('gsb_misc_fixes'));
   }  
 }
+
+/** 
+ * Enable gsb_restricted_pages module.
+ */
+function gsb_public_update_7205() {
+  if (!module_exists('gsb_restricted_pages')) {
+    module_enable(array('gsb_restricted_pages'));
+  }  
+}
