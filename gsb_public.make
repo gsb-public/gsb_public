@@ -219,7 +219,7 @@ projects[gsb_resources][subdir] = custom
 projects[gsb_restricted_pages][type] = module
 projects[gsb_restricted_pages][download][type] = git
 projects[gsb_restricted_pages][download][url] = git@github.com:gsb-public/gsb_restricted_pages.git
-projects[gsb_restricted_pages][download][branch] = WP-4712
+projects[gsb_restricted_pages][download][branch] = release-5.0
 projects[gsb_restricted_pages][subdir] = custom
 
 ; GSB Rethink
