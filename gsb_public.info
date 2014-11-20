@@ -120,7 +120,6 @@ dependencies[] = gsb_panels_pages
 dependencies[] = gsb_panopoly_magic_customization
 dependencies[] = gsb_public_custom_blocks
 dependencies[] = gsb_resources
-dependencies[] = gsb_restricted_pages
 dependencies[] = gsb_rethink
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_submenu_alias_update
