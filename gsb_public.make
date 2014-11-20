@@ -215,6 +215,13 @@ projects[gsb_resources][download][url] = git@github.com:gsb-public/gsb_resources
 projects[gsb_resources][download][tag] = 4.01
 projects[gsb_resources][subdir] = custom
 
+; GSB Restricted Pages
+projects[gsb_restricted_pages][type] = module
+projects[gsb_restricted_pages][download][type] = git
+projects[gsb_restricted_pages][download][url] = git@github.com:gsb-public/gsb_restricted_pages.git
+projects[gsb_restricted_pages][download][branch] = WP-4712
+projects[gsb_restricted_pages][subdir] = custom
+
 ; GSB Rethink
 projects[gsb_rethink][type] = module
 projects[gsb_rethink][download][type] = git
