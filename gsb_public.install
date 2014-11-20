@@ -4026,3 +4026,17 @@ function gsb_public_update_7204() {
     module_enable(array('gsb_misc_fixes'));
   }  
 }
+
+/** 
+ * Enable alumni_cas_auth module.
+ */
+function gsb_public_update_7205() {
+  if (!module_exists('alumni_cas_auth')) {
+    module_enable(array('alumni_cas_auth'));
+  }  
+  // Create the alumnipg role
+  $alumnipg_role = new stdClass();
+  $alumnipg_role->name = 'alumnipg';
+  $alumnipg_role->weight = 12;
+  user_role_save($alumnipg_role);  
+}
