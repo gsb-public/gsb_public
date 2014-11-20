@@ -97,6 +97,7 @@ dependencies[] = workbench_moderation
 dependencies[] = phone
 
 ; GSB Custom Modules
+dependencies[] = alumni_cas_auth
 dependencies[] = feature_flag
 dependencies[] = resources
 dependencies[] = gsb_acquia_tokens
