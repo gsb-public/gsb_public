@@ -4051,8 +4051,17 @@ function gsb_public_update_7206() {
 }
 
 /**
- * Set pattern for alumni ct.
+ * Enable gsb_feature_alumni_ct module.
  */
 function gsb_public_update_7206() {
+  if (!module_exists('gsb_feature_alumni_ct')) {
+    module_enable(array('gsb_feature_alumni_ct'));
+  }
+}
+
+/**
+ * Set pattern for alumni ct.
+ */
+function gsb_public_update_7207() {
   variable_set('pathauto_node_alumni_pattern', 'alumni/contact/alumni-association/about-alumni/[node:title]');
 }
