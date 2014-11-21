@@ -4035,3 +4035,10 @@ function gsb_public_update_7205() {
     module_enable(array('gsb_restricted_pages'));
   }  
 }
+
+/**
+ * Set pattern for alumni ct.
+ */
+function gsb_public_update_7206() {
+  variable_set('pathauto_node_alumni_pattern', 'alumni/contact/alumni-association/about-alumni/[node:title]');
+}
