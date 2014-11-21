@@ -4051,7 +4051,7 @@ function gsb_public_update_7206() {
 }
 
 /**
- * Enable gsb_feature_alumni_ct module.
+ * Enable new gsb_feature_alumni_ct module.
  */
 function gsb_public_update_7206() {
   if (!module_exists('gsb_feature_alumni_ct')) {
