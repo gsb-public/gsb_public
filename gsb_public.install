@@ -4049,3 +4049,10 @@ function gsb_public_update_7206() {
   $alumnipg_role->weight = 12;
   user_role_save($alumnipg_role);  
 }
+
+/**
+ * Set pattern for alumni ct.
+ */
+function gsb_public_update_7206() {
+  variable_set('pathauto_node_alumni_pattern', 'alumni/contact/alumni-association/about-alumni/[node:title]');
+}
