@@ -331,6 +331,13 @@ projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public
 projects[gsb_feature_announcement_ct][download][tag] = 4.05
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
+; GSB Features Alumni Content type
+projects[gsb_feature_alumni_ct][type] = module
+projects[gsb_feature_alumni_ct][download][type] = git
+projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_ct.git
+projects[gsb_feature_alumni_ct][download][branch] = WP-4624
+projects[gsb_feature_alumni_ct][subdir] = custom/features
+
 ; GSB Feature base fields
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
