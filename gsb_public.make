@@ -331,7 +331,7 @@ projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public
 projects[gsb_feature_announcement_ct][download][tag] = 4.05
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
-; GSB Features Alumni Content type
+; GSB Features Alumni CT
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
 projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_ct.git
