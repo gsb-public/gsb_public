@@ -4039,7 +4039,7 @@ function gsb_public_update_7205() {
 /** 
  * Enable alumni_cas_auth module.
  */
-function gsb_public_update_7205() {
+function gsb_public_update_7206() {
   if (!module_exists('alumni_cas_auth')) {
     module_enable(array('alumni_cas_auth'));
   }  
