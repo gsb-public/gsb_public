@@ -1044,6 +1044,7 @@ projects[fieldable_panels_panes][download][branch] = 7.x-1.x
 projects[fieldable_panels_panes][patch][2233363] = https://www.drupal.org/files/issues/fieldable_panels_panes-fiels_links_not_working-2233363-5.patch
 projects[fieldable_panels_panes][patch][2302931] = https://www.drupal.org/files/issues/entity_type_for_create_access-2302931-0.patch
 projects[fieldable_panels_panes][patch][2280457] = https://www.drupal.org/files/issues/fieldable_panels_panes-entity-api-broken-2280457.patch
+projects[fieldable_panels_panes][patch][2381433] = https://www.drupal.org/files/issues/fieldable_panels_panes_patch-2381433-1_0.patch
 
 projects[field_collection][version] = 1.0-beta5
 projects[field_collection][subdir] = contrib
