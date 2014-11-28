@@ -4058,3 +4058,97 @@ function gsb_public_update_7207() {
     module_enable(array('gsb_feature_alumni_ct'));
   }
 }
+
+/**
+ * Rename items - modal window blocks.
+ */
+function gsb_public_update_7208() {
+  // Update modal window title
+  $num_updated = db_update('agenda')
+    ->fields(array('value' => 'Library Hours',))
+    ->condition('bid', 2, '=')
+    ->condition('name', 'title', '=')
+    ->execute();
+
+  $num_updated = db_update('block_custom')
+    ->fields(array('info' => 'Front: Giving',))
+    ->condition('bid', 16, '=')
+    ->execute();
+
+  // Update the menu block variable
+  $deltas = array(
+    21 => 'Menu Block: Alumni | Consultant Toolkit',
+    24 => 'Menu Block: Alumni | Transition Profiles',
+    17 => 'Menu Block: Faculty & Research | Academic Areas',
+    7 => 'Menu Block: Financial Aid | Fellowships',
+    12 => 'Menu Block: Financial Aid | Loan Forgiveness',
+    20 => 'Section Menu: Insights | Footer',
+    19 => 'Section Menu: Insights | Footer Topics',
+    18 => 'Menu Block: Library | Audiences',
+    9 => 'Menu Block: MBA | Application Materials',
+    11 => 'Menu Block: MBA | Application Materials',
+    13 => 'Menu Block: PhD | Fields of Study',
+    14 => 'Menu Block: PhD | Application Materials',
+    8 => 'Menu Block: MSx | Application Materials',
+    5 => 'Menu Block: SU Community | Plan Event',
+    15 => 'Mega Menu',
+    16 => 'Mega Menu',
+    22 => 'Mega Menu: Insights',
+    23 => 'Menu Block: TSE | Leadership Experiences',
+  );
+
+  foreach ( $deltas as $delta => $value ) {
+    variable_set("menu_block_{$delta}_admin_title", $value);
+  }
+
+  // Delete the agenda example block
+  $num_deleted = db_delete('agenda')
+    ->condition('bid', 1, '=')
+    ->execute();
+
+  $num_deleted = db_delete('block_custom')
+    ->condition('bid', 6, '=')
+    ->execute();
+}
+
+/**
+ * Rename items - modal window menus.
+ */
+function gsb_public_update_7209() {
+  // Define the menus for update
+  $menus = array(
+    'menu-alumni-utility-nav' => 'Section Menu: Alumni | Utility',
+    'section-13071' => 'Section Menu: Alumni',
+    'section-13186' => 'Section Menu: Behavioral Lab',
+    'section-26671' => 'Section Menu: Companies, Organizations, & Recruiters',
+    'section-12461' => 'Section Menu: Contact Us',
+    'section-13021' => 'Section Menu: Custom Programs',
+    'section-13046' => 'Section Menu: Faculty & Research',
+    'menu-footer-alumni-section' => 'Section Menu: Alumni | Footer',
+    'section-27256' => 'Section Menu: Insights | Topics',
+    'menu-insights-footer-bottom-menu' => 'Section Menu: Insights | Footer Bottom',
+    'section-27251' => 'Section Menu: Insights',
+    'section-12946' => 'Section Menu: Jobs',
+    'section-12456' => 'Section Menu: Newsroom',
+    'section-28606' => 'Section Menu: NonGSBReg',
+    'section-12481' => 'Section Menu: PhD',
+    'section-13191' => 'Section Menu: RAIL',
+    'section-13146' => 'Section Menu: Research Fellows',
+    'menu-section-editor-toolbar' => 'Author Menu: Section Editor',
+    'menu-section-manager-toolbar' => 'Author Menu: Section Manager',
+    'section-12956' => 'Section Menu: Social Innovation',
+    'section-12261' => 'Section Menu: TSE',
+    'section-13001' => 'Section Menu: Stanford Ignite',
+    'section-13011' => 'Section Menu: SIE Certificate',
+    'section-12421' => 'Section Menu: SU Community',
+    'section-13016' => 'Section Menu: SIGM',
+    'section-12416' => 'Section Menu: Visit Us',
+  );
+
+  foreach ( $menus as $key => $value ) {
+    $num_updated = db_update('menu_custom')
+      ->fields(array('title' => $value,))
+      ->condition('menu_name', $key, '=')
+      ->execute();
+  }
+}
