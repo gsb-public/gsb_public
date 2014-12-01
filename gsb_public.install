@@ -4158,7 +4158,7 @@ function gsb_public_update_7209() {
  */
 function gsb_public_update_7210() {
   // Set permissions for marketing admin and marketing:12396
-  workbench_access_role_section_save(71, 12256, 'taxonomy'); // Alumni permissions
+  //workbench_access_role_section_save(71, 12256, 'taxonomy'); // Alumni permissions
   workbench_access_role_section_save(31, 13186, 'taxonomy'); // Behavioral Lab
   workbench_access_role_section_save(31, 26671, 'taxonomy'); // Companies & Recruiters
   workbench_access_role_section_save(31, 13021, 'taxonomy'); // Custom Programs
