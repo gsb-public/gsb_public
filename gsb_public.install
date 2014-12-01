@@ -4152,3 +4152,40 @@ function gsb_public_update_7209() {
       ->execute();
   }
 }
+
+/**
+ * Workbench Access - update permissions
+ */
+function gsb_public_update_7210() {
+  // Set permissions for marketing admin and marketing:12396
+  workbench_access_role_section_save(21, 12256, 'taxonomy'); // Alumni permissions
+  workbench_access_role_section_save(31, 13186, 'taxonomy'); // Behavioral Lab
+  workbench_access_role_section_save(31, 26671, 'taxonomy'); // Companies & Recruiters
+  workbench_access_role_section_save(31, 13021, 'taxonomy'); // Custom Programs
+  workbench_access_role_section_save(31, 13046, 'taxonomy'); // Faculty & Reserch
+  workbench_access_role_section_save(31, 13056, 'taxonomy'); // Financial Aid
+  workbench_access_role_section_save(31, 27251, 'taxonomy'); // Insights
+  workbench_access_role_section_save(31, 27256, 'taxonomy'); // Insight Topics
+  workbench_access_role_section_save(31, 12946, 'taxonomy'); // Jobs
+  workbench_access_role_section_save(31, 13051, 'taxonomy'); // Library
+  workbench_access_role_section_save(21, 12401, 'taxonomy'); // MBA
+  workbench_access_role_section_save(31, 12401, 'taxonomy'); // MBA
+  workbench_access_role_section_save(21, 12406, 'taxonomy'); // MSx
+  workbench_access_role_section_save(31, 12406, 'taxonomy'); // MSx
+  workbench_access_role_section_save(21, 12456, 'taxonomy'); // Newsroom
+  workbench_access_role_section_save(31, 12456, 'taxonomy'); // Newsroom
+  workbench_access_role_section_save(31, 28606, 'taxonomy'); // NonGSBReg
+  workbench_access_role_section_save(21, 12481, 'taxonomy'); // PhD
+  workbench_access_role_section_save(31, 12481, 'taxonomy'); // PhD
+  workbench_access_role_section_save(31, 13191, 'taxonomy'); // RAIL
+  workbench_access_role_section_save(31, 13146, 'taxonomy'); // Research Fellows
+  workbench_access_role_section_save(31, 12956, 'taxonomy'); // Social Innovation
+  workbench_access_role_section_save(21, 12261, 'taxonomy'); // Stanford GSB Experience
+  workbench_access_role_section_save(31, 12261, 'taxonomy'); // Stanford GSB Experience
+  workbench_access_role_section_save(31, 13001, 'taxonomy'); // Stanford Ignite
+  workbench_access_role_section_save(21, 12421, 'taxonomy'); // Stanford University Community
+  workbench_access_role_section_save(31, 12421, 'taxonomy'); // Stanford University Community
+  workbench_access_role_section_save(31, 13016, 'taxonomy'); // Summer Institute for General Management
+  workbench_access_role_section_save(21, 12416, 'taxonomy'); // Visit Us
+  workbench_access_role_section_save(31, 12416, 'taxonomy'); // Visit Us
+}
