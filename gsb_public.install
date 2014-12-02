@@ -4189,3 +4189,12 @@ function gsb_public_update_7210() {
   workbench_access_role_section_save(71, 12416, 'taxonomy'); // Visit Us
   workbench_access_role_section_save(31, 12416, 'taxonomy'); // Visit Us
 }
+
+/**
+ * Workbench Access - update permissions set 2
+ */
+function gsb_public_update_7211() {
+  workbench_access_role_section_save(21, 12256, 'taxonomy'); // Administrators  permissions
+  workbench_access_role_section_save(31, 13071, 'taxonomy'); // Alumni  permissions
+  workbench_access_role_section_save(36, 13056, 'taxonomy'); // Financial Aid - MBA Role
+}
