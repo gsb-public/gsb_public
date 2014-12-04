@@ -1265,7 +1265,7 @@ projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
 libraries[sharrre][download][url] = https://github.com/gsbitse/Sharrre
-libraries[sharrre][download][tag] = 5.0
+libraries[sharrre][download][tag] = 5.01
 
 projects[shield][version] = 1.2
 projects[shield][subdir] = contrib
