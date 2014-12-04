@@ -156,7 +156,7 @@ projects[gsb_fpp_xray][subdir] = custom
 projects[gsb_login_destination][type] = module
 projects[gsb_login_destination][download][type] = git
 projects[gsb_login_destination][download][url] = git@github.com:gsb-public/gsb_login_destination.git
-projects[gsb_login_destination][download][branch] = release-5.0
+projects[gsb_login_destination][download][tag] = 5.0
 projects[gsb_login_destination][subdir] = custom
 
 ; GSB Media Center
