@@ -335,7 +335,7 @@ projects[gsb_feature_alumni_ct][subdir] = custom/features
 projects[gsb_feature_announcement_ct][type] = module
 projects[gsb_feature_announcement_ct][download][type] = git
 projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public/gsb_feature_announcement_ct.git
-projects[gsb_feature_announcement_ct][download][branch] = release-5.0
+projects[gsb_feature_announcement_ct][download][tag] = 5.0
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
 ; GSB Feature base fields
