@@ -135,7 +135,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsb-public/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][branch] = release-5.0
+projects[gsb_fpp_customization][download][tag] = 5.0
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
