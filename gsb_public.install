@@ -4198,3 +4198,53 @@ function gsb_public_update_7211() {
   workbench_access_role_section_save(31, 13071, 'taxonomy'); // Alumni  permissions
   workbench_access_role_section_save(36, 13056, 'taxonomy'); // Financial Aid - MBA Role
 }
+
+/**
+ * Migrated image media file selector to image field for image fpp.
+ */
+function gsb_public_update_7212() {
+  $entity_type = 'fieldable_panels_pane';
+  //$image_fpp = 'public://image-fpp';
+  //file_prepare_directory($image_fpp, FILE_CREATE_DIRECTORY);
+
+  // Get list of all image fpp
+  $query = new EntityFieldQuery();
+  $query
+     ->entityCondition('entity_type', $entity_type)
+     ->entityCondition('bundle', 'image');
+
+  $entities = $query->execute();
+
+  // Loop through all image fpp
+  foreach($entities[$entity_type] as $entity) {
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->fpid);
+    $image_content = $wrapper->field_file_single_public->value();
+    if(file_exists($image_content['uri'])) {
+      // Create managed File object and associate with Image field.
+      $file = (object) array(
+        'uid' => $image_content['uid'],
+        'uri' => $image_content['uri'],
+        'filemime' => file_get_mimetype($filepath),
+        'status' => 1,
+      );
+
+      // We save the file to the root of the files directory.
+      $file = file_copy($file, 'public://image-fpp');
+
+      $wrapper->field_image_single_public->set((array)$file);
+
+      // Finally save the entity
+      $wrapper->save();
+    }
+  }
+}
+
+/**
+ * Delete field_file_single_public field instance.
+ */
+function gsb_public_update_7213() {
+  $instance = field_info_instance('fieldable_panels_pane', 'field_file_single_public', 'image');
+  field_delete_instance($instance);
+
+  field_purge_batch(10);
+}
