@@ -4221,20 +4221,22 @@ function gsb_public_update_7212() {
     $image_content = $wrapper->field_file_single_public->value();
     $uri = $image_content['uri'];
     if(file_exists($uri)) {
-      // Create managed File object and associate with Image field.
-      $file = (object) array(
-        'uid' => $image_content['uid'],
-        'uri' => $uri,
-        'filemime' => file_get_mimetype($uri),
-        'status' => 1,
-      );
-      // We save the file to the root of the files directory.
-      $image_file = file_copy($file, 'public://image-fpp', FILE_EXISTS_RENAME);
+      if($entity->fpid != 15826) { // Special condition for this error image fpp
+        // Create managed File object and associate with Image field.
+        $file = (object) array(
+          'uid' => $image_content['uid'],
+          'uri' => $uri,
+          'filemime' => file_get_mimetype($uri),
+          'status' => 1,
+        );
+        // We save the file to the root of the files directory.
+        $image_file = file_copy($file, 'public://image-fpp', FILE_EXISTS_RENAME);
 
-      $wrapper->field_image_single_public->set((array)$image_file);
+        $wrapper->field_image_single_public->set((array)$image_file);
 
-      // Finally save the entity
-      $wrapper->save();
+        // Finally save the entity
+        $wrapper->save();
+      }
     }
   }
 }
