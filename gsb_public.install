@@ -4219,19 +4219,19 @@ function gsb_public_update_7212() {
   foreach($entities[$entity_type] as $entity) {
     $wrapper = entity_metadata_wrapper($entity_type, $entity->fpid);
     $image_content = $wrapper->field_file_single_public->value();
-    if(file_exists($image_content['uri'])) {
+    $uri = $image_content['uri'];
+    if(file_exists($uri)) {
       // Create managed File object and associate with Image field.
       $file = (object) array(
         'uid' => $image_content['uid'],
-        'uri' => $image_content['uri'],
-        'filemime' => file_get_mimetype($filepath),
+        'uri' => $uri,
+        'filemime' => file_get_mimetype($uri),
         'status' => 1,
       );
-
       // We save the file to the root of the files directory.
-      $file = file_copy($file, 'public://image-fpp');
+      $image_file = file_copy($file, 'public://image-fpp', FILE_EXISTS_RENAME);
 
-      $wrapper->field_image_single_public->set((array)$file);
+      $wrapper->field_image_single_public->set((array)$image_file);
 
       // Finally save the entity
       $wrapper->save();
