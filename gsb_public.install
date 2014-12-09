@@ -4268,3 +4268,12 @@ function gsb_public_update_7215() {
     module_enable(array('gsb_feature_alumni_reunion_session_ct'));
   }
 }
+
+/**
+ * Enable new gsb_feature_alumni_reunion_agenda_item_ct module.
+ */
+function gsb_public_update_7216() {
+  if (!module_exists('gsb_feature_alumni_reunion_agenda_item_ct')) {
+    module_enable(array('gsb_feature_alumni_reunion_agenda_item_ct'));
+  }
+}
