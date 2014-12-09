@@ -4250,3 +4250,12 @@ function gsb_public_update_7213() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Enable new gsb_feature_alumni_reunion_session_ct module.
+ */
+function gsb_public_update_7215() {
+  if (!module_exists('gsb_feature_alumni_reunion_session_ct')) {
+    module_enable(array('gsb_feature_alumni_reunion_session_ct'));
+  }
+}
