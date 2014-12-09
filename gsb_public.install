@@ -4252,6 +4252,15 @@ function gsb_public_update_7213() {
 }
 
 /**
+ * Enable new gsb_feature_alumni_reunion_group_page_ct module.
+ */
+function gsb_public_update_7214() {
+  if (!module_exists('gsb_feature_alumni_reunion_group_page_ct')) {
+    module_enable(array('gsb_feature_alumni_reunion_group_page_ct'));
+  }
+}
+
+/**
  * Enable new gsb_feature_alumni_reunion_session_ct module.
  */
 function gsb_public_update_7215() {
