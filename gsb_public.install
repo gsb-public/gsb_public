@@ -4277,3 +4277,12 @@ function gsb_public_update_7216() {
     module_enable(array('gsb_feature_alumni_reunion_agenda_item_ct'));
   }
 }
+
+/**
+ * Enable new gsb_feature_chute_fpp module.
+ */
+function gsb_public_update_7217() {
+  if (!module_exists('gsb_feature_chute_fpp')) {
+    module_enable(array('gsb_feature_chute_fpp'));
+  }
+}

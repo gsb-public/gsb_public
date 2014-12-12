@@ -144,6 +144,7 @@ dependencies[] = gsb_feature_base_fields
 dependencies[] = gsb_feature_book_ct
 dependencies[] = gsb_feature_case_ct
 dependencies[] = gsb_feature_case_display
+dependencies[] = gsb_feature_chute_fpp
 dependencies[] = gsb_feature_club_ct
 dependencies[] = gsb_feature_club_display
 dependencies[] = gsb_feature_course_ct
