@@ -338,6 +338,13 @@ projects[gsb_feature_alumni_reunion_agenda_item_ct][download][url] = git@github.
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][branch] = release-5.0
 projects[gsb_feature_alumni_reunion_agenda_item_ct][subdir] = custom/features
 
+; GSB Features Alumni Reunion Agenda Item Display
+projects[gsb_feature_alumni_reunion_agenda_item_display][type] = module
+projects[gsb_feature_alumni_reunion_agenda_item_display][download][type] = git
+projects[gsb_feature_alumni_reunion_agenda_item_display][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_display.git
+projects[gsb_feature_alumni_reunion_agenda_item_display][download][branch] = release-5.0
+projects[gsb_feature_alumni_reunion_agenda_item_display][subdir] = custom/features
+
 ; GSB Features Alumni Reunion Group Page CT
 projects[gsb_feature_alumni_reunion_group_page_ct][type] = module
 projects[gsb_feature_alumni_reunion_group_page_ct][download][type] = git
