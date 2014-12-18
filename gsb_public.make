@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][branch] = release-5.02
+projects[alumni_cas_auth][download][tag] = 5.02
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
