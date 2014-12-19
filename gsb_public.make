@@ -723,7 +723,7 @@ projects[gsb_feature_pr_contact][subdir] = custom/features
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = git@github.com:gsb-public/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][tag] = 5.0
+projects[gsb_feature_publication_ct][download][branch] = release-5.01
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 projects[gsb_feature_publication_display][type] = module
