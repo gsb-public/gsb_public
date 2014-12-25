@@ -4295,3 +4295,12 @@ function gsb_public_update_7218() {
     module_enable(array('gsb_feature_alumni_reunion_agenda_item_display'));
   }
 }
+
+/**
+ * Enable new gsb_feature_featured_content_fpp module.
+ */
+function gsb_public_update_7219() {
+  if (!module_exists('gsb_feature_featured_content_fpp')) {
+    module_enable(array('gsb_feature_featured_content_fpp'));
+  }
+}
