@@ -158,6 +158,7 @@ dependencies[] = gsb_feature_event_display
 dependencies[] = gsb_feature_existing_node_fpp
 dependencies[] = gsb_feature_faculty_ct
 dependencies[] = gsb_feature_faculty_display
+dependencies[] = gsb_feature_featured_content_fpp
 dependencies[] = gsb_feature_featured_insight_card_fpp
 dependencies[] = gsb_feature_file_types
 dependencies[] = gsb_feature_files_fpp
