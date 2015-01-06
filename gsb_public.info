@@ -83,6 +83,7 @@ dependencies[] = metatag
 dependencies[] = module_filter
 dependencies[] = node_page_disable
 dependencies[] = options_element
+dependencies[] = securepages
 dependencies[] = site_verify
 dependencies[] = smart_trim
 dependencies[] = submit_field
