@@ -702,7 +702,7 @@ projects[gsb_feature_people_fpp][subdir] = custom/features
 projects[gsb_feature_phd_candidate_ct][type] = module
 projects[gsb_feature_phd_candidate_ct][download][type] = git
 projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsb-public/gsb_feature_phd_candidate_ct.git
-projects[gsb_feature_phd_candidate_ct][download][tag] = 4.01
+projects[gsb_feature_phd_candidate_ct][download][branch] = release-5.0
 projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB PhD Candidate Display
