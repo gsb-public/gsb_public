@@ -4304,3 +4304,12 @@ function gsb_public_update_7219() {
     module_enable(array('gsb_feature_featured_content_fpp'));
   }
 }
+
+/**
+ * Enable new gsb_feature_alumni_reunion_group_page_display module.
+ */
+function gsb_public_update_7220() {
+  if (!module_exists('gsb_feature_alumni_reunion_group_page_display')) {
+    module_enable(array('gsb_feature_alumni_reunion_group_page_display'));
+  }
+}
