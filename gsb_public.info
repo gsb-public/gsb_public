@@ -140,6 +140,7 @@ dependencies[] = gsb_feature_alumni_ct
 dependencies[] = gsb_feature_alumni_reunion_agenda_item_ct
 dependencies[] = gsb_feature_alumni_reunion_agenda_item_display
 dependencies[] = gsb_feature_alumni_reunion_group_page_ct
+dependencies[] = gsb_feature_alumni_reunion_group_page_display
 dependencies[] = gsb_feature_alumni_reunion_session_ct
 dependencies[] = gsb_feature_accordion
 dependencies[] = gsb_feature_base_fields
