@@ -902,7 +902,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-5.03
+projects[gsb_theme][download][tag] = 5.03
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
