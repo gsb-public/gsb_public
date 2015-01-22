@@ -136,6 +136,7 @@ dependencies[] = zurb_responsive_tables
 ; GSB Features
 dependencies[] = gsb_feature_academic_calendar_ct
 dependencies[] = gsb_feature_academic_calendar_display
+dependencies[] = gsb_feature_act_ct
 dependencies[] = gsb_feature_alumni_ct
 dependencies[] = gsb_feature_alumni_reunion_agenda_item_ct
 dependencies[] = gsb_feature_alumni_reunion_agenda_item_display
