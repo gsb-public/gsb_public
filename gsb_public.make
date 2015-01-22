@@ -328,7 +328,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_act_ct][type] = module
 projects[gsb_feature_act_ct][download][type] = git
 projects[gsb_feature_act_ct][download][url] = git@github.com:gsb-public/gsb_feature_act_ct.git
-projects[gsb_feature_act_ct][download][branch] = WP-4806
+projects[gsb_feature_act_ct][download][branch] = release-5.0
 projects[gsb_feature_act_ct][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -384,7 +384,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.03
+projects[gsb_feature_base_fields][download][branch] = release-5.04
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
