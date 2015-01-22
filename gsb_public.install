@@ -4313,3 +4313,12 @@ function gsb_public_update_7220() {
     module_enable(array('gsb_feature_alumni_reunion_group_page_display'));
   }
 }
+
+/**
+ * Enable new gsb_feature_act_ct module.
+ */
+function gsb_public_update_7221() {
+  if (!module_exists('gsb_feature_act_ct')) {
+    module_enable(array('gsb_feature_act_ct'));
+  }
+}
