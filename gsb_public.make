@@ -669,7 +669,7 @@ projects[gsb_feature_metatag][subdir] = custom/features
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][tag] = 4.02
+projects[gsb_feature_msx_fellows_ct][download][branch] = release-5.0
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
