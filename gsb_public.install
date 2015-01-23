@@ -4322,3 +4322,25 @@ function gsb_public_update_7221() {
     module_enable(array('gsb_feature_act_ct'));
   }
 }
+
+/**
+ * Delete field_addthis field instance from the following:
+ * Event, Club, JABCO, MSx-Fellows, Page, Staff, Webform
+ */
+function gsb_public_update_7222() {
+  $field_name = 'field_addthis';
+  $content_types = array(
+    'event',
+    'club',
+    'publication',
+    'msx-fellows',
+    'page',
+    'staff',
+    'webform',
+  );
+  foreach ($content_types as $ct) {
+    $instance = field_info_instance('node', $field_name, $ct);
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
