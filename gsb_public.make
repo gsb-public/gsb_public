@@ -391,7 +391,7 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsb-public/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 5.02
+projects[gsb_feature_book_ct][download][branch] = release-5.03
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
