@@ -1143,7 +1143,7 @@ projects[hs_lite][version] = 1.x-dev
 projects[hs_lite][subdir] = contrib
 projects[hs_lite][type] = module
 projects[hs_lite][download][type] = git
-projects[hs_lite][download][revision] = e6dd4
+projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
 
