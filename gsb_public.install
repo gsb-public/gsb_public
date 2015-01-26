@@ -4344,3 +4344,19 @@ function gsb_public_update_7222() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete the older field_act_product_type field that was replaced.
+ */
+function gsb_public_update_7223() {
+
+  $instance = field_info_instance('node', 'field_act_product_type', 'act);
+
+  // Mark field for deletion.
+  field_delete_instance($instance);
+
+  // Remove field marked for deletion.
+  field_purge_batch(10);
+
+}
+
