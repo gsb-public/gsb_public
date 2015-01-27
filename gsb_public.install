@@ -4344,3 +4344,13 @@ function gsb_public_update_7222() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete addthis fields from the panes
+ */
+function gsb_public_update_7223() {
+  //DELETE FROM `panels_pane` WHERE subtype = 'node:field_addthis'
+  $num_deleted = db_delete('panels_pane')
+    ->condition('subtype', 'node:field_addthis')
+    ->execute();
+}
