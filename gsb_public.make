@@ -1164,6 +1164,7 @@ libraries[jquery-scrolldepth][download][url] = https://raw.githubusercontent.com
 projects[jquery_update][version] = 2.3
 projects[jquery_update][subdir] = contrib
 projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-fixes-states-js-1448490.patch
+projects[jquery_update][patch][1592688] = https://www.drupal.org/files/issues/1592688-55.patch
 
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
