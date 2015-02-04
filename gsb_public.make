@@ -977,7 +977,7 @@ projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][2013130] = http://drupal.org/files/breadcrumbs_by_path-add_missing_breadcrumb_paths-2013130.patch
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
 projects[breadcrumbs_by_path][patch][2266701] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2266701-1.patch
-projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2415403-1.patch
+projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2415403-2.patch
 
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
