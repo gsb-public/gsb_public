@@ -522,7 +522,7 @@ projects[gsb_feature_faculty_display][subdir] = custom/features
 projects[gsb_feature_featured_content_fpp][type] = module
 projects[gsb_feature_featured_content_fpp][download][type] = git
 projects[gsb_feature_featured_content_fpp][download][url] = git@github.com:gsb-public/gsb_feature_featured_content_fpp.git
-projects[gsb_feature_featured_content_fpp][download][branch] = release-5.01
+projects[gsb_feature_featured_content_fpp][download][tag] = 5.01
 projects[gsb_feature_featured_content_fpp][subdir] = custom/features
 
 ; GSB GSB Feature Featured Insight Card FPP
