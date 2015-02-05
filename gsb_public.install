@@ -4363,3 +4363,19 @@ function gsb_public_update_7224() {
     module_enable(array('gsb_feature_act_display'));
   }
 }
+
+/**
+ * Set the api key for Google
+ */
+function gsb_public_update_7225() {
+  $key = variable_get('googleapi_override_key', '');
+  $fields = array(
+    'value' => $key,
+    'bid' => '2',
+    'name' => 'googleapi_override'
+  );
+  db_insert('agenda')
+    ->fields($fields)
+    ->execute();
+}
+
