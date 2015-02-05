@@ -1139,6 +1139,9 @@ projects[file_entity][subdir] = contrib
 projects[google_analytics][version] = 2.0
 projects[google_analytics][subdir] = contrib
 
+libraries[google-api-php-client][download][type] = get
+libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client
+
 projects[hierarchical_select][version] = 3.x-dev
 projects[hierarchical_select][subdir] = contrib
 projects[hierarchical_select][download][type] = git
