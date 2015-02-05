@@ -951,7 +951,7 @@ projects[admin_views][subdir] = contrib
 projects[auto_entitylabel][version] = 1.2
 projects[auto_entitylabel][subdir] = contrib
 
-projects[agenda][version] = 1.4
+projects[agenda][version] = 2.x
 projects[agenda][subdir] = contrib
 
 projects[backports][version] = 1.0-alpha1
