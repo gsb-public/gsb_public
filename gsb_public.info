@@ -19,9 +19,6 @@ dependencies[] = shortcut
 dependencies[] = syslog
 dependencies[] = update
 
-; Panopoly Foundation
-dependencies[] = panopoly_magic
-
 ; Contrib Modules
 dependencies[] = acquia_agent
 dependencies[] = acquia_purge
