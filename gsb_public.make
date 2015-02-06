@@ -1230,7 +1230,7 @@ projects[menu_attributes][download][type] = git
 projects[menu_attributes][download][revision] = ed7e9aa
 projects[menu_attributes][download][branch] = 7.x-1.x
 
-projects[menu_block][version] = 2.4
+projects[menu_block][version] = 2.5
 projects[menu_block][subdir] = contrib
 
 projects[menu_minipanels][version] = 1.1
