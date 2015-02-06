@@ -936,19 +936,19 @@ projects[acquia_connector][subdir] = contrib
 projects[acquia_purge][version] = 1.0-beta2
 projects[acquia_purge][subdir] = contrib
 
-projects[addressfield][version] = 1.0-beta5
+projects[addressfield][version] = 1.0
 projects[addressfield][subdir] = contrib
 
 projects[addthis][version] = 4.0-alpha4
 projects[addthis][subdir] = contrib
 
-projects[admin_menu][version] = 3.0-rc4
+projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = contrib
 
 projects[admin_views][version] = 1.3
 projects[admin_views][subdir] = contrib
 
-projects[auto_entitylabel][version] = 1.2
+projects[auto_entitylabel][version] = 1.3
 projects[auto_entitylabel][subdir] = contrib
 
 projects[agenda][version] = 2.x
@@ -961,9 +961,8 @@ projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.0-beta4
+projects[better_exposed_filters][version] = 3.0
 projects[better_exposed_filters][subdir] = contrib
-projects[better_exposed_filters][patch][2189321] = https://drupal.org/files/issues/bef-2189321-2.patch
 
 ; Better formats adds input format visibility settings per-field.
 projects[better_formats][version] = 1.0-beta1
@@ -999,10 +998,9 @@ projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 
-projects[ctools][version] = 1.4
+projects[ctools][version] = 1.6
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1901106] = http://drupal.org/files/1901106-ctools-views_content-exposed_form_override-5.patch
-projects[ctools][patch][1315900] = https://drupal.org/files/issues/ctools-1315900-6.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
 
 ; Add context filter by query in url
@@ -1019,7 +1017,7 @@ projects[custom_add_another][subdir] = contrib
 projects[date][version] = 2.8
 projects[date][subdir] = contrib
 
-projects[date_popup_authored][version] = 1.1
+projects[date_popup_authored][version] = 1.2
 projects[date_popup_authored][subdir] = contrib
 
 projects[defaultconfig][version] = 1.0-alpha9
@@ -1066,7 +1064,7 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_autocomplete][version] = 1.5
+projects[entityreference_autocomplete][version] = 1.8
 projects[entityreference_autocomplete][subdir] = contrib
 
 projects[eva][version] = 1.x-dev
@@ -1076,7 +1074,7 @@ projects[eva][download][revision] = 79a8ef
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328-13.patch
 
-projects[expire][version] = 2.0-rc3
+projects[expire][version] = 2.0-rc4
 projects[expire][subdir] = contrib
 
 projects[fancybox][version] = 2.x-dev
@@ -1094,7 +1092,7 @@ projects[fape][download][type] = git
 projects[fape][download][revision] = 1143ee2
 projects[fape][download][branch] = 7.x-1.x
 
-projects[features][version] = 2.2
+projects[features][version] = 2.3
 projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
@@ -1133,10 +1131,10 @@ projects[filefield_paths][download][url] = http://git.drupal.org/project/filefie
 projects[filefield_paths][download][branch] = 7.x-1.x
 projects[filefield_paths][patch][9254679] = https://www.drupal.org/files/issues/filefield_paths_patch-9254679-1.patch
 
-projects[file_entity][version] = 2.0-alpha3
+projects[file_entity][version] = 2.0-beta1
 projects[file_entity][subdir] = contrib
 
-projects[google_analytics][version] = 2.0
+projects[google_analytics][version] = 2.1
 projects[google_analytics][subdir] = contrib
 
 libraries[google-api-php-client][download][type] = git
@@ -1159,7 +1157,7 @@ projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
 
-projects[imagecache_actions][version] = 1.4
+projects[imagecache_actions][version] = 1.5
 projects[imagecache_actions][subdir] = contrib
 
 libraries[jquery-scrolldepth][download][type] = get
@@ -1183,7 +1181,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 3.1
+projects[mailchimp][version] = 3.2
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
@@ -1253,7 +1251,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.0-rc2
+projects[metatag][version] = 1.4
 projects[metatag][subdir] = contrib
 
 projects[module_filter][version] = 1.8
@@ -1277,7 +1275,7 @@ projects[panels][download][type] = git
 projects[panels][download][revision] = 2bb470e
 projects[panels][download][branch] = 7.x-3.x
 
-projects[panels_breadcrumbs][version] = 2.1
+projects[panels_breadcrumbs][version] = 2.2
 projects[panels_breadcrumbs][subdir] = contrib
 
 projects[pathauto][version] = 1.2
@@ -1375,10 +1373,10 @@ libraries[tmhOAuth][download][tag] = 0.8.2
 projects[token][version] = 1.5
 projects[token][subdir] = contrib
 
-projects[typogrify][version] = 1.0-rc8
+projects[typogrify][version] = 1.0-rc9
 projects[typogrify][subdir] = contrib
 
-projects[uuid][version] = 1.0-alpha5
+projects[uuid][version] = 1.0-alpha6
 projects[uuid][subdir] = contrib
 
 projects[views][version] = 3.8
