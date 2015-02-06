@@ -1000,7 +1000,8 @@ projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_
 
 projects[ctools][version] = 1.6
 projects[ctools][subdir] = contrib
-projects[ctools][patch][1901106] = http://drupal.org/files/1901106-ctools-views_content-exposed_form_override-5.patch
+projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-23_0.patch
+projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/ctools-views_content-exposed_form_override-1901106-27.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
 
 ; Add context filter by query in url
