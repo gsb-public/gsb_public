@@ -4379,3 +4379,18 @@ function gsb_public_update_7225() {
     ->execute();
 }
 
+/**
+ * Update our Library settings for Agenda 
+ */
+function gsb_public_update_7226() {
+  $bid = 2;
+  
+  $name = 'googleapi_override';
+  $value = $key;
+  agenda_variable_set($bid, $name, $value);
+  
+  $name = 'maxevents';
+  $value = 1;
+  agenda_variable_set($bid, $name, $value);  
+}
+
