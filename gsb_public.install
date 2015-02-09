@@ -4386,7 +4386,7 @@ function gsb_public_update_7226() {
   $bid = 2;
   
   $name = 'googleapi_override';
-  $value = $key;
+  $value = variable_get('googleapi_override_key', '');
   agenda_variable_set($bid, $name, $value);
   
   $name = 'maxevents';
