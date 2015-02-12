@@ -998,7 +998,7 @@ projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 
-projects[ctools][version] = 1.6
+projects[ctools][version] = 1.5
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-23_0.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/ctools-views_content-exposed_form_override-1901106-27.patch
