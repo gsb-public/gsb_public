@@ -1042,7 +1042,7 @@ projects[diff][subdir] = contrib
 projects[ds][version] = 2.x-dev
 projects[ds][subdir] = contrib
 projects[ds][download][type] = git
-projects[ds][download][revision] = df72825
+projects[ds][download][revision] = 74a91ec
 projects[ds][download][branch] = 7.x-2.x
 
 libraries[easyResponsiveTabs][download][type] = get
