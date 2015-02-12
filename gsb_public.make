@@ -1383,7 +1383,7 @@ projects[typogrify][subdir] = contrib
 projects[uuid][version] = 1.0-alpha6
 projects[uuid][subdir] = contrib
 
-projects[views][version] = 3.8
+projects[views][version] = 3.10
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
