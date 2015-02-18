@@ -201,13 +201,6 @@ projects[gsb_panels_pages][download][url] = git@github.com:gsb-public/gsb_panels
 projects[gsb_panels_pages][download][tag] = 4.0
 projects[gsb_panels_pages][subdir] = custom
 
-; GSB Panopoly Magic Customization
-projects[gsb_panopoly_magic_customization][type] = module
-projects[gsb_panopoly_magic_customization][download][type] = git
-projects[gsb_panopoly_magic_customization][download][url] = git@github.com:gsb-public/gsb_panopoly_magic_customization.git
-projects[gsb_panopoly_magic_customization][download][tag] = 1.0
-projects[gsb_panopoly_magic_customization][subdir] = custom
-
 ; GSB Resources
 projects[gsb_resources][type] = module
 projects[gsb_resources][download][type] = git
