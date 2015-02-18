@@ -163,7 +163,7 @@ projects[gsb_login_destination][subdir] = custom
 projects[gsb_media_center][type] = module
 projects[gsb_media_center][download][type] = git
 projects[gsb_media_center][download][url] = git@github.com:gsb-public/gsb_media_center.git
-projects[gsb_media_center][download][tag] = 3.0
+projects[gsb_media_center][download][branch] = release-5.0
 projects[gsb_media_center][subdir] = custom
 
 ; GSB Misc Fixes
