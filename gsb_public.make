@@ -792,7 +792,7 @@ projects[gsb_feature_simplesaml][subdir] = custom/features
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git
 projects[gsb_feature_social_feed][download][url] = git@github.com:gsb-public/gsb_feature_social_feed.git
-projects[gsb_feature_social_feed][download][tag] = 4.01
+projects[gsb_feature_social_feed][download][branch] = release-5.0
 projects[gsb_feature_social_feed][subdir] = custom/features
 
 ; GSB Feature Spotlight
