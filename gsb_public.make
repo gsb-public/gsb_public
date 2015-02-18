@@ -219,7 +219,7 @@ projects[gsb_restricted_pages][subdir] = custom
 projects[gsb_rethink][type] = module
 projects[gsb_rethink][download][type] = git
 projects[gsb_rethink][download][url] = git@github.com:gsb-public/gsb_rethink.git
-projects[gsb_rethink][download][tag] = 4.01
+projects[gsb_rethink][download][branch] = release-5.0
 projects[gsb_rethink][subdir] = custom
 
 ; GSB Robots
