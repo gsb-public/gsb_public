@@ -433,7 +433,7 @@ projects[gsb_feature_case_display][subdir] = custom/features
 projects[gsb_feature_chute_fpp][type] = module
 projects[gsb_feature_chute_fpp][download][type] = git
 projects[gsb_feature_chute_fpp][download][url] = git@github.com:gsb-public/gsb_feature_chute_fpp.git
-projects[gsb_feature_chute_fpp][download][branch] = release-5.03
+projects[gsb_feature_chute_fpp][download][tag] = 5.03
 projects[gsb_feature_chute_fpp][subdir] = custom/features
 
 ; GSB Feature Club
