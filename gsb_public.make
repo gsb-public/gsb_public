@@ -961,11 +961,8 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
 
-projects[breadcrumbs_by_path][version] = 1.x-dev
+projects[breadcrumbs_by_path][version] = 1.0-alpha12
 projects[breadcrumbs_by_path][subdir] = contrib
-projects[breadcrumbs_by_path][download][type] = git
-projects[breadcrumbs_by_path][download][revision] = 2d60c5d
-projects[breadcrumbs_by_path][download][branch] = 7.x-1.x
 projects[breadcrumbs_by_path][patch][2013130] = http://drupal.org/files/breadcrumbs_by_path-add_missing_breadcrumb_paths-2013130.patch
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
 projects[breadcrumbs_by_path][patch][2266701] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2266701-1.patch
@@ -978,11 +975,8 @@ projects[cmis][version] = 1.6
 projects[cmis][subdir] = contrib
 projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
 
-projects[computed_field][version] = 1.x-dev
+projects[computed_field][version] = 1.0
 projects[computed_field][subdir] = contrib
-projects[computed_field][download][type] = git
-projects[computed_field][download][revision] = 4380d90
-projects[computed_field][download][branch] = 7.x-1.x
 
 projects[concat_field][version] = 1.x-dev
 projects[concat_field][subdir] = contrib
@@ -1074,11 +1068,8 @@ projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328
 projects[expire][version] = 2.0-rc4
 projects[expire][subdir] = contrib
 
-projects[fancybox][version] = 2.x-dev
+projects[fancybox][version] = 2.0-beta5
 projects[fancybox][subdir] = contrib
-projects[fancybox][download][type] = git
-projects[fancybox][download][revision] = 02fd052
-projects[fancybox][download][branch] = 7.x-2.x
 
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
@@ -1135,13 +1126,9 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client
 libraries[google-api-php-client][download][branch] = master
 
-projects[hierarchical_select][version] = 3.x-dev
+projects[hierarchical_select][version] = 3.0-alpha10
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][download][type] = git
-projects[hierarchical_select][download][revision] = b3e34d9
-projects[hierarchical_select][download][branch] = 7.x-3.x
-projects[hierarchical_select][patch][1372300] = http://drupal.org/files/hierarchical_select-no-method-geteffect-1372300.patch
-projects[hierarchical_select][patch][2270431] = https://drupal.org/files/issues/hs-2270431-1.patch
+projects[hierarchical_select][patch][1372300] = https://www.drupal.org/files/issues/hierarchical_select-uncaught_type_error-1372300-39.patch
 
 projects[hs_lite][version] = 1.x-dev 
 projects[hs_lite][subdir] = contrib
@@ -1164,11 +1151,8 @@ projects[jquery_update][patch][1448490] = http://drupal.org/files/jquery_update-
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.x-dev
+projects[link][version] = 1.3
 projects[link][subdir] = contrib
-projects[link][download][type] = git
-projects[link][download][revision] = 7dc306c
-projects[link][download][branch] = 7.x-1.x
 projects[link][patch][2117099] = https://drupal.org/files/link-2117099-2.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
@@ -1183,11 +1167,8 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-projects[maxlength][version] = 3.x-dev
+projects[maxlength][version] = 3.0
 projects[maxlength][subdir] = contrib
-projects[maxlength][download][type] = git
-projects[maxlength][download][revision] = 8db419b
-projects[maxlength][download][branch] = 7.x-3.x
 
 projects[markup][version] = 1.1-beta1
 projects[markup][subdir] = contrib
@@ -1211,17 +1192,12 @@ projects[media_vimeo][version] = 1.0-beta5
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
 
-projects[memcache][version] = 1.x-dev
+projects[memcache][version] = 1.5
 projects[memcache][subdir] = contrib
-projects[memcache][download][type] = git
-projects[memcache][download][revision] = 5947cf0
-projects[memcache][download][branch] = 7.x-1.x
 
-projects[menu_attributes][version] = 1.x-dev
+projects[menu_attributes][version] = 1.0-rc3
 projects[menu_attributes][subdir] = contrib
-projects[menu_attributes][download][type] = git
-projects[menu_attributes][download][revision] = ed7e9aa
-projects[menu_attributes][download][branch] = 7.x-1.x
+projects[menu_attributes][patch][2368087] = https://www.drupal.org/files/issues/make_menu_link-2368087-8.patch
 
 projects[menu_block][version] = 2.5
 projects[menu_block][subdir] = contrib
@@ -1263,11 +1239,8 @@ projects[options_element][subdir] = contrib
 projects[panelizer][version] = 3.1
 projects[panelizer][subdir] = contrib
 
-projects[panels][version] = 3.x-dev
+projects[panels][version] = 3.5
 projects[panels][subdir] = contrib
-projects[panels][download][type] = git
-projects[panels][download][revision] = 2bb470e
-projects[panels][download][branch] = 7.x-3.x
 
 projects[panels_breadcrumbs][version] = 2.2
 projects[panels_breadcrumbs][subdir] = contrib
@@ -1277,14 +1250,8 @@ projects[pathauto][subdir] = contrib
 projects[pathauto][patch][2174603] = https://www.drupal.org/files/issues/pathauto_patch-2174603-1.patch
 projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
 
-projects[pathauto_menu_link][version] = 1.x-dev
+projects[pathauto_menu_link][version] = 1.2
 projects[pathauto_menu_link][subdir] = contrib
-projects[pathauto_menu_link][download][type] = git
-projects[pathauto_menu_link][download][url] = http://git.drupal.org/project/pathauto_menu_link.git
-projects[pathauto_menu_link][download][revision] = da4ff46
-projects[pathauto_menu_link][download][branch] = 7.x-1.x
-projects[pathauto_menu_link][patch][2059853] = https://drupal.org/files/2059853-d7-1.patch
-projects[pathauto_menu_link][patch][2059863] = https://drupal.org/files/2059863-d7-1.patch
 
 ; Phone module for Webform Phone
 projects[phone][version] = 1.0-beta1
@@ -1388,14 +1355,9 @@ projects[views_field_view][version] = 1.1
 projects[views_field_view][subdir] = contrib
 
 ; Load more functionality for views
-projects[views_load_more][type] = module
-projects[views_load_more][download][type] = git
-projects[views_load_more][download][url] = http://git.drupal.org/project/views_load_more.git
-projects[views_load_more][download][revision] = 28de384
-projects[views_load_more][download][branch] = 7.x-1.x
+projects[views_load_more][version] = 1.5
 projects[views_load_more][subdir] = contrib
-projects[views_load_more][patch][1923870] = http://drupal.org/files/1923870-d7-3.patch
-projects[views_load_more][patch][1454750] = http://drupal.org/files/view_load_more-table-style.patch
+projects[views_load_more][patch][1923870] = https://www.drupal.org/files/issues/add_a_scroll_to_top-1923870-9.patch
 
 projects[views_responsive_grid][version] = 1.3
 projects[views_responsive_grid][subdir] = contrib
@@ -1416,7 +1378,6 @@ projects[workbench][download][branch] = 7.x-1.x
 projects[workbench_access][version] = 1.2
 projects[workbench_access][subdir] = contrib
 
-projects[workbench_moderation][version] = 1.3
+projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][patch][1436260] = https://www.drupal.org/files/issues/1436260-workbench_moderation-states-node_save-74.patch
 
