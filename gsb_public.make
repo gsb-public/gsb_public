@@ -964,7 +964,7 @@ projects[better_formats][subdir] = contrib
 projects[breadcrumbs_by_path][version] = 1.0-alpha12
 projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
-projects[breadcrumbs_by_path][patch][2266701] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2266701-1.patch
+projects[breadcrumbs_by_path][patch][2266701] = https://www.drupal.org/files/issues/content_titles_are-2266701-3.patch
 projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2415403-2.patch
 
 projects[cacheexclude][version] = 2.3
