@@ -557,7 +557,7 @@ projects[gsb_feature_google_analytics_settings][subdir] = custom/features
 projects[gsb_feature_gsa_search][type] = module
 projects[gsb_feature_gsa_search][download][type] = git
 projects[gsb_feature_gsa_search][download][url] = git@github.com:gsb-public/gsb_feature_gsa_search.git
-projects[gsb_feature_gsa_search][download][tag] = 3.0
+projects[gsb_feature_gsa_search][download][branch] = WP-4980
 projects[gsb_feature_gsa_search][subdir] = custom/features
 
 ; GSB Features Homepage CTA Fpp
