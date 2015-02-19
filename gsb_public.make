@@ -1152,7 +1152,6 @@ projects[libraries][subdir] = contrib
 
 projects[link][version] = 1.3
 projects[link][subdir] = contrib
-projects[link][patch][2117099] = https://drupal.org/files/link-2117099-2.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
 projects[login_destination][version] = 1.1
