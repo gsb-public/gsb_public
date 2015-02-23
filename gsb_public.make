@@ -1379,4 +1379,4 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
 
-projects[drupal][patch][1592688][url] = "https://www.drupal.org/files/issues/1592688-55.patch"
+projects[misc][patch][1592688][url] = "https://www.drupal.org/files/issues/1592688-55.patch"
