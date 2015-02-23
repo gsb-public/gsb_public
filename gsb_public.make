@@ -1,8 +1,6 @@
 api = 2
 core = 7.x
 
-projects[drupal][patch][] = "https://www.drupal.org/files/issues/1592688-55.patch"
-
 ;============================================
 ;  GSB Projects
 ;============================================
