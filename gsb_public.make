@@ -1048,7 +1048,7 @@ projects[email_contact][download][revision] = fede1e7
 projects[email_contact][download][branch] = 7.x-1.x
 projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/email_contact_patch-2364995-1.patch
 
-projects[entity][version] = 1.5
+projects[entity][version] = 1.6
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.1
