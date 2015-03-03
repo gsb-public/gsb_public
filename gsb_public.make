@@ -585,7 +585,7 @@ projects[gsb_feature_idea_story_display][subdir] = custom/features
 projects[gsb_feature_image_fpp][type] = module
 projects[gsb_feature_image_fpp][download][type] = git
 projects[gsb_feature_image_fpp][download][url] = git@github.com:gsb-public/gsb_feature_image_fpp.git
-projects[gsb_feature_image_fpp][download][branch] = release-5.01
+projects[gsb_feature_image_fpp][download][tag] = 5.01
 projects[gsb_feature_image_fpp][subdir] = custom/features
 
 ; GSB Features Image CTA Fpp
