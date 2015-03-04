@@ -938,7 +938,7 @@ projects[addthis][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = contrib
 
-projects[admin_views][version] = 1.3
+projects[admin_views][version] = 1.4
 projects[admin_views][subdir] = contrib
 
 projects[auto_entitylabel][version] = 1.3
@@ -1125,9 +1125,8 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client
 libraries[google-api-php-client][download][branch] = master
 
-projects[hierarchical_select][version] = 3.0-alpha10
+projects[hierarchical_select][version] = 3.0-alpha12
 projects[hierarchical_select][subdir] = contrib
-projects[hierarchical_select][patch][1372300] = https://www.drupal.org/files/issues/hierarchical_select-uncaught_type_error-1372300-39.patch
 
 projects[hs_lite][version] = 1.x-dev 
 projects[hs_lite][subdir] = contrib
@@ -1223,7 +1222,7 @@ projects[menu_trail_by_path][download][branch] = 7.x-2.x
 projects[metatag][version] = 1.4
 projects[metatag][subdir] = contrib
 
-projects[module_filter][version] = 1.8
+projects[module_filter][version] = 2.0
 projects[module_filter][subdir] = contrib
 
 projects[node_clone][version] = 1.0-rc1
@@ -1318,19 +1317,15 @@ projects[submit_field][download][url] = http://git.drupal.org/project/submit_fie
 projects[submit_field][download][revision] = 205c0c5
 projects[submit_field][download][branch] = 7.x-1.x
 
-projects[telephone][version] = 1.x-dev
+projects[telephone][version] = 1.0-alpha1
 projects[telephone][subdir] = contrib
-projects[telephone][download][type] = git
-projects[telephone][download][url] = http://git.drupal.org/project/telephone.git
-projects[telephone][download][revision] = 393f5c2
-projects[telephone][download][branch] = 7.x-1.x
 
 ; Used for twitter feed.
 libraries[tmhOAuth][download][type] = git
 libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
 libraries[tmhOAuth][download][tag] = 0.8.2
 
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 projects[token][subdir] = contrib
 
 projects[typogrify][version] = 1.0-rc9
