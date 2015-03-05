@@ -553,6 +553,13 @@ projects[gsb_feature_google_analytics_settings][download][url] = git@github.com:
 projects[gsb_feature_google_analytics_settings][download][tag] = 5.0
 projects[gsb_feature_google_analytics_settings][subdir] = custom/features
 
+; GSB Features Google Tag Manager
+projects[gsb_feature_google_tag_manager][type] = module
+projects[gsb_feature_google_tag_manager][download][type] = git
+projects[gsb_feature_google_tag_manager][download][url] = git@github.com:gsb-public/gsb_feature_google_tag_manager.git
+projects[gsb_feature_google_tag_manager][download][branch] = WP-5126
+projects[gsb_feature_google_tag_manager][subdir] = custom/features
+
 ; GSB Feature GSA Search
 projects[gsb_feature_gsa_search][type] = module
 projects[gsb_feature_gsa_search][download][type] = git
