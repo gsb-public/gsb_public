@@ -4394,3 +4394,11 @@ function gsb_public_update_7226() {
   agenda_variable_set($bid, $name, $value);  
 }
 
+/**
+ * Enable new gsb_feature_google_tag_manager module.
+ */
+function gsb_public_update_7227() {
+  if (!module_exists('gsb_feature_google_tag_manager')) {
+    module_enable(array('gsb_feature_google_tag_manager'));
+  }
+}
