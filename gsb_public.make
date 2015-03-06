@@ -989,7 +989,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][download][type] = git
 projects[ctools][download][revision] = 7f9e55d
 projects[ctools][download][branch] = 7.x-1.x
-projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-24.patch
+projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-27.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/ctools-views_content-exposed_form_override-1901106-27.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
 
