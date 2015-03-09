@@ -897,7 +897,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsb-public/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][tag] = 5.01
+projects[gsb_feature_wysiwyg][download][branch] = release-5.02
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 
