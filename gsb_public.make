@@ -1186,6 +1186,7 @@ projects[media][subdir] = contrib
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-4.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
 projects[media][patch][media-addjs] = https://raw.github.com/gsb-public/gsb-revamp-patches/WPBQA-262/media-addjs.patch
+projects[media][patch][2067063] = https://www.drupal.org/files/media-wysiwyg-broken-2067063-138_0.patch
 
 projects[media_youtube][version] = 2.x-dev
 projects[media_youtube][subdir] = contrib
