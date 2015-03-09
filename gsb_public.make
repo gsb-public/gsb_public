@@ -321,7 +321,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_act_ct][type] = module
 projects[gsb_feature_act_ct][download][type] = git
 projects[gsb_feature_act_ct][download][url] = git@github.com:gsb-public/gsb_feature_act_ct.git
-projects[gsb_feature_act_ct][download][tag] = 5.02
+projects[gsb_feature_act_ct][download][branch] = release-5.03
 projects[gsb_feature_act_ct][subdir] = custom/features
 
 ; GSB Features ACT Display
