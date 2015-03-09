@@ -4410,3 +4410,12 @@ function gsb_public_update_7228() {
   module_disable(array('gsb_trim'));
   drupal_uninstall_modules(array('gsb_trim'));
 }
+
+/**
+ * Enable metatag_panels module.
+ */
+function gsb_public_update_7229() {
+  if (!module_exists('metatag_panels')) {
+    module_enable(array('metatag_panels'));
+  }
+}
