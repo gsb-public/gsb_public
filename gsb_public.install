@@ -4402,3 +4402,11 @@ function gsb_public_update_7227() {
     module_enable(array('gsb_feature_google_tag_manager'));
   }
 }
+
+/**
+ * Disable the gsb_trim module.
+ */
+function gsb_public_update_7228() {
+  module_disable(array('gsb_trim'));
+  drupal_uninstall_modules(array('gsb_trim'));
+}
