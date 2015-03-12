@@ -869,7 +869,7 @@ projects[gsb_feature_webform_ct][subdir] = custom/features
 projects[gsb_feature_week_in_the_life_ct][type] = module
 projects[gsb_feature_week_in_the_life_ct][download][type] = git
 projects[gsb_feature_week_in_the_life_ct][download][url] = git@github.com:gsb-public/gsb_feature_week_in_the_life_ct.git
-projects[gsb_feature_week_in_the_life_ct][download][tag] = 4.0
+projects[gsb_feature_week_in_the_life_ct][download][branch] = release-5.0
 projects[gsb_feature_week_in_the_life_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Display
