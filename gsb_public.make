@@ -335,7 +335,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
 projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_ct.git
-projects[gsb_feature_alumni_ct][download][branch] = release-5.03
+projects[gsb_feature_alumni_ct][download][tag] = 5.03
 projects[gsb_feature_alumni_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item CT
