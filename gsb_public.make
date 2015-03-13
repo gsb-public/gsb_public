@@ -370,7 +370,7 @@ projects[gsb_feature_alumni_reunion_group_page_display][subdir] = custom/feature
 projects[gsb_feature_alumni_reunion_session_ct][type] = module
 projects[gsb_feature_alumni_reunion_session_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_session_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_session_ct.git
-projects[gsb_feature_alumni_reunion_session_ct][download][branch] = release-5.01
+projects[gsb_feature_alumni_reunion_session_ct][download][tag] = 5.01
 projects[gsb_feature_alumni_reunion_session_ct][subdir] = custom/features
 
 ; GSB Features Announcement CT
