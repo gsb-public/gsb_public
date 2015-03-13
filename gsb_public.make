@@ -405,7 +405,7 @@ projects[gsb_feature_book_display][subdir] = custom/features
 projects[gsb_feature_business_website_ct][type] = module
 projects[gsb_feature_business_website_ct][download][type] = git
 projects[gsb_feature_business_website_ct][download][url] = git@github.com:gsb-public/gsb_feature_business_website_ct.git
-projects[gsb_feature_business_website_ct][download][branch] = release-5.0
+projects[gsb_feature_business_website_ct][download][tag] = 5.0
 projects[gsb_feature_business_website_ct][subdir] = custom/features
 
 ; GSB Feature Business Website Display
