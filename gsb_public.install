@@ -4419,3 +4419,14 @@ function gsb_public_update_7229() {
     module_enable(array('metatag_panels'));
   }
 }
+
+/**
+ * Delete aliases for alumni reunion agenda item.
+ */
+function gsb_public_update_7230() {
+    $result = db_query("SELECT pid FROM {url_alias} WHERE source IN(SELECT concat('node/', nid) FROM {node} WHERE type = 'alumni_reunion_agenda_item')");
+    $records = $result->fetchCol();
+    foreach($records as $pid) {
+      path_delete($pid);
+    }
+}
