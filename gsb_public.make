@@ -1132,7 +1132,7 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client
 libraries[google-api-php-client][download][branch] = master
 
-projects[hierarchical_select][version] = 3.0-alpha13
+projects[hierarchical_select][version] = 3.0-alpha12
 projects[hierarchical_select][subdir] = contrib
 
 projects[hs_lite][version] = 1.x-dev 
