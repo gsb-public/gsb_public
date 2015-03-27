@@ -4424,12 +4424,11 @@ function gsb_public_update_7229() {
  * Upload the redirects.
  */
 function gsb_public_update_7231(){
-  $filename = 'P5 Content Tracker - Final Redirects.csv';
+  $filename = 'P5 Content Tracker - Final Other Redirects.csv';
   $file_path = 'profiles/gsb_public/imports/'.$filename;
   $row = 1;
   if (($handle = fopen($file_path, "r")) !== FALSE) {
     while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
-      $num = count($data);
       $row++;
       if ($row > 2) {  // Excluded title row from csv
         $source_url = $data[0];
