@@ -4445,7 +4445,13 @@ function gsb_public_update_7231(){
         $source_url = $data[0];
         $redirect_url = $data[1];
         if ($source_url != "" && $redirect_url != "") {
-          $redirect_object = _gsb_feature_alumni_reunion_group_page_ct_add_redirect($source_url, $redirect_url);
+          $redirect = array('source' => $source_url, 'redirect' => $redirect_url);
+          $redirect_object = new stdClass();
+          redirect_object_prepare($redirect_object, $redirect);
+          // Check if the redirect exists before saving.
+          if (!redirect_load_by_source($source_url)) {
+            redirect_save($redirect_object);
+          }
         }
       }
     }
