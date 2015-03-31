@@ -356,7 +356,7 @@ projects[gsb_feature_alumni_reunion_agenda_item_display][subdir] = custom/featur
 projects[gsb_feature_alumni_reunion_group_page_ct][type] = module
 projects[gsb_feature_alumni_reunion_group_page_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_group_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_group_page_ct.git
-projects[gsb_feature_alumni_reunion_group_page_ct][download][branch] = release-5.05
+projects[gsb_feature_alumni_reunion_group_page_ct][download][tag] = 5.05
 projects[gsb_feature_alumni_reunion_group_page_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Group Page Display
