@@ -1333,6 +1333,9 @@ libraries[tmhOAuth][download][type] = git
 libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
 libraries[tmhOAuth][download][tag] = 0.8.2
 
+projects[transliteration][version] = 3.2
+projects[transliteration][subdir] = contrib
+
 projects[token][version] = 1.6
 projects[token][subdir] = contrib
 
