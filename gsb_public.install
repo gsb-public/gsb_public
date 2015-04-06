@@ -4461,3 +4461,10 @@ function gsb_public_update_7231(){
     watchdog('gsb_public','Error in reading File');
   }
 }
+
+/**
+ * Setting tranlitereate to be on.
+ */
+function gsb_public_update_7232() {
+  variable_set("pathauto_transliterate", 1);
+}
