@@ -4476,4 +4476,5 @@ function gsb_public_update_7233() {
   if (!module_exists('transliteration')) {
     module_enable(array('transliteration'));
   }
+  variable_set("pathauto_transliterate", 1);
 }
