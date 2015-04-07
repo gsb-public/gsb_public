@@ -4468,3 +4468,12 @@ function gsb_public_update_7231(){
 function gsb_public_update_7232() {
   variable_set("pathauto_transliterate", 1);
 }
+
+/**
+ * Enable transliteration module.
+ */
+function gsb_public_update_7233() {
+  if (!module_exists('transliteration')) {
+    module_enable(array('transliteration'));
+  }
+}
