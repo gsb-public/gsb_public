@@ -1374,9 +1374,6 @@ projects[views_xml_backend][download][revision] = 9858ea6
 projects[views_xml_backend][download][branch] = 7.x-1.x
 projects[views_xml_backend][subdir] = contrib
 
-projects[view_unpublished][version] = 1.2
-projects[view_unpublished][subdir] = contrib
-
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
