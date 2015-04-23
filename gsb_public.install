@@ -4478,12 +4478,3 @@ function gsb_public_update_7233() {
   }
   variable_set("pathauto_transliterate", 1);
 }
-
-/**
- * Enable view_unpublished module.
- */
-function gsb_public_update_7234() {
-  if (!module_exists('view_unpublished')) {
-    module_enable(array('view_unpublished'));
-  }
-}
