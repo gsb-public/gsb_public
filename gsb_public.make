@@ -107,7 +107,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-5.07
+projects[gsb_public_custom_blocks][download][tag] = 5.07
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Faculty Role
