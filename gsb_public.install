@@ -4479,8 +4479,6 @@ function gsb_public_update_7233() {
   variable_set("pathauto_transliterate", 1);
 }
 
-module_disable(array('gsb_panopoly_wyiswyg_override'));
-
 /**
  * Disable googleanalytics module.
  */
