@@ -1033,11 +1033,8 @@ projects[devel][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.x-dev
+projects[ds][version] = 2.8
 projects[ds][subdir] = contrib
-projects[ds][download][type] = git
-projects[ds][download][revision] = 74a91ec
-projects[ds][download][branch] = 7.x-2.x
 
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
@@ -1165,7 +1162,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 3.2
+projects[mailchimp][version] = 3.3
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
@@ -1310,7 +1307,7 @@ projects[shield][subdir] = contrib
 projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
 
-projects[smart_trim][version] = 1.4
+projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
 projects[stage_file_proxy][version] = 1.6
@@ -1346,7 +1343,7 @@ projects[typogrify][subdir] = contrib
 projects[uuid][version] = 1.0-alpha6
 projects[uuid][subdir] = contrib
 
-projects[views][version] = 3.10
+projects[views][version] = 3.11
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
