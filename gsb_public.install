@@ -4519,9 +4519,7 @@ function gsb_public_update_7235() {
 function gsb_public_update_7236() {
   $features = array ('gsb_feature_base_fields', 'gsb_feature_staff_ct');
   foreach($features as $feature_name) {
-    $feature = features_get_features($feature_name, TRUE);
-    $components = array_keys($feature->info['features']);
-    features_revert(array($feature_name => $components));
+    features_revert_module($feature_name);
   }
 }
 
