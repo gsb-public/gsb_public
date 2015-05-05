@@ -4499,12 +4499,36 @@ function gsb_public_update_7235() {
   );
   $vocabulary = (object) $_vocabulary;
   taxonomy_vocabulary_save($vocabulary);
+
+  // Copy the data to new field
+  $depart_vocabulary = taxonomy_vocabulary_machine_name_load('department');
+  $terms = taxonomy_get_tree($depart_vocabulary->vid);
+
+  foreach ($terms as $key => $term) {
+    $new_term = (object) array(
+      'vid' => $vocabulary->vid,
+      'name' => $term->name,
+    );
+    taxonomy_term_save($new_term);
+  }
+}
+
+/**
+ * Revert all the required features for department migration
+ */
+function gsb_public_update_7236() {
+  $features = array ('gsb_feature_base_fields', 'gsb_feature_staff_ct');
+  foreach($features as $feature_name) {
+    $feature = features_get_features($feature_name, TRUE);
+    $components = array_keys($feature->info['features']);
+    features_revert(array($feature_name => $components));
+  }
 }
 
 /**
  * Migrate old department data to new taxonomy field department office.
  */
-function gsb_public_update_7236() {
+function gsb_public_update_7237() {
   $entity_type = 'node';
 
   // Get list of all staff nodes
@@ -4543,7 +4567,7 @@ function gsb_public_update_7236() {
 /**
  * Delete the older department instance from staff CT.
  */
-function gsb_public_update_7237() {
+function gsb_public_update_7238() {
   $instance = field_info_instance('node', 'field_department', 'staff');
   // Mark field for deletion.
   field_delete_instance($instance);
