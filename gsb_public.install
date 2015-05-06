@@ -4572,3 +4572,25 @@ function gsb_public_update_7238() {
   // Remove field marked for deletion.
   field_purge_batch(10);
 }
+
+/**
+ * Staff nodes enable "Generate automatic URL alias" check-box.
+ */
+function gsb_public_update_7239() {
+  $entity_type = 'node';
+
+  // Get list of all staff nodes
+  $query = new EntityFieldQuery();
+  $query
+     ->entityCondition('entity_type', $entity_type)
+     ->entityCondition('bundle', 'staff');
+
+  $entities = $query->execute();
+
+  // Loop through all staff nodes
+  foreach ($entities[$entity_type] as $entity) {
+    $node = node_load($entity->nid);
+    $node->path['pathauto'] = true;
+    node_save($node);
+  }
+}
