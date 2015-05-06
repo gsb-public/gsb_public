@@ -4487,3 +4487,88 @@ function gsb_public_update_7234() {
     module_disable(array('googleanalytics'));
   }
 }
+
+/**
+ * Create new taxonomy for Department/Office.
+ */
+function gsb_public_update_7235() {
+  $_vocabulary = array(
+    'name' => 'Department/Office',
+    'machine_name' => 'department_office',
+    'description' => t('Department/Office taxonomy.'),
+  );
+  $vocabulary = (object) $_vocabulary;
+  taxonomy_vocabulary_save($vocabulary);
+
+  // Copy the data to new field
+  $depart_vocabulary = taxonomy_vocabulary_machine_name_load('department');
+  $terms = taxonomy_get_tree($depart_vocabulary->vid);
+
+  foreach ($terms as $key => $term) {
+    $new_term = (object) array(
+      'vid' => $vocabulary->vid,
+      'name' => $term->name,
+    );
+    taxonomy_term_save($new_term);
+  }
+}
+
+/**
+ * Revert all the required features for department migration
+ */
+function gsb_public_update_7236() {
+  $features = array ('gsb_feature_base_fields', 'gsb_feature_staff_ct');
+  foreach($features as $feature_name) {
+    features_revert_module($feature_name);
+  }
+}
+
+/**
+ * Migrate old department data to new taxonomy field department office.
+ */
+function gsb_public_update_7237() {
+  $entity_type = 'node';
+
+  // Get list of all staff nodes
+  $query = new EntityFieldQuery();
+  $query
+     ->entityCondition('entity_type', $entity_type)
+     ->entityCondition('bundle', 'staff');
+
+  $entities = $query->execute();
+
+  // Loop through all staff nodes
+  foreach ($entities[$entity_type] as $entity) {
+    // Get the old departments
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
+    $old_departments = $wrapper->field_department->raw();
+
+    if (isset($old_departments) && !empty($old_departments)) {
+      $delta = 0;
+      $tids = array();
+      foreach ($old_departments as $old_department) {
+        $term_old = taxonomy_term_load($old_department);
+        $term = taxonomy_get_term_by_name($term_old->name, 'department_office');
+        $term = array_values($term);
+        $tids[] = $term[0]->tid;
+      }
+
+      // Set the value for new department
+      $wrapper->field_department_office->set($tids);
+
+      // Finally save the entity
+      $wrapper->save();
+    }
+  }
+}
+
+/**
+ * Delete the older department instance from staff CT.
+ */
+function gsb_public_update_7238() {
+  $instance = field_info_instance('node', 'field_department', 'staff');
+  // Mark field for deletion.
+  field_delete_instance($instance);
+  // Remove field marked for deletion.
+  field_purge_batch(10);
+}
