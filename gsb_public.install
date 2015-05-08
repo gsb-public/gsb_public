@@ -4575,7 +4575,7 @@ function gsb_public_update_7237() {
     $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
     $old_title_positions = $wrapper->field_title_position_unlimited->raw();
     if (isset($old_title_positions) && !empty($old_title_positions)) {
-      if (empty($wrapper->field_staff_item->value())) {
+      if (empty($wrapper->field_staff_item)) {
         $fc_wrapper = _gsb_public_update_create_fc_wrapper($entity_type, $entity);
       }
       else {
