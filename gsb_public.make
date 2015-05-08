@@ -26,6 +26,13 @@ projects[resources][download][url] = git@github.com:gsb-public/resources.git
 projects[resources][download][branch] = master
 projects[resources][subdir] = custom
 
+; SoundCloud API 
+projects[soundcloud_api][type] = module
+projects[soundcloud_api][download][type] = git
+projects[soundcloud_api][download][url] = git@github.com:gsb-public/soundcloud_api.git
+projects[soundcloud_api][download][branch] = release-5.11
+projects[soundcloud_api][subdir] = custom
+
 ; GSB Acquia Tokens
 projects[gsb_acquia_tokens][type] = module
 projects[gsb_acquia_tokens][download][type] = git
