@@ -83,6 +83,7 @@ dependencies[] = options_element
 dependencies[] = securepages
 dependencies[] = site_verify
 dependencies[] = smart_trim
+dependencies[] = soundcloud_api
 dependencies[] = submit_field
 dependencies[] = telephone
 dependencies[] = typogrify
