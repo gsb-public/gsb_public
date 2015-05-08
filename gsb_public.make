@@ -1271,8 +1271,8 @@ projects[pathauto_menu_link][subdir] = contrib
 projects[phone][version] = 1.0-beta1
 projects[phone][subdir] = contrib
 
-libraries[php-soundcloud][download][type] = get
-libraries[php-soundcloud][download][url] = https://github.com/mptre/php-soundcloud.git
+libraries[php-soundcloud][download][type] = git
+libraries[php-soundcloud][download][url] = git@github.com:mptre/php-soundcloud.git
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
