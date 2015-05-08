@@ -4625,3 +4625,12 @@ function gsb_public_update_7239() {
     node_save($node);
   }
 }
+
+/**
+ * Enable soundcloud_api module.
+ */
+function gsb_public_update_7240() {
+  if (!module_exists('soundcloud_api')) {
+    module_enable(array('soundcloud_api'));
+  }
+}
