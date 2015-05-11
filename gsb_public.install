@@ -4521,6 +4521,7 @@ function gsb_public_update_7236() {
   foreach($features as $feature_name) {
     features_revert_module($feature_name);
   }
+  cache_clear_all();
 }
 
 /**
