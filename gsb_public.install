@@ -4530,8 +4530,10 @@ function _gsb_public_update_create_fc_wrapper($entity_type, $entity) {
     // Create a field_collection_item entity
     $fc_item = entity_create('field_collection_item', array('field_name' => 'field_staff_item'));
 
+    $node = node_load($entity->nid);
+
     // Attach it to the node and Wrap it with Entity API
-    $fc_item->setHostEntity($entity_type, $entity);
+    $fc_item->setHostEntity($entity_type, $node);
     $fc_wrapper = entity_metadata_wrapper('field_collection_item', $fc_item);
     return $fc_wrapper;
 }
@@ -4605,8 +4607,8 @@ function gsb_public_update_7238() {
 }
 
 /**
-+ * Staff nodes enable "Generate automatic URL alias" check-box.
-+ */
+ * Staff nodes enable "Generate automatic URL alias" check-box.
+ */
 function gsb_public_update_7239() {
   $entity_type = 'node';
 
