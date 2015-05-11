@@ -4534,7 +4534,7 @@ function _gsb_public_update_create_fc_wrapper($entity_type, $entity) {
     $node = node_load($entity->nid);
 
     // Attach it to the node and Wrap it with Entity API
-    $fc_item->setHostEntity($entity_type, $node);
+    $fc_item->setHostEntity($entity_type, $entity);
     $fc_wrapper = entity_metadata_wrapper('field_collection_item', $fc_item);
     return $fc_wrapper;
 }
