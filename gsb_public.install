@@ -4483,9 +4483,12 @@ function gsb_public_update_7233() {
  * Disable googleanalytics module.
  */
 function gsb_public_update_7234() {
+// Removed from this release.
+/**
   if (module_exists('googleanalytics')) {
     module_disable(array('googleanalytics'));
   }
+**/
 }
 
 /**
