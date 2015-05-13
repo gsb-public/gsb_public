@@ -764,7 +764,7 @@ projects[gsb_feature_publication_ct][subdir] = custom/features
 projects[gsb_feature_publication_display][type] = module
 projects[gsb_feature_publication_display][download][type] = git
 projects[gsb_feature_publication_display][download][url] = git@github.com:gsb-public/gsb_feature_publication_display.git
-projects[gsb_feature_publication_display][download][branch] = release-5.02
+projects[gsb_feature_publication_display][download][tag] = 5.02
 projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Feature Ranking CT
