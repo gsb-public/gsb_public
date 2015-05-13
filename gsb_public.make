@@ -100,7 +100,7 @@ projects[gsb_cmis][subdir] = custom
 projects[gsb_connecting_link][type] = module
 projects[gsb_connecting_link][download][type] = git
 projects[gsb_connecting_link][download][url] = git@github.com:gsb-public/gsb_connecting_link.git
-projects[gsb_connecting_link][download][branch] = release-5.02
+projects[gsb_connecting_link][download][tag] = 5.02
 projects[gsb_connecting_link][subdir] = custom
 
 ; GSB Custom Section Title
