@@ -943,7 +943,7 @@ projects[acquia_connector][subdir] = contrib
 projects[acquia_purge][version] = 1.1
 projects[acquia_purge][subdir] = contrib
 
-projects[addressfield][version] = 1.0
+projects[addressfield][version] = 1.1
 projects[addressfield][subdir] = contrib
 
 projects[addthis][version] = 4.0-alpha4
@@ -968,7 +968,7 @@ projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.0
+projects[better_exposed_filters][version] = 3.2
 projects[better_exposed_filters][subdir] = contrib
 
 ; Better formats adds input format visibility settings per-field.
@@ -1082,7 +1082,7 @@ projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328
 projects[expire][version] = 2.0-rc4
 projects[expire][subdir] = contrib
 
-projects[fancybox][version] = 2.0-beta5
+projects[fancybox][version] = 2.0-beta6
 projects[fancybox][subdir] = contrib
 
 libraries[fancybox][download][type] = get
@@ -1091,7 +1091,7 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.4
+projects[features][version] = 2.5
 projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
@@ -1180,7 +1180,7 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
-projects[maxlength][version] = 3.1
+projects[maxlength][version] = 3.2
 projects[maxlength][subdir] = contrib
 
 projects[markup][version] = 1.1-beta1
@@ -1307,7 +1307,7 @@ libraries[selection-sharer][download][type] = git
 libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer
 libraries[selection-sharer][download][tag] = v0.0.15
 
-projects[select_or_other][version] = 2.20
+projects[select_or_other][version] = 2.21
 projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
@@ -1323,7 +1323,7 @@ projects[site_verify][subdir] = contrib
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
-projects[stage_file_proxy][version] = 1.6
+projects[stage_file_proxy][version] = 1.7
 projects[stage_file_proxy][subdir] = contrib
 
 projects[strongarm][version] = 2.0
@@ -1350,7 +1350,7 @@ projects[transliteration][subdir] = contrib
 projects[token][version] = 1.6
 projects[token][subdir] = contrib
 
-projects[typogrify][version] = 1.0-rc9
+projects[typogrify][version] = 1.0-rc10
 projects[typogrify][subdir] = contrib
 
 projects[uuid][version] = 1.0-alpha6
@@ -1361,7 +1361,7 @@ projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
 
-projects[views_autocomplete_filters][version] = 1.1
+projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
 
 projects[views_bulk_operations][version] = 3.2
