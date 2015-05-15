@@ -543,7 +543,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 5.03
+projects[gsb_feature_file_types][download][branch] = release-5.04
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
