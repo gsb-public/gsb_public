@@ -4640,3 +4640,39 @@ function gsb_public_update_7240() {
     module_enable(array('soundcloud_api'));
   }
 }
+
+/**
+ * Revert features required for data migration.
+ */
+function gsb_public_update_7241() {
+  features_revert(array('gsb_feature_base_fields' => array('field_base')));
+  features_revert(array('gsb_feature_book_ct' => array('field_instance')));
+}
+
+/**
+ * Migrate "where to buy" data to new field for Book CT.
+ */
+function gsb_public_update_7242() {
+
+  $entity_type = 'node';
+
+  // Get all book nodes
+  $query = new EntityFieldQuery();
+  $query
+     ->entityCondition('entity_type', $entity_type)
+     ->entityCondition('bundle', 'book');
+
+  $entities = $query->execute();
+
+  // Loop through all book nodes
+  foreach ($entities[$entity_type] as $entity) {
+    // Get the old where to buy
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
+    $old_wheretobuy = $wrapper->field_link_unlimited->raw();
+    if (isset($old_wheretobuy) && !empty($old_wheretobuy)) {
+      $wrapper->field_link_where_buy_unlimited->set($old_wheretobuy);
+      $wrapper->field_link_unlimited->set(null);
+      $wrapper->save();
+    }
+  }
+}
