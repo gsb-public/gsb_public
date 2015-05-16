@@ -4645,8 +4645,11 @@ function gsb_public_update_7240() {
  * Revert features required for data migration.
  */
 function gsb_public_update_7241() {
-  features_revert(array('gsb_feature_base_fields' => array('field_base')));
-  features_revert(array('gsb_feature_book_ct' => array('field_instance')));
+  $features = array ('gsb_feature_base_fields', 'gsb_feature_book_ct');
+  foreach($features as $feature_name) {
+    features_revert_module($feature_name);
+  }
+  cache_clear_all();
 }
 
 /**
