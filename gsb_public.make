@@ -997,7 +997,7 @@ projects[concat_field][download][type] = git
 projects[concat_field][download][revision] = 450acb25
 projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
-projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_field_patch-2476195-1.patch
+projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_field_patch-2476195-2.patch
 
 projects[ctools][version] = 1.x-dev
 projects[ctools][subdir] = contrib
