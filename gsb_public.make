@@ -212,7 +212,7 @@ projects[gsb_panels_pages][subdir] = custom
 projects[gsb_resources][type] = module
 projects[gsb_resources][download][type] = git
 projects[gsb_resources][download][url] = git@github.com:gsb-public/gsb_resources.git
-projects[gsb_resources][download][branch] = release-5.03
+projects[gsb_resources][download][tag] = 5.03
 projects[gsb_resources][subdir] = custom
 
 ; GSB Restricted Pages
