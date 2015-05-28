@@ -1363,6 +1363,7 @@ projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.pat
 
 projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
+projects[views_autocomplete_filters][patch][2493069] = https://www.drupal.org/files/issues/views_autocomplete_filters-2493069-1.patch
 
 projects[views_bulk_operations][version] = 3.2
 projects[views_bulk_operations][subdir] = contrib
