@@ -4702,5 +4702,4 @@ function gsb_public_update_7244() {
     field_delete_instance($instance);
   }
   field_purge_batch(10);
-  exit;
 }
