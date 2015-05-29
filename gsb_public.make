@@ -564,7 +564,7 @@ projects[gsb_feature_google_analytics_settings][subdir] = custom/features
 projects[gsb_feature_google_tag_manager][type] = module
 projects[gsb_feature_google_tag_manager][download][type] = git
 projects[gsb_feature_google_tag_manager][download][url] = git@github.com:gsb-public/gsb_feature_google_tag_manager.git
-projects[gsb_feature_google_tag_manager][download][tag] = 5.0
+projects[gsb_feature_google_tag_manager][download][branch] = release-5.01
 projects[gsb_feature_google_tag_manager][subdir] = custom/features
 
 ; GSB Feature GSA Search
