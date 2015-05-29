@@ -4688,3 +4688,18 @@ function gsb_public_update_7243() {
     theme_enable(array('stark'));
   }
 }
+
+/**
+ * Remove the alumni ref field.
+ */
+function gsb_public_update_7244() {
+  $content_types = array(
+    'act',
+    'alumni_reunion_agenda_item',
+  );
+  foreach ($content_types as $content_type) {
+    $instance = field_info_instance('node', 'field_alumni_ref', $content_type);
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
