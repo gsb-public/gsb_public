@@ -984,6 +984,13 @@ projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
+projects[checkall][version] = 1.x-dev
+projects[checkall][subdir] = contrib
+projects[checkall][download][type] = git
+projects[checkall][download][branch] = 7.x-1.x
+projects[checkall][patch][882176] = https://www.drupal.org/files/issues/checkall-D7_port-882176-26-7.x.patch
+projects[checkall][patch][2142011] = https://www.drupal.org/files/issues/checkall-2142011-version-requirement.patch
+
 projects[cmis][version] = 1.6
 projects[cmis][subdir] = contrib
 projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
