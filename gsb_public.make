@@ -988,8 +988,7 @@ projects[checkall][version] = 1.x-dev
 projects[checkall][subdir] = contrib
 projects[checkall][download][type] = git
 projects[checkall][download][branch] = 7.x-1.x
-projects[checkall][patch][882176] = https://www.drupal.org/files/issues/checkall-D7_port-882176-26-7.x.patch
-projects[checkall][patch][2142011] = https://www.drupal.org/files/issues/checkall-2142011-version-requirement.patch
+projects[checkall][patch][2499743] = https://www.drupal.org/files/issues/checkall_patch-2499743-1.patch
 
 projects[cmis][version] = 1.6
 projects[cmis][subdir] = contrib
