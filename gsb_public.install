@@ -4718,3 +4718,12 @@ function gsb_public_update_7245() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Enable checkall module.
+ */
+function gsb_public_update_7246() {
+  if (!module_exists('checkall')) {
+    module_enable(array('checkall'));
+  }
+}
