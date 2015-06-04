@@ -1309,6 +1309,9 @@ libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsb-p
 libraries[riveted][download][type] = get
 libraries[riveted][download][url] = https://raw.githubusercontent.com/robflaherty/riveted/master/riveted.js
 
+projects[search_krumo][version] = 1.6
+projects[search_krumo][subdir] = contrib
+
 projects[securepages][version] = 1.0-beta2
 projects[securepages][subdir] = contrib
 
