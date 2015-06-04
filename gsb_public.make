@@ -1043,6 +1043,9 @@ projects[defaultcontent][patch][1757782] = http://drupal.org/files/1757782-canno
 projects[devel][version] = 1.5
 projects[devel][subdir] = contrib
 
+projects[devel_form_debug][version] = 1.0
+projects[devel_form_debug][subdir] = contrib
+
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
