@@ -4729,10 +4729,10 @@ function gsb_public_update_7246() {
 }
 
 /**
- * Remove the person faculty ref field.
+ * Remove the program field.
  */
 function gsb_public_update_7247() {
-  $instance = field_info_instance('node', 'field_program_unlimited', 'academic-calendar-event');
+  $instance = field_info_instance('node', 'field_program_unlimited', 'academic_calendar_event');
   field_delete_instance($instance);
 
   field_purge_batch(10);
