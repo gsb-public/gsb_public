@@ -349,7 +349,7 @@ projects[gsb_feature_alumni_ct][subdir] = custom/features
 projects[gsb_feature_alumni_reunion_agenda_item_ct][type] = module
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_ct.git
-projects[gsb_feature_alumni_reunion_agenda_item_ct][download][tag] = 5.08
+projects[gsb_feature_alumni_reunion_agenda_item_ct][download][branch] = release-5.09
 projects[gsb_feature_alumni_reunion_agenda_item_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item Display
@@ -634,7 +634,7 @@ projects[gsb_feature_insights_quote_fpp][subdir] = custom/features
 projects[gsb_feature_links_fpp][type] = module
 projects[gsb_feature_links_fpp][download][type] = git
 projects[gsb_feature_links_fpp][download][url] = git@github.com:gsb-public/gsb_feature_links_fpp.git
-projects[gsb_feature_links_fpp][download][tag] = 4.02
+projects[gsb_feature_links_fpp][download][branch] = release-4.03
 projects[gsb_feature_links_fpp][subdir] = custom/features
 
 ; GSB Quote FPP
