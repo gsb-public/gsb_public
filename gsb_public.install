@@ -4727,3 +4727,13 @@ function gsb_public_update_7246() {
     module_enable(array('checkall'));
   }
 }
+
+/**
+ * Remove the program field.
+ */
+function gsb_public_update_7247() {
+  $instance = field_info_instance('node', 'field_program_unlimited', 'academic_calendar_event');
+  field_delete_instance($instance);
+
+  field_purge_batch(10);
+}
