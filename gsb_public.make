@@ -177,7 +177,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_misc_fixes][type] = module
 projects[gsb_misc_fixes][download][type] = git
 projects[gsb_misc_fixes][download][url] = git@github.com:gsb-public/gsb_misc_fixes.git
-projects[gsb_misc_fixes][download][tag] = 5.02
+projects[gsb_misc_fixes][download][branch] = release-5.03
 projects[gsb_misc_fixes][subdir] = custom
 
 ; GSB Migrate
