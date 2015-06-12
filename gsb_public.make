@@ -1007,13 +1007,10 @@ projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_
 
 projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
-projects[ctools][download][type] = git
-projects[ctools][download][revision] = 7f9e55d
-projects[ctools][download][branch] = 7.x-1.x
 projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-29.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-30.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
-projects[ctools][patch][2032293] =https://www.drupal.org/files/issues/ctools-view-mode-pane-settings-2032293-17.patch
+projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/ctools-view-mode-pane-settings-2032293-22.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
