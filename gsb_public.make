@@ -335,7 +335,7 @@ projects[gsb_feature_act_ct][subdir] = custom/features
 projects[gsb_feature_act_display][type] = module
 projects[gsb_feature_act_display][download][type] = git
 projects[gsb_feature_act_display][download][url] = git@github.com:gsb-public/gsb_feature_act_display.git
-projects[gsb_feature_act_display][download][tag] = 5.03
+projects[gsb_feature_act_display][download][branch] = release-5.04
 projects[gsb_feature_act_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -515,7 +515,7 @@ projects[gsb_feature_faculty_ct][subdir] = custom/features
 projects[gsb_feature_faculty_display][type] = module
 projects[gsb_feature_faculty_display][download][type] = git
 projects[gsb_feature_faculty_display][download][url] = git@github.com:gsb-public/gsb_feature_faculty_display.git
-projects[gsb_feature_faculty_display][download][tag] = 5.01
+projects[gsb_feature_faculty_display][download][branch] = release-5.02
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
 ; GSB Feature Featured Content FPP
