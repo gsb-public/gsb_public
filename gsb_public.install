@@ -4737,3 +4737,12 @@ function gsb_public_update_7247() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Enable gsb_feature_existing_node_list_fpp module.
+ */
+function gsb_public_update_7248() {
+  if (!module_exists('gsb_feature_existing_node_list_fpp')) {
+    module_enable(array('gsb_feature_existing_node_list_fpp'));
+  }
+}
