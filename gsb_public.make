@@ -391,7 +391,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.11
+projects[gsb_feature_base_fields][download][branch] = release-5.12
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -503,6 +503,13 @@ projects[gsb_feature_existing_node_fpp][download][type] = git
 projects[gsb_feature_existing_node_fpp][download][url] = git@github.com:gsb-public/gsb_feature_existing_node_fpp.git
 projects[gsb_feature_existing_node_fpp][download][tag] = 5.01
 projects[gsb_feature_existing_node_fpp][subdir] = custom/features
+
+; GSB Feature Existing Node List FPP
+projects[gsb_feature_existing_node_list_fpp][type] = module
+projects[gsb_feature_existing_node_list_fpp][download][type] = git
+projects[gsb_feature_existing_node_list_fpp][download][url] = git@github.com:gsb-public/gsb_feature_existing_node_list_fpp.git
+projects[gsb_feature_existing_node_list_fpp][download][branch] = release-5.14
+projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 
 ; GSB Feature Faculty Content Type
 projects[gsb_feature_faculty_ct][type] = module
