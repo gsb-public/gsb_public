@@ -4754,3 +4754,12 @@ function gsb_public_update_7249() {
   module_disable(array('gsb_academic_year'));
   drupal_uninstall_modules(array('gsb_academic_year'));
 }
+
+/**
+ * Enable gsb_feature_view_modes module.
+ */
+function gsb_public_update_7250() {
+  if (!module_exists('gsb_feature_view_modes')) {
+    module_enable(array('gsb_feature_view_modes'));
+  }
+}
