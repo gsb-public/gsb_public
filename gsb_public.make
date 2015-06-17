@@ -921,6 +921,12 @@ projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsb-public/gsb_fea
 projects[gsb_feature_wysiwyg][download][tag] = 5.06
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
+; GSB Feature View Modes
+projects[gsb_feature_view_modes][type] = module
+projects[gsb_feature_view_modes][download][type] = git
+projects[gsb_feature_view_modes][download][url] = git@github.com:gsb-public/gsb_feature_view_modes.git
+projects[gsb_feature_view_modes][download][branch] = release-5.14
+projects[gsb_feature_view_modes][subdir] = custom/features
 
 ;================================================
 ;  GSB Themes
