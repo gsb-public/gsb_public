@@ -213,3 +213,4 @@ dependencies[] = gsb_feature_workbench
 dependencies[] = gsb_feature_working_paper_ct
 dependencies[] = gsb_feature_working_paper_display
 dependencies[] = gsb_feature_wysiwyg
+dependencies[] = gsb_feature_view_modes
