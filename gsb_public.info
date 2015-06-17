@@ -100,7 +100,6 @@ dependencies[] = alumni_cas_auth
 dependencies[] = feature_flag
 dependencies[] = resources
 dependencies[] = gsb_acquia_tokens
-dependencies[] = gsb_academic_year
 dependencies[] = gsb_addthis_customization
 dependencies[] = gsb_advanced_menu_customization
 dependencies[] = gsb_auto_upload_file
