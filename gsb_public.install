@@ -4763,3 +4763,13 @@ function gsb_public_update_7250() {
     module_enable(array('gsb_feature_view_modes'));
   }
 }
+
+/**
+ * Enable new day month and year date format.
+ */
+function gsb_public_update_7251() {
+  db_insert('date_format_type')
+    ->fields(array('type' => 'day_month_and_year', 'title' => 'Day Month and Year', 'locked' => 0))
+    ->execute();   
+  variable_set('date_format_day_month_and_year', 'd M Y');  
+}
