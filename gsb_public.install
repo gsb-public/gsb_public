@@ -4773,3 +4773,12 @@ function gsb_public_update_7251() {
     ->execute();   
   variable_set('date_format_day_month_and_year', 'd M Y');  
 }
+
+/**
+ * Enable gsb_feature_admission_event_ct module.
+ */
+function gsb_public_update_7252() {
+  if (!module_exists('gsb_feature_admission_event_ct')) {
+    module_enable(array('gsb_feature_admission_event_ct'));
+  }
+}
