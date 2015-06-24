@@ -87,6 +87,7 @@ dependencies[] = soundcloud_api
 dependencies[] = submit_field
 dependencies[] = telephone
 dependencies[] = typogrify
+dependencies[] = tzfield
 dependencies[] = uuid
 dependencies[] = views_field_view
 dependencies[] = views_responsive_grid
