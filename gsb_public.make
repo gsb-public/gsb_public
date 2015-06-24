@@ -335,7 +335,7 @@ projects[gsb_feature_act_ct][subdir] = custom/features
 projects[gsb_feature_act_display][type] = module
 projects[gsb_feature_act_display][download][type] = git
 projects[gsb_feature_act_display][download][url] = git@github.com:gsb-public/gsb_feature_act_display.git
-projects[gsb_feature_act_display][download][branch] = release-5.04
+projects[gsb_feature_act_display][download][tag] = 5.04
 projects[gsb_feature_act_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
