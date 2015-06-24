@@ -4777,7 +4777,7 @@ function gsb_public_update_7251() {
 /**
  * Enable gsb_content_pane_info module.
  */
-function gsb_public_update_7251() {
+function gsb_public_update_7252() {
   if (!module_exists('gsb_content_pane_info')) {
     module_enable(array('gsb_content_pane_info'));
   }
