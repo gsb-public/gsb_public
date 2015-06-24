@@ -4773,3 +4773,12 @@ function gsb_public_update_7251() {
     ->execute();   
   variable_set('date_format_day_month_and_year', 'd M Y');  
 }
+
+/**
+ * Enable gsb_content_pane_info module.
+ */
+function gsb_public_update_7251() {
+  if (!module_exists('gsb_content_pane_info')) {
+    module_enable(array('gsb_content_pane_info'));
+  }
+}
