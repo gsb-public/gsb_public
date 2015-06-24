@@ -904,7 +904,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][branch] = release-5.06
+projects[gsb_feature_working_paper_ct][download][tag] = 5.06
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
