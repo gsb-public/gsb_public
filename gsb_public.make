@@ -103,6 +103,13 @@ projects[gsb_connecting_link][download][url] = git@github.com:gsb-public/gsb_con
 projects[gsb_connecting_link][download][tag] = 5.03
 projects[gsb_connecting_link][subdir] = custom
 
+; GSB Content Pane
+projects[gsb_content_pane_info][type] = module
+projects[gsb_content_pane_info][download][type] = git
+projects[gsb_content_pane_info][download][url] = git@github.com:gsb-public/gsb_content_pane_info.git
+projects[gsb_content_pane_info][download][branch] = release-5.15
+projects[gsb_content_pane_info][subdir] = custom
+
 ; GSB Custom Section Title
 projects[gsb_custom_section_title][type] = module
 projects[gsb_custom_section_title][download][type] = git
