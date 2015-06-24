@@ -661,10 +661,10 @@ function gsb_public_update_7023() {
 
   // Make the weight of gsb_fpp_customization one higher than panopoly_magic.
   $weight = db_select('system', 's')
-              ->fields('s', array('weight'))
-              ->condition('name', 'panopoly_magic', '=')
-              ->execute()
-              ->fetchField();
+    ->fields('s', array('weight'))
+    ->condition('name', 'panopoly_magic', '=')
+    ->execute()
+    ->fetchField();
 
   db_update('system')
     ->fields(array('weight' => $weight +1))
@@ -1193,55 +1193,55 @@ function gsb_public_update_7042() {
  */
 function gsb_public_update_7043() {
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 0))
     ->condition('vid', '151', '=')
     ->condition('name', 'Executive Education', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 1))
     ->condition('vid', '151', '=')
     ->condition('name', 'MBA', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 2))
     ->condition('vid', '151', '=')
     ->condition('name', 'MS', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 3))
     ->condition('vid', '151', '=')
     ->condition('name', 'MSx', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '151', '=')
     ->condition('name', 'PhD', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
     ->condition('vid', '151', '=')
     ->condition('name', 'SEED Program', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 6))
     ->condition('vid', '151', '=')
     ->condition('name', 'SIGM', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 7))
     ->condition('vid', '151', '=')
     ->condition('name', 'Social Innovation Program', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 8))
     ->condition('vid', '151', '=')
     ->condition('name', 'Stanford Ignite', '=')
@@ -1327,55 +1327,55 @@ function gsb_public_update_7048() {
  */
 function gsb_public_update_7049() {
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 0))
     ->condition('vid', '151', '=')
     ->condition('name', 'MBA', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 1))
     ->condition('vid', '151', '=')
     ->condition('name', 'MS', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 2))
     ->condition('vid', '151', '=')
     ->condition('name', 'MSx', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 3))
     ->condition('vid', '151', '=')
     ->condition('name', 'PhD', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '151', '=')
     ->condition('name', 'Executive Education', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
     ->condition('vid', '151', '=')
     ->condition('name', 'SEED Program', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 6))
     ->condition('vid', '151', '=')
     ->condition('name', 'SIGM', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 7))
     ->condition('vid', '151', '=')
     ->condition('name', 'Social Innovation Program', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 8))
     ->condition('vid', '151', '=')
     ->condition('name', 'Stanford Ignite', '=')
@@ -1388,79 +1388,79 @@ function gsb_public_update_7049() {
  */
 function gsb_public_update_7050() {
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 0))
     ->condition('vid', '126', '=')
     ->condition('name', 'MBA Admissions', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 1))
     ->condition('vid', '126', '=')
     ->condition('name', 'MSx Admissions', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 2))
     ->condition('vid', '126', '=')
     ->condition('name', 'PhD Admissions', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 3))
     ->condition('vid', '126', '=')
     ->condition('name', 'Executive Education Admissions', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 4))
     ->condition('vid', '126', '=')
     ->condition('name', 'Academic Administration', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 5))
     ->condition('vid', '126', '=')
     ->condition('name', 'Behavioral Lab', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 6))
     ->condition('vid', '126', '=')
     ->condition('name', 'Faculty Support', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 7))
     ->condition('vid', '126', '=')
     ->condition('name', 'Financial Aid Office', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 8))
     ->condition('vid', '126', '=')
     ->condition('name', 'Global Innovation Programs', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 9))
     ->condition('vid', '126', '=')
     ->condition('name', 'Library', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 10))
     ->condition('vid', '126', '=')
     ->condition('name', 'Marketing and Communications', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 11))
     ->condition('vid', '126', '=')
     ->condition('name', 'Schwab Residential Center', '=')
     ->execute();
 
- db_update('taxonomy_term_data')
+  db_update('taxonomy_term_data')
     ->fields(array('weight' => 12))
     ->condition('vid', '126', '=')
     ->condition('name', 'Stanford MSx Program', '=')
@@ -1751,7 +1751,7 @@ function gsb_public_update_7072() {
  */
 function gsb_public_update_7073() {
   variable_set('breadcrumbs_by_path_current_title', 1);
-} 
+}
 
 /**
  * Set variable breadcrumbs_by_path variables
@@ -1759,7 +1759,7 @@ function gsb_public_update_7073() {
 function gsb_public_update_7074() {
   variable_set('breadcrumbs_by_path_current_title', 1);
   variable_set('breadcrumbs_by_path_exclude_paths', '<front>');
-} 
+}
 
 /**
  * Enable gsb_feature_image_fpp.
@@ -1990,13 +1990,13 @@ function gsb_public_update_7093() {
       else if ($term->name == 'STEYER-TAYLOR') {
         $term->name = 'Steyer-Taylor Center for Energy Policy and Finance';
         taxonomy_term_save($term);
-      }               
+      }
       else if ($term->name == 'PHI') {
         taxonomy_term_delete($term->tid);
-      }    
+      }
       else if ($term->name == 'SPRIE') {
         taxonomy_term_delete($term->tid);
-      }          
+      }
 
     }
   }
@@ -2021,7 +2021,7 @@ function gsb_public_update_7095() {
   }
   if (!module_exists('gsb_feature_business_website_display')) {
     module_enable(array('gsb_feature_business_website_display'));
-  }  
+  }
 }
 
 /**
@@ -2045,7 +2045,7 @@ function gsb_public_update_7097() {
   ));
   $query->condition('year_pub.bundle','book','=');
   $result = $query->execute();
-  
+
   foreach ($result as $item) {
     $timestamp = strtotime($item->field_year_of_publication_value);
     $date_time = date_create('@' . $timestamp);
@@ -2054,7 +2054,7 @@ function gsb_public_update_7097() {
       ->fields(array('field_year_of_publication_value' => $date))
       ->condition('entity_id', $item->entity_id, '=')
       ->execute();
-  } 
+  }
 }
 
 /**
@@ -2084,10 +2084,10 @@ function gsb_public_update_7099() {
 function gsb_public_update_7100() {
   // Make the weight of our module one higher than panopoly_magic.
   $weight = db_select('system', 's')
-              ->fields('s', array('weight'))
-              ->condition('name', 'panopoly_magic', '=')
-              ->execute()
-              ->fetchField();
+    ->fields('s', array('weight'))
+    ->condition('name', 'panopoly_magic', '=')
+    ->execute()
+    ->fetchField();
 
   db_update('system')
     ->fields(array('weight' => $weight +1))
@@ -2118,7 +2118,7 @@ function gsb_public_update_7103() {
   if (!module_exists('menu_position')) {
     module_enable(array('menu_position'));
   }
-  
+
   variable_set('menu_position_active_link_display', 'parent');
 }
 
@@ -2142,7 +2142,7 @@ function gsb_public_update_7105() {
       $vocab_found = true;
       break;
     }
-  }  
+  }
   if ($vocab_found) {
     // add any new terms
     $new_terms = array(
@@ -2213,7 +2213,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Marketing"),
-    ),    
+    ),
     array(
       'from_term_name' => 'Technology',
       'remove_from_term' => true,
@@ -2229,7 +2229,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Operations, Information & Technology"),
-     ),
+    ),
     array(
       'from_term_name' => 'Transportation',
       'remove_from_term' => true,
@@ -2237,7 +2237,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'business_insight_topic',
       'to_term_names' => array("Management"),
-     ),    
+    ),
     array(
       'from_term_name' => 'Finance & Economics',
       'remove_from_term' => true,
@@ -2245,7 +2245,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Accounting","Economics","Finance","Political Economy"),
-     ),
+    ),
     /* no nodes found needing this update
     array(
       'from_term_name' => 'Marketing',
@@ -2254,7 +2254,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Marketing"),
-     ),   
+     ),
     */
     /* no nodes found needing this update
     array(
@@ -2264,7 +2264,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'business_insight_topic',
       'to_term_names' => array("Career & Success"),
-     ),        
+     ),
      */
     array(
       'from_term_name' => 'Management & Organizations',
@@ -2273,7 +2273,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'business_insight_topic',
       'to_term_names' => array("Career & Success","Corporate Governance","Management"),
-     ),
+    ),
     array(
       'from_term_name' => 'Management & Organizations',
       'remove_from_term' => true,
@@ -2281,7 +2281,7 @@ function gsb_public_update_7106() {
       'from_field_name' => 'field_business_insight_topic',
       'to_vocab_name' => 'academic_area',
       'to_term_names' => array("Organizational Behavior"),
-     ),
+    ),
   );
 
   foreach ($mapping as $mapping_info) {
@@ -2583,7 +2583,7 @@ function gsb_public_update_7127() {
   foreach ($field_names as $field_name) {
     $instance = field_info_instance('node', $field_name, 'working_paper');
     field_delete_instance($instance);
-  }  
+  }
   foreach ($field_names as $field_name) {
     $instance = field_info_instance('node', $field_name, 'publication');
     field_delete_instance($instance);
@@ -2697,14 +2697,14 @@ function gsb_public_update_7133() {
  */
 function gsb_public_update_7134() {
   _gsb_public_delete_fields(array('field_prefix_teaching_materials', 'field_prefix_non_degree_course'));
-} 
+}
 
 /**
  * Initialize the new gsb_feature_working_paper_ct_item_id variable
  */
 function gsb_public_update_7135() {
   variable_set('gsb_feature_working_paper_ct_item_id', 3000);
-} 
+}
 
 
 /**
@@ -2832,10 +2832,10 @@ function gsb_public_update_7144() {
       // move the image file
       $fid = $entity->field_file_single_public['und'][0]['fid'];
       $file_obj = file_load($fid);
-      gsb_public_update_7144_fileMove($file_obj,'image-cta');    
+      gsb_public_update_7144_fileMove($file_obj,'image-cta');
       // refetch the entity - with the updated file info
       $entity = fieldable_panels_panes_load_multiple(array($id), array(), TRUE);
-      $entity = $entity[$id];        
+      $entity = $entity[$id];
       // migrate the entity's file info from the older field to the new field
       $entity_file = $entity->field_file_single_public['und'][0];
       $entity->field_image_single_public['und'][0] = array(
@@ -2853,25 +2853,25 @@ function gsb_public_update_7144() {
         'field_sections' => $entity->field_file_single_public['und'][0]['field_sections'],
         'field_file_image_alignment' => $entity->field_file_single_public['und'][0]['field_file_image_alignment'],
         'field_file_image_show_caption' => $entity->field_file_single_public['und'][0]['field_file_image_show_caption'],
-        'metatags' => $entity->field_file_single_public['und'][0]['metatags'],                                                                      
-        'metadata' => $entity->field_file_single_public['und'][0]['metadata'], 
-        'alt' => $entity->field_file_single_public['und'][0]['alt'],  
-        'title' => $entity->field_file_single_public['und'][0]['title'],  
-        'width' => $entity->field_file_single_public['und'][0]['metadata']['width'],  
-        'height' => $entity->field_file_single_public['und'][0]['metadata']['height'],                                          
-      ); 
+        'metatags' => $entity->field_file_single_public['und'][0]['metatags'],
+        'metadata' => $entity->field_file_single_public['und'][0]['metadata'],
+        'alt' => $entity->field_file_single_public['und'][0]['alt'],
+        'title' => $entity->field_file_single_public['und'][0]['title'],
+        'width' => $entity->field_file_single_public['und'][0]['metadata']['width'],
+        'height' => $entity->field_file_single_public['und'][0]['metadata']['height'],
+      );
       fieldable_panels_panes_save($entity);
       // update the image bg color
       if (isset($entity->field_image_cta_bg_color['und'][0])) {
-        if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'green') { 
+        if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'green') {
           $entity->field_image_cta_bg_color['und'][0]['value'] = 'lime';
           fieldable_panels_panes_save($entity);
         }
-        if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'dark-teal') { 
+        if ($entity->field_image_cta_bg_color['und'][0]['value'] == 'dark-teal') {
           $entity->field_image_cta_bg_color['und'][0]['value'] = 'teal';
           fieldable_panels_panes_save($entity);
         }
-      }  
+      }
     }
   }
 }
@@ -2899,8 +2899,8 @@ function gsb_public_update_7145() {
   );
 
   // Update section editor user role permissions
-  user_role_grant_permissions($section_editor_user->rid, $section_editor_user_permissions);  
-  
+  user_role_grant_permissions($section_editor_user->rid, $section_editor_user_permissions);
+
   // Get the section manager user role
   $section_manager_user = user_role_load_by_name('section manager');
 
@@ -2921,7 +2921,7 @@ function gsb_public_update_7145() {
     // create/edit/delete the homepage_cta and image_cta
     'create fieldable homepage_cta',
     'edit fieldable homepage_cta',
-    'delete fieldable homepage_cta',    
+    'delete fieldable homepage_cta',
     'create fieldable image_cta',
     'edit fieldable image_cta',
     'delete fieldable image_cta',
@@ -2941,10 +2941,10 @@ function gsb_public_update_7146() {
   $bundle = 'image_cta';
 
   $field_names = array(
-    'field_title', 
-    'field_image_cta_text_pos', 
+    'field_title',
+    'field_image_cta_text_pos',
     'field_file_single_public'
-  ); 
+  );
 
   foreach ($field_names as $field_name) {
     $instance = field_info_instance($entity_type, $field_name, $bundle);
@@ -2952,7 +2952,7 @@ function gsb_public_update_7146() {
       field_delete_instance($instance);
     }
   }
-  
+
 }
 
 /**
@@ -3155,7 +3155,7 @@ function gsb_public_update_7160() {
 }
 
 /**
- * Update adminstrator user permissions for 
+ * Update adminstrator user permissions for
  */
 function gsb_public_update_7161() {
   // Get the admin user role
@@ -3308,7 +3308,7 @@ function gsb_public_update_7176() {
   }
   if (!module_exists('gsb_feature_insight_display')) {
     module_enable(array('gsb_feature_insight_display'));
-  }  
+  }
 }
 
 /**
@@ -3346,16 +3346,16 @@ function gsb_public_update_7179() {
     ))
     ->condition('field_link_style_value', 'red-bar', '=')
     ->execute();
-  
+
   $num_updated = db_update('field_revision_field_link_style')
     ->fields(array(
       'field_link_style_value' => 'black-bar',
     ))
     ->condition('field_link_style_value', 'red-bar', '=')
-    ->execute();    
+    ->execute();
 }
 
-/** 
+/**
  * Enable node_page_disable module.
  */
 function gsb_public_update_7180() {
@@ -3474,42 +3474,42 @@ function gsb_public_update_7181() {
 function gsb_public_update_7182() {
   $field_instances = array(
     array(
-      'entity_type' => 'node', 
+      'entity_type' => 'node',
       'field_name' => 'field_academic_degrees',
       'bundle' => 'student'
     ),
     array(
-      'entity_type' => 'fieldable_panels_pane', 
+      'entity_type' => 'fieldable_panels_pane',
       'field_name' => 'field_body',
       'bundle' => 'quote'
-    ),  
+    ),
     array(
-      'entity_type' => 'fieldable_panels_pane', 
+      'entity_type' => 'fieldable_panels_pane',
       'field_name' => 'field_link_single',
       'bundle' => 'quote'
-    ),    
+    ),
     array(
-      'entity_type' => 'fieldable_panels_pane', 
+      'entity_type' => 'fieldable_panels_pane',
       'field_name' => 'field_quote_link_company',
       'bundle' => 'quote'
-    ),   
+    ),
     array(
-      'entity_type' => 'fieldable_panels_pane', 
+      'entity_type' => 'fieldable_panels_pane',
       'field_name' => 'field_quote_author_name_title',
       'bundle' => 'quote'
-    ),       
+    ),
   );
-  
+
   foreach ( $field_instances as $fi_info ) {
     $instance = field_info_instance(
-      $fi_info['entity_type'], 
+      $fi_info['entity_type'],
       $fi_info['field_name'],
       $fi_info['bundle']
     );
     field_delete_instance($instance);
     field_purge_batch(10);
   }
-  
+
   field_delete_field('field_quote_link_company');
   field_purge_batch(10);
   field_delete_field('field_quote_author_name_title');
@@ -3549,22 +3549,22 @@ function gsb_public_update_7184() {
   field_purge_batch(10);
 }
 
-/** 
+/**
  * Enable gsb_feature_metatag, metatag_twitter_cards and metatag_opengraph modules.
  */
 function gsb_public_update_7185() {
   if (!module_exists('metatag_twitter_cards')) {
     module_enable(array('metatag_twitter_cards'));
-  }  
+  }
   if (!module_exists('metatag_opengraph')) {
     module_enable(array('metatag_opengraph'));
-  }    
+  }
   if (!module_exists('gsb_feature_metatag')) {
     module_enable(array('gsb_feature_metatag'));
-  }     
+  }
 }
 
-/** 
+/**
  * Update the resource image format to be image_resource_caption.
  */
 function gsb_public_update_7186() {
@@ -3573,16 +3573,16 @@ function gsb_public_update_7186() {
       'field_body_format' => 'image_resource_caption',
     ))
     ->condition('bundle', 'resource_image', '=')
-    ->execute();  
+    ->execute();
 }
 
-/** 
+/**
  * Enable filefield_paths module.
  */
 function gsb_public_update_7187() {
   if (!module_exists('filefield_paths')) {
     module_enable(array('filefield_paths'));
-  }  
+  }
 }
 
 /**
@@ -3718,10 +3718,10 @@ function gsb_public_update_7189() {
 function gsb_public_update_7190() {
   // Make the weight of our module one higher than panopoly_magic.
   $weight = db_select('system', 's')
-              ->fields('s', array('weight'))
-              ->condition('name', 'panopoly_magic', '=')
-              ->execute()
-              ->fetchField();
+    ->fields('s', array('weight'))
+    ->condition('name', 'panopoly_magic', '=')
+    ->execute()
+    ->fetchField();
 
   db_update('system')
     ->fields(array('weight' => $weight +1))
@@ -3774,13 +3774,13 @@ function gsb_public_update_7193() {
   pathauto_node_update_alias_multiple($nids, 'bulkupdate', array('force' => TRUE));
 }
 
-/** 
+/**
  * Enable gsb_submenu_alias_update module.
  */
 function gsb_public_update_7194() {
   if (!module_exists('gsb_submenu_alias_update')) {
     module_enable(array('gsb_submenu_alias_update'));
-  }  
+  }
 }
 
 /**
@@ -3800,7 +3800,7 @@ function gsb_public_update_7195() {
  *   'offsite_school_story',
  *   'offsite_idea_story',
  *   'book',
- *   'publication' 
+ *   'publication'
  */
 function gsb_public_update_7196() {
   $field_name = 'field_program_single';
@@ -3880,8 +3880,8 @@ function gsb_public_update_7199() {
   foreach($field['settings']['allowed_values'] as $term_name){
     $vocabulary = taxonomy_vocabulary_machine_name_load('cta_action');
     $new_term = (object) array(
-       'vid' => $vocabulary->vid,
-       'name' => $term_name,
+      'vid' => $vocabulary->vid,
+      'name' => $term_name,
     );
     taxonomy_term_save($new_term);
   }
@@ -3890,8 +3890,8 @@ function gsb_public_update_7199() {
   // Get list of all cta's
   $query = new EntityFieldQuery();
   $query
-     ->entityCondition('entity_type', $entity_type)
-     ->entityCondition('bundle', 'cta');
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'cta');
 
   $entities = $query->execute();
   // Loop through all cta's
@@ -3927,13 +3927,13 @@ function gsb_public_update_7200() {
   field_purge_batch(10);
 }
 
-/** 
+/**
  * Enable gsb_feature_files_fpp module.
  */
 function gsb_public_update_7201() {
   if (!module_exists('gsb_feature_files_fpp')) {
     module_enable(array('gsb_feature_files_fpp'));
-  }  
+  }
 }
 
 /**
@@ -4018,16 +4018,16 @@ function gsb_public_update_7203() {
   }
 }
 
-/** 
+/**
  * Enable gsb_misc_fixes module.
  */
 function gsb_public_update_7204() {
   if (!module_exists('gsb_misc_fixes')) {
     module_enable(array('gsb_misc_fixes'));
-  }  
+  }
 }
 
-/** 
+/**
  * Enable gsb_restricted_pages module.
  */
 function gsb_public_update_7205() {
@@ -4035,19 +4035,19 @@ function gsb_public_update_7205() {
     module_enable(array('gsb_restricted_pages'));
   }
 }
- 
-/** 
+
+/**
  * Enable alumni_cas_auth module.
  */
 function gsb_public_update_7206() {
   if (!module_exists('alumni_cas_auth')) {
     module_enable(array('alumni_cas_auth'));
-  }  
+  }
   // Create the alumnipg role
   $alumnipg_role = new stdClass();
   $alumnipg_role->name = 'alumnipg';
   $alumnipg_role->weight = 12;
-  user_role_save($alumnipg_role);  
+  user_role_save($alumnipg_role);
 }
 
 /**
@@ -4210,8 +4210,8 @@ function gsb_public_update_7212() {
   // Get list of all image fpp
   $query = new EntityFieldQuery();
   $query
-     ->entityCondition('entity_type', $entity_type)
-     ->entityCondition('bundle', 'image');
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'image');
 
   $entities = $query->execute();
 
@@ -4380,18 +4380,18 @@ function gsb_public_update_7225() {
 }
 
 /**
- * Update our Library settings for Agenda 
+ * Update our Library settings for Agenda
  */
 function gsb_public_update_7226() {
   $bid = 2;
-  
+
   $name = 'googleapi_override';
   $value = variable_get('googleapi_override_key', '');
   agenda_variable_set($bid, $name, $value);
-  
+
   $name = 'maxevents';
   $value = 1;
-  agenda_variable_set($bid, $name, $value);  
+  agenda_variable_set($bid, $name, $value);
 }
 
 /**
@@ -4424,11 +4424,11 @@ function gsb_public_update_7229() {
  * Delete aliases for alumni reunion agenda item.
  */
 function gsb_public_update_7230() {
-    $result = db_query("SELECT pid FROM {url_alias} WHERE source IN(SELECT concat('node/', nid) FROM {node} WHERE type = 'alumni_reunion_agenda_item')");
-    $records = $result->fetchCol();
-    foreach($records as $pid) {
-      path_delete($pid);
-    }
+  $result = db_query("SELECT pid FROM {url_alias} WHERE source IN(SELECT concat('node/', nid) FROM {node} WHERE type = 'alumni_reunion_agenda_item')");
+  $records = $result->fetchCol();
+  foreach($records as $pid) {
+    path_delete($pid);
+  }
 }
 
 /**
@@ -4484,11 +4484,11 @@ function gsb_public_update_7233() {
  */
 function gsb_public_update_7234() {
 // Removed from this release.
-/**
+  /**
   if (module_exists('googleanalytics')) {
-    module_disable(array('googleanalytics'));
+  module_disable(array('googleanalytics'));
   }
-**/
+   **/
 }
 
 /**
@@ -4531,15 +4531,15 @@ function gsb_public_update_7236() {
  * Create the field collection wrapper
  */
 function _gsb_public_update_create_fc_wrapper($entity_type, $entity) {
-    // Create a field_collection_item entity
-    $fc_item = entity_create('field_collection_item', array('field_name' => 'field_staff_item'));
+  // Create a field_collection_item entity
+  $fc_item = entity_create('field_collection_item', array('field_name' => 'field_staff_item'));
 
-    $node = node_load($entity->nid);
+  $node = node_load($entity->nid);
 
-    // Attach it to the node and Wrap it with Entity API
-    $fc_item->setHostEntity($entity_type, $node);
-    $fc_wrapper = entity_metadata_wrapper('field_collection_item', $fc_item);
-    return $fc_wrapper;
+  // Attach it to the node and Wrap it with Entity API
+  $fc_item->setHostEntity($entity_type, $node);
+  $fc_wrapper = entity_metadata_wrapper('field_collection_item', $fc_item);
+  return $fc_wrapper;
 }
 
 /**
@@ -4551,8 +4551,8 @@ function gsb_public_update_7237() {
   // Get list of all staff nodes
   $query = new EntityFieldQuery();
   $query
-     ->entityCondition('entity_type', $entity_type)
-     ->entityCondition('bundle', 'staff');
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'staff');
 
   $entities = $query->execute();
 
@@ -4619,8 +4619,8 @@ function gsb_public_update_7239() {
   // Get list of all staff nodes
   $query = new EntityFieldQuery();
   $query
-     ->entityCondition('entity_type', $entity_type)
-     ->entityCondition('bundle', 'staff');
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'staff');
 
   $entities = $query->execute();
 
@@ -4662,8 +4662,8 @@ function gsb_public_update_7242() {
   // Get all book nodes
   $query = new EntityFieldQuery();
   $query
-     ->entityCondition('entity_type', $entity_type)
-     ->entityCondition('bundle', 'book');
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'book');
 
   $entities = $query->execute();
 
@@ -4754,7 +4754,6 @@ function gsb_public_update_7249() {
   module_disable(array('gsb_academic_year'));
   drupal_uninstall_modules(array('gsb_academic_year'));
 }
-
 /**
  * Enable gsb_feature_view_modes module.
  */
@@ -4770,8 +4769,8 @@ function gsb_public_update_7250() {
 function gsb_public_update_7251() {
   db_insert('date_format_type')
     ->fields(array('type' => 'day_month_and_year', 'title' => 'Day Month and Year', 'locked' => 0))
-    ->execute();   
-  variable_set('date_format_day_month_and_year', 'd M Y');  
+    ->execute();
+  variable_set('date_format_day_month_and_year', 'd M Y');
 }
 
 /**
@@ -4788,4 +4787,235 @@ function gsb_public_update_7252() {
 function gsb_public_update_7253() {
   module_disable(array('gsb_feature_google_analytics_settings'));
   drupal_uninstall_modules(array('gsb_feature_google_analytics_settings'));
+}
+
+/**
+ * Enable gsb_content_pane_info module.
+ */
+function gsb_public_update_7254() {
+  if (!module_exists('gsb_content_pane_info')) {
+    module_enable(array('gsb_content_pane_info'));
+  }
+}
+
+/**
+ * Enable tzfield module.
+ */
+function gsb_public_update_7255() {
+  if (!module_exists('tzfield')) {
+    module_enable(array('tzfield'));
+  }
+}
+
+/**
+ * Enable gsb_feature_admission_event_ct module.
+ */
+function gsb_public_update_7256() {
+  if (!module_exists('gsb_feature_admission_event_ct')) {
+    module_enable(array('gsb_feature_admission_event_ct'));
+  }
+}
+
+/**
+ * Enable gsb_feature_event_shared module.
+ */
+function gsb_public_update_7257() {
+  if (!module_exists('gsb_feature_event_shared')) {
+    module_enable(array('gsb_feature_event_shared'));
+  }
+}
+
+/**
+ * Enable gsb_feature_admission_event_display module.
+ */
+function gsb_public_update_7258() {
+  if (!module_exists('gsb_feature_admission_event_display')) {
+    module_enable(array('gsb_feature_admission_event_display'));
+  }
+}
+
+/**
+ * Enable gsb_cvent module.
+ */
+function gsb_public_update_7259() {
+  if (!module_exists('gsb_cvent')) {
+    module_enable(array('gsb_cvent'));
+  }
+}
+
+/**
+ * Update adminstrator user permissions for cvent
+ */
+function gsb_public_update_7260() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer cvent',
+  );
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
+
+/**
+ * Remove field instances from event
+ */
+function gsb_public_update_7261() {
+  $delete_instance = array(
+    'field_academic_area_unlimited',
+    'field_event_category',
+    'field_address',
+    'field_event_series',
+    'field_department',
+    'field_person_fac_other',
+    'field_link_map',
+    'field_region'
+  );
+  foreach($delete_instance as $field_name) {
+    // Get Field Instance
+    $instance = field_info_instance('node', $field_name, 'event');
+    if (!$instance) {
+      continue;
+    }
+    // Mark field for deletion.
+    field_delete_instance($instance);
+    // Remove field marked for deletion.
+    field_purge_batch(10);
+  }
+  $delete_group_instance = array(
+    'group_target_audience',
+    'group_department',
+    'group_event_series',
+    'group_event_category',
+    'group_tags',
+    'group_region',
+    'group_academic_area',
+    'group_taxonomy',
+    'group_event_image',
+    'group_location'
+  );
+  foreach($delete_group_instance as $group_name) {
+    if ($group = field_group_load_field_group($group_name, 'node', 'event', 'form')) {
+      ctools_include('export');
+      field_group_group_export_delete($group, FALSE);
+    }
+  }
+}
+
+/**
+ * Save terms to Timezone taxonomy.
+ */
+function gsb_public_update_7262() {
+
+  // Revert taxonomy feature to create timezone vocab
+  features_revert_module('gsb_feature_taxonomy');
+
+  $timezone_vocab = taxonomy_vocabulary_machine_name_load('timezone');
+
+  $terms = array(
+    'Africa/Addis_Ababa' => 'Arab Time',
+    'Africa/Algiers' => 'W. Central Africa Time',
+    'Africa/Cairo' => 'Egypt Time',
+    'Africa/Dar_es_Salaam' => 'E. Africa Time',
+    'Africa/Johannesburg' => 'South Africa Time',
+    'Africa/Tripoli' => 'GTB Time',
+    'America/Adak' => 'Alaska Time',
+    'America/Anchorage' => 'Pacific Time',
+    'America/Argentina/Buenos_Aires' => 'SA Eastern Time',
+    'America/Boise' => 'Central Time',
+    'America/Caracas' => 'Venezuela Standard Time',
+    'America/Curacao' => 'Pacific SA Time',
+    'America/Guatemala' => 'Central America Time',
+    'America/Halifax' => 'Greenland Time',
+    'America/Indiana/Knox' => 'US Eastern Time',
+    'America/La_Paz' => 'SA Western Time',
+    'America/Lima' => 'SA Pacific Time',
+    'America/Mazatlan' => 'Mexico Time',
+    'America/Noronha' => 'Mid-Atlantic Time',
+    'America/Phoenix' => 'Arizona Time',
+    'America/Regina' => 'Canada Central Time',
+    'America/Sao_Paulo' => 'E. South America Time',
+    'America/St_Johns' => 'Newfoundland Time',
+    'America/Toronto' => 'Atlantic Time',
+    'America/Vancouver' => 'Mountain Time',
+    'America/Winnipeg' => 'Eastern Time',
+    'Asia/Almaty' => 'Central Asia Time',
+    'Asia/Baku' => 'West Asia Time',
+    'Asia/Bangkok' => 'SE Asia Time',
+    'Asia/Bishkek' => 'N. Central Asia Time',
+    'Asia/Brunei' => 'Malay Peninsula Time',
+    'Asia/Colombo' => 'Sri Lanka Time',
+    'Asia/Dubai' => 'Arabian Time',
+    'Asia/Hong_Kong' => 'China Time',
+    'Asia/Jerusalem' => 'Jerusalem Time',
+    'Asia/Kabul' => 'Afghanistan Time',
+    'Asia/Kathmandu' => 'Nepal Time',
+    'Asia/Kolkata' => 'India Time',
+    'Asia/Krasnoyarsk' => 'North Asia Time',
+    'Asia/Kuwait' => 'Arabic Time',
+    'Asia/Rangoon' => 'Myanmar Time',
+    'Asia/Seoul' => 'Korea Time',
+    'Asia/Shanghai' => 'North Asia East Time',
+    'Asia/Taipei' => 'Taipei Time',
+    'Asia/Tbilisi' => 'Caucasus Time',
+    'Asia/Tehran' => 'Iran Time',
+    'Asia/Tokyo' => 'Tokyo Time',
+    'Asia/Vladivostok' => 'Vladivostok Time',
+    'Asia/Yakutsk' => 'Yakutsk Time',
+    'Asia/Yekaterinburg' => 'Ekaterinburg Time',
+    'Atlantic/Cape_Verde' => 'Azores Time',
+    'Atlantic/Cape_Verde' => 'Cape Verde Time',
+    'Australia/Adelaide' => 'Cen. Australia Time',
+    'Australia/Brisbane' => 'AUS Eastern Time',
+    'Europe/London' => 'Romance Time',
+    'Australia/Darwin' => 'AUS Central Time',
+    'Australia/Hobart' => 'Tasmanian Time',
+    'Australia/Perth' => 'W. Australia Time',
+    'Europe/London' => 'Central Europe Time',
+    'Australia/Sydney' => 'E. Australia Time',
+    'Europe/London' => 'W. Europe Time',
+    'Europe/Moscow' => 'Russian Time',
+    'Europe/Oslo' => 'FLE Time',
+    'Europe/Prague' => 'E. Europe Time',
+    'Pacific/Apia' => 'Tonga Time',
+    'Pacific/Auckland' => 'New Zealand Time',
+    'UTC' => 'GMT Time',
+    'Pacific/Fiji' => 'Fiji Islands Time',
+    'Pacific/Guadalcanal' => 'Central Pacific Time',
+    'Pacific/Guam' => 'West Pacific Time',
+    'Pacific/Honolulu' => 'Hawaiian Time',
+    'Pacific/Pago_Pago' => 'Samoa Time',
+    'UTC' => 'Greenwich Time',
+    'America/Anchorage' => 'Eastern Time Zone',
+    'America/Tijuana' => 'Mexico2 Time',
+  );
+
+  foreach ($terms as $drupal_term => $cvent_term) {
+    $newterm = new stdClass();
+    $newterm->name = $cvent_term; // The name of the term
+    $newterm->vid = $timezone_vocab->vid; // The ID of the parent vocabulary
+    $newterm->parent = 0; // This tells taxonomy that this is a top-level term
+    $newterm->field_drupal_timezone[LANGUAGE_NONE][0]['value'] = $drupal_term;
+    taxonomy_term_save($newterm);
+  }
+}
+
+/**
+ * Remove field instances from event
+ */
+function gsb_public_update_7263() {
+  $delete_instance = array(
+    'field_event_category',
+  );
+  foreach($delete_instance as $field_name) {
+    // Get Field Instance
+    $instance = field_info_instance('node', $field_name, 'academic_calendar_event');
+    if (!$instance) {
+      continue;
+    }
+    // Mark field for deletion.
+    field_delete_instance($instance);
+    // Remove field marked for deletion.
+    field_purge_batch(10);
+  }
 }
