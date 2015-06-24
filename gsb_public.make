@@ -426,7 +426,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][branch] = release-5.04
+projects[gsb_feature_case_ct][download][tag] = 5.04
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
