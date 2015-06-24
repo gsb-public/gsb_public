@@ -105,6 +105,7 @@ dependencies[] = gsb_advanced_menu_customization
 dependencies[] = gsb_auto_upload_file
 dependencies[] = gsb_az_filter
 dependencies[] = gsb_connecting_link
+dependencies[] = gsb_content_pane_info
 dependencies[] = gsb_custom_section_title
 dependencies[] = gsb_field_authors
 dependencies[] = gsb_field_formatter
