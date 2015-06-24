@@ -4798,3 +4798,12 @@ function gsb_public_update_7254() {
     module_enable(array('gsb_content_pane_info'));
   }
 }
+
+/**
+ * Enable tzfield module.
+ */
+function gsb_public_update_7253() {
+  if (!module_exists('tzfield')) {
+    module_enable(array('tzfield'));
+  }
+}
