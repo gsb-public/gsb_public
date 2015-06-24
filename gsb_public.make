@@ -26,7 +26,7 @@ projects[resources][download][url] = git@github.com:gsb-public/resources.git
 projects[resources][download][branch] = master
 projects[resources][subdir] = custom
 
-; SoundCloud API 
+; SoundCloud API
 projects[soundcloud_api][type] = module
 projects[soundcloud_api][download][type] = git
 projects[soundcloud_api][download][url] = git@github.com:gsb-public/soundcloud_api.git
@@ -1163,7 +1163,7 @@ libraries[google-api-php-client][download][branch] = master
 projects[hierarchical_select][version] = 3.0-alpha12
 projects[hierarchical_select][subdir] = contrib
 
-projects[hs_lite][version] = 1.x-dev 
+projects[hs_lite][version] = 1.x-dev
 projects[hs_lite][subdir] = contrib
 projects[hs_lite][type] = module
 projects[hs_lite][download][type] = git
