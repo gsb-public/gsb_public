@@ -508,7 +508,7 @@ projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 projects[gsb_feature_existing_node_list_fpp][type] = module
 projects[gsb_feature_existing_node_list_fpp][download][type] = git
 projects[gsb_feature_existing_node_list_fpp][download][url] = git@github.com:gsb-public/gsb_feature_existing_node_list_fpp.git
-projects[gsb_feature_existing_node_list_fpp][download][branch] = release-5.14
+projects[gsb_feature_existing_node_list_fpp][download][tag] = 5.14
 projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 
 ; GSB Feature Faculty Content Type
