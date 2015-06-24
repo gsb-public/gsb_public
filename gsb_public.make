@@ -1385,6 +1385,9 @@ projects[token][subdir] = contrib
 projects[typogrify][version] = 1.0-rc10
 projects[typogrify][subdir] = contrib
 
+projects[tzfield][version] = 1.1
+projects[tzfield][subdir] = contrib
+
 projects[uuid][version] = 1.0-alpha6
 projects[uuid][subdir] = contrib
 
