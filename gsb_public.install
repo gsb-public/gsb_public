@@ -4791,3 +4791,12 @@ function gsb_public_update_7253() {
     module_enable(array('tzfield'));
   }
 }
+
+/**
+ * Enable gsb_feature_admission_event_ct module.
+ */
+function gsb_public_update_7254() {
+  if (!module_exists('gsb_feature_admission_event_ct')) {
+    module_enable(array('gsb_feature_admission_event_ct'));
+  }
+}
