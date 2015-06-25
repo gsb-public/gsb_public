@@ -345,6 +345,13 @@ projects[gsb_feature_act_display][download][url] = git@github.com:gsb-public/gsb
 projects[gsb_feature_act_display][download][tag] = 5.04
 projects[gsb_feature_act_display][subdir] = custom/features
 
+; GSB Features Admission Event CT
+projects[gsb_feature_admission_event_ct][type] = module
+projects[gsb_feature_admission_event_ct][download][type] = git
+projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.15
+projects[gsb_feature_admission_event_ct][subdir] = custom/features
+
 ; GSB Features Alumni CT
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
