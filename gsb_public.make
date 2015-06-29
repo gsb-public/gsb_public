@@ -398,7 +398,7 @@ projects[gsb_feature_alumni_reunion_session_ct][subdir] = custom/features
 projects[gsb_feature_announcement_ct][type] = module
 projects[gsb_feature_announcement_ct][download][type] = git
 projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public/gsb_feature_announcement_ct.git
-projects[gsb_feature_announcement_ct][download][tag] = 5.06
+projects[gsb_feature_announcement_ct][download][branch] = release-5.07
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
 ; GSB Feature base fields
@@ -606,7 +606,7 @@ projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 projects[gsb_feature_idea_story_ct][type] = module
 projects[gsb_feature_idea_story_ct][download][type] = git
 projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_idea_story_ct.git
-projects[gsb_feature_idea_story_ct][download][tag] = 5.09
+projects[gsb_feature_idea_story_ct][download][branch] = release-5.10
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Idea Story Display
@@ -725,14 +725,14 @@ projects[gsb_feature_news_display][subdir] = custom/features
 projects[gsb_feature_offsite_idea_story_ct][type] = module
 projects[gsb_feature_offsite_idea_story_ct][download][type] = git
 projects[gsb_feature_offsite_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_idea_story_ct.git
-projects[gsb_feature_offsite_idea_story_ct][download][tag] = 5.04
+projects[gsb_feature_offsite_idea_story_ct][download][branch] = release-5.05
 projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Offsite School Story CT
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.03
+projects[gsb_feature_offsite_school_story_ct][download][branch] = release-5.04
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
@@ -813,7 +813,7 @@ projects[gsb_feature_rss_feeds][subdir] = custom/features
 projects[gsb_feature_school_story_ct][type] = module
 projects[gsb_feature_school_story_ct][download][type] = git
 projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_school_story_ct.git
-projects[gsb_feature_school_story_ct][download][tag] = 5.07
+projects[gsb_feature_school_story_ct][download][branch] = release-5.08
 projects[gsb_feature_school_story_ct][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
