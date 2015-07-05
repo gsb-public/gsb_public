@@ -4800,3 +4800,12 @@ function gsb_public_update_7254() {
     module_enable(array('gsb_feature_admission_event_ct'));
   }
 }
+
+/**
+ * Enable gsb_cvent module.
+ */
+function gsb_public_update_7255() {
+  if (!module_exists('gsb_cvent')) {
+    module_enable(array('gsb_cvent'));
+  }
+}

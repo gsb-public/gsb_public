@@ -117,6 +117,13 @@ projects[gsb_custom_section_title][download][url] = git@github.com:gsb-public/gs
 projects[gsb_custom_section_title][download][tag] = 1.0
 projects[gsb_custom_section_title][subdir] = custom
 
+; GSB Cvent
+projects[gsb_cvent][type] = module
+projects[gsb_cvent][download][type] = git
+projects[gsb_cvent][download][url] = git@github.com:gsb-public/gsb_cvent.git
+projects[gsb_cvent][download][branch] = WP-5555
+projects[gsb_cvent][subdir] = custom
+
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
@@ -1309,6 +1316,9 @@ projects[phone][subdir] = contrib
 
 libraries[php-soundcloud][download][type] = git
 libraries[php-soundcloud][download][url] = git@github.com:mptre/php-soundcloud.git
+
+libraries[php-cvent][download][type] = git
+libraries[php-cvent][download][url] = git@github.com:gcanivet/php-cvent.git
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
