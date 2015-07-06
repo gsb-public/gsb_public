@@ -511,6 +511,13 @@ projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/g
 projects[gsb_feature_event_display][download][branch] = release-5.07
 projects[gsb_feature_event_display][subdir] = custom/features
 
+; GSB Feature Event Shared
+projects[gsb_feature_event_shared][type] = module
+projects[gsb_feature_event_shared][download][type] = git
+projects[gsb_feature_event_shared][download][url] = git@github.com:gsb-public/gsb_feature_event_shared.git
+projects[gsb_feature_event_shared][download][branch] = release-5.15
+projects[gsb_feature_event_shared][subdir] = custom/features
+
 ; GSB Feature Existing Node FPP
 projects[gsb_feature_existing_node_fpp][type] = module
 projects[gsb_feature_existing_node_fpp][download][type] = git
