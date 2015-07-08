@@ -184,7 +184,7 @@ projects[gsb_misc_fixes][subdir] = custom
 projects[gsb_migrate][type] = module
 projects[gsb_migrate][download][type] = git
 projects[gsb_migrate][download][url] = git@github.com:gsb-public/gsb_migrate.git
-projects[gsb_migrate][download][tag] = 5.0
+projects[gsb_migrate][download][branch] = release-5.01
 projects[gsb_migrate][subdir] = custom
 
 ; GSB Node Modal
