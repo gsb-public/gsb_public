@@ -974,7 +974,7 @@ projects[gsb_theme_admin][download][tag] = 5.03
 projects[acquia_connector][version] = 2.15
 projects[acquia_connector][subdir] = contrib
 
-projects[acquia_purge][version] = 1.1
+projects[acquia_purge][version] = 1.2
 projects[acquia_purge][subdir] = contrib
 
 projects[addressfield][version] = 1.1
