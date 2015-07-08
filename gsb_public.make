@@ -142,7 +142,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsb-public/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 5.02
+projects[gsb_fpp_customization][download][branch] = release-5.03
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -433,7 +433,7 @@ projects[gsb_feature_case_ct][subdir] = custom/features
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][tag] = 5.06
+projects[gsb_feature_case_display][download][branch] = release-5.07
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Chute FPP
@@ -1390,7 +1390,7 @@ projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
 projects[views_autocomplete_filters][patch][2493069] = https://www.drupal.org/files/issues/views_autocomplete_filters-2493069-1.patch
 
-projects[views_bulk_operations][version] = 3.2
+projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_field_view][version] = 1.1
