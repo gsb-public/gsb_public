@@ -1018,14 +1018,12 @@ projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_field_patch-2476195-2.patch
 
-projects[ctools][version] = 1.x-dev
+projects[ctools][version] = 1.7
 projects[ctools][subdir] = contrib
-projects[ctools][download][type] = git
-projects[ctools][download][revision] = 7f9e55d
-projects[ctools][download][branch] = 7.x-1.x
-projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-28.patch
-projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/ctools-views_content-exposed_form_override-1901106-27.patch
+projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-29.patch
+projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-30.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
+projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/ctools-view-mode-pane-settings-2032293-22.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
