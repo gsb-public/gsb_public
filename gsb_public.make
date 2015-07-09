@@ -352,7 +352,7 @@ projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-pub
 projects[gsb_feature_admission_event_ct][download][branch] = release-5.15
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
-; GSB Features Admission Event CT
+; GSB Features Admission Event Display
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
