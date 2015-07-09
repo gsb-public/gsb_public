@@ -162,7 +162,6 @@ dependencies[] = gsb_feature_featured_content_fpp
 dependencies[] = gsb_feature_featured_insight_card_fpp
 dependencies[] = gsb_feature_file_types
 dependencies[] = gsb_feature_files_fpp
-dependencies[] = gsb_feature_google_analytics_settings
 dependencies[] = gsb_feature_google_tag_manager
 dependencies[] = gsb_feature_gsa_search
 dependencies[] = gsb_feature_homepage_cta_fpp
