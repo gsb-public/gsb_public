@@ -4810,3 +4810,12 @@ function gsb_public_update_7255() {
   }
 }
 
+/**
+ * Enable gsb_feature_admission_event_display module.
+ */
+function gsb_public_update_7256() {
+  if (!module_exists('gsb_feature_admission_event_display')) {
+    module_enable(array('gsb_feature_admission_event_display'));
+  }
+}
+
