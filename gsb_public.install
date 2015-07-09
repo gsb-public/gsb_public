@@ -4773,3 +4773,11 @@ function gsb_public_update_7251() {
     ->execute();   
   variable_set('date_format_day_month_and_year', 'd M Y');  
 }
+
+/**
+ * Fixes filename used by views_autocomplete module.
+ */
+function gsb_public_update_7252() {
+  db_query("UPDATE {registry} SET filename = 'profiles/gsb_public/modules/contrib/views_autocomplete_filters/views/handlers/views_autocomplete_filters_handler_filter_string.inc' WHERE name = 'views_autocomplete_filters_handler_filter_string'");
+  cache_clear_all();
+}
