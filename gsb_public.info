@@ -138,6 +138,7 @@ dependencies[] = gsb_feature_accordion
 dependencies[] = gsb_feature_act_ct
 dependencies[] = gsb_feature_act_display
 dependencies[] = gsb_feature_admission_event_ct
+dependencies[] = gsb_feature_admission_event_display
 dependencies[] = gsb_feature_alumni_ct
 dependencies[] = gsb_feature_alumni_reunion_agenda_item_ct
 dependencies[] = gsb_feature_alumni_reunion_agenda_item_display
