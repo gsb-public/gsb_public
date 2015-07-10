@@ -4835,3 +4835,17 @@ function gsb_public_update_7258() {
     module_enable(array('gsb_cvent'));
   }
 }
+
+/**
+ * Update adminstrator user permissions for cvent
+ */
+function gsb_public_update_7259() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer cvent',
+  );
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
