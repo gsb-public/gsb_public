@@ -5019,3 +5019,12 @@ function gsb_public_update_7263() {
     field_purge_batch(10);
   }
 }
+
+/**
+ * Enable gsb_cvent module.
+ */
+function gsb_public_update_7258() {
+  if (!module_exists('gsb_cvent')) {
+    module_enable(array('gsb_cvent'));
+  }
+}
