@@ -1331,6 +1331,9 @@ projects[phone][subdir] = contrib
 libraries[php-soundcloud][download][type] = git
 libraries[php-soundcloud][download][url] = git@github.com:mptre/php-soundcloud.git
 
+libraries[php-cvent][download][type] = git
+libraries[php-cvent][download][url] = git@github.com:gcanivet/php-cvent.git
+
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
