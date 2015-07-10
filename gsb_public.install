@@ -4826,3 +4826,12 @@ function gsb_public_update_7257() {
   db_query("UPDATE {registry} SET filename = 'profiles/gsb_public/modules/contrib/views_autocomplete_filters/views/handlers/views_autocomplete_filters_handler_filter_string.inc' WHERE name = 'views_autocomplete_filters_handler_filter_string'");
   cache_clear_all();
 }
+
+/**
+ * Enable gsb_cvent module.
+ */
+function gsb_public_update_7258() {
+  if (!module_exists('gsb_cvent')) {
+    module_enable(array('gsb_cvent'));
+  }
+}
