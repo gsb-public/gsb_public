@@ -108,6 +108,7 @@ dependencies[] = gsb_az_filter
 dependencies[] = gsb_connecting_link
 dependencies[] = gsb_content_pane_info
 dependencies[] = gsb_custom_section_title
+dependencies[] = gsb_cvent
 dependencies[] = gsb_field_authors
 dependencies[] = gsb_field_formatter
 dependencies[] = gsb_fpp_customization
