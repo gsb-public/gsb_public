@@ -405,7 +405,7 @@ projects[gsb_feature_book_ct][subdir] = custom/features
 projects[gsb_feature_book_display][type] = module
 projects[gsb_feature_book_display][download][type] = git
 projects[gsb_feature_book_display][download][url] = git@github.com:gsb-public/gsb_feature_book_display.git
-projects[gsb_feature_book_display][download][tag] = 5.03
+projects[gsb_feature_book_display][download][branch] = release-5.04
 projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Business Website
@@ -697,7 +697,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.06
+projects[gsb_feature_news_display][download][branch] = release-5.07
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
@@ -764,7 +764,7 @@ projects[gsb_feature_publication_ct][subdir] = custom/features
 projects[gsb_feature_publication_display][type] = module
 projects[gsb_feature_publication_display][download][type] = git
 projects[gsb_feature_publication_display][download][url] = git@github.com:gsb-public/gsb_feature_publication_display.git
-projects[gsb_feature_publication_display][download][tag] = 5.03
+projects[gsb_feature_publication_display][download][branch] = release-5.04
 projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Feature Ranking CT
@@ -904,7 +904,7 @@ projects[gsb_feature_working_paper_ct][subdir] = custom/features
 projects[gsb_feature_working_paper_display][type] = module
 projects[gsb_feature_working_paper_display][download][type] = git
 projects[gsb_feature_working_paper_display][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_display.git
-projects[gsb_feature_working_paper_display][download][tag] = 5.03
+projects[gsb_feature_working_paper_display][download][branch] = release-5.04
 projects[gsb_feature_working_paper_display][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
