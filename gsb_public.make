@@ -321,7 +321,7 @@ projects[zurb_responsive_tables][subdir] = custom
 projects[gsb_feature_academic_calendar_ct][type] = module
 projects[gsb_feature_academic_calendar_ct][download][type] = git
 projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsb-public/gsb_feature_academic_calendar_ct.git
-projects[gsb_feature_academic_calendar_ct][download][tag] = 5.02
+projects[gsb_feature_academic_calendar_ct][download][branch] = release-5.03
 projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 
 ; GSB Features Academic Calendar Display
@@ -960,7 +960,7 @@ projects[gsb_feature_wysiwyg][subdir] = custom/features
 projects[gsb_feature_view_modes][type] = module
 projects[gsb_feature_view_modes][download][type] = git
 projects[gsb_feature_view_modes][download][url] = git@github.com:gsb-public/gsb_feature_view_modes.git
-projects[gsb_feature_view_modes][download][tag] = 5.14
+projects[gsb_feature_view_modes][download][branch] = release-5.15
 projects[gsb_feature_view_modes][subdir] = custom/features
 
 ;================================================
