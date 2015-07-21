@@ -4754,7 +4754,6 @@ function gsb_public_update_7249() {
   module_disable(array('gsb_academic_year'));
   drupal_uninstall_modules(array('gsb_academic_year'));
 }
-
 /**
  * Enable gsb_feature_view_modes module.
  */
@@ -4802,7 +4801,7 @@ function gsb_public_update_7254() {
 /**
  * Enable tzfield module.
  */
-function gsb_public_update_7253() {
+function gsb_public_update_7255() {
   if (!module_exists('tzfield')) {
     module_enable(array('tzfield'));
   }
@@ -4811,7 +4810,7 @@ function gsb_public_update_7253() {
 /**
  * Enable gsb_feature_admission_event_ct module.
  */
-function gsb_public_update_7254() {
+function gsb_public_update_7256() {
   if (!module_exists('gsb_feature_admission_event_ct')) {
     module_enable(array('gsb_feature_admission_event_ct'));
   }
@@ -4820,7 +4819,7 @@ function gsb_public_update_7254() {
 /**
  * Enable gsb_feature_event_shared module.
  */
-function gsb_public_update_7255() {
+function gsb_public_update_7257() {
   if (!module_exists('gsb_feature_event_shared')) {
     module_enable(array('gsb_feature_event_shared'));
   }
@@ -4829,24 +4828,16 @@ function gsb_public_update_7255() {
 /**
  * Enable gsb_feature_admission_event_display module.
  */
-function gsb_public_update_7256() {
+function gsb_public_update_7258() {
   if (!module_exists('gsb_feature_admission_event_display')) {
     module_enable(array('gsb_feature_admission_event_display'));
   }
 }
 
 /**
- * Fixes filename used by views_autocomplete module.
- */
-function gsb_public_update_7257() {
-  db_query("UPDATE {registry} SET filename = 'profiles/gsb_public/modules/contrib/views_autocomplete_filters/views/handlers/views_autocomplete_filters_handler_filter_string.inc' WHERE name = 'views_autocomplete_filters_handler_filter_string'");
-  cache_clear_all();
-}
-
-/**
  * Enable gsb_cvent module.
  */
-function gsb_public_update_7258() {
+function gsb_public_update_7259() {
   if (!module_exists('gsb_cvent')) {
     module_enable(array('gsb_cvent'));
   }
@@ -4855,83 +4846,7 @@ function gsb_public_update_7258() {
 /**
  * Update adminstrator user permissions for cvent
  */
-function gsb_public_update_7259() {
-  // Get the admin user role
-  $adminstrator_user = user_role_load_by_name('administrator');
-  // Add the permission
-  $adminstrator_user_permissions = array(
-    'administer cvent',
-  );
-  // Update admin user role permissions
-  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
-}
-
-/**
- * Enable gsb_content_pane_info module.
- */
-function gsb_public_update_7252() {
-  if (!module_exists('gsb_content_pane_info')) {
-    module_enable(array('gsb_content_pane_info'));
-  }
-}
-
-/**
- * Enable tzfield module.
- */
-function gsb_public_update_7253() {
-  if (!module_exists('tzfield')) {
-    module_enable(array('tzfield'));
-  }
-}
-
-/**
- * Enable gsb_feature_admission_event_ct module.
- */
-function gsb_public_update_7254() {
-  if (!module_exists('gsb_feature_admission_event_ct')) {
-    module_enable(array('gsb_feature_admission_event_ct'));
-  }
-}
-
-/**
- * Enable gsb_feature_event_shared module.
- */
-function gsb_public_update_7255() {
-  if (!module_exists('gsb_feature_event_shared')) {
-    module_enable(array('gsb_feature_event_shared'));
-  }
-}
-
-/**
- * Enable gsb_feature_admission_event_display module.
- */
-function gsb_public_update_7256() {
-  if (!module_exists('gsb_feature_admission_event_display')) {
-    module_enable(array('gsb_feature_admission_event_display'));
-  }
-}
-
-/**
- * Fixes filename used by views_autocomplete module.
- */
-function gsb_public_update_7257() {
-  db_query("UPDATE {registry} SET filename = 'profiles/gsb_public/modules/contrib/views_autocomplete_filters/views/handlers/views_autocomplete_filters_handler_filter_string.inc' WHERE name = 'views_autocomplete_filters_handler_filter_string'");
-  cache_clear_all();
-}
-
-/**
- * Enable gsb_cvent module.
- */
-function gsb_public_update_7258() {
-  if (!module_exists('gsb_cvent')) {
-    module_enable(array('gsb_cvent'));
-  }
-}
-
-/**
- * Update adminstrator user permissions for cvent
- */
-function gsb_public_update_7259() {
+function gsb_public_update_7260() {
   // Get the admin user role
   $adminstrator_user = user_role_load_by_name('administrator');
   // Add the permission
