@@ -342,7 +342,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_act_ct][type] = module
 projects[gsb_feature_act_ct][download][type] = git
 projects[gsb_feature_act_ct][download][url] = git@github.com:gsb-public/gsb_feature_act_ct.git
-projects[gsb_feature_act_ct][download][tag] = 5.06
+projects[gsb_feature_act_ct][download][branch] = release-5.07
 projects[gsb_feature_act_ct][subdir] = custom/features
 
 ; GSB Features ACT Display
@@ -370,7 +370,7 @@ projects[gsb_feature_admission_event_display][subdir] = custom/features
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
 projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_ct.git
-projects[gsb_feature_alumni_ct][download][tag] = 5.05
+projects[gsb_feature_alumni_ct][download][branch] = release-5.06
 projects[gsb_feature_alumni_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item CT
