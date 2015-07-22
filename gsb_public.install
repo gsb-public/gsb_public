@@ -4856,3 +4856,30 @@ function gsb_public_update_7260() {
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
+
+/**
+ * Remove field instances from event
+ */
+function gsb_public_update_7261() {
+  $delete_instance = array(
+    'field_academic_area_unlimited',
+    'field_event_category',
+    'field_address',
+    'field_event_series',
+    'field_department',
+    'field_person_fac_other',
+    'field_link_map',
+    'field_region'
+  );
+  foreach($delete_instance as $field_name) {
+    // Get Field Instance
+    $instance = field_info_instance('node', $field_name, 'event');
+    if (!$instance) {
+      continue;
+    }
+    // Mark field for deletion.
+    field_delete_instance($instance);
+    // Remove field marked for deletion.
+    field_purge_batch(10);
+  }
+}
