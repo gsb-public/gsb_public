@@ -5018,4 +5018,22 @@ function gsb_public_update_7263() {
     // Remove field marked for deletion.
     field_purge_batch(10);
   }
+  $delete_group_instance = array(
+    'group_target_audience',
+    'group_department',
+    'group_event_series',
+    'group_event_category',
+    'group_tags',
+    'group_region',
+    'group_academic_area',
+    'group_taxonomy',
+    'group_event_image',
+    'group_location'
+  );
+  foreach($delete_group_instance as $group_name) {
+    if ($group = field_group_load_field_group($group_name, 'node', 'event', 'form')) {
+      ctools_include('export');
+      field_group_group_export_delete($group, FALSE);
+    }
+  }  
 }
