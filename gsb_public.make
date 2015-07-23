@@ -981,7 +981,7 @@ projects[gsb_theme_admin][download][branch] = release-5.04
 projects[acquia_connector][version] = 2.15
 projects[acquia_connector][subdir] = contrib
 
-projects[acquia_purge][version] = 1.2
+projects[acquia_purge][version] = 1.3
 projects[acquia_purge][subdir] = contrib
 
 projects[addressfield][version] = 1.1
@@ -993,7 +993,7 @@ projects[addthis][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = contrib
 
-projects[admin_views][version] = 1.4
+projects[admin_views][version] = 1.5
 projects[admin_views][subdir] = contrib
 
 projects[auto_entitylabel][version] = 1.3
@@ -1016,10 +1016,9 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_formats][version] = 1.0-beta1
 projects[better_formats][subdir] = contrib
 
-projects[breadcrumbs_by_path][version] = 1.0-alpha12
+projects[breadcrumbs_by_path][version] = 1.0-alpha13
 projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
-projects[breadcrumbs_by_path][patch][2266701] = https://www.drupal.org/files/issues/content_titles_are-2266701-3.patch
 projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2415403-2.patch
 
 projects[cacheexclude][version] = 2.3
