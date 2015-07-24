@@ -4901,3 +4901,98 @@ function gsb_public_update_7261() {
     }
   }  
 }
+
+/**
+ * Save terms to Timezone taxonomy.
+ */
+function gsb_public_update_7262() {
+
+  $timezone_vocab = taxonomy_vocabulary_machine_name_load('timezone');
+
+  $terms = array(
+    'Pacific/PagoPago' => 'Samoa',
+    'Pacific/Honolulu' => 'Hawaii',
+    'America/Adak' => 'Alaska',
+    'America/Anchorage' => 'Pacific [US & Canada]',
+    'America/Phoenix' => 'Arizona',
+    'America/Tijuana' => 'Mountain [Mexico]',
+    'America/Vancouver' => 'Mountain [US & Canada]',
+    'America/Boise' => 'Central [US & Canada]',
+    'America/Guatemala' => 'Central America',
+    'America/Mazatlan' => 'Mexico',
+    'America/Regina' => 'Saskatchewan',
+    'America/Indiana/Knox' => 'Indiana [East]',
+    'America/Lima' => 'SA Pacific',
+    'America/Winnipeg' => 'Eastern [US & Canada]',
+    'America/Caracas' => 'Venezuela',
+    'America/Curacao' => 'Pacific SA',
+    'America/LaPaz' => 'Western SA',
+    'America/Toronto' => 'Atlantic [Canada]',
+    'America/Argentina/BuenosAires' => 'Eastern SA',
+    'America/Halifax' => 'Greenland',
+    'America/SaoPaulo' => 'Brasilia',
+    'America/StJohns' => 'Newfoundland',
+    'America/Noronha' => 'Mid-Atlantic',
+    'Atlantic/CapeVerde' => 'Azores',
+    'Atlantic/CapeVerde' => 'Cape Verde',
+    'UTC' => 'GMT',
+    'UTC' => 'Greenwich',
+    'Africa/Algiers' => 'Africa West Central',
+    'Europe/London' => 'Europe Central',
+    'Europe/London' => 'Europe Western',
+    'Europe/London' => 'Romance',
+    'Africa/Cairo' => 'Egypt',
+    'Africa/Cairo' => 'Israel',
+    'Africa/Johannesburg' => 'Africa South',
+    'Africa/Tripoli' => 'GTB',
+    'Europe/Oslo' => 'FLE',
+    'Europe/Prague' => 'Europe Eastern',
+    'Africa/AddisAbaba' => 'Arab',
+    'Africa/DaresSalaam' => 'Africa Eastern',
+    'Asia/Jerusalem' => 'Israel',
+    'Asia/Kuwait' => 'Arabic',
+    'Europe/Moscow' => 'Russian',
+    'Asia/Dubai' => 'Arabian',
+    'Asia/Tbilisi' => 'Caucasus',
+    'Asia/Kabul' => 'Afghanistan',
+    'Asia/Tehran' => 'Iran',
+    'Asia/Baku' => 'Asia Western',
+    'Asia/Yekaterinburg' => 'Ekaterinburg',
+    'Asia/Colombo' => 'Sri Lanka',
+    'Asia/Kolkata' => 'India',
+    'Asia/Kathmandu' => 'Nepal',
+    'Asia/Almaty' => 'Asia Central',
+    'Asia/Bishkek' => 'Asia North Central',
+    'Asia/Rangoon' => 'Myanmar',
+    'Asia/Bangkok' => 'Asia South East',
+    'Asia/Krasnoyarsk' => 'Asia North',
+    'Asia/Brunei' => 'Malay Peninsula',
+    'Asia/HongKong' => 'China',
+    'Asia/Shanghai' => 'Asia North East',
+    'Asia/Taipei' => 'Taipei',
+    'Australia/Perth' => 'AUS Western',
+    'Asia/Seoul' => 'Korea',
+    'Asia/Tokyo' => 'Tokyo',
+    'Asia/Yakutsk' => 'Yakutsk',
+    'Australia/Adelaide' => 'AUS Central [Adelaide]',
+    'Australia/Darwin' => 'AUS Central [Darwin]',
+    'Asia/Vladivostok' => 'Vladivostok',
+    'Australia/Brisbane' => 'AUS Eastern [Brisbane]',
+    'Australia/Hobart' => 'Tasmania',
+    'Australia/Sydney' => 'AUS Eastern [Sydney]',
+    'Pacific/Guam' => 'West Pacific',
+    'Pacific/Guadalcanal' => 'Central Pacific',
+    'Pacific/Auckland' => 'New Zealand',
+    'Pacific/Fiji' => 'Fiji',
+    'Pacific/Apia' => 'Gonga',
+  );
+
+  foreach ($terms as $drupal_term => $cvent_term) {
+    $newterm = new stdClass();
+    $newterm->name = $cvent_term; // The name of the term
+    $newterm->vid = $timezone_vocab->vid; // The ID of the parent vocabulary
+    $newterm->parent = 0; // This tells taxonomy that this is a top-level term
+    $newterm->field_drupal_timezone[LANGUAGE_NONE][0]['value'] = $drupal_term;
+    taxonomy_term_save($newterm);
+  }
+}
