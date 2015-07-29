@@ -4907,6 +4907,9 @@ function gsb_public_update_7261() {
  */
 function gsb_public_update_7262() {
 
+  // Revert taxonomy feature to create timezone vocab
+  features_revert_module('gsb_feature_taxonomy');
+
   $timezone_vocab = taxonomy_vocabulary_machine_name_load('timezone');
 
   $terms = array(
