@@ -1318,7 +1318,7 @@ libraries[php-soundcloud][download][url] = git@github.com:mptre/php-soundcloud.g
 
 libraries[php-cvent][download][type] = git
 libraries[php-cvent][download][url] = git@github.com:gsb-public/php-cvent.git
-libraries[php-cvent][download][branch] = WP-5680
+libraries[php-cvent][download][branch] = release-5.16
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
