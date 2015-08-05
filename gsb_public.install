@@ -5135,3 +5135,23 @@ function gsb_public_update_7262() {
     taxonomy_term_save($newterm);
   }
 }
+
+/**
+ * Remove field instances from event
+ */
+function gsb_public_update_7263() {
+  $delete_instance = array(
+    'field_event_category',
+  );
+  foreach($delete_instance as $field_name) {
+    // Get Field Instance
+    $instance = field_info_instance('node', $field_name, 'academic_calendar_event');
+    if (!$instance) {
+      continue;
+    }
+    // Mark field for deletion.
+    field_delete_instance($instance);
+    // Remove field marked for deletion.
+    field_purge_batch(10);
+  }
+}
