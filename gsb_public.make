@@ -149,7 +149,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 5.04
+projects[gsb_field_formatter][download][branch] = release-5.05
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB FPP Customization
@@ -356,7 +356,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.15
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.16
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
@@ -419,7 +419,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.14
+projects[gsb_feature_base_fields][download][branch] = release-5.15
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -516,7 +516,7 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 5.07
+projects[gsb_feature_event_ct][download][branch] = release-5.08
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
@@ -529,7 +529,7 @@ projects[gsb_feature_event_display][subdir] = custom/features
 projects[gsb_feature_event_shared][type] = module
 projects[gsb_feature_event_shared][download][type] = git
 projects[gsb_feature_event_shared][download][url] = git@github.com:gsb-public/gsb_feature_event_shared.git
-projects[gsb_feature_event_shared][download][tag] = 5.15
+projects[gsb_feature_event_shared][download][branch] = release-5.16
 projects[gsb_feature_event_shared][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -592,7 +592,7 @@ projects[gsb_feature_file_types][subdir] = custom/features
 projects[gsb_feature_files_fpp][type] = module
 projects[gsb_feature_files_fpp][download][type] = git
 projects[gsb_feature_files_fpp][download][url] = git@github.com:gsb-public/gsb_feature_files_fpp.git
-projects[gsb_feature_files_fpp][download][tag] = 5.01
+projects[gsb_feature_files_fpp][download][branch] = release-5.02
 projects[gsb_feature_files_fpp][subdir] = custom/features
 
 ; GSB Features Google Tag Manager
