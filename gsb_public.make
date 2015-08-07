@@ -107,7 +107,7 @@ projects[gsb_connecting_link][subdir] = custom
 projects[gsb_content_pane_info][type] = module
 projects[gsb_content_pane_info][download][type] = git
 projects[gsb_content_pane_info][download][url] = git@github.com:gsb-public/gsb_content_pane_info.git
-projects[gsb_content_pane_info][download][branch] = release-5.15
+projects[gsb_content_pane_info][download][tag] = 5.15
 projects[gsb_content_pane_info][subdir] = custom
 
 ; GSB Custom Section Title
