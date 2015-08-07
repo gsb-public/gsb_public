@@ -219,7 +219,7 @@ projects[gsb_panels_ipe_overrides][subdir] = custom
 projects[gsb_panels_pages][type] = module
 projects[gsb_panels_pages][download][type] = git
 projects[gsb_panels_pages][download][url] = git@github.com:gsb-public/gsb_panels_pages.git
-projects[gsb_panels_pages][download][branch] = release-4.01
+projects[gsb_panels_pages][download][tag] = 4.01
 projects[gsb_panels_pages][subdir] = custom
 
 ; GSB Resources
