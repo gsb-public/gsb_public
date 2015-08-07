@@ -5019,3 +5019,17 @@ function gsb_public_update_7263() {
     field_purge_batch(10);
   }
 }
+
+/**
+ * Disable modules: gsb_addthis_customization, addthis, addthis_displays and date_ical
+ */
+function gsb_public_update_7264() {
+  module_disable(array('gsb_addthis_customization'));
+  drupal_uninstall_modules(array('gsb_addthis_customization'));
+  module_disable(array('addthis'));
+  drupal_uninstall_modules(array('addthis'));
+  module_disable(array('addthis_displays'));
+  drupal_uninstall_modules(array('addthis_displays'));  
+  module_disable(array('date_ical'));
+  drupal_uninstall_modules(array('date_ical')); 
+}
