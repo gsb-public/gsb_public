@@ -1116,7 +1116,7 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_autocomplete][version] = 1.8
+projects[entityreference_autocomplete][version] = 1.9
 projects[entityreference_autocomplete][subdir] = contrib
 
 projects[eva][version] = 1.x-dev
@@ -1138,7 +1138,7 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.5
+projects[features][version] = 2.6
 projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
@@ -1214,7 +1214,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 3.3
+projects[mailchimp][version] = 3.4
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
@@ -1225,7 +1225,7 @@ libraries[mailchimp][destination] = "libraries"
 projects[maxlength][version] = 3.2
 projects[maxlength][subdir] = contrib
 
-projects[markup][version] = 1.1-beta1
+projects[markup][version] = 1.2
 projects[markup][subdir] = contrib
 
 projects[markdown][version] = 1.2
@@ -1255,7 +1255,7 @@ projects[menu_attributes][version] = 1.0-rc3
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][patch][2368087] = https://www.drupal.org/files/issues/make_menu_link-2368087-8.patch
 
-projects[menu_block][version] = 2.5
+projects[menu_block][version] = 2.7
 projects[menu_block][subdir] = contrib
 
 projects[menu_minipanels][version] = 1.1
@@ -1277,7 +1277,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.4
+projects[metatag][version] = 1.7
 projects[metatag][subdir] = contrib
 
 projects[module_filter][version] = 2.0
@@ -1323,7 +1323,7 @@ libraries[php-cvent][download][tag] = 5.16
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
-projects[redirect][version] = 1.0-rc1
+projects[redirect][version] = 1.0-rc3
 projects[redirect][subdir] = contrib
 projects[redirect][download][type] = git
 projects[redirect][download][url] = http://git.drupal.org/project/redirect.git
@@ -1353,7 +1353,7 @@ libraries[selection-sharer][download][type] = git
 libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer
 libraries[selection-sharer][download][tag] = v0.0.15
 
-projects[select_or_other][version] = 2.21
+projects[select_or_other][version] = 2.22
 projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
@@ -1441,7 +1441,7 @@ projects[workbench][download][type] = git
 projects[workbench][download][revision] = 6856e4a
 projects[workbench][download][branch] = 7.x-1.x
 
-projects[workbench_access][version] = 1.2
+projects[workbench_access][version] = 1.3
 projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.4
