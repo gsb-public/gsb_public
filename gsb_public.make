@@ -275,7 +275,7 @@ projects[gsb_submenu_alias_update][subdir] = custom
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
 projects[gsb_tokens][download][url] = git@github.com:gsb-public/gsb_tokens.git
-projects[gsb_tokens][download][branch] = release-5.01
+projects[gsb_tokens][download][tag] = 5.01
 projects[gsb_tokens][subdir] = custom
 
 ; GSB Trim
