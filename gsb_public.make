@@ -363,7 +363,7 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 5.16
+projects[gsb_feature_admission_event_display][download][branch] = release-5.17
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
