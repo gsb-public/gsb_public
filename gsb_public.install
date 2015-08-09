@@ -5031,3 +5031,12 @@ function gsb_public_update_7264() {
   module_disable(array('addthis_displays'));
   drupal_uninstall_modules(array('addthis_displays'));  
 }
+
+/**
+ * Disable the date_ical module
+ */
+function gsb_public_update_7265() {
+  module_disable(array('date_ical'));
+  drupal_uninstall_modules(array('date_ical'));  
+}
+
