@@ -5040,3 +5040,11 @@ function gsb_public_update_7265() {
   drupal_uninstall_modules(array('date_ical'));  
 }
 
+/**
+ * Enable gsb_public_custom_metatags module.
+ */
+function gsb_public_update_7266() {
+  if (!module_exists('gsb_public_custom_metatags')) {
+    module_enable(array('gsb_public_custom_metatags'));
+  }
+}
