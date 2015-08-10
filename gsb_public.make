@@ -149,7 +149,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][branch] = release-5.04.1
+projects[gsb_field_formatter][download][tag] = 5.04.1
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB FPP Customization
@@ -275,7 +275,7 @@ projects[gsb_submenu_alias_update][subdir] = custom
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
 projects[gsb_tokens][download][url] = git@github.com:gsb-public/gsb_tokens.git
-projects[gsb_tokens][download][branch] = release-5.01.1
+projects[gsb_tokens][download][tag] = 5.01.1
 projects[gsb_tokens][subdir] = custom
 
 ; GSB Trim
@@ -321,7 +321,7 @@ projects[zurb_responsive_tables][subdir] = custom
 projects[gsb_feature_academic_calendar_ct][type] = module
 projects[gsb_feature_academic_calendar_ct][download][type] = git
 projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsb-public/gsb_feature_academic_calendar_ct.git
-projects[gsb_feature_academic_calendar_ct][download][branch] = release-5.03.1
+projects[gsb_feature_academic_calendar_ct][download][tag] = 5.03.1
 projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 
 ; GSB Features Academic Calendar Display
@@ -363,7 +363,7 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][branch] = release-5.16.1
+projects[gsb_feature_admission_event_display][download][tag] = 5.16.1
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -964,7 +964,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-5.16.2
+projects[gsb_theme][download][tag] = 5.16.2
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
