@@ -111,6 +111,7 @@ dependencies[] = gsb_custom_section_title
 dependencies[] = gsb_cvent
 dependencies[] = gsb_field_authors
 dependencies[] = gsb_field_formatter
+dependencies[] = gsb_filtered_view_link
 dependencies[] = gsb_fpp_customization
 dependencies[] = gsb_fpp_stock_content
 dependencies[] = gsb_login_destination

@@ -5048,3 +5048,12 @@ function gsb_public_update_7266() {
     module_enable(array('gsb_public_custom_metatags'));
   }
 }
+
+/**
+ * Enable gsb_filtered_view_link module.
+ */
+function gsb_public_update_7267() {
+  if (!module_exists('gsb_filtered_view_link')) {
+    module_enable(array('gsb_filtered_view_link'));
+  }
+}
