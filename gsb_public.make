@@ -152,6 +152,13 @@ projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_fie
 projects[gsb_field_formatter][download][branch] = release-5.05
 projects[gsb_field_formatter][subdir] = custom
 
+; GSB Filtered View Link
+projects[gsb_filtered_view_link][type] = module
+projects[gsb_filtered_view_link][download][type] = git
+projects[gsb_filtered_view_link][download][url] = git@github.com:gsb-public/gsb_filtered_view_link.git
+projects[gsb_filtered_view_link][download][branch] = release-5.0
+projects[gsb_filtered_view_link][subdir] = custom
+
 ; GSB FPP Customization
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
