@@ -1101,7 +1101,7 @@ projects[ds][download][revision] = 6fe45c4
 projects[ds][download][branch] = 7.x-2.x
 
 libraries[easyResponsiveTabs][download][type] = get
-libraries[easyResponsiveTabs][download][url] = https://raw.github.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
+libraries[easyResponsiveTabs][download][url] = https://raw.githubusercontent.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
 
 projects[elysia_cron][version] = 2.1
 projects[elysia_cron][subdir] = contrib
@@ -1242,7 +1242,7 @@ projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-4.patch
 projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
-projects[media][patch][media-addjs] = https://raw.github.com/gsb-public/gsb-revamp-patches/WPBQA-262/media-addjs.patch
+projects[media][patch][media-addjs] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/WPBQA-262/media-addjs.patch
 projects[media][patch][2067063] = https://www.drupal.org/files/media-wysiwyg-broken-2067063-138_0.patch
 
 projects[media_youtube][version] = 2.x-dev
@@ -1347,8 +1347,8 @@ libraries[respondjs][download][url] = https://github.com/scottjehl/Respond/tarba
 libraries[responsive-tables][download][type] = git
 libraries[responsive-tables][download][url] = git@github.com:zurb/responsive-tables.git
 libraries[responsive-tables][download][revision] = 0d34bc64df
-libraries[responsive-tables][patch][remove-table-styles] = https://raw.github.com/gsb-public/gsb-revamp-patches/master/remove-table-styles.patch
-libraries[responsive-tables][patch][drupalize-js] = https://raw.github.com/gsb-public/gsb-revamp-patches/master/drupalize-js.patch
+libraries[responsive-tables][patch][remove-table-styles] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/remove-table-styles.patch
+libraries[responsive-tables][patch][drupalize-js] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/drupalize-js.patch
 
 projects[search_krumo][version] = 1.6
 projects[search_krumo][subdir] = contrib
