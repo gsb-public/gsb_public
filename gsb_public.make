@@ -1167,7 +1167,7 @@ projects[field_collection][patch][1807460] = http://drupal.org/files/field_colle
 projects[field_collection][patch][1175082] = https://drupal.org/files/field_collection-migrate-1175082-222.patch
 projects[field_collection][patch][2211667] = https://drupal.org/files/issues/field_collection_patch-2211667-1.patch
 projects[field_collection][patch][1289062] = https://drupal.org/files/issues/field_collection-validate_required_fields-1289062-37-beta5-do-not-test.patch
-projects[field_collection][patch][2549343] = https://www.drupal.org/files/issues/field_collection-remove_button_broken-2549343-1.patch
+projects[field_collection][patch][1675522] = https://www.drupal.org/files/issues/field_collection-remove_button_broken-1675522-23-do-not-test.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
