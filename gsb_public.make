@@ -156,7 +156,7 @@ projects[gsb_field_formatter][subdir] = custom
 projects[gsb_filtered_view_link][type] = module
 projects[gsb_filtered_view_link][download][type] = git
 projects[gsb_filtered_view_link][download][url] = git@github.com:gsb-public/gsb_filtered_view_link.git
-projects[gsb_filtered_view_link][download][branch] = release-5.0
+projects[gsb_filtered_view_link][download][tag] = 5.0
 projects[gsb_filtered_view_link][subdir] = custom
 
 ; GSB FPP Customization
