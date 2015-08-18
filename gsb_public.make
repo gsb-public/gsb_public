@@ -128,7 +128,7 @@ projects[gsb_public_custom_blocks][subdir] = custom
 projects[gsb_cvent][type] = module
 projects[gsb_cvent][download][type] = git
 projects[gsb_cvent][download][url] = git@github.com:gsb-public/gsb_cvent.git
-projects[gsb_cvent][download][branch] = release-5.17
+projects[gsb_cvent][download][tag] = 5.17
 projects[gsb_cvent][subdir] = custom
 
 ; GSB Faculty Role
