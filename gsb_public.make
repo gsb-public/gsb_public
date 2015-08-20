@@ -363,7 +363,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.16.1
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.17
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
@@ -523,20 +523,20 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 5.08
+projects[gsb_feature_event_ct][download][branch] = release-5.09
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 5.08
+projects[gsb_feature_event_display][download][branch] = release-5.09
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Event Shared
 projects[gsb_feature_event_shared][type] = module
 projects[gsb_feature_event_shared][download][type] = git
 projects[gsb_feature_event_shared][download][url] = git@github.com:gsb-public/gsb_feature_event_shared.git
-projects[gsb_feature_event_shared][download][tag] = 5.16
+projects[gsb_feature_event_shared][download][branch] = release-5.17
 projects[gsb_feature_event_shared][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -592,7 +592,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 5.07
+projects[gsb_feature_file_types][download][branch] = release-5.08
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
@@ -1167,6 +1167,7 @@ projects[field_collection][patch][1807460] = http://drupal.org/files/field_colle
 projects[field_collection][patch][1175082] = https://drupal.org/files/field_collection-migrate-1175082-222.patch
 projects[field_collection][patch][2211667] = https://drupal.org/files/issues/field_collection_patch-2211667-1.patch
 projects[field_collection][patch][1289062] = https://drupal.org/files/issues/field_collection-validate_required_fields-1289062-37-beta5-do-not-test.patch
+projects[field_collection][patch][1675522] = https://www.drupal.org/files/issues/field_collection-remove_button_broken-1675522-23-do-not-test.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
