@@ -128,7 +128,7 @@ projects[gsb_public_custom_blocks][subdir] = custom
 projects[gsb_cvent][type] = module
 projects[gsb_cvent][download][type] = git
 projects[gsb_cvent][download][url] = git@github.com:gsb-public/gsb_cvent.git
-projects[gsb_cvent][download][tag] = 5.17
+projects[gsb_cvent][download][branch] = release-5.18
 projects[gsb_cvent][subdir] = custom
 
 ; GSB Faculty Role
@@ -746,14 +746,14 @@ projects[gsb_feature_news_display][subdir] = custom/features
 projects[gsb_feature_offsite_idea_story_ct][type] = module
 projects[gsb_feature_offsite_idea_story_ct][download][type] = git
 projects[gsb_feature_offsite_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_idea_story_ct.git
-projects[gsb_feature_offsite_idea_story_ct][download][tag] = 5.05
+projects[gsb_feature_offsite_idea_story_ct][download][branch] = release-5.06
 projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Offsite School Story CT
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.04
+projects[gsb_feature_offsite_school_story_ct][download][branch] = release-5.05
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
@@ -855,7 +855,7 @@ projects[gsb_feature_social_feed][subdir] = custom/features
 projects[gsb_feature_spotlight][type] = module
 projects[gsb_feature_spotlight][download][type] = git
 projects[gsb_feature_spotlight][download][url] = git@github.com:gsb-public/gsb_feature_spotlight.git
-projects[gsb_feature_spotlight][download][tag] = 5.0
+projects[gsb_feature_spotlight][download][branch] = release-5.1
 projects[gsb_feature_spotlight][subdir] = custom/features
 
 ; GSB Feature Slideshow
@@ -971,7 +971,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 5.17
+projects[gsb_theme][download][branch] = release-5.18
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
