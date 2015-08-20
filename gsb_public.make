@@ -114,14 +114,14 @@ projects[gsb_content_pane_info][subdir] = custom
 projects[gsb_custom_section_title][type] = module
 projects[gsb_custom_section_title][download][type] = git
 projects[gsb_custom_section_title][download][url] = git@github.com:gsb-public/gsb_custom_section_title.git
-projects[gsb_custom_section_title][download][tag] = 1.0
+projects[gsb_custom_section_title][download][tag] = 1.0.1
 projects[gsb_custom_section_title][subdir] = custom
 
 ; GSB Public Custom Blocks
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 5.09
+projects[gsb_public_custom_blocks][download][tag] = 5.09.1
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Cvent
