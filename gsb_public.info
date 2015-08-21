@@ -128,6 +128,7 @@ dependencies[] = gsb_submenu_alias_update
 dependencies[] = gsb_social
 dependencies[] = gsb_tokens
 dependencies[] = gsb_trim
+dependencies[] = gsb_url_shortener
 dependencies[] = gsb_workbench_save_and_publish
 dependencies[] = pathauto_title_alias
 dependencies[] = simplesaml_auth
