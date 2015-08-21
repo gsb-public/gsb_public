@@ -285,6 +285,13 @@ projects[gsb_trim][download][url] = git@github.com:gsb-public/gsb_trim.git
 projects[gsb_trim][download][tag] = 3.0
 projects[gsb_trim][subdir] = custom
 
+; GSB URL Shortener
+projects[gsb_url_shortener][type] = module
+projects[gsb_url_shortener][download][type] = git
+projects[gsb_url_shortener][download][url] = git@github.com:gsb-public/gsb_url_shortener.git
+projects[gsb_url_shortener][download][branch] = release-5.18
+projects[gsb_url_shortener][subdir] = custom
+
 ; GSB Workbench Save and Publish
 projects[gsb_workbench_save_and_publish][type] = module
 projects[gsb_workbench_save_and_publish][download][type] = git
