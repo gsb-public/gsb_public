@@ -5029,7 +5029,7 @@ function gsb_public_update_7264() {
   module_disable(array('addthis'));
   drupal_uninstall_modules(array('addthis'));
   module_disable(array('addthis_displays'));
-  drupal_uninstall_modules(array('addthis_displays'));  
+  drupal_uninstall_modules(array('addthis_displays'));
 }
 
 /**
@@ -5037,7 +5037,7 @@ function gsb_public_update_7264() {
  */
 function gsb_public_update_7265() {
   module_disable(array('date_ical'));
-  drupal_uninstall_modules(array('date_ical'));  
+  drupal_uninstall_modules(array('date_ical'));
 }
 
 /**
@@ -5073,5 +5073,36 @@ function gsb_public_update_7268() {
 function gsb_public_update_7269() {
   if (!module_exists('gsb_entity_reference_delete_warning')) {
     module_enable(array('gsb_entity_reference_delete_warning'));
+  }
+}
+
+/*
+ * Import the CES redirects.
+ */
+function gsb_public_update_7270(){
+  $filename = 'CES Redirects.csv';
+  $file_path = 'profiles/gsb_public/imports/'.$filename;
+  $row = 1;
+  if (($handle = fopen($file_path, "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+      $row++;
+      if ($row > 2) {  // Excluded title row from csv
+        print $source_url = $data[0];
+        $redirect_url = $data[1];
+        if ($source_url != "" && $redirect_url != "") {
+          $redirect = array('source' => $source_url, 'redirect' => $redirect_url);
+          $redirect_object = new stdClass();
+          redirect_object_prepare($redirect_object, $redirect);
+          // Check if the redirect exists before saving.
+          if (!redirect_load_by_source($source_url)) {
+            redirect_save($redirect_object);
+          }
+        }
+      }
+    }
+    fclose($handle);
+  }
+  else {
+    watchdog('gsb_public','Error in reading File');
   }
 }
