@@ -109,6 +109,7 @@ dependencies[] = gsb_connecting_link
 dependencies[] = gsb_content_pane_info
 dependencies[] = gsb_custom_section_title
 dependencies[] = gsb_cvent
+dependencies[] = gsb_entity_reference_delete_warning
 dependencies[] = gsb_field_authors
 dependencies[] = gsb_field_formatter
 dependencies[] = gsb_filtered_view_link
