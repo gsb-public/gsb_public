@@ -124,6 +124,13 @@ projects[gsb_cvent][download][url] = git@github.com:gsb-public/gsb_cvent.git
 projects[gsb_cvent][download][branch] = release-5.18
 projects[gsb_cvent][subdir] = custom
 
+; GSB Entity Reference Delete Warning
+projects[gsb_entity_reference_delete_warning][type] = module
+projects[gsb_entity_reference_delete_warning][download][type] = git
+projects[gsb_entity_reference_delete_warning][download][url] = git@github.com:gsb-public/gsb_entity_reference_delete_warning.git
+projects[gsb_entity_reference_delete_warning][download][branch] = release-5.18
+projects[gsb_entity_reference_delete_warning][subdir] = custom
+
 ; GSB Faculty Role
 projects[gsb_faculty_role][type] = module
 projects[gsb_faculty_role][download][type] = git
