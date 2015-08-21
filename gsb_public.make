@@ -47,13 +47,6 @@ projects[gsb_academic_year][download][url] = git@github.com:gsb-public/gsb_acade
 projects[gsb_academic_year][download][tag] = 1.0
 projects[gsb_academic_year][subdir] = custom
 
-; GSB AddThis Customization
-projects[gsb_addthis_customization][type] = module
-projects[gsb_addthis_customization][download][type] = git
-projects[gsb_addthis_customization][download][url] = git@github.com:gsb-public/gsb_addthis_customization.git
-projects[gsb_addthis_customization][download][tag] = 1.0
-projects[gsb_addthis_customization][subdir] = custom
-
 ; GSB Advanced Menu Customization
 projects[gsb_advanced_menu_customization][type] = module
 projects[gsb_advanced_menu_customization][download][type] = git
@@ -993,9 +986,6 @@ projects[acquia_purge][subdir] = contrib
 
 projects[addressfield][version] = 1.1
 projects[addressfield][subdir] = contrib
-
-projects[addthis][version] = 4.0-alpha4
-projects[addthis][subdir] = contrib
 
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = contrib
