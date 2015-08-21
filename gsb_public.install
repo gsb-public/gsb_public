@@ -5066,3 +5066,12 @@ function gsb_public_update_7268() {
     module_enable(array('gsb_url_shortener'));
   }
 }
+
+/**
+ * Enable gsb_entity_reference_delete_warning module.
+ */
+function gsb_public_update_7269() {
+  if (!module_exists('gsb_entity_reference_delete_warning')) {
+    module_enable(array('gsb_entity_reference_delete_warning'));
+  }
+}
