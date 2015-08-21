@@ -5057,3 +5057,12 @@ function gsb_public_update_7267() {
     module_enable(array('gsb_filtered_view_link'));
   }
 }
+
+/**
+ * Enable gsb_url_shortener module.
+ */
+function gsb_public_update_7268() {
+  if (!module_exists('gsb_url_shortener')) {
+    module_enable(array('gsb_url_shortener'));
+  }
+}
