@@ -5076,7 +5076,7 @@ function gsb_public_update_7269() {
   }
 }
 
-/*
+/**
  * Import the CES redirects.
  */
 function gsb_public_update_7270(){
