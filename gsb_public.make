@@ -440,7 +440,7 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsb-public/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 5.09
+projects[gsb_feature_book_ct][download][branch] = release-5.10
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
@@ -468,7 +468,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][tag] = 5.05
+projects[gsb_feature_case_ct][download][branch] = release-5.06
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
@@ -807,7 +807,7 @@ projects[gsb_feature_pr_contact][subdir] = custom/features
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = git@github.com:gsb-public/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][tag] = 5.07
+projects[gsb_feature_publication_ct][download][branch] = release-5.08
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 projects[gsb_feature_publication_display][type] = module
@@ -946,7 +946,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][tag] = 5.06
+projects[gsb_feature_working_paper_ct][download][branch] = release-5.07
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
