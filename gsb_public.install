@@ -5143,3 +5143,12 @@ function gsb_public_update_7271(){
     watchdog('gsb_public','Error in reading File');
   }
 }
+
+/**
+ * Enable gsb_feature_all_research_display module.
+ */
+function gsb_public_update_7272() {
+  if (!module_exists('gsb_feature_all_research_display')) {
+    module_enable(array('gsb_feature_all_research_display'));
+  }
+}
