@@ -5159,3 +5159,17 @@ function gsb_public_update_7272() {
 function gsb_public_update_7273() {
   db_query("UPDATE {redirect} SET redirect = 'http://www.ssireview.org' WHERE redirect = 'ssireview.org'");
 }
+
+/**
+ * Update adminstrator user permissions for 'administer shortened urls'
+ */
+function gsb_public_update_7274() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer shortened urls',
+  );
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
