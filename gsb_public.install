@@ -5152,3 +5152,10 @@ function gsb_public_update_7272() {
     module_enable(array('gsb_feature_all_research_display'));
   }
 }
+
+/**
+ * Update to fix the URL after CSI import.
+ */
+function gsb_public_update_7273() {
+  db_query("UPDATE {redirect} SET redirect = 'http://www.ssireview.org' WHERE redirect = 'ssireview.org'");
+}
