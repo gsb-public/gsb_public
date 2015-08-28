@@ -1,46 +1,46 @@
 CSI path ( csi.gsb.stanford.edu/),revamp path
- node/10976,faculty-research/centers-initiatives/csi
- node/11011,faculty-research/centers-initiatives/csi
- node/11051,faculty-research/centers-initiatives/csi
- node/11056,faculty-research/centers-initiatives/csi
- node/11126,faculty-research/centers-initiatives/csi
- node/13856,faculty-research/centers-initiatives/csi
- node/14711,faculty-research/centers-initiatives/csi
- node/14721,faculty-research/centers-initiatives/csi
- node/14886,faculty-research/centers-initiatives/csi
- node/14891,faculty-research/centers-initiatives/csi
- node/14901,faculty-research/centers-initiatives/csi
- node/14906,faculty-research/centers-initiatives/csi
- node/15251,faculty-research/centers-initiatives/csi
- node/15256,faculty-research/centers-initiatives/csi
- node/15521,faculty-research/centers-initiatives/csi
- node/7135,faculty-research/centers-initiatives/csi
- node/7241,faculty-research/centers-initiatives/csi
- node/7288,faculty-research/centers-initiatives/csi
- node/7292,faculty-research/centers-initiatives/csi
- node/7303,faculty-research/centers-initiatives/csi
- node/7558,faculty-research/centers-initiatives/csi
- node/7956,faculty-research/centers-initiatives/csi
- node/7961,faculty-research/centers-initiatives/csi
- node/8106,faculty-research/centers-initiatives/csi
- node/8341,faculty-research/centers-initiatives/csi
- node/8436,faculty-research/centers-initiatives/csi
- node/8441,faculty-research/centers-initiatives/csi
- node/8546,faculty-research/centers-initiatives/csi
- node/8556,faculty-research/centers-initiatives/csi
- node/8571,faculty-research/centers-initiatives/csi
- node/8616,faculty-research/centers-initiatives/csi
- node/8631,faculty-research/centers-initiatives/csi
- node/8636,faculty-research/centers-initiatives/csi
- node/8641,faculty-research/centers-initiatives/csi
- node/8736,faculty-research/centers-initiatives/csi
- node/8746,faculty-research/centers-initiatives/csi
- node/8751,faculty-research/centers-initiatives/csi
- node/8811,faculty-research/centers-initiatives/csi
- node/9141,faculty-research/centers-initiatives/csi
- node/9201,faculty-research/centers-initiatives/csi
- node/9501,faculty-research/centers-initiatives/csi
- node/9736,faculty-research/centers-initiatives/csi
+node/10976,faculty-research/centers-initiatives/csi
+node/11011,faculty-research/centers-initiatives/csi
+node/11051,faculty-research/centers-initiatives/csi
+node/11056,faculty-research/centers-initiatives/csi
+node/11126,faculty-research/centers-initiatives/csi
+node/13856,faculty-research/centers-initiatives/csi
+node/14711,faculty-research/centers-initiatives/csi
+node/14721,faculty-research/centers-initiatives/csi
+node/14886,faculty-research/centers-initiatives/csi
+node/14891,faculty-research/centers-initiatives/csi
+node/14901,faculty-research/centers-initiatives/csi
+node/14906,faculty-research/centers-initiatives/csi
+node/15251,faculty-research/centers-initiatives/csi
+node/15256,faculty-research/centers-initiatives/csi
+node/15521,faculty-research/centers-initiatives/csi
+node/7135,faculty-research/centers-initiatives/csi
+node/7241,faculty-research/centers-initiatives/csi
+node/7288,faculty-research/centers-initiatives/csi
+node/7292,faculty-research/centers-initiatives/csi
+node/7303,faculty-research/centers-initiatives/csi
+node/7558,faculty-research/centers-initiatives/csi
+node/7956,faculty-research/centers-initiatives/csi
+node/7961,faculty-research/centers-initiatives/csi
+node/8106,faculty-research/centers-initiatives/csi
+node/8341,faculty-research/centers-initiatives/csi
+node/8436,faculty-research/centers-initiatives/csi
+node/8441,faculty-research/centers-initiatives/csi
+node/8546,faculty-research/centers-initiatives/csi
+node/8556,faculty-research/centers-initiatives/csi
+node/8571,faculty-research/centers-initiatives/csi
+node/8616,faculty-research/centers-initiatives/csi
+node/8631,faculty-research/centers-initiatives/csi
+node/8636,faculty-research/centers-initiatives/csi
+node/8641,faculty-research/centers-initiatives/csi
+node/8736,faculty-research/centers-initiatives/csi
+node/8746,faculty-research/centers-initiatives/csi
+node/8751,faculty-research/centers-initiatives/csi
+node/8811,faculty-research/centers-initiatives/csi
+node/9141,faculty-research/centers-initiatives/csi
+node/9201,faculty-research/centers-initiatives/csi
+node/9501,faculty-research/centers-initiatives/csi
+node/9736,faculty-research/centers-initiatives/csi
 …-some-are-more-equal-others,insights/social-innovation
 ‘blood-money’-became-force-good,insights/social-innovation
 ‘giving-identity’-seen-vital-fundraising,stanford-gsb-experience/news-history
@@ -245,7 +245,6 @@ as-green-as-it_gets,faculty-research/case-studies/green-it-gets
 ashanthi-mathai-cross-sector-effort-helps-people-see-better,insights/ashanthi-mathai-cross-sector-effort-helps-people-see-better
 ashley-boren-mba-89-0,alumni/contact/alumni-association/about-alumni/ashley-elizabeth-boren
 ashoka-founder-drayton-helping-social-sector-change-world,insights/bill-drayton-helping-social-sector-catch-industry
-ashoka-innovators-for-the_public,faculty-research/case-studies/ashoka-innovators-public
 ashoka-innovators-for-the_public,faculty-research/case-studies/ashoka-innovators-public-0
 asian_neighborhood_design_a,faculty-research/case-studies/asian-neighborhood-design
 asian_neighborhood_design_b,faculty-research/case-studies/asian-neighborhood-design-b-investor-relations-roberts-enterprise
@@ -262,7 +261,6 @@ attracting-attention,http://ssireview.org
 attune-foods-challenging-goliaths-authenticity,faculty-research/case-studies/attune-foods-challenging-goliaths-authenticity
 aulani-wilhelm-social-innovation-fellow,stanford-gsb-experience/academic-advantages/social-innovation/fellowship/aulani-wilhelm
 ausl-turning-around-schools,faculty-research/centers-initiatives/csi
-ausl-turning-around-schools,stanford-gsb-experience/academic-advantages/social-innovation
 automatic-detection-omissions-medication-lists,faculty-research/publications?topics[]=10042
 awards,stanford-gsb-experience/news-history
 awe-some-volunteer-recruitment-strategy,insights/jennifer-aaker-how-feel-you-have-more-time
@@ -319,8 +317,7 @@ beware-lone-genius,http://ssireview.org
 beyond-2009-emerging-trends-philanthropy,http://www.ssireview.org/podcasts
 beyond-corporate-social-responsibility,http://www.ssireview.org/podcasts
 beyond-csr,http://ssireview.org
-beyond-dollar-signs,stanford-gsb-experience/news-history
-beyond-dollar-signs,insights/social-innovation
+beyond-dollar-signs,faculty-research/centers-initiatives/csi
 beyond-poverty-line,http://ssireview.org
 beyond-purple-berry,http://ssireview.org
 big-business-bhutan-how-humble-hazelnut-could-help-bhutan,insights/big-business-bhutan-how-humble-hazelnut-could-help-bhutan
@@ -459,7 +456,6 @@ capacity-any-other-name,http://ssireview.org
 capacity-building-making-comeback-face-economic-downturn,insights/social-innovation
 capital-early-stage-innovation,insights/social-innovation
 capital-early-stage-innovation-0,http://www.ssireview.org/podcasts
-capital-idea-total-foundation-asset-management-and-the-unified-investment-strategy,faculty-research/publications?topics[]=10050
 capital-idea-total-foundation-asset-management-and-the-unified-investment-strategy,http://ssireview.org
 capital-market-fragmentation,faculty-research/publications?topics[]=10051
 capital-markets-and-green-companies,http://www.ssireview.org/podcasts
@@ -527,7 +523,7 @@ children’s-crusades,insights/social-innovation
 chilean-mining-minister-accomplishes-rescue-mission,insights/chilean-mining-minister-accomplishes-rescue-mission
 chilling-greenpeace-inside-out,http://ssireview.org
 china,stanford-gsb-experience/academic-advantages/social-innovation/study-trips
-china�s-solar-panel-boom-and-bust,insights/jeffrey-ball-chinas-solar-panel-boom-bust
+china’s-solar-panel-boom-and-bust,insights/jeffrey-ball-chinas-solar-panel-boom-bust
 chinas-environmental-sustainability-myths-dispelled,http://www.ssireview.org/podcasts
 chinese-activity-africa-part-1-feeding-dragon,insights/social-innovation
 chinese-activity-africa-part-2-path-least-resistance,insights/social-innovation
@@ -542,7 +538,6 @@ circus-oz,faculty-research/case-studies/circus-oz
 cirque-du-soleil-thinks-globally,http://ssireview.org
 cisco-corporate-philanthropy,faculty-research/case-studies/cisco-corporate-philanthropy
 citadel-capital-a,faculty-research/case-studies/citadel-capita-managing-opportunity-unexpected
-citadel-capital-a,faculty-research/case-studies/citadel-capital-b-managing-opportunity-unexpected
 civic-engagement-nonprofit-lobbying-in-california,faculty-research/publications?topics[]=10054
 civic-impact-youth-volunteerism,http://www.ssireview.org/podcasts
 civil-society-in-global-governance,http://www.ssireview.org/podcasts
@@ -643,8 +638,6 @@ corporate-philanthropy-cisco-systems,http://ssireview.org
 corporate-pursuit-happiness,stanford-gsb-experience/news-history
 corporate-responsibility-as-innovation-engine,http://www.ssireview.org/podcasts
 corporate-responsibility-through-stakeholders-lens,http://www.ssireview.org/podcasts
-corporate-responsibility-through-stakeholders-lens,insights/social-innovation
-corporate-social-responsibility,http://www.ssireview.org/podcasts
 corporate-social-responsibility,insights/social-innovation
 corporate-social-responsibility-1,insights/social-innovation
 corporate-social-responsibility-cotton-farms,http://www.ssireview.org/podcasts
@@ -732,7 +725,6 @@ day-1-post-class,faculty-research/centers-initiatives/csi
 day-night-america’s-charities,insights/social-innovation
 dc-education-race-top,faculty-research/centers-initiatives/csi
 dc2vc-event-connects-student-entrepreneurs-government-representatives-and-investors,stanford-gsb-experience/news-history
-dc2vc-event-connects-student-entrepreneurs-government-representatives-and-investors,stanford-gsb-experience/news-history/history/csi
 dc2vc-panel-discussion,insights/social-innovation
 dead-men-read-no-401ks,insights/social-innovation
 dealing-financial-crisis-aftermath-lowlands-0,faculty-research/centers-initiatives/csi
@@ -775,7 +767,6 @@ determining-diversity,http://ssireview.org
 developing-a-message-to-win-supporters-for-your-cause,http://www.ssireview.org/podcasts
 developing-and-tracking-next-generation-african-leaders,faculty-research/centers-initiatives/csi
 developing-empathy-rural-kenya,faculty-research/centers-initiatives/csi
-developing-marketing-a-blockbuster-drug-lessons-from-eli-lillys-experience-with-prozac,faculty-research/centers-initiatives/csi
 developing-marketing-a-blockbuster-drug-lessons-from-eli-lillys-experience-with-prozac,faculty-research/case-studies/developing-marketing-blockbuster-drug-lessons-eli-lillys-experience
 developing-nations-offer-big-market-opportunities,insights/social-innovation
 developing-native-capability,http://ssireview.org
@@ -812,13 +803,11 @@ dlight-iii-building-credibility-and-trust,faculty-research/publications/dlight-i
 dlight-selling-solar-poor,faculty-research/case-studies/dlight-selling-solar-poor
 do-companies-engage-bop-markets-outperform-market,insights/social-innovation
 do-goals-hurt-your-chance-success,insights/social-innovation
-do-green-mbas-get-green-jobs,stanford-gsb-experience/news-history
 do-green-mbas-get-green-jobs,stanford-gsb-experience/academic-advantages/social-innovation
 do-no-evil,http://ssireview.org
 do-you-have-nonprofit-navel-gazing-syndrome,insights/social-innovation
 does-effective-media-reduce-politicians-incentives-pander-voters,faculty-research/publications?topics[]=10068
 does-group-membership-influence-behavior,insights/frank-flynn-does-group-membership-influence-behavior
-does-group-membership-influence-behavior,faculty-research/centers-initiatives/csi
 does-impact-investing-really-have-impact,insights/social-innovation
 does-informative-media-commentary-reduce-politicians-incentives-pander,faculty-research/publications?topics[]=10069
 does-it-work,http://ssireview.org
@@ -893,7 +882,6 @@ effect-tax-preferences-health-spending,faculty-research/publications?topics[]=10
 effective-funding,http://ssireview.org
 effective-partnerships,http://ssireview.org
 effective-use-social-media-requires-tapping-emotions-book-says,faculty-research/books/dragonfly-effect-quick-effective-powerful-ways-use-social-media-impact-social
-effective-use-social-media-requires-tapping-emotions-book-says,stanford-gsb-experience/news-history
 effectiveness-message-framing-influence-behavior,insights/social-innovation
 effectiveness-trap,http://ssireview.org
 effects-of-waste-regulation-on-new-product-introduction,faculty-research/publications?topics[]=10071
@@ -964,7 +952,6 @@ envia-systems,faculty-research/case-studies/envia-systems
 environment,insights/social-innovation
 environmental-and-food-activists-need-consider-social-justice,insights/eric-schlosser-food-wars-dont-forget-low-income-people
 environmental-conservation,insights/social-innovation
-environmental-conservation,http://www.ssireview.org/podcasts
 environmental-enhancements-in-road-vehicle_technologies,faculty-research/case-studies/environmental-enhancements-road-vehicle-technologies
 environmental-investment-can-pay-dividends-says-mark-tercek,insights/social-innovation
 environmental-provocateur,http://ssireview.org
@@ -1000,7 +987,6 @@ eradicating-poverty-through-microfinance,http://www.ssireview.org/podcasts
 eric-pooley-antarctica-close-look-climate-change,insights/eric-pooley-antarctica-close-look-climate-change
 eric-schmidt-google-change-creates-opportunity,insights/social-innovation
 eric-weaver-mba-92,alumni/contact/alumni-association/about-alumni/eric-carver-weaver
-eric-weaver-mba-92,stanford-gsb-experience/academic-advantages/social-innovation/alumni-social-innovators
 ernie-ting-mba-80,alumni/contact/alumni-association/about-alumni/ernest-scott-ting
 esquel-group-transforming-into-a-vertically-integrated-service-oriented-leading-manufacturer-of-quality_cotton,faculty-research/case-studies/esquel-group-transforming-vertically-integrated-service-oriented
 ethical-philanthropy,http://ssireview.org
@@ -1032,8 +1018,7 @@ everybody’s-got-idea-transition-except-me-and-my-monkey,insights/social-innova
 everythin’s-date-kansas-city…,insights/social-innovation
 everything-important-controversial,insights/social-innovation
 everything-old-new-again-apparently,insights/social-innovation
-evidence-based-management,faculty-research/publications?topics[]=10074
-evidence-based-management,http://www.ssireview.org/podcasts
+evidence-based-management,faculty-research/publications
 examining-21st-century-oil-company,http://www.ssireview.org/podcasts
 examining-lgbt-issues-through-social-enterprise,http://www.ssireview.org/podcasts
 executive-coaching,alumni/volunteering/act
@@ -1149,7 +1134,6 @@ freeing-social-entrepreneur,http://ssireview.org
 fresh-approaches-to-supply-chain-practices,http://www.ssireview.org/podcasts
 fresh-faces-city-hall,http://ssireview.org
 fresh-faces-on-board,stanford-gsb-experience/news-history
-fresh-faces-on-board,faculty-research/centers-initiatives/csi
 fresh-look-renewable-power,insights/fresh-look-renewable-power
 from-demoralization-to-living-community,http://www.ssireview.org/podcasts
 from-sucker-saint-moralization-in-response-to-self-threat,faculty-research/publications?topics[]=10084
@@ -1163,7 +1147,6 @@ funder-next-door,http://ssireview.org
 funding-a-cleaner-world,http://www.ssireview.org/podcasts
 funding-future-china,http://ssireview.org
 funding-gap,http://ssireview.org
-funding-social-enterprises,http://www.ssireview.org/podcasts
 funding-social-enterprises,stanford-gsb-experience/news-history
 FundingTheMissionOfCollegeAthletics,faculty-research/centers-initiatives/csi
 fundraisers-should-get-more-respect,insights/social-innovation
@@ -1205,7 +1188,6 @@ getting-human-rights-right,http://ssireview.org
 getting-out-vote,insights/todd-rogers-psychology-around-voter-turnout
 getting-people-do-right-thing,insights/francis-flynn-what-makes-people-want-help-others
 getting-people-give-and-give-generously,insights/frank-flynn-getting-people-give-give-generously
-getting-people-give-and-give-generously,insights/francis-flynn-why-do-people-give-things-away-strangers
 getting-people-recycle-research-interventions-make-difference,faculty-research/centers-initiatives/csi
 getting-their-good-side,faculty-research/centers-initiatives/csi
 gift-community,http://ssireview.org
@@ -1256,7 +1238,6 @@ going-scale,http://ssireview.org
 golden-opportunity,http://ssireview.org
 golden-rule-never-deliver-presentation-you-wouldn’t-want-sit-through,faculty-research/centers-initiatives/csi
 good-business-karma,insights/social-innovation
-good-business-karma,faculty-research/centers-initiatives/csi
 good-business-poor-people,http://ssireview.org
 good-guy-vs-good-guy,http://ssireview.org
 good-news—nonprofit-gift-cards-expected-boom-holiday-season,insights/social-innovation
@@ -1346,8 +1327,7 @@ health-care-for-the-homebound,http://www.ssireview.org/podcasts
 health-care-reform-2009-2010,faculty-research/case-studies/health-care-reform-2009-2010
 health-care-reform-proposals-should-promote-more-provider-competition,faculty-research/publications?topics[]=10092
 health-disparities-caring-low-birth-weight-babies-0,faculty-research/centers-initiatives/csi
-health-innovation-challenges-india-and-africa,insights/social-innovation
-health-innovation-challenges-india-and-africa,http://www.ssireview.org/podcasts
+health-innovation-challenges-india-and-africa,insights/health-care
 health-policy-expert-offers-new-health-insurance-proposal,insights/social-innovation
 healthcare,insights/healthcare
 healthcare-all-lifespring-hospitals,http://www.ssireview.org/podcasts
@@ -1484,8 +1464,7 @@ importance-being-emphathetic,http://ssireview.org
 improve-your-nonprofit-organizations-in-less-than-two-months,http://www.ssireview.org/podcasts
 improved-disease-tests-for-the-developing-world,http://www.ssireview.org/podcasts
 improving-animal-care,insights/social-innovation
-improving-educational-achievement-minorities,faculty-research/centers-initiatives/csi
-improving-educational-achievement-minorities,http://www.ssireview.org/podcasts
+improving-educational-achievement-minorities,insights/social-innovation
 improving-healthcare-distribution-africa,http://www.ssireview.org/podcasts
 improving-neonatal-health-india-0,faculty-research/centers-initiatives/csi
 improving-philanthropy-effectiveness,http://www.ssireview.org/podcasts
@@ -1638,8 +1617,7 @@ key-perk-nonprofit-work-faces-extinction,http://ssireview.org
 keynote-address-dr-debrework-zewdie,insights/social-innovation
 khan-academy-online-education-experimentation,insights/salman-khan-keep-it-simple
 khosla-clean-tech-all-about-scale,stanford-gsb-experience/news-history
-khosla-green-tech-must-first-make-economic-sense-2,stanford-gsb-experience/news-history
-khosla-green-tech-must-first-make-economic-sense-2,insights/social-innovation
+khosla-green-tech-must-first-make-economic-sense-2,insights/vinod-khosla-green-tech-must-first-make-economic-sense
 khosla-near-closing-1b-new-funds,stanford-gsb-experience/news-history
 khosla-ventures-investing-ethanol,faculty-research/case-studies/khosla-ventures-investing-ethanol
 khoslas-take-green-technology,stanford-gsb-experience/news-history
@@ -1691,7 +1669,6 @@ leading-industry-turnaround-lessons-government-interventions-gm-and-chrysler,ins
 leading-innovation-education-school-one-and-nycs-department-education,faculty-research/centers-initiatives/csi
 leading-new-volunteer-workforce,http://www.ssireview.org/podcasts
 learn-love-lobbying,http://www.ssireview.org/podcasts
-learn-love-lobbying,http://ssireview.org
 learn-more-reading,organizations/leverage-gsb/social-innovation-nonprofit-management-resources
 learning-empathy-rural-kenya,faculty-research/centers-initiatives/csi
 learning-government,http://ssireview.org
@@ -1840,7 +1817,6 @@ measuring-social-impact,http://www.ssireview.org/podcasts
 measuring-social-value,http://ssireview.org
 media-mentions,stanford-gsb-experience/news-history
 media-room,stanford-gsb-experience/news-history
-medical-device-innovation,insights/social-innovation
 medical-device-innovation,http://www.ssireview.org/podcasts
 medical-supply-chain-aids-haitian-quake-victims,insights/paul-auerbach-supply-chain-lessons-haiti
 meet-tom-steyer-hell-be-california-political-player-years-come,stanford-gsb-experience/news-history
@@ -2367,8 +2343,7 @@ personalized-education-every-learner-making-it-reality,faculty-research/centers-
 perspectives-field,http://ssireview.org
 pharmaceutical_switching,faculty-research/case-studies/pharmaceutical-switching
 pharmaceutical-innovation,insights/social-innovation
-philanthrocapitalism,http://www.ssireview.org/podcasts
-philanthrocapitalism,insights
+philanthrocapitalism,insights/social-innovation
 philanthropedia,stanford-gsb-experience/news-history/giving-just-got-easier-philanthropedia-brings-cream-top
 philanthropic-practices,http://ssireview.org
 philanthropy-101-online-giving-markets,http://www.ssireview.org/podcasts
@@ -2562,7 +2537,6 @@ randy-komisar-one-venture-capitalists-perspective,http://www.ssireview.org/podca
 randy-wang-spreading-education-thru-community-participation,http://www.ssireview.org/podcasts
 rapid-response-education,http://ssireview.org
 ratings-game,insights/social-innovation
-ratings-game,http://ssireview.org
 ravenswood-family-health-center,organizations/leverage-gsb/act-nonprofits
 ray-king-building-brand-through-community-service,stanford-gsb-experience/news-history
 rays-light-giving-gloom,insights/social-innovation
@@ -2809,8 +2783,7 @@ road-trip-revitalize-america-part-2,faculty-research/centers-initiatives/csi
 roadblocks-road-rage,http://ssireview.org
 rob-reich-tax-incentives-and-nonprofit-sector,http://www.ssireview.org/podcasts
 robbing-grandchildren,http://ssireview.org
-robert-sutton-scaling-excellence,insights/social-innovation
-robert-sutton-scaling-excellence,http://www.ssireview.org/podcasts
+robert-sutton-scaling-excellence,https://youtu.be/DPDiXMYrmDE
 robert-wood-johnson-foundation-building-the-knowledge-base-of-the-health-care_fields,faculty-research/case-studies/robert-wood-johnson-foundation
 robin_hood,faculty-research/case-studies/robin-hood-0
 robin-hood-fights-poverty-intelligently,insights/social-innovation
@@ -2946,8 +2919,7 @@ sk-II-china-managing-public_relations,faculty-research/case-studies/siebel-found
 skoll-foundation-empowering-social-entrepreneurs,faculty-research/case-studies/skoll-foundation
 skollfest,insights/social-innovation
 skollfest-wraps,insights/social-innovation
-slacktivism,faculty-research/centers-initiatives/csi
-slacktivism,http://www.ssireview.org/podcasts
+slacktivism,insights/social-innovation
 slow-steps-towards-reducing-prostitution,faculty-research/centers-initiatives/csi
 slowing-introductions-new-electronic-products-reduces-e-waste,faculty-research/publications?topics[]=10128
 small-beautiful,http://ssireview.org
@@ -2974,7 +2946,6 @@ social-enterprise-scotland-world-forum,insights/social-innovation
 social-enterprise-solve-malnutrition,http://www.ssireview.org/podcasts
 social-enterprise-through-digital-design,http://www.ssireview.org/podcasts
 social-entrepreneur-building-blocks,sehub.stanford.edu
-social-entrepreneur-building-blocks-calendar,sehub.stanford.edu
 social-entrepreneur-building-blocks-calendar,http://sehub.stanford.edu/calendar
 social-entrepreneur-structure-lab,sehub.stanford.edu
 social-entrepreneur-structure-lab-0,sehub.stanford.edu
@@ -2996,7 +2967,6 @@ social-entrepreneurship-education,http://www.ssireview.org/podcasts
 social-entrepreneurship-kiva-0,faculty-research/case-studies/social-entrepreneurship-kiva
 social-entrepreneurship-landscape,http://www.ssireview.org/podcasts
 social-entrepreneurship-louisiana,http://www.ssireview.org/podcasts
-social-entrepreneurship-resource-hub,faculty-research/centers-initiatives/csi
 social-entrepreneurship-resource-hub,http://sehub.stanford.edu
 social-entrepreneurship-revisited,http://ssireview.org
 social-entrepreneurship-taking-matters-into-your-own-hands,faculty-research/centers-initiatives/csi
@@ -3034,7 +3004,6 @@ social-responsibility-and-purpose-beyond-age-50,http://www.ssireview.org/podcast
 social-responsibility-is-now-a-business-imperative,insights/carter-roberts-environmental-challenges-are-profit-opportunities
 social-responsibility-versus-slave-labor-tainted-products,http://www.ssireview.org/podcasts
 social-service-mergers-hope-services-and-skills_center,faculty-research/case-studies/social-service-mergers-hope-services-skills-center
-social-start-ups-may-prosper-in-downturn,stanford-gsb-experience/news-history
 social-start-ups-may-prosper-in-downturn,insights/social-innovation
 socially-redeeming-web-20,insights/social-innovation
 solar-energy-tanzania,faculty-research/centers-initiatives/csi
@@ -3074,7 +3043,6 @@ stanford-al-gore-connects-climate-change-inaction-political-dysfunction,insights
 stanford-and-esade-launch-joint-program-corporate-social-responsibility,stanford-gsb-experience/news-history
 stanford-and-esade-launch-joint-program-on-corporate-social-responsibility,newsroom
 stanford-business-school-conference-aims-advance-socially-and-environmentally-responsible-supply-cha,faculty-research/centers-initiatives/csi
-stanford-business-school-conference-makes-case-for-socially-responsible-and-environmentally-sustainable-supply-chains,faculty-research/centers-initiatives/csi
 stanford-business-school-conference-makes-case-for-socially-responsible-and-environmentally-sustainable-supply-chains,newsroom
 stanford-business-school-goes-green,newsroom
 stanford-business-school-goes-green-0,stanford-gsb-experience/news-history
@@ -3154,7 +3122,6 @@ stingy-hour,http://ssireview.org
 stone-yamashita-partners-and-pbs_abc,faculty-research/case-studies/stone-yamashita-partners-pbs
 stopping-spread-trauma,http://ssireview.org
 storytelling-for-good-causes,insights/social-innovation
-storytelling-for-good-causes,http://www.ssireview.org/podcasts
 stoves-empowerment-how-household-item-saving-lives,http://www.ssireview.org/podcasts
 strategic-activism-nonmarket-strategy,faculty-research/publications?topics[]=10131
 strategic-activism-the-rainforest-action_network,faculty-research/case-studies/strategic-activism-rainforest-action-network
@@ -3641,7 +3608,6 @@ why-are-social-entrepreneurs-ginger-rogers,insights/sally-osberg-how-social-entr
 why-bank-equity-not-expensive,faculty-research/publications?topics[]=10168
 why-cant-non-profits-be-run-effectively-profits,faculty-research/centers-initiatives/csi
 why-didnt-you-just-ask,faculty-research/publications
-why-didnt-you-just-ask,faculty-research/publications?topics[]=10169
 why-do-firms-developing-countries-have-low-productivity,faculty-research/publications/why-do-firms-developing-countries-have-low-productivity
 why-do-people-give-charity,insights/social-innovation
 why-do-people-really-give-charity,insights/social-innovation
