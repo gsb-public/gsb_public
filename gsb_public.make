@@ -1444,6 +1444,7 @@ projects[views_field_view][subdir] = contrib
 projects[views_load_more][version] = 1.5
 projects[views_load_more][subdir] = contrib
 projects[views_load_more][patch][1923870] = https://www.drupal.org/files/issues/add_a_scroll_to_top-1923870-9.patch
+projects[views_load_more][patch][1475642] = https://www.drupal.org/files/issues/views_load_more-grouping-1475642-6.patch
 
 projects[views_responsive_grid][version] = 1.3
 projects[views_responsive_grid][subdir] = contrib
