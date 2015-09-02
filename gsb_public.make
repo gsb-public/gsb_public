@@ -550,7 +550,7 @@ projects[gsb_feature_event_display][subdir] = custom/features
 projects[gsb_feature_event_shared][type] = module
 projects[gsb_feature_event_shared][download][type] = git
 projects[gsb_feature_event_shared][download][url] = git@github.com:gsb-public/gsb_feature_event_shared.git
-projects[gsb_feature_event_shared][download][branch] = release-5.17
+projects[gsb_feature_event_shared][download][tag] = 5.17
 projects[gsb_feature_event_shared][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
