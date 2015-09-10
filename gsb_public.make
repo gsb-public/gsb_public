@@ -1136,6 +1136,7 @@ projects[entityreference][subdir] = contrib
 
 projects[entityreference_autocomplete][version] = 1.9
 projects[entityreference_autocomplete][subdir] = contrib
+projects[entityreference_autocomplete][patch][2561431] = https://www.drupal.org/files/issues/entityreference_autocomplete-7.x-1.x-2561431-4.patch
 
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
