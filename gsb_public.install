@@ -5173,3 +5173,40 @@ function gsb_public_update_7274() {
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
+
+/**
+ * Import the Alumni redirects.
+ */
+function gsb_public_update_7275(){
+  $filename = 'P5 Content Tracker - Final Alumni Redirects.csv';
+  $file_path = 'profiles/gsb_public/imports/'.$filename;
+  $row = 1;
+  if (($handle = fopen($file_path, "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+      $row++;
+      if ($row > 2) {  // Excluded title row from csv
+        $source_url = $data[0];
+        $redirect_url = $data[1];
+
+        if ($source_url != "" && $redirect_url != "") {
+          $redirect = array('source' => $source_url, 'redirect' => $redirect_url);
+          $redirect_object = new stdClass();
+          redirect_object_prepare($redirect_object, $redirect);
+          // Check if the redirect exists before saving.
+          if (!redirect_load_by_source($source_url)) {
+            try {
+              redirect_save($redirect_object);
+            }
+            catch (Exception $e) {
+              watchdog('gsb_public', 'Error adding redirect for ' . $source_url);
+            }
+          }
+        }
+      }
+    }
+    fclose($handle);
+  }
+  else {
+    watchdog('gsb_public','Error in reading File');
+  }
+}
