@@ -1063,7 +1063,7 @@ projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_field_patch-2476195-2.patch
 
-projects[ctools][version] = 1.7
+projects[ctools][version] = 1.9
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-29.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-30.patch
@@ -1081,7 +1081,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[custom_add_another][version] = 1.0-rc3
 projects[custom_add_another][subdir] = contrib
 
-projects[date][version] = 2.8
+projects[date][version] = 2.9
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.2
@@ -1105,11 +1105,8 @@ projects[devel_form_debug][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.x-dev
+projects[ds][version] = 2.11
 projects[ds][subdir] = contrib
-projects[ds][download][type] = git
-projects[ds][download][revision] = 6fe45c4
-projects[ds][download][branch] = 7.x-2.x
 
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.githubusercontent.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
@@ -1163,32 +1160,21 @@ projects[features][subdir] = contrib
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
-projects[fieldable_panels_panes][version] = 1.x-dev
+projects[fieldable_panels_panes][version] = 1.7
 projects[fieldable_panels_panes][subdir] = contrib
-projects[fieldable_panels_panes][download][type] = git
-projects[fieldable_panels_panes][download][revision] = bfef4
-projects[fieldable_panels_panes][download][branch] = 7.x-1.x
-projects[fieldable_panels_panes][patch][2233363] = https://www.drupal.org/files/issues/fieldable_panels_panes-fiels_links_not_working-2233363-5.patch
-projects[fieldable_panels_panes][patch][2302931] = https://www.drupal.org/files/issues/entity_type_for_create_access-2302931-0.patch
-projects[fieldable_panels_panes][patch][2280457] = https://www.drupal.org/files/issues/fieldable_panels_panes-entity-api-broken-2280457.patch
 projects[fieldable_panels_panes][patch][2381433] = https://www.drupal.org/files/issues/fieldable_panels_panes_patch-2381433-1_0.patch
 
-projects[field_collection][version] = 1.0-beta5
+projects[field_collection][version] = 1.0-beta8
 projects[field_collection][subdir] = contrib
-projects[field_collection][patch][1807460] = http://drupal.org/files/field_collection_with_workbench_moderation-1807460-1.patch
-projects[field_collection][patch][1175082] = https://drupal.org/files/field_collection-migrate-1175082-222.patch
-projects[field_collection][patch][2211667] = https://drupal.org/files/issues/field_collection_patch-2211667-1.patch
 projects[field_collection][patch][1289062] = https://drupal.org/files/issues/field_collection-validate_required_fields-1289062-37-beta5-do-not-test.patch
 projects[field_collection][patch][1675522] = https://www.drupal.org/files/issues/field_collection-remove_button_broken-1675522-23-do-not-test.patch
+projects[field_collection][patch][2220751] = https://www.drupal.org/files/issues/field_collection_presave_update-2220751.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[field_group][version] = 1.1
+projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
-projects[field_group][patch][2189777] = https://drupal.org/files/issues/field_group_patch-2189777-1.patch
-projects[field_group][patch][2212431] = https://drupal.org/files/issues/field_group-2212431-1.patch
-projects[field_group][patch][1357896] = https://drupal.org/files/issues/field_group-1357896-dont-focus-on-Enter-7.x-1.1.patch
 
 projects[filefield_paths][version] = 1.0-beta4
 projects[filefield_paths][subdir] = contrib
@@ -1235,7 +1221,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 3.4
+projects[mailchimp][version] = 3.6
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
