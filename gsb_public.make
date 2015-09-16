@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 5.07
+projects[alumni_cas_auth][download][branch] = release-5.08
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -543,7 +543,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 5.09
+projects[gsb_feature_event_display][download][branch] = release-5.10
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Event Shared
