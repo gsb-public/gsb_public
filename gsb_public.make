@@ -377,14 +377,14 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 5.18
+projects[gsb_feature_admission_event_display][download][branch] = release-5.19
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
 projects[gsb_feature_all_research_display][type] = module
 projects[gsb_feature_all_research_display][download][type] = git
 projects[gsb_feature_all_research_display][download][url] = git@github.com:gsb-public/gsb_feature_all_research_display.git
-projects[gsb_feature_all_research_display][download][tag] = 5.19
+projects[gsb_feature_all_research_display][download][branch] = release-5.20
 projects[gsb_feature_all_research_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -454,7 +454,7 @@ projects[gsb_feature_book_ct][subdir] = custom/features
 projects[gsb_feature_book_display][type] = module
 projects[gsb_feature_book_display][download][type] = git
 projects[gsb_feature_book_display][download][url] = git@github.com:gsb-public/gsb_feature_book_display.git
-projects[gsb_feature_book_display][download][tag] = 5.06
+projects[gsb_feature_book_display][download][branch] = release-5.07
 projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Business Website
@@ -482,7 +482,7 @@ projects[gsb_feature_case_ct][subdir] = custom/features
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][tag] = 5.09
+projects[gsb_feature_case_display][download][branch] = release-5.10
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Chute FPP
@@ -502,7 +502,7 @@ projects[gsb_feature_club_ct][subdir] = custom/features
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsb-public/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 5.05
+projects[gsb_feature_club_display][download][branch] = release-5.06
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Feature Course
@@ -578,7 +578,7 @@ projects[gsb_feature_faculty_ct][subdir] = custom/features
 projects[gsb_feature_faculty_display][type] = module
 projects[gsb_feature_faculty_display][download][type] = git
 projects[gsb_feature_faculty_display][download][url] = git@github.com:gsb-public/gsb_feature_faculty_display.git
-projects[gsb_feature_faculty_display][download][tag] = 5.05
+projects[gsb_feature_faculty_display][download][branch] = release-5.06
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
 ; GSB Feature Featured Content FPP
@@ -753,7 +753,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.09
+projects[gsb_feature_news_display][download][branch] = release-5.10
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
@@ -820,7 +820,7 @@ projects[gsb_feature_publication_ct][subdir] = custom/features
 projects[gsb_feature_publication_display][type] = module
 projects[gsb_feature_publication_display][download][type] = git
 projects[gsb_feature_publication_display][download][url] = git@github.com:gsb-public/gsb_feature_publication_display.git
-projects[gsb_feature_publication_display][download][tag] = 5.06
+projects[gsb_feature_publication_display][download][branch] = release-5.07
 projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Feature Ranking CT
@@ -834,7 +834,7 @@ projects[gsb_feature_ranking_ct][subdir] = custom/features
 projects[gsb_feature_ranking_display][type] = module
 projects[gsb_feature_ranking_display][download][type] = git
 projects[gsb_feature_ranking_display][download][url] = git@github.com:gsb-public/gsb_feature_ranking_display.git
-projects[gsb_feature_ranking_display][download][tag] = 5.01
+projects[gsb_feature_ranking_display][download][branch] = release-5.02
 projects[gsb_feature_ranking_display][subdir] = custom/features
 
 ; GSB Feature RSS Feeds
@@ -960,7 +960,7 @@ projects[gsb_feature_working_paper_ct][subdir] = custom/features
 projects[gsb_feature_working_paper_display][type] = module
 projects[gsb_feature_working_paper_display][download][type] = git
 projects[gsb_feature_working_paper_display][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_display.git
-projects[gsb_feature_working_paper_display][download][tag] = 5.07
+projects[gsb_feature_working_paper_display][download][branch] = release-5.08
 projects[gsb_feature_working_paper_display][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
