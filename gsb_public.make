@@ -1166,7 +1166,7 @@ projects[fieldable_panels_panes][patch][2381433] = https://www.drupal.org/files/
 
 projects[field_collection][version] = 1.0-beta8
 projects[field_collection][subdir] = contrib
-projects[field_collection][patch][1289062] = https://www.drupal.org/files/issues/field_collection-validate_required_fields-1289062-49.patch
+projects[field_collection][patch][1289062] = https://www.drupal.org/files/issues/field_collection-validate_required_fields-1289062-53.patch
 projects[field_collection][patch][1675522] = https://www.drupal.org/files/issues/field_collection-remove_button_broken-1675522-12.patch
 
 projects[field_formatter_settings][version] = 1.1
