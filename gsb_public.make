@@ -149,7 +149,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 5.06
+projects[gsb_field_formatter][download][branch] = release-5.07
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
