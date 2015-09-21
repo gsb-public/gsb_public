@@ -5210,3 +5210,16 @@ function gsb_public_update_7275(){
     watchdog('gsb_public','Error in reading File');
   }
 }
+
+/**
+ * Update script to remove descipline and event series vocab
+ */
+function gsb_public_update_7275() {
+  $vocabulary = taxonomy_vocabulary_machine_name_load('discipline');
+  // Delete from database.
+  taxonomy_vocabulary_delete($vocabulary->vid);
+
+  $vocabulary = taxonomy_vocabulary_machine_name_load('event_series');
+  // Delete from database.
+  taxonomy_vocabulary_delete($vocabulary->vid);
+}
