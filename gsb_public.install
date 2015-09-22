@@ -5214,7 +5214,7 @@ function gsb_public_update_7275(){
 /**
  * Update script to remove descipline and event series vocab
  */
-function gsb_public_update_7275() {
+function gsb_public_update_7276() {
   $vocabulary = taxonomy_vocabulary_machine_name_load('discipline');
   // Delete from database.
   taxonomy_vocabulary_delete($vocabulary->vid);
