@@ -5223,3 +5223,13 @@ function gsb_public_update_7276() {
   // Delete from database.
   taxonomy_vocabulary_delete($vocabulary->vid);
 }
+
+/**
+ * Delete the machine name for nodes.
+ */
+function gsb_public_update_7277() {
+  $nids = array(376771, 376741);
+  db_delete('defaultcontent')
+    ->condition('nid', $nids, 'IN')
+    ->execute();
+}
