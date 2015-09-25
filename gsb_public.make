@@ -1168,6 +1168,7 @@ projects[field_collection][version] = 1.0-beta8
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1289062] = https://www.drupal.org/files/issues/required_fields_in-1289062-53.patch
 projects[field_collection][patch][1675522] = https://www.drupal.org/files/issues/field_collection-remove_button_broken-1675522-12.patch
+projects[field_collection][patch][1822844] = https://www.drupal.org/files/notice-1822844-16.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
