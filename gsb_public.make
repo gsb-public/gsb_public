@@ -1175,6 +1175,7 @@ projects[field_formatter_settings][subdir] = contrib
 
 projects[field_group][version] = 1.4
 projects[field_group][subdir] = contrib
+projects[field_group][patch][2576311] = https://www.drupal.org/files/issues/field_group-2576311-1.patch
 
 projects[filefield_paths][version] = 1.0-beta4
 projects[filefield_paths][subdir] = contrib
