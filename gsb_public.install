@@ -5233,3 +5233,11 @@ function gsb_public_update_7277() {
     ->condition('nid', $nids, 'IN')
     ->execute();
 }
+
+/**
+ * Disable the webform_addmore module
+ */
+function gsb_public_update_7278() {
+  module_disable(array('webform_addmore'));
+  drupal_uninstall_modules(array('webform_addmore'));
+}
