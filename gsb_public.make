@@ -342,7 +342,7 @@ projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 projects[gsb_feature_academic_calendar_display][type] = module
 projects[gsb_feature_academic_calendar_display][download][type] = git
 projects[gsb_feature_academic_calendar_display][download][url] = git@github.com:gsb-public/gsb_feature_academic_calendar_display.git
-projects[gsb_feature_academic_calendar_display][download][branch] = release-1.4
+projects[gsb_feature_academic_calendar_display][download][tag] = 1.4
 projects[gsb_feature_academic_calendar_display][subdir] = custom/features
 
 ; GSB Features Accordion
