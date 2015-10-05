@@ -5241,3 +5241,15 @@ function gsb_public_update_7278() {
   module_disable(array('webform_addmore'));
   drupal_uninstall_modules(array('webform_addmore'));
 }
+
+/**
+ * Enable gsb_feature_videos_fpp and video_embed_field modules.
+ */
+function gsb_public_update_7279() {
+  if (!module_exists('video_embed_field')) {
+    module_enable(array('video_embed_field'));
+  }
+  if (!module_exists('gsb_feature_videos_fpp')) {
+    module_enable(array('gsb_feature_videos_fpp'));
+  }
+}
