@@ -159,6 +159,13 @@ projects[gsb_filtered_view_link][download][url] = git@github.com:gsb-public/gsb_
 projects[gsb_filtered_view_link][download][tag] = 5.0
 projects[gsb_filtered_view_link][subdir] = custom
 
+; GSB Filter With States
+projects[gsb_filter_with_states][type] = module
+projects[gsb_filter_with_states][download][type] = git
+projects[gsb_filter_with_states][download][url] = git@github.com:gsb-public/gsb_filter_with_states.git
+projects[gsb_filter_with_states][download][branch] = release-5.21
+projects[gsb_filter_with_states][subdir] = custom
+
 ; GSB FPP Customization
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
