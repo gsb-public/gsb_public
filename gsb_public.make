@@ -1413,6 +1413,9 @@ projects[tzfield][subdir] = contrib
 projects[uuid][version] = 1.0-alpha6
 projects[uuid][subdir] = contrib
 
+projects[video_embed_field][version] = 2.0-beta11+1-dev
+projects[video_embed_field][subdir] = contrib
+
 projects[views][version] = 3.11
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
