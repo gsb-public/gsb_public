@@ -268,7 +268,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][tag] = 5.04
+projects[gsb_social][download][branch] = release-5.05
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
@@ -557,7 +557,7 @@ projects[gsb_feature_event_shared][subdir] = custom/features
 projects[gsb_feature_existing_node_fpp][type] = module
 projects[gsb_feature_existing_node_fpp][download][type] = git
 projects[gsb_feature_existing_node_fpp][download][url] = git@github.com:gsb-public/gsb_feature_existing_node_fpp.git
-projects[gsb_feature_existing_node_fpp][download][tag] = 5.04
+projects[gsb_feature_existing_node_fpp][download][branch] = release-5.05
 projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 
 ; GSB Feature Existing Node List FPP
@@ -985,7 +985,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 5.20
+projects[gsb_theme][download][branch] = release-5.21
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
