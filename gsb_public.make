@@ -921,6 +921,13 @@ projects[gsb_feature_video][download][url] = git@github.com:gsb-public/gsb_featu
 projects[gsb_feature_video][download][tag] = 4.0
 projects[gsb_feature_video][subdir] = custom/features
 
+; GSB Feature Videos FPP
+projects[gsb_feature_videos_fpp][type] = module
+projects[gsb_feature_videos_fpp][download][type] = git
+projects[gsb_feature_videos_fpp][download][url] = git@github.com:gsb-public/gsb_feature_videos_fpp.git
+projects[gsb_feature_videos_fpp][download][branch] = release-5.21
+projects[gsb_feature_videos_fpp][subdir] = custom/features
+
 ; GSB Feature Webform Content Type
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
