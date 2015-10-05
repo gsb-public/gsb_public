@@ -1427,7 +1427,7 @@ projects[tzfield][subdir] = contrib
 projects[uuid][version] = 1.0-alpha6
 projects[uuid][subdir] = contrib
 
-projects[video_embed_field][version] = 2.x
+projects[video_embed_field][version] = 2.0-beta11
 projects[video_embed_field][subdir] = contrib
 
 projects[views][version] = 3.11
