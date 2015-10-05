@@ -5253,3 +5253,13 @@ function gsb_public_update_7279() {
     module_enable(array('gsb_feature_videos_fpp'));
   }
 }
+
+/**
+ * Enable gsb_filter_with_states module.
+ */
+function gsb_public_update_7280() {
+  if (!module_exists('gsb_filter_with_states')) {
+    module_enable(array('gsb_filter_with_states'));
+  }
+}
+
