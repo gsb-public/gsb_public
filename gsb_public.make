@@ -1473,3 +1473,6 @@ projects[workbench_access][patch][2547039] = https://www.drupal.org/files/issues
 
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
+
+projects[youtube_api][version] = 1.0-beta3
+projects[youtube_api][subdir] = contrib
