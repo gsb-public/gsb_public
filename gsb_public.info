@@ -92,6 +92,7 @@ dependencies[] = uuid
 dependencies[] = video_embed_field
 dependencies[] = views_field_view
 dependencies[] = views_responsive_grid
+dependencies[] = webform_to_gdocs
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
