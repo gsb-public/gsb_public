@@ -1461,6 +1461,11 @@ projects[views_xml_backend][download][revision] = 9858ea6
 projects[views_xml_backend][download][branch] = 7.x-1.x
 projects[views_xml_backend][subdir] = contrib
 
+projects[webform_to_gdocs][subdir] = contrib
+projects[webform_to_gdocs][download][type] = git
+projects[webform_to_gdocs][download][url] = git@github.com:gsb-public/webform_to_gdocs.git
+projects[webform_to_gdocs][download][branch] = WP-6007
+
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
 projects[workbench][download][type] = git
