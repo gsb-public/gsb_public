@@ -5280,7 +5280,7 @@ function gsb_public_update_7282() {
   $adminstrator_user = user_role_load_by_name('administrator');
   // Add the permission
   $adminstrator_user_permissions = array(
-    'administer webform_to_gdocs',
+    'administer webform to gdocs',
     'attach webform to gdocs',
   );
   // Update admin user role permissions
