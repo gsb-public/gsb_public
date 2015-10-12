@@ -5264,18 +5264,9 @@ function gsb_public_update_7280() {
 }
 
 /**
- * Enable webform_to_gdocs module.
- */
-function gsb_public_update_7281() {
-  if (!module_exists('webform_to_gdocs')) {
-    module_enable(array('webform_to_gdocs'));
-  }
-}
-
-/**
  * Update adminstrator user permissions for 'webform to gdocs'
  */
-function gsb_public_update_7282() {
+function gsb_public_update_7281() {
   // Get the admin user role
   $adminstrator_user = user_role_load_by_name('administrator');
   // Add the permission
