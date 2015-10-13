@@ -303,7 +303,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_url_shortener][type] = module
 projects[gsb_url_shortener][download][type] = git
 projects[gsb_url_shortener][download][url] = git@github.com:gsb-public/gsb_url_shortener.git
-projects[gsb_url_shortener][download][branch] = release-5.19
+projects[gsb_url_shortener][download][tag] = 5.19
 projects[gsb_url_shortener][subdir] = custom
 
 ; GSB Workbench Save and Publish
