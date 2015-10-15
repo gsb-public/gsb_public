@@ -447,7 +447,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.18
+projects[gsb_feature_base_fields][download][branch] = release-5.19
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -918,7 +918,7 @@ projects[gsb_feature_topic_teaser_fpp][subdir] = custom/features
 projects[gsb_feature_text_fpp][type] = module
 projects[gsb_feature_text_fpp][download][type] = git
 projects[gsb_feature_text_fpp][download][url] = git@github.com:gsb-public/gsb_feature_text_fpp.git
-projects[gsb_feature_text_fpp][download][tag] = 4.0
+projects[gsb_feature_text_fpp][download][branch] = release-4.1
 projects[gsb_feature_text_fpp][subdir] = custom/features
 
 ; GSB Feature Video
@@ -967,7 +967,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][tag] = 5.09.1
+projects[gsb_feature_working_paper_ct][download][branch] = release-5.10
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
