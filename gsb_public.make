@@ -1467,7 +1467,6 @@ projects[workbench][download][branch] = 7.x-1.x
 
 projects[workbench_access][version] = 1.4
 projects[workbench_access][subdir] = contrib
-projects[workbench_access][patch][2547039] = https://www.drupal.org/files/issues/fix_user_and_role_access_application.patch
 
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
