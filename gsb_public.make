@@ -939,7 +939,7 @@ projects[gsb_feature_videos_fpp][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsb-public/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 5.08
+projects[gsb_feature_webform_ct][download][branch] = release-5.09
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -1019,7 +1019,7 @@ projects[acquia_connector][subdir] = contrib
 projects[acquia_purge][version] = 1.3
 projects[acquia_purge][subdir] = contrib
 
-projects[addressfield][version] = 1.1
+projects[addressfield][version] = 1.2
 projects[addressfield][subdir] = contrib
 
 projects[admin_menu][version] = 3.0-rc5
@@ -1101,7 +1101,7 @@ projects[date][subdir] = contrib
 projects[date_popup_authored][version] = 1.2
 projects[date_popup_authored][subdir] = contrib
 
-projects[defaultconfig][version] = 1.0-alpha9
+projects[defaultconfig][version] = 1.0-alpha11
 projects[defaultconfig][subdir] = contrib
 projects[defaultconfig][patch][1912312] = http://drupal.org/files/defaultconfig-remove-notice-1912312.patch
 
@@ -1145,9 +1145,8 @@ projects[entity][subdir] = contrib
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_autocomplete][version] = 1.9
+projects[entityreference_autocomplete][version] = 1.10
 projects[entityreference_autocomplete][subdir] = contrib
-projects[entityreference_autocomplete][patch][2561431] = https://www.drupal.org/files/issues/entityreference_autocomplete-7.x-1.x-2561431-4.patch
 
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
@@ -1324,10 +1323,8 @@ projects[panels][subdir] = contrib
 projects[panels_breadcrumbs][version] = 2.2
 projects[panels_breadcrumbs][subdir] = contrib
 
-projects[pathauto][version] = 1.2
+projects[pathauto][version] = 1.3
 projects[pathauto][subdir] = contrib
-projects[pathauto][patch][2174603] = https://www.drupal.org/files/issues/pathauto_patch-2174603-1.patch
-projects[pathauto][patch][936222] = http://drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
 
 projects[pathauto_menu_link][version] = 1.2
 projects[pathauto_menu_link][subdir] = contrib
@@ -1425,7 +1422,7 @@ projects[typogrify][subdir] = contrib
 projects[tzfield][version] = 1.1
 projects[tzfield][subdir] = contrib
 
-projects[uuid][version] = 1.0-alpha6
+projects[uuid][version] = 1.0-beta1
 projects[uuid][subdir] = contrib
 
 projects[video_embed_field][version] = 2.0-beta11
@@ -1443,7 +1440,7 @@ projects[views_autocomplete_filters][patch][2493069] = https://www.drupal.org/fi
 projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 
-projects[views_field_view][version] = 1.1
+projects[views_field_view][version] = 1.2
 projects[views_field_view][subdir] = contrib
 
 ; Load more functionality for views
@@ -1468,7 +1465,7 @@ projects[workbench][download][type] = git
 projects[workbench][download][revision] = 6856e4a
 projects[workbench][download][branch] = 7.x-1.x
 
-projects[workbench_access][version] = 1.3
+projects[workbench_access][version] = 1.4
 projects[workbench_access][subdir] = contrib
 projects[workbench_access][patch][2547039] = https://www.drupal.org/files/issues/fix_user_and_role_access_application.patch
 
