@@ -1160,6 +1160,7 @@ projects[expire][subdir] = contrib
 
 projects[expire_panels][version] = 1.0-beta2
 projects[expire_panels][subdir] = contrib
+projects[expire_panels][patch][2530530] = https://www.drupal.org/node/2530530#comment-10107102
 
 projects[fancybox][version] = 2.0-beta6
 projects[fancybox][subdir] = contrib
