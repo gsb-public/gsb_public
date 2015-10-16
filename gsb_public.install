@@ -5277,3 +5277,12 @@ function gsb_public_update_7281() {
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
+
+/**
+ * Enable expire_panels module.
+ */
+function gsb_public_update_7282() {
+  if (!module_exists('expire_panels')) {
+    module_enable(array('expire_panels'));
+  }
+}
