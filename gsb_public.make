@@ -1158,6 +1158,9 @@ projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328
 projects[expire][version] = 2.0-rc4
 projects[expire][subdir] = contrib
 
+projects[expire_panels][version] = 1.0-beta2
+projects[expire_panels][subdir] = contrib
+
 projects[fancybox][version] = 2.0-beta6
 projects[fancybox][subdir] = contrib
 
