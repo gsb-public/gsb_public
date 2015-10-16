@@ -47,6 +47,7 @@ dependencies[] = email_contact
 dependencies[] = entityreference_autocomplete
 dependencies[] = eva
 dependencies[] = expire
+dependencies[] = expire_panels
 dependencies[] = fancybox
 dependencies[] = fape
 dependencies[] = features
