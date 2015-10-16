@@ -613,7 +613,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 5.08
+projects[gsb_feature_file_types][download][branch] = release-5.09
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
@@ -932,7 +932,7 @@ projects[gsb_feature_video][subdir] = custom/features
 projects[gsb_feature_videos_fpp][type] = module
 projects[gsb_feature_videos_fpp][download][type] = git
 projects[gsb_feature_videos_fpp][download][url] = git@github.com:gsb-public/gsb_feature_videos_fpp.git
-projects[gsb_feature_videos_fpp][download][tag] = 5.21.1
+projects[gsb_feature_videos_fpp][download][branch] = release-5.22
 projects[gsb_feature_videos_fpp][subdir] = custom/features
 
 ; GSB Feature Webform Content Type
