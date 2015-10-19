@@ -5291,7 +5291,7 @@ function gsb_public_update_7282() {
  * Set configuration properties for expire_panels module.
  */
 function gsb_public_update_7283() {
-  if (!module_exists('expire_panels')) {
+  if (module_exists('expire_panels')) {
     module_load_include('module', 'expire_panels');
     
     variable_set('expire_panels_front_page', TRUE);
