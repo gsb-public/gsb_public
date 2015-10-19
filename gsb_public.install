@@ -5264,24 +5264,9 @@ function gsb_public_update_7280() {
 }
 
 /**
- * Update adminstrator user permissions for 'webform to gdocs'
- */
-function gsb_public_update_7281() {
-  // Get the admin user role
-  $adminstrator_user = user_role_load_by_name('administrator');
-  // Add the permission
-  $adminstrator_user_permissions = array(
-    'administer webform to gdocs',
-    'attach webform to gdocs',
-  );
-  // Update admin user role permissions
-  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
-}
-
-/**
  * Enable expire_panels module.
  */
-function gsb_public_update_7282() {
+function gsb_public_update_7281() {
   if (!module_exists('expire_panels')) {
     module_enable(array('expire_panels'));
   }
@@ -5290,7 +5275,7 @@ function gsb_public_update_7282() {
 /**
  * Set configuration properties for expire_panels module.
  */
-function gsb_public_update_7283() {
+function gsb_public_update_7282() {
   if (module_exists('expire_panels')) {
     module_load_include('module', 'expire_panels');
     
