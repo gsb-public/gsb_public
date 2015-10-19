@@ -5286,3 +5286,18 @@ function gsb_public_update_7282() {
     module_enable(array('expire_panels'));
   }
 }
+
+/**
+ * Set configuration properties for expire_panels module.
+ */
+function gsb_public_update_7283() {
+  if (!module_exists('expire_panels')) {
+    module_load_include('module', 'expire_panels');
+    
+    variable_set('expire_panels_front_page', TRUE);
+    variable_set('expire_panels_actions', array(EXPIRE_PANELS_DISPLAY_UPDATE, EXPIRE_PANELS_DISPLAY_DELETE));
+    variable_set('expire_panels_panel_page', TRUE);
+    variable_set('expire_panels_panelizer_page', TRUE);
+  }
+}
+
