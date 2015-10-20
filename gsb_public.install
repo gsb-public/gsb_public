@@ -5286,3 +5286,11 @@ function gsb_public_update_7282() {
   }
 }
 
+/**
+ * Enable image_link_formatter module.
+ */
+function gsb_public_update_7283() {
+  if (!module_exists('image_link_formatter')) {
+    module_enable(array('image_link_formatter'));
+  }
+}
