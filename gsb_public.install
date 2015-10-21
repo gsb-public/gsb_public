@@ -5286,3 +5286,15 @@ function gsb_public_update_7282() {
   }
 }
 
+/**
+ * Delete field instance 'field_year' from the Case content type.
+ */
+function gsb_public_update_7283() {
+  $entity_type = 'node';
+  $bundle = 'case';
+  $field_name = 'field_year';
+  $instance = field_info_instance($entity_type, $field_name, $bundle);
+  field_delete_instance($instance);
+  field_purge_batch(10);
+}
+
