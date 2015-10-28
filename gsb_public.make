@@ -1211,7 +1211,7 @@ projects[google_analytics][subdir] = contrib
 
 libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client
-libraries[google-api-php-client][download][branch] = master
+libraries[google-api-php-client][download][tag] = 1.1.6
 
 projects[hierarchical_select][version] = 3.0-alpha12
 projects[hierarchical_select][subdir] = contrib
