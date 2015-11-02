@@ -1164,6 +1164,7 @@ projects[expire_panels][patch][2530530] = https://www.drupal.org/files/issues/pa
 
 projects[fancybox][version] = 2.0-beta6
 projects[fancybox][subdir] = contrib
+projects[fancybox][patch][2606610] = https://www.drupal.org/files/issues/fancybox_2606610-2.patch
 
 libraries[fancybox][download][type] = get
 libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipball/v2.1.4
