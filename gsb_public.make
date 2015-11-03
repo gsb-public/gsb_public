@@ -1202,6 +1202,7 @@ projects[filefield_paths][download][url] = http://git.drupal.org/project/filefie
 projects[filefield_paths][download][branch] = 7.x-1.x
 projects[filefield_paths][download][revision] = 8b39e73
 projects[filefield_paths][patch][1924686] = https://www.drupal.org/files/issues/filefield_paths_patch-9254679-1.patch
+projects[filefield_paths][patch][2103151] = https://www.drupal.org/files/issues/deprecated_e-2103151-32.patch
 
 projects[file_entity][version] = 2.0-beta1
 projects[file_entity][subdir] = contrib
