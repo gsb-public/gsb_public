@@ -163,7 +163,7 @@ projects[gsb_filtered_view_link][subdir] = custom
 projects[gsb_filter_with_states][type] = module
 projects[gsb_filter_with_states][download][type] = git
 projects[gsb_filter_with_states][download][url] = git@github.com:gsb-public/gsb_filter_with_states.git
-projects[gsb_filter_with_states][download][tag] = 5.21
+projects[gsb_filter_with_states][download][branch] = WP-6181
 projects[gsb_filter_with_states][subdir] = custom
 
 ; GSB FPP Customization
@@ -384,14 +384,14 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 5.21
+projects[gsb_feature_admission_event_display][download][branch] = WP-6181
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
 projects[gsb_feature_all_research_display][type] = module
 projects[gsb_feature_all_research_display][download][type] = git
 projects[gsb_feature_all_research_display][download][url] = git@github.com:gsb-public/gsb_feature_all_research_display.git
-projects[gsb_feature_all_research_display][download][tag] = 5.21
+projects[gsb_feature_all_research_display][download][branch] = WP-6181
 projects[gsb_feature_all_research_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -461,7 +461,7 @@ projects[gsb_feature_book_ct][subdir] = custom/features
 projects[gsb_feature_book_display][type] = module
 projects[gsb_feature_book_display][download][type] = git
 projects[gsb_feature_book_display][download][url] = git@github.com:gsb-public/gsb_feature_book_display.git
-projects[gsb_feature_book_display][download][tag] = 5.07
+projects[gsb_feature_book_display][download][branch] = WP-6181
 projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Business Website
@@ -489,7 +489,7 @@ projects[gsb_feature_case_ct][subdir] = custom/features
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][tag] = 5.11
+projects[gsb_feature_case_display][download][branch] = WP-6181
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Chute FPP
@@ -509,7 +509,7 @@ projects[gsb_feature_club_ct][subdir] = custom/features
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsb-public/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 5.06
+projects[gsb_feature_club_display][download][branch] = WP-6181
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Feature Course
@@ -550,7 +550,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 5.11
+projects[gsb_feature_event_display][download][branch] = WP-6181
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Event Shared
@@ -585,7 +585,7 @@ projects[gsb_feature_faculty_ct][subdir] = custom/features
 projects[gsb_feature_faculty_display][type] = module
 projects[gsb_feature_faculty_display][download][type] = git
 projects[gsb_feature_faculty_display][download][url] = git@github.com:gsb-public/gsb_feature_faculty_display.git
-projects[gsb_feature_faculty_display][download][tag] = 5.06
+projects[gsb_feature_faculty_display][download][branch] = WP-6181
 projects[gsb_feature_faculty_display][subdir] = custom/features
 
 ; GSB Feature Featured Content FPP
@@ -827,7 +827,7 @@ projects[gsb_feature_publication_ct][subdir] = custom/features
 projects[gsb_feature_publication_display][type] = module
 projects[gsb_feature_publication_display][download][type] = git
 projects[gsb_feature_publication_display][download][url] = git@github.com:gsb-public/gsb_feature_publication_display.git
-projects[gsb_feature_publication_display][download][tag] = 5.07
+projects[gsb_feature_publication_display][download][branch] = WP-6181
 projects[gsb_feature_publication_display][subdir] = custom/features
 
 ; GSB Feature Ranking CT
@@ -974,7 +974,7 @@ projects[gsb_feature_working_paper_ct][subdir] = custom/features
 projects[gsb_feature_working_paper_display][type] = module
 projects[gsb_feature_working_paper_display][download][type] = git
 projects[gsb_feature_working_paper_display][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_display.git
-projects[gsb_feature_working_paper_display][download][tag] = 5.08
+projects[gsb_feature_working_paper_display][download][branch] = WP-6181
 projects[gsb_feature_working_paper_display][subdir] = custom/features
 
 ; GSB Feature Wysiwyg
