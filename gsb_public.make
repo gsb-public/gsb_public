@@ -876,7 +876,7 @@ projects[gsb_feature_social_feed][subdir] = custom/features
 projects[gsb_feature_spotlight][type] = module
 projects[gsb_feature_spotlight][download][type] = git
 projects[gsb_feature_spotlight][download][url] = git@github.com:gsb-public/gsb_feature_spotlight.git
-projects[gsb_feature_spotlight][download][branch] = release-5.3
+projects[gsb_feature_spotlight][download][tag] = 5.3
 projects[gsb_feature_spotlight][subdir] = custom/features
 
 ; GSB Feature Slideshow
