@@ -5298,3 +5298,10 @@ function gsb_public_update_7283() {
   field_purge_batch(10);
 }
 
+/**
+ * Disable and uninstall the gsb_feature_chute_fpp module
+ */
+function gsb_public_update_7284() {
+  module_disable(array('gsb_feature_chute_fpp'));
+  drupal_uninstall_modules(array('gsb_feature_chute_fpp'));
+}
