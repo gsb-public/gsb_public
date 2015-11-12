@@ -149,7 +149,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 5.09
+projects[gsb_field_formatter][download][branch] = release-6.0
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -482,7 +482,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][tag] = 5.11
+projects[gsb_feature_case_ct][download][branch] = relesase-6.0
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
@@ -746,14 +746,14 @@ projects[gsb_feature_metatag][subdir] = custom/features
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][tag] = 5.04
+projects[gsb_feature_msx_fellows_ct][download][branch] = release-6.0
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
 projects[gsb_feature_msx_fellows_display][type] = module
 projects[gsb_feature_msx_fellows_display][download][type] = git
 projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_display.git
-projects[gsb_feature_msx_fellows_display][download][tag] = 5.02
+projects[gsb_feature_msx_fellows_display][download][branch] = release-6.0
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
 ; GSB Feature News Display
@@ -869,7 +869,7 @@ projects[gsb_feature_simplesaml][subdir] = custom/features
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git
 projects[gsb_feature_social_feed][download][url] = git@github.com:gsb-public/gsb_feature_social_feed.git
-projects[gsb_feature_social_feed][download][tag] = 5.01
+projects[gsb_feature_social_feed][download][branch] = release-6.0
 projects[gsb_feature_social_feed][subdir] = custom/features
 
 ; GSB Feature Spotlight
