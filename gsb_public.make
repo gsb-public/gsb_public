@@ -613,7 +613,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 5.09
+projects[gsb_feature_file_types][download][branch] = release-6.0
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
@@ -807,7 +807,7 @@ projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 projects[gsb_feature_phd_candidate_display][type] = module
 projects[gsb_feature_phd_candidate_display][download][type] = git
 projects[gsb_feature_phd_candidate_display][download][url] = git@github.com:gsb-public/gsb_feature_phd_candidate_display.git
-projects[gsb_feature_phd_candidate_display][download][tag] = 5.01
+projects[gsb_feature_phd_candidate_display][download][branch] = release-6.0
 projects[gsb_feature_phd_candidate_display][subdir] = custom/features
 
 ; GSB PR Contact
