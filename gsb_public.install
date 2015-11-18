@@ -5299,9 +5299,23 @@ function gsb_public_update_7283() {
 }
 
 /**
- * Disable and uninstall the gsb_feature_chute_fpp module
+ * Delete Chute fpp contents.
  */
 function gsb_public_update_7284() {
+  $fpids = db_select('fieldable_panels_panes', 'fpp')
+    ->fields('fpp', array('fpid'))
+    ->condition('fpp.bundle', 'Chute')
+    ->execute();
+
+  foreach ($fpids as $fpid) {
+    fieldable_panels_panes_delete($fpid->fpid);
+  }
+}
+
+/**
+ * Disable and uninstall the gsb_feature_chute_fpp module
+ */
+function gsb_public_update_7285() {
   module_disable(array('gsb_feature_chute_fpp'));
   drupal_uninstall_modules(array('gsb_feature_chute_fpp'));
 }
