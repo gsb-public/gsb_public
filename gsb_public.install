@@ -5318,4 +5318,7 @@ function gsb_public_update_7284() {
 function gsb_public_update_7285() {
   module_disable(array('gsb_feature_chute_fpp'));
   drupal_uninstall_modules(array('gsb_feature_chute_fpp'));
+
+  // Clear ctools cache after removing commencement plugin
+  ctools_flush_caches();
 }
