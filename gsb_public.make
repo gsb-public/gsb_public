@@ -163,7 +163,7 @@ projects[gsb_filtered_view_link][subdir] = custom
 projects[gsb_filter_with_states][type] = module
 projects[gsb_filter_with_states][download][type] = git
 projects[gsb_filter_with_states][download][url] = git@github.com:gsb-public/gsb_filter_with_states.git
-projects[gsb_filter_with_states][download][branch] = release-6.0
+projects[gsb_filter_with_states][download][tag] = 6.0
 projects[gsb_filter_with_states][subdir] = custom
 
 ; GSB FPP Customization
