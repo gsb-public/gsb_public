@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[resources][type] = module
 projects[resources][download][type] = git
 projects[resources][download][url] = git@github.com:gsb-public/resources.git
-projects[resources][download][branch] = release-6.0
+projects[resources][download][tag] = 6.0
 projects[resources][subdir] = custom
 
 ; SoundCloud API
