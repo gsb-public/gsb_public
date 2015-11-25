@@ -1063,7 +1063,7 @@ projects[checkall][download][type] = git
 projects[checkall][download][branch] = 7.x-1.x
 projects[checkall][patch][2499743] = https://www.drupal.org/files/issues/checkall_patch-2499743-1.patch
 
-projects[cmis][version] = 1.6
+projects[cmis][version] = 1.7
 projects[cmis][subdir] = contrib
 projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
 
@@ -1435,7 +1435,7 @@ projects[uuid][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta11
 projects[video_embed_field][subdir] = contrib
 
-projects[views][version] = 3.11
+projects[views][version] = 3.13
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
