@@ -5331,3 +5331,11 @@ function gsb_public_update_7286() {
     module_enable(array('image_link_formatter'));
   }
 }
+
+/**
+ * Disable shield module.
+ */
+function gsb_public_update_7287() {
+  module_disable(array('shield'));
+  drupal_uninstall_modules(array('shield'));
+}
