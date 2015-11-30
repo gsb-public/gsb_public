@@ -5322,3 +5322,12 @@ function gsb_public_update_7285() {
   // Clear ctools cache after removing commencement plugin
   ctools_flush_caches();
 }
+
+/**
+ * Enable image_link_formatter module.
+ */
+function gsb_public_update_7286() {
+  if (!module_exists('image_link_formatter')) {
+    module_enable(array('image_link_formatter'));
+  }
+}
