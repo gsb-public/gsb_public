@@ -1223,6 +1223,9 @@ projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881
 projects[imagecache_actions][version] = 1.5
 projects[imagecache_actions][subdir] = contrib
 
+projects[image_link_formatter][version] = 1.0
+projects[image_link_formatter][subdir] = contrib
+
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
