@@ -454,7 +454,7 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsb-public/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 5.13
+projects[gsb_feature_book_ct][download][branch] = release-5.14
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
@@ -537,7 +537,7 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 5.12
+projects[gsb_feature_event_ct][download][branch] = release-5.13
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
