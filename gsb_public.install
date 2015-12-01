@@ -5339,3 +5339,26 @@ function gsb_public_update_7287() {
   module_disable(array('shield'));
   drupal_uninstall_modules(array('shield'));
 }
+
+/**
+ * Update the faculty Senior Associate Dean field.
+ */
+function gsb_public_update_7288() {
+  $entity_type = 'node';
+
+  // Get list of all faculty nodes
+  $query = new EntityFieldQuery();
+  $query
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'faculty');
+
+  $entities = $query->execute();
+
+  // Loop through all staff nodes
+  foreach ($entities[$entity_type] as $entity) {
+    $node = node_load($entity->nid);
+    $wrapper = entity_metadata_wrapper('node', $node);
+    $wrapper->field_sad->set('no');
+    $wrapper->save();
+  }
+}
