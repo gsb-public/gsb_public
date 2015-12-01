@@ -5339,3 +5339,64 @@ function gsb_public_update_7287() {
   module_disable(array('shield'));
   drupal_uninstall_modules(array('shield'));
 }
+
+/**
+ * Import the Faculty new fields data.
+ */
+function gsb_public_update_7288(){
+  $filename = 'Faculty Titles.csv';
+  $file_path = 'profiles/gsb_public/imports/'.$filename;
+  $row = 0;
+  if (($handle = fopen($file_path, "r")) !== FALSE) {
+    while (($data = fgetcsv($handle, 1000, ",")) !== FALSE) {
+      $row++;
+      if ($row > 1) {  // Excluded title row from csv
+        $nid = $data[1];
+        $field_title_appointment = $data[3];
+        $field_sad = $data[4];
+        $field_joint_appointment = $data[5];
+        $field_other_titles = $data[6];
+        $field_faculty_director_positions = $data[7];
+
+        $node = node_load($nid);
+        $wrapper = entity_metadata_wrapper('node', $node);
+        $wrapper->field_title_appointment->set($field_title_appointment);
+
+        if (!empty($field_sad)) {
+          $wrapper->field_sad->set(strtolower($field_sad));
+        }
+
+        if (!empty($field_joint_appointment)) {
+          $joint_appointment_values = explode('|', $field_joint_appointment);
+          foreach ($joint_appointment_values as $key => $value) {
+            $wrapper->field_joint_appointment->offsetSet($key, trim($value));
+          }
+        }
+
+        if (!empty($field_other_titles)) {
+          $other_titles_values = explode('|', $field_other_titles);
+          foreach ($other_titles_values as $key => $value) {
+            $wrapper->field_other_titles->offsetSet($key, trim($value));
+          }
+        }
+
+        if (!empty($field_faculty_director_positions)) {
+          $faculty_director_positions_values = explode('|', $field_faculty_director_positions);
+          foreach ($faculty_director_positions_values as $key => $value) {
+            $wrapper->field_faculty_director_positions->offsetSet($key, trim($value));
+          }
+        }
+        try {
+          $wrapper->save();
+        }
+        catch(Exception $e) {
+          watchdog('gsb_public', 'Error while saving faculty node '. $nid, $e->getMessage());
+        }
+      }
+    }
+    fclose($handle);
+  }
+  else {
+    watchdog('gsb_public','Error in reading File');
+  }
+}
