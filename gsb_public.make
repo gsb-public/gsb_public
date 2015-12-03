@@ -1182,6 +1182,7 @@ projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1289062] = https://www.drupal.org/files/issues/required_fields_in-1289062-54.patch
 projects[field_collection][patch][1822844] = https://www.drupal.org/files/notice-1822844-16.patch
 projects[field_collection][patch][2599248] = https://www.drupal.org/files/issues/field-collection-2599248-2.patch
+projects[field_collection][patch][2385985] = https://www.drupal.org/files/issues/field-collection-2385985-25.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
