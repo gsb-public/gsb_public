@@ -810,6 +810,20 @@ projects[gsb_feature_pr_contact][download][url] = git@github.com:gsb-public/gsb_
 projects[gsb_feature_pr_contact][download][tag] = 5.0
 projects[gsb_feature_pr_contact][subdir] = custom/features
 
+; GSB Program Content Type
+projects[gsb_feature_program_ct][type] = module
+projects[gsb_feature_program_ct][download][type] = git
+projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
+projects[gsb_feature_program_ct][download][branch] = release-6.01
+projects[gsb_feature_program_ct][subdir] = custom/features
+
+; GSB Program Instance Content Type
+projects[gsb_feature_program_instance_ct][type] = module
+projects[gsb_feature_program_instance_ct][download][type] = git
+projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.01
+projects[gsb_feature_program_instance_ct][subdir] = custom/features
+
 ; GSB Publication
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
