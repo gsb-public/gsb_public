@@ -5423,3 +5423,15 @@ function gsb_public_update_7289(){
     watchdog('gsb_public','Error in reading File');
   }
 }
+
+/**
+ * Enable gsb_feature_program_instance_ct and gsb_feature_program_ct modules.
+ */
+function gsb_public_update_7290() {
+  if (!module_exists('gsb_feature_program_ct')) {
+    module_enable(array('gsb_feature_program_ct'));
+  }
+  if (!module_exists('gsb_feature_program_instance_ct')) {
+    module_enable(array('gsb_feature_program_instance_ct'));
+  }
+}
