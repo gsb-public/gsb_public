@@ -5423,3 +5423,10 @@ function gsb_public_update_7289(){
     watchdog('gsb_public','Error in reading File');
   }
 }
+
+/**
+ * Webform disable Reply to header
+ */
+function gsb_public_update_7290(){
+  variable_set('webform_email_replyto', 0);
+}
