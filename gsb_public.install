@@ -5435,3 +5435,10 @@ function gsb_public_update_7290() {
     module_enable(array('gsb_feature_program_instance_ct'));
   }
 }
+
+/**
+ * Webform disable Reply to header
+ */
+function gsb_public_update_7291(){
+  variable_set('webform_email_replyto', 0);
+}
