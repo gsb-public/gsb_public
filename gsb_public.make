@@ -236,6 +236,13 @@ projects[gsb_panels_pages][download][url] = git@github.com:gsb-public/gsb_panels
 projects[gsb_panels_pages][download][tag] = 4.01
 projects[gsb_panels_pages][subdir] = custom
 
+; GSB Public Statistics
+projects[gsb_public_statistics][type] = module
+projects[gsb_public_statistics][download][type] = git
+projects[gsb_public_statistics][download][url] = git@github.com:gsb-public/gsb_public_statistics.git
+projects[gsb_public_statistics][download][branch] = release-6.01
+projects[gsb_public_statistics][subdir] = custom
+
 ; GSB Resources
 projects[gsb_resources][type] = module
 projects[gsb_resources][download][type] = git
