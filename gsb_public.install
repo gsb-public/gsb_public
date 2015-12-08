@@ -5442,3 +5442,12 @@ function gsb_public_update_7290() {
 function gsb_public_update_7291(){
   variable_set('webform_email_replyto', 0);
 }
+
+/**
+ * Enable gsb_public_statistics module.
+ */
+function gsb_public_update_7292() {
+  if (!module_exists('gsb_public_statistics')) {
+    module_enable(array('gsb_public_statistics'));
+  }
+}
