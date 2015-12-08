@@ -634,7 +634,7 @@ projects[gsb_feature_google_tag_manager][subdir] = custom/features
 projects[gsb_feature_gsa_search][type] = module
 projects[gsb_feature_gsa_search][download][type] = git
 projects[gsb_feature_gsa_search][download][url] = git@github.com:gsb-public/gsb_feature_gsa_search.git
-projects[gsb_feature_gsa_search][download][branch] = release-6.01
+projects[gsb_feature_gsa_search][download][tag] = 6.01
 projects[gsb_feature_gsa_search][subdir] = custom/features
 
 ; GSB Features Homepage CTA Fpp
