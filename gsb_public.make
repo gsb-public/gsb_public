@@ -117,6 +117,13 @@ projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gs
 projects[gsb_public_custom_blocks][download][branch] = release-6.01
 projects[gsb_public_custom_blocks][subdir] = custom
 
+; GSB Public Statistics
+projects[gsb_public_statistics][type] = module
+projects[gsb_public_statistics][download][type] = git
+projects[gsb_public_statistics][download][url] = git@github.com:gsb-public/gsb_public_statistics.git
+projects[gsb_public_statistics][download][branch] = WP-6329
+projects[gsb_public_statistics][subdir] = custom
+
 ; GSB Cvent
 projects[gsb_cvent][type] = module
 projects[gsb_cvent][download][type] = git
