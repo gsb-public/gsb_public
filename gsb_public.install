@@ -5451,3 +5451,12 @@ function gsb_public_update_7292() {
     module_enable(array('gsb_public_statistics'));
   }
 }
+
+/**
+ * Enable multiple_fields_remove_button module.
+ */
+function gsb_public_update_7293() {
+  if (!module_exists('multiple_fields_remove_button')) {
+    module_enable(array('multiple_fields_remove_button'));
+  }
+}
