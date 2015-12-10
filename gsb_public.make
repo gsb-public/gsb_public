@@ -1337,6 +1337,9 @@ projects[metatag][subdir] = contrib
 projects[module_filter][version] = 2.0
 projects[module_filter][subdir] = contrib
 
+projects[multiple_fields_remove_button][version] = 1.5
+projects[multiple_fields_remove_button][subdir] = contrib
+
 projects[node_clone][version] = 1.0-rc1
 projects[node_clone][subdir] = contrib
 
