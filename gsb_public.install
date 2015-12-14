@@ -5460,3 +5460,15 @@ function gsb_public_update_7293() {
     module_enable(array('multiple_fields_remove_button'));
   }
 }
+
+/**
+ * Enable mailsystem and htmlmail module.
+ */
+function gsb_public_update_7294() {
+  if (!module_exists('htmlmail')) {
+    module_enable(array('htmlmail'));
+  }
+  if (!module_exists('mailsystem')) {
+    module_enable(array('mailsystem'));
+  }
+}

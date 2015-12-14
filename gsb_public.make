@@ -1234,6 +1234,9 @@ libraries[google-api-php-client][download][tag] = 1.1.6
 projects[hierarchical_select][version] = 3.0-alpha12
 projects[hierarchical_select][subdir] = contrib
 
+projects[htmlmail][version] = 2.65
+projects[htmlmail][subdir] = contrib
+
 projects[hs_lite][version] = 1.x-dev
 projects[hs_lite][subdir] = contrib
 projects[hs_lite][type] = module
@@ -1268,6 +1271,9 @@ libraries[mailchimp][download][type] = "get"
 libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp-api-php/get/2.0.4.zip"
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
+
+projects[mailsystem][version] = 2.34
+projects[mailsystem][subdir] = contrib
 
 projects[maxlength][version] = 3.2
 projects[maxlength][subdir] = contrib
