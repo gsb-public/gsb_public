@@ -5462,13 +5462,13 @@ function gsb_public_update_7293() {
 }
 
 /**
- * Enable mailsystem and htmlmail module.
+ * Enable mailsystem and mimemail module.
  */
 function gsb_public_update_7294() {
-  if (!module_exists('htmlmail')) {
-    module_enable(array('htmlmail'));
-  }
   if (!module_exists('mailsystem')) {
     module_enable(array('mailsystem'));
+  }
+  if (!module_exists('mimemail')) {
+    module_enable(array('mimemail'));
   }
 }

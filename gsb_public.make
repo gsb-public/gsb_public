@@ -1234,9 +1234,6 @@ libraries[google-api-php-client][download][tag] = 1.1.6
 projects[hierarchical_select][version] = 3.0-alpha12
 projects[hierarchical_select][subdir] = contrib
 
-projects[htmlmail][version] = 2.65
-projects[htmlmail][subdir] = contrib
-
 projects[hs_lite][version] = 1.x-dev
 projects[hs_lite][subdir] = contrib
 projects[hs_lite][type] = module
@@ -1332,6 +1329,9 @@ projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
 projects[metatag][version] = 1.7
 projects[metatag][subdir] = contrib
+
+projects[mimemail][version] = 1.0-beta4
+projects[mimemail][subdir] = contrib
 
 projects[module_filter][version] = 2.0
 projects[module_filter][subdir] = contrib
