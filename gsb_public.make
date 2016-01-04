@@ -1269,6 +1269,9 @@ libraries[mailchimp][download][url] = "https://bitbucket.org/mailchimp/mailchimp
 libraries[mailchimp][directory_name] = "mailchimp"
 libraries[mailchimp][destination] = "libraries"
 
+projects[mailsystem][version] = 2.34
+projects[mailsystem][subdir] = contrib
+
 projects[maxlength][version] = 3.2
 projects[maxlength][subdir] = contrib
 
