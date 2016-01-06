@@ -391,7 +391,7 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 6.01
+projects[gsb_feature_admission_event_display][download][branch] = release-6.02
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
@@ -530,7 +530,7 @@ projects[gsb_feature_course_display][subdir] = custom/features
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
 projects[gsb_feature_cta][download][url] = git@github.com:gsb-public/gsb_feature_cta.git
-projects[gsb_feature_cta][download][tag] = 5.0
+projects[gsb_feature_cta][download][branch] = release-5.01
 projects[gsb_feature_cta][subdir] = custom/features
 
 ; GSB Feature Diptych FPP
