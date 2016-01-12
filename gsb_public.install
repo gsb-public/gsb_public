@@ -5472,3 +5472,12 @@ function gsb_public_update_7294() {
     module_enable(array('mimemail'));
   }
 }
+
+/**
+ * Enable gsb_program_finder module.
+ */
+function gsb_public_update_7295() {
+  if (!module_exists('gsb_program_finder')) {
+    module_enable(array('gsb_program_finder'));
+  }
+}
