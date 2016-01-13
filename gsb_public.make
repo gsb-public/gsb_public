@@ -838,6 +838,13 @@ projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-pu
 projects[gsb_feature_program_instance_ct][download][branch] = release-6.02
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
+; GSB Program Instance Content Display
+projects[gsb_feature_program_instance_display][type] = module
+projects[gsb_feature_program_instance_display][download][type] = git
+projects[gsb_feature_program_instance_display][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_display.git
+projects[gsb_feature_program_instance_display][download][branch] = release-6.02
+projects[gsb_feature_program_instance_display][subdir] = custom/features
+
 ; GSB Publication
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
