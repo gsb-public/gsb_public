@@ -19,6 +19,13 @@ projects[feature_flag][download][url] = git@github.com:gsb-public/feature_flag.g
 projects[feature_flag][download][tag] = 1.0
 projects[feature_flag][subdir] = custom
 
+; Isotopify
+projects[isotopify][type] = module
+projects[isotopify][download][type] = git
+projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
+projects[isotopify][download][branch] = release-6.02
+projects[isotopify][subdir] = custom
+
 ; Resources
 projects[resources][type] = module
 projects[resources][download][type] = git
