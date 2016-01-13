@@ -1269,6 +1269,11 @@ projects[imagecache_actions][subdir] = contrib
 projects[image_link_formatter][version] = 1.0
 projects[image_link_formatter][subdir] = contrib
 
+libraries[isotope][download][type] = "get"
+libraries[isotope][download][url] = "https://github.com/metafizzy/isotope/archive/master.zip"
+libraries[isotope][directory_name] = "isotope"
+libraries[isotope][destination] = "libraries"
+
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
