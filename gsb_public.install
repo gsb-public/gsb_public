@@ -5506,3 +5506,11 @@ function gsb_public_update_7297() {
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
 
+/**
+ * Enable isotopify module.
+ */
+function gsb_public_update_7298() {
+  if (!module_exists('isotopify')) {
+    module_enable(array('isotopify'));
+  }
+}
