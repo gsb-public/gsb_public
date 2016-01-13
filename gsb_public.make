@@ -1274,6 +1274,16 @@ libraries[isotope][download][url] = "https://github.com/metafizzy/isotope/archiv
 libraries[isotope][directory_name] = "isotope"
 libraries[isotope][destination] = "libraries"
 
+libraries[jquery_date_range_picker][download][type] = "get"
+libraries[jquery_date_range_picker][download][url] = "https://github.com/longbill/jquery-date-range-picker/archive/master.zip"
+libraries[jquery_date_range_picker][directory_name] = "jquery-date-range-picker"
+libraries[jquery_date_range_picker][destination] = "libraries"
+
+libraries[jquery_lazyload][download][type] = "get"
+libraries[jquery_lazyload][download][url] = "https://github.com/tuupola/jquery_lazyload/archive/1.9.5.tar.gz"
+libraries[jquery_lazyload][directory_name] = "jquery_lazyload"
+libraries[jquery_lazyload][destination] = "libraries"
+
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
