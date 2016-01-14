@@ -5514,3 +5514,12 @@ function gsb_public_update_7298() {
     module_enable(array('isotopify'));
   }
 }
+
+/**
+ * Enable gsb_feature_program_instance_display module.
+ */
+function gsb_public_update_7299() {
+  if (!module_exists('gsb_feature_program_instance_display')) {
+    module_enable(array('gsb_feature_program_instance_display'));
+  }
+}
