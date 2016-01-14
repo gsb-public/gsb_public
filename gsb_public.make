@@ -1096,7 +1096,6 @@ projects[checkall][version] = 1.x-dev
 projects[checkall][subdir] = contrib
 projects[checkall][download][type] = git
 projects[checkall][download][branch] = 7.x-1.x
-projects[checkall][patch][2499743] = https://www.drupal.org/files/issues/checkall_patch-2499743-1.patch
 
 projects[cmis][version] = 1.7
 projects[cmis][subdir] = contrib
