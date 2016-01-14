@@ -1368,6 +1368,11 @@ projects[mimemail][subdir] = contrib
 projects[module_filter][version] = 2.0
 projects[module_filter][subdir] = contrib
 
+libraries[moment][download][type] = "get"
+libraries[moment][download][url] = "https://github.com/moment/moment/archive/develop.zip"
+libraries[moment][directory_name] = "moment"
+libraries[moment][destination] = "libraries"
+
 projects[multiple_fields_remove_button][version] = 1.5
 projects[multiple_fields_remove_button][subdir] = contrib
 
