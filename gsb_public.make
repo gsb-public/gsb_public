@@ -1270,7 +1270,7 @@ projects[image_link_formatter][subdir] = contrib
 
 libraries[isotope][download][type] = "get"
 libraries[isotope][download][url] = "https://github.com/metafizzy/isotope/blob/master/dist/isotope.pkgd.js"
-libraries[isotope][destination] = "libraries/isotope"
+libraries[isotope][destination] = "libraries"
 
 libraries[jquery_date_range_picker][download][type] = "get"
 libraries[jquery_date_range_picker][download][url] = "https://github.com/longbill/jquery-date-range-picker/archive/master.zip"
