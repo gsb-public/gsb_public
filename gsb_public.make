@@ -1269,7 +1269,7 @@ projects[image_link_formatter][version] = 1.0
 projects[image_link_formatter][subdir] = contrib
 
 libraries[isotope][download][type] = "get"
-libraries[isotope][download][url] = "https://github.com/metafizzy/isotope/blob/master/dist/isotope.pkgd.js"
+libraries[isotope][download][url] = "https://raw.githubusercontent.com/metafizzy/isotope/master/dist/isotope.pkgd.js"
 libraries[isotope][destination] = "libraries"
 
 libraries[jquery_date_range_picker][download][type] = "get"
