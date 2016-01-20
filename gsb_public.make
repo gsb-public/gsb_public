@@ -1530,7 +1530,7 @@ projects[views_xml_backend][subdir] = contrib
 projects[webform_to_gdocs][subdir] = contrib
 projects[webform_to_gdocs][download][type] = git
 projects[webform_to_gdocs][download][url] = git@github.com:gsb-public/webform_to_gdocs.git
-projects[webform_to_gdocs][download][branch] = release-6.02
+projects[webform_to_gdocs][download][tag] = 6.02
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
