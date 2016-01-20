@@ -247,7 +247,7 @@ projects[gsb_panels_pages][subdir] = custom
 projects[gsb_program_finder][type] = module
 projects[gsb_program_finder][download][type] = git
 projects[gsb_program_finder][download][url] = git@github.com:gsb-public/gsb_program_finder.git
-projects[gsb_program_finder][download][branch] = release-6.02
+projects[gsb_program_finder][download][tag] = 6.02
 projects[gsb_program_finder][subdir] = custom
 
 ; GSB Public Statistics
