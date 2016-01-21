@@ -5523,3 +5523,12 @@ function gsb_public_update_7299() {
     module_enable(array('gsb_feature_program_instance_display'));
   }
 }
+
+/**
+ * Enable gsb_feature_ee_megamenu module.
+ */
+function gsb_public_update_7300() {
+  if (!module_exists('gsb_feature_ee_megamenu')) {
+    module_enable(array('gsb_feature_ee_megamenu'));
+  }
+}
