@@ -169,6 +169,7 @@ dependencies[] = gsb_feature_course_ct
 dependencies[] = gsb_feature_course_display
 dependencies[] = gsb_feature_cta
 dependencies[] = gsb_feature_diptych_fpp
+dependencies[] = gsb_feature_ee_megamenu
 dependencies[] = gsb_feature_event_ct
 dependencies[] = gsb_feature_event_display
 dependencies[] = gsb_feature_event_shared
