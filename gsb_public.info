@@ -212,6 +212,7 @@ dependencies[] = gsb_feature_pr_contact
 dependencies[] = gsb_feature_program_ct
 dependencies[] = gsb_feature_program_instance_ct
 dependencies[] = gsb_feature_program_instance_display
+dependencies[] = gsb_feature_program_panelized_page_ct
 dependencies[] = gsb_feature_publication_ct
 dependencies[] = gsb_feature_publication_display
 dependencies[] = gsb_feature_ranking_ct
