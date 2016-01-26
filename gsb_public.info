@@ -94,6 +94,7 @@ dependencies[] = tzfield
 dependencies[] = uuid
 dependencies[] = video_embed_field
 dependencies[] = views_field_view
+dependencies[] = views_flipped_table
 dependencies[] = views_responsive_grid
 dependencies[] = webform_to_gdocs
 dependencies[] = workbench
