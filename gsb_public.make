@@ -121,7 +121,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.01
+projects[gsb_public_custom_blocks][download][branch] = release-6.02
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Cvent
@@ -753,7 +753,7 @@ projects[gsb_feature_media_item_display][subdir] = custom/features
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsb-public/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][tag] = 5.0
+projects[gsb_feature_mega_menu][download][branch] = release-5.01
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Features Metatag
