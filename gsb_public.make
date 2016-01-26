@@ -1526,6 +1526,9 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_field_view][version] = 1.2
 projects[views_field_view][subdir] = contrib
 
+projects[views_flipped_table][version] = 1.x-dev
+projects[views_flipped_table][subdir] = contrib
+
 ; Load more functionality for views
 projects[views_load_more][version] = 1.5
 projects[views_load_more][subdir] = contrib
