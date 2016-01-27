@@ -5550,3 +5550,21 @@ function gsb_public_update_7302() {
     module_enable(array('views_flipped_table'));
   }
 }
+
+/**
+ * Disable the gsb_program_finder module
+ */
+function gsb_public_update_7303() {
+  module_disable(array('gsb_program_finder'));
+  drupal_uninstall_modules(array('gsb_program_finder'));
+}
+
+/**
+ * Enable gsb_feature_program_finder_display module.
+ */
+function gsb_public_update_7304() {
+  if (!module_exists('gsb_feature_program_finder_display')) {
+    module_enable(array('gsb_feature_program_finder_display'));
+  }
+}
+
