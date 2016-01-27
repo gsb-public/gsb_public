@@ -5568,3 +5568,11 @@ function gsb_public_update_7304() {
   }
 }
 
+/**
+ * Enable gsb_feature_program_display module.
+ */
+function gsb_public_update_7305() {
+  if (!module_exists('gsb_feature_program_display')) {
+    module_enable(array('gsb_feature_program_display'));
+  }
+}
