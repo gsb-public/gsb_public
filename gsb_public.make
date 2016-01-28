@@ -1141,6 +1141,7 @@ projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_con
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-30.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
 projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/ctools-view-mode-pane-settings-2032293-22.patch
+projects[ctools][patch][1775612] = https://www.drupal.org/files/plugin-load-use-include-1775612-3.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
