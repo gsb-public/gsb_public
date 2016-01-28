@@ -5576,3 +5576,17 @@ function gsb_public_update_7305() {
     module_enable(array('gsb_feature_program_display'));
   }
 }
+
+/**
+ * Delete field_is_program_online field instance from Program Instance CT
+ */
+function gsb_public_update_7306() {
+  $field_names = array(
+    'field_is_program_online',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program_instance');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
