@@ -851,7 +851,7 @@ projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
 projects[gsb_feature_program_finder_display][download][branch] = release-1.00
-projects[gsb_feature_program_finder_display][subdir] = custom
+projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
 projects[gsb_feature_program_instance_ct][type] = module
