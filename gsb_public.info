@@ -211,6 +211,7 @@ dependencies[] = gsb_feature_phd_candidate_display
 dependencies[] = gsb_feature_pr_contact
 dependencies[] = gsb_feature_program_ct
 dependencies[] = gsb_feature_program_display
+dependencies[] = gsb_feature_featured_program_fpp
 dependencies[] = gsb_feature_program_finder_display
 dependencies[] = gsb_feature_program_instance_ct
 dependencies[] = gsb_feature_program_instance_display
