@@ -5590,3 +5590,12 @@ function gsb_public_update_7306() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Enable gsb_feature_featured_program_fpp module.
+ */
+function gsb_public_update_7307() {
+  if (!module_exists('gsb_feature_featured_program_fpp')) {
+    module_enable(array('gsb_feature_featured_program_fpp'));
+  }
+}
