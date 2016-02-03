@@ -1121,7 +1121,7 @@ projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
-projects[checkall][version] = 1.x-dev
+projects[checkall][version] = 1.0
 projects[checkall][subdir] = contrib
 projects[checkall][download][type] = git
 projects[checkall][download][branch] = 7.x-1.x
@@ -1248,17 +1248,16 @@ projects[fieldable_panels_panes][version] = 1.7
 projects[fieldable_panels_panes][subdir] = contrib
 projects[fieldable_panels_panes][patch][2381433] = https://www.drupal.org/files/issues/fieldable_panels_panes_patch-2381433-1_0.patch
 
-projects[field_collection][version] = 1.0-beta10
+projects[field_collection][version] = 1.0-beta11
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1289062] = https://www.drupal.org/files/issues/required_fields_in-1289062-54.patch
 projects[field_collection][patch][1822844] = https://www.drupal.org/files/notice-1822844-16.patch
-projects[field_collection][patch][2599248] = https://www.drupal.org/files/issues/field-collection-2599248-2.patch
 projects[field_collection][patch][2385985] = https://www.drupal.org/files/issues/field_collection-2385985-25.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[field_group][version] = 1.4
+projects[field_group][version] = 1.5
 projects[field_group][subdir] = contrib
 projects[field_group][patch][2576311] = https://www.drupal.org/files/issues/field_group-2576311-1.patch
 
