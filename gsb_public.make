@@ -683,7 +683,7 @@ projects[gsb_feature_image_fpp][subdir] = custom/features
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
 projects[gsb_feature_image_cta_fpp][download][url] = git@github.com:gsb-public/gsb_feature_image_cta_fpp.git
-projects[gsb_feature_image_cta_fpp][download][tag] = 5.02
+projects[gsb_feature_image_cta_fpp][download][branch] = release-5.03
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Image Styles
@@ -856,7 +856,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.00
+projects[gsb_feature_program_finder_display][download][branch] = release-1.01
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
