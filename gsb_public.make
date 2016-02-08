@@ -1575,6 +1575,7 @@ projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 1.4
 projects[workbench_moderation][subdir] = contrib
+projects[workbench_moderation][patch][1408838] = https://www.drupal.org/files/issues/workbench_moderation-optimize_node_revision_history-1408838-67.patch
 
 projects[youtube_api][version] = 1.0-beta3
 projects[youtube_api][subdir] = contrib
