@@ -5627,3 +5627,32 @@ function gsb_public_update_7309() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete field_link_for_apply_button field instance from Program Instance CT
+ */
+function gsb_public_update_7310() {
+  $field_names = array(
+    'field_link_for_apply_button',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program_instance');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Delete field_application_open and field_financial_assist_statement field instances from Program CT
+ */
+function gsb_public_update_7311() {
+  $field_names = array(
+    'field_application_open',
+    'field_financial_assist_statement',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
