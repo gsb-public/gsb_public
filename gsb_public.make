@@ -156,7 +156,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 6.02
+projects[gsb_field_formatter][download][branch] = release-6.03
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -940,7 +940,7 @@ projects[gsb_feature_social_feed][subdir] = custom/features
 projects[gsb_feature_spotlight][type] = module
 projects[gsb_feature_spotlight][download][type] = git
 projects[gsb_feature_spotlight][download][url] = git@github.com:gsb-public/gsb_feature_spotlight.git
-projects[gsb_feature_spotlight][download][tag] = 5.3
+projects[gsb_feature_spotlight][download][branch] = release-5.04
 projects[gsb_feature_spotlight][subdir] = custom/features
 
 ; GSB Feature Slideshow
