@@ -5670,3 +5670,29 @@ function gsb_public_update_7312() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete field_person_ref field instance from field_faculty_directors, field_faculty_1, field_faculty_2, and field_guest_speakers_advisors_fc field collections.
+ */
+function gsb_public_update_7313() {
+  $field_names = array(
+    'field_person_ref',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('field_collection_item', $field_name, 'field_faculty_directors');
+    field_delete_instance($instance);
+  }
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('field_collection_item', $field_name, 'field_faculty_1');
+    field_delete_instance($instance);
+  }
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('field_collection_item', $field_name, 'field_faculty_2');
+    field_delete_instance($instance);
+  }
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('field_collection_item', $field_name, 'field_guest_speakers_advisors_fc');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
