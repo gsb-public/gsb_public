@@ -5696,3 +5696,18 @@ function gsb_public_update_7313() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete field_key_benefits_teaser and field_key_benefits_teaser field instances from program node.
+ */
+function gsb_public_update_7314() {
+  $field_names = array(
+    'field_overview_teaser',
+    'field_key_benefits_teaser',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
