@@ -1366,7 +1366,6 @@ projects[memcache][subdir] = contrib
 
 projects[menu_attributes][version] = 1.0
 projects[menu_attributes][subdir] = contrib
-projects[menu_attributes][patch][2368087] = https://www.drupal.org/files/issues/make_menu_link-2368087-8.patch
 
 projects[menu_block][version] = 2.7
 projects[menu_block][subdir] = contrib
