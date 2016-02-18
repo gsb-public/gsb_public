@@ -842,7 +842,7 @@ projects[gsb_feature_program_ct][subdir] = custom/features
 projects[gsb_feature_program_display][type] = module
 projects[gsb_feature_program_display][download][type] = git
 projects[gsb_feature_program_display][download][url] = git@github.com:gsb-public/gsb_feature_program_display.git
-projects[gsb_feature_program_display][download][branch] = release-1.01
+projects[gsb_feature_program_display][download][tag] = 1.01
 projects[gsb_feature_program_display][subdir] = custom/features
 
 ; GSB Program FPP
