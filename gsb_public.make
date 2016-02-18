@@ -1063,7 +1063,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.04
+projects[gsb_theme][download][branch] = release-6.05
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
@@ -1110,7 +1110,7 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][patch][2621554] = https://www.drupal.org/files/issues/better_exposed_filters-2621554-2.patch
 
 ; Better formats adds input format visibility settings per-field.
-projects[better_formats][version] = 1.0-beta1
+projects[better_formats][version] = 1.0-beta2
 projects[better_formats][subdir] = contrib
 
 projects[breadcrumbs_by_path][version] = 1.0-alpha13
@@ -1130,7 +1130,7 @@ projects[cmis][version] = 1.7
 projects[cmis][subdir] = contrib
 projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
 
-projects[computed_field][version] = 1.0
+projects[computed_field][version] = 1.1
 projects[computed_field][subdir] = contrib
 
 projects[concat_field][version] = 1.x-dev
@@ -1184,7 +1184,7 @@ projects[devel_form_debug][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.11
+projects[ds][version] = 2.13
 projects[ds][subdir] = contrib
 
 libraries[easyResponsiveTabs][download][type] = get
@@ -1317,7 +1317,7 @@ projects[jquery_update][subdir] = contrib
 projects[libraries][version] = 2.2
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.3
+projects[link][version] = 1.4
 projects[link][subdir] = contrib
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
@@ -1364,7 +1364,7 @@ projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.p
 projects[memcache][version] = 1.5
 projects[memcache][subdir] = contrib
 
-projects[menu_attributes][version] = 1.0-rc3
+projects[menu_attributes][version] = 1.0
 projects[menu_attributes][subdir] = contrib
 projects[menu_attributes][patch][2368087] = https://www.drupal.org/files/issues/make_menu_link-2368087-8.patch
 
@@ -1387,7 +1387,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.7
+projects[metatag][version] = 1.13
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
