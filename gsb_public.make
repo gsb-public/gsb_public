@@ -121,7 +121,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.02
+projects[gsb_public_custom_blocks][download][branch] = release-6.03
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Cvent
@@ -496,7 +496,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][tag] = 6.01
+projects[gsb_feature_case_ct][download][branch] = release-6.02
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
@@ -856,14 +856,14 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.01
+projects[gsb_feature_program_finder_display][download][branch] = release-1.02
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.04
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.05
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
