@@ -461,7 +461,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.24
+projects[gsb_feature_base_fields][download][branch] = release-5.25
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -870,7 +870,7 @@ projects[gsb_feature_program_instance_ct][subdir] = custom/features
 projects[gsb_feature_program_instance_display][type] = module
 projects[gsb_feature_program_instance_display][download][type] = git
 projects[gsb_feature_program_instance_display][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_display.git
-projects[gsb_feature_program_instance_display][download][tag] = 6.04
+projects[gsb_feature_program_instance_display][download][branch] = release-6.05
 projects[gsb_feature_program_instance_display][subdir] = custom/features
 
 
@@ -961,7 +961,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_taxonomy][type] = module
 projects[gsb_feature_taxonomy][download][type] = git
 projects[gsb_feature_taxonomy][download][url] = git@github.com:gsb-public/gsb_feature_taxonomy.git
-projects[gsb_feature_taxonomy][download][tag] = 5.05
+projects[gsb_feature_taxonomy][download][branch] = release-5.06
 projects[gsb_feature_taxonomy][subdir] = custom/features
 
 ; GSB Feature Toolbar
