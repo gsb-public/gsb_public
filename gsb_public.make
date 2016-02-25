@@ -1487,9 +1487,9 @@ projects[smart_trim][subdir] = contrib
 projects[stage_file_proxy][version] = 1.7
 projects[stage_file_proxy][subdir] = contrib
 
-libraries[sticky][download][type] = git
-libraries[sticky][download][url] = https://github.com/garand/sticky.git
-libraries[sticky][download][tag] = 1.0.1
+libraries[sticky-master][download][type] = git
+libraries[sticky-master][download][url] = https://github.com/garand/sticky.git
+libraries[sticky-master][download][tag] = 1.0.1
 
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
