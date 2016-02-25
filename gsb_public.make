@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][tag] = 6.03
+projects[isotopify][download][branch] = release-6.04
 projects[isotopify][subdir] = custom
 
 ; Resources
@@ -1486,6 +1486,10 @@ projects[smart_trim][subdir] = contrib
 
 projects[stage_file_proxy][version] = 1.7
 projects[stage_file_proxy][subdir] = contrib
+
+libraries[sticky][download][type] = git
+libraries[sticky][download][url] = https://github.com/garand/sticky.git
+libraries[sticky][download][tag] = 1.0.1
 
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
