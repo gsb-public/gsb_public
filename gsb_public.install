@@ -5733,3 +5733,42 @@ function gsb_public_update_7315() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Updates related to node clone module
+ */
+function gsb_public_update_7316() {
+
+  if (!module_exists('node_clone')) {
+    module_enable(array('node_clone')); 
+  }
+
+  if (!module_exists('node_clone_tab')) {
+    module_enable(array('node_clone_tab')); 
+  }
+
+  variable_set('clone_reset_program_instance', 1);
+
+  // Get the marketing admin user role
+  $marketing_admin_user = user_role_load_by_name('marketing_admin');
+
+  $marketing_admin_user_permissions = array(
+    'clone node',
+    'clone own nodes',
+  );
+
+  // Update authenticated user role permissions
+  user_role_grant_permissions($marketing_admin_user->rid, $marketing_admin_user_permissions);
+  
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');  
+
+  $adminstrator_user_permissions = array(
+    'clone node',
+    'clone own nodes',
+  );
+
+  // Update authenticated user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+  
+}
