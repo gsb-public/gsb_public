@@ -5772,3 +5772,11 @@ function gsb_public_update_7316() {
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
   
 }
+
+/**
+ * Update removes all key_program_topics currently defined
+ */
+function gsb_public_update_7317() {
+  $result = db_truncate('field_data_field_key_program_topics')->execute();
+  $result = db_truncate('field_revision_field_key_program_topics')->execute();
+}
