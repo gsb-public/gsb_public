@@ -1291,7 +1291,7 @@ projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
 
-projects[imagecache_actions][version] = 1.5
+projects[imagecache_actions][version] = 1.7
 projects[imagecache_actions][subdir] = contrib
 
 projects[image_link_formatter][version] = 1.0
