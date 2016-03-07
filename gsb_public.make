@@ -299,6 +299,13 @@ projects[gsb_submenu_alias_update][download][url] = git@github.com:gsb-public/gs
 projects[gsb_submenu_alias_update][download][tag] = 5.01
 projects[gsb_submenu_alias_update][subdir] = custom
 
+; GSB Text Equivalent
+projects[gsb_text_equivalent][type] = module
+projects[gsb_text_equivalent][download][type] = git
+projects[gsb_text_equivalent][download][url] = git@github.com:gsb-public/gsb_text_equivalent.git
+projects[gsb_text_equivalent][download][branch] = WP-6693
+projects[gsb_text_equivalent][subdir] = custom
+
 ; GSB Tokens
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git

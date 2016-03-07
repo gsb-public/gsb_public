@@ -5780,3 +5780,12 @@ function gsb_public_update_7317() {
   $result = db_truncate('field_data_field_key_program_topics')->execute();
   $result = db_truncate('field_revision_field_key_program_topics')->execute();
 }
+
+/**
+ * Enable gsb_text_equivalent module.
+ */
+function gsb_public_update_7318() {
+  if (!module_exists('gsb_text_equivalent')) {
+    module_enable(array('gsb_text_equivalent'));
+  }
+}
