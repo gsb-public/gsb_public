@@ -299,6 +299,14 @@ projects[gsb_submenu_alias_update][download][url] = git@github.com:gsb-public/gs
 projects[gsb_submenu_alias_update][download][tag] = 5.01
 projects[gsb_submenu_alias_update][subdir] = custom
 
+; GSB Text Equivalent
+projects[gsb_text_equivalent][type] = module
+projects[gsb_text_equivalent][download][type] = git
+projects[gsb_text_equivalent][download][url] = git@github.com:gsb-public/gsb_text_equivalent.git
+projects[gsb_text_equivalent][download][branch] = release-1.00
+projects[gsb_text_equivalent][subdir] = custom
+
+
 ; GSB Tokens
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
@@ -627,7 +635,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 6.0
+projects[gsb_feature_file_types][download][branch] = release-6.01
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
@@ -676,7 +684,7 @@ projects[gsb_feature_idea_story_display][subdir] = custom/features
 projects[gsb_feature_image_fpp][type] = module
 projects[gsb_feature_image_fpp][download][type] = git
 projects[gsb_feature_image_fpp][download][url] = git@github.com:gsb-public/gsb_feature_image_fpp.git
-projects[gsb_feature_image_fpp][download][tag] = 5.03
+projects[gsb_feature_image_fpp][download][branch] = release-5.04
 projects[gsb_feature_image_fpp][subdir] = custom/features
 
 ; GSB Features Image CTA Fpp
