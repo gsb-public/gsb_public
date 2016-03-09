@@ -137,6 +137,7 @@ dependencies[] = gsb_rethink
 dependencies[] = gsb_section_autoconfig
 dependencies[] = gsb_submenu_alias_update
 dependencies[] = gsb_social
+dependencies[] = gsb_text_equivalent
 dependencies[] = gsb_tokens
 dependencies[] = gsb_trim
 dependencies[] = gsb_url_shortener
