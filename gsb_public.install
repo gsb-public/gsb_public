@@ -5791,7 +5791,7 @@ function gsb_public_update_7318() {
 }
 
 /**
- * Delete the field instances field_prequalification_url and field_link_apply_button from progam_instance.
+ * Delete the field instances field_prequalification_url and field_link_apply_button from program_instance.
  */
 function gsb_public_update_7319() {
   $field_names = array(
