@@ -5789,3 +5789,18 @@ function gsb_public_update_7318() {
     module_enable(array('gsb_text_equivalent'));
   }
 }
+
+/**
+ * Delete the field instances field_prequalification_url and field_link_apply_button from progam_instance.
+ */
+function gsb_public_update_7319() {
+  $field_names = array(
+    'field_prequalification_url',
+    'field_link_apply_button'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program_instance');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
