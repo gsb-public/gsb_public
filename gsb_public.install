@@ -5804,3 +5804,17 @@ function gsb_public_update_7319() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete the field instances field_app_requirements_intro from program.
+ */
+function gsb_public_update_7320() {
+  $field_names = array(
+    'field_app_requirements_intro'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
