@@ -5818,3 +5818,17 @@ function gsb_public_update_7320() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Delete the field instances field_additional_page_prefix from program.
+ */
+function gsb_public_update_7321() {
+  $field_names = array(
+    'field_additional_page_prefix'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
