@@ -5832,3 +5832,72 @@ function gsb_public_update_7321() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Reset the layout from gsb-widescreen to gsb-full-bleed-page for all
+ * program_panelized_page content
+ */
+function gsb_public_update_7322() {
+
+  $query = db_select('node', 'n');
+  $query->fields('n', array('type', 'nid'));
+  $query->join('panelizer_entity', 'pe', "n.nid = pe.entity_id");
+  $query->fields('pe', array('entity_id', 'did'));
+  $query->join('panels_display', 'pd', "pe.did = pd.did");
+  $query->fields('pd', array('layout', 'did'));
+  $query->condition('n.type', 'program_panelized_page');
+  $query->condition('pd.layout', 'gsb-widescreen');
+  $results = $query->execute();
+
+  foreach ($results as $ppp) {
+    db_update('panels_display')
+      ->fields(array(
+        'layout' => 'gsb-full-bleed-page',
+      ))
+      ->condition('panels_display.did', $ppp->did)
+      ->execute();
+  }
+}
+
+/**
+ * Reset the path alias for all program_panelized_page content
+ */
+function gsb_public_update_7323() {
+
+  $query = db_select('node', 'n');
+  $query->fields('n', array('type', 'nid'));
+  $query->condition('n.type', 'program_panelized_page');
+  $results = $query->execute();
+
+  $nids = array();
+  foreach($results as $ppp) {
+    $nids[] = $ppp->nid;
+  }
+  $nodes = node_load_multiple($nids);
+
+  foreach($nodes as $node) {
+    $program_node = node_load($node->field_program['und'][0]['target_id']);
+    if ($program_node == null) {
+      continue;
+    }
+    $ppp_type = '';
+    if (strpos($node->title, '--- curriculum') !== FALSE) {
+      $ppp_type = 'curriculum';
+    }
+    else if (strpos($node->title, '--- faculty') !== FALSE) {
+      $ppp_type = 'faculty';
+    }
+    else if (strpos($node->title, '--- participant') !== FALSE) {
+      $ppp_type = 'participant';
+    }
+    if ($ppp_type == '') {
+      continue;
+    }
+    $path = _gsb_feature_program_ct_create_ppp_path($program_node, $ppp_type);
+    $node->path = array(
+      'alias' => $path,
+      'pathauto' => 0
+    );
+    node_save($node);
+  }
+}
