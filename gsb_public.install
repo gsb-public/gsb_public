@@ -5901,3 +5901,22 @@ function gsb_public_update_7323() {
     node_save($node);
   }
 }
+
+/**
+ * Resetting the url aliases for ppp participant to participant-profile
+ */
+function gsb_public_update_7324() {
+  $query = db_select('url_alias', 'ua');
+  $query->fields('ua', array('alias', 'pid'));
+  $query->condition('ua.alias', '%exec-ed%/participant', 'LIKE');
+  $results = $query->execute();
+  foreach($results as $alias) {
+    db_update('url_alias')
+    ->fields(array(
+      'alias' => $alias->alias . '-profile',
+      'pid' => $alias->pid
+    ))
+    ->condition('url_alias.pid', $alias->pid, '=')
+    ->execute();
+  }
+}
