@@ -5920,3 +5920,25 @@ function gsb_public_update_7324() {
     ->execute();
   }
 }
+
+/**
+ * Resetting all Program CT to have force_pathauto checked
+ */
+function gsb_public_update_7325() {
+  $query = db_select('node', 'n');
+  $query->fields('n', array('nid'));
+  $query->join('submenu_alias_pathauto', 'sap', "n.nid = sap.nid");
+  $query->fields('sap', array('nid', 'force_pathauto'));
+  $query->condition('n.type', 'program');
+  $results = $query->execute();
+  
+  foreach($results as $spa) {
+    db_update('submenu_alias_pathauto')
+    ->fields(array(
+      'nid' => $spa->nid,
+      'force_pathauto' => 1
+    ))
+    ->condition('submenu_alias_pathauto.nid', $spa->nid, '=')
+    ->execute();
+  }
+}
