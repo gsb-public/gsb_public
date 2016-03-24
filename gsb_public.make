@@ -243,6 +243,13 @@ projects[gsb_panels_pages][download][url] = git@github.com:gsb-public/gsb_panels
 projects[gsb_panels_pages][download][tag] = 4.01
 projects[gsb_panels_pages][subdir] = custom
 
+; GSB Public Brochure List
+projects[gsb_public_brochure_list][type] = module
+projects[gsb_public_brochure_list][download][type] = git
+projects[gsb_public_brochure_list][download][url] = git@github.com:gsb-public/gsb_public_brochure_list.git
+projects[gsb_public_brochure_list][download][branch] = release-1.00
+projects[gsb_public_brochure_list][subdir] = custom
+
 ; GSB Public Statistics
 projects[gsb_public_statistics][type] = module
 projects[gsb_public_statistics][download][type] = git
@@ -864,7 +871,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.03
+projects[gsb_feature_program_finder_display][download][branch] = release-1.04
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
