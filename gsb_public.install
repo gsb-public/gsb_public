@@ -5978,3 +5978,12 @@ function gsb_public_update_7327() {
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
+
+/**
+ * Enable gsb_public_brochure_list module.
+ */
+function gsb_public_update_7328() {
+  if (!module_exists('gsb_public_brochure_list')) {
+    module_enable(array('gsb_public_brochure_list'));
+  }
+}
