@@ -124,6 +124,13 @@ projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gs
 projects[gsb_public_custom_blocks][download][branch] = release-6.05
 projects[gsb_public_custom_blocks][subdir] = custom
 
+; GSB Custom Breadcrumbs
+projects[gsb_custom_breadcrumbs][type] = module
+projects[gsb_custom_breadcrumbs][download][type] = git
+projects[gsb_custom_breadcrumbs][download][url] = git@github.com:gsb-public/gsb_custom_breadcrumbs.git
+projects[gsb_custom_breadcrumbs][download][branch] = release-1.00
+projects[gsb_custom_breadcrumbs][subdir] = custom
+
 ; GSB Cvent
 projects[gsb_cvent][type] = module
 projects[gsb_cvent][download][type] = git
