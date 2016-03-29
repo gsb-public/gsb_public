@@ -5987,3 +5987,11 @@ function gsb_public_update_7328() {
     module_enable(array('gsb_public_brochure_list'));
   }
 }
+/**
+ * Enable gsb_custom_breadcrumbs module.
+ */
+function gsb_public_update_7329() {
+  if (!module_exists('gsb_custom_breadcrumbs')) {
+    module_enable(array('gsb_custom_breadcrumbs'));
+  }
+}
