@@ -1091,7 +1091,7 @@ projects[gsb_theme][download][tag] = 6.07
 projects[gsb_theme_admin][type] = theme
 projects[gsb_theme_admin][download][type] = git
 projects[gsb_theme_admin][download][url] = git@github.com:gsb-public/gsb_theme_admin.git
-projects[gsb_theme_admin][download][branch] = release-5.09
+projects[gsb_theme_admin][download][tag] = 5.09
 
 
 ;========================================
