@@ -892,7 +892,7 @@ projects[gsb_feature_program_instance_ct][subdir] = custom/features
 projects[gsb_feature_program_instance_display][type] = module
 projects[gsb_feature_program_instance_display][download][type] = git
 projects[gsb_feature_program_instance_display][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_display.git
-projects[gsb_feature_program_instance_display][download][branch] = release-6.07
+projects[gsb_feature_program_instance_display][download][tag] = 6.07
 projects[gsb_feature_program_instance_display][subdir] = custom/features
 
 
