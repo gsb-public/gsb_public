@@ -1496,8 +1496,9 @@ projects[select_or_other][version] = 2.22
 projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
-libraries[sharrre][download][url] = https://github.com/gsbitse/Sharrre
-libraries[sharrre][download][tag] = 5.02
+libraries[sharrre][download][url] = https://github.com/Julienh/Sharrre.git
+libraries[sharrre][download][tag] = 2.0.1
+libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.patch
 
 projects[site_verify][version] = 1.1
 projects[site_verify][subdir] = contrib
