@@ -219,6 +219,7 @@ dependencies[] = gsb_feature_program_finder_display
 dependencies[] = gsb_feature_program_instance_ct
 dependencies[] = gsb_feature_program_instance_display
 dependencies[] = gsb_feature_program_panelized_page_ct
+dependencies[] = gsb_feature_programs_list_fpp
 dependencies[] = gsb_feature_publication_ct
 dependencies[] = gsb_feature_publication_display
 dependencies[] = gsb_feature_ranking_ct
