@@ -895,6 +895,12 @@ projects[gsb_feature_program_instance_display][download][url] = git@github.com:g
 projects[gsb_feature_program_instance_display][download][tag] = 6.07
 projects[gsb_feature_program_instance_display][subdir] = custom/features
 
+; GSB Programs List FPP
+projects[gsb_feature_programs_list_fpp][type] = module
+projects[gsb_feature_programs_list_fpp][download][type] = git
+projects[gsb_feature_programs_list_fpp][download][url] = git@github.com:gsb-public/gsb_feature_programs_list_fpp.git
+projects[gsb_feature_programs_list_fpp][download][branch] = release-1.00
+projects[gsb_feature_programs_list_fpp][subdir] = custom/features
 
 ; GSB Program Panelized Page Content Type
 projects[gsb_feature_program_panelized_page_ct][type] = module
