@@ -1246,6 +1246,9 @@ projects[eva][download][revision] = 79a8ef
 projects[eva][download][branch] = 7.x-1.x
 projects[eva][patch][1419328] = https://drupal.org/files/issues/eva-form-1419328-13.patch
 
+projects[extended_block_visibility][version] = 1.1
+projects[extended_block_visibility][subdir] = contrib
+
 projects[expire][version] = 2.0-rc4
 projects[expire][subdir] = contrib
 
