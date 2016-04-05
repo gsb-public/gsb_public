@@ -6005,3 +6005,12 @@ function gsb_public_update_7330() {
     module_enable(array('gsb_feature_programs_list_fpp'));
   }
 }
+
+/**
+ * Enable extended_block_visibility module.
+ */
+function gsb_public_update_7331() {
+  if (!module_exists('extended_block_visibility')) {
+    module_enable(array('extended_block_visibility'));
+  }
+}
