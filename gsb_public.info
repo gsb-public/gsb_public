@@ -46,6 +46,7 @@ dependencies[] = elysia_cron
 dependencies[] = email_contact
 dependencies[] = entityreference_autocomplete
 dependencies[] = eva
+dependencies[] = extended_block_visibility
 dependencies[] = expire
 dependencies[] = expire_panels
 dependencies[] = fancybox
