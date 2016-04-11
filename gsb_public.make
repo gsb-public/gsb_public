@@ -1430,6 +1430,10 @@ libraries[moment][destination] = "libraries"
 projects[multiple_fields_remove_button][version] = 1.5
 projects[multiple_fields_remove_button][subdir] = contrib
 
+libraries[multiple-select][download][type] = git
+libraries[multiple-select][download][url] = git@github.com:wenzhixin/multiple-select.git
+libraries[multiple-select][download][tag] = 1.1.0
+
 projects[node_clone][version] = 1.0
 projects[node_clone][subdir] = contrib
 
@@ -1597,10 +1601,6 @@ projects[webform_to_gdocs][subdir] = contrib
 projects[webform_to_gdocs][download][type] = git
 projects[webform_to_gdocs][download][url] = git@github.com:gsb-public/webform_to_gdocs.git
 projects[webform_to_gdocs][download][tag] = 6.02
-
-libraries[wenzhixin][download][type] = git
-libraries[wenzhixin][download][url] = git@github.com:wenzhixin/multiple-select.git
-libraries[wenzhixin][download][tag] = 1.1.0
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
