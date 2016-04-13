@@ -1229,15 +1229,14 @@ projects[email_contact][version] = 1.0-rc2
 projects[email_contact][subdir] = contrib
 projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/email_contact_patch-2364995-3.patch
 
-projects[entity][version] = 1.6
+projects[entity][version] = 1.7
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.1
 projects[entityreference][subdir] = contrib
 
-projects[entityreference_autocomplete][version] = 1.10
+projects[entityreference_autocomplete][version] = 1.11
 projects[entityreference_autocomplete][subdir] = contrib
-projects[entityreference_autocomplete][patch][2561431] = https://www.drupal.org/files/issues/entityreference_autocomplete-7.x-1.x-2561431-4.patch
 
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
@@ -1266,7 +1265,7 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.7
+projects[features][version] = 2.8
 projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
@@ -1404,7 +1403,7 @@ projects[menu_minipanels][patch][1977018] = http://drupal.org/files/1977018-d7-2
 projects[menu_position][version] = 1.2
 projects[menu_position][subdir] = contrib
 
-projects[menu_token][version] = 1.0-beta6
+projects[menu_token][version] = 1.0-beta7
 projects[menu_token][subdir] = contrib
 
 projects[menu_trail_by_path][version] = 2.x-dev
@@ -1413,7 +1412,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.13
+projects[metatag][version] = 1.14
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
