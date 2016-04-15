@@ -853,6 +853,13 @@ projects[gsb_feature_pr_contact][download][url] = git@github.com:gsb-public/gsb_
 projects[gsb_feature_pr_contact][download][tag] = 5.0
 projects[gsb_feature_pr_contact][subdir] = custom/features
 
+; GSB Program App Finder
+projects[gsb_feature_program_app_finder][type] = module
+projects[gsb_feature_program_app_finder][download][type] = git
+projects[gsb_feature_program_app_finder][download][url] = git@github.com:gsb-public/gsb_feature_program_app_finder.git
+projects[gsb_feature_program_app_finder][download][branch] = release-1.00
+projects[gsb_feature_program_app_finder][subdir] = custom/features
+
 ; GSB Program Content Type
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
