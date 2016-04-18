@@ -6014,3 +6014,12 @@ function gsb_public_update_7331() {
     module_enable(array('extended_block_visibility'));
   }
 }
+
+/**
+ * Enable gsb_feature_program_app_finder module.
+ */
+function gsb_public_update_7332() {
+  if (!module_exists('gsb_feature_program_app_finder')) {
+    module_enable(array('gsb_feature_program_app_finder'));
+  }
+}
