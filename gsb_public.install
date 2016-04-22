@@ -6023,3 +6023,12 @@ function gsb_public_update_7332() {
     module_enable(array('gsb_feature_program_app_finder'));
   }
 }
+
+/**
+ * Disable extended_block_visibility module.
+ */
+function gsb_public_update_7333() {
+  if (module_exists('extended_block_visibility')) {
+    module_disable(array('extended_block_visibility'));
+  }
+}
