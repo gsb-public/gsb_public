@@ -121,7 +121,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.07
+projects[gsb_public_custom_blocks][download][branch] = release-6.08
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -885,7 +885,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.06
+projects[gsb_feature_program_finder_display][download][branch] = release-1.07
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
