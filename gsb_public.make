@@ -1003,7 +1003,7 @@ projects[gsb_feature_taxonomy][subdir] = custom/features
 projects[gsb_feature_toolbar][type] = module
 projects[gsb_feature_toolbar][download][type] = git
 projects[gsb_feature_toolbar][download][url] = git@github.com:gsb-public/gsb_feature_toolbar.git
-projects[gsb_feature_toolbar][download][tag] = 5.02
+projects[gsb_feature_toolbar][download][branch] = release-5.03
 projects[gsb_feature_toolbar][subdir] = custom/features
 
 ; GSB Features Topic Teaser FPP
@@ -1219,7 +1219,7 @@ projects[devel_form_debug][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
-projects[ds][version] = 2.13
+projects[ds][version] = 2.14
 projects[ds][subdir] = contrib
 
 libraries[easyResponsiveTabs][download][type] = get
@@ -1272,7 +1272,7 @@ libraries[fancybox][download][url] = https://github.com/fancyapps/fancyBox/zipba
 projects[fape][version] = 1.2
 projects[fape][subdir] = contrib
 
-projects[features][version] = 2.8
+projects[features][version] = 2.10
 projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
@@ -1536,12 +1536,8 @@ libraries[sticky-master][download][tag] = 1.0.1
 projects[strongarm][version] = 2.0
 projects[strongarm][subdir] = contrib
 
-projects[submit_field][version] = 1.x-dev
+projects[submit_field][version] = 1.4
 projects[submit_field][subdir] = contrib
-projects[submit_field][download][type] = git
-projects[submit_field][download][url] = http://git.drupal.org/project/submit_field.git
-projects[submit_field][download][revision] = 205c0c5
-projects[submit_field][download][branch] = 7.x-1.x
 
 projects[telephone][version] = 1.0-alpha1
 projects[telephone][subdir] = contrib
