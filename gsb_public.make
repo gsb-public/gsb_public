@@ -1532,10 +1532,10 @@ projects[site_verify][subdir] = contrib
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
 
-projects[stackla-drupal-plugin][subdir] = contrib
-projects[stackla-drupal-plugin][download][type] = git
-projects[stackla-drupal-plugin][download][url] = git@github.com:Stackla/stackla-drupal-plugin.git
-projects[stackla-drupal-plugin][download][tag] = v1.0.0
+projects[stackla][subdir] = contrib
+projects[stackla][download][type] = git
+projects[stackla][download][url] = git@github.com:Stackla/stackla-drupal-plugin.git
+projects[stackla][download][tag] = v1.0.0
 
 projects[stage_file_proxy][version] = 1.7
 projects[stage_file_proxy][subdir] = contrib
