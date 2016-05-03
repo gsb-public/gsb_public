@@ -1165,6 +1165,9 @@ projects[cmis][version] = 1.7
 projects[cmis][subdir] = contrib
 projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
 
+projects[composer_manager][version] = 1.8
+projects[composer_manager][subdir] = contrib
+
 projects[computed_field][version] = 1.1
 projects[computed_field][subdir] = contrib
 
@@ -1235,6 +1238,9 @@ projects[email][patch][1346102] = https://www.drupal.org/files/issues/edit_link_
 projects[email_contact][version] = 1.0-rc2
 projects[email_contact][subdir] = contrib
 projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/email_contact_patch-2364995-3.patch
+
+projects[encrypt][version] = 2.3
+projects[encrypt][subdir] = contrib
 
 projects[entity][version] = 1.7
 projects[entity][subdir] = contrib
@@ -1525,6 +1531,11 @@ projects[site_verify][subdir] = contrib
 
 projects[smart_trim][version] = 1.5
 projects[smart_trim][subdir] = contrib
+
+projects[stackla-drupal-plugin][subdir] = contrib
+projects[stackla-drupal-plugin][download][type] = git
+projects[stackla-drupal-plugin][download][url] = git@github.com:Stackla/stackla-drupal-plugin.git
+projects[stackla-drupal-plugin][download][tag] = v1.0.0
 
 projects[stage_file_proxy][version] = 1.7
 projects[stage_file_proxy][subdir] = contrib
