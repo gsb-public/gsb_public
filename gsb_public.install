@@ -6032,3 +6032,18 @@ function gsb_public_update_7333() {
     module_disable(array('extended_block_visibility'));
   }
 }
+
+/**
+ * Enable stackla, composer_manager and encrypt modules.
+ */
+function gsb_public_update_7334() {
+  if (module_exists('stackla')) {
+    module_enable(array('stackla'));
+  }
+  if (module_exists('composer_manager')) {
+    module_enable(array('composer_manager'));
+  }
+  if (module_exists('encrypt')) {
+    module_enable(array('encrypt'));
+  }
+}
