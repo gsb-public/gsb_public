@@ -1350,6 +1350,12 @@ libraries[jquery_lazyload][download][url] = "https://github.com/tuupola/jquery_l
 libraries[jquery_lazyload][directory_name] = "jquery_lazyload"
 libraries[jquery_lazyload][destination] = "libraries"
 
+libraries[jquery_multicheckbox][download][type] = "git"
+libraries[jquery_multicheckbox][download][url] = "https://github.com/jurrick/jquery-multicheckbox.git"
+libraries[jquery_multicheckbox][directory_name] = "jquery-multicheckbox"
+libraries[jquery_multicheckbox][download][tag] = 1.0.0
+libraries[jquery_multicheckbox][destination] = "libraries"
+
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
