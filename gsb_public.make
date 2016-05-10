@@ -857,7 +857,7 @@ projects[gsb_feature_pr_contact][subdir] = custom/features
 projects[gsb_feature_program_app_finder][type] = module
 projects[gsb_feature_program_app_finder][download][type] = git
 projects[gsb_feature_program_app_finder][download][url] = git@github.com:gsb-public/gsb_feature_program_app_finder.git
-projects[gsb_feature_program_app_finder][download][branch] = release-1.01
+projects[gsb_feature_program_app_finder][download][tag] = 1.01
 projects[gsb_feature_program_app_finder][subdir] = custom/features
 
 ; GSB Program Content Type
