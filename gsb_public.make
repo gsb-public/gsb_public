@@ -768,7 +768,7 @@ projects[gsb_feature_media_item_display][subdir] = custom/features
 projects[gsb_feature_mega_menu][type] = module
 projects[gsb_feature_mega_menu][download][type] = git
 projects[gsb_feature_mega_menu][download][url] = git@github.com:gsb-public/gsb_feature_mega_menu.git
-projects[gsb_feature_mega_menu][download][branch] = release-5.02.1
+projects[gsb_feature_mega_menu][download][tag] = 5.02.1
 projects[gsb_feature_mega_menu][subdir] = custom/features
 
 ; GSB Features Metatag
