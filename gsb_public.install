@@ -6051,8 +6051,8 @@ function gsb_public_update_7334() {
 /**
  * Enable gsb_feature_quote_fpp module.
  */
-function gsb_public_update_7335() {
-  if (module_exists('gsb_feature_quote_fpp')) {
+function gsb_public_update_7336() {
+  if (!module_exists('gsb_feature_quote_fpp')) {
     module_enable(array('gsb_feature_quote_fpp'));
   }
 }
