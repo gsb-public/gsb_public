@@ -223,6 +223,7 @@ dependencies[] = gsb_feature_program_panelized_page_ct
 dependencies[] = gsb_feature_programs_list_fpp
 dependencies[] = gsb_feature_publication_ct
 dependencies[] = gsb_feature_publication_display
+dependencies[] = gsb_feature_quote_fpp
 dependencies[] = gsb_feature_ranking_ct
 dependencies[] = gsb_feature_ranking_display
 dependencies[] = gsb_feature_school_story_ct
