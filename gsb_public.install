@@ -6047,3 +6047,26 @@ function gsb_public_update_7334() {
     module_enable(array('encrypt'));
   }
 }
+
+/**
+ * Enable gsb_feature_quote_fpp module.
+ */
+function gsb_public_update_7335() {
+  if (module_exists('gsb_feature_quote_fpp')) {
+    module_enable(array('gsb_feature_quote_fpp'));
+  }
+}
+
+/**
+ * Delete Quote fpp contents.
+ */
+function gsb_public_update_7336() {
+  $fpids = db_select('fieldable_panels_panes', 'fpp')
+    ->fields('fpp', array('fpid'))
+    ->condition('fpp.bundle', 'Quote')
+    ->execute();
+
+  foreach ($fpids as $fpid) {
+    fieldable_panels_panes_delete($fpid->fpid);
+  }
+}
