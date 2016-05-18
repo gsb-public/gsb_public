@@ -6084,3 +6084,17 @@ function gsb_public_update_7337() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Make enty in fieldable_panels_pane_type table for Quote(Workaround).
+ */
+function gsb_public_update_7338() {
+  $fields = array(
+    'name' => 'quote',
+    'title' => 'Quote',
+    'description' => '',
+  );
+  db_insert('fieldable_panels_pane_type')
+    ->fields($fields)
+    ->execute();
+}
