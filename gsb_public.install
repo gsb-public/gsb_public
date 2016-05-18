@@ -6070,3 +6070,31 @@ function gsb_public_update_7336() {
     fieldable_panels_panes_delete($fpid->fpid);
   }
 }
+
+/**
+ * Delete the field instances field_link_single from Quote.
+ */
+function gsb_public_update_7337() {
+  $field_names = array(
+    'field_link_single'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('fieldable_panels_pane', $field_name, 'quote');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Make enty in fieldable_panels_pane_type table for Quote(Workaround).
+ */
+function gsb_public_update_7338() {
+  $fields = array(
+    'name' => 'quote',
+    'title' => 'Quote',
+    'description' => '',
+  );
+  db_insert('fieldable_panels_pane_type')
+    ->fields($fields)
+    ->execute();
+}
