@@ -6098,3 +6098,22 @@ function gsb_public_update_7338() {
     ->fields($fields)
     ->execute();
 }
+
+/**
+ * Enable gsb_feature_quotes_fpp module.
+ */
+function gsb_public_update_7339() {
+  if (!module_exists('gsb_feature_quotes_fpp')) {
+    module_enable(array('gsb_feature_quotes_fpp'));
+  }
+}
+
+/**
+ * Disable and uninstall gsb_feature_quote_fpp module.
+ */
+function gsb_public_update_7340() {
+  if (module_exists('gsb_feature_quote_fpp')) {
+    module_disable(array('gsb_feature_quote_fpp'));
+    drupal_uninstall_modules(array('gsb_feature_quote_fpp'));
+  }
+}
