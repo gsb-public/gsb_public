@@ -254,7 +254,7 @@ projects[gsb_panels_pages][subdir] = custom
 projects[gsb_public_brochure_list][type] = module
 projects[gsb_public_brochure_list][download][type] = git
 projects[gsb_public_brochure_list][download][url] = git@github.com:gsb-public/gsb_public_brochure_list.git
-projects[gsb_public_brochure_list][download][branch] = release-1.01
+projects[gsb_public_brochure_list][download][tag] = 1.01
 projects[gsb_public_brochure_list][subdir] = custom
 
 ; GSB Public Statistics
