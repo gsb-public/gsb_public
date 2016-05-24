@@ -740,7 +740,7 @@ projects[gsb_feature_links_fpp][subdir] = custom/features
 projects[gsb_feature_quotes_fpp][type] = module
 projects[gsb_feature_quotes_fpp][download][type] = git
 projects[gsb_feature_quotes_fpp][download][url] = git@github.com:gsb-public/gsb_feature_quotes_fpp.git
-projects[gsb_feature_quotes_fpp][download][branch] = release-1.00
+projects[gsb_feature_quotes_fpp][download][tag] = 1.00
 projects[gsb_feature_quotes_fpp][subdir] = custom/features
 
 ; GSB Feature House Ads FPP
