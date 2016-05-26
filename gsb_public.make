@@ -1112,7 +1112,7 @@ projects[gsb_theme_admin][download][tag] = 5.10
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 2.16
+projects[acquia_connector][version] = 2.17
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.3
@@ -1284,7 +1284,7 @@ projects[features][subdir] = contrib
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
-projects[fieldable_panels_panes][version] = 1.8
+projects[fieldable_panels_panes][version] = 1.10
 projects[fieldable_panels_panes][subdir] = contrib
 
 projects[field_collection][version] = 1.0-beta11
