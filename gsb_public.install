@@ -6132,3 +6132,17 @@ function gsb_public_update_7341() {
     module_disable(array('encrypt'));
   }
 }
+
+/**
+ * Enable the FPP revision locking feature.
+ */
+function gsb_public_update_7342() {
+  variable_set('fpp_revision_locking', 'lock');
+}
+
+/**
+ * Rerun Fieldable Panels Panes update 7112.
+ */
+function gsb_public_update_7343(&$sandbox) {
+  return fieldable_panels_panes_update_7112($sandbox);
+}
