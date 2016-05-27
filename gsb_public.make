@@ -885,7 +885,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.08
+projects[gsb_feature_program_finder_display][download][branch] = release-1.09
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
@@ -899,7 +899,7 @@ projects[gsb_feature_program_instance_ct][subdir] = custom/features
 projects[gsb_feature_program_instance_display][type] = module
 projects[gsb_feature_program_instance_display][download][type] = git
 projects[gsb_feature_program_instance_display][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_display.git
-projects[gsb_feature_program_instance_display][download][tag] = 6.09
+projects[gsb_feature_program_instance_display][download][branch] = release-6.10
 projects[gsb_feature_program_instance_display][subdir] = custom/features
 
 ; GSB Programs List FPP
