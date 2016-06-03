@@ -614,7 +614,7 @@ projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsb-public/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][branch] = release-5.14
+projects[gsb_feature_faculty_ct][download][branch] = release-5.14-with-7094
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
@@ -864,7 +864,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][branch] = release-6.12
+projects[gsb_feature_program_ct][download][branch] = release-6.12-with-7094
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -1098,7 +1098,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-6.12
+projects[gsb_theme][download][branch] = release-6.12-with-7094
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
