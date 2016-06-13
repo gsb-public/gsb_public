@@ -6242,3 +6242,20 @@ function gsb_public_update_7344() {
   metatag_config_save($config);
 }
 
+/**
+ * Enable print, print_pdf, print_ui and print_pdf_wkhtmltopdf modules.
+ */
+function gsb_public_update_7345() {
+  if (!module_exists('print')) {
+    module_enable(array('print'));
+  }
+  if (!module_exists('print_pdf')) {
+    module_enable(array('print_pdf'));
+  }
+  if (!module_exists('print_ui')) {
+    module_enable(array('print_ui'));
+  }
+  if (!module_exists('print_pdf_wkhtmltopdf')) {
+    module_enable(array('print_pdf_wkhtmltopdf'));
+  }
+}
