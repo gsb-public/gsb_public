@@ -1494,6 +1494,9 @@ libraries[php-cvent][download][tag] = 5.16
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
 
+projects[print][version] = 2.0
+projects[print][subdir] = contrib
+
 projects[redirect][version] = 1.0-rc3
 projects[redirect][subdir] = contrib
 projects[redirect][download][type] = git
@@ -1622,6 +1625,9 @@ projects[webform_to_gdocs][subdir] = contrib
 projects[webform_to_gdocs][download][type] = git
 projects[webform_to_gdocs][download][url] = git@github.com:gsb-public/webform_to_gdocs.git
 projects[webform_to_gdocs][download][tag] = 6.02
+
+libraries[wkhtmltopdf][download][type] = get
+libraries[wkhtmltopdf][download][url] = http://download.gna.org/wkhtmltopdf/0.12/0.12.3/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz
 
 projects[workbench][version] = 1.x-dev
 projects[workbench][subdir] = contrib
