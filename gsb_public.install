@@ -6168,7 +6168,7 @@ function gsb_public_update_7344() {
         'value' => '[node:gtm-circle-topics]'
       ),
       'gsb:dimension12' => array(
-        'value' => '[node:gtm-author-name]"'
+        'value' => '[node:gtm-author-name]'
       ),
     )
   );
@@ -6190,7 +6190,7 @@ function gsb_public_update_7344() {
         'value' => '[node:gtm-circle-topics]'
       ),
       'gsb:dimension12' => array(
-        'value' => '[node:gtm-author-name]"'
+        'value' => '[node:gtm-author-name]'
       ),
     )
   );
@@ -6212,7 +6212,7 @@ function gsb_public_update_7344() {
         'value' => '[node:gtm-circle-topics]'
       ),
       'gsb:dimension12' => array(
-        'value' => '[node:gtm-author-name]"'
+        'value' => '[node:gtm-author-name]'
       ),
     )
   );
@@ -6234,7 +6234,7 @@ function gsb_public_update_7344() {
         'value' => '[node:gtm-circle-topics]'
       ),
       'gsb:dimension12' => array(
-        'value' => '[node:gtm-author-name]"'
+        'value' => '[node:gtm-author-name]'
       ),
     )
   );
