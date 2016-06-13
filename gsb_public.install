@@ -6146,3 +6146,99 @@ function gsb_public_update_7342() {
 function gsb_public_update_7343(&$sandbox) {
   return fieldable_panels_panes_update_7112($sandbox);
 }
+
+/**
+ * Create the metatag config settings for:
+ * book, case, working_paper and publication
+ */
+function gsb_public_update_7344() {
+
+  // book
+  $config = array(
+    'cid' => '',
+    'instance' => 'node:book',
+    'config' => array(
+      'gsb:dimension9' => array(
+        'value' => '[node:field_centers_research_programs]'
+      ),
+      'gsb:dimension10' => array(
+        'value' => '[node:field_publication_type]'
+      ),
+      'gsb:dimension11' => array(
+        'value' => '[node:gtm-circle-topics]'
+      ),
+      'gsb:dimension12' => array(
+        'value' => '[node:gtm-author-name]"'
+      ),
+    )
+  );
+  $config = (object) $config;
+  metatag_config_save($config);
+
+  // case
+  $config = array(
+    'cid' => '',
+    'instance' => 'node:case',
+    'config' => array(
+      'gsb:dimension9' => array(
+        'value' => '[node:field_centers_research_programs]'
+      ),
+      'gsb:dimension10' => array(
+        'value' => '[node:field_publication_type]'
+      ),
+      'gsb:dimension11' => array(
+        'value' => '[node:gtm-circle-topics]'
+      ),
+      'gsb:dimension12' => array(
+        'value' => '[node:gtm-author-name]"'
+      ),
+    )
+  );
+  $config = (object) $config;
+  metatag_config_save($config);
+
+  // working_paper
+  $config = array(
+    'cid' => '',
+    'instance' => 'node:working_paper',
+    'config' => array(
+      'gsb:dimension9' => array(
+        'value' => '[node:field_centers_research_programs]'
+      ),
+      'gsb:dimension10' => array(
+        'value' => '[node:field_publication_type]'
+      ),
+      'gsb:dimension11' => array(
+        'value' => '[node:gtm-circle-topics]'
+      ),
+      'gsb:dimension12' => array(
+        'value' => '[node:gtm-author-name]"'
+      ),
+    )
+  );
+  $config = (object) $config;
+  metatag_config_save($config);
+
+  // publication
+  $config = array(
+    'cid' => '',
+    'instance' => 'node:publication',
+    'config' => array(
+      'gsb:dimension9' => array(
+        'value' => '[node:field_centers_research_programs]'
+      ),
+      'gsb:dimension10' => array(
+        'value' => '[node:field_publication_type]'
+      ),
+      'gsb:dimension11' => array(
+        'value' => '[node:gtm-circle-topics]'
+      ),
+      'gsb:dimension12' => array(
+        'value' => '[node:gtm-author-name]"'
+      ),
+    )
+  );
+  $config = (object) $config;
+  metatag_config_save($config);
+}
+
