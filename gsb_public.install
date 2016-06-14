@@ -6159,7 +6159,7 @@ function gsb_public_update_7344() {
     'instance' => 'node:book',
     'config' => array(
       'gsb:dimension9' => array(
-        'value' => '[node:field_centers_research_programs]'
+        'value' => '[node:gtm-centers-research-programs]'
       ),
       'gsb:dimension10' => array(
         'value' => '[node:field_publication_type]'
@@ -6181,7 +6181,7 @@ function gsb_public_update_7344() {
     'instance' => 'node:case',
     'config' => array(
       'gsb:dimension9' => array(
-        'value' => '[node:field_centers_research_programs]'
+        'value' => '[node:gtm-centers-research-programs]'
       ),
       'gsb:dimension10' => array(
         'value' => '[node:field_publication_type]'
@@ -6203,7 +6203,7 @@ function gsb_public_update_7344() {
     'instance' => 'node:working_paper',
     'config' => array(
       'gsb:dimension9' => array(
-        'value' => '[node:field_centers_research_programs]'
+        'value' => '[node:gtm-centers-research-programs]'
       ),
       'gsb:dimension10' => array(
         'value' => '[node:field_publication_type]'
@@ -6225,7 +6225,7 @@ function gsb_public_update_7344() {
     'instance' => 'node:publication',
     'config' => array(
       'gsb:dimension9' => array(
-        'value' => '[node:field_centers_research_programs]'
+        'value' => '[node:gtm-centers-research-programs]'
       ),
       'gsb:dimension10' => array(
         'value' => '[node:field_publication_type]'
