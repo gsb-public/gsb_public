@@ -1627,7 +1627,7 @@ projects[webform_to_gdocs][download][url] = git@github.com:gsb-public/webform_to
 projects[webform_to_gdocs][download][tag] = 6.02
 
 libraries[wkhtmltopdf][download][type] = "get"
-libraries[wkhtmltopdf][download][url] = "http://download.gna.org/wkhtmltopdf/0.12/0.12.3/wkhtmltox-0.12.3_linux-generic-amd64.tar.xz"
+libraries[wkhtmltopdf][download][url] = "https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.3.2.zip"
 libraries[wkhtmltopdf][directory_name] = "wkhtmltopdf"
 libraries[wkhtmltopdf][destination] = "libraries"
 
