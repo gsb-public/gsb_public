@@ -6259,3 +6259,22 @@ function gsb_public_update_7345() {
     module_enable(array('print_pdf_wkhtmltopdf'));
   }
 }
+
+/**
+ * Update authenticated and anonymous user permissions for printing pdf
+ */
+function gsb_public_update_7346() {
+  // Get the authenticated and anonymous user roles
+  $authenticated_user = user_role_load_by_name('authenticated user');
+  $anonymous_user = user_role_load_by_name('anonymous user');
+
+  $pdf_permissions = array(
+    'access PDF version',
+  );
+
+  // Update authenticated user role permissions
+  user_role_grant_permissions($authenticated_user->rid, $pdf_permissions);
+  
+  // Update anonymous user role permissions
+  user_role_grant_permissions($anonymous_user->rid, $pdf_permissions);
+}
