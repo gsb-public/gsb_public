@@ -6278,3 +6278,10 @@ function gsb_public_update_7346() {
   // Update anonymous user role permissions
   user_role_grant_permissions($anonymous_user->rid, $pdf_permissions);
 }
+
+/**
+ * Set config for print_pdf_wkhtmltopdf
+ */
+function gsb_public_update_7347() {
+  variable_set('print_pdf_pdf_tool', 'print_pdf_wkhtmltopdf|profiles/gsb_public/modules/contrib/print/lib/wkhtmltopdf');
+}
