@@ -6285,3 +6285,13 @@ function gsb_public_update_7346() {
 function gsb_public_update_7347() {
   variable_set('print_pdf_pdf_tool', 'print_pdf_wkhtmltopdf|profiles/gsb_public/modules/contrib/print/lib/wkhtmltopdf');
 }
+
+/**
+ * Set config for print_pdf link_pos
+ * - admin page for these values can be found at:
+ *     /admin/config/user-interface/print/ui
+ */
+function gsb_public_update_7348() {
+  variable_set('print_pdf_link_pos', 'a:4:{s:4:"link";i:0;s:6:"corner";i:0;s:5:"block";i:0;s:4:"help";i:0;}');
+  variable_set('print_html_link_pos', 'a:4:{s:4:"link";i:0;s:6:"corner";i:0;s:5:"block";i:0;s:4:"help";i:0;}');
+}
