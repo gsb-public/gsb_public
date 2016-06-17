@@ -1480,6 +1480,9 @@ projects[pathauto][subdir] = contrib
 projects[pathauto_menu_link][version] = 1.2
 projects[pathauto_menu_link][subdir] = contrib
 
+projects[phpwkhtmltopdf][version] = 2.1
+projects[phpwkhtmltopdf][subdir] = contrib
+
 ; Phone module for Webform Phone
 projects[phone][version] = 1.0-beta1
 projects[phone][subdir] = contrib
