@@ -6296,6 +6296,11 @@ function gsb_public_update_7348() {
   variable_set('print_html_link_pos', 'a:4:{s:4:"link";i:0;s:6:"corner";i:0;s:5:"block";i:0;s:4:"help";i:0;}');
 }
 
-
-
-
+/**
+ * Enable phpwkhtmltopdf module.
+ */
+function gsb_public_update_7349() {
+  if (!module_exists('phpwkhtmltopdf')) {
+    module_enable(array('phpwkhtmltopdf'));
+  }
+}
