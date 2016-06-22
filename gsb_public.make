@@ -1250,6 +1250,7 @@ projects[entityreference][subdir] = contrib
 
 projects[entityreference_autocomplete][version] = 1.11
 projects[entityreference_autocomplete][subdir] = contrib
+projects[entityreference_autocomplete][patch][2561431] = https://www.drupal.org/files/issues/entityreference_autocomplete-7.x-1.x-2561431-4.patch
 
 projects[eva][version] = 1.x-dev
 projects[eva][subdir] = contrib
@@ -1333,7 +1334,7 @@ projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881
 projects[imagecache_actions][version] = 1.7
 projects[imagecache_actions][subdir] = contrib
 
-projects[image_link_formatter][version] = 1.0
+projects[image_link_formatter][version] = 1.1
 projects[image_link_formatter][subdir] = contrib
 
 libraries[isotope][download][type] = "get"
@@ -1359,7 +1360,7 @@ libraries[jquery_multicheckbox][destination] = "libraries"
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
-projects[libraries][version] = 2.2
+projects[libraries][version] = 2.3
 projects[libraries][subdir] = contrib
 
 projects[link][version] = 1.4
@@ -1432,7 +1433,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.14
+projects[metatag][version] = 1.16
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
@@ -1589,11 +1590,10 @@ projects[uuid][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta11
 projects[video_embed_field][subdir] = contrib
 
-projects[views][version] = 3.13
+projects[views][version] = 3.14
 projects[views][subdir] = contrib
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
 projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
-projects[views][patch][339384] = http://www.drupal.org/files/issues/views-fix-exposed-filter-description-339384-36-7.x-3.x.patch
 
 projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
