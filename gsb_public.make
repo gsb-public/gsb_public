@@ -121,7 +121,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.11
+projects[gsb_public_custom_blocks][download][branch] = release-6.12
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -864,7 +864,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.13
+projects[gsb_feature_program_ct][download][branch] = release-6.14
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
