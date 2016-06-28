@@ -6304,3 +6304,21 @@ function gsb_public_update_7349() {
     module_enable(array('phpwkhtmltopdf'));
   }
 }
+
+/**
+ * Create the metatag config settings for:
+ * program_panelized_page
+ */
+function gsb_public_update_7350() {
+  $config = array(
+    'cid' => '',
+    'instance' => 'node:program_panelized_page',
+    'config' => array(
+      'title' => array(
+        'value' => '[node:ppp-url-args] - [node:title] | [site:name]'
+      )
+    )
+  );
+  $config = (object) $config;
+  metatag_config_save($config);
+}
