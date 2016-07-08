@@ -6322,3 +6322,15 @@ function gsb_public_update_7350() {
   $config = (object) $config;
   metatag_config_save($config);
 }
+
+/**
+ * Updating mail_system settings
+ */
+function gsb_public_update_7351() {
+  $mail_system = array(
+    'default-system' => 'MimeMailSystem',
+    'mimemail' => 'MimeMailSystem',
+    'gsb_public_statistics' => 'MimeMailSystem',
+  );
+  variable_set('mail_system', $mail_system);
+}
