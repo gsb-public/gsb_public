@@ -233,7 +233,7 @@ projects[gsb_migrate][subdir] = custom
 projects[gsb_node_modal][type] = module
 projects[gsb_node_modal][download][type] = git
 projects[gsb_node_modal][download][url] = git@github.com:gsb-public/gsb_node_modal.git
-projects[gsb_node_modal][download][tag] = 3.5
+projects[gsb_node_modal][download][branch] = release-3.60
 projects[gsb_node_modal][subdir] = custom
 
 ; GSB Panels IPE Overrides
@@ -899,7 +899,7 @@ projects[gsb_feature_program_instance_ct][subdir] = custom/features
 projects[gsb_feature_program_instance_display][type] = module
 projects[gsb_feature_program_instance_display][download][type] = git
 projects[gsb_feature_program_instance_display][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_display.git
-projects[gsb_feature_program_instance_display][download][tag] = 6.10
+projects[gsb_feature_program_instance_display][download][branch] = release-6.11
 projects[gsb_feature_program_instance_display][subdir] = custom/features
 
 ; GSB Programs List FPP
