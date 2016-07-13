@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 6.0
+projects[alumni_cas_auth][download][branch] = release-6.01
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -93,7 +93,7 @@ projects[gsb_cmis_api][subdir] = custom
 projects[gsb_cmis][type] = module
 projects[gsb_cmis][download][type] = git
 projects[gsb_cmis][download][url] = git@github.com:gsb-public/gsb_cmis.git
-projects[gsb_cmis][download][tag] = 5.02
+projects[gsb_cmis][download][branch] = release-5.03
 projects[gsb_cmis][subdir] = custom
 
 ; GSB Connecting Link
