@@ -233,7 +233,7 @@ projects[gsb_migrate][subdir] = custom
 projects[gsb_node_modal][type] = module
 projects[gsb_node_modal][download][type] = git
 projects[gsb_node_modal][download][url] = git@github.com:gsb-public/gsb_node_modal.git
-projects[gsb_node_modal][download][branch] = release-3.60
+projects[gsb_node_modal][download][tag] = 3.60
 projects[gsb_node_modal][subdir] = custom
 
 ; GSB Panels IPE Overrides
