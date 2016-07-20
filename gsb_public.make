@@ -1567,6 +1567,9 @@ projects[submit_field][subdir] = contrib
 projects[telephone][version] = 1.0-alpha1
 projects[telephone][subdir] = contrib
 
+projects[tinypng_image_action][version] = 1.1
+projects[tinypng_image_action][subdir] = contrib
+
 ; Used for twitter feed.
 libraries[tmhOAuth][download][type] = git
 libraries[tmhOAuth][download][url] = git@github.com:themattharris/tmhOAuth.git
