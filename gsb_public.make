@@ -1098,7 +1098,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.15
+projects[gsb_theme][download][branch] = release-6.16
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
@@ -1433,7 +1433,7 @@ projects[menu_trail_by_path][download][type] = git
 projects[menu_trail_by_path][download][revision] = 5fce1c8
 projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
-projects[metatag][version] = 1.16
+projects[metatag][version] = 1.17
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
