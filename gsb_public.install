@@ -6376,3 +6376,12 @@ function gsb_public_update_7353() {
   // Remove field marked for deletion.
   field_purge_batch(10);
 }
+
+/**
+ * Enable tinypng_image_action module.
+ */
+function gsb_public_update_7354() {
+  if (!module_exists('tinypng_image_action')) {
+    module_enable(array('tinypng_image_action'));
+  }
+}
