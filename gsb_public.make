@@ -413,7 +413,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.22
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.23
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
@@ -434,7 +434,7 @@ projects[gsb_feature_all_research_display][subdir] = custom/features
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
 projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_ct.git
-projects[gsb_feature_alumni_ct][download][tag] = 5.07
+projects[gsb_feature_alumni_ct][download][branch] = release-5.08
 projects[gsb_feature_alumni_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item CT
@@ -580,7 +580,7 @@ projects[gsb_feature_ee_megamenu][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 5.13
+projects[gsb_feature_event_ct][download][branch] = release-5.14
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
@@ -614,7 +614,7 @@ projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsb-public/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][tag] = 5.15
+projects[gsb_feature_faculty_ct][download][branch] = release-5.16
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
@@ -836,7 +836,7 @@ projects[gsb_feature_people_fpp][subdir] = custom/features
 projects[gsb_feature_phd_candidate_ct][type] = module
 projects[gsb_feature_phd_candidate_ct][download][type] = git
 projects[gsb_feature_phd_candidate_ct][download][url] = git@github.com:gsb-public/gsb_feature_phd_candidate_ct.git
-projects[gsb_feature_phd_candidate_ct][download][tag] = 5.08
+projects[gsb_feature_phd_candidate_ct][download][branch] = release-5.09
 projects[gsb_feature_phd_candidate_ct][subdir] = custom/features
 
 ; GSB PhD Candidate Display
