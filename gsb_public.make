@@ -219,7 +219,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_misc_fixes][type] = module
 projects[gsb_misc_fixes][download][type] = git
 projects[gsb_misc_fixes][download][url] = git@github.com:gsb-public/gsb_misc_fixes.git
-projects[gsb_misc_fixes][download][tag] = 5.06
+projects[gsb_misc_fixes][download][branch] = release-5.07
 projects[gsb_misc_fixes][subdir] = custom
 
 ; GSB Migrate
@@ -864,7 +864,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.15
+projects[gsb_feature_program_ct][download][branch] = release-6.16
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -892,7 +892,7 @@ projects[gsb_feature_program_finder_display][subdir] = custom/features
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.11
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.12
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
