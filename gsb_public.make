@@ -747,7 +747,7 @@ projects[gsb_feature_quotes_fpp][subdir] = custom/features
 projects[gsb_feature_house_ads_fpp][type] = module
 projects[gsb_feature_house_ads_fpp][download][type] = git
 projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsb-public/gsb_feature_house_ads_fpp.git
-projects[gsb_feature_house_ads_fpp][download][tag] = 5.03
+projects[gsb_feature_house_ads_fpp][download][branch] = release-5.04
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 
 ; GSB Feature Media Item CT
