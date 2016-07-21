@@ -559,7 +559,7 @@ projects[gsb_feature_course_display][subdir] = custom/features
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
 projects[gsb_feature_cta][download][url] = git@github.com:gsb-public/gsb_feature_cta.git
-projects[gsb_feature_cta][download][tag] = 5.03
+projects[gsb_feature_cta][download][branch] = release-5.04
 projects[gsb_feature_cta][subdir] = custom/features
 
 ; GSB Feature Diptych FPP
@@ -705,7 +705,7 @@ projects[gsb_feature_image_fpp][subdir] = custom/features
 projects[gsb_feature_image_cta_fpp][type] = module
 projects[gsb_feature_image_cta_fpp][download][type] = git
 projects[gsb_feature_image_cta_fpp][download][url] = git@github.com:gsb-public/gsb_feature_image_cta_fpp.git
-projects[gsb_feature_image_cta_fpp][download][tag] = 5.04
+projects[gsb_feature_image_cta_fpp][download][branch] = release-5.05
 projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 
 ; GSB Features Image Styles
