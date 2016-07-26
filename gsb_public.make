@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][tag] = 6.12
+projects[isotopify][download][branch] = release-6.13
 projects[isotopify][subdir] = custom
 
 ; Resources
@@ -614,7 +614,7 @@ projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsb-public/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][tag] = 5.16
+projects[gsb_feature_faculty_ct][download][branch] = release-5.17
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
@@ -864,7 +864,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.16
+projects[gsb_feature_program_ct][download][branch] = release-6.17
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
