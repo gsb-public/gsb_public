@@ -712,7 +712,7 @@ projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsb-public/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][tag] = 4.02
+projects[gsb_feature_image_styles][download][branch] = release-4.03
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Feature Insight Display
@@ -892,7 +892,7 @@ projects[gsb_feature_program_finder_display][subdir] = custom/features
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.12
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.13
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
