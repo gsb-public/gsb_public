@@ -1569,6 +1569,7 @@ projects[telephone][subdir] = contrib
 
 projects[tinypng_image_action][version] = 1.1
 projects[tinypng_image_action][subdir] = contrib
+projects[tinypng_image_action][patch][2775719] = https://www.drupal.org/files/issues/tinypng_image_action-2775719-1.patch
 
 ; Used for twitter feed.
 libraries[tmhOAuth][download][type] = git
