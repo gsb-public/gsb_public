@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][branch] = release-6.13
+projects[isotopify][download][tag] = 6.13
 projects[isotopify][subdir] = custom
 
 ; Resources
