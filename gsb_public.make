@@ -1038,7 +1038,7 @@ projects[gsb_feature_videos_fpp][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsb-public/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 6.04
+projects[gsb_feature_webform_ct][download][branch] = release-6.05
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -1124,7 +1124,7 @@ projects[addressfield][subdir] = contrib
 projects[admin_menu][version] = 3.0-rc5
 projects[admin_menu][subdir] = contrib
 
-projects[admin_views][version] = 1.5
+projects[admin_views][version] = 1.6
 projects[admin_views][subdir] = contrib
 
 projects[auto_entitylabel][version] = 1.3
@@ -1179,13 +1179,12 @@ projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_field_patch-2476195-2.patch
 
-projects[ctools][version] = 1.9
+projects[ctools][version] = 1.10
 projects[ctools][subdir] = contrib
 projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-ajax-1910608-29.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-30.patch
 projects[ctools][patch][1907256] = https://drupal.org/files/issues/ctools-modal-1907256-5.patch
 projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/ctools-view-mode-pane-settings-2032293-22.patch
-projects[ctools][patch][1775612] = https://www.drupal.org/files/plugin-load-use-include-1775612-3.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
@@ -1387,7 +1386,7 @@ projects[maxlength][subdir] = contrib
 projects[markup][version] = 1.2
 projects[markup][subdir] = contrib
 
-projects[markdown][version] = 1.2
+projects[markdown][version] = 1.4
 projects[markdown][subdir] = contrib
 
 projects[media][version] = 2.0-alpha3
@@ -1466,10 +1465,10 @@ projects[node_page_disable][subdir] = contrib
 projects[options_element][version] = 1.12
 projects[options_element][subdir] = contrib
 
-projects[panelizer][version] = 3.1
+projects[panelizer][version] = 3.4
 projects[panelizer][subdir] = contrib
 
-projects[panels][version] = 3.5
+projects[panels][version] = 3.7
 projects[panels][subdir] = contrib
 
 projects[panels_breadcrumbs][version] = 2.2
@@ -1588,7 +1587,7 @@ projects[typogrify][subdir] = contrib
 projects[tzfield][version] = 1.1
 projects[tzfield][subdir] = contrib
 
-projects[uuid][version] = 1.0-beta1
+projects[uuid][version] = 1.0-beta2
 projects[uuid][subdir] = contrib
 
 projects[video_embed_field][version] = 2.0-beta11
