@@ -1184,7 +1184,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-keyword-substitution-1910608-36.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-35.patch
 projects[ctools][patch][1907256] = https://www.drupal.org/files/issues/ctools-modal-1907256-8.patch
-projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/2032293-32-against-1910608-36.patch
+projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/2032293-32-against-1910608-36-2.patch
 
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
