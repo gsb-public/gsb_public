@@ -378,7 +378,7 @@ projects[zurb_responsive_tables][subdir] = custom
 projects[gsb_feature_academic_calendar_ct][type] = module
 projects[gsb_feature_academic_calendar_ct][download][type] = git
 projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsb-public/gsb_feature_academic_calendar_ct.git
-projects[gsb_feature_academic_calendar_ct][download][tag] = 5.06
+projects[gsb_feature_academic_calendar_ct][download][branch] = release-5.07
 projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 
 ; GSB Features Academic Calendar Display
@@ -580,13 +580,13 @@ projects[gsb_feature_ee_megamenu][subdir] = custom/features
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 5.14
+projects[gsb_feature_event_ct][download][branch] = release-5.15
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 6.03
+projects[gsb_feature_event_display][download][tag] = release-6.04
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Event Shared
