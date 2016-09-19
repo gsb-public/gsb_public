@@ -483,7 +483,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.36
+projects[gsb_feature_base_fields][download][branch] = release-5.37
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -949,6 +949,13 @@ projects[gsb_feature_rss_feeds][download][type] = git
 projects[gsb_feature_rss_feeds][download][url] = git@github.com:gsb-public/gsb_feature_rss_feeds.git
 projects[gsb_feature_rss_feeds][download][tag] = 5.0
 projects[gsb_feature_rss_feeds][subdir] = custom/features
+
+; GSB Features Seed Coach CT
+projects[gsb_feature_seed_coach_ct][type] = module
+projects[gsb_feature_seed_coach_ct][download][type] = git
+projects[gsb_feature_seed_coach_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_coach_ct.git
+projects[gsb_feature_seed_coach_ct][download][release] = release-1.00
+projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 
 ; GSB Features School Story CT
 projects[gsb_feature_school_story_ct][type] = module
