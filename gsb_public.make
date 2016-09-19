@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][tag] = 6.14
+projects[isotopify][download][build] = release-6.15
 projects[isotopify][subdir] = custom
 
 ; Resources
@@ -954,7 +954,7 @@ projects[gsb_feature_rss_feeds][subdir] = custom/features
 projects[gsb_feature_seed_coach_ct][type] = module
 projects[gsb_feature_seed_coach_ct][download][type] = git
 projects[gsb_feature_seed_coach_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_coach_ct.git
-projects[gsb_feature_seed_coach_ct][download][release] = release-1.00
+projects[gsb_feature_seed_coach_ct][download][build] = release-1.00
 projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 
 ; GSB Features School Story CT
