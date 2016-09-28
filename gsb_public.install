@@ -6419,3 +6419,30 @@ function gsb_public_update_7356() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Delete field instance field_link_google_scholar from Faculty CT
+ */
+function gsb_public_update_7357() {
+
+  $field_names = array(
+    'field_region_of_interest',
+  );
+
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'announcement');
+    field_delete_instance($instance);
+    $instance = field_info_instance('node', $field_name, 'book');
+    field_delete_instance($instance);
+    $instance = field_info_instance('node', $field_name, 'publication');
+    field_delete_instance($instance);
+    $instance = field_info_instance('node', $field_name, 'idea-story');
+    field_delete_instance($instance);
+    $instance = field_info_instance('node', $field_name, 'offsite-idea-story');
+    field_delete_instance($instance);
+    $instance = field_info_instance('node', $field_name, 'school-story');
+    field_delete_instance($instance);
+  }
+
+  field_purge_batch(10);
+}
