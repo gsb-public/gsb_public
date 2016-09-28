@@ -6385,3 +6385,20 @@ function gsb_public_update_7354() {
     module_enable(array('tinypng_image_action'));
   }
 }
+
+/**
+ * Delete field instance field_image_key_image from Program CT
+ */
+function gsb_public_update_7355() {
+
+  $field_names = array(
+    'field_image_key_image',
+  );
+
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+
+  field_purge_batch(10);
+}
