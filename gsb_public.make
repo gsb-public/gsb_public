@@ -476,7 +476,7 @@ projects[gsb_feature_alumni_reunion_session_ct][subdir] = custom/features
 projects[gsb_feature_announcement_ct][type] = module
 projects[gsb_feature_announcement_ct][download][type] = git
 projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public/gsb_feature_announcement_ct.git
-projects[gsb_feature_announcement_ct][download][tag] = 5.11
+projects[gsb_feature_announcement_ct][download][branch] = release-5.12
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
 ; GSB Feature base fields
@@ -490,7 +490,7 @@ projects[gsb_feature_base_fields][subdir] = custom/features
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsb-public/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 5.15
+projects[gsb_feature_book_ct][download][branch] = release-5.16
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
@@ -684,7 +684,7 @@ projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 projects[gsb_feature_idea_story_ct][type] = module
 projects[gsb_feature_idea_story_ct][download][type] = git
 projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_idea_story_ct.git
-projects[gsb_feature_idea_story_ct][download][tag] = 5.20
+projects[gsb_feature_idea_story_ct][download][branch] = release-5.21
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Idea Story Display
@@ -803,7 +803,7 @@ projects[gsb_feature_news_display][subdir] = custom/features
 projects[gsb_feature_offsite_idea_story_ct][type] = module
 projects[gsb_feature_offsite_idea_story_ct][download][type] = git
 projects[gsb_feature_offsite_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_idea_story_ct.git
-projects[gsb_feature_offsite_idea_story_ct][download][tag] = 5.08
+projects[gsb_feature_offsite_idea_story_ct][download][branch] = release-5.09
 projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Offsite School Story CT
@@ -920,7 +920,7 @@ projects[gsb_feature_program_panelized_page_ct][subdir] = custom/features
 projects[gsb_feature_publication_ct][type] = module
 projects[gsb_feature_publication_ct][download][type] = git
 projects[gsb_feature_publication_ct][download][url] = git@github.com:gsb-public/gsb_feature_publication_ct.git
-projects[gsb_feature_publication_ct][download][tag] = 5.14
+projects[gsb_feature_publication_ct][download][branch] = release-5.15
 projects[gsb_feature_publication_ct][subdir] = custom/features
 
 projects[gsb_feature_publication_display][type] = module
@@ -968,7 +968,7 @@ projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
 projects[gsb_feature_school_story_ct][type] = module
 projects[gsb_feature_school_story_ct][download][type] = git
 projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_school_story_ct.git
-projects[gsb_feature_school_story_ct][download][tag] = 5.12
+projects[gsb_feature_school_story_ct][download][branch] = release_5.12
 projects[gsb_feature_school_story_ct][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
