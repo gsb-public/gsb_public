@@ -6423,7 +6423,7 @@ function gsb_public_update_7356() {
 /**
  * Delete field instance field_region_of_interest from several CTs
  */
-function field_region_of_interest() {
+function gsb_public_update_7357() {
 
   $field_names = array(
     'field_region_of_interest',
