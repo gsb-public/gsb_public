@@ -399,7 +399,7 @@ projects[gsb_feature_accordion][subdir] = custom/features
 projects[gsb_feature_act_ct][type] = module
 projects[gsb_feature_act_ct][download][type] = git
 projects[gsb_feature_act_ct][download][url] = git@github.com:gsb-public/gsb_feature_act_ct.git
-projects[gsb_feature_act_ct][download][tag] = 5.12
+projects[gsb_feature_act_ct][download][branch] = release-5.13
 projects[gsb_feature_act_ct][subdir] = custom/features
 
 ; GSB Features ACT Display
@@ -483,7 +483,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.37
+projects[gsb_feature_base_fields][download][branch] = release-5.38
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -1010,7 +1010,7 @@ projects[gsb_feature_staff_ct][subdir] = custom/features
 projects[gsb_feature_taxonomy][type] = module
 projects[gsb_feature_taxonomy][download][type] = git
 projects[gsb_feature_taxonomy][download][url] = git@github.com:gsb-public/gsb_feature_taxonomy.git
-projects[gsb_feature_taxonomy][download][tag] = 5.06
+projects[gsb_feature_taxonomy][download][branch] = release-5.07
 projects[gsb_feature_taxonomy][subdir] = custom/features
 
 ; GSB Feature Toolbar
