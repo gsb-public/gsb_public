@@ -6436,11 +6436,11 @@ function gsb_public_update_7357() {
     field_delete_instance($instance);
     $instance = field_info_instance('node', $field_name, 'publication');
     field_delete_instance($instance);
-    $instance = field_info_instance('node', $field_name, 'idea-story');
+    $instance = field_info_instance('node', $field_name, 'idea_story');
     field_delete_instance($instance);
-    $instance = field_info_instance('node', $field_name, 'offsite-idea-story');
+    $instance = field_info_instance('node', $field_name, 'offsite_idea_story');
     field_delete_instance($instance);
-    $instance = field_info_instance('node', $field_name, 'school-story');
+    $instance = field_info_instance('node', $field_name, 'school_story');
     field_delete_instance($instance);
   }
 
