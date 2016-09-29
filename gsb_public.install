@@ -6421,9 +6421,9 @@ function gsb_public_update_7356() {
 }
 
 /**
- * Delete field instance field_link_google_scholar from Faculty CT
+ * Delete field instance field_region_of_interest from several CTs
  */
-function gsb_public_update_7357() {
+function field_region_of_interest() {
 
   $field_names = array(
     'field_region_of_interest',
