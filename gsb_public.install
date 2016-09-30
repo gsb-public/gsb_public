@@ -6446,3 +6446,20 @@ function gsb_public_update_7357() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Delete field instance field_pr_contact_unlimited from School Story CT
+ */
+function gsb_public_update_7358() {
+
+  $field_names = array(
+    'field_pr_contact_unlimited',
+  );
+
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'school_story');
+    field_delete_instance($instance);
+  }
+
+  field_purge_batch(10);
+}
