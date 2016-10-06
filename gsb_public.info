@@ -103,6 +103,7 @@ dependencies[] = webform_to_gdocs
 dependencies[] = workbench
 dependencies[] = workbench_access
 dependencies[] = workbench_moderation
+dependencies[] = xmlsitemap
 dependencies[] = phone
 
 ; GSB Custom Modules
