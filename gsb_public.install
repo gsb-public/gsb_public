@@ -6463,3 +6463,12 @@ function gsb_public_update_7358() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Enable xmlsitemap module.
+ */
+function gsb_public_update_7359() {
+  if (!module_exists('xmlsitemap')) {
+    module_enable(array('xmlsitemap'));
+  }
+}
