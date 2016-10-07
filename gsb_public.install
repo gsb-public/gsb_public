@@ -6492,3 +6492,19 @@ function gsb_public_update_7361() {
     module_enable(array('xmlsitemap_node'));
   }
 }
+
+/**
+ * Update administrator role to have permission to admin xmlsitemap 
+ */
+function gsb_public_update_7362() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer xmlsitemap',
+  );
+  
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
