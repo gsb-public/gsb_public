@@ -6472,3 +6472,23 @@ function gsb_public_update_7359() {
     module_enable(array('xmlsitemap'));
   }
 }
+
+/**
+ * Delete the 'department' vocabulary.
+ */
+function gsb_public_update_7360() {
+  $vocab = taxonomy_vocabulary_machine_name_load('department');
+  taxonomy_vocabulary_delete($vocab->vid);
+}
+
+/**
+ * Enable xmlsitemap sub-modules: xmlsitemap_engines, and xmlsitemap_node.
+ */
+function gsb_public_update_7361() {
+  if (!module_exists('xmlsitemap_engines')) {
+    module_enable(array('xmlsitemap_engines'));
+  }
+  if (!module_exists('xmlsitemap_node')) {
+    module_enable(array('xmlsitemap_node'));
+  }
+}
