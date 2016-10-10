@@ -6549,3 +6549,11 @@ function gsb_public_update_7363() {
     variable_set($setting_name, $settings);  
   }
 }
+
+/**
+ * Delete the region_interest taxonomy
+ */
+function gsb_public_update_7364() {
+  $vocab = taxonomy_vocabulary_machine_name_load('region_interest');
+  taxonomy_vocabulary_delete($vocab->vid);
+}
