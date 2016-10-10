@@ -6508,3 +6508,44 @@ function gsb_public_update_7362() {
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
+
+/**
+ * Update to add content type specific settings for xmlsitemap 
+ */
+function gsb_public_update_7363() {
+
+  $settings = array(
+    'status' => '1',
+    'priority' => '0.5'
+  );
+
+  $names = array(
+    'act',
+    'admission_event',
+    'alumni',
+    'alumni_reunion_agenda_item',
+    'alumni_reunion_group_page',
+    'announcement',
+    'book',
+    'case',
+    'event',
+    'faculty',
+    'idea_story',
+    'publication',
+    'msx_fellows',
+    'page',
+    'phd_candidate',
+    'program',
+    'program_panelized_page',
+    'school_story',
+    'staff',
+    'webform',
+    'week_in_the_life',
+    'working_paper'
+  );
+
+  foreach ($names as $name) {
+    $setting_name = 'xmlsitemap_settings_node_' . $name;
+    variable_set($setting_name, $settings);  
+  }
+}
