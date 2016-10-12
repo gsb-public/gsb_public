@@ -1052,7 +1052,7 @@ projects[gsb_feature_videos_fpp][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsb-public/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 6.05
+projects[gsb_feature_webform_ct][download][branch] = release-6.06
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -1255,10 +1255,10 @@ projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/em
 projects[encrypt][version] = 2.3
 projects[encrypt][subdir] = contrib
 
-projects[entity][version] = 1.7
+projects[entity][version] = 1.8
 projects[entity][subdir] = contrib
 
-projects[entityreference][version] = 1.1
+projects[entityreference][version] = 1.2
 projects[entityreference][subdir] = contrib
 
 projects[entityreference_autocomplete][version] = 1.11
@@ -1323,7 +1323,7 @@ projects[filefield_paths][download][revision] = 8b39e73
 projects[filefield_paths][patch][1924686] = https://www.drupal.org/files/issues/filefield_paths_patch-9254679-1.patch
 projects[filefield_paths][patch][2103151] = https://www.drupal.org/files/issues/deprecated_e-2103151-32.patch
 
-projects[file_entity][version] = 2.0-beta1
+projects[file_entity][version] = 2.0-beta3
 projects[file_entity][subdir] = contrib
 
 projects[google_analytics][version] = 2.1
