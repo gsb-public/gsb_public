@@ -261,7 +261,7 @@ projects[gsb_public_brochure_list][subdir] = custom
 projects[gsb_public_statistics][type] = module
 projects[gsb_public_statistics][download][type] = git
 projects[gsb_public_statistics][download][url] = git@github.com:gsb-public/gsb_public_statistics.git
-projects[gsb_public_statistics][download][tag] = 6.02
+projects[gsb_public_statistics][download][branch] = release-6.03
 projects[gsb_public_statistics][subdir] = custom
 
 ; GSB Resources
