@@ -240,7 +240,7 @@ projects[gsb_node_modal][subdir] = custom
 projects[gsb_panels_ipe_overrides][type] = module
 projects[gsb_panels_ipe_overrides][download][type] = git
 projects[gsb_panels_ipe_overrides][download][url] = git@github.com:gsb-public/gsb_panels_ipe_overrides.git
-projects[gsb_panels_ipe_overrides][download][branch] = release-1.01
+projects[gsb_panels_ipe_overrides][download][tag] = 1.01
 projects[gsb_panels_ipe_overrides][subdir] = custom
 
 ; GSB Panels Pages
