@@ -1300,11 +1300,9 @@ projects[ffc][subdir] = contrib
 projects[fieldable_panels_panes][version] = 1.11
 projects[fieldable_panels_panes][subdir] = contrib
 
-projects[field_collection][version] = 1.0-beta11
+projects[field_collection][version] = 1.0-beta12
 projects[field_collection][subdir] = contrib
-projects[field_collection][patch][1289062] = https://www.drupal.org/files/issues/required_fields_in-1289062-54.patch
-projects[field_collection][patch][1822844] = https://www.drupal.org/files/notice-1822844-16.patch
-projects[field_collection][patch][2385985] = https://www.drupal.org/files/issues/field_collection-2385985-25.patch
+projects[field_collection][patch][1822844] = https://www.drupal.org/files/issues/notice_undefined-1822844-39.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
