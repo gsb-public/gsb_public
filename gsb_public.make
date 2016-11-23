@@ -1193,9 +1193,8 @@ projects[concat_field][download][branch] = 7.x-1.x
 projects[concat_field][patch][2146169] = https://drupal.org/files/issues/concat_field-taxonomy_term_concatenate_exception-2146169-3.patch
 projects[concat_field][patch][2476195] = https://drupal.org/files/issues/concat_field_patch-2476195-2.patch
 
-projects[ctools][version] = 1.10
+projects[ctools][version] = 1.12
 projects[ctools][subdir] = contrib
-projects[ctools][patch][1910608] = https://www.drupal.org/files/issues/views_content-keyword-substitution-1910608-36.patch
 projects[ctools][patch][1901106] = https://www.drupal.org/files/issues/1901106-ctools-views_content-override-ajax-35.patch
 projects[ctools][patch][1907256] = https://www.drupal.org/files/issues/ctools-modal-1907256-8.patch
 projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/2032293-32-against-1910608-36-2.patch
@@ -1241,7 +1240,7 @@ projects[ds][subdir] = contrib
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.githubusercontent.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
 
-projects[elysia_cron][version] = 2.1
+projects[elysia_cron][version] = 2.3
 projects[elysia_cron][subdir] = contrib
 
 projects[email][version] = 1.3
@@ -1298,7 +1297,7 @@ projects[features][subdir] = contrib
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
-projects[fieldable_panels_panes][version] = 1.10
+projects[fieldable_panels_panes][version] = 1.11
 projects[fieldable_panels_panes][subdir] = contrib
 
 projects[field_collection][version] = 1.0-beta11
@@ -1482,7 +1481,7 @@ projects[options_element][subdir] = contrib
 projects[panelizer][version] = 3.4
 projects[panelizer][subdir] = contrib
 
-projects[panels][version] = 3.7
+projects[panels][version] = 3.8
 projects[panels][subdir] = contrib
 
 projects[panels_breadcrumbs][version] = 2.2
