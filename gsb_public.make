@@ -1297,7 +1297,7 @@ projects[features][subdir] = contrib
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
-projects[fieldable_panels_panes][version] = 1.11
+projects[fieldable_panels_panes][version] = 1.10
 projects[fieldable_panels_panes][subdir] = contrib
 
 projects[field_collection][version] = 1.0-beta12
