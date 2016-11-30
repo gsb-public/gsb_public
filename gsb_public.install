@@ -6557,3 +6557,27 @@ function gsb_public_update_7364() {
   $vocab = taxonomy_vocabulary_machine_name_load('region_interest');
   taxonomy_vocabulary_delete($vocab->vid);
 }
+
+/**
+ * Update MSx Fellow content type related pages new path and menu links.
+ */
+function gsb_public_update_7365() {
+  // Change MSx Fellow link in navigation.
+  $link = menu_link_load(11306);
+  $link['link_path'] = 'programs/msx/life/fellows';
+  $link['router_path'] = 'programs/msx/life/fellows';
+  menu_link_save($link);
+
+  $old_path = 'programs/msx/academic-experience/fellows/';
+  $new_path = 'programs/msx/life/fellows/';
+  $match = '%' . $old_path . '%';
+  $select = db_select('url_alias');
+  $select->condition('alias', $match, 'LIKE');
+  $results = $select->fields('url_alias')->execute();
+  foreach ($results as $path) {
+    // Replace old path with new path.
+    $path->alias = str_replace($old_path, $new_path, $path->alias);
+    $path = (array) $path;
+    path_save($path);
+  }
+}
