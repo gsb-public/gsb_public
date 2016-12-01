@@ -6581,3 +6581,13 @@ function gsb_public_update_7365() {
     path_save($path);
   }
 }
+
+/**
+ * Update to change path for MSx Listing page
+ */
+function gsb_public_update_7366() {
+  db_update('page_manager_pages')
+    ->fields(array('path' => 'programs/msx/life/fellows'))
+    ->condition('name', 'msx_listing')
+    ->execute();
+}
