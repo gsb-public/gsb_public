@@ -1370,6 +1370,9 @@ libraries[jquery_multicheckbox][destination] = "libraries"
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
+projects[kraken][version] = 1.0-alpha2
+projects[kraken][subdir] = contrib
+
 libraries[kraken-php][download][type] = "git"
 libraries[kraken-php][download][url] = "https://github.com/kraken-io/kraken-php.git"
 libraries[kraken-php][directory_name] = "kraken-php"
