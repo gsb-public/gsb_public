@@ -6591,3 +6591,20 @@ function gsb_public_update_7366() {
     ->condition('name', 'msx_listing')
     ->execute();
 }
+
+/**
+ * Update metatag config settings of page content type
+ */
+function gsb_public_update_7367() {
+  $config = array(
+    'cid' => '36',
+    'instance' => 'node:page',
+    'config' => array(
+      'title' => array(
+        'value' => '[node:title] | [site:name]'
+      )
+    )
+  );
+  $config = (object) $config;
+  metatag_config_save($config);
+}
