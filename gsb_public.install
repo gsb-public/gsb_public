@@ -6608,3 +6608,12 @@ function gsb_public_update_7367() {
   $config = (object) $config;
   metatag_config_save($config);
 }
+
+/**
+ * Enable kraken module
+ */
+function gsb_public_update_7368() {
+  if (!module_exists('kraken')) {
+    module_enable(array('kraken'));
+  }
+}
