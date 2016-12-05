@@ -6596,15 +6596,24 @@ function gsb_public_update_7366() {
  * Update metatag config settings of page content type
  */
 function gsb_public_update_7367() {
-  $config = array(
-    'cid' => '36',
-    'instance' => 'node:page',
-    'config' => array(
-      'title' => array(
-        'value' => '[node:title] | [site:name]'
+  //fetching cid of page content type.
+  $cid = db_select('metatag_config', 'mc')
+    ->fields('mc', array('cid'))
+    ->condition('instance', 'node:page', '=')
+    ->execute()
+    ->fetchField();
+  //updating page content type config value
+  if($cid != "") {
+    $config = array(
+      'cid' => $cid,
+      'instance' => 'node:page',
+      'config' => array(
+        'title' => array(
+          'value' => '[node:title] | [site:name]'
+        )
       )
-    )
-  );
-  $config = (object) $config;
-  metatag_config_save($config);
+    );
+    $config = (object) $config;
+    metatag_config_save($config);
+  }
 }
