@@ -6643,3 +6643,24 @@ function gsb_public_update_7369() {
     metatag_config_save($config);
   }
 }
+
+/**
+ * Delete the weather widget from closer look page
+ */
+function gsb_public_update_7370() {
+  $display = panels_load_display(110971);
+  unset($display->panels['mainbottom'][1]);
+  panels_save_display($display);
+}
+
+/**
+ * Delete the ranking content type and ranking content list
+ */
+function gsb_public_update_7371() {
+  // Disable ranking display module
+  module_disable(array('gsb_feature_ranking_display'));
+  drupal_uninstall_modules(array('gsb_feature_ranking_display'));
+
+  // Disable ranking ct module
+  module_disable(array('gsb_feature_ranking_ct'));
+  drupal_uninstall_modules(array('gsb_feature_ranking_ct'));
