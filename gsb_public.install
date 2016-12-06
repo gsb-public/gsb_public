@@ -6664,4 +6664,15 @@ function gsb_public_update_7371() {
   // Disable ranking ct module
   module_disable(array('gsb_feature_ranking_ct'));
   drupal_uninstall_modules(array('gsb_feature_ranking_ct'));
-}  
+
+  // Delete the ranking content type
+  $type = 'ranking';
+  if (node_type_load($type)) {
+    node_type_delete($type);
+    variable_del('node_preview_' . $type);
+    //drupal_set_message(t('%type content type has been deleted.', array('%type' => $type)));
+  }
+
+  node_types_rebuild();
+  menu_rebuild();
+}
