@@ -1170,6 +1170,11 @@ projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
+projects[cdn][version] = 2.9
+projects[cdn][subdir] = contrib
+projects[cdn][download][type] = git
+projects[cdn][download][branch] = 7.x-2.x
+
 projects[checkall][version] = 1.0
 projects[checkall][subdir] = contrib
 projects[checkall][download][type] = git
