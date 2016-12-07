@@ -1410,7 +1410,7 @@ projects[maxlength][subdir] = contrib
 projects[markup][version] = 1.2
 projects[markup][subdir] = contrib
 
-projects[markdown][version] = 1.4
+projects[markdown][version] = 1.5
 projects[markdown][subdir] = contrib
 
 projects[media][version] = 2.0-alpha3
@@ -1453,7 +1453,7 @@ projects[menu_token][subdir] = contrib
 projects[menu_trail_by_path][version] = 3.2
 projects[menu_trail_by_path][subdir] = contrib
 
-projects[metatag][version] = 1.17
+projects[metatag][version] = 1.18
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
@@ -1630,7 +1630,7 @@ projects[views_bulk_operations][subdir] = contrib
 projects[views_field_view][version] = 1.2
 projects[views_field_view][subdir] = contrib
 
-projects[views_flipped_table][version] = 1.x-dev
+projects[views_flipped_table][version] = 1.1
 projects[views_flipped_table][subdir] = contrib
 
 ; Load more functionality for views
