@@ -1240,7 +1240,7 @@ projects[ds][subdir] = contrib
 libraries[easyResponsiveTabs][download][type] = get
 libraries[easyResponsiveTabs][download][url] = https://raw.githubusercontent.com/samsono/Easy-Responsive-Tabs-to-Accordion/c52b1b9cfbdc63577d4eb1f353e35351ad6e2175/js/easyResponsiveTabs.js
 
-projects[elysia_cron][version] = 2.3
+projects[elysia_cron][version] = 2.4
 projects[elysia_cron][subdir] = contrib
 
 projects[email][version] = 1.3
@@ -1388,7 +1388,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 3.6
+projects[mailchimp][version] = 4.7
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
@@ -1445,11 +1445,8 @@ projects[menu_position][subdir] = contrib
 projects[menu_token][version] = 1.0-beta7
 projects[menu_token][subdir] = contrib
 
-projects[menu_trail_by_path][version] = 2.x-dev
+projects[menu_trail_by_path][version] = 3.2
 projects[menu_trail_by_path][subdir] = contrib
-projects[menu_trail_by_path][download][type] = git
-projects[menu_trail_by_path][download][revision] = 5fce1c8
-projects[menu_trail_by_path][download][branch] = 7.x-2.x
 
 projects[metatag][version] = 1.17
 projects[metatag][subdir] = contrib
