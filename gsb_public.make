@@ -1669,9 +1669,8 @@ projects[workbench][download][branch] = 7.x-1.x
 projects[workbench_access][version] = 1.4
 projects[workbench_access][subdir] = contrib
 
-projects[workbench_moderation][version] = 1.4
+projects[workbench_moderation][version] = 3.0
 projects[workbench_moderation][subdir] = contrib
-projects[workbench_moderation][patch][1408838] = https://www.drupal.org/files/issues/workbench_moderation-optimize_node_revision_history-1408838-67.patch
 
 projects[xmlsitemap][version] = 2.3
 projects[xmlsitemap][subdir] = contrib
