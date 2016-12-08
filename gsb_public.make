@@ -1239,6 +1239,9 @@ projects[devel_form_debug][subdir] = contrib
 projects[diff][version] = 3.2
 projects[diff][subdir] = contrib
 
+projects[drafty][version] = 1.0-beta3
+projects[drafty][subdir] = contrib
+
 projects[ds][version] = 2.14
 projects[ds][subdir] = contrib
 
