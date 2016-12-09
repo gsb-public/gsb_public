@@ -6681,3 +6681,15 @@ function gsb_public_update_7372() {
   node_types_rebuild();
   menu_rebuild();
 }
+
+/**
+ * Enable captcha and image_captcha_refresh modules
+ */
+function gsb_public_update_7373() {
+  if (!module_exists('captcha')) {
+    module_enable(array('captcha'));
+  }
+  if (!module_exists('image_captcha_refresh')) {
+    module_enable(array('image_captcha_refresh'));
+  }
+}
