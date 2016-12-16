@@ -1112,7 +1112,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.25
+projects[gsb_theme][download][branch] = release-6.26
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
