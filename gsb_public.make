@@ -72,7 +72,7 @@ projects[gsb_auto_upload_file][subdir] = custom
 projects[gsb_az_filter][type] = module
 projects[gsb_az_filter][download][type] = git
 projects[gsb_az_filter][download][url] = git@github.com:gsb-public/gsb_az_filter.git
-projects[gsb_az_filter][download][tag] = 3.02
+projects[gsb_az_filter][download][branch] = release-3.03
 projects[gsb_az_filter][subdir] = custom
 
 ; GSB Agenda
@@ -121,7 +121,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.20
+projects[gsb_public_custom_blocks][download][branch] = release-6.21
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -254,7 +254,7 @@ projects[gsb_panels_pages][subdir] = custom
 projects[gsb_public_brochure_list][type] = module
 projects[gsb_public_brochure_list][download][type] = git
 projects[gsb_public_brochure_list][download][url] = git@github.com:gsb-public/gsb_public_brochure_list.git
-projects[gsb_public_brochure_list][download][tag] = 1.04
+projects[gsb_public_brochure_list][download][branch] = release-1.05
 projects[gsb_public_brochure_list][subdir] = custom
 
 ; GSB Public Statistics
@@ -462,7 +462,7 @@ projects[gsb_feature_alumni_reunion_group_page_ct][subdir] = custom/features
 projects[gsb_feature_alumni_reunion_group_page_display][type] = module
 projects[gsb_feature_alumni_reunion_group_page_display][download][type] = git
 projects[gsb_feature_alumni_reunion_group_page_display][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_group_page_display.git
-projects[gsb_feature_alumni_reunion_group_page_display][download][tag] = 5.03
+projects[gsb_feature_alumni_reunion_group_page_display][download][branch] = release-5.04
 projects[gsb_feature_alumni_reunion_group_page_display][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Session CT
