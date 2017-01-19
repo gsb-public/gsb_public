@@ -6693,3 +6693,10 @@ function gsb_public_update_7373() {
     module_enable(array('image_captcha_refresh'));
   }
 }
+
+/**
+  * Set jQuery version to 1.5 for admin pages
+  */
+ function gsb_public_update_7374() {
+   variable_set('jquery_update_jquery_admin_version', '1.5');
+ }
