@@ -6700,3 +6700,12 @@ function gsb_public_update_7373() {
  function gsb_public_update_7374() {
    variable_set('jquery_update_jquery_admin_version', '1.5');
  }
+ 
+ /**
+ * Enable recaptcha module
+ */
+function gsb_public_update_7375() {
+  if (!module_exists('recaptcha')) {
+    module_enable(array('recaptcha'));
+  }
+}
