@@ -1530,6 +1530,9 @@ projects[pm_existing_pages][subdir] = contrib
 projects[print][version] = 2.0
 projects[print][subdir] = contrib
 
+projects[recaptcha][version] = 2.2
+projects[recaptcha][subdir] = contrib
+
 projects[redirect][version] = 1.0-rc3
 projects[redirect][subdir] = contrib
 projects[redirect][download][type] = git
