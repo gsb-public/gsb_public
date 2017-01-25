@@ -72,7 +72,7 @@ projects[gsb_auto_upload_file][subdir] = custom
 projects[gsb_az_filter][type] = module
 projects[gsb_az_filter][download][type] = git
 projects[gsb_az_filter][download][url] = git@github.com:gsb-public/gsb_az_filter.git
-projects[gsb_az_filter][download][branch] = release-3.03
+projects[gsb_az_filter][download][tag] = 3.03
 projects[gsb_az_filter][subdir] = custom
 
 ; GSB Agenda
