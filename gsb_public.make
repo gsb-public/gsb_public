@@ -483,7 +483,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.38
+projects[gsb_feature_base_fields][download][branch] = release-5.39
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -892,7 +892,7 @@ projects[gsb_feature_program_finder_display][subdir] = custom/features
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.15
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.16
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
