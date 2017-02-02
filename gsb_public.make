@@ -1341,7 +1341,7 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client.git
 libraries[google-api-php-client][download][tag] = 1.1.6
 
-projects[hierarchical_select][version] = 3.0-alpha12
+projects[hierarchical_select][version] = 3.0-beta7
 projects[hierarchical_select][subdir] = contrib
 
 projects[hs_lite][version] = 1.x-dev
@@ -1678,7 +1678,7 @@ projects[workbench][download][type] = git
 projects[workbench][download][revision] = 6856e4a
 projects[workbench][download][branch] = 7.x-1.x
 
-projects[workbench_access][version] = 1.4
+projects[workbench_access][version] = 1.5
 projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 3.0
