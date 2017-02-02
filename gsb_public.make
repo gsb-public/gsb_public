@@ -1154,7 +1154,7 @@ projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.2
+projects[better_exposed_filters][version] = 3.4
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][patch][2621554] = https://www.drupal.org/files/issues/better_exposed_filters-2621554-2.patch
 
