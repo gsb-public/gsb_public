@@ -1126,7 +1126,7 @@ projects[gsb_theme_admin][download][tag] = 5.10
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 3.0
+projects[acquia_connector][version] = 3.1
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.3
@@ -1215,7 +1215,7 @@ projects[ctools_query_string_context][download][revision] = dc75839
 projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
 
-projects[custom_add_another][version] = 1.0-rc3
+projects[custom_add_another][version] = 1.0
 projects[custom_add_another][subdir] = contrib
 
 projects[date][version] = 2.9
@@ -1239,7 +1239,7 @@ projects[devel][subdir] = contrib
 projects[devel_form_debug][version] = 1.0
 projects[devel_form_debug][subdir] = contrib
 
-projects[diff][version] = 3.2
+projects[diff][version] = 3.3
 projects[diff][subdir] = contrib
 
 projects[drafty][version] = 1.0-beta3
@@ -1462,7 +1462,7 @@ projects[menu_token][subdir] = contrib
 projects[menu_trail_by_path][version] = 3.2
 projects[menu_trail_by_path][subdir] = contrib
 
-projects[metatag][version] = 1.18
+projects[metatag][version] = 1.20
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
@@ -1489,7 +1489,7 @@ projects[node_clone][subdir] = contrib
 projects[node_clone_tab][version] = 1.1
 projects[node_clone_tab][subdir] = contrib
 
-projects[node_page_disable][version] = 1.0-rc2
+projects[node_page_disable][version] = 1.0-rc3
 projects[node_page_disable][subdir] = contrib
 
 projects[options_element][version] = 1.12
@@ -1612,7 +1612,7 @@ libraries[tmhOAuth][download][tag] = 0.8.2
 projects[transliteration][version] = 3.2
 projects[transliteration][subdir] = contrib
 
-projects[token][version] = 1.6
+projects[token][version] = 1.7
 projects[token][subdir] = contrib
 
 projects[typogrify][version] = 1.0-rc10
