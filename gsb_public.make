@@ -1489,6 +1489,9 @@ projects[node_clone][subdir] = contrib
 projects[node_clone_tab][version] = 1.1
 projects[node_clone_tab][subdir] = contrib
 
+projects[node_export][version] = 3.1
+projects[node_export][subdir] = contrib
+
 projects[node_page_disable][version] = 1.0-rc3
 projects[node_page_disable][subdir] = contrib
 
