@@ -6701,11 +6701,21 @@ function gsb_public_update_7373() {
    variable_set('jquery_update_jquery_admin_version', '1.5');
  }
  
- /**
-  * Enable recaptcha module
-  */
- function gsb_public_update_7375() {
-   if (!module_exists('recaptcha')) {
-     module_enable(array('recaptcha'));
-   }
- }
+/**
+ * Enable recaptcha module
+ */
+function gsb_public_update_7375() {
+  if (!module_exists('recaptcha')) {
+    module_enable(array('recaptcha'));
+  }
+}
+ 
+/**
+ * Switch Application state keys to numbers
+ */
+function gsb_public_update_7376() {
+  db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '4' WHERE field_application_state_value = 'Closed'");
+  db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '3' WHERE field_application_state_value = 'Not yet available'");
+  db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '2' WHERE field_application_state_value = 'Open'");
+  db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '1' WHERE field_application_state_value = 'Extended'");
+}
