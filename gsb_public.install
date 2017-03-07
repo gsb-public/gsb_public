@@ -6719,3 +6719,12 @@ function gsb_public_update_7376() {
   db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '2' WHERE field_application_state_value = 'Open'");
   db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '1' WHERE field_application_state_value = 'Extended'");
 }
+
+/**
+ * Enable GSB 12twenty module
+ */
+function gsb_public_update_7377() {
+  if (!module_exists('gsb_twelve_twenty')) {
+    module_enable(array('gsb_twelve_twenty'));
+  }
+}
