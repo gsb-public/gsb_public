@@ -339,7 +339,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][branch] = release-1.00
+projects[gsb_twelve_twenty][download][tag] = 1.00
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
