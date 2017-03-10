@@ -339,7 +339,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][tag] = 1.00
+projects[gsb_twelve_twenty][download][branch] = release-1.01
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
@@ -899,7 +899,7 @@ projects[gsb_feature_program_finder_display][subdir] = custom/features
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.18
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.19
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
