@@ -871,7 +871,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.23
+projects[gsb_feature_program_ct][download][branch] = release-6.24
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -885,7 +885,7 @@ projects[gsb_feature_program_display][subdir] = custom/features
 projects[gsb_feature_featured_program_fpp][type] = module
 projects[gsb_feature_featured_program_fpp][download][type] = git
 projects[gsb_feature_featured_program_fpp][download][url] = git@github.com:gsb-public/gsb_feature_featured_program_fpp.git
-projects[gsb_feature_featured_program_fpp][download][tag] = 1.04
+projects[gsb_feature_featured_program_fpp][download][branch] = release-1.05
 projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 
 ; GSB Program Finder
