@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 6.03
+projects[alumni_cas_auth][download][branch] = release-6.04
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -30,7 +30,7 @@ projects[isotopify][subdir] = custom
 projects[resources][type] = module
 projects[resources][download][type] = git
 projects[resources][download][url] = git@github.com:gsb-public/resources.git
-projects[resources][download][tag] = 6.01
+projects[resources][download][branch] = release-6.02
 projects[resources][subdir] = custom
 
 ; SoundCloud API
@@ -906,7 +906,7 @@ projects[gsb_feature_program_instance_ct][subdir] = custom/features
 projects[gsb_feature_program_instance_display][type] = module
 projects[gsb_feature_program_instance_display][download][type] = git
 projects[gsb_feature_program_instance_display][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_display.git
-projects[gsb_feature_program_instance_display][download][tag] = 6.14
+projects[gsb_feature_program_instance_display][download][branch] = release-6.15
 projects[gsb_feature_program_instance_display][subdir] = custom/features
 
 ; GSB Programs List FPP
