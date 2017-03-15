@@ -6719,3 +6719,19 @@ function gsb_public_update_7376() {
   db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '2' WHERE field_application_state_value = 'Open'");
   db_query("UPDATE {field_data_field_application_state} SET field_application_state_value = '1' WHERE field_application_state_value = 'Extended'");
 }
+
+/**
+ * Delete field_is_application_open and field_waitlist_only field instances from Program Instance CT
+ */
+function gsb_public_update_7377() {
+  $field_names = array(
+    'field_is_application_open',
+    'field_waitlist_only',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program_instance');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
