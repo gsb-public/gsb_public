@@ -871,7 +871,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.24
+projects[gsb_feature_program_ct][download][branch] = release-6.25
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -1101,7 +1101,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsb-public/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][tag] = 5.11
+projects[gsb_feature_wysiwyg][download][branch] = release-5.12
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 ; GSB Feature View Modes
@@ -1119,7 +1119,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.31
+projects[gsb_theme][download][branch] = release-6.32
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
