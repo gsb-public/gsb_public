@@ -982,7 +982,7 @@ projects[gsb_feature_school_story_ct][subdir] = custom/features
 projects[gsb_feature_simplesaml][type] = module
 projects[gsb_feature_simplesaml][download][type] = git
 projects[gsb_feature_simplesaml][download][url] = git@github.com:gsb-public/gsb_feature_simplesaml.git
-projects[gsb_feature_simplesaml][download][branch] = release-1.2
+projects[gsb_feature_simplesaml][download][tag] = 1.2
 projects[gsb_feature_simplesaml][subdir] = custom/features
 
 ; GSB Feature Social Feed
