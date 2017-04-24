@@ -6743,3 +6743,12 @@ function gsb_public_update_7378() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Enable GSB Dvent module
+ */
+function gsb_public_update_7379() {
+  if (!module_exists('gsb_dvent')) {
+    module_enable(array('gsb_dvent'));
+  }
+}
