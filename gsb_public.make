@@ -149,7 +149,7 @@ projects[gsb_entity_reference_delete_warning][subdir] = custom
 projects[gsb_dvent][type] = module
 projects[gsb_dvent][download][type] = git
 projects[gsb_dvent][download][url] = git@github.com:gsb-public/gsb_dvent.git
-projects[gsb_dvent][download][branch] = release-1.00
+projects[gsb_dvent][download][tag] = 1.00
 projects[gsb_dvent][subdir] = custom
 
 ; GSB Faculty Role
