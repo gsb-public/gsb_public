@@ -6752,3 +6752,17 @@ function gsb_public_update_7379() {
     module_enable(array('gsb_dvent'));
   }
 }
+
+/**
+ * Update the user permissions for Insights Quote FPP
+ */
+function gsb_public_update_7380() {
+
+  $alumni_13071_user = user_role_load_by_name('Alumni:13071');
+  $alumni_13071_permissions = array(
+    'administer panelizer',
+  );
+
+  // Grant permissions to 'Alumni:13071' role
+  user_role_change_permissions($alumni_13071_user->rid, $alumni_13071_permissions);
+}
