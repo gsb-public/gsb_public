@@ -6764,5 +6764,5 @@ function gsb_public_update_7380() {
   );
 
   // Grant permissions to 'Alumni:13071' role
-  user_role_change_permissions($alumni_13071_user->rid, $alumni_13071_permissions);
+  user_role_grant_permissions($alumni_13071_user->rid, $alumni_13071_permissions);
 }
