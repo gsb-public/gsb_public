@@ -1348,6 +1348,9 @@ projects[filefield_paths][patch][2103151] = https://www.drupal.org/files/issues/
 projects[file_entity][version] = 2.0-beta3
 projects[file_entity][subdir] = contrib
 
+projects[google_appliance_suggest][version] = 1.6
+projects[google_appliance_suggest][subdir] = contrib
+
 projects[google_analytics][version] = 2.1
 projects[google_analytics][subdir] = contrib
 
@@ -1613,6 +1616,9 @@ projects[strongarm][subdir] = contrib
 
 projects[submit_field][version] = 1.4
 projects[submit_field][subdir] = contrib
+
+projects[tb_megamenu][version] = 1.0-rc2
+projects[tb_megamenu][subdir] = contrib
 
 projects[telephone][version] = 1.0-alpha1
 projects[telephone][subdir] = contrib
