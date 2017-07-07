@@ -324,7 +324,7 @@ projects[gsb_submenu_alias_update][subdir] = custom
 projects[gsb_text_equivalent][type] = module
 projects[gsb_text_equivalent][download][type] = git
 projects[gsb_text_equivalent][download][url] = git@github.com:gsb-public/gsb_text_equivalent.git
-projects[gsb_text_equivalent][download][tag] = 1.03
+projects[gsb_text_equivalent][download][branch] = release-1.04
 projects[gsb_text_equivalent][subdir] = custom
 
 
@@ -497,7 +497,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.41
+projects[gsb_feature_base_fields][download][branch] = release-5.42
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
