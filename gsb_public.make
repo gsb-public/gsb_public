@@ -1479,7 +1479,7 @@ projects[menu_token][subdir] = contrib
 projects[menu_trail_by_path][version] = 3.2
 projects[menu_trail_by_path][subdir] = contrib
 
-projects[metatag][version] = 1.20
+projects[metatag][version] = 1.22
 projects[metatag][subdir] = contrib
 
 projects[mimemail][version] = 1.0-beta4
@@ -1592,7 +1592,7 @@ libraries[sharrre][download][tag] = 2.0.1
 libraries[sharrre][patch][296] = https://patch-diff.githubusercontent.com/raw/Julienh/Sharrre/pull/296.diff
 libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.1.patch
 
-projects[site_verify][version] = 1.1
+projects[site_verify][version] = 1.2
 projects[site_verify][subdir] = contrib
 
 projects[smart_trim][version] = 1.5
