@@ -6778,3 +6778,26 @@ function gsb_public_update_7381() {
     module_enable(array('tb_megamenu'));
   }
 }
+
+/**
+ * Update existing MSx fellows nodes
+ */
+function gsb_public_update_7382() {
+  $query = db_select('node', 'n');
+  $query->fields('n', array('type', 'nid'));
+  $query->condition('n.type', 'msx_fellows');
+  $results = $query->execute();
+  $nids = array();
+  foreach($results as $ppp) {
+    $nids[] = $ppp->nid;
+  }
+  $nodes = node_load_multiple($nids);
+  foreach($nodes as $node) {
+     $node->field_instance_text = array(
+      'value' => substr($node->field_year['und'][0]['value'],0,4)
+    );
+      $node->status =1;
+    node_save($node);
+  }
+   
+}
