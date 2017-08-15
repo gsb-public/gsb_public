@@ -1155,6 +1155,9 @@ projects[admin_menu][subdir] = contrib
 projects[admin_views][version] = 1.6
 projects[admin_views][subdir] = contrib
 
+projects[advagg][version] = 2.x
+projects[advagg][subdir] = contrib
+
 projects[auto_entitylabel][version] = 1.3
 projects[auto_entitylabel][subdir] = contrib
 
