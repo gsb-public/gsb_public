@@ -324,7 +324,7 @@ projects[gsb_submenu_alias_update][subdir] = custom
 projects[gsb_text_equivalent][type] = module
 projects[gsb_text_equivalent][download][type] = git
 projects[gsb_text_equivalent][download][url] = git@github.com:gsb-public/gsb_text_equivalent.git
-projects[gsb_text_equivalent][download][tag] = 1.05
+projects[gsb_text_equivalent][download][branch] = release-1.06
 projects[gsb_text_equivalent][subdir] = custom
 
 
