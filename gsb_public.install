@@ -6800,3 +6800,12 @@ function gsb_public_update_7381() {
      node_save($node);
    }
 } 
+
+/**
+ * Enable GSB Box module
+ */
+function gsb_public_update_7383() {
+  if (!module_exists('gsb_box')) {
+    module_enable(array('gsb_box'));
+  }
+}

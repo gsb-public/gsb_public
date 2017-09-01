@@ -131,6 +131,12 @@ projects[gsb_custom_breadcrumbs][download][url] = git@github.com:gsb-public/gsb_
 projects[gsb_custom_breadcrumbs][download][tag] = 1.00
 projects[gsb_custom_breadcrumbs][subdir] = custom
 
+; GSB Box
+projects[gsb_dvent][type] = module
+projects[gsb_dvent][download][type] = git
+projects[gsb_dvent][download][url] = git@github.com:gsb-public/gsb_box.git
+projects[gsb_dvent][subdir] = custom
+
 ; GSB Cvent
 projects[gsb_cvent][type] = module
 projects[gsb_cvent][download][type] = git
