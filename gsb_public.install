@@ -6859,7 +6859,7 @@ function gsb_public_update_7386() {
   $configs['node:idea_story']->config['fb:pages']['value'] = $fbpage_value;
   metatag_config_save($configs['node:idea_story']);
   
-  $configs['node:idea_story']->config['fb:pages']['value'] = $fbpage_value;
+  $configs['node:page']->config['fb:pages']['value'] = $fbpage_value;
   metatag_config_save($configs['node:page']);
 
 }
