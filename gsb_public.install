@@ -6800,3 +6800,34 @@ function gsb_public_update_7381() {
      node_save($node);
    }
 } 
+
+/**
+ * Enable facebook metatags module
+ */
+function gsb_public_update_7383() {
+  if (!module_exists('metatag_facebook')) {
+    module_enable(array('metatag_facebook'));
+  }
+} 
+
+/**
+ * Enable facebook metatags for content types
+ */
+function gsb_public_update_7384() {
+
+  $fbpage_value = '208357009185713'; 
+  $configs = ctools_export_crud_load_all('metatag_config');
+
+  $configs['node:school_story']->config['fb:pages']['value'] = $fbpage_value;
+  metatag_config_save($configs['node:school_story']);
+
+  $configs['node:announcement']->config['fb:pages']['value'] = $fbpage_value;
+  metatag_config_save($configs['node:announcement']);
+
+  $configs['node:idea_story']->config['fb:pages']['value'] = $fbpage_value;
+  metatag_config_save($configs['node:idea_story']);
+  
+  $configs['node:page']->config['fb:pages']['value'] = $fbpage_value;
+  metatag_config_save($configs['node:page']);
+  
+} 
