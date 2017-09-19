@@ -719,7 +719,7 @@ projects[gsb_feature_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_idea_story_display][type] = module
 projects[gsb_feature_idea_story_display][download][type] = git
 projects[gsb_feature_idea_story_display][download][url] = git@github.com:gsb-public/gsb_feature_idea_story_display.git
-projects[gsb_feature_idea_story_display][download][tag] = 5.03
+projects[gsb_feature_idea_story_display][download][branch] = release-5.04
 projects[gsb_feature_idea_story_display][subdir] = custom/features
 
 ; GSB Features Image Fpp
@@ -824,7 +824,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.11
+projects[gsb_feature_news_display][download][branch] = release-5.12
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
