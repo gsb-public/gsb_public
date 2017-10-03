@@ -82,13 +82,6 @@ projects[gsb_agenda][download][url] = git@github.com:gsb-public/gsb_agenda.git
 projects[gsb_agenda][download][tag] = 3.1
 projects[gsb_agenda][subdir] = custom
 
-; GSB Box
-projects[gsb_box][type] = module
-projects[gsb_box][download][type] = git
-projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-projects[gsb_box][download][branch] = release-1.00
-projects[gsb_box][subdir] = custom
-
 ; GSB Cmis Api
 projects[gsb_cmis_api][type] = module
 projects[gsb_cmis_api][download][type] = git
@@ -100,7 +93,7 @@ projects[gsb_cmis_api][subdir] = custom
 projects[gsb_cmis][type] = module
 projects[gsb_cmis][download][type] = git
 projects[gsb_cmis][download][url] = git@github.com:gsb-public/gsb_cmis.git
-projects[gsb_cmis][download][branch] = release-5.05
+projects[gsb_cmis][download][tag] = 5.04
 projects[gsb_cmis][subdir] = custom
 
 ; GSB Connecting Link
@@ -539,7 +532,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][branch] = release-6.04
+projects[gsb_feature_case_ct][download][tag] = 6.03
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
@@ -1108,7 +1101,7 @@ projects[gsb_feature_workbench][subdir] = custom/features
 projects[gsb_feature_working_paper_ct][type] = module
 projects[gsb_feature_working_paper_ct][download][type] = git
 projects[gsb_feature_working_paper_ct][download][url] = git@github.com:gsb-public/gsb_feature_working_paper_ct.git
-projects[gsb_feature_working_paper_ct][download][branch] = release-5.12
+projects[gsb_feature_working_paper_ct][download][tag] = 5.11
 projects[gsb_feature_working_paper_ct][subdir] = custom/features
 
 ; GSB Feature Working Paper Display
