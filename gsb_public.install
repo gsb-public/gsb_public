@@ -6833,18 +6833,9 @@ function gsb_public_update_7384() {
 } 
 
 /**
- * Enable GSB Box module
- */
-function gsb_public_update_7385() {
-  if (!module_exists('gsb_box')) {
-    module_enable(array('gsb_box'));
-  }
-}
-
-/**
  * Enable GSB Feature Exec-ed Program Display module
  */
-function gsb_public_update_7386() {
+function gsb_public_update_7385() {
   if (!module_exists('gsb_feature_ee_program_display')) {
     module_enable(array('gsb_feature_ee_program_display'));
   }
