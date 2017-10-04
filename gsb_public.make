@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][tag] = 6.16
+projects[isotopify][download][tag] = 6.17
 projects[isotopify][subdir] = custom
 
 ; Resources
@@ -205,7 +205,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsb-public/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][tag] = 3.02
+projects[gsb_fpp_xray][download][tag] = 3.03
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Login Destination
@@ -590,6 +590,13 @@ projects[gsb_feature_ee_megamenu][download][url] = git@github.com:gsb-public/gsb
 projects[gsb_feature_ee_megamenu][download][tag] = 1.00
 projects[gsb_feature_ee_megamenu][subdir] = custom/features
 
+; GSB Feature Exec-Ed Program Display
+projects[gsb_feature_ee_program_display][type] = module
+projects[gsb_feature_ee_program_display][download][type] = git
+projects[gsb_feature_ee_program_display][download][url] = git@github.com:gsb-public/gsb_feature_ee_program_display.git
+projects[gsb_feature_ee_program_display][download][tag] = 1.00
+projects[gsb_feature_ee_program_display][subdir] = custom/features
+
 ; GSB Feature Event
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
@@ -705,7 +712,7 @@ projects[gsb_feature_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_idea_story_display][type] = module
 projects[gsb_feature_idea_story_display][download][type] = git
 projects[gsb_feature_idea_story_display][download][url] = git@github.com:gsb-public/gsb_feature_idea_story_display.git
-projects[gsb_feature_idea_story_display][download][tag] = 5.03
+projects[gsb_feature_idea_story_display][download][tag] = 5.04
 projects[gsb_feature_idea_story_display][subdir] = custom/features
 
 ; GSB Features Image Fpp
@@ -810,7 +817,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.11
+projects[gsb_feature_news_display][download][tag] = 5.12
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
@@ -831,7 +838,7 @@ projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
 projects[gsb_feature_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_page_ct.git
-projects[gsb_feature_page_ct][download][tag] = 5.14
+projects[gsb_feature_page_ct][download][tag] = 5.15
 projects[gsb_feature_page_ct][subdir] = custom/features
 
 projects[gsb_feature_people_display][type] = module
@@ -878,7 +885,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.25
+projects[gsb_feature_program_ct][download][tag] = 6.26
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -899,7 +906,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.20
+projects[gsb_feature_program_finder_display][download][tag] = 1.21
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
@@ -1126,7 +1133,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.35
+projects[gsb_theme][download][tag] = 6.36
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
