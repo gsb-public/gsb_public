@@ -205,7 +205,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsb-public/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][branch] = release-3.03
+projects[gsb_fpp_xray][download][tag] = 3.03
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Login Destination
