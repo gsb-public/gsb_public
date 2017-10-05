@@ -6840,3 +6840,12 @@ function gsb_public_update_7385() {
     module_enable(array('gsb_feature_ee_program_display'));
   }
 }
+
+/**
+ * Change name of Offsite School Story to be Media Mention
+ */
+function gsb_public_update_7386() {
+  $type = node_type_load('offsite_school_story');
+  $type->name = "Media Mention";
+  node_type_save($type);
+}
