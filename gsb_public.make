@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][tag] = 6.17
+projects[isotopify][download][tag] = 6.18
 projects[isotopify][subdir] = custom
 
 ; Resources
@@ -346,7 +346,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][tag] = 1.03
+projects[gsb_twelve_twenty][download][tag] = 1.02
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
@@ -441,7 +441,7 @@ projects[gsb_feature_admission_event_display][subdir] = custom/features
 projects[gsb_feature_all_research_display][type] = module
 projects[gsb_feature_all_research_display][download][type] = git
 projects[gsb_feature_all_research_display][download][url] = git@github.com:gsb-public/gsb_feature_all_research_display.git
-projects[gsb_feature_all_research_display][download][tag] = 6.01
+projects[gsb_feature_all_research_display][download][tag] = 6.0
 projects[gsb_feature_all_research_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -1133,7 +1133,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.36
+projects[gsb_theme][download][tag] = 6.37
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
