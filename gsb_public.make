@@ -23,7 +23,7 @@ projects[feature_flag][subdir] = custom
 projects[isotopify][type] = module
 projects[isotopify][download][type] = git
 projects[isotopify][download][url] = git@github.com:gsb-public/isotopify.git
-projects[isotopify][download][tag] = 6.17
+projects[isotopify][download][branch] = release-6.18
 projects[isotopify][subdir] = custom
 
 ; Resources
@@ -1133,7 +1133,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.36
+projects[gsb_theme][download][branch] = release-6.37
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
