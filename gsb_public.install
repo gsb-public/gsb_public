@@ -6858,3 +6858,16 @@ function gsb_public_update_7387() {
   $type->name = "Media Mention";
   node_type_save($type);
 }
+
+/**
+ * Un publish mba-class-1964, mba-class-1965 and mba-class-1966 reunion pages
+ */
+function gsb_public_update_7388() {
+  $nids = array(381141,381146,382406);
+  $nodes = node_load_multiple($nids);
+  foreach($nodes as $node) {
+     $node->status = 0;
+     node_save($node);
+  }
+}
+
