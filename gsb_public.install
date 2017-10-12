@@ -6871,3 +6871,16 @@ function gsb_public_update_7388() {
   }
 }
 
+/**
+ * Delete field_related_faculty field instances from Media Mention (aka offsite_school_story) CT
+ */
+function gsb_public_update_7389() {
+  $field_names = array(
+    'field_related_faculty',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'offsite_school_story');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
