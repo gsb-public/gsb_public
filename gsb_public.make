@@ -1201,7 +1201,7 @@ projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
-projects[captcha][version] = 1.3
+projects[captcha][version] = 1.5
 projects[captcha][subdir] = contrib
 
 projects[cdn][version] = 2.9
@@ -1299,7 +1299,7 @@ projects[encrypt][subdir] = contrib
 projects[entity][version] = 1.8
 projects[entity][subdir] = contrib
 
-projects[entityreference][version] = 1.2
+projects[entityreference][version] = 1.5
 projects[entityreference][subdir] = contrib
 
 projects[entityreference_autocomplete][version] = 1.11
@@ -1368,7 +1368,7 @@ projects[file_entity][subdir] = contrib
 projects[google_appliance_suggest][version] = 1.6
 projects[google_appliance_suggest][subdir] = contrib
 
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.4
 projects[google_analytics][subdir] = contrib
 
 libraries[google-api-php-client][download][type] = git
