@@ -1469,9 +1469,8 @@ projects[media_youtube][download][type] = git
 projects[media_youtube][download][revision] = 5faa00c
 projects[media_youtube][download][branch] = 7.x-2.x
 
-projects[media_vimeo][version] = 1.0-beta5
+projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
-projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
 
 projects[memcache][version] = 1.5
 projects[memcache][subdir] = contrib
