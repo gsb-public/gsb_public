@@ -985,12 +985,19 @@ projects[gsb_feature_seed_coach_ct][download][url] = git@github.com:gsb-public/g
 projects[gsb_feature_seed_coach_ct][download][tag] = 1.02
 projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 
-; GSB Features Seed Coach CT
+; GSB Features Seed Research Library CT
 projects[gsb_feature_seed_research_library_ct][type] = module
 projects[gsb_feature_seed_research_library_ct][download][type] = git
 projects[gsb_feature_seed_research_library_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_ct.git
 projects[gsb_feature_seed_research_library_ct][download][branch] = release-1.02
 projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
+
+; GSB Features Seed Research Library CT
+projects[gsb_feature_seed_research_library_display][type] = module
+projects[gsb_feature_seed_research_library_display][download][type] = git
+projects[gsb_feature_seed_research_library_display][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_display.git
+projects[gsb_feature_seed_research_library_display][download][branch] = release-1.00
+projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 
 ; GSB Features School Story CT
 projects[gsb_feature_school_story_ct][type] = module
