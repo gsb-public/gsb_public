@@ -6884,3 +6884,21 @@ function gsb_public_update_7389() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Enable GSB Feature Seed Research Library CT module
+ */
+function gsb_public_update_7390() {
+  if (!module_exists('gsb_feature_seed_research_library_ct')) {
+    module_enable(array('gsb_feature_seed_research_library_ct'));
+  }
+}
+
+/**
+ * Enable GSB Feature Seed Research Library Display module
+ */
+function gsb_public_update_7391() {
+  if (!module_exists('gsb_feature_seed_research_library_display')) {
+    module_enable(array('gsb_feature_seed_research_library_display'));
+  }
+}
