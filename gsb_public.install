@@ -6902,3 +6902,17 @@ function gsb_public_update_7391() {
     module_enable(array('gsb_feature_seed_research_library_display'));
   }
 }
+
+/**
+ * Update adminstrator user permissions for
+ */
+function gsb_public_update_7392() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer panelizer node seed_research_project content',
+  );
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
