@@ -594,7 +594,7 @@ projects[gsb_feature_ee_megamenu][subdir] = custom/features
 projects[gsb_feature_ee_program_display][type] = module
 projects[gsb_feature_ee_program_display][download][type] = git
 projects[gsb_feature_ee_program_display][download][url] = git@github.com:gsb-public/gsb_feature_ee_program_display.git
-projects[gsb_feature_ee_program_display][download]tag] = 1.00
+projects[gsb_feature_ee_program_display][download][tag] = 1.00
 projects[gsb_feature_ee_program_display][subdir] = custom/features
 
 ; GSB Feature Event
