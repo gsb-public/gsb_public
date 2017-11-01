@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][branch] = release-6.06
+projects[alumni_cas_auth][download][tag] = 6.06
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -128,7 +128,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-6.27
+projects[gsb_public_custom_blocks][download][tag] = 6.27
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -353,7 +353,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][branch] = release-1.03
+projects[gsb_twelve_twenty][download][tag] = 1.03
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
@@ -504,7 +504,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-5.44
+projects[gsb_feature_base_fields][download][tag] = 5.44
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -601,7 +601,7 @@ projects[gsb_feature_ee_megamenu][subdir] = custom/features
 projects[gsb_feature_ee_program_display][type] = module
 projects[gsb_feature_ee_program_display][download][type] = git
 projects[gsb_feature_ee_program_display][download][url] = git@github.com:gsb-public/gsb_feature_ee_program_display.git
-projects[gsb_feature_ee_program_display][download]tag] = 1.00
+projects[gsb_feature_ee_program_display][download][tag] = 1.00
 projects[gsb_feature_ee_program_display][subdir] = custom/features
 
 ; GSB Feature Event
@@ -628,7 +628,7 @@ projects[gsb_feature_event_shared][subdir] = custom/features
 projects[gsb_feature_existing_node_fpp][type] = module
 projects[gsb_feature_existing_node_fpp][download][type] = git
 projects[gsb_feature_existing_node_fpp][download][url] = git@github.com:gsb-public/gsb_feature_existing_node_fpp.git
-projects[gsb_feature_existing_node_fpp][download][branch] = release-5.06
+projects[gsb_feature_existing_node_fpp][download][tag] = 5.06
 projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 
 ; GSB Feature Existing Node List FPP
@@ -824,7 +824,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][branch] = release-5.13
+projects[gsb_feature_news_display][download][tag] = 5.13
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
@@ -838,7 +838,7 @@ projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][branch] = release-5.09
+projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.09
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
@@ -989,14 +989,14 @@ projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 projects[gsb_feature_seed_research_library_ct][type] = module
 projects[gsb_feature_seed_research_library_ct][download][type] = git
 projects[gsb_feature_seed_research_library_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_ct.git
-projects[gsb_feature_seed_research_library_ct][download][branch] = release-1.02
+projects[gsb_feature_seed_research_library_ct][download][tag] = 1.02
 projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
 
 ; GSB Features Seed Research Library CT
 projects[gsb_feature_seed_research_library_display][type] = module
 projects[gsb_feature_seed_research_library_display][download][type] = git
 projects[gsb_feature_seed_research_library_display][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_display.git
-projects[gsb_feature_seed_research_library_display][download][branch] = release-1.00
+projects[gsb_feature_seed_research_library_display][download][tag] = 1.00
 projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 
 ; GSB Features School Story CT
@@ -1147,7 +1147,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-6.38
+projects[gsb_theme][download][tag] = 6.39
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
