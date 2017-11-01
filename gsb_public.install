@@ -6833,18 +6833,9 @@ function gsb_public_update_7384() {
 } 
 
 /**
- * Enable GSB Box module
- */
-function gsb_public_update_7385() {
-  if (!module_exists('gsb_box')) {
-    module_enable(array('gsb_box'));
-  }
-}
-
-/**
  * Enable GSB Feature Exec-ed Program Display module
  */
-function gsb_public_update_7386() {
+function gsb_public_update_7385() {
   if (!module_exists('gsb_feature_ee_program_display')) {
     module_enable(array('gsb_feature_ee_program_display'));
   }
@@ -6853,7 +6844,7 @@ function gsb_public_update_7386() {
 /**
  * Change name of Offsite School Story to be Media Mention
  */
-function gsb_public_update_7387() {
+function gsb_public_update_7386() {
   $type = node_type_load('offsite_school_story');
   $type->name = "Media Mention";
   node_type_save($type);
@@ -6862,7 +6853,7 @@ function gsb_public_update_7387() {
 /**
  * Un publish mba-class-1964, mba-class-1965 and mba-class-1966 reunion pages
  */
-function gsb_public_update_7388() {
+function gsb_public_update_7387() {
   $nids = array(381141,381146,382406);
   $nodes = node_load_multiple($nids);
   foreach($nodes as $node) {
@@ -6874,7 +6865,7 @@ function gsb_public_update_7388() {
 /**
  * Delete field_related_faculty field instances from Media Mention (aka offsite_school_story) CT
  */
-function gsb_public_update_7389() {
+function gsb_public_update_7388() {
   $field_names = array(
     'field_related_faculty',
   );
@@ -6888,7 +6879,7 @@ function gsb_public_update_7389() {
 /**
  * Enable GSB Feature Seed Research Library CT module
  */
-function gsb_public_update_7390() {
+function gsb_public_update_7389() {
   if (!module_exists('gsb_feature_seed_research_library_ct')) {
     module_enable(array('gsb_feature_seed_research_library_ct'));
   }
@@ -6897,7 +6888,7 @@ function gsb_public_update_7390() {
 /**
  * Enable GSB Feature Seed Research Library Display module
  */
-function gsb_public_update_7391() {
+function gsb_public_update_7390() {
   if (!module_exists('gsb_feature_seed_research_library_display')) {
     module_enable(array('gsb_feature_seed_research_library_display'));
   }
@@ -6906,7 +6897,7 @@ function gsb_public_update_7391() {
 /**
  * Update adminstrator user permissions for
  */
-function gsb_public_update_7392() {
+function gsb_public_update_7391() {
   // Get the admin user role
   $adminstrator_user = user_role_load_by_name('administrator');
   // Add the permission
@@ -6915,4 +6906,13 @@ function gsb_public_update_7392() {
   );
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
+
+/**
+ * Enable GSB Box module
+ */
+function gsb_public_update_7392() {
+  if (!module_exists('gsb_box')) {
+    module_enable(array('gsb_box'));
+  }
 }
