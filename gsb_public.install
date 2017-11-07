@@ -6831,3 +6831,79 @@ function gsb_public_update_7384() {
   metatag_config_save($configs['node:page']);
   
 } 
+
+/**
+ * Enable GSB Feature Exec-ed Program Display module
+ */
+function gsb_public_update_7385() {
+  if (!module_exists('gsb_feature_ee_program_display')) {
+    module_enable(array('gsb_feature_ee_program_display'));
+  }
+}
+
+/**
+ * Change name of Offsite School Story to be Media Mention
+ */
+function gsb_public_update_7386() {
+  $type = node_type_load('offsite_school_story');
+  $type->name = "Media Mention";
+  node_type_save($type);
+}
+
+/**
+ * Un publish mba-class-1964, mba-class-1965 and mba-class-1966 reunion pages
+ */
+function gsb_public_update_7387() {
+  $nids = array(381141,381146,382406);
+  $nodes = node_load_multiple($nids);
+  foreach($nodes as $node) {
+     $node->status = 0;
+     node_save($node);
+  }
+}
+
+/**
+ * Delete field_related_faculty field instances from Media Mention (aka offsite_school_story) CT
+ */
+function gsb_public_update_7388() {
+  $field_names = array(
+    'field_related_faculty',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'offsite_school_story');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Enable GSB Feature Seed Research Library CT module
+ */
+function gsb_public_update_7389() {
+  if (!module_exists('gsb_feature_seed_research_library_ct')) {
+    module_enable(array('gsb_feature_seed_research_library_ct'));
+  }
+}
+
+/**
+ * Enable GSB Feature Seed Research Library Display module
+ */
+function gsb_public_update_7390() {
+  if (!module_exists('gsb_feature_seed_research_library_display')) {
+    module_enable(array('gsb_feature_seed_research_library_display'));
+  }
+}
+
+/**
+ * Update adminstrator user permissions for
+ */
+function gsb_public_update_7391() {
+  // Get the admin user role
+  $adminstrator_user = user_role_load_by_name('administrator');
+  // Add the permission
+  $adminstrator_user_permissions = array(
+    'administer panelizer node seed_research_project content',
+  );
+  // Update admin user role permissions
+  user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
+}
