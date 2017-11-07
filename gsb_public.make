@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 6.05
+projects[alumni_cas_auth][download][tag] = 6.06
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -121,7 +121,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.26
+projects[gsb_public_custom_blocks][download][tag] = 6.27
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -346,7 +346,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][tag] = 1.02
+projects[gsb_twelve_twenty][download][tag] = 1.04
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
@@ -441,7 +441,7 @@ projects[gsb_feature_admission_event_display][subdir] = custom/features
 projects[gsb_feature_all_research_display][type] = module
 projects[gsb_feature_all_research_display][download][type] = git
 projects[gsb_feature_all_research_display][download][url] = git@github.com:gsb-public/gsb_feature_all_research_display.git
-projects[gsb_feature_all_research_display][download][tag] = 6.0
+projects[gsb_feature_all_research_display][download][tag] = 6.01
 projects[gsb_feature_all_research_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
@@ -497,7 +497,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.43
+projects[gsb_feature_base_fields][download][tag] = 5.44
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -621,7 +621,7 @@ projects[gsb_feature_event_shared][subdir] = custom/features
 projects[gsb_feature_existing_node_fpp][type] = module
 projects[gsb_feature_existing_node_fpp][download][type] = git
 projects[gsb_feature_existing_node_fpp][download][url] = git@github.com:gsb-public/gsb_feature_existing_node_fpp.git
-projects[gsb_feature_existing_node_fpp][download][tag] = 5.05
+projects[gsb_feature_existing_node_fpp][download][tag] = 5.06
 projects[gsb_feature_existing_node_fpp][subdir] = custom/features
 
 ; GSB Feature Existing Node List FPP
@@ -817,7 +817,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.12
+projects[gsb_feature_news_display][download][tag] = 5.13
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite Idea Story CT
@@ -831,7 +831,7 @@ projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.08
+projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.09
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
@@ -978,12 +978,19 @@ projects[gsb_feature_seed_coach_ct][download][url] = git@github.com:gsb-public/g
 projects[gsb_feature_seed_coach_ct][download][tag] = 1.02
 projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 
-; GSB Features Seed Coach CT
+; GSB Features Seed Research Library CT
 projects[gsb_feature_seed_research_library_ct][type] = module
 projects[gsb_feature_seed_research_library_ct][download][type] = git
 projects[gsb_feature_seed_research_library_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_ct.git
-projects[gsb_feature_seed_research_library_ct][download][tag] = 1.01
+projects[gsb_feature_seed_research_library_ct][download][tag] = 1.02
 projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
+
+; GSB Features Seed Research Library CT
+projects[gsb_feature_seed_research_library_display][type] = module
+projects[gsb_feature_seed_research_library_display][download][type] = git
+projects[gsb_feature_seed_research_library_display][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_display.git
+projects[gsb_feature_seed_research_library_display][download][tag] = 1.00
+projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 
 ; GSB Features School Story CT
 projects[gsb_feature_school_story_ct][type] = module
@@ -1133,7 +1140,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.37
+projects[gsb_theme][download][tag] = 6.40
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
@@ -1194,7 +1201,7 @@ projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
-projects[captcha][version] = 1.3
+projects[captcha][version] = 1.5
 projects[captcha][subdir] = contrib
 
 projects[cdn][version] = 2.9
@@ -1292,7 +1299,7 @@ projects[encrypt][subdir] = contrib
 projects[entity][version] = 1.8
 projects[entity][subdir] = contrib
 
-projects[entityreference][version] = 1.2
+projects[entityreference][version] = 1.5
 projects[entityreference][subdir] = contrib
 
 projects[entityreference_autocomplete][version] = 1.11
@@ -1361,7 +1368,7 @@ projects[file_entity][subdir] = contrib
 projects[google_appliance_suggest][version] = 1.6
 projects[google_appliance_suggest][subdir] = contrib
 
-projects[google_analytics][version] = 2.1
+projects[google_analytics][version] = 2.4
 projects[google_analytics][subdir] = contrib
 
 libraries[google-api-php-client][download][type] = git
@@ -1462,9 +1469,8 @@ projects[media_youtube][download][type] = git
 projects[media_youtube][download][revision] = 5faa00c
 projects[media_youtube][download][branch] = 7.x-2.x
 
-projects[media_vimeo][version] = 1.0-beta5
+projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
-projects[media_vimeo][patch][1823078] = http://drupal.org/files/1823078-1x-fix.patch
 
 projects[memcache][version] = 1.5
 projects[memcache][subdir] = contrib
