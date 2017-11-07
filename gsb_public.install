@@ -6916,3 +6916,25 @@ function gsb_public_update_7392() {
     module_enable(array('gsb_box'));
   }
 }
+
+/**
+ * Delete {system} records for long-lost modules.
+ */
+function gsb_public_update_7393() {
+  $modules = array(
+    'addthis',
+    'feeds',
+    'feeds_jsonpath_parser',
+    'feeds_tamper',
+    'feeds_tamper_ui',
+    'feeds_ui',
+    'gsb_admin_enhancements',
+    'gsb_feature_google_analytics_settings',
+    'gsb_program_finder',
+    'job_scheduler',
+  );
+  db_delete('system')
+    ->condition('name', $modules, 'IN')
+    ->condition('type', 'module')
+    ->execute();
+}
