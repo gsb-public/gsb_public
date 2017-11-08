@@ -268,7 +268,7 @@ projects[gsb_panels_pages][subdir] = custom
 projects[gsb_public_brochure_list][type] = module
 projects[gsb_public_brochure_list][download][type] = git
 projects[gsb_public_brochure_list][download][url] = git@github.com:gsb-public/gsb_public_brochure_list.git
-projects[gsb_public_brochure_list][download][tag] = 1.06
+projects[gsb_public_brochure_list][download][branch] = release-1.07
 projects[gsb_public_brochure_list][subdir] = custom
 
 ; GSB Public Statistics
@@ -691,7 +691,7 @@ projects[gsb_feature_files_fpp][subdir] = custom/features
 projects[gsb_feature_google_tag_manager][type] = module
 projects[gsb_feature_google_tag_manager][download][type] = git
 projects[gsb_feature_google_tag_manager][download][url] = git@github.com:gsb-public/gsb_feature_google_tag_manager.git
-projects[gsb_feature_google_tag_manager][download][tag] = 5.07
+projects[gsb_feature_google_tag_manager][download][branch] = release-5.08
 projects[gsb_feature_google_tag_manager][subdir] = custom/features
 
 ; GSB Feature GSA Search
