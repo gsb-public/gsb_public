@@ -191,7 +191,7 @@ projects[gsb_filtered_view_link][subdir] = custom
 projects[gsb_filter_with_states][type] = module
 projects[gsb_filter_with_states][download][type] = git
 projects[gsb_filter_with_states][download][url] = git@github.com:gsb-public/gsb_filter_with_states.git
-projects[gsb_filter_with_states][download][tag] = 6.02
+projects[gsb_filter_with_states][download][branch] = release-6.03
 projects[gsb_filter_with_states][subdir] = custom
 
 ; GSB FPP Customization
@@ -996,7 +996,7 @@ projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
 projects[gsb_feature_seed_research_library_display][type] = module
 projects[gsb_feature_seed_research_library_display][download][type] = git
 projects[gsb_feature_seed_research_library_display][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_display.git
-projects[gsb_feature_seed_research_library_display][download][tag] = 1.00
+projects[gsb_feature_seed_research_library_display][download][branch] = release-1.01
 projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 
 ; GSB Features School Story CT
