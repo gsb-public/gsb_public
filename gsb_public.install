@@ -6909,18 +6909,9 @@ function gsb_public_update_7391() {
 }
 
 /**
- * Enable GSB Box module
- */
-function gsb_public_update_7392() {
-  if (!module_exists('gsb_box')) {
-    module_enable(array('gsb_box'));
-  }
-}
-
-/**
  * Delete {system} records for long-lost modules.
  */
-function gsb_public_update_7393() {
+function gsb_public_update_7392() {
   $modules = array(
     'addthis',
     'feeds',
