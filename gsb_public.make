@@ -82,13 +82,6 @@ projects[gsb_agenda][download][url] = git@github.com:gsb-public/gsb_agenda.git
 projects[gsb_agenda][download][tag] = 3.1
 projects[gsb_agenda][subdir] = custom
 
-; GSB Box
-; projects[gsb_box][type] = module
-; projects[gsb_box][download][type] = git
-; projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-; projects[gsb_box][download][branch] = release-1.00
-; projects[gsb_box][subdir] = custom
-
 ; GSB Cmis Api
 projects[gsb_cmis_api][type] = module
 projects[gsb_cmis_api][download][type] = git
