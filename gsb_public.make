@@ -170,7 +170,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 6.07
+projects[gsb_field_formatter][download][branch] = release-6.08
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -982,7 +982,7 @@ projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 projects[gsb_feature_seed_research_library_ct][type] = module
 projects[gsb_feature_seed_research_library_ct][download][type] = git
 projects[gsb_feature_seed_research_library_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_ct.git
-projects[gsb_feature_seed_research_library_ct][download][tag] = 1.03
+projects[gsb_feature_seed_research_library_ct][download][branch] = release-1.04
 projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
 
 ; GSB Features Seed Research Library CT
