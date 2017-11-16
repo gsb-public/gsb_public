@@ -6929,3 +6929,24 @@ function gsb_public_update_7392() {
     ->condition('type', 'module')
     ->execute();
 }
+
+/**
+ * Enable xmlsitemap module.
+ */
+function gsb_public_update_7393() {
+  if (!module_exists('xmlsitemap')) {
+    module_enable(array('xmlsitemap'));
+  }
+}
+
+/**
+ * Enable xmlsitemap sub-modules: xmlsitemap_engines, and xmlsitemap_node.
+ */
+function gsb_public_update_7394() {
+  if (!module_exists('xmlsitemap_engines')) {
+    module_enable(array('xmlsitemap_engines'));
+  }
+  if (!module_exists('xmlsitemap_node')) {
+    module_enable(array('xmlsitemap_node'));
+  }
+}
