@@ -6950,3 +6950,12 @@ function gsb_public_update_7394() {
     module_enable(array('xmlsitemap_node'));
   }
 }
+
+/**
+ * Enable GSB Box module
+ */
+function gsb_public_update_7395() {
+  if (!module_exists('gsb_box')) {
+    module_enable(array('gsb_box'));
+  }
+}
