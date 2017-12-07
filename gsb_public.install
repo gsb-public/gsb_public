@@ -6950,3 +6950,23 @@ function gsb_public_update_7394() {
     module_enable(array('xmlsitemap_node'));
   }
 }
+
+/**
+ * Enable reCaptcha on webform.
+ */
+function gsb_public_update_7395() {
+  $webform_ids = array(
+      'webform_client_form_304266',
+      'webform_client_form_337941',
+      'webform_client_form_411526',
+      'webform_client_form_411531',
+      'webform_client_form_410146'
+  );
+
+  // Insert webform to captcha
+  foreach ($webform_ids as $webform_id) {
+    db_insert('captcha_points')
+      ->fields(array('form_id' => $webform_id, 'module' => 'recaptcha', 'captcha_type' => 'reCAPTCHA'))
+      ->execute();
+  }
+}
