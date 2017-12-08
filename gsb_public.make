@@ -1478,6 +1478,7 @@ projects[media_youtube][download][branch] = 7.x-2.x
 
 projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
+projects[media_vimeo][patch][2446199] = https://www.drupal.org/files/issues/no_exception_handling-2446199-2.patch
 
 projects[memcache][version] = 1.5
 projects[memcache][subdir] = contrib
