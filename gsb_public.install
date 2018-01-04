@@ -6993,3 +6993,50 @@ function gsb_public_update_7397() {
   }
   field_purge_batch(10);
 }
+
+/**
+ * Remove field_part_of_business_magazine, field_part_of_rethink, field_season, field_rethink_date from School Story and Idea Story CT
+ */
+function gsb_public_update_7398() {
+  _gsb_public_delete_fields(array('field_part_of_business_magazine', 'field_part_of_rethink', 'field_season','field_rethink_date' ));
+}
+
+/**
+ * Delete field_year, field_volume_number, field_issue_number, field_region_of_interest field instances from Idea Story CT and field_region_of_interest from School Story CT
+ */
+function gsb_public_update_7399() {
+  $field_names = array(
+    'field_year',
+    'field_volume_number',
+    'field_issue_number',
+    'field_region_of_interest'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'idea_story');
+    field_delete_instance($instance);
+  }
+  //deleting field_region_of_interest from school story CT
+  $field_name = 'field_region_of_interest';
+  $instance   = field_info_instance('node', $field_name, 'school_story');
+  field_delete_instance($instance);
+
+  field_purge_batch(10);
+}
+
+/**
+ * Remove group_part_of_stanford_business,group_part_of_rethink field group from idea story
+ */
+function gsb_public_update_7400() {
+  
+  $delete_group_instance = array(
+    'group_part_of_stanford_business',
+    'group_part_of_rethink'    
+  );
+  foreach($delete_group_instance as $group_name) {
+    if ($group = field_group_load_field_group($group_name, 'node', 'idea_story', 'form')) {
+      ctools_include('export');
+      field_group_group_export_delete($group, FALSE);
+    }
+  }
+  
+}
