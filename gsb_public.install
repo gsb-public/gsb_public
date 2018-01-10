@@ -7040,3 +7040,15 @@ function gsb_public_update_7400() {
   }
   
 }
+
+/**
+ * Delete field_region_of_interest from announcement CT
+ */
+function gsb_public_update_7401() {
+ 
+  $field_name = 'field_region_of_interest';
+  $instance   = field_info_instance('node', $field_name, 'announcement');
+  field_delete_instance($instance);
+
+  field_purge_batch(10);
+}
