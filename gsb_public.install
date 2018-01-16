@@ -7052,3 +7052,11 @@ function gsb_public_update_7401() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Disable and uninstall gsb_feature_offsite_idea_story_ct.
+ */
+function gsb_public_update_7402() {
+  module_disable(array('gsb_feature_offsite_idea_story_ct'));
+  drupal_uninstall_modules(array('gsb_feature_offsite_idea_story_ct'));
+}
