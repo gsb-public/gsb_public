@@ -827,13 +827,6 @@ projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gs
 projects[gsb_feature_news_display][download][branch] = release-5.15
 projects[gsb_feature_news_display][subdir] = custom/features
 
-; GSB Features Offsite Idea Story CT
-projects[gsb_feature_offsite_idea_story_ct][type] = module
-projects[gsb_feature_offsite_idea_story_ct][download][type] = git
-projects[gsb_feature_offsite_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_idea_story_ct.git
-projects[gsb_feature_offsite_idea_story_ct][download][tag] = 5.09
-projects[gsb_feature_offsite_idea_story_ct][subdir] = custom/features
-
 ; GSB Features Offsite School Story CT
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
