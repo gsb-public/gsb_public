@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 6.06
+projects[alumni_cas_auth][download][branch] = release-6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -353,7 +353,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][tag] = 1.05
+projects[gsb_twelve_twenty][download][branch] = release-1.06
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
@@ -1140,7 +1140,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.45
+projects[gsb_theme][download][branch] = release-6.46
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
