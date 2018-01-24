@@ -128,7 +128,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.27
+projects[gsb_public_custom_blocks][download][branch] = release-6.28
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -317,7 +317,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][tag] = 6.02
+projects[gsb_social][download][branch] = release-6.03
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
@@ -497,7 +497,7 @@ projects[gsb_feature_alumni_reunion_session_ct][subdir] = custom/features
 projects[gsb_feature_announcement_ct][type] = module
 projects[gsb_feature_announcement_ct][download][type] = git
 projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public/gsb_feature_announcement_ct.git
-projects[gsb_feature_announcement_ct][download][tag] = 5.13
+projects[gsb_feature_announcement_ct][download][branch] = release-5.14
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
 ; GSB Feature base fields
@@ -996,7 +996,7 @@ projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 projects[gsb_feature_school_story_ct][type] = module
 projects[gsb_feature_school_story_ct][download][type] = git
 projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_school_story_ct.git
-projects[gsb_feature_school_story_ct][download][tag] = 5.16
+projects[gsb_feature_school_story_ct][download][branch] = release-5.17
 projects[gsb_feature_school_story_ct][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
