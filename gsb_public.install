@@ -7061,3 +7061,38 @@ function gsb_public_update_7402() {
   drupal_uninstall_modules(array('gsb_feature_offsite_idea_story_ct'));
   node_type_delete('offsite_idea_story');
 }
+
+/**
+ * Migrate phd_candidate job market paper to field collection
+ */
+function gsb_public_update_7405() {
+
+  $entity_type = 'node';
+  // get all phd candidate nodes
+  $query = new EntityFieldQuery();
+  $query
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'phd_candidate');
+
+  $entities = $query->execute();
+
+  foreach($entities[$entity_type] as $entity) {
+    $node = node_load($entity->nid);
+    // wrapper
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
+
+    // create field collection item
+    $collection_item = entity_create('field_collection_item', array('field_name' => 'field_job_market_paper'));
+    $collection_item->setHostEntity($entity_type, $node);
+
+    $cwrapper = entity_metadata_wrapper('field_collection_item', $collection_item);
+
+    // set all the field values to field collection items
+    $cwrapper->field_link_single->set($wrapper->field_link_single->value());
+    $cwrapper->field_file_job_market_paper->set($wrapper->field_file_job_market_paper->value());
+    $cwrapper->field_job_market_paper_desc->set($wrapper->field_job_market_paper_desc->value());
+
+    // save field collection wrapper
+    $cwrapper->save();
+  }
+}
