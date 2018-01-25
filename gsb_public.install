@@ -7061,3 +7061,24 @@ function gsb_public_update_7402() {
   drupal_uninstall_modules(array('gsb_feature_offsite_idea_story_ct'));
   node_type_delete('offsite_idea_story');
 }
+
+/**
+ * Delete duplicate nodes from courses ct.
+ */
+function gsb_public_update_8001() {
+  // search for duplicate nodes
+  $query = db_select('node', 'n');
+  $query->leftJoin('field_data_field_course_start_acad_year', 'fsa', 'n.nid = fsa.entity_id');
+  $results = $query->fields('n',array('nid'))
+                      ->condition('n.type', 'course')
+                      ->condition('field_course_start_acad_year_value', '2016-12-31 16:00:00', 'LIKE')
+                      ->execute();
+  foreach ($results as $result) {
+    $nids[] = $result->nid;
+  }
+  if (!empty($nids)) {
+    // delete nodes
+    node_delete_multiple($nids);
+    watchdog('gsb_public', count($nids).' nodes has been deleted.');
+  }
+}
