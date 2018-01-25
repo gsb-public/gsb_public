@@ -7096,3 +7096,20 @@ function gsb_public_update_7405() {
     $cwrapper->save();
   }
 }
+
+/**
+ * Delete Old job market paper related fields from phd_candidate ct
+ */
+function gsb_public_update_7406() {
+  $field_names = array(
+    'field_link_single',
+    'field_file_job_market_paper',
+    'field_job_market_paper_desc',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'phd_candidate');
+    field_delete_instance($instance);
+  }
+
+  field_purge_batch(10);
+}
