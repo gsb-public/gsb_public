@@ -7065,7 +7065,7 @@ function gsb_public_update_7402() {
 /**
  * Delete duplicate nodes from courses ct.
  */
-function gsb_public_update_8001() {
+function gsb_public_update_7404() {
   // search for duplicate nodes
   $query = db_select('node', 'n');
   $query->leftJoin('field_data_field_course_start_acad_year', 'fsa', 'n.nid = fsa.entity_id');
