@@ -7061,3 +7061,10 @@ function gsb_public_update_7402() {
   drupal_uninstall_modules(array('gsb_feature_offsite_idea_story_ct'));
   node_type_delete('offsite_idea_story');
 }
+
+/**
+ * Remove field field_is_application_open
+ */
+function gsb_public_update_7403() {
+  _gsb_public_delete_fields(array('field_is_application_open'));
+}
