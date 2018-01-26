@@ -7063,9 +7063,22 @@ function gsb_public_update_7402() {
 }
 
 /**
- * Migrate phd_candidate job market paper to field collection
+ * Revert all the required features
  */
 function gsb_public_update_7405() {
+  // Revert all the required features
+  $features = array ('gsb_feature_base_fields', 'gsb_feature_phd_candidate_ct');
+  foreach($features as $feature_name) {
+    $feature = features_get_features($feature_name, TRUE);
+    $components = array_keys($feature->info['features']);
+    features_revert(array($feature_name => $components));
+  }
+}
+
+/**
+ * Migrate phd_candidate job market paper to field collection
+ */
+function gsb_public_update_7406() {
 
   $entity_type = 'node';
   // get all phd candidate nodes
@@ -7100,7 +7113,7 @@ function gsb_public_update_7405() {
 /**
  * Delete Old job market paper related fields from phd_candidate ct
  */
-function gsb_public_update_7406() {
+function gsb_public_update_7407() {
   $field_names = array(
     'field_link_single',
     'field_file_job_market_paper',
