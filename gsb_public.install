@@ -7082,3 +7082,10 @@ function gsb_public_update_7403() {
     watchdog('gsb_public', count($nids).' nodes has been deleted.');
   }
 }
+
+/**
+ * Remove field field_is_application_open
+ */
+function gsb_public_update_7404() {
+  _gsb_public_delete_fields(array('field_is_application_open'));
+}
