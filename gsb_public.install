@@ -7089,3 +7089,68 @@ function gsb_public_update_7403() {
 function gsb_public_update_7404() {
   _gsb_public_delete_fields(array('field_is_application_open'));
 }
+
+/**
+ * Revert all the required features
+ */
+function gsb_public_update_7405() {
+  // Revert all the required features
+  $features = array ('gsb_feature_base_fields', 'gsb_feature_phd_candidate_ct');
+  foreach($features as $feature_name) {
+    $feature = features_get_features($feature_name, TRUE);
+    $components = array_keys($feature->info['features']);
+    features_revert(array($feature_name => $components));
+  }
+}
+
+/**
+ * Migrate phd_candidate job market paper to field collection
+ */
+function gsb_public_update_7406() {
+
+  $entity_type = 'node';
+  // get all phd candidate nodes
+  $query = new EntityFieldQuery();
+  $query
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'phd_candidate');
+
+  $entities = $query->execute();
+
+  foreach($entities[$entity_type] as $entity) {
+    $node = node_load($entity->nid);
+    // wrapper
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
+
+    // create field collection item
+    $collection_item = entity_create('field_collection_item', array('field_name' => 'field_job_market_paper'));
+    $collection_item->setHostEntity($entity_type, $node);
+
+    $cwrapper = entity_metadata_wrapper('field_collection_item', $collection_item);
+
+    // set all the field values to field collection items
+    $cwrapper->field_link_single->set($wrapper->field_link_single->value());
+    $cwrapper->field_file_job_market_paper->set($wrapper->field_file_job_market_paper->value());
+    $cwrapper->field_job_market_paper_desc->set($wrapper->field_job_market_paper_desc->value());
+
+    // save field collection wrapper
+    $cwrapper->save();
+  }
+}
+
+/**
+ * Delete Old job market paper related fields from phd_candidate ct
+ */
+function gsb_public_update_7407() {
+  $field_names = array(
+    'field_link_single',
+    'field_file_job_market_paper',
+    'field_job_market_paper_desc',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'phd_candidate');
+    field_delete_instance($instance);
+  }
+
+  field_purge_batch(10);
+}
