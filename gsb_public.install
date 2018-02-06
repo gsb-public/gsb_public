@@ -7089,3 +7089,15 @@ function gsb_public_update_7403() {
 function gsb_public_update_7404() {
   _gsb_public_delete_fields(array('field_is_application_open'));
 }
+
+/**
+ * Un publish msx-class-2016, msx-class-2015 and mba-class-1967 reunion pages
+ */
+function gsb_public_update_7405() {
+  $nids = array(381151,417566,399061);
+  $nodes = node_load_multiple($nids);
+  foreach($nodes as $node) {
+     $node->status = 0;
+     node_save($node);
+  }
+}
