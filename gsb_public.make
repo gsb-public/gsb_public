@@ -13,10 +13,7 @@ projects[alumni_cas_auth][download][tag] = 6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
-projects[feature_flag][type] = module
-projects[feature_flag][download][type] = git
-projects[feature_flag][download][url] = git@github.com:gsb-public/feature_flag.git
-projects[feature_flag][download][tag] = 1.0
+projects[feature_flag][version] = 1.x-dev 
 projects[feature_flag][subdir] = custom
 
 ; Isotopify
@@ -334,7 +331,6 @@ projects[gsb_text_equivalent][download][url] = git@github.com:gsb-public/gsb_tex
 projects[gsb_text_equivalent][download][tag] = 1.07
 projects[gsb_text_equivalent][subdir] = custom
 
-
 ; GSB Tokens
 projects[gsb_tokens][type] = module
 projects[gsb_tokens][download][type] = git
@@ -388,7 +384,7 @@ projects[simplesaml_auth][subdir] = custom
 projects[zurb_responsive_tables][type] = module
 projects[zurb_responsive_tables][download][type] = git
 projects[zurb_responsive_tables][download][url] = git@github.com:gsb-public/zurb_responsive_tables.git
-projects[zurb_responsive_tables][download][tag] = 1.0
+projects[zurb_responsive_tables][download][branch] = 1.0
 projects[zurb_responsive_tables][subdir] = custom
 
 ;=======================================
