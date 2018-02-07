@@ -1414,7 +1414,7 @@ libraries[jquery_multicheckbox][destination] = "libraries"
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
-projects[kraken][version] = 1.0-alpha2
+projects[kraken][version] = 1.0-alpha3
 projects[kraken][subdir] = contrib
 
 libraries[kraken-php][download][type] = "git"
@@ -1432,7 +1432,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 4.7
+projects[mailchimp][version] = 4.9
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
@@ -1469,7 +1469,7 @@ projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][2446199] = https://www.drupal.org/files/issues/no_exception_handling-2446199-2.patch
 
-projects[memcache][version] = 1.5
+projects[memcache][version] = 1.6
 projects[memcache][subdir] = contrib
 
 projects[menu_attributes][version] = 1.0
