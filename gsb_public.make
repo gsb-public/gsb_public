@@ -1526,7 +1526,7 @@ projects[node_clone_tab][subdir] = contrib
 projects[node_export][version] = 3.1
 projects[node_export][subdir] = contrib
 
-projects[node_page_disable][version] = 1.0-rc3
+projects[node_page_disable][version] = 1.0
 projects[node_page_disable][subdir] = contrib
 
 projects[options_element][version] = 1.12
@@ -1600,7 +1600,7 @@ libraries[selection-sharer][download][type] = git
 libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer
 libraries[selection-sharer][download][tag] = v0.0.15
 
-projects[select_or_other][version] = 2.22
+projects[select_or_other][version] = 2.23
 projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
@@ -1676,7 +1676,7 @@ projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
 projects[views_autocomplete_filters][patch][2493069] = https://www.drupal.org/files/issues/views_autocomplete_filters-2493069-1.patch
 
-projects[views_bulk_operations][version] = 3.3
+projects[views_bulk_operations][version] = 3.4
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_field_view][version] = 1.2
