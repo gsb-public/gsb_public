@@ -13,10 +13,7 @@ projects[alumni_cas_auth][download][tag] = 6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
-projects[feature_flag][type] = module
-projects[feature_flag][download][type] = git
-projects[feature_flag][download][url] = git@github.com:gsb-public/feature_flag.git
-projects[feature_flag][download][tag] = 1.0
+projects[feature_flag][download][version] = 1.x-dev
 projects[feature_flag][subdir] = custom
 
 ; Isotopify
@@ -691,7 +688,7 @@ projects[gsb_feature_files_fpp][subdir] = custom/features
 projects[gsb_feature_google_tag_manager][type] = module
 projects[gsb_feature_google_tag_manager][download][type] = git
 projects[gsb_feature_google_tag_manager][download][url] = git@github.com:gsb-public/gsb_feature_google_tag_manager.git
-projects[gsb_feature_google_tag_manager][download][tag] = 5.08
+projects[gsb_feature_google_tag_manager][download][branch] = release-5.09
 projects[gsb_feature_google_tag_manager][subdir] = custom/features
 
 ; GSB Feature GSA Search
@@ -1249,7 +1246,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[custom_add_another][version] = 1.0
 projects[custom_add_another][subdir] = contrib
 
-projects[date][version] = 2.9
+projects[date][version] = 2.10
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.2
@@ -1618,7 +1615,7 @@ projects[smart_trim][subdir] = contrib
 projects[stackla][type] = module
 projects[stackla][download][type] = git
 projects[stackla][download][url] = git@github.com:Stackla/stackla-drupal-plugin.git
-projects[stackla][download][tag] = v1.0.0
+projects[stackla][download][version] = 1.1
 projects[stackla][subdir] = contrib
 
 projects[stage_file_proxy][version] = 1.7
