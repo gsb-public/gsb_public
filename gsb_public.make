@@ -1168,7 +1168,7 @@ projects[admin_views][subdir] = contrib
 projects[advagg][version] = 2.x
 projects[advagg][subdir] = contrib
 
-projects[auto_entitylabel][version] = 1.3
+projects[auto_entitylabel][version] = 1.4
 projects[auto_entitylabel][subdir] = contrib
 
 projects[agenda][version] = 2.x
@@ -1245,7 +1245,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[custom_add_another][version] = 1.0
 projects[custom_add_another][subdir] = contrib
 
-projects[date][version] = 2.9
+projects[date][version] = 2.10
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.2
@@ -1269,7 +1269,7 @@ projects[devel_form_debug][subdir] = contrib
 projects[diff][version] = 3.3
 projects[diff][subdir] = contrib
 
-projects[drafty][version] = 1.0-beta3
+projects[drafty][version] = 1.0-rc1
 projects[drafty][subdir] = contrib
 
 projects[ds][version] = 2.14
