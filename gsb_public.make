@@ -13,7 +13,7 @@ projects[alumni_cas_auth][download][tag] = 6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
-projects[feature_flag][download][version] = 1.x-dev
+projects[feature_flag][version] = 1.x-dev
 projects[feature_flag][subdir] = custom
 
 ; Isotopify
