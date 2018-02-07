@@ -7101,3 +7101,14 @@ function gsb_public_update_7405() {
      node_save($node);
   }
 }
+
+/**
+ * WP-8063 Remove field that requires addthis and then uninstall addthis
+ */
+
+function gsb_public_update_7406() {
+    module_enable(array('addthis'));
+    field_delete_field('field_addthis');
+    module_disable(array('addthis'));
+    drupal_uninstall_modules(array('addthis'));
+}
