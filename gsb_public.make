@@ -1535,7 +1535,7 @@ projects[options_element][subdir] = contrib
 projects[panelizer][version] = 3.4
 projects[panelizer][subdir] = contrib
 
-projects[panels][version] = 3.8
+projects[panels][version] = 3.9
 projects[panels][subdir] = contrib
 
 projects[panels_breadcrumbs][version] = 2.2
