@@ -1149,6 +1149,10 @@ projects[gsb_theme_admin][download][tag] = 5.10
 ;  Additional Contrib Modules
 ;========================================
 
+; Addthis
+projects[addthis][version] = 4.0-alpha6
+projects[addthis][subdir] = contrib
+
 ; Acquia connector
 projects[acquia_connector][version] = 3.1
 projects[acquia_connector][subdir] = contrib
@@ -1489,16 +1493,16 @@ projects[menu_position][subdir] = contrib
 projects[menu_token][version] = 1.0-beta7
 projects[menu_token][subdir] = contrib
 
-projects[menu_trail_by_path][version] = 3.2
+projects[menu_trail_by_path][version] = 3.3
 projects[menu_trail_by_path][subdir] = contrib
 
 projects[metatag][version] = 1.22
 projects[metatag][subdir] = contrib
 
-projects[mimemail][version] = 1.0-beta4
+projects[mimemail][version] = 1.0
 projects[mimemail][subdir] = contrib
 
-projects[module_filter][version] = 2.0
+projects[module_filter][version] = 2.1
 projects[module_filter][subdir] = contrib
 
 libraries[moment][download][type] = "get"
