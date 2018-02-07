@@ -1346,9 +1346,9 @@ projects[field_collection][patch][1822844] = https://www.drupal.org/files/issues
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
 
-projects[field_group][version] = 1.5
+projects[field_group][version] = 1.6
 projects[field_group][subdir] = contrib
-projects[field_group][patch][2576311] = https://www.drupal.org/files/issues/field_group-2576311-1.patch
+projects[field_group][patch][2576311] = https://www.drupal.org/files/issues/field_group-2576311-2.patch
 
 projects[filefield_paths][version] = 1.0-beta4
 projects[filefield_paths][subdir] = contrib
