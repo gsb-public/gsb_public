@@ -1362,7 +1362,7 @@ projects[filefield_paths][download][revision] = 8b39e73
 projects[filefield_paths][patch][1924686] = https://www.drupal.org/files/issues/filefield_paths_patch-9254679-1.patch
 projects[filefield_paths][patch][2103151] = https://www.drupal.org/files/issues/deprecated_e-2103151-32.patch
 
-projects[file_entity][version] = 2.0-beta3
+projects[file_entity][version] = 2.15
 projects[file_entity][subdir] = contrib
 
 projects[google_appliance_suggest][version] = 1.6
@@ -1375,7 +1375,7 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client.git
 libraries[google-api-php-client][download][tag] = 1.1.6
 
-projects[hierarchical_select][version] = 3.0-beta7
+projects[hierarchical_select][version] = 3.0-beta8
 projects[hierarchical_select][subdir] = contrib
 
 projects[hs_lite][version] = 1.x-dev
@@ -1386,7 +1386,7 @@ projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
 
-projects[imagecache_actions][version] = 1.7
+projects[imagecache_actions][version] = 1.8
 projects[imagecache_actions][subdir] = contrib
 
 projects[image_captcha_refresh][version] = 1.6
