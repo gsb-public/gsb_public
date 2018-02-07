@@ -13,7 +13,10 @@ projects[alumni_cas_auth][download][tag] = 6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
-projects[feature_flag][version] = 1.x-dev
+projects[feature_flag][type] = module
+projects[feature_flag][download][type] = git
+projects[feature_flag][download][url] = git@github.com:gsb-public/feature_flag.git
+projects[feature_flag][download][tag] = 1.0
 projects[feature_flag][subdir] = custom
 
 ; Isotopify
@@ -385,7 +388,7 @@ projects[simplesaml_auth][subdir] = custom
 projects[zurb_responsive_tables][type] = module
 projects[zurb_responsive_tables][download][type] = git
 projects[zurb_responsive_tables][download][url] = git@github.com:gsb-public/zurb_responsive_tables.git
-projects[zurb_responsive_tables][download][branch] = 1.0
+projects[zurb_responsive_tables][download][tag] = 1.0
 projects[zurb_responsive_tables][subdir] = custom
 
 ;=======================================
@@ -1151,7 +1154,7 @@ projects[gsb_theme_admin][download][tag] = 5.10
 ;========================================
 
 ; Acquia connector
-projects[acquia_connector][version] = 3.2
+projects[acquia_connector][version] = 3.1
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.3
@@ -1169,7 +1172,7 @@ projects[admin_views][subdir] = contrib
 projects[advagg][version] = 2.x
 projects[advagg][subdir] = contrib
 
-projects[auto_entitylabel][version] = 1.4
+projects[auto_entitylabel][version] = 1.3
 projects[auto_entitylabel][subdir] = contrib
 
 projects[agenda][version] = 2.x
@@ -1246,7 +1249,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[custom_add_another][version] = 1.0
 projects[custom_add_another][subdir] = contrib
 
-projects[date][version] = 2.10
+projects[date][version] = 2.09
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.2
@@ -1270,7 +1273,7 @@ projects[devel_form_debug][subdir] = contrib
 projects[diff][version] = 3.3
 projects[diff][subdir] = contrib
 
-projects[drafty][version] = 1.0-rc1
+projects[drafty][version] = 1.0-beta3
 projects[drafty][subdir] = contrib
 
 projects[ds][version] = 2.14
@@ -1336,7 +1339,7 @@ projects[features][subdir] = contrib
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
 
-projects[fieldable_panels_panes][version] = 1.11
+projects[fieldable_panels_panes][version] = 1.10
 projects[fieldable_panels_panes][subdir] = contrib
 
 projects[field_collection][version] = 1.0-beta12
@@ -1359,7 +1362,7 @@ projects[filefield_paths][download][revision] = 8b39e73
 projects[filefield_paths][patch][1924686] = https://www.drupal.org/files/issues/filefield_paths_patch-9254679-1.patch
 projects[filefield_paths][patch][2103151] = https://www.drupal.org/files/issues/deprecated_e-2103151-32.patch
 
-projects[file_entity][version] = 2.15
+projects[file_entity][version] = 2.0-beta3
 projects[file_entity][subdir] = contrib
 
 projects[google_appliance_suggest][version] = 1.6
@@ -1372,7 +1375,7 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client.git
 libraries[google-api-php-client][download][tag] = 1.1.6
 
-projects[hierarchical_select][version] = 3.0-beta8
+projects[hierarchical_select][version] = 3.0-beta7
 projects[hierarchical_select][subdir] = contrib
 
 projects[hs_lite][version] = 1.x-dev
@@ -1383,7 +1386,7 @@ projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
 
-projects[imagecache_actions][version] = 1.8
+projects[imagecache_actions][version] = 1.7
 projects[imagecache_actions][subdir] = contrib
 
 projects[image_captcha_refresh][version] = 1.6
@@ -1415,7 +1418,7 @@ libraries[jquery_multicheckbox][destination] = "libraries"
 projects[jquery_update][version] = 2.7
 projects[jquery_update][subdir] = contrib
 
-projects[kraken][version] = 1.0-alpha3
+projects[kraken][version] = 1.0-alpha2
 projects[kraken][subdir] = contrib
 
 libraries[kraken-php][download][type] = "git"
@@ -1433,7 +1436,7 @@ projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 projects[login_destination][version] = 1.1
 projects[login_destination][subdir] = contrib
 
-projects[mailchimp][version] = 4.9
+projects[mailchimp][version] = 4.7
 projects[mailchimp][subdir] = contrib
 
 libraries[mailchimp][download][type] = "get"
@@ -1470,7 +1473,7 @@ projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
 projects[media_vimeo][patch][2446199] = https://www.drupal.org/files/issues/no_exception_handling-2446199-2.patch
 
-projects[memcache][version] = 1.6
+projects[memcache][version] = 1.5
 projects[memcache][subdir] = contrib
 
 projects[menu_attributes][version] = 1.0
@@ -1490,16 +1493,16 @@ projects[menu_position][subdir] = contrib
 projects[menu_token][version] = 1.0-beta7
 projects[menu_token][subdir] = contrib
 
-projects[menu_trail_by_path][version] = 3.3
+projects[menu_trail_by_path][version] = 3.2
 projects[menu_trail_by_path][subdir] = contrib
 
 projects[metatag][version] = 1.22
 projects[metatag][subdir] = contrib
 
-projects[mimemail][version] = 1.0
+projects[mimemail][version] = 1.0-beta4
 projects[mimemail][subdir] = contrib
 
-projects[module_filter][version] = 2.1
+projects[module_filter][version] = 2.0
 projects[module_filter][subdir] = contrib
 
 libraries[moment][download][type] = "get"
@@ -1523,7 +1526,7 @@ projects[node_clone_tab][subdir] = contrib
 projects[node_export][version] = 3.1
 projects[node_export][subdir] = contrib
 
-projects[node_page_disable][version] = 1.0
+projects[node_page_disable][version] = 1.0-rc3
 projects[node_page_disable][subdir] = contrib
 
 projects[options_element][version] = 1.12
@@ -1532,7 +1535,7 @@ projects[options_element][subdir] = contrib
 projects[panelizer][version] = 3.4
 projects[panelizer][subdir] = contrib
 
-projects[panels][version] = 3.9
+projects[panels][version] = 3.8
 projects[panels][subdir] = contrib
 
 projects[panels_breadcrumbs][version] = 2.2
@@ -1597,7 +1600,7 @@ libraries[selection-sharer][download][type] = git
 libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer
 libraries[selection-sharer][download][tag] = v0.0.15
 
-projects[select_or_other][version] = 2.23
+projects[select_or_other][version] = 2.22
 projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
@@ -1615,7 +1618,7 @@ projects[smart_trim][subdir] = contrib
 projects[stackla][type] = module
 projects[stackla][download][type] = git
 projects[stackla][download][url] = git@github.com:Stackla/stackla-drupal-plugin.git
-projects[stackla][download][branch] = 7.x-1.x
+projects[stackla][download][tag] = v1.0.0
 projects[stackla][subdir] = contrib
 
 projects[stage_file_proxy][version] = 1.7
@@ -1658,7 +1661,7 @@ projects[typogrify][subdir] = contrib
 projects[tzfield][version] = 1.1
 projects[tzfield][subdir] = contrib
 
-projects[uuid][version] = 1.0
+projects[uuid][version] = 1.0-beta2
 projects[uuid][subdir] = contrib
 
 projects[video_embed_field][version] = 2.0-beta11
@@ -1673,7 +1676,7 @@ projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
 projects[views_autocomplete_filters][patch][2493069] = https://www.drupal.org/files/issues/views_autocomplete_filters-2493069-1.patch
 
-projects[views_bulk_operations][version] = 3.4
+projects[views_bulk_operations][version] = 3.3
 projects[views_bulk_operations][subdir] = contrib
 
 projects[views_field_view][version] = 1.2
