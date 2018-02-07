@@ -1249,7 +1249,7 @@ projects[ctools_query_string_context][subdir] = custom/modules
 projects[custom_add_another][version] = 1.0
 projects[custom_add_another][subdir] = contrib
 
-projects[date][version] = 2.09
+projects[date][version] = 2.9
 projects[date][subdir] = contrib
 
 projects[date_popup_authored][version] = 1.2
