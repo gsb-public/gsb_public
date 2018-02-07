@@ -20,6 +20,7 @@ dependencies[] = syslog
 dependencies[] = update
 
 ; Contrib Modules
+dependencies[] = addthis
 dependencies[] = acquia_agent
 dependencies[] = acquia_purge
 dependencies[] = addressfield
