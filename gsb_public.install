@@ -7250,3 +7250,20 @@ function gsb_public_update_7409() {
 
   field_purge_batch(10);
 }
+
+/**
+ * Removing gsb_feature_offsite_idea_story_ct from system table
+ */
+function gsb_public_update_7410() {
+
+  // https://www.drupal.org/node/2487215
+
+  $modules = array(
+    'gsb_feature_offsite_idea_story_ct',
+  );
+
+  db_delete('system')
+    ->condition('name', $modules, 'IN')
+    ->condition('type', 'module')
+    ->execute();
+}
