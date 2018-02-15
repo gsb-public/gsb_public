@@ -7267,3 +7267,36 @@ function gsb_public_update_7410() {
     ->condition('type', 'module')
     ->execute();
 }
+
+/**
+ * Delete empty field collection for phd_candidate job market paper
+ */
+function gsb_public_update_7411() {
+  $entity_type = 'node';
+  $field_collection_item_id = array();
+  // get all phd candidate nodes
+  $query = new EntityFieldQuery();
+  $query
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'phd_candidate');
+
+  $entities = $query->execute();
+
+  foreach($entities[$entity_type] as $entity) {
+    // wrapper
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
+
+    foreach ($wrapper->field_job_market_paper as $field_collection_wrapper) {
+      $field_collection = $field_collection_wrapper->value();
+      // check if the fields within field collection are empty
+      if (empty($field_collection->field_file_job_market_paper) && empty($field_collection->field_job_market_paper_desc) 
+        && empty($field_collection->field_link_single)) {
+          // collect all empty field collection to be deleted
+          $field_collection_item_id[] = $field_collection->item_id;
+      }
+    }
+  }
+  // delete all empty field collection for phd candidate
+  entity_delete_multiple('field_collection_item', $field_collection_item_id);
+  watchdog('gsb_public', '!count empty field collection item removed .', array('!count' => count($field_collection_item_id)));
+}
