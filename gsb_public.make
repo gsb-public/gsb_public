@@ -13,7 +13,10 @@ projects[alumni_cas_auth][download][tag] = 6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
-projects[feature_flag][version] = 1.x-dev 
+projects[feature_flag][type] = module
+projects[feature_flag][download][type] = git
+projects[feature_flag][download][url] = git@github.com:gsb-public/feature_flag.git
+projects[feature_flag][download][tag] = 1.0
 projects[feature_flag][subdir] = custom
 
 ; Isotopify
