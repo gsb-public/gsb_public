@@ -233,7 +233,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_misc_fixes][type] = module
 projects[gsb_misc_fixes][download][type] = git
 projects[gsb_misc_fixes][download][url] = git@github.com:gsb-public/gsb_misc_fixes.git
-projects[gsb_misc_fixes][download][tag] = 5.10
+projects[gsb_misc_fixes][download][branch] = release-5.11
 projects[gsb_misc_fixes][subdir] = custom
 
 ; GSB Migrate
@@ -503,7 +503,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.47
+projects[gsb_feature_base_fields][download][branch] = release-5.48
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -538,7 +538,7 @@ projects[gsb_feature_business_website_display][subdir] = custom/features
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][tag] = 6.05
+projects[gsb_feature_case_ct][download][branch] = release-6.06
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
