@@ -1727,6 +1727,7 @@ projects[workbench_access][subdir] = contrib
 
 projects[workbench_moderation][version] = 3.0
 projects[workbench_moderation][subdir] = contrib
+projects[workbench_moderation][patch][2947038] = https://www.drupal.org/files/issues/workbench_moderation-2947038-1.patch
 
 projects[xmlsitemap][version] = 2.3
 projects[xmlsitemap][subdir] = contrib
