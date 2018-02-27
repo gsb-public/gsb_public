@@ -7300,3 +7300,10 @@ function gsb_public_update_7411() {
   entity_delete_multiple('field_collection_item', $field_collection_item_id);
   watchdog('gsb_public', '!count empty field collection item removed .', array('!count' => count($field_collection_item_id)));
 }
+
+/**
+ * Switch FPP re visioning to legacy
+ */
+function gsb_public_update_7412() {
+  variable_set('fpp_revision_locking', 'legacy');
+}
