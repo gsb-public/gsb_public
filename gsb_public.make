@@ -412,14 +412,14 @@ projects[gsb_feature_academic_calendar_display][subdir] = custom/features
 projects[gsb_feature_accordion][type] = module
 projects[gsb_feature_accordion][download][type] = git
 projects[gsb_feature_accordion][download][url] = git@github.com:gsb-public/gsb_feature_accordion.git
-projects[gsb_feature_accordion][download][tag] = 4.0
+projects[gsb_feature_accordion][download][branch] = release-4.01
 projects[gsb_feature_accordion][subdir] = custom/features
 
 ; GSB Features ACT CT
 projects[gsb_feature_act_ct][type] = module
 projects[gsb_feature_act_ct][download][type] = git
 projects[gsb_feature_act_ct][download][url] = git@github.com:gsb-public/gsb_feature_act_ct.git
-projects[gsb_feature_act_ct][download][tag] = 5.13
+projects[gsb_feature_act_ct][download][branch] = release-5.14
 projects[gsb_feature_act_ct][subdir] = custom/features
 
 ; GSB Features ACT Display
@@ -433,35 +433,35 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.24
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.25
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 6.05
+projects[gsb_feature_admission_event_display][download][branch] = release-6.06
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
 projects[gsb_feature_all_research_display][type] = module
 projects[gsb_feature_all_research_display][download][type] = git
 projects[gsb_feature_all_research_display][download][url] = git@github.com:gsb-public/gsb_feature_all_research_display.git
-projects[gsb_feature_all_research_display][download][tag] = 6.01
+projects[gsb_feature_all_research_display][download][branch] = release-6.02
 projects[gsb_feature_all_research_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
 projects[gsb_feature_alumni_ct][type] = module
 projects[gsb_feature_alumni_ct][download][type] = git
 projects[gsb_feature_alumni_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_ct.git
-projects[gsb_feature_alumni_ct][download][tag] = 5.08
+projects[gsb_feature_alumni_ct][download][branch] = release-5.09
 projects[gsb_feature_alumni_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item CT
 projects[gsb_feature_alumni_reunion_agenda_item_ct][type] = module
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_ct.git
-projects[gsb_feature_alumni_reunion_agenda_item_ct][download][tag] = 5.11
+projects[gsb_feature_alumni_reunion_agenda_item_ct][download][branch] = release-5.12
 projects[gsb_feature_alumni_reunion_agenda_item_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item Display
@@ -489,83 +489,83 @@ projects[gsb_feature_alumni_reunion_group_page_display][subdir] = custom/feature
 projects[gsb_feature_alumni_reunion_session_ct][type] = module
 projects[gsb_feature_alumni_reunion_session_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_session_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_session_ct.git
-projects[gsb_feature_alumni_reunion_session_ct][download][tag] = 5.01
+projects[gsb_feature_alumni_reunion_session_ct][download][branch] = release-5.02
 projects[gsb_feature_alumni_reunion_session_ct][subdir] = custom/features
 
 ; GSB Features Announcement CT
 projects[gsb_feature_announcement_ct][type] = module
 projects[gsb_feature_announcement_ct][download][type] = git
 projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public/gsb_feature_announcement_ct.git
-projects[gsb_feature_announcement_ct][download][tag] = 5.15
+projects[gsb_feature_announcement_ct][download][branch] = release-5.16
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
 ; GSB Feature base fields
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.48
+projects[gsb_feature_base_fields][download][branch] = release-5.49
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
 projects[gsb_feature_book_ct][type] = module
 projects[gsb_feature_book_ct][download][type] = git
 projects[gsb_feature_book_ct][download][url] = git@github.com:gsb-public/gsb_feature_book_ct.git
-projects[gsb_feature_book_ct][download][tag] = 5.17
+projects[gsb_feature_book_ct][download][branch] = release-5.18
 projects[gsb_feature_book_ct][subdir] = custom/features
 
 ; GSB Feature Book Display
 projects[gsb_feature_book_display][type] = module
 projects[gsb_feature_book_display][download][type] = git
 projects[gsb_feature_book_display][download][url] = git@github.com:gsb-public/gsb_feature_book_display.git
-projects[gsb_feature_book_display][download][tag] = 6.01
+projects[gsb_feature_book_display][download][branch] = release-6.02
 projects[gsb_feature_book_display][subdir] = custom/features
 
 ; GSB Feature Business Website
 projects[gsb_feature_business_website_ct][type] = module
 projects[gsb_feature_business_website_ct][download][type] = git
 projects[gsb_feature_business_website_ct][download][url] = git@github.com:gsb-public/gsb_feature_business_website_ct.git
-projects[gsb_feature_business_website_ct][download][tag] = 5.0
+projects[gsb_feature_business_website_ct][download][branch] = release-5.01
 projects[gsb_feature_business_website_ct][subdir] = custom/features
 
 ; GSB Feature Business Website Display
 projects[gsb_feature_business_website_display][type] = module
 projects[gsb_feature_business_website_display][download][type] = git
 projects[gsb_feature_business_website_display][download][url] = git@github.com:gsb-public/gsb_feature_business_website_display.git
-projects[gsb_feature_business_website_display][download][tag] = 5.0
+projects[gsb_feature_business_website_display][download][branch] = release-5.01
 projects[gsb_feature_business_website_display][subdir] = custom/features
 
 ; GSB Feature Case
 projects[gsb_feature_case_ct][type] = module
 projects[gsb_feature_case_ct][download][type] = git
 projects[gsb_feature_case_ct][download][url] = git@github.com:gsb-public/gsb_feature_case_ct.git
-projects[gsb_feature_case_ct][download][tag] = 6.06
+projects[gsb_feature_case_ct][download][branch] = release-6.07
 projects[gsb_feature_case_ct][subdir] = custom/features
 
 ; GSB Feature Case Display
 projects[gsb_feature_case_display][type] = module
 projects[gsb_feature_case_display][download][type] = git
 projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gsb_feature_case_display.git
-projects[gsb_feature_case_display][download][tag] = 6.01
+projects[gsb_feature_case_display][download][branch] = release-6.02
 projects[gsb_feature_case_display][subdir] = custom/features
 
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsb-public/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][tag] = 5.03
+projects[gsb_feature_club_ct][download][branch] = release-5.04
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
 projects[gsb_feature_club_display][download][type] = git
 projects[gsb_feature_club_display][download][url] = git@github.com:gsb-public/gsb_feature_club_display.git
-projects[gsb_feature_club_display][download][tag] = 6.01
+projects[gsb_feature_club_display][download][branch] = release-6.02
 projects[gsb_feature_club_display][subdir] = custom/features
 
 ; GSB Feature Course
 projects[gsb_feature_course_ct][type] = module
 projects[gsb_feature_course_ct][download][type] = git
 projects[gsb_feature_course_ct][download][url] = git@github.com:gsb-public/gsb_feature_course_ct.git
-projects[gsb_feature_course_ct][download][tag] = 3.40
+projects[gsb_feature_course_ct][download][branch] = release-3.41
 projects[gsb_feature_course_ct][subdir] = custom/features
 
 ; GSB Feature Course
@@ -579,41 +579,41 @@ projects[gsb_feature_course_display][subdir] = custom/features
 projects[gsb_feature_cta][type] = module
 projects[gsb_feature_cta][download][type] = git
 projects[gsb_feature_cta][download][url] = git@github.com:gsb-public/gsb_feature_cta.git
-projects[gsb_feature_cta][download][tag] = 5.06
+projects[gsb_feature_cta][download][branch] = release-5.07
 projects[gsb_feature_cta][subdir] = custom/features
 
 ; GSB Feature Diptych FPP
 projects[gsb_feature_diptych_fpp][type] = module
 projects[gsb_feature_diptych_fpp][download][type] = git
 projects[gsb_feature_diptych_fpp][download][url] = git@github.com:gsb-public/gsb_feature_diptych_fpp.git
-projects[gsb_feature_diptych_fpp][download][tag] = 4.03
+projects[gsb_feature_diptych_fpp][download][branch] = release-4.04
 projects[gsb_feature_diptych_fpp][subdir] = custom/features
 
 ; GSB Feature EE Megamenu
 projects[gsb_feature_ee_megamenu][type] = module
 projects[gsb_feature_ee_megamenu][download][type] = git
 projects[gsb_feature_ee_megamenu][download][url] = git@github.com:gsb-public/gsb_feature_ee_megamenu.git
-projects[gsb_feature_ee_megamenu][download][tag] = 1.00
+projects[gsb_feature_ee_megamenu][download][branch] = release-1.01
 projects[gsb_feature_ee_megamenu][subdir] = custom/features
 
 ; GSB Feature Exec-Ed Program Display
 projects[gsb_feature_ee_program_display][type] = module
 projects[gsb_feature_ee_program_display][download][type] = git
 projects[gsb_feature_ee_program_display][download][url] = git@github.com:gsb-public/gsb_feature_ee_program_display.git
-projects[gsb_feature_ee_program_display][download][tag] = 1.00
+projects[gsb_feature_ee_program_display][download][branch] = release-1.01
 projects[gsb_feature_ee_program_display][subdir] = custom/features
 
 ; GSB Feature Event
 projects[gsb_feature_event_ct][type] = module
 projects[gsb_feature_event_ct][download][type] = git
 projects[gsb_feature_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_event_ct.git
-projects[gsb_feature_event_ct][download][tag] = 5.15
+projects[gsb_feature_event_ct][download][branch] = release-5.16
 projects[gsb_feature_event_ct][subdir] = custom/features
 
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 6.06
+projects[gsb_feature_event_display][download][branch] = release-6.07
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Event Shared
