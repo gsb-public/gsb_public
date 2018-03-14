@@ -1152,6 +1152,10 @@ projects[gsb_theme_admin][download][tag] = 5.10
 ;  Additional Contrib Modules
 ;========================================
 
+; Addthis
+projects[addthis][version] = 4.0-alpha6
+projects[addthis][subdir] = contrib
+
 ; Acquia connector
 projects[acquia_connector][version] = 3.1
 projects[acquia_connector][subdir] = contrib
