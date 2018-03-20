@@ -531,7 +531,7 @@ projects[gsb_feature_business_website_ct][subdir] = custom/features
 projects[gsb_feature_business_website_display][type] = module
 projects[gsb_feature_business_website_display][download][type] = git
 projects[gsb_feature_business_website_display][download][url] = git@github.com:gsb-public/gsb_feature_business_website_display.git
-projects[gsb_feature_business_website_display][download][branch] = release-5.01
+projects[gsb_feature_business_website_display][download][tag] = 5.01
 projects[gsb_feature_business_website_display][subdir] = custom/features
 
 ; GSB Feature Case
