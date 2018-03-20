@@ -662,7 +662,7 @@ projects[gsb_feature_featured_content_fpp][subdir] = custom/features
 projects[gsb_feature_featured_insight_card_fpp][type] = module
 projects[gsb_feature_featured_insight_card_fpp][download][type] = git
 projects[gsb_feature_featured_insight_card_fpp][download][url] = git@github.com:gsb-public/gsb_feature_featured_insight_card_fpp.git
-projects[gsb_feature_featured_insight_card_fpp][download][branch] = release-5.03
+projects[gsb_feature_featured_insight_card_fpp][download][tag] = 5.03
 projects[gsb_feature_featured_insight_card_fpp][subdir] = custom/features
 
 ; GSB GSB Feature Featured Person FPP
