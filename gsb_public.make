@@ -86,7 +86,7 @@ projects[gsb_agenda][subdir] = custom
 projects[gsb_box][type] = module
 projects[gsb_box][download][type] = git
 projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-projects[gsb_box][download][branch] = release-1.06
+projects[gsb_box][download][tag] = 1.06
 projects[gsb_box][subdir] = custom
 
 ; GSB Cmis Api
