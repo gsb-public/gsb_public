@@ -412,7 +412,7 @@ projects[gsb_feature_academic_calendar_display][subdir] = custom/features
 projects[gsb_feature_accordion][type] = module
 projects[gsb_feature_accordion][download][type] = git
 projects[gsb_feature_accordion][download][url] = git@github.com:gsb-public/gsb_feature_accordion.git
-projects[gsb_feature_accordion][download][branch] = release-4.01
+projects[gsb_feature_accordion][download][tag] = 4.01
 projects[gsb_feature_accordion][subdir] = custom/features
 
 ; GSB Features ACT CT
