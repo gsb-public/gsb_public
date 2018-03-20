@@ -593,7 +593,7 @@ projects[gsb_feature_diptych_fpp][subdir] = custom/features
 projects[gsb_feature_ee_megamenu][type] = module
 projects[gsb_feature_ee_megamenu][download][type] = git
 projects[gsb_feature_ee_megamenu][download][url] = git@github.com:gsb-public/gsb_feature_ee_megamenu.git
-projects[gsb_feature_ee_megamenu][download][branch] = release-1.01
+projects[gsb_feature_ee_megamenu][download][tag] = 1.01
 projects[gsb_feature_ee_megamenu][subdir] = custom/features
 
 ; GSB Feature Exec-Ed Program Display
