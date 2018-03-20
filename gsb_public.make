@@ -967,7 +967,7 @@ projects[gsb_feature_ranking_display][subdir] = custom/features
 projects[gsb_feature_rss_feeds][type] = module
 projects[gsb_feature_rss_feeds][download][type] = git
 projects[gsb_feature_rss_feeds][download][url] = git@github.com:gsb-public/gsb_feature_rss_feeds.git
-projects[gsb_feature_rss_feeds][download][branch] = release-5.01
+projects[gsb_feature_rss_feeds][download][tag] = 5.01
 projects[gsb_feature_rss_feeds][subdir] = custom/features
 
 ; GSB Features Seed Coach CT
