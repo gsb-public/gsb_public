@@ -212,7 +212,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsb-public/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][tag] = 3.03
+projects[gsb_fpp_xray][download][branch] = release-3.04
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Login Destination
@@ -823,14 +823,14 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.16
+projects[gsb_feature_news_display][download][branch] = release-5.17
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite School Story CT
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.09
+projects[gsb_feature_offsite_school_story_ct][download][branch] = release-5.10
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
