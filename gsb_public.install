@@ -7323,3 +7323,12 @@ function gsb_public_update_7413() {
   field_delete_field('field_program_instance');
   field_purge_batch(10);
 }
+
+/**
+ * Enable the Mission Statement Fpp Module
+ */
+function gsb_public_update_7414() {
+  if (!module_exists('gsb_feature_mission_statement_fpp')) {
+    module_enable(array('gsb_feature_mission_statement_fpp'));
+  }
+}
