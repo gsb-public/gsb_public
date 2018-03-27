@@ -805,6 +805,13 @@ projects[gsb_feature_metatag][download][url] = git@github.com:gsb-public/gsb_fea
 projects[gsb_feature_metatag][download][tag] = 4.01
 projects[gsb_feature_metatag][subdir] = custom/features
 
+; GSB Features Mission Statement Fpp
+projects[gsb_feature_mission_statement_fpp][type] = module
+projects[gsb_feature_mission_statement_fpp][download][type] = git
+projects[gsb_feature_mission_statement_fpp][download][url] = git@github.com:gsb-public/gsb_feature_mission_statement_fpp.git
+projects[gsb_feature_mission_statement_fpp][download][branch] = release-1.00
+projects[gsb_feature_mission_statement_fpp][subdir] = custom/features
+
 ; GSB Feature MSx Fellows Content Type
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
