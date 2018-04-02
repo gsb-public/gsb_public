@@ -7332,3 +7332,16 @@ function gsb_public_update_7414() {
     module_enable(array('gsb_feature_mission_statement_fpp'));
   }
 }
+
+/**
+ * Update school_story, announcement and idea_story body to using markdown plus iframe text format
+ */
+function gsb_public_update_7415() {
+  $content_types = array ('announcement', 'school_story', 'idea_story');
+  $num_updated = db_update('field_data_field_body')
+    ->fields(array(
+      'field_body_format' => 'markdown_plus_iframe',
+    ))
+    ->condition('bundle', $content_types, 'IN')
+    ->execute();
+}
