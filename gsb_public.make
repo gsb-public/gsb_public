@@ -212,7 +212,7 @@ projects[gsb_fpp_stock_content][subdir] = custom
 projects[gsb_fpp_xray][type] = module
 projects[gsb_fpp_xray][download][type] = git
 projects[gsb_fpp_xray][download][url] = git@github.com:gsb-public/gsb_fpp_xray.git
-projects[gsb_fpp_xray][download][branch] = release-3.04
+projects[gsb_fpp_xray][download][tag] = 3.04
 projects[gsb_fpp_xray][subdir] = custom
 
 ; GSB Login Destination
@@ -496,7 +496,7 @@ projects[gsb_feature_alumni_reunion_session_ct][subdir] = custom/features
 projects[gsb_feature_announcement_ct][type] = module
 projects[gsb_feature_announcement_ct][download][type] = git
 projects[gsb_feature_announcement_ct][download][url] = git@github.com:gsb-public/gsb_feature_announcement_ct.git
-projects[gsb_feature_announcement_ct][download][branch] = release-5.17
+projects[gsb_feature_announcement_ct][download][tag] = 5.17
 projects[gsb_feature_announcement_ct][subdir] = custom/features
 
 ; GSB Feature base fields
@@ -711,7 +711,7 @@ projects[gsb_feature_homepage_cta_fpp][subdir] = custom/features
 projects[gsb_feature_idea_story_ct][type] = module
 projects[gsb_feature_idea_story_ct][download][type] = git
 projects[gsb_feature_idea_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_idea_story_ct.git
-projects[gsb_feature_idea_story_ct][download][branch] = release-5.27
+projects[gsb_feature_idea_story_ct][download][tag] = 5.27
 projects[gsb_feature_idea_story_ct][subdir] = custom/features
 
 ; GSB Features Idea Story Display
@@ -809,7 +809,7 @@ projects[gsb_feature_metatag][subdir] = custom/features
 projects[gsb_feature_mission_statement_fpp][type] = module
 projects[gsb_feature_mission_statement_fpp][download][type] = git
 projects[gsb_feature_mission_statement_fpp][download][url] = git@github.com:gsb-public/gsb_feature_mission_statement_fpp.git
-projects[gsb_feature_mission_statement_fpp][download][branch] = release-1.00
+projects[gsb_feature_mission_statement_fpp][download][tag] = 1.00
 projects[gsb_feature_mission_statement_fpp][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
@@ -830,14 +830,14 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][branch] = release-5.17
+projects[gsb_feature_news_display][download][tag] = 5.17
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite School Story CT
 projects[gsb_feature_offsite_school_story_ct][type] = module
 projects[gsb_feature_offsite_school_story_ct][download][type] = git
 projects[gsb_feature_offsite_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_offsite_school_story_ct.git
-projects[gsb_feature_offsite_school_story_ct][download][branch] = release-5.10
+projects[gsb_feature_offsite_school_story_ct][download][tag] = 5.10
 projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 
 ; GSB Feature Page
@@ -891,7 +891,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][branch] = release-6.32
+projects[gsb_feature_program_ct][download][tag] = 6.32
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -1002,7 +1002,7 @@ projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 projects[gsb_feature_school_story_ct][type] = module
 projects[gsb_feature_school_story_ct][download][type] = git
 projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_school_story_ct.git
-projects[gsb_feature_school_story_ct][download][branch] = release-5.19
+projects[gsb_feature_school_story_ct][download][tag] = 5.19
 projects[gsb_feature_school_story_ct][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
@@ -1128,7 +1128,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsb-public/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][branch] = release-5.16
+projects[gsb_feature_wysiwyg][download][tag] = 5.16
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 ; GSB Feature View Modes
