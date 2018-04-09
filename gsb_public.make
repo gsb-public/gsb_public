@@ -433,7 +433,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.25
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.26
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
@@ -475,7 +475,7 @@ projects[gsb_feature_alumni_reunion_agenda_item_display][subdir] = custom/featur
 projects[gsb_feature_alumni_reunion_group_page_ct][type] = module
 projects[gsb_feature_alumni_reunion_group_page_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_group_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_group_page_ct.git
-projects[gsb_feature_alumni_reunion_group_page_ct][download][tag] = 5.06
+projects[gsb_feature_alumni_reunion_group_page_ct][download][branch] = release-5.07
 projects[gsb_feature_alumni_reunion_group_page_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Group Page Display
@@ -844,7 +844,7 @@ projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
 projects[gsb_feature_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_page_ct.git
-projects[gsb_feature_page_ct][download][tag] = 5.16
+projects[gsb_feature_page_ct][download][branch] = release-5.17
 projects[gsb_feature_page_ct][subdir] = custom/features
 
 projects[gsb_feature_people_display][type] = module
@@ -940,7 +940,7 @@ projects[gsb_feature_programs_list_fpp][subdir] = custom/features
 projects[gsb_feature_program_panelized_page_ct][type] = module
 projects[gsb_feature_program_panelized_page_ct][download][type] = git
 projects[gsb_feature_program_panelized_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_panelized_page_ct.git
-projects[gsb_feature_program_panelized_page_ct][download][tag] = 1.08
+projects[gsb_feature_program_panelized_page_ct][download][branch] = release-1.09
 projects[gsb_feature_program_panelized_page_ct][subdir] = custom/features
 
 ; GSB Publication
@@ -988,7 +988,7 @@ projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 projects[gsb_feature_seed_research_library_ct][type] = module
 projects[gsb_feature_seed_research_library_ct][download][type] = git
 projects[gsb_feature_seed_research_library_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_research_library_ct.git
-projects[gsb_feature_seed_research_library_ct][download][tag] = 1.05
+projects[gsb_feature_seed_research_library_ct][download][branch] = release-1.06
 projects[gsb_feature_seed_research_library_ct][subdir] = custom/features
 
 ; GSB Features Seed Research Library CT
