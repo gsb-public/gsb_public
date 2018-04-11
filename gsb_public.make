@@ -940,7 +940,7 @@ projects[gsb_feature_programs_list_fpp][subdir] = custom/features
 projects[gsb_feature_program_panelized_page_ct][type] = module
 projects[gsb_feature_program_panelized_page_ct][download][type] = git
 projects[gsb_feature_program_panelized_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_panelized_page_ct.git
-projects[gsb_feature_program_panelized_page_ct][download][branch] = release-1.09
+projects[gsb_feature_program_panelized_page_ct][download][tag] = 1.09
 projects[gsb_feature_program_panelized_page_ct][subdir] = custom/features
 
 ; GSB Publication
