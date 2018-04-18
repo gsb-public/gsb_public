@@ -128,7 +128,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.30
+projects[gsb_public_custom_blocks][download][branch] = release-6.31
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -198,7 +198,7 @@ projects[gsb_filter_with_states][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsb-public/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 5.10
+projects[gsb_fpp_customization][download][branch] = release-5.11
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -809,7 +809,7 @@ projects[gsb_feature_metatag][subdir] = custom/features
 projects[gsb_feature_mission_statement_fpp][type] = module
 projects[gsb_feature_mission_statement_fpp][download][type] = git
 projects[gsb_feature_mission_statement_fpp][download][url] = git@github.com:gsb-public/gsb_feature_mission_statement_fpp.git
-projects[gsb_feature_mission_statement_fpp][download][tag] = 1.00
+projects[gsb_feature_mission_statement_fpp][download][branch] = release-1.01
 projects[gsb_feature_mission_statement_fpp][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
@@ -830,7 +830,7 @@ projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 projects[gsb_feature_news_display][type] = module
 projects[gsb_feature_news_display][download][type] = git
 projects[gsb_feature_news_display][download][url] = git@github.com:gsb-public/gsb_feature_news_display.git
-projects[gsb_feature_news_display][download][tag] = 5.17
+projects[gsb_feature_news_display][download][branch] = release-5.18
 projects[gsb_feature_news_display][subdir] = custom/features
 
 ; GSB Features Offsite School Story CT
