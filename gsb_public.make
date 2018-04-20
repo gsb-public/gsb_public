@@ -568,6 +568,13 @@ projects[gsb_feature_course_ct][download][url] = git@github.com:gsb-public/gsb_f
 projects[gsb_feature_course_ct][download][tag] = 3.41
 projects[gsb_feature_course_ct][subdir] = custom/features
 
+; GSB Feature Coveo Search
+projects[gsb_feature_coveo_search][type] = module
+projects[gsb_feature_coveo_search][download][type] = git
+projects[gsb_feature_coveo_search][download][url] = git@github.com:gsb-public/gsb_feature_coveo_search.git
+projects[gsb_feature_coveo_search][download][branch] = release-1.00
+projects[gsb_feature_coveo_search][subdir] = custom/features
+
 ; GSB Feature Course
 projects[gsb_feature_course_display][type] = module
 projects[gsb_feature_course_display][download][type] = git
