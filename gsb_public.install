@@ -7345,3 +7345,17 @@ function gsb_public_update_7415() {
     ->condition('bundle', $content_types, 'IN')
     ->execute();
 }
+
+/**
+ * Update school_story, announcement for exclude story homepage field
+ */
+function gsb_public_update_7416() {
+  $types = array('announcement', 'school_story');
+  foreach ($types as $type) {
+    $nodes = node_load_multiple(array(), array('type' => $type));
+    foreach ($nodes as $node) {
+      $node->field_exclude_story_homepage[LANGUAGE_NONE][0]['value'] = '0';
+      field_attach_update('node', $node);
+    }
+  }
+}
