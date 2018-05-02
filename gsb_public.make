@@ -503,7 +503,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.50
+projects[gsb_feature_base_fields][download][branch] = release-5.52
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -783,6 +783,13 @@ projects[gsb_feature_house_ads_fpp][download][type] = git
 projects[gsb_feature_house_ads_fpp][download][url] = git@github.com:gsb-public/gsb_feature_house_ads_fpp.git
 projects[gsb_feature_house_ads_fpp][download][tag] = 5.05
 projects[gsb_feature_house_ads_fpp][subdir] = custom/features
+
+; GSB Feature Landing Viewport FPP
+projects[gsb_feature_landing_viewport_fpp][type] = module
+projects[gsb_feature_landing_viewport_fpp][download][type] = git
+projects[gsb_feature_landing_viewport_fpp][download][url] = git@github.com:gsb-public/gsb_feature_landing_viewport_fpp.git
+projects[gsb_feature_landing_viewport_fpp][download][branch] = release-1.00
+projects[gsb_feature_landing_viewport_fpp][subdir] = custom/features
 
 ; GSB Feature Media Item CT
 projects[gsb_feature_media_item_ct][type] = module
