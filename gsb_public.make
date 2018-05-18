@@ -1222,6 +1222,11 @@ projects[breadcrumbs_by_path][subdir] = contrib
 projects[breadcrumbs_by_path][patch][2039191] = https://drupal.org/files/breadcrumbs_by_patch-2039191-2.patch
 projects[breadcrumbs_by_path][patch][2415403] = https://drupal.org/files/issues/breadcrumbs_by_path_patch-2415403-2.patch
 
+; Breakpoints
+projects[breakpoints][version] = 1.6
+projects[breakpoints][subdir] = contrib
+projects[breakpoints][download][branch] = 7.x-1.x
+
 projects[cacheexclude][version] = 2.3
 projects[cacheexclude][subdir] = contrib
 
@@ -1584,6 +1589,11 @@ libraries[php-soundcloud][download][url] = git@github.com:mptre/php-soundcloud.g
 libraries[php-cvent][download][type] = git
 libraries[php-cvent][download][url] = git@github.com:gsb-public/php-cvent.git
 libraries[php-cvent][download][tag] = 5.16
+
+; Picture
+projects[picture][version] = 2.13
+projects[picture][subdir] = contrib
+projects[picture][download][branch] = 7.x-2.x
 
 projects[pm_existing_pages][version] = 1.4
 projects[pm_existing_pages][subdir] = contrib
