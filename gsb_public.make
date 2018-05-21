@@ -1152,6 +1152,13 @@ projects[gsb_feature_view_modes][download][url] = git@github.com:gsb-public/gsb_
 projects[gsb_feature_view_modes][download][tag] = 5.18
 projects[gsb_feature_view_modes][subdir] = custom/features
 
+; GSB Feature Voices Content Type
+projects[gsb_feature_voices_ct][type] = module
+projects[gsb_feature_voices_ct][download][type] = git
+projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
+projects[gsb_feature_voices_ct][download][branch] = release-1.00
+projects[gsb_feature_voices_ct][subdir] = custom/features
+
 ;================================================
 ;  GSB Themes
 ;================================================
