@@ -7368,3 +7368,18 @@ function gsb_public_update_7417() {
     module_enable(array('gsb_feature_landing_viewport_fpp'));
   }
 }
+
+/**
+ * Enable the Voices, Breakpoints and Picture modules
+ */
+function gsb_public_update_7418() {
+  if (!module_exists('gsb_feature_voices_ct')) {
+    module_enable(array('gsb_feature_voices_ct'));
+  }
+  if (!module_exists('breakpoints')) {
+    module_enable(array('breakpoints'));
+  }
+  if (!module_exists('picture')) {
+    module_enable(array('picture'));
+  }
+}
