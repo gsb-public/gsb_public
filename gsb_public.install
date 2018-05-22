@@ -7359,3 +7359,12 @@ function gsb_public_update_7416() {
     }
   }
 }
+
+/**
+ * Enable the Landing Viewport Fpp Module
+ */
+function gsb_public_update_7417() {
+  if (!module_exists('gsb_feature_landing_viewport_fpp')) {
+    module_enable(array('gsb_feature_landing_viewport_fpp'));
+  }
+}
