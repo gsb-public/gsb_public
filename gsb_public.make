@@ -398,7 +398,7 @@ projects[zurb_responsive_tables][subdir] = custom
 projects[gsb_feature_academic_calendar_ct][type] = module
 projects[gsb_feature_academic_calendar_ct][download][type] = git
 projects[gsb_feature_academic_calendar_ct][download][url] = git@github.com:gsb-public/gsb_feature_academic_calendar_ct.git
-projects[gsb_feature_academic_calendar_ct][download][tag] = 5.07
+projects[gsb_feature_academic_calendar_ct][download][branch] = release-5.08
 projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 
 ; GSB Features Academic Calendar Display
@@ -433,7 +433,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.26
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.27
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
@@ -461,7 +461,7 @@ projects[gsb_feature_alumni_ct][subdir] = custom/features
 projects[gsb_feature_alumni_reunion_agenda_item_ct][type] = module
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_ct.git
-projects[gsb_feature_alumni_reunion_agenda_item_ct][download][tag] = 5.12
+projects[gsb_feature_alumni_reunion_agenda_item_ct][download][branch] = release-5.13
 projects[gsb_feature_alumni_reunion_agenda_item_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item Display
