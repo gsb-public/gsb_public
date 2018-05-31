@@ -7383,3 +7383,43 @@ function gsb_public_update_7418() {
     module_enable(array('picture'));
   }
 }
+
+/**
+ * Migrate faculty endowed title data to link field
+ */
+function gsb_public_update_7419() {
+
+  $entity_type = 'node';
+  // get all faculty nodes
+  $query = new EntityFieldQuery();
+  $query
+    ->entityCondition('entity_type', $entity_type)
+    ->entityCondition('bundle', 'faculty');
+
+  $entities = $query->execute();
+
+  foreach($entities[$entity_type] as $entity) {
+    // wrapper
+    $wrapper = entity_metadata_wrapper($entity_type, $entity->nid);
+    if (!empty($wrapper->field_title_appointment->value())) {
+      $wrapper->field_endowed_title_appointment->title->set($wrapper->field_title_appointment->value());
+      $wrapper->save();
+    }
+  }
+}
+
+/**
+ * Delete endowed title appointment from faculty ct
+ */
+function gsb_public_update_7420() {
+  // Remove endowed title appointment
+  $instance = field_info_instance('node', 'field_title_appointment', 'faculty');
+
+  // Mark field instance for deletion.
+  field_delete_instance($instance);
+  field_purge_batch(10);
+
+  // Remove the field
+  field_delete_field('field_title_appointment');
+  field_purge_batch(10);
+}
