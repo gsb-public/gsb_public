@@ -1156,8 +1156,15 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_feature_voices_ct][type] = module
 projects[gsb_feature_voices_ct][download][type] = git
 projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
-projects[gsb_feature_voices_ct][download][tag] = 1.00
+projects[gsb_feature_voices_ct][download][branch] = release-1.01
 projects[gsb_feature_voices_ct][subdir] = custom/features
+
+; GSB Feature Voices Display Type
+projects[gsb_feature_voices_display][type] = module
+projects[gsb_feature_voices_display][download][type] = git
+projects[gsb_feature_voices_display][download][url] = git@github.com:gsb-public/gsb_feature_voices_display.git
+projects[gsb_feature_voices_display][download][branch] = release-1.00
+projects[gsb_feature_voices_display][subdir] = custom/features
 
 ;================================================
 ;  GSB Themes
