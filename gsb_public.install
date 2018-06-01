@@ -7383,3 +7383,12 @@ function gsb_public_update_7418() {
     module_enable(array('picture'));
   }
 }
+
+/**
+ * Enable the Voices Display module
+ */
+function gsb_public_update_7419() {
+  if (!module_exists('gsb_feature_voices_display')) {
+    module_enable(array('gsb_feature_voices_display'));
+  }
+}
