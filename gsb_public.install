@@ -7472,3 +7472,14 @@ function gsb_public_update_7422() {
   field_delete_field('field_title_appointment');
   field_purge_batch(10);
 }
+
+function gsb_public_update_7423() {
+  db_update('block')
+    ->fields(array(
+        'status' => 0,
+        'region' => 'disabled',
+      )
+    )
+    ->condition('delta', 'gpcb_stay_informed')
+    ->execute();
+}
