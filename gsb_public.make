@@ -1502,6 +1502,7 @@ projects[markdown][subdir] = contrib
 projects[md_megamenu][download][type] = git
 projects[md_megamenu][download][url] = git@bitbucket.org:stanfordgsb/md_megamenu.git
 projects[md_megamenu][download][branch] = WP-8325
+projects[md_megamenu][subdir] = custom
 
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib

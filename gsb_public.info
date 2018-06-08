@@ -251,3 +251,6 @@ dependencies[] = gsb_feature_working_paper_display
 dependencies[] = gsb_feature_wysiwyg
 dependencies[] = gsb_feature_view_modes
 dependencies[] = gsb_feature_voices_ct
+
+; Proprietary Features
+dependencies[] = md_megamenu
