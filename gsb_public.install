@@ -7403,3 +7403,57 @@ function gsb_public_update_7420() {
     ->condition('delta', 'gpcb_stay_informed')
     ->execute();
 }
+
+/**
+ * Delete the field instances field_app_requirements_intro from program.
+ */
+function gsb_public_update_7321() {
+  $field_names = array(
+    'field_app_requirements_intro'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Delete the field instances field_additional_page_prefix from program.
+ */
+function gsb_public_update_7322() {
+  $field_names = array(
+    'field_additional_page_prefix'
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'program');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(10);
+}
+
+/**
+ * Reset the layout from gsb-widescreen to gsb-full-bleed-page for all
+ * program_panelized_page content
+ */
+function gsb_public_update_7323() {
+
+  $query = db_select('node', 'n');
+  $query->fields('n', array('type', 'nid'));
+  $query->join('panelizer_entity', 'pe', "n.nid = pe.entity_id");
+  $query->fields('pe', array('entity_id', 'did'));
+  $query->join('panels_display', 'pd', "pe.did = pd.did");
+  $query->fields('pd', array('layout', 'did'));
+  $query->condition('n.type', 'program_panelized_page');
+  $query->condition('pd.layout', 'gsb-widescreen');
+  $results = $query->execute();
+
+  foreach ($results as $ppp) {
+    db_update('panels_display')
+      ->fields(array(
+        'layout' => 'gsb-full-bleed-page',
+      ))
+      ->condition('panels_display.did', $ppp->did)
+      ->execute();
+  }
+}
