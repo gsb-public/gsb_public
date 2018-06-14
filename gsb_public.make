@@ -1500,7 +1500,7 @@ projects[markdown][version] = 1.5
 projects[markdown][subdir] = contrib
 
 projects[md_megamenu][download][type] = git
-projects[md_megamenu][download][url] = git@bitbucket.org:stanfordgsb/md_megamenu.git
+projects[md_megamenu][download][url] = https://gsbgmercer@bitbucket.org/stanfordgsb/md_megamenu.git
 projects[md_megamenu][download][branch] = WP-8325
 projects[md_megamenu][subdir] = custom
 
