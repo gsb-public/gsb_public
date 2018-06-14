@@ -1499,6 +1499,11 @@ projects[markup][subdir] = contrib
 projects[markdown][version] = 1.5
 projects[markdown][subdir] = contrib
 
+projects[md_megamenu][download][type] = git
+projects[md_megamenu][download][url] = git@bitbucket.org:stanfordgsb/md_megamenu.git
+projects[md_megamenu][download][branch] = WP-8325
+projects[md_megamenu][subdir] = custom
+
 projects[media][version] = 2.0-alpha3
 projects[media][subdir] = contrib
 projects[media][patch][1931336] = http://drupal.org/files/1931336-d7-4.patch
