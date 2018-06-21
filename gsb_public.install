@@ -7492,3 +7492,10 @@ function gsb_public_update_7424() {
     module_enable(array('gsb_feature_coveo_search'));
   }
 }
+
+/**
+ * Disable gsb_feature_gsa_search.
+ */
+function gsb_public_update_7425() {
+  module_disable(array('gsb_feature_gsa_search'));
+}
