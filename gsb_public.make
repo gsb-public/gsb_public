@@ -572,7 +572,7 @@ projects[gsb_feature_course_ct][subdir] = custom/features
 projects[gsb_feature_coveo_search][type] = module
 projects[gsb_feature_coveo_search][download][type] = git
 projects[gsb_feature_coveo_search][download][url] = git@github.com:gsb-public/gsb_feature_coveo_search.git
-projects[gsb_feature_coveo_search][download][branch] = release-1.01
+projects[gsb_feature_coveo_search][download][tag] = 1.01
 projects[gsb_feature_coveo_search][subdir] = custom/features
 
 ; GSB Feature Course
