@@ -7483,3 +7483,12 @@ function gsb_public_update_7423() {
   field_delete_field('field_title_appointment');
   field_purge_batch(10);
 }
+
+/**
+ * Enable the Coveo Search module
+ */
+function gsb_public_update_7424() {
+  if (!module_exists('gsb_feature_coveo_search')) {
+    module_enable(array('gsb_feature_coveo_search'));
+  }
+}
