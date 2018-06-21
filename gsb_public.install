@@ -7499,3 +7499,12 @@ function gsb_public_update_7424() {
 function gsb_public_update_7425() {
   module_disable(array('gsb_feature_gsa_search'));
 }
+
+/**
+ * Enable phpwkhtmltopdf module.
+ */
+function gsb_public_update_7426() {
+  if (!module_exists('phpwkhtmltopdf')) {
+    module_enable(array('phpwkhtmltopdf'));
+  }
+}
