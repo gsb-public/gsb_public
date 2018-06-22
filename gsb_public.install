@@ -7488,8 +7488,8 @@ function gsb_public_update_7423() {
  * Enable the Coveo Search module
  */
 function gsb_public_update_7424() {
-  if (!module_exists('gsb_feature_coveo_search')) {
-    module_enable(array('gsb_feature_coveo_search'));
+  if (!module_exists('gsb_coveo_search')) {
+    module_enable(array('gsb_coveo_search'));
   }
 }
 
