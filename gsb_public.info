@@ -117,6 +117,7 @@ dependencies[] = gsb_auto_upload_file
 dependencies[] = gsb_az_filter
 dependencies[] = gsb_connecting_link
 dependencies[] = gsb_content_pane_info
+dependencies[] = gsb_coveo_search
 dependencies[] = gsb_custom_section_title
 dependencies[] = gsb_cvent
 dependencies[] = gsb_dvent
