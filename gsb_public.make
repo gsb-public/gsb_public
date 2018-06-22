@@ -117,6 +117,13 @@ projects[gsb_content_pane_info][download][url] = git@github.com:gsb-public/gsb_c
 projects[gsb_content_pane_info][download][tag] = 5.15
 projects[gsb_content_pane_info][subdir] = custom
 
+; GSB Coveo Search
+projects[gsb_coveo_search][type] = module
+projects[gsb_coveo_search][download][type] = git
+projects[gsb_coveo_search][download][url] = git@github.com:gsb-public/gsb_coveo_search.git
+projects[gsb_coveo_search][download][branch] = release-1.02
+projects[gsb_coveo_search][subdir] = custom
+
 ; GSB Custom Section Title
 projects[gsb_custom_section_title][type] = module
 projects[gsb_custom_section_title][download][type] = git
@@ -567,13 +574,6 @@ projects[gsb_feature_course_ct][download][type] = git
 projects[gsb_feature_course_ct][download][url] = git@github.com:gsb-public/gsb_feature_course_ct.git
 projects[gsb_feature_course_ct][download][tag] = 3.41
 projects[gsb_feature_course_ct][subdir] = custom/features
-
-; GSB Feature Coveo Search
-projects[gsb_feature_coveo_search][type] = module
-projects[gsb_feature_coveo_search][download][type] = git
-projects[gsb_feature_coveo_search][download][url] = git@github.com:gsb-public/gsb_feature_coveo_search.git
-projects[gsb_feature_coveo_search][download][branch] = release-1.02
-projects[gsb_feature_coveo_search][subdir] = custom/features
 
 ; GSB Feature Course
 projects[gsb_feature_course_display][type] = module
