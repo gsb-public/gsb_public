@@ -7508,3 +7508,10 @@ function gsb_public_update_7426() {
     module_enable(array('phpwkhtmltopdf'));
   }
 }
+
+/**
+ * Set simplesaml pattern for private files.
+ */
+function gsb_public_update_7427() {
+  variable_set('simplesaml_auth_private_files_base_path', '*');
+}
