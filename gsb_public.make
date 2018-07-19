@@ -1711,7 +1711,7 @@ projects[typogrify][subdir] = contrib
 projects[tzfield][version] = 1.1
 projects[tzfield][subdir] = contrib
 
-projects[uuid][version] = 1.0
+projects[uuid][version] = 1.2
 projects[uuid][subdir] = contrib
 
 projects[video_embed_field][version] = 2.0-beta11
