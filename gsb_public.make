@@ -1319,7 +1319,7 @@ projects[diff][subdir] = contrib
 projects[drafty][version] = 1.0-rc1
 projects[drafty][subdir] = contrib
 
-projects[ds][version] = 2.14
+projects[ds][version] = 2.15
 projects[ds][subdir] = contrib
 
 libraries[easyResponsiveTabs][download][type] = get
@@ -1339,7 +1339,7 @@ projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/em
 projects[encrypt][version] = 2.3
 projects[encrypt][subdir] = contrib
 
-projects[entity][version] = 1.8
+projects[entity][version] = 1.9
 projects[entity][subdir] = contrib
 
 projects[entityreference][version] = 1.5
@@ -1512,11 +1512,8 @@ projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
 projects[media][patch][media-addjs] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/WPBQA-262/media-addjs.patch
 projects[media][patch][2067063] = https://www.drupal.org/files/media-wysiwyg-broken-2067063-138_0.patch
 
-projects[media_youtube][version] = 2.x-dev
+projects[media_youtube][version] = 3.7
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][download][type] = git
-projects[media_youtube][download][revision] = 5faa00c
-projects[media_youtube][download][branch] = 7.x-2.x
 
 projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
