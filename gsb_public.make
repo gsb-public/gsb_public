@@ -1341,6 +1341,9 @@ projects[encrypt][subdir] = contrib
 projects[entity][version] = 1.9
 projects[entity][subdir] = contrib
 
+projects[entitycache][version] = 1.5
+projects[entitycache][subdir] = contrib
+
 projects[entityreference][version] = 1.5
 projects[entityreference][subdir] = contrib
 
