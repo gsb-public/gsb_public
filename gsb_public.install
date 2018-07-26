@@ -7515,3 +7515,17 @@ function gsb_public_update_7426() {
 function gsb_public_update_7427() {
   variable_set('simplesaml_auth_private_files_base_path', '*');
 }
+
+/**
+ * WP-8438 Delete field instance from Voices CT
+ */
+function gsb_public_update_7428() {
+  $field_names = array(
+    'field_slideshow_style',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'voices');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(1);
+}
