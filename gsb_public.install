@@ -7529,3 +7529,17 @@ function gsb_public_update_7428() {
   }
   field_purge_batch(1);
 }
+
+/**
+ * WP-8444 Delete field instance field_related_other_label from Voices CT
+ */
+function gsb_public_update_7429() {
+  $field_names = array(
+    'field_related_other_label',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'voices');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(1);
+} 
