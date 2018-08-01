@@ -7515,3 +7515,59 @@ function gsb_public_update_7426() {
 function gsb_public_update_7427() {
   variable_set('simplesaml_auth_private_files_base_path', '*');
 }
+
+/**
+ * WP-8438 Delete field instance from Voices CT
+ */
+function gsb_public_update_7428() {
+  $field_names = array(
+    'field_slideshow_style',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'voices');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(1);
+}
+
+/**
+ * WP-8444 Delete field instance field_related_other_label from Voices CT
+ */
+function gsb_public_update_7429() {
+  $field_names = array(
+    'field_related_other_label',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'voices');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(1);
+} 
+
+/**
+ * WP-8354 Prevent search engines from indexing pages
+ */
+function gsb_public_update_7430() {
+  $config = new stdClass();
+  $config->disabled = FALSE; /* Edit this to true to make a default config disabled initially */
+  $config->api_version = 1;
+  $config->instance = 'node:alumni_reunion_agenda_item';
+  $config->config = [
+    'robots' => [
+      'value' => [
+        'noindex' => 'noindex',
+        'noarchive' => 'noarchive',
+        'index' => 0,
+        'follow' => 0,
+        'nofollow' => 0,
+        'nosnippet' => 0,
+        'noodp' => 0,
+        'noydir' => 0,
+        'noimageindex' => 0,
+        'notranslate' => 0,
+      ],
+    ],
+  ];
+  $config = (object) $config;
+  metatag_config_save($config);
+}
