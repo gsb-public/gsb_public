@@ -275,7 +275,7 @@ projects[gsb_panels_pages][subdir] = custom
 projects[gsb_public_brochure_list][type] = module
 projects[gsb_public_brochure_list][download][type] = git
 projects[gsb_public_brochure_list][download][url] = git@github.com:gsb-public/gsb_public_brochure_list.git
-projects[gsb_public_brochure_list][download][tag] = 1.08
+projects[gsb_public_brochure_list][download][tag] = 1.09
 projects[gsb_public_brochure_list][subdir] = custom
 
 ; GSB Public Statistics
@@ -412,7 +412,7 @@ projects[gsb_feature_academic_calendar_ct][subdir] = custom/features
 projects[gsb_feature_academic_calendar_display][type] = module
 projects[gsb_feature_academic_calendar_display][download][type] = git
 projects[gsb_feature_academic_calendar_display][download][url] = git@github.com:gsb-public/gsb_feature_academic_calendar_display.git
-projects[gsb_feature_academic_calendar_display][download][tag] = 1.4
+projects[gsb_feature_academic_calendar_display][download][tag] = 1.5
 projects[gsb_feature_academic_calendar_display][subdir] = custom/features
 
 ; GSB Features Accordion
@@ -468,7 +468,7 @@ projects[gsb_feature_alumni_ct][subdir] = custom/features
 projects[gsb_feature_alumni_reunion_agenda_item_ct][type] = module
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][type] = git
 projects[gsb_feature_alumni_reunion_agenda_item_ct][download][url] = git@github.com:gsb-public/gsb_feature_alumni_reunion_agenda_item_ct.git
-projects[gsb_feature_alumni_reunion_agenda_item_ct][download][tag] = 5.13
+projects[gsb_feature_alumni_reunion_agenda_item_ct][download][tag] = 5.14
 projects[gsb_feature_alumni_reunion_agenda_item_ct][subdir] = custom/features
 
 ; GSB Features Alumni Reunion Agenda Item Display
@@ -510,7 +510,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.54
+projects[gsb_feature_base_fields][download][tag] = 5.55
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -933,7 +933,7 @@ projects[gsb_feature_program_finder_display][subdir] = custom/features
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.21
+projects[gsb_feature_program_instance_ct][download][tag] = 6.22
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
@@ -1156,7 +1156,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_feature_voices_ct][type] = module
 projects[gsb_feature_voices_ct][download][type] = git
 projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
-projects[gsb_feature_voices_ct][download][tag] = 1.03
+projects[gsb_feature_voices_ct][download][tag] = 1.04
 projects[gsb_feature_voices_ct][subdir] = custom/features
 
 ; GSB Feature Voices Display Type
@@ -1174,7 +1174,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.56.5
+projects[gsb_theme][download][tag] = 6.57
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
@@ -1223,9 +1223,8 @@ projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
-projects[better_exposed_filters][version] = 3.2
+projects[better_exposed_filters][version] = 3.5
 projects[better_exposed_filters][subdir] = contrib
-projects[better_exposed_filters][patch][2621554] = https://www.drupal.org/files/issues/better_exposed_filters-2621554-2.patch
 
 ; Better formats adds input format visibility settings per-field.
 projects[better_formats][version] = 1.0-beta2
@@ -1319,7 +1318,7 @@ projects[diff][subdir] = contrib
 projects[drafty][version] = 1.0-rc1
 projects[drafty][subdir] = contrib
 
-projects[ds][version] = 2.14
+projects[ds][version] = 2.15
 projects[ds][subdir] = contrib
 
 libraries[easyResponsiveTabs][download][type] = get
@@ -1339,8 +1338,11 @@ projects[email_contact][patch][2364995] = https://www.drupal.org/files/issues/em
 projects[encrypt][version] = 2.3
 projects[encrypt][subdir] = contrib
 
-projects[entity][version] = 1.8
+projects[entity][version] = 1.9
 projects[entity][subdir] = contrib
+
+projects[entitycache][version] = 1.5
+projects[entitycache][subdir] = contrib
 
 projects[entityreference][version] = 1.5
 projects[entityreference][subdir] = contrib
@@ -1512,11 +1514,8 @@ projects[media][patch][1934226] = http://drupal.org/files/1934226-d7-2.patch
 projects[media][patch][media-addjs] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/WPBQA-262/media-addjs.patch
 projects[media][patch][2067063] = https://www.drupal.org/files/media-wysiwyg-broken-2067063-138_0.patch
 
-projects[media_youtube][version] = 2.x-dev
+projects[media_youtube][version] = 3.7
 projects[media_youtube][subdir] = contrib
-projects[media_youtube][download][type] = git
-projects[media_youtube][download][revision] = 5faa00c
-projects[media_youtube][download][branch] = 7.x-2.x
 
 projects[media_vimeo][version] = 2.1
 projects[media_vimeo][subdir] = contrib
@@ -1715,7 +1714,7 @@ projects[typogrify][subdir] = contrib
 projects[tzfield][version] = 1.1
 projects[tzfield][subdir] = contrib
 
-projects[uuid][version] = 1.0
+projects[uuid][version] = 1.2
 projects[uuid][subdir] = contrib
 
 projects[video_embed_field][version] = 2.0-beta11
@@ -1780,7 +1779,7 @@ projects[workbench_moderation][version] = 3.0
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][patch][2947038] = https://www.drupal.org/files/issues/workbench_moderation-2947038-1.patch
 
-projects[xmlsitemap][version] = 2.3
+projects[xmlsitemap][version] = 2.4
 projects[xmlsitemap][subdir] = contrib
 
 projects[youtube_api][version] = 1.0-beta3
