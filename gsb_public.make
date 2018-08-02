@@ -1653,7 +1653,7 @@ libraries[selection-sharer][download][type] = git
 libraries[selection-sharer][download][url] = https://github.com/xdamman/selection-sharer
 libraries[selection-sharer][download][tag] = v0.0.15
 
-projects[select_or_other][version] = 2.23
+projects[select_or_other][version] = 2.24
 projects[select_or_other][subdir] = contrib
 
 libraries[sharrre][download][type] = git
