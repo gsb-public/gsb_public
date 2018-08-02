@@ -683,7 +683,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 6.02
+projects[gsb_feature_file_types][download][branch] = release-6.03
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
@@ -788,7 +788,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_landing_viewport_fpp][type] = module
 projects[gsb_feature_landing_viewport_fpp][download][type] = git
 projects[gsb_feature_landing_viewport_fpp][download][url] = git@github.com:gsb-public/gsb_feature_landing_viewport_fpp.git
-projects[gsb_feature_landing_viewport_fpp][download][tag] = 1.01.1
+projects[gsb_feature_landing_viewport_fpp][download][branch] = release-1.02
 projects[gsb_feature_landing_viewport_fpp][subdir] = custom/features
 
 ; GSB Feature Media Item CT
@@ -823,7 +823,7 @@ projects[gsb_feature_metatag][subdir] = custom/features
 projects[gsb_feature_mission_statement_fpp][type] = module
 projects[gsb_feature_mission_statement_fpp][download][type] = git
 projects[gsb_feature_mission_statement_fpp][download][url] = git@github.com:gsb-public/gsb_feature_mission_statement_fpp.git
-projects[gsb_feature_mission_statement_fpp][download][tag] = 1.01
+projects[gsb_feature_mission_statement_fpp][download][branch] = release-1.02
 projects[gsb_feature_mission_statement_fpp][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
@@ -837,7 +837,7 @@ projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 projects[gsb_feature_msx_fellows_display][type] = module
 projects[gsb_feature_msx_fellows_display][download][type] = git
 projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_display.git
-projects[gsb_feature_msx_fellows_display][download][tag] = 6.02
+projects[gsb_feature_msx_fellows_display][download][branch] = release-6.03
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
 ; GSB Feature News Display
