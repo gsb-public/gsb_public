@@ -447,14 +447,14 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 6.06
+projects[gsb_feature_admission_event_display][download][branch] = release-6.07
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
 projects[gsb_feature_all_research_display][type] = module
 projects[gsb_feature_all_research_display][download][type] = git
 projects[gsb_feature_all_research_display][download][url] = git@github.com:gsb-public/gsb_feature_all_research_display.git
-projects[gsb_feature_all_research_display][download][tag] = 6.02
+projects[gsb_feature_all_research_display][download][branch] = release-6.03
 projects[gsb_feature_all_research_display][subdir] = custom/features
 
 ; GSB Features Alumni CT
