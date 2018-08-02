@@ -7571,3 +7571,18 @@ function gsb_public_update_7430() {
   $config = (object) $config;
   metatag_config_save($config);
 }
+
+/**
+ * Removing field_region_of_interest field instance from publication ct
+ */
+function gsb_public_update_7431() {
+  $field_names = array(
+    'field_region_of_interest',
+  );
+  foreach ($field_names as $field_name) {
+    $instance = field_info_instance('node', $field_name, 'publication');
+    field_delete_instance($instance);
+  }
+  field_purge_batch(1);
+} 
+
