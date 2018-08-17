@@ -184,7 +184,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 6.09
+projects[gsb_field_formatter][download][branch] = release-6.10
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -324,7 +324,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][branch] = release-6.05
+projects[gsb_social][download][tag] = 6.05
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
@@ -926,7 +926,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.23
+projects[gsb_feature_program_finder_display][download][branch] = release-1.24
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
@@ -1016,7 +1016,7 @@ projects[gsb_feature_seed_research_library_display][subdir] = custom/features
 projects[gsb_feature_school_story_ct][type] = module
 projects[gsb_feature_school_story_ct][download][type] = git
 projects[gsb_feature_school_story_ct][download][url] = git@github.com:gsb-public/gsb_feature_school_story_ct.git
-projects[gsb_feature_school_story_ct][download][branch] = release-5.22
+projects[gsb_feature_school_story_ct][download][tag] = 5.22
 projects[gsb_feature_school_story_ct][subdir] = custom/features
 
 ; GSB Feature SimpleSAML
