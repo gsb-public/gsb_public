@@ -184,7 +184,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][branch] = release-6.10
+projects[gsb_field_formatter][download][tag] = 6.10
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -926,7 +926,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][branch] = release-1.24
+projects[gsb_feature_program_finder_display][download][tag] = 1.24
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
