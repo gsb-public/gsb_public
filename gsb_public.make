@@ -1219,7 +1219,7 @@ projects[agenda][subdir] = contrib
 projects[backports][version] = 1.0-alpha1
 projects[backports][subdir] = contrib
 
-projects[backup_migrate][version] = 2.11
+projects[backup_migrate][version] = 2.8
 projects[backup_migrate][subdir] = contrib
 
 ; Better exposed filters for checkbox in views
