@@ -1383,6 +1383,7 @@ projects[features][subdir] = contrib
 
 projects[ffc][version] = 1.0-beta2
 projects[ffc][subdir] = contrib
+projects[ffc][patch][2818731] = https://www.drupal.org/files/issues/ffc-deprecatedsyntaxysfix-2818731-2-D7.patch
 
 projects[fieldable_panels_panes][version] = 1.10
 projects[fieldable_panels_panes][subdir] = contrib
