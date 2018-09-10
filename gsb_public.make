@@ -184,7 +184,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 6.10
+projects[gsb_field_formatter][download][branch] = release-6.11
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -662,7 +662,7 @@ projects[gsb_feature_faculty_display][subdir] = custom/features
 projects[gsb_feature_featured_content_fpp][type] = module
 projects[gsb_feature_featured_content_fpp][download][type] = git
 projects[gsb_feature_featured_content_fpp][download][url] = git@github.com:gsb-public/gsb_feature_featured_content_fpp.git
-projects[gsb_feature_featured_content_fpp][download][tag] = 5.11
+projects[gsb_feature_featured_content_fpp][download][branch] = release-5.12
 projects[gsb_feature_featured_content_fpp][subdir] = custom/features
 
 ; GSB GSB Feature Featured Insight Card FPP
@@ -905,7 +905,7 @@ projects[gsb_feature_program_app_finder][subdir] = custom/features
 projects[gsb_feature_program_ct][type] = module
 projects[gsb_feature_program_ct][download][type] = git
 projects[gsb_feature_program_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_ct.git
-projects[gsb_feature_program_ct][download][tag] = 6.33
+projects[gsb_feature_program_ct][download][branch] = release-6.34
 projects[gsb_feature_program_ct][subdir] = custom/features
 
 ; GSB Program Display
@@ -933,7 +933,7 @@ projects[gsb_feature_program_finder_display][subdir] = custom/features
 projects[gsb_feature_program_instance_ct][type] = module
 projects[gsb_feature_program_instance_ct][download][type] = git
 projects[gsb_feature_program_instance_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_instance_ct.git
-projects[gsb_feature_program_instance_ct][download][tag] = 6.22
+projects[gsb_feature_program_instance_ct][download][branch] = release-6.23
 projects[gsb_feature_program_instance_ct][subdir] = custom/features
 
 ; GSB Program Instance Content Display
@@ -954,7 +954,7 @@ projects[gsb_feature_programs_list_fpp][subdir] = custom/features
 projects[gsb_feature_program_panelized_page_ct][type] = module
 projects[gsb_feature_program_panelized_page_ct][download][type] = git
 projects[gsb_feature_program_panelized_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_program_panelized_page_ct.git
-projects[gsb_feature_program_panelized_page_ct][download][tag] = 1.09
+projects[gsb_feature_program_panelized_page_ct][download][branch] = release-1.10
 projects[gsb_feature_program_panelized_page_ct][subdir] = custom/features
 
 ; GSB Publication
@@ -1421,7 +1421,7 @@ libraries[google-api-php-client][download][type] = git
 libraries[google-api-php-client][download][url] = https://github.com/google/google-api-php-client.git
 libraries[google-api-php-client][download][tag] = 1.1.6
 
-projects[hierarchical_select][version] = 3.0-beta8
+projects[hierarchical_select][version] = 3.0-beta9
 projects[hierarchical_select][subdir] = contrib
 
 projects[hs_lite][version] = 1.x-dev
