@@ -1524,6 +1524,8 @@ projects[media_vimeo][patch][2446199] = https://www.drupal.org/files/issues/no_e
 
 projects[memcache][version] = 1.6
 projects[memcache][subdir] = contrib
+projects[memcache][patch][3000323] = https://www.drupal.org/files/issues/2018-09-17/memcache-3000323-1.patch
+projects[memcache][patch][3000330] = https://www.drupal.org/files/issues/2018-09-17/memcache-3000330-1.patch
 
 projects[menu_attributes][version] = 1.0
 projects[menu_attributes][subdir] = contrib
