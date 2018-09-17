@@ -1391,6 +1391,7 @@ projects[fieldable_panels_panes][subdir] = contrib
 projects[field_collection][version] = 1.0-beta12
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1822844] = https://www.drupal.org/files/issues/notice_undefined-1822844-39.patch
+projects[field_collection][patch][3000335] = https://www.drupal.org/files/issues/2018-09-17/field-collection-3000335-1.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
