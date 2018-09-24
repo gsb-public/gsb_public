@@ -205,7 +205,7 @@ projects[gsb_filter_with_states][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsb-public/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 5.12
+projects[gsb_fpp_customization][download][branch] = release-5.13
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -338,7 +338,7 @@ projects[gsb_submenu_alias_update][subdir] = custom
 projects[gsb_text_equivalent][type] = module
 projects[gsb_text_equivalent][download][type] = git
 projects[gsb_text_equivalent][download][url] = git@github.com:gsb-public/gsb_text_equivalent.git
-projects[gsb_text_equivalent][download][tag] = 1.07
+projects[gsb_text_equivalent][download][branch] = release-1.08
 projects[gsb_text_equivalent][subdir] = custom
 
 ; GSB Tokens
@@ -648,7 +648,7 @@ projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsb-public/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][tag] = 5.28
+projects[gsb_feature_faculty_ct][download][branch] = release-5.29
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
@@ -858,7 +858,7 @@ projects[gsb_feature_offsite_school_story_ct][subdir] = custom/features
 projects[gsb_feature_page_ct][type] = module
 projects[gsb_feature_page_ct][download][type] = git
 projects[gsb_feature_page_ct][download][url] = git@github.com:gsb-public/gsb_feature_page_ct.git
-projects[gsb_feature_page_ct][download][tag] = 5.17
+projects[gsb_feature_page_ct][download][branch] = release-5.18
 projects[gsb_feature_page_ct][subdir] = custom/features
 
 projects[gsb_feature_people_display][type] = module
@@ -1030,7 +1030,7 @@ projects[gsb_feature_simplesaml][subdir] = custom/features
 projects[gsb_feature_social_feed][type] = module
 projects[gsb_feature_social_feed][download][type] = git
 projects[gsb_feature_social_feed][download][url] = git@github.com:gsb-public/gsb_feature_social_feed.git
-projects[gsb_feature_social_feed][download][tag] = 6.05
+projects[gsb_feature_social_feed][download][branch] = release-6.06
 projects[gsb_feature_social_feed][subdir] = custom/features
 
 ; GSB Feature Spotlight
@@ -1142,7 +1142,7 @@ projects[gsb_feature_working_paper_display][subdir] = custom/features
 projects[gsb_feature_wysiwyg][type] = module
 projects[gsb_feature_wysiwyg][download][type] = git
 projects[gsb_feature_wysiwyg][download][url] = git@github.com:gsb-public/gsb_feature_wysiwyg.git
-projects[gsb_feature_wysiwyg][download][tag] = 5.16
+projects[gsb_feature_wysiwyg][download][branch] = release-5.17
 projects[gsb_feature_wysiwyg][subdir] = custom/features
 
 ; GSB Feature View Modes
@@ -1391,6 +1391,7 @@ projects[fieldable_panels_panes][subdir] = contrib
 projects[field_collection][version] = 1.0-beta12
 projects[field_collection][subdir] = contrib
 projects[field_collection][patch][1822844] = https://www.drupal.org/files/issues/notice_undefined-1822844-39.patch
+projects[field_collection][patch][3000335] = https://www.drupal.org/files/issues/2018-09-17/field-collection-3000335-1.patch
 
 projects[field_formatter_settings][version] = 1.1
 projects[field_formatter_settings][subdir] = contrib
@@ -1524,6 +1525,8 @@ projects[media_vimeo][patch][2446199] = https://www.drupal.org/files/issues/no_e
 
 projects[memcache][version] = 1.6
 projects[memcache][subdir] = contrib
+projects[memcache][patch][3000323] = https://www.drupal.org/files/issues/2018-09-17/memcache-3000323-1.patch
+projects[memcache][patch][3000330] = https://www.drupal.org/files/issues/2018-09-17/memcache-3000330-1.patch
 
 projects[menu_attributes][version] = 1.0
 projects[menu_attributes][subdir] = contrib
