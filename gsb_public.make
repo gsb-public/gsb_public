@@ -359,7 +359,7 @@ projects[gsb_trim][subdir] = custom
 projects[gsb_twelve_twenty][type] = module
 projects[gsb_twelve_twenty][download][type] = git
 projects[gsb_twelve_twenty][download][url] = git@github.com:gsb-public/gsb_twelve_twenty.git
-projects[gsb_twelve_twenty][download][branch] = release-1.07
+projects[gsb_twelve_twenty][download][tag] = 1.07
 projects[gsb_twelve_twenty][subdir] = custom
 
 ; GSB URL Shortener
@@ -1525,7 +1525,7 @@ projects[media_vimeo][patch][2446199] = https://www.drupal.org/files/issues/no_e
 
 projects[memcache][version] = 1.6
 projects[memcache][subdir] = contrib
-projects[memcache][patch][3000323] = https://www.drupal.org/files/issues/2018-09-26/memcache-3000323-2.patch
+projects[memcache][patch][3000323] = https://www.drupal.org/files/issues/2018-09-26/memcache-3000323-3.patch
 projects[memcache][patch][3000330] = https://www.drupal.org/files/issues/2018-09-17/memcache-3000330-1.patch
 
 projects[menu_attributes][version] = 1.0
