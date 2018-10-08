@@ -7586,3 +7586,21 @@ function gsb_public_update_7431() {
   field_purge_batch(1);
 } 
 
+/**
+ * Enable md_megamenu module.
+ */
+function gsb_public_update_7432() {
+  if (!module_exists('md_megamenu')) {
+    module_enable(array('md_megamenu'));
+  }
+}
+
+/**
+ * Enable menu_import module.
+ */
+function gsb_public_update_7433() {
+  if (!module_exists('menu_import')) {
+    module_enable(array('menu_import'));
+  }
+}
+
