@@ -1681,7 +1681,7 @@ projects[stackla][download][url] = git@github.com:Stackla/stackla-drupal-plugin.
 projects[stackla][download][branch] = 7.x-1.x
 projects[stackla][subdir] = contrib
 
-projects[stage_file_proxy][version] = 1.7
+projects[stage_file_proxy][version] = 1.8-rc1
 projects[stage_file_proxy][subdir] = contrib
 
 libraries[sticky-master][download][type] = git
