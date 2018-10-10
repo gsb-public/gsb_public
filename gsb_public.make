@@ -823,7 +823,7 @@ projects[gsb_feature_metatag][subdir] = custom/features
 projects[gsb_feature_mission_statement_fpp][type] = module
 projects[gsb_feature_mission_statement_fpp][download][type] = git
 projects[gsb_feature_mission_statement_fpp][download][url] = git@github.com:gsb-public/gsb_feature_mission_statement_fpp.git
-projects[gsb_feature_mission_statement_fpp][download][branch] = release-1.02
+projects[gsb_feature_mission_statement_fpp][download][tag] = 1.02
 projects[gsb_feature_mission_statement_fpp][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Content Type
