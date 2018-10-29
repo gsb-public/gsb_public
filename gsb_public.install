@@ -7603,3 +7603,14 @@ function gsb_public_update_7433() {
     module_enable(array('menu_import'));
   }
 }
+
+/**
+ * WP-8694 Disable mini_panels and remove these unused menus
+ */
+function gsb_public_update_7434() {
+  foreach (panels_mini_load_all() as $mini_panel) {
+    print panels_mini_delete($mini_panel);
+  }
+  module_disable(array('gsb_feature_ee_megamenu'));
+  module_disable(array('gsb_panels_pages'));
+}
