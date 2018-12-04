@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][branch] = release-6.08
+projects[alumni_cas_auth][download][tag] = 6.07
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -1506,7 +1506,7 @@ projects[markdown][subdir] = contrib
 projects[md_megamenu][type] = module
 projects[md_megamenu][download][type] = git
 projects[md_megamenu][download][url] = git@bitbucket.org:stanfordgsb/md_megamenu.git
-projects[md_megamenu][download][branch] = WP-8325
+projects[md_megamenu][download][branch] = release-1.00
 projects[md_megamenu][subdir] = custom
 
 projects[media][version] = 2.0-alpha3
