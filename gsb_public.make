@@ -1554,7 +1554,7 @@ projects[menu_trail_by_path][subdir] = contrib
 projects[metatag][version] = 1.22
 projects[metatag][subdir] = contrib
 
-projects[mimemail][version] = 1.0
+projects[mimemail][version] = 1.1
 projects[mimemail][subdir] = contrib
 
 projects[module_filter][version] = 2.1
