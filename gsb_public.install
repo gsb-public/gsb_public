@@ -7604,3 +7604,12 @@ function gsb_public_update_7433() {
   }
 }
 
+/**
+ * Disable googleanalytics module.
+ */
+function gsb_public_update_7434() {
+  if (module_exists('googleanalytics')) {
+  module_disable(array('googleanalytics'));
+  }
+}
+
