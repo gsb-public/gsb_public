@@ -7661,5 +7661,4 @@ function gsb_public_update_7435() {
     }
   }
   print "Expanded ".$menu_count." menus";
-  $time_post = microtime(true);
 }
