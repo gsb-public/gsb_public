@@ -7615,7 +7615,11 @@ function gsb_public_update_7434() {
   module_disable(array('gsb_panels_pages'));
 }
 
+/**
+ * WP-8792 Expand section menu links
+ */
 function gsb_public_update_7435() {
+  $time_pre = microtime(true);
   $section_menus = array(
     'section-12261', // Experience
     'section-13071', // Alumni
@@ -7641,15 +7645,15 @@ function gsb_public_update_7435() {
   foreach($section_menus as $section) {
     $menus = menu_load($section);
     $menu_links = menu_load_links($section);
+    print("\n Checking:".$menus['title']."\n");
     foreach($menu_links as $menu_item) {
       if($menu_item['has_children'] == 1) {
         if($menu_item['expanded'] != 1) {
-          print("\n".$menus['title']."\n\t(".$menus['description'].")\n");
           $menu_count = $menu_count + 1;
           $menu_item['expanded'] = 1;
-          print "\t\t"
+          print "\t[Expanding]: "
             . $menu_item['link_title']
-            . "\n\t\t\t"
+            . " - "
             . drupal_get_path_alias($menu_item['link_path'])
             . "\n";
           menu_link_save($menu_item);
@@ -7658,4 +7662,6 @@ function gsb_public_update_7435() {
     }
   }
   print "Expanded ".$menu_count." menus";
+  $time_post = microtime(true);
+  $exec_time = $time_post - $time_pre;
 }
