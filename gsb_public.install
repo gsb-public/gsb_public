@@ -7625,7 +7625,7 @@ function gsb_public_update_7435() {
     'section-26671', // Companies
     'section-12461', // Contact Us
     'section-13046', // Faculty & Research
-    'section-27256', // Insights
+    'section-27251', // Insights
     'section-12946', // Jobs
     'section-13051', // Library
     'section-12401', // MBA
