@@ -7619,6 +7619,7 @@ function gsb_public_update_7434() {
  * WP-8792 Expand section menu links
  */
 function gsb_public_update_7435() {
+  $time_pre = microtime(true);
   $section_menus = array(
     'section-12261', // Experience
     'section-13071', // Alumni
@@ -7661,4 +7662,7 @@ function gsb_public_update_7435() {
     }
   }
   print "Expanded ".$menu_count." menus";
+  $time_post = microtime(true);
+  $exec_time = $time_post - $time_pre;
+  echo $exec_time;
 }
