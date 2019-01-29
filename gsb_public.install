@@ -7605,9 +7605,18 @@ function gsb_public_update_7433() {
 }
 
 /**
- * WP-8694 Disable mini_panels and remove these unused menus
+ * Disable googleanalytics module.
  */
 function gsb_public_update_7434() {
+  if (module_exists('googleanalytics')) {
+  module_disable(array('googleanalytics'));
+  }
+}
+
+/**
+ * WP-8694 Disable mini_panels and remove these unused menus
+ */
+function gsb_public_update_7435() {
   foreach (panels_mini_load_all() as $mini_panel) {
     print panels_mini_delete($mini_panel);
   }
@@ -7618,7 +7627,7 @@ function gsb_public_update_7434() {
 /**
  * WP-8792 Expand section menu links
  */
-function gsb_public_update_7435() {
+function gsb_public_update_7436() {
   $time_pre = microtime(true);
   $section_menus = array(
     'section-12261', // Experience
@@ -7665,13 +7674,4 @@ function gsb_public_update_7435() {
   $time_post = microtime(true);
   $exec_time = $time_post - $time_pre;
   echo $exec_time;
-}
-
-/**
- * Disable googleanalytics module.
- */
-function gsb_public_update_7436() {
-  if (module_exists('googleanalytics')) {
-  module_disable(array('googleanalytics'));
-  }
 }
