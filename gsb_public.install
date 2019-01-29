@@ -7666,3 +7666,12 @@ function gsb_public_update_7435() {
   $exec_time = $time_post - $time_pre;
   echo $exec_time;
 }
+
+/**
+ * Disable googleanalytics module.
+ */
+function gsb_public_update_7436() {
+  if (module_exists('googleanalytics')) {
+  module_disable(array('googleanalytics'));
+  }
+}
