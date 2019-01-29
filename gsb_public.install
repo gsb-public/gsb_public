@@ -7628,8 +7628,7 @@ function gsb_public_update_7435() {
  * WP-8792 Expand section menu links
  */
 function gsb_public_update_7436() {
-  $time_pre = microtime(true);
-  $section_menus = array(
+  $section_menus = [
     'section-12261', // Experience
     'section-13071', // Alumni
     'section-26671', // Companies
@@ -7648,17 +7647,15 @@ function gsb_public_update_7436() {
     'section-12421', // Community
     'section-12416', // Visit
     'section-33656', // Catalog
-  );
+  ];
 
-  $menu_count = 0;
-  foreach($section_menus as $section) {
+  foreach ($section_menus as $section) {
     $menus = menu_load($section);
     $menu_links = menu_load_links($section);
-    print("\n Checking:".$menus['title']."\n");
-    foreach($menu_links as $menu_item) {
-      if($menu_item['has_children'] == 1) {
-        if($menu_item['expanded'] != 1) {
-          $menu_count = $menu_count + 1;
+    print("\n Checking:" . $menus['title'] . "\n");
+    foreach ($menu_links as $menu_item) {
+      if ($menu_item['has_children'] == 1 && $menu_item['hidden'] != 1) {
+        if ($menu_item['expanded'] != 1) {
           $menu_item['expanded'] = 1;
           print "\t[Expanding]: "
             . $menu_item['link_title']
@@ -7670,8 +7667,4 @@ function gsb_public_update_7436() {
       }
     }
   }
-  print "Expanded ".$menu_count." menus";
-  $time_post = microtime(true);
-  $exec_time = $time_post - $time_pre;
-  echo $exec_time;
 }
