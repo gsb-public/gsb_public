@@ -9,7 +9,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 6.07
+projects[alumni_cas_auth][download][tag] = 6.08
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -324,7 +324,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][tag] = 6.05
+projects[gsb_social][download][tag] = 6.06
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
@@ -648,7 +648,7 @@ projects[gsb_feature_existing_node_list_fpp][subdir] = custom/features
 projects[gsb_feature_faculty_ct][type] = module
 projects[gsb_feature_faculty_ct][download][type] = git
 projects[gsb_feature_faculty_ct][download][url] = git@github.com:gsb-public/gsb_feature_faculty_ct.git
-projects[gsb_feature_faculty_ct][download][branch] = release-5.31
+projects[gsb_feature_faculty_ct][download][tag] = 5.31
 projects[gsb_feature_faculty_ct][subdir] = custom/features
 
 ; GSB GSB Feature Faculty Display
@@ -1506,7 +1506,7 @@ projects[markdown][subdir] = contrib
 projects[md_megamenu][type] = module
 projects[md_megamenu][download][type] = git
 projects[md_megamenu][download][url] = git@bitbucket.org:stanfordgsb/md_megamenu.git
-projects[md_megamenu][download][branch] = release-1.00
+projects[md_megamenu][download][tag] = 1.00
 projects[md_megamenu][subdir] = custom
 
 projects[media][version] = 2.0-alpha3
@@ -1554,7 +1554,7 @@ projects[menu_trail_by_path][subdir] = contrib
 projects[metatag][version] = 1.22
 projects[metatag][subdir] = contrib
 
-projects[mimemail][version] = 1.0
+projects[mimemail][version] = 1.1
 projects[mimemail][subdir] = contrib
 
 projects[module_filter][version] = 2.1
@@ -1667,7 +1667,7 @@ libraries[sharrre][download][type] = git
 libraries[sharrre][download][url] = https://github.com/Julienh/Sharrre.git
 libraries[sharrre][download][tag] = 2.0.1
 libraries[sharrre][patch][296] = https://patch-diff.githubusercontent.com/raw/Julienh/Sharrre/pull/296.diff
-libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.1.patch
+libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.3.patch
 
 projects[site_verify][version] = 1.2
 projects[site_verify][subdir] = contrib
