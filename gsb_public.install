@@ -7657,8 +7657,7 @@ function gsb_public_update_7436() {
       if ($menu_item['has_children'] == 1 && $menu_item['hidden'] != 1) {
         if ($menu_item['expanded'] != 1) {
           $menu_item['expanded'] = 1;
-          print "\t[Expanding]: 
-        {"
+          print "\t[Expanding]:"
             . $menu_item['link_title']
             . " - "
             . drupal_get_path_alias($menu_item['link_path'])
