@@ -1256,6 +1256,9 @@ projects[checkall][subdir] = contrib
 projects[checkall][download][type] = git
 projects[checkall][download][branch] = 7.x-1.x
 
+projects[clamav][version] = 1.1
+projects[clamav][subdir] = contrib
+
 projects[cmis][version] = 1.7
 projects[cmis][subdir] = contrib
 projects[cmis][patch][2174487] = https://drupal.org/files/issues/cmis_patch-2174487-1.patch
