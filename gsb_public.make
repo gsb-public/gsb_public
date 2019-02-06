@@ -555,6 +555,13 @@ projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gs
 projects[gsb_feature_case_display][download][tag] = 6.03
 projects[gsb_feature_case_display][subdir] = custom/features
 
+; GSB Feature ClamAV Config
+projects[gsb_feature_case_display][type] = module
+projects[gsb_feature_case_display][download][type] = git
+projects[gsb_feature_case_display][download][url] = git@github.com:gsb-public/gsb_feature_clamav_config.git
+projects[gsb_feature_case_display][download][branch] = WP-8751
+projects[gsb_feature_case_display][subdir] = custom/features
+
 ; GSB Feature Club
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
