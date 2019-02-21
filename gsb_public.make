@@ -1476,7 +1476,7 @@ libraries[kraken-php][destination] = "libraries"
 projects[libraries][version] = 2.3
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.4
+projects[link][version] = 1.6
 projects[link][subdir] = contrib
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
