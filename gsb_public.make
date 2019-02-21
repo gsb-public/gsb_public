@@ -1593,7 +1593,7 @@ projects[panelizer][subdir] = contrib
 projects[panels][version] = 3.9
 projects[panels][subdir] = contrib
 
-projects[panels_breadcrumbs][version] = 2.2
+projects[panels_breadcrumbs][version] = 2.4
 projects[panels_breadcrumbs][subdir] = contrib
 
 projects[pathauto][version] = 1.3
