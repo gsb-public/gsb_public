@@ -1192,7 +1192,7 @@ projects[addthis][version] = 4.0-alpha6
 projects[addthis][subdir] = contrib
 
 ; Acquia connector
-projects[acquia_connector][version] = 3.1
+projects[acquia_connector][version] = 3.4
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.3
