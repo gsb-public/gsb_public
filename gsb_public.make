@@ -1478,6 +1478,7 @@ projects[libraries][subdir] = contrib
 
 projects[link][version] = 1.6
 projects[link][subdir] = contrib
+projects[link][patch][2693731] = https://www.drupal.org/files/issues/2019-02-26/link_title_token_replace_when_enabled_2693731-1.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
 projects[login_destination][version] = 1.1
