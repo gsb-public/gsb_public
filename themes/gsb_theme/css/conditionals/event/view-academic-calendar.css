@@ -1,0 +1,149 @@
+.view-academic-calendar a.calendar-next:after {
+  font-size: 21px;
+  font-weight: normal;
+  line-height: 0;
+  margin-top: -10px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+}
+
+.view-academic-calendar a.calendar-next:after {
+  font-size: 16px;
+  margin-right: 14px;
+  margin-top: -8px;
+  right: 0;
+}
+
+.view-academic-calendar .view-grouping-content {
+  border-top: 3px #231f20 solid;
+}
+
+.view-academic-calendar {
+  overflow: hidden;
+  *zoom: 1;
+}
+.view-academic-calendar table {
+  width: 100%;
+}
+.view-academic-calendar tr {
+  display: block;
+  padding: 18px 0;
+  width: 100%;
+}
+.view-academic-calendar td {
+  display: inline-block;
+}
+.view-academic-calendar tbody tr:nth-of-type(even) {
+  background-color: transparent;
+}
+.view-academic-calendar .view-grouping {
+  border-bottom: 3px #231f20 solid;
+}
+.view-academic-calendar .views-field-field-event-date {
+  width: 22%;
+}
+@media (max-width: 65.9375em) {
+  .view-academic-calendar .views-field-field-event-date {
+    width: 100%;
+  }
+}
+.view-academic-calendar .views-field-field-academic-calendar-link {
+  width: 77%;
+}
+.view-academic-calendar .view-grouping-header {
+  font-family: "NewsGothicBT-Demi", "Avant Garde", "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.view-academic-calendar caption {
+  font-family: "NewsGothicBT", "Avant Garde", "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 18px 0;
+  text-align: left;
+}
+.view-academic-calendar tbody {
+  display: block;
+  padding-left: 26px;
+}
+.view-academic-calendar .views-field-field-event-date {
+  font-size: 16px;
+  line-height: 1.3;
+}
+.view-academic-calendar .views-field-field-academic-calendar-link {
+  font-family: "NewsGothicBT-Demi", "Avant Garde", "Futura", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.3;
+}
+.view-academic-calendar a.calendar-prev,
+.view-academic-calendar a.calendar-next {
+  background: #538b80;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 2.2;
+  padding: 10px 16px;
+  position: relative;
+}
+.view-academic-calendar a.calendar-prev:hover,
+.view-academic-calendar a.calendar-next:hover {
+  background: #2d6280;
+  text-decoration: underline;
+}
+.view-academic-calendar a.calendar-prev {
+  float: left;
+  padding-left: 36px;
+}
+.view-academic-calendar a.calendar-prev:before {
+  content: "\f100";
+  display: inline;
+  speak: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-transform: none;
+  line-height: 1;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-family: 'icons';
+}
+.view-academic-calendar a.calendar-prev:before {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  left: 0;
+  line-height: 0;
+  margin-left: 10px;
+  position: absolute;
+  top: 50%;
+}
+.view-academic-calendar a.calendar-next {
+  float: right;
+  padding-right: 36px;
+}
+.view-academic-calendar a.calendar-next:after {
+  content: "\f101";
+  display: inline;
+  speak: none;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  text-transform: none;
+  line-height: 1;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-family: 'icons';
+}
+.view-academic-calendar a.calendar-next:after {
+  color: white;
+  font-weight: bold;
+  margin-right: 10px;
+}

@@ -1,0 +1,116 @@
+@charset "UTF-8"
+
+// IMPORT COMPASS AND EXTENSIONS
+@import compass
+@import breakpoint
+@import ../../../fonts/icons/icons
+@import partials/base/00-variables/all
+@import partials/base/03-extend/gsb-revamp
+
+// Academic calendar
+
+.view-academic-calendar
+  +clearfix
+
+  table
+    width: 100%
+
+  // Row style
+  tr
+    display: block
+    padding: 18px 0
+    width: 100%
+
+  // Cell style
+  td
+    display: inline-block
+
+  tbody tr:nth-of-type(even)
+    background-color: transparent
+
+  .view-grouping
+    border-bottom: 3px $text-black solid
+
+  // Column widths
+  .views-field-field-event-date
+    width: 22%
+    +breakpoint(1055px max-width)
+      width: 100% 
+  .views-field-field-academic-calendar-link
+    width: 77%
+
+  // Title of the list
+  .view-grouping-header
+    font-family: $font-demi
+    font-size: 24px
+    line-height: 1.2
+    margin-bottom: 12px
+
+  .view-grouping-content
+    @extend %black-border-top-small
+
+  // Season label
+  caption
+    font-family: $font-sans
+    font-size: 22px
+    font-weight: bold
+    line-height: 1.2
+    padding: 18px 0
+    text-align: left
+
+  // Indent the date listing
+  tbody
+    display: block
+    padding-left: $standard-padding
+
+  // Date
+  .views-field-field-event-date
+    font-size: 16px
+    line-height: 1.3
+
+  // Title of event
+  .views-field-field-academic-calendar-link
+    font-family: $font-demi
+    font-size: 16px
+    font-weight: normal
+    line-height: 1.3
+
+  // Show next and previous links
+  a.calendar-prev,
+  a.calendar-next
+    background: $teal-dark
+    color: $white
+    font-size: 16px
+    font-weight: bold
+    line-height: 2.2
+    padding: 10px 16px
+    position: relative
+    &:hover
+      background: $link-blue
+      text-decoration: underline
+
+  // Previous year
+  a.calendar-prev
+    float: left
+    padding-left: 36px
+    +icon-before("arrow-double-left", true)
+    &:before
+      color: $white
+      font-size: 16px
+      font-weight: bold
+      left: 0
+      line-height: 0
+      margin-left: 10px
+      position: absolute
+      top: 50%
+
+  // Upcoming year
+  a.calendar-next
+    float: right
+    padding-right: 36px
+    +icon-after("arrow-double-right", true)
+    &:after
+      @extend %arrow-double-small
+      color: $white
+      font-weight: bold
+      margin-right: 10px
