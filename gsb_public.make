@@ -1192,7 +1192,7 @@ projects[addthis][version] = 4.0-alpha6
 projects[addthis][subdir] = contrib
 
 ; Acquia connector
-projects[acquia_connector][version] = 3.1
+projects[acquia_connector][version] = 3.4
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.3
@@ -1476,8 +1476,9 @@ libraries[kraken-php][destination] = "libraries"
 projects[libraries][version] = 2.3
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.4
+projects[link][version] = 1.6
 projects[link][subdir] = contrib
+projects[link][patch][2693731] = https://www.drupal.org/files/issues/2019-02-26/link_title_token_replace_when_enabled_2693731-1.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
 projects[login_destination][version] = 1.1
@@ -1593,7 +1594,7 @@ projects[panelizer][subdir] = contrib
 projects[panels][version] = 3.9
 projects[panels][subdir] = contrib
 
-projects[panels_breadcrumbs][version] = 2.2
+projects[panels_breadcrumbs][version] = 2.4
 projects[panels_breadcrumbs][subdir] = contrib
 
 projects[pathauto][version] = 1.3
