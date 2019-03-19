@@ -1728,7 +1728,7 @@ projects[uuid][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta11
 projects[video_embed_field][subdir] = contrib
 
-projects[views][version] = 3.16
+projects[views][version] = 3.18
 projects[views][subdir] = contrib
 projects[views][patch][2947022] = https://www.drupal.org/files/issues/views-2947022-1.patch
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
