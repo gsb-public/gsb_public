@@ -86,7 +86,7 @@ projects[gsb_agenda][subdir] = custom
 projects[gsb_box][type] = module
 projects[gsb_box][download][type] = git
 projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-projects[gsb_box][download][tag] = 1.06
+projects[gsb_box][download][tag] = 1.07
 projects[gsb_box][subdir] = custom
 
 ; GSB Cmis Api
@@ -926,7 +926,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.26
+projects[gsb_feature_program_finder_display][download][tag] = 1.27
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
@@ -1114,7 +1114,7 @@ projects[gsb_feature_week_in_the_life_ct][subdir] = custom/features
 projects[gsb_feature_week_in_the_life_display][type] = module
 projects[gsb_feature_week_in_the_life_display][download][type] = git
 projects[gsb_feature_week_in_the_life_display][download][url] = git@github.com:gsb-public/gsb_feature_week_in_the_life_display.git
-projects[gsb_feature_week_in_the_life_display][download][tag] = 3.1
+projects[gsb_feature_week_in_the_life_display][download][tag] = 3.2
 projects[gsb_feature_week_in_the_life_display][subdir] = custom/features
 
 ; GSB Feature Workbench
@@ -1174,7 +1174,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.57.16
+projects[gsb_theme][download][tag] = 6.57.17
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
