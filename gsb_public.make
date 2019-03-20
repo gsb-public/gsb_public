@@ -1728,11 +1728,11 @@ projects[uuid][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta11
 projects[video_embed_field][subdir] = contrib
 
-projects[views][version] = 3.18
+projects[views][version] = 3.21
 projects[views][subdir] = contrib
-projects[views][patch][2947022] = https://www.drupal.org/files/issues/views-2947022-1.patch
+projects[views][patch][2947022] = https://www.drupal.org/files/issues/2019-03-19/views-2947022-2.patch
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
-projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
+projects[views][patch][867786] = https://www.drupal.org/files/issues/2019-03-19/867786-views_path-5.patch
 
 projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
