@@ -746,7 +746,7 @@ projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsb-public/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][tag] = 4.09
+projects[gsb_feature_image_styles][download][branch] = release-4.10
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Feature Insight Display
