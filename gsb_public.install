@@ -7679,3 +7679,56 @@ function gsb_public_update_7437() {
     menu_link_save( $link);
   }
 }
+
+/**
+ * Enable seckit module.
+ */
+function gsb_public_update_7438() {
+  if (!module_exists('seckit')) {
+    module_enable(array('seckit'));
+  }
+}
+
+/**
+ * Configure seckit module.
+ */
+function gsb_public_update_7439() {
+
+  $init_config = array(
+    // Content Security Policy (CSP)
+    'csp' => array(
+      'checkbox' => 1, 
+      'vendor-prefix' => array(
+        'x' => 0,
+        'webkit' => 0,
+      ),
+      'report-only' => 0,
+      'default-src' => "'self'",
+      'script-src' => "self' 'unsafe-eval' *.stackla.com 'unsafe-inline' *.coveo.com *.kaltura.com *.stackla.com *.newrelic.com *.google-analytics.com *.nr-data.net *.zencdn.net",
+      'object-src' => "'self'",
+      'style-src' => "'self' 'unsafe-inline' *.zencdn.net *.googleapis.com *.stackla.com",
+      'img-src' => "'self' data: *.kaltura.com",
+      'media-src' => "'self' blob: *.googleapis.com",
+      'frame-src' => "'self' *.stackla.com",
+      'frame-ancestors' => "'self'",
+      'child-src' => "'self' blob: *.stanford.edu",
+      'font-src' => "'self' data: *.gstatic.com *.kaltura.com *.stackla.com",
+      'connect-src' => "'self' *.coveo.com *.kaltura.com",
+      'report-uri' => "report-csp-violation",
+      'policy-uri' => '',
+    ),
+    // X-XSS-Protection header.
+    'x_xss' => array(
+      'select' => 2, 
+    ),
+  );
+  variable_set('seckit_xss', $init_config);
+
+  $init_config = array(
+    'hsts' => 1,
+    'hsts_max_age' => 15768000,
+    'hsts_subdomains' => 0,
+    'hsts_preload' => 0,
+  );
+  variable_set('seckit_ssl', $init_config);
+}
