@@ -1655,6 +1655,9 @@ libraries[responsive-tables][patch][drupalize-js] = https://raw.githubuserconten
 projects[search_krumo][version] = 1.6
 projects[search_krumo][subdir] = contrib
 
+projects[seckit][version] = 1.10
+projects[seckit][subdir] = contrib
+
 projects[securepages][version] = 1.0-beta2
 projects[securepages][subdir] = contrib
 
