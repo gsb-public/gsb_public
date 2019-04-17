@@ -7704,7 +7704,7 @@ function gsb_public_update_7439() {
       ),
       'report-only' => 0,
       'default-src' => "'self'",
-      'script-src' => "self' 'unsafe-eval' *.stackla.com 'unsafe-inline' *.coveo.com *.kaltura.com *.stackla.com *.newrelic.com *.google-analytics.com *.nr-data.net *.zencdn.net",
+      'script-src' => "'self' 'unsafe-eval' *.stackla.com 'unsafe-inline' *.coveo.com *.kaltura.com *.stackla.com *.newrelic.com *.google-analytics.com *.nr-data.net *.zencdn.net *.stanford.edu",
       'object-src' => "'self'",
       'style-src' => "'self' 'unsafe-inline' *.zencdn.net *.googleapis.com *.stackla.com",
       'img-src' => "'self' data: *.kaltura.com",
