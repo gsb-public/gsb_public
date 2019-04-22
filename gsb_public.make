@@ -1794,5 +1794,8 @@ projects[workbench_moderation][patch][2947038] = https://www.drupal.org/files/is
 projects[xmlsitemap][version] = 2.5
 projects[xmlsitemap][subdir] = contrib
 
+projects[xhprof][version] = 1.0-beta3
+projects[xhprof][subdir] = contrib
+
 projects[youtube_api][version] = 1.0-beta3
 projects[youtube_api][subdir] = contrib
