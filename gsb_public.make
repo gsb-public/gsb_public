@@ -1774,7 +1774,7 @@ projects[webform_to_gdocs][download][tag] = 6.02
 projects[webform_to_gdocs][patch][multi_select_field] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/webform_to_gdoc_multi_select_field.patch
 
 libraries[wkhtmltopdf][download][type] = "get"
-libraries[wkhtmltopdf][download][url] = "https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.3.2.zip"
+libraries[wkhtmltopdf][download][url] = "https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.5.zip"
 libraries[wkhtmltopdf][directory_name] = "wkhtmltopdf"
 libraries[wkhtmltopdf][destination] = "libraries"
 
