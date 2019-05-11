@@ -1199,7 +1199,7 @@ projects[acquia_connector][subdir] = contrib
 projects[acquia_purge][version] = 1.3
 projects[acquia_purge][subdir] = contrib
 
-projects[addressfield][version] = 1.2
+projects[addressfield][version] = 1.3
 projects[addressfield][subdir] = contrib
 
 projects[admin_menu][version] = 3.0-rc5
