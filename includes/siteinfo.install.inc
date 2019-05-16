@@ -9,7 +9,7 @@ function _gsb_public_setup_siteinfo() {
     'site_frontpage' => 'node',
     'site_mail' => 'thisemailneedstochangefrom@example.com',
     'site_name' => 'Revamp',
-    'site_slogan' => 'Change lives. Change organizations. Change the world.',
+    'site_slogan' => 'Change lives. Change organizations. Change the World.',
   );
 
   _gsb_public_variable_set_multiple($variables);
