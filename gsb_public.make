@@ -136,7 +136,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-6.35
+projects[gsb_public_custom_blocks][download][tag] = 6.35
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -325,7 +325,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][branch] = release-6.08
+projects[gsb_social][download][tag] = 6.08
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
@@ -747,7 +747,7 @@ projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsb-public/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][branch] = release-4.10
+projects[gsb_feature_image_styles][download][tag] = 4.10
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Feature Insight Display
@@ -1157,7 +1157,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_feature_voices_ct][type] = module
 projects[gsb_feature_voices_ct][download][type] = git
 projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
-projects[gsb_feature_voices_ct][download][branch] = release-1.07
+projects[gsb_feature_voices_ct][download][tag] = 1.07
 projects[gsb_feature_voices_ct][subdir] = custom/features
 
 ; GSB Feature Voices Display Type
@@ -1175,7 +1175,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-6.58.3
+projects[gsb_theme][download][tag] = 6.59
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
