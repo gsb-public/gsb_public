@@ -10,7 +10,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][branch] = release-6.09
+projects[alumni_cas_auth][download][tag] = 6.09
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -101,7 +101,7 @@ projects[gsb_cmis_api][subdir] = custom
 projects[gsb_cmis][type] = module
 projects[gsb_cmis][download][type] = git
 projects[gsb_cmis][download][url] = git@github.com:gsb-public/gsb_cmis.git
-projects[gsb_cmis][download][branch] = release-5.06
+projects[gsb_cmis][download][tag] = 5.06
 projects[gsb_cmis][subdir] = custom
 
 ; GSB Connecting Link
@@ -122,7 +122,7 @@ projects[gsb_content_pane_info][subdir] = custom
 projects[gsb_coveo_search][type] = module
 projects[gsb_coveo_search][download][type] = git
 projects[gsb_coveo_search][download][url] = git@github.com:gsb-public/gsb_coveo_search.git
-projects[gsb_coveo_search][download][branch] = release-1.03
+projects[gsb_coveo_search][download][tag] = 1.03
 projects[gsb_coveo_search][subdir] = custom
 
 ; GSB Custom Section Title
@@ -206,7 +206,7 @@ projects[gsb_filter_with_states][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsb-public/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][branch] = release-5.14
+projects[gsb_fpp_customization][download][tag] = 5.14
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -927,7 +927,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][branch] = release-1.28
+projects[gsb_feature_program_finder_display][download][tag] = 1.28
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
@@ -1101,7 +1101,7 @@ projects[gsb_feature_videos_fpp][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsb-public/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][branch] = release-6.12
+projects[gsb_feature_webform_ct][download][tag] = 6.12
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -1164,7 +1164,7 @@ projects[gsb_feature_voices_ct][subdir] = custom/features
 projects[gsb_feature_voices_display][type] = module
 projects[gsb_feature_voices_display][download][type] = git
 projects[gsb_feature_voices_display][download][url] = git@github.com:gsb-public/gsb_feature_voices_display.git
-projects[gsb_feature_voices_display][download][branch] = release-1.05
+projects[gsb_feature_voices_display][download][tag] = 1.05
 projects[gsb_feature_voices_display][subdir] = custom/features
 
 ;================================================
