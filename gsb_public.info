@@ -58,7 +58,6 @@ dependencies[] = field_formatter_settings
 dependencies[] = field_group
 dependencies[] = file_entity
 dependencies[] = google_appliance_suggest
-dependencies[] = googleanalytics
 dependencies[] = hierarchical_select
 dependencies[] = hs_lite
 dependencies[] = hs_menu

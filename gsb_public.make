@@ -1,3 +1,4 @@
+
 api = 2
 core = 7.x
 
@@ -9,7 +10,7 @@ core = 7.x
 projects[alumni_cas_auth][type] = module
 projects[alumni_cas_auth][download][type] = git
 projects[alumni_cas_auth][download][url] = git@github.com:gsb-public/alumni_cas_auth.git
-projects[alumni_cas_auth][download][tag] = 6.08
+projects[alumni_cas_auth][download][tag] = 6.09
 projects[alumni_cas_auth][subdir] = custom
 
 ; Feature Flag
@@ -86,7 +87,7 @@ projects[gsb_agenda][subdir] = custom
 projects[gsb_box][type] = module
 projects[gsb_box][download][type] = git
 projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-projects[gsb_box][download][tag] = 1.06
+projects[gsb_box][download][tag] = 1.07
 projects[gsb_box][subdir] = custom
 
 ; GSB Cmis Api
@@ -100,7 +101,7 @@ projects[gsb_cmis_api][subdir] = custom
 projects[gsb_cmis][type] = module
 projects[gsb_cmis][download][type] = git
 projects[gsb_cmis][download][url] = git@github.com:gsb-public/gsb_cmis.git
-projects[gsb_cmis][download][tag] = 5.05
+projects[gsb_cmis][download][tag] = 5.06
 projects[gsb_cmis][subdir] = custom
 
 ; GSB Connecting Link
@@ -121,7 +122,7 @@ projects[gsb_content_pane_info][subdir] = custom
 projects[gsb_coveo_search][type] = module
 projects[gsb_coveo_search][download][type] = git
 projects[gsb_coveo_search][download][url] = git@github.com:gsb-public/gsb_coveo_search.git
-projects[gsb_coveo_search][download][tag] = 1.02
+projects[gsb_coveo_search][download][tag] = 1.03
 projects[gsb_coveo_search][subdir] = custom
 
 ; GSB Custom Section Title
@@ -135,7 +136,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.34
+projects[gsb_public_custom_blocks][download][tag] = 6.35
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -184,7 +185,7 @@ projects[gsb_field_authors][subdir] = custom
 projects[gsb_field_formatter][type] = module
 projects[gsb_field_formatter][download][type] = git
 projects[gsb_field_formatter][download][url] = git@github.com:gsb-public/gsb_field_formatter.git
-projects[gsb_field_formatter][download][tag] = 6.11
+projects[gsb_field_formatter][download][tag] = 6.12
 projects[gsb_field_formatter][subdir] = custom
 
 ; GSB Filtered View Link
@@ -205,7 +206,7 @@ projects[gsb_filter_with_states][subdir] = custom
 projects[gsb_fpp_customization][type] = module
 projects[gsb_fpp_customization][download][type] = git
 projects[gsb_fpp_customization][download][url] = git@github.com:gsb-public/gsb_fpp_customization.git
-projects[gsb_fpp_customization][download][tag] = 5.13
+projects[gsb_fpp_customization][download][tag] = 5.14
 projects[gsb_fpp_customization][subdir] = custom
 
 ; GSB FPP Stock Content
@@ -324,7 +325,7 @@ projects[gsb_section_autoconfig][subdir] = custom
 projects[gsb_social][type] = module
 projects[gsb_social][download][type] = git
 projects[gsb_social][download][url] = git@github.com:gsb-public/gsb_social.git
-projects[gsb_social][download][tag] = 6.06
+projects[gsb_social][download][tag] = 6.08
 projects[gsb_social][subdir] = custom
 
 ; GSB Submenu Alias Update
@@ -510,7 +511,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.55
+projects[gsb_feature_base_fields][download][tag] = 5.56
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -620,7 +621,7 @@ projects[gsb_feature_event_ct][subdir] = custom/features
 projects[gsb_feature_event_display][type] = module
 projects[gsb_feature_event_display][download][type] = git
 projects[gsb_feature_event_display][download][url] = git@github.com:gsb-public/gsb_feature_event_display.git
-projects[gsb_feature_event_display][download][tag] = 6.08
+projects[gsb_feature_event_display][download][tag] = 6.09
 projects[gsb_feature_event_display][subdir] = custom/features
 
 ; GSB Feature Event Shared
@@ -746,7 +747,7 @@ projects[gsb_feature_image_cta_fpp][subdir] = custom/features
 projects[gsb_feature_image_styles][type] = module
 projects[gsb_feature_image_styles][download][type] = git
 projects[gsb_feature_image_styles][download][url] = git@github.com:gsb-public/gsb_feature_image_styles.git
-projects[gsb_feature_image_styles][download][tag] = 4.08
+projects[gsb_feature_image_styles][download][tag] = 4.10
 projects[gsb_feature_image_styles][subdir] = custom/features
 
 ; GSB Feature Insight Display
@@ -788,7 +789,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_landing_viewport_fpp][type] = module
 projects[gsb_feature_landing_viewport_fpp][download][type] = git
 projects[gsb_feature_landing_viewport_fpp][download][url] = git@github.com:gsb-public/gsb_feature_landing_viewport_fpp.git
-projects[gsb_feature_landing_viewport_fpp][download][tag] = 1.02
+projects[gsb_feature_landing_viewport_fpp][download][tag] = 1.03
 projects[gsb_feature_landing_viewport_fpp][subdir] = custom/features
 
 ; GSB Feature Media Item CT
@@ -837,7 +838,7 @@ projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 projects[gsb_feature_msx_fellows_display][type] = module
 projects[gsb_feature_msx_fellows_display][download][type] = git
 projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_display.git
-projects[gsb_feature_msx_fellows_display][download][tag] = 6.03
+projects[gsb_feature_msx_fellows_display][download][tag] = 6.04
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
 ; GSB Feature News Display
@@ -926,7 +927,7 @@ projects[gsb_feature_featured_program_fpp][subdir] = custom/features
 projects[gsb_feature_program_finder_display][type] = module
 projects[gsb_feature_program_finder_display][download][type] = git
 projects[gsb_feature_program_finder_display][download][url] = git@github.com:gsb-public/gsb_feature_program_finder_display.git
-projects[gsb_feature_program_finder_display][download][tag] = 1.26
+projects[gsb_feature_program_finder_display][download][tag] = 1.28
 projects[gsb_feature_program_finder_display][subdir] = custom/features
 
 ; GSB Program Instance Content Type
@@ -1100,7 +1101,7 @@ projects[gsb_feature_videos_fpp][subdir] = custom/features
 projects[gsb_feature_webform_ct][type] = module
 projects[gsb_feature_webform_ct][download][type] = git
 projects[gsb_feature_webform_ct][download][url] = git@github.com:gsb-public/gsb_feature_webform_ct.git
-projects[gsb_feature_webform_ct][download][tag] = 6.10
+projects[gsb_feature_webform_ct][download][tag] = 6.12
 projects[gsb_feature_webform_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Content Type
@@ -1114,7 +1115,7 @@ projects[gsb_feature_week_in_the_life_ct][subdir] = custom/features
 projects[gsb_feature_week_in_the_life_display][type] = module
 projects[gsb_feature_week_in_the_life_display][download][type] = git
 projects[gsb_feature_week_in_the_life_display][download][url] = git@github.com:gsb-public/gsb_feature_week_in_the_life_display.git
-projects[gsb_feature_week_in_the_life_display][download][tag] = 3.1
+projects[gsb_feature_week_in_the_life_display][download][tag] = 3.2
 projects[gsb_feature_week_in_the_life_display][subdir] = custom/features
 
 ; GSB Feature Workbench
@@ -1156,14 +1157,14 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_feature_voices_ct][type] = module
 projects[gsb_feature_voices_ct][download][type] = git
 projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
-projects[gsb_feature_voices_ct][download][tag] = 1.05
+projects[gsb_feature_voices_ct][download][tag] = 1.07
 projects[gsb_feature_voices_ct][subdir] = custom/features
 
 ; GSB Feature Voices Display Type
 projects[gsb_feature_voices_display][type] = module
 projects[gsb_feature_voices_display][download][type] = git
 projects[gsb_feature_voices_display][download][url] = git@github.com:gsb-public/gsb_feature_voices_display.git
-projects[gsb_feature_voices_display][download][branch] = release-1.04
+projects[gsb_feature_voices_display][download][tag] = 1.06
 projects[gsb_feature_voices_display][subdir] = custom/features
 
 ;================================================
@@ -1174,7 +1175,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.58
+projects[gsb_theme][download][tag] = 6.59.1
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
@@ -1192,13 +1193,13 @@ projects[addthis][version] = 4.0-alpha6
 projects[addthis][subdir] = contrib
 
 ; Acquia connector
-projects[acquia_connector][version] = 3.1
+projects[acquia_connector][version] = 3.4
 projects[acquia_connector][subdir] = contrib
 
 projects[acquia_purge][version] = 1.3
 projects[acquia_purge][subdir] = contrib
 
-projects[addressfield][version] = 1.2
+projects[addressfield][version] = 1.3
 projects[addressfield][subdir] = contrib
 
 projects[admin_menu][version] = 3.0-rc5
@@ -1283,7 +1284,7 @@ projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/2032293-3
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
 projects[ctools_query_string_context][download][type] = git
-projects[ctools_query_string_context][download][url] = http://git.drupal.org/sandbox/balint.kleri/1442298.git
+projects[ctools_query_string_context][download][url] = https://git.drupal.org/sandbox/balint.kleri-1442298.git
 projects[ctools_query_string_context][download][revision] = dc75839
 projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
@@ -1431,7 +1432,7 @@ projects[hs_lite][type] = module
 projects[hs_lite][download][type] = git
 projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
-projects[hs_lite][download][url] = http://git.drupal.org/sandbox/gmercer/2296881.git
+projects[hs_lite][download][url] = https://git.drupal.org/sandbox/gmercer-2296881.git
 
 projects[imagecache_actions][version] = 1.8
 projects[imagecache_actions][subdir] = contrib
@@ -1476,8 +1477,9 @@ libraries[kraken-php][destination] = "libraries"
 projects[libraries][version] = 2.3
 projects[libraries][subdir] = contrib
 
-projects[link][version] = 1.4
+projects[link][version] = 1.6
 projects[link][subdir] = contrib
+projects[link][patch][2693731] = https://www.drupal.org/files/issues/2019-02-26/link_title_token_replace_when_enabled_2693731-1.patch
 projects[link][patch][981404] = https://drupal.org/files/link-981404-21.patch
 
 projects[login_destination][version] = 1.1
@@ -1539,7 +1541,7 @@ projects[menu_import][subdir] = contrib
 
 projects[menu_minipanels][version] = 1.1
 projects[menu_minipanels][subdir] = contrib
-projects[menu_minipanels][patch][1977018] = http://drupal.org/files/1977018-d7-2.patch
+projects[menu_minipanels][patch][1977018] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/menu_minipanels_1977018-d7-2.patch
 projects[menu_minipanels][patch][2713749] = https://www.drupal.org/files/issues/menu_minipanels-2713749-1.patch
 
 projects[menu_position][version] = 1.2
@@ -1593,7 +1595,7 @@ projects[panelizer][subdir] = contrib
 projects[panels][version] = 3.9
 projects[panels][subdir] = contrib
 
-projects[panels_breadcrumbs][version] = 2.2
+projects[panels_breadcrumbs][version] = 2.4
 projects[panels_breadcrumbs][subdir] = contrib
 
 projects[pathauto][version] = 1.3
@@ -1653,6 +1655,9 @@ libraries[responsive-tables][patch][drupalize-js] = https://raw.githubuserconten
 projects[search_krumo][version] = 1.6
 projects[search_krumo][subdir] = contrib
 
+projects[seckit][version] = 1.10
+projects[seckit][subdir] = contrib
+
 projects[securepages][version] = 1.0-beta2
 projects[securepages][subdir] = contrib
 
@@ -1667,7 +1672,7 @@ libraries[sharrre][download][type] = git
 libraries[sharrre][download][url] = https://github.com/Julienh/Sharrre.git
 libraries[sharrre][download][tag] = 2.0.1
 libraries[sharrre][patch][296] = https://patch-diff.githubusercontent.com/raw/Julienh/Sharrre/pull/296.diff
-libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.3.patch
+libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.4.patch
 
 projects[site_verify][version] = 1.2
 projects[site_verify][subdir] = contrib
@@ -1727,11 +1732,11 @@ projects[uuid][subdir] = contrib
 projects[video_embed_field][version] = 2.0-beta11
 projects[video_embed_field][subdir] = contrib
 
-projects[views][version] = 3.16
+projects[views][version] = 3.21
 projects[views][subdir] = contrib
-projects[views][patch][2947022] = https://www.drupal.org/files/issues/views-2947022-1.patch
+projects[views][patch][2947022] = https://www.drupal.org/files/issues/2019-03-19/views-2947022-2.patch
 projects[views][patch][1916814] = http://drupal.org/files/1916814-d7-1.patch
-projects[views][patch][867786] = http://drupal.org/files/867786-views_path-3.patch
+projects[views][patch][867786] = https://www.drupal.org/files/issues/2019-03-19/867786-views_path-5.patch
 
 projects[views_autocomplete_filters][version] = 1.2
 projects[views_autocomplete_filters][subdir] = contrib
@@ -1769,7 +1774,7 @@ projects[webform_to_gdocs][download][tag] = 6.02
 projects[webform_to_gdocs][patch][multi_select_field] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/webform_to_gdoc_multi_select_field.patch
 
 libraries[wkhtmltopdf][download][type] = "get"
-libraries[wkhtmltopdf][download][url] = "https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.3.2.zip"
+libraries[wkhtmltopdf][download][url] = "https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.5.zip"
 libraries[wkhtmltopdf][directory_name] = "wkhtmltopdf"
 libraries[wkhtmltopdf][destination] = "libraries"
 
@@ -1785,6 +1790,9 @@ projects[workbench_access][subdir] = contrib
 projects[workbench_moderation][version] = 3.0
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][patch][2947038] = https://www.drupal.org/files/issues/workbench_moderation-2947038-1.patch
+
+projects[xhprof][version] = 1.0-beta3
+projects[xhprof][subdir] = contrib
 
 projects[xmlsitemap][version] = 2.5
 projects[xmlsitemap][subdir] = contrib
