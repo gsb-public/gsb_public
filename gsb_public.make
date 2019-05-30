@@ -1559,7 +1559,7 @@ projects[metatag][subdir] = contrib
 projects[mimemail][version] = 1.1
 projects[mimemail][subdir] = contrib
 
-projects[module_filter][version] = 2.1
+projects[module_filter][version] = 2.2
 projects[module_filter][subdir] = contrib
 
 libraries[moment][download][type] = "get"
@@ -1726,7 +1726,7 @@ projects[typogrify][subdir] = contrib
 projects[tzfield][version] = 1.1
 projects[tzfield][subdir] = contrib
 
-projects[uuid][version] = 1.2
+projects[uuid][version] = 1.3
 projects[uuid][subdir] = contrib
 
 projects[video_embed_field][version] = 2.0-beta11
