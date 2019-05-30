@@ -1284,7 +1284,7 @@ projects[ctools][patch][2032293] = https://www.drupal.org/files/issues/2032293-3
 ; Add context filter by query in url
 projects[ctools_query_string_context][type] = module
 projects[ctools_query_string_context][download][type] = git
-projects[ctools_query_string_context][download][url] = https://git.drupal.org/sandbox/balint.kleri-1442298.git
+projects[ctools_query_string_context][download][url] = https://git.drupalcode.org/sandbox/balint.kleri-1442298.git
 projects[ctools_query_string_context][download][revision] = dc75839
 projects[ctools_query_string_context][download][branch] = 7.x
 projects[ctools_query_string_context][subdir] = custom/modules
