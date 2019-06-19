@@ -1672,7 +1672,7 @@ libraries[sharrre][download][type] = git
 libraries[sharrre][download][url] = https://github.com/Julienh/Sharrre.git
 libraries[sharrre][download][tag] = 2.0.1
 libraries[sharrre][patch][296] = https://patch-diff.githubusercontent.com/raw/Julienh/Sharrre/pull/296.diff
-libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.4.patch
+libraries[sharrre][patch][201] = https://raw.githubusercontent.com/gsb-public/gsb-revamp-patches/master/sharrre-2.0.1.5.patch
 
 projects[site_verify][version] = 1.2
 projects[site_verify][subdir] = contrib
