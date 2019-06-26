@@ -999,7 +999,7 @@ projects[gsb_feature_rss_feeds][subdir] = custom/features
 projects[gsb_feature_seed_coach_ct][type] = module
 projects[gsb_feature_seed_coach_ct][download][type] = git
 projects[gsb_feature_seed_coach_ct][download][url] = git@github.com:gsb-public/gsb_feature_seed_coach_ct.git
-projects[gsb_feature_seed_coach_ct][download][tag] = 1.05
+projects[gsb_feature_seed_coach_ct][download][branch] = release-1.06
 projects[gsb_feature_seed_coach_ct][subdir] = custom/features
 
 ; GSB Features Seed Research Library CT
