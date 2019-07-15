@@ -195,6 +195,7 @@ dependencies[] = gsb_feature_idea_story_display
 dependencies[] = gsb_feature_image_fpp
 dependencies[] = gsb_feature_image_cta_fpp
 dependencies[] = gsb_feature_image_styles
+dependencies[] = gsb_feature_infogram_fpp
 dependencies[] = gsb_feature_insight_display
 dependencies[] = gsb_feature_insights_quote_fpp
 dependencies[] = gsb_feature_landing_viewport_fpp
