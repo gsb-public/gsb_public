@@ -753,6 +753,13 @@ projects[gsb_feature_image_styles][download][url] = git@github.com:gsb-public/gs
 projects[gsb_feature_image_styles][download][tag] = 4.10
 projects[gsb_feature_image_styles][subdir] = custom/features
 
+; GSB Features Infogram FPP
+projects[gsb_feature_infogram_fpp][type] = module
+projects[gsb_feature_infogram_fpp][download][type] = git
+projects[gsb_feature_infogram_fpp][download][url] = git@github.com:gsb-public/gsb_feature_infogram_fpp.git
+projects[gsb_feature_infogram_fpp][download][branch] = WP-9167
+projects[gsb_feature_infogram_fpp][subdir] = custom/features
+
 ; GSB Feature Insight Display
 projects[gsb_feature_insight_display][type] = module
 projects[gsb_feature_insight_display][download][type] = git
