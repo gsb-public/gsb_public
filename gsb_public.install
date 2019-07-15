@@ -7732,3 +7732,12 @@ function gsb_public_update_7439() {
   );
   variable_set('seckit_ssl', $init_config);
 }
+
+/**
+ * Enable gsb_feature_infogram_fpp module.
+ */
+function gsb_public_update_7440() {
+  if (!module_exists('gsb_feature_infogram_fpp')) {
+    module_enable(array('gsb_feature_infogram_fpp'));
+  }
+}
