@@ -34,7 +34,7 @@ projects[isotopify][subdir] = custom
 projects[resources][type] = module
 projects[resources][download][type] = git
 projects[resources][download][url] = git@github.com:gsb-public/resources.git
-projects[resources][download][branch] = release-6.03
+projects[resources][download][tag] = 6.03
 projects[resources][subdir] = custom
 
 ; SoundCloud API
@@ -90,7 +90,7 @@ projects[gsb_agenda][subdir] = custom
 projects[gsb_box][type] = module
 projects[gsb_box][download][type] = git
 projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-projects[gsb_box][download][branch] = release-1.08
+projects[gsb_box][download][tag] = 1.08
 projects[gsb_box][subdir] = custom
 
 ; GSB Cmis Api
@@ -139,7 +139,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][branch] = release-6.37
+projects[gsb_public_custom_blocks][download][tag] = 6.37
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -244,7 +244,7 @@ projects[gsb_media_center][subdir] = custom
 projects[gsb_misc_fixes][type] = module
 projects[gsb_misc_fixes][download][type] = git
 projects[gsb_misc_fixes][download][url] = git@github.com:gsb-public/gsb_misc_fixes.git
-projects[gsb_misc_fixes][download][branch] = release-5.13
+projects[gsb_misc_fixes][download][tag] = 5.13
 projects[gsb_misc_fixes][subdir] = custom
 
 ; GSB Migrate
@@ -293,7 +293,7 @@ projects[gsb_public_statistics][subdir] = custom
 projects[gsb_resources][type] = module
 projects[gsb_resources][download][type] = git
 projects[gsb_resources][download][url] = git@github.com:gsb-public/gsb_resources.git
-projects[gsb_resources][download][branch] = release-6.01
+projects[gsb_resources][download][tag] = 6.01
 projects[gsb_resources][subdir] = custom
 
 ; GSB Restricted Pages
@@ -514,7 +514,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][branch] = release-5.59
+projects[gsb_feature_base_fields][download][tag] = 5.59
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -687,7 +687,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][branch] = release-6.04
+projects[gsb_feature_file_types][download][tag] = 6.04
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
@@ -757,7 +757,7 @@ projects[gsb_feature_image_styles][subdir] = custom/features
 projects[gsb_feature_infogram_fpp][type] = module
 projects[gsb_feature_infogram_fpp][download][type] = git
 projects[gsb_feature_infogram_fpp][download][url] = git@github.com:gsb-public/gsb_feature_infogram_fpp.git
-projects[gsb_feature_infogram_fpp][download][branch] = release-1.00
+projects[gsb_feature_infogram_fpp][download][tag] = 1.00
 projects[gsb_feature_infogram_fpp][subdir] = custom/features
 
 ; GSB Feature Insight Display
@@ -799,7 +799,7 @@ projects[gsb_feature_house_ads_fpp][subdir] = custom/features
 projects[gsb_feature_landing_viewport_fpp][type] = module
 projects[gsb_feature_landing_viewport_fpp][download][type] = git
 projects[gsb_feature_landing_viewport_fpp][download][url] = git@github.com:gsb-public/gsb_feature_landing_viewport_fpp.git
-projects[gsb_feature_landing_viewport_fpp][download][branch] = release-1.06
+projects[gsb_feature_landing_viewport_fpp][download][tag] = 1.06
 projects[gsb_feature_landing_viewport_fpp][subdir] = custom/features
 
 ; GSB Feature Media Item CT
@@ -841,14 +841,14 @@ projects[gsb_feature_mission_statement_fpp][subdir] = custom/features
 projects[gsb_feature_msx_fellows_ct][type] = module
 projects[gsb_feature_msx_fellows_ct][download][type] = git
 projects[gsb_feature_msx_fellows_ct][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_ct.git
-projects[gsb_feature_msx_fellows_ct][download][branch] = release-6.04
+projects[gsb_feature_msx_fellows_ct][download][tag] = 6.04
 projects[gsb_feature_msx_fellows_ct][subdir] = custom/features
 
 ; GSB Feature MSx Fellows Display
 projects[gsb_feature_msx_fellows_display][type] = module
 projects[gsb_feature_msx_fellows_display][download][type] = git
 projects[gsb_feature_msx_fellows_display][download][url] = git@github.com:gsb-public/gsb_feature_msx_fellows_display.git
-projects[gsb_feature_msx_fellows_display][download][branch] = release-6.05
+projects[gsb_feature_msx_fellows_display][download][tag] = 6.05
 projects[gsb_feature_msx_fellows_display][subdir] = custom/features
 
 ; GSB Feature News Display
@@ -1167,7 +1167,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_feature_voices_ct][type] = module
 projects[gsb_feature_voices_ct][download][type] = git
 projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
-projects[gsb_feature_voices_ct][download][branch] = release-1.09
+projects[gsb_feature_voices_ct][download][tag] = 1.09
 projects[gsb_feature_voices_ct][subdir] = custom/features
 
 ; GSB Feature Voices Display Type
@@ -1185,7 +1185,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-6.62
+projects[gsb_theme][download][tag] = 6.62
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
