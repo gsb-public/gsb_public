@@ -167,7 +167,7 @@ projects[gsb_entity_reference_delete_warning][subdir] = custom
 projects[gsb_dvent][type] = module
 projects[gsb_dvent][download][type] = git
 projects[gsb_dvent][download][url] = git@github.com:gsb-public/gsb_dvent.git
-projects[gsb_dvent][download][tag] = 1.03
+projects[gsb_dvent][download][branch] = release-1.04
 projects[gsb_dvent][subdir] = custom
 
 ; GSB Faculty Role
@@ -451,7 +451,7 @@ projects[gsb_feature_admission_event_ct][subdir] = custom/features
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 6.07
+projects[gsb_feature_admission_event_display][download][branch] = release-6.08
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
