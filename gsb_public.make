@@ -125,7 +125,7 @@ projects[gsb_content_pane_info][subdir] = custom
 projects[gsb_coveo_search][type] = module
 projects[gsb_coveo_search][download][type] = git
 projects[gsb_coveo_search][download][url] = git@github.com:gsb-public/gsb_coveo_search.git
-projects[gsb_coveo_search][download][tag] = 1.03
+projects[gsb_coveo_search][download][branch] = release-1.04
 projects[gsb_coveo_search][subdir] = custom
 
 ; GSB Custom Section Title
