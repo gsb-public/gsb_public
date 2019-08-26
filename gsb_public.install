@@ -7778,3 +7778,40 @@ function gsb_public_update_7441() {
   variable_set('seckit_xss', $init_config);
 
 }
+
+/**
+ * Configure seckit module with script src , image src, connect src variables.
+ */
+function gsb_public_update_7442() {
+
+  $init_config = array(
+    // Content Security Policy (CSP)
+    'csp' => array(
+      'checkbox' => 1,
+      'vendor-prefix' => array(
+        'x' => 0,
+        'webkit' => 0,
+      ),
+      'report-only' => 0,
+      'default-src' => "'self'",
+      'script-src' => "'self' 'unsafe-eval' *.stackla.com 'unsafe-inline' *.coveo.com *.kaltura.com *.stackla.com *.newrelic.com *.google-analytics.com *.stanford.edu *.googletagmanager.com *.kaltura.com *.googletagmanager.com *.soundcloud.com *.luckyorange.net *.linkedin.com *.nr-data.net *.facebook.net *.zencdn.net *.acquia-sites.com *.webspellchecker.net *.google.com *.gstatic.com *.d10lpsik1i8c69.cloudfront.net *.infogram.com *.chartjs.org",
+      'object-src' => "'self'",
+      'style-src' => "'self' 'unsafe-inline' *.googleapis.com *.stackla.com *.coveo.com",
+      'img-src' => "'self' data: *.kaltura.com *.google-analytics.com *.instagram.com *.cdninstagram.com *.maxcdn.com *.d10lpsik1i8c69.cloudfront.net *.facebook.com",
+      'media-src' => "'self' blob: *.googleapis.com *.kaltura.com",
+      'frame-src' => "'self' *.stackla.com *.youtube.com *.infogr.am *.soundcloud.com",
+      'frame-ancestors' => "'self'",
+      'child-src' => "'self' blob: *.stanford.edu",
+      'font-src' => "'self' data: *.gstatic.com *.kaltura.com *.stackla.com",
+      'connect-src' => "'self' *.coveo.com *.kaltura.com *.luckyorange.net *.pubsub.googleapis.com",
+      'report-uri' => "report-csp-violation",
+      'policy-uri' => '',
+    ),
+    // X-XSS-Protection header.
+    'x_xss' => array(
+      'select' => 2,
+    ),
+  );
+  variable_set('seckit_xss', $init_config);
+
+}
