@@ -5278,7 +5278,7 @@ function gsb_public_update_7281() {
 function gsb_public_update_7282() {
   if (module_exists('expire_panels')) {
     module_load_include('module', 'expire_panels');
-    
+
     variable_set('expire_panels_front_page', TRUE);
     variable_set('expire_panels_actions', array(EXPIRE_PANELS_DISPLAY_UPDATE, EXPIRE_PANELS_DISPLAY_DELETE));
     variable_set('expire_panels_panel_page', TRUE);
@@ -5596,7 +5596,7 @@ function gsb_public_update_7306() {
  */
 function gsb_public_update_7307() {
   if (!module_exists('gsb_feature_featured_program_fpp')) {
-    module_enable(array('gsb_feature_featured_program_fpp')); 
+    module_enable(array('gsb_feature_featured_program_fpp'));
   }
 }
 
@@ -5740,11 +5740,11 @@ function gsb_public_update_7315() {
 function gsb_public_update_7316() {
 
   if (!module_exists('node_clone')) {
-    module_enable(array('node_clone')); 
+    module_enable(array('node_clone'));
   }
 
   if (!module_exists('node_clone_tab')) {
-    module_enable(array('node_clone_tab')); 
+    module_enable(array('node_clone_tab'));
   }
 
   variable_set('clone_reset_program_instance', 1);
@@ -5759,9 +5759,9 @@ function gsb_public_update_7316() {
 
   // Update authenticated user role permissions
   user_role_grant_permissions($marketing_admin_user->rid, $marketing_admin_user_permissions);
-  
+
   // Get the admin user role
-  $adminstrator_user = user_role_load_by_name('administrator');  
+  $adminstrator_user = user_role_load_by_name('administrator');
 
   $adminstrator_user_permissions = array(
     'clone node',
@@ -5770,7 +5770,7 @@ function gsb_public_update_7316() {
 
   // Update authenticated user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
-  
+
 }
 
 /**
@@ -5931,7 +5931,7 @@ function gsb_public_update_7325() {
   $query->fields('sap', array('nid', 'force_pathauto'));
   $query->condition('n.type', 'program');
   $results = $query->execute();
-  
+
   foreach($results as $spa) {
     db_update('submenu_alias_pathauto')
     ->fields(array(
@@ -6339,12 +6339,12 @@ function gsb_public_update_7351() {
  * Update to remove field_title_position_unlimited
  */
 function gsb_public_update_7352() {
-  
+
   // remove field_title_position_unlimited
   $delete_instance = array(
     'field_title_position_unlimited',
   );
-  
+
   foreach($delete_instance as $field_name) {
     // Get Field Instance
     $instance = field_info_instance('node', $field_name, 'faculty');
@@ -6356,7 +6356,7 @@ function gsb_public_update_7352() {
     // Remove field marked for deletion.
     field_purge_batch(10);
   }
-  
+
 }
 
 /**
@@ -6366,11 +6366,11 @@ function gsb_public_update_7353() {
 
   // Remove stackla  widget code
   $instance = field_info_instance('fieldable_panels_pane', 'field_widget_code', 'embed_stackla');
-  
+
   // Mark field instance for deletion.
   field_delete_instance($instance);
   field_purge_batch(10);
-  
+
   // Remove the field
   field_delete_field('field_widget_code');
   // Remove field marked for deletion.
@@ -6494,7 +6494,7 @@ function gsb_public_update_7361() {
 }
 
 /**
- * Update administrator role to have permission to admin xmlsitemap 
+ * Update administrator role to have permission to admin xmlsitemap
  */
 function gsb_public_update_7362() {
   // Get the admin user role
@@ -6504,13 +6504,13 @@ function gsb_public_update_7362() {
   $adminstrator_user_permissions = array(
     'administer xmlsitemap',
   );
-  
+
   // Update admin user role permissions
   user_role_grant_permissions($adminstrator_user->rid, $adminstrator_user_permissions);
 }
 
 /**
- * Update to add content type specific settings for xmlsitemap 
+ * Update to add content type specific settings for xmlsitemap
  */
 function gsb_public_update_7363() {
 
@@ -6546,7 +6546,7 @@ function gsb_public_update_7363() {
 
   foreach ($names as $name) {
     $setting_name = 'xmlsitemap_settings_node_' . $name;
-    variable_set($setting_name, $settings);  
+    variable_set($setting_name, $settings);
   }
 }
 
@@ -6664,7 +6664,7 @@ function gsb_public_update_7371() {
   // Disable ranking ct module
   module_disable(array('gsb_feature_ranking_ct'));
   drupal_uninstall_modules(array('gsb_feature_ranking_ct'));
-}  
+}
 
 /**
  * Delete the ranking content
@@ -6700,7 +6700,7 @@ function gsb_public_update_7373() {
  function gsb_public_update_7374() {
    variable_set('jquery_update_jquery_admin_version', '1.5');
  }
- 
+
 /**
  * Enable recaptcha module
  */
@@ -6709,7 +6709,7 @@ function gsb_public_update_7375() {
     module_enable(array('recaptcha'));
   }
 }
- 
+
 /**
  * Switch Application state keys to numbers
  */
@@ -6799,7 +6799,7 @@ function gsb_public_update_7381() {
      $node->status =1;
      node_save($node);
    }
-} 
+}
 
 /**
  * Enable facebook metatags module
@@ -6808,14 +6808,14 @@ function gsb_public_update_7383() {
   if (!module_exists('metatag_facebook')) {
     module_enable(array('metatag_facebook'));
   }
-} 
+}
 
 /**
  * Enable facebook metatags for content types
  */
 function gsb_public_update_7384() {
 
-  $fbpage_value = '208357009185713'; 
+  $fbpage_value = '208357009185713';
   $configs = ctools_export_crud_load_all('metatag_config');
 
   $configs['node:school_story']->config['fb:pages']['value'] = $fbpage_value;
@@ -6826,11 +6826,11 @@ function gsb_public_update_7384() {
 
   $configs['node:idea_story']->config['fb:pages']['value'] = $fbpage_value;
   metatag_config_save($configs['node:idea_story']);
-  
+
   $configs['node:page']->config['fb:pages']['value'] = $fbpage_value;
   metatag_config_save($configs['node:page']);
-  
-} 
+
+}
 
 /**
  * Enable GSB Feature Exec-ed Program Display module
@@ -7027,10 +7027,10 @@ function gsb_public_update_7399() {
  * Remove group_part_of_stanford_business,group_part_of_rethink field group from idea story
  */
 function gsb_public_update_7400() {
-  
+
   $delete_group_instance = array(
     'group_part_of_stanford_business',
-    'group_part_of_rethink'    
+    'group_part_of_rethink'
   );
   foreach($delete_group_instance as $group_name) {
     if ($group = field_group_load_field_group($group_name, 'node', 'idea_story', 'form')) {
@@ -7038,14 +7038,14 @@ function gsb_public_update_7400() {
       field_group_group_export_delete($group, FALSE);
     }
   }
-  
+
 }
 
 /**
  * Delete field_region_of_interest from announcement CT
  */
 function gsb_public_update_7401() {
- 
+
   $field_name = 'field_region_of_interest';
   $instance   = field_info_instance('node', $field_name, 'announcement');
   field_delete_instance($instance);
@@ -7289,7 +7289,7 @@ function gsb_public_update_7411() {
     foreach ($wrapper->field_job_market_paper as $field_collection_wrapper) {
       $field_collection = $field_collection_wrapper->value();
       // check if the fields within field collection are empty
-      if (empty($field_collection->field_file_job_market_paper) && empty($field_collection->field_job_market_paper_desc) 
+      if (empty($field_collection->field_file_job_market_paper) && empty($field_collection->field_job_market_paper_desc)
         && empty($field_collection->field_link_single)) {
           // collect all empty field collection to be deleted
           $field_collection_item_id[] = $field_collection->item_id;
@@ -7542,7 +7542,7 @@ function gsb_public_update_7429() {
     field_delete_instance($instance);
   }
   field_purge_batch(1);
-} 
+}
 
 /**
  * WP-8354 Prevent search engines from indexing pages
@@ -7584,7 +7584,7 @@ function gsb_public_update_7431() {
     field_delete_instance($instance);
   }
   field_purge_batch(1);
-} 
+}
 
 /**
  * Enable md_megamenu module.
@@ -7878,6 +7878,43 @@ function gsb_public_update_7444() {
       'child-src' => "'self' blob: *.stanford.edu",
       'font-src' => "'self' data: *.gstatic.com *.kaltura.com *.stackla.com *.webspellchecker.net",
       'connect-src' => "'self' *.coveo.com *.kaltura.com  *.webspellchecker.net pubsub.googleapis.com *.luckyorange.net *.pubsub.googleapis.com *.luckyorange.net api.luckyorange.com *.technolutions.net",
+      'report-uri' => "report-csp-violation",
+      'policy-uri' => '',
+    ),
+    // X-XSS-Protection header.
+    'x_xss' => array(
+      'select' => 2,
+    ),
+  );
+  variable_set('seckit_xss', $init_config);
+
+}
+
+/**
+ * Configure seckit module with script src , image src, connect src variables.
+ */
+function gsb_public_update_7445() {
+
+  $init_config = array(
+    // Content Security Policy (CSP)
+    'csp' => array(
+      'checkbox' => 1,
+      'vendor-prefix' => array(
+        'x' => 0,
+        'webkit' => 0,
+      ),
+      'report-only' => 0,
+      'default-src' => "'self'",
+      'script-src' => "'self' 'unsafe-eval' *.stackla.com 'unsafe-inline' *.coveo.com *.kaltura.com *.stackla.com *.newrelic.com *.google-analytics.com *.stanford.edu *.googletagmanager.com *.kaltura.com *.soundcloud.com *.luckyorange.net *.linkedin.com *.nr-data.net *.facebook.net *.zencdn.net *.acquia-sites.com *.webspellchecker.net *.google.com *.gstatic.com d10lpsik1i8c69.cloudfront.net *.infogram.com *.chartjs.org *.technolutions.net *.recaptcha.net web-player.art19.com",
+      'object-src' => "'self'",
+      'style-src' => "'self' 'unsafe-inline' *.googleapis.com *.stackla.com *.coveo.com *.stanford.edu *.gsb.stanford.edu *.zencdn.net *.acquia-sites.com  *.webspellchecker.net *.cloudfront.net *.technolutions.net web-player.art19.com",
+      'img-src' => "'self' data: *.kaltura.com *.google-analytics.com *.instagram.com *.cdninstagram.com *.maxcdn.com *.facebook.com *.fbcdn.net *.stackla.com *.acquia-sites.com *.libraryh3lp.com *.stanford.edu *.libraryh3lp.com libraryh3lp.com d10lpsik1i8c69.cloudfront.net *.twimg.com *.maxcdn.com web-player.art19.com content.production.cdn.art19.com",
+      'media-src' => "'self' blob: *.googleapis.com *.kaltura.com content.production.cdn.art19.com",
+      'frame-src' => "'self' *.stackla.com *.youtube.com youtube.com *.infogr.am *.soundcloud.com *.infogram.com *.libraryh3lp.com libraryh3lp.com *.google.com livestream.com *.kaltura.com tableau.stanford.edu airtable.com *.stanford.edu",
+      'frame-ancestors' => "'self'",
+      'child-src' => "'self' blob: *.stanford.edu",
+      'font-src' => "'self' data: *.gstatic.com *.kaltura.com *.stackla.com *.webspellchecker.net web-player.art19.com",
+      'connect-src' => "'self' *.coveo.com *.kaltura.com  *.webspellchecker.net pubsub.googleapis.com *.luckyorange.net *.pubsub.googleapis.com *.luckyorange.net api.luckyorange.com *.technolutions.net rss.art19.com telemetry.art19.com",
       'report-uri' => "report-csp-violation",
       'policy-uri' => '',
     ),
