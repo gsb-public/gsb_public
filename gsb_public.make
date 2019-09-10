@@ -293,7 +293,7 @@ projects[gsb_public_statistics][subdir] = custom
 projects[gsb_resources][type] = module
 projects[gsb_resources][download][type] = git
 projects[gsb_resources][download][url] = git@github.com:gsb-public/gsb_resources.git
-projects[gsb_resources][download][tag] = 6.01
+projects[gsb_resources][download][branch] = release-6.02
 projects[gsb_resources][subdir] = custom
 
 ; GSB Restricted Pages
@@ -514,7 +514,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.59
+projects[gsb_feature_base_fields][download][branch] = release-5.60
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -687,7 +687,7 @@ projects[gsb_feature_featured_person_fpp][subdir] = custom/features
 projects[gsb_feature_file_types][type] = module
 projects[gsb_feature_file_types][download][type] = git
 projects[gsb_feature_file_types][download][url] = git@github.com:gsb-public/gsb_feature_file_types.git
-projects[gsb_feature_file_types][download][tag] = 6.04
+projects[gsb_feature_file_types][download][branch] = release-6.05
 projects[gsb_feature_file_types][subdir] = custom/features
 
 ; GSB Feature Files FPP
