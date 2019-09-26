@@ -1445,7 +1445,7 @@ projects[hs_lite][download][revision] = d2168
 projects[hs_lite][download][branch] = 7.x-1.x
 projects[hs_lite][download][url] = https://git.drupal.org/sandbox/gmercer-2296881.git
 
-projects[imagecache_actions][version] = 1.8
+projects[imagecache_actions][version] = 1.11
 projects[imagecache_actions][subdir] = contrib
 
 projects[image_captcha_refresh][version] = 1.6
