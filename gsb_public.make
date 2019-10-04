@@ -90,7 +90,7 @@ projects[gsb_agenda][subdir] = custom
 projects[gsb_box][type] = module
 projects[gsb_box][download][type] = git
 projects[gsb_box][download][url] = git@github.com:gsb-public/gsb_box.git
-projects[gsb_box][download][branch] = release-1.09
+projects[gsb_box][download][tag] = 1.09
 projects[gsb_box][subdir] = custom
 
 ; GSB Cmis Api
@@ -1185,7 +1185,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-6.65
+projects[gsb_theme][download][branch] = release-6.66
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
