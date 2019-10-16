@@ -1,4 +1,3 @@
-
 ;============================================
 ; Core - specific number found in distro
 ;============================================
@@ -140,7 +139,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.38
+projects[gsb_public_custom_blocks][download][tag] = 6.39
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -1168,7 +1167,7 @@ projects[gsb_feature_view_modes][subdir] = custom/features
 projects[gsb_feature_voices_ct][type] = module
 projects[gsb_feature_voices_ct][download][type] = git
 projects[gsb_feature_voices_ct][download][url] = git@github.com:gsb-public/gsb_feature_voices_ct.git
-projects[gsb_feature_voices_ct][download][tag] = 1.10
+projects[gsb_feature_voices_ct][download][tag] = 1.11
 projects[gsb_feature_voices_ct][subdir] = custom/features
 
 ; GSB Feature Voices Display Type
@@ -1186,7 +1185,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.65
+projects[gsb_theme][download][tag] = 6.66
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
