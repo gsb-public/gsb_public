@@ -34,7 +34,7 @@ projects[isotopify][subdir] = custom
 projects[resources][type] = module
 projects[resources][download][type] = git
 projects[resources][download][url] = git@github.com:gsb-public/resources.git
-projects[resources][download][branch] = release-6.05
+projects[resources][download][tag] = 6.05
 projects[resources][subdir] = custom
 
 ; SoundCloud API
@@ -1185,7 +1185,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][branch] = release-6.67
+projects[gsb_theme][download][tag] = 6.67
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
