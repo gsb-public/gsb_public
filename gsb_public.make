@@ -757,7 +757,7 @@ projects[gsb_feature_image_styles][subdir] = custom/features
 projects[gsb_feature_infogram_fpp][type] = module
 projects[gsb_feature_infogram_fpp][download][type] = git
 projects[gsb_feature_infogram_fpp][download][url] = git@github.com:gsb-public/gsb_feature_infogram_fpp.git
-projects[gsb_feature_infogram_fpp][download][tag] = 1.00
+projects[gsb_feature_infogram_fpp][download][branch] = release-1.01
 projects[gsb_feature_infogram_fpp][subdir] = custom/features
 
 ; GSB Feature Insight Display
