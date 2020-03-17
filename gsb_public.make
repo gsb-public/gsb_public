@@ -139,7 +139,7 @@ projects[gsb_custom_section_title][subdir] = custom
 projects[gsb_public_custom_blocks][type] = module
 projects[gsb_public_custom_blocks][download][type] = git
 projects[gsb_public_custom_blocks][download][url] = git@github.com:gsb-public/gsb_public_custom_blocks.git
-projects[gsb_public_custom_blocks][download][tag] = 6.40
+projects[gsb_public_custom_blocks][download][tag] = 6.41
 projects[gsb_public_custom_blocks][subdir] = custom
 
 ; GSB Custom Breadcrumbs
@@ -909,7 +909,7 @@ projects[gsb_feature_pr_contact][subdir] = custom/features
 projects[gsb_feature_program_app_finder][type] = module
 projects[gsb_feature_program_app_finder][download][type] = git
 projects[gsb_feature_program_app_finder][download][url] = git@github.com:gsb-public/gsb_feature_program_app_finder.git
-projects[gsb_feature_program_app_finder][download][tag] = 1.05
+projects[gsb_feature_program_app_finder][download][tag] = 1.06
 projects[gsb_feature_program_app_finder][subdir] = custom/features
 
 ; GSB Program Content Type
@@ -1185,13 +1185,13 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.68
+projects[gsb_theme][download][tag] = 6.70
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
 projects[gsb_theme_admin][download][type] = git
 projects[gsb_theme_admin][download][url] = git@github.com:gsb-public/gsb_theme_admin.git
-projects[gsb_theme_admin][download][tag] = 5.10
+projects[gsb_theme_admin][download][tag] = 5.11
 
 
 ;========================================
