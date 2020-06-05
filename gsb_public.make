@@ -168,7 +168,7 @@ projects[gsb_entity_reference_delete_warning][subdir] = custom
 projects[gsb_dvent][type] = module
 projects[gsb_dvent][download][type] = git
 projects[gsb_dvent][download][url] = git@github.com:gsb-public/gsb_dvent.git
-projects[gsb_dvent][download][tag] = 1.04
+projects[gsb_dvent][download][branch] = GSBGEN-230
 projects[gsb_dvent][subdir] = custom
 
 ; GSB Faculty Role
@@ -445,14 +445,14 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][tag] = 5.27
+projects[gsb_feature_admission_event_ct][download][branch] = GSBGEN-229
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
 projects[gsb_feature_admission_event_display][type] = module
 projects[gsb_feature_admission_event_display][download][type] = git
 projects[gsb_feature_admission_event_display][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_display.git
-projects[gsb_feature_admission_event_display][download][tag] = 6.08
+projects[gsb_feature_admission_event_display][download][branch] = GSBGEN-230
 projects[gsb_feature_admission_event_display][subdir] = custom/features
 
 ; GSB Features All Research Display
@@ -515,7 +515,7 @@ projects[gsb_feature_announcement_ct][subdir] = custom/features
 projects[gsb_feature_base_fields][type] = module
 projects[gsb_feature_base_fields][download][type] = git
 projects[gsb_feature_base_fields][download][url] = git@github.com:gsb-public/gsb_feature_base_fields.git
-projects[gsb_feature_base_fields][download][tag] = 5.60
+projects[gsb_feature_base_fields][download][branch] = GSBGEN-212
 projects[gsb_feature_base_fields][subdir] = custom/features
 
 ; GSB Feature Book
@@ -564,7 +564,7 @@ projects[gsb_feature_case_display][subdir] = custom/features
 projects[gsb_feature_club_ct][type] = module
 projects[gsb_feature_club_ct][download][type] = git
 projects[gsb_feature_club_ct][download][url] = git@github.com:gsb-public/gsb_feature_club_ct.git
-projects[gsb_feature_club_ct][download][tag] = 5.05
+projects[gsb_feature_club_ct][download][branch] = GSBGEN-233
 projects[gsb_feature_club_ct][subdir] = custom/features
 
 projects[gsb_feature_club_display][type] = module
@@ -577,7 +577,7 @@ projects[gsb_feature_club_display][subdir] = custom/features
 projects[gsb_feature_course_ct][type] = module
 projects[gsb_feature_course_ct][download][type] = git
 projects[gsb_feature_course_ct][download][url] = git@github.com:gsb-public/gsb_feature_course_ct.git
-projects[gsb_feature_course_ct][download][tag] = 3.41
+projects[gsb_feature_course_ct][download][branch] = GSBGEN-214
 projects[gsb_feature_course_ct][subdir] = custom/features
 
 ; GSB Feature Course
@@ -632,7 +632,7 @@ projects[gsb_feature_event_display][subdir] = custom/features
 projects[gsb_feature_event_shared][type] = module
 projects[gsb_feature_event_shared][download][type] = git
 projects[gsb_feature_event_shared][download][url] = git@github.com:gsb-public/gsb_feature_event_shared.git
-projects[gsb_feature_event_shared][download][tag] = 5.19
+projects[gsb_feature_event_shared][download][branch] = GSBGEN-198
 projects[gsb_feature_event_shared][subdir] = custom/features
 
 ; GSB Feature Existing Node FPP
@@ -1186,7 +1186,7 @@ projects[gsb_feature_voices_display][subdir] = custom/features
 projects[gsb_theme][type] = theme
 projects[gsb_theme][download][type] = git
 projects[gsb_theme][download][url] = git@github.com:gsb-public/gsb_theme.git
-projects[gsb_theme][download][tag] = 6.70
+projects[gsb_theme][download][branch] = GSBGEN-230
 
 ; GSB Public Admin Theme
 projects[gsb_theme_admin][type] = theme
