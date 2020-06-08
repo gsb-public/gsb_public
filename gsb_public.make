@@ -445,7 +445,7 @@ projects[gsb_feature_act_display][subdir] = custom/features
 projects[gsb_feature_admission_event_ct][type] = module
 projects[gsb_feature_admission_event_ct][download][type] = git
 projects[gsb_feature_admission_event_ct][download][url] = git@github.com:gsb-public/gsb_feature_admission_event_ct.git
-projects[gsb_feature_admission_event_ct][download][branch] = GSBGEN-229
+projects[gsb_feature_admission_event_ct][download][branch] = release-5.28
 projects[gsb_feature_admission_event_ct][subdir] = custom/features
 
 ; GSB Features Admission Event Display
