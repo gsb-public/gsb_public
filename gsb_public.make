@@ -1756,6 +1756,9 @@ projects[views_autocomplete_filters][patch][2493069] = https://www.drupal.org/fi
 projects[views_bulk_operations][version] = 3.4
 projects[views_bulk_operations][subdir] = contrib
 
+projects[views_datasource][version] = 1.0-alpha3
+projects[views_datasource][subdir] = contrib
+
 projects[views_field_view][version] = 1.2
 projects[views_field_view][subdir] = contrib
 
