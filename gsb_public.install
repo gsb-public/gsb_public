@@ -8076,3 +8076,12 @@ function gsb_public_update_7449()
   variable_set('seckit_xss', $init_config);
 
 }
+
+/**
+ * Enable views_datasource contrib module.
+ */
+function gsb_public_update_7450() {
+  if (!module_exists('views_datasource')) {
+    module_enable(array('views_datasource'));
+  }
+}

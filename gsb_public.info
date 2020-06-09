@@ -95,6 +95,7 @@ dependencies[] = telephone
 dependencies[] = typogrify
 dependencies[] = tzfield
 dependencies[] = uuid
+dependencies[] = views_datasource
 dependencies[] = video_embed_field
 dependencies[] = views_field_view
 dependencies[] = views_flipped_table
