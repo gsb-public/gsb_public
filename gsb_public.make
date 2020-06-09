@@ -1000,7 +1000,7 @@ projects[gsb_feature_ranking_display][subdir] = custom/features
 projects[gsb_feature_rss_feeds][type] = module
 projects[gsb_feature_rss_feeds][download][type] = git
 projects[gsb_feature_rss_feeds][download][url] = git@github.com:gsb-public/gsb_feature_rss_feeds.git
-projects[gsb_feature_rss_feeds][download][tag] = 5.01
+projects[gsb_feature_rss_feeds][download][branch] = GSBGEN-213
 projects[gsb_feature_rss_feeds][subdir] = custom/features
 
 ; GSB Features Seed Coach CT
@@ -1119,7 +1119,7 @@ projects[gsb_feature_webform_ct][subdir] = custom/features
 projects[gsb_feature_week_in_the_life_ct][type] = module
 projects[gsb_feature_week_in_the_life_ct][download][type] = git
 projects[gsb_feature_week_in_the_life_ct][download][url] = git@github.com:gsb-public/gsb_feature_week_in_the_life_ct.git
-projects[gsb_feature_week_in_the_life_ct][download][tag] = 5.03
+projects[gsb_feature_week_in_the_life_ct][download][branch] = GSBGEN-213
 projects[gsb_feature_week_in_the_life_ct][subdir] = custom/features
 
 ; GSB Feature Week In The Life Display
