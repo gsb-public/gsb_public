@@ -882,7 +882,7 @@ projects[gsb_feature_people_display][subdir] = custom/features
 projects[gsb_feature_people_fpp][type] = module
 projects[gsb_feature_people_fpp][download][type] = git
 projects[gsb_feature_people_fpp][download][url] = git@github.com:gsb-public/gsb_feature_people_fpp.git
-projects[gsb_feature_people_fpp][download][tag] = 5.10
+projects[gsb_feature_people_fpp][download][branch] = GSBGEN-212
 projects[gsb_feature_people_fpp][subdir] = custom/features
 
 ; GSB PhD Candidate Content Type
